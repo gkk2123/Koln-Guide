@@ -1475,5 +1475,12 @@
     "display_name": "Osters Rudi, 26-28, Hartwichstraße, Sechzigviertel, Nippes, Köln, Nordrhein-Westfalen, 50733, Deutschland",
     "provider": "nominatim",
     "date": "2026-11-07"
+  },
+  "Severinstraße 162a, 50678 Köln": {
+    "lat": 50.9283973,
+    "lng": 6.9576129,
+    "display_name": "Paradies-Apotheke, 162a, Severinstraße, Georgsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
   }
 }

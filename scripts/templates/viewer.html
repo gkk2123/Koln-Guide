@@ -437,12 +437,12 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       (it.google_place_id ? "&destination_place_id=" + encodeURIComponent(it.google_place_id) : "") + "&travelmode=walking";
   }
   function checkedHtml(it) {
-    if (!it.verified_at) return "";
+    if (!it.verified_at || it.verification_status !== "open") return "";
     return '<span class="ok" title="' + esc("영업 여부·구글 수치 재확인일") + '">✓ ' + esc(it.verified_at.slice(5).replace("-", "/")) + " 확인</span>";
   }
   function checkedRow(it) {
     if (!it.verified_at) return "";
-    var bits = [esc(it.verified_at) + " 재확인"];
+    var bits = [esc(it.verified_at) + (it.verification_status === "open" ? " 영업 확인" : " 재확인 — 영업 여부 미확인(폐업 신호 없음)")];
     if (it.latest_review) bits.push("최근 리뷰 " + esc(it.latest_review));
     if (it.google_previous) bits.push("이전 구글 " + esc(it.google_previous));
     if (it.verification_note) bits.push(esc(it.verification_note));

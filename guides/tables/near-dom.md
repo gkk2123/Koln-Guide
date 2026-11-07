@@ -38,5 +38,5 @@
 | [Thai Ja-Röen Imbiss](https://www.google.com/maps/search/?api=1&query=Thai%20Ja-R%C3%B6en%20Imbiss%20Th%C3%BCrmchenswall%2064%2C%2050668%20K%C3%B6ln) | 간편식·임비스 | Thai snack bar (Imbiss) | € | ★4.9 (157) | 0.91km | 15분 |
 | [Max Stark](https://www.google.com/maps/search/?api=1&query=Max%20Stark%20Unter%20Kahlenhausen%2047%2C%2050668%20K%C3%B6ln) | 브라우하우스 | Traditional Kölsch Gaststätte (Päffgen), Rhineland food | €€ | ★4.6 (3,953) | 0.91km | 15분 |
 | [THE COFFICE DEUTZ](https://www.google.com/maps/search/?api=1&query=THE%20COFFICE%20DEUTZ%20Charles-de-Gaulle-Platz%201d%2C%2050679%20K%C3%B6ln) | 카페 | Coffee bar at Köln Messe/Deutz station | € | ★4.8 (245) | 0.95km | 15분 |
-| [Mongo's Köln](https://www.google.com/maps/search/?api=1&query=Mongo%27s%20K%C3%B6ln%20Ottoplatz%201%2C%2050679%20K%C3%B6ln) | 레스토랑 | Mongolian grill — all-you-can-eat wok buffet (chain) | €€€ | ★4.3 (3,074) | 0.95km | 15분 |
+| [Mongo's Köln](https://www.google.com/maps/search/?api=1&query=Mongo%27s%20K%C3%B6ln%20Ottoplatz%201%2C%2050679%20K%C3%B6ln) | 레스토랑 | Mongolian grill — all-you-can-eat wok buffet (chain) | €€€ | ★4.6 (3,660) | 0.95km | 15분 |
 | [NaiNai Bao](https://www.google.com/maps/search/?api=1&query=NaiNai%20Bao%20Josef-Haubrich-Hof%203%2C%2050676%20K%C3%B6ln) | 레스토랑 | Chinese biang biang noodles and bao | € | ★4.8 (587) | 0.96km | 16분 |

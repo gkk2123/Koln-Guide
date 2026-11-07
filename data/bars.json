@@ -1190,7 +1190,7 @@
       "google_rating": 4.6,
       "google_reviews": 745,
       "google_as_of": null,
-      "rating_source": "restaurantguru.com (Google)",
+      "rating_source": "restaurantguru.com (Google 4.6/745)",
       "summary_ko": "쥐트슈타트 클로트비히 광장 근처에 2000년 문을 연 크나이페로, 라이브 음악과 큰 테라스가 특징이다. 매일 오후 3시부터 열고 '쾰시 한잔하기 좋은 동네 술집'이라는 리뷰가 있다.",
       "must_try": [],
       "tips_ko": "매일 15시부터 영업(Mit Vergnügen 2026). 11월엔 테라스보다 실내 위주로 생각할 것. 맥주 가격 출처 없음. Restaurant Guru 자체 점수 4.7(1,057건).",
@@ -1203,12 +1203,19 @@
         "https://www.cologne-tourism.com/food-drink/gastronomy/torburg",
         "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/",
         "https://koeln.mitvergnuegen.com/2026/bars-kneipen-suedstadt/",
-        "https://koeln.mitvergnuegen.com/2025/kneipen-karneval/"
+        "https://koeln.mitvergnuegen.com/2025/kneipen-karneval/",
+        "https://koeln.mitvergnuegen.com/lieblingsorte/torburg-suedstadt/",
+        "https://www.werkenntdenbesten.de/kneipe/koeln",
+        "https://koeln.mitvergnuegen.com/2026/kneipen-karneval/"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "구글 수치 워크리스트와 동일. RG 페이지에 스냅샷 기준 최근 6개월 내 구글 리뷰(스냅샷 날짜 미상). werkenntdenbesten(4.66/503, 최근 12개월 긍정 리뷰 +41)은 주소를 Mauritiussteinweg 70으로 표기 — 다른 곳과 섞인 듯, 주소는 Kartäuserwall 1 유지. 20년 넘은 남부 명물, 목·토 블루스·록 공연. MV 2026 크나이페 기사들이 함께 검색됨(본문 미확인).",
+      "latest_review": null
     },
     {
       "id": "ubier-schaenke",
@@ -1246,7 +1253,7 @@
       "google_rating": 4.5,
       "google_reviews": 739,
       "google_as_of": null,
-      "rating_source": "restaurantguru.com (Google)",
+      "rating_source": "restaurantguru.com (Google 4.5/739)",
       "summary_ko": "쥐트슈타트 우비어링(Ubierring)의 전통 쾰시 크나이페로, '관광객 없는 진짜 쾰른 술집'이라는 리뷰가 많다. 음식은 빵과 간단한 따뜻한 안주 정도라, 저녁 식사 후 쾰시 몇 잔 하러 가기 좋다.",
       "must_try": [],
       "tips_ko": "식사보다 술 위주. 맥주 가격·결제 정보는 출처를 찾지 못했다. Wanderlog는 Google 4.5(685건).",
@@ -1256,12 +1263,17 @@
       "sources": [
         "https://restaurantguru.com/Ubierschaenke-Cologne",
         "https://wanderlog.com/place/details/10546174/ubier-sch%C3%A4nke",
-        "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/"
+        "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/",
+        "https://restaurantguru.com/live-music-Cologne-m9630"
       ],
       "confidence": "high",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "Mit Vergnügen 2026 기사에 '아마도 쥐트슈타트에서 가장 전통적인 쾰시 크나이페'로 소개(축구 중계·가끔 공연). RG에 2026년 리뷰, RG 2026년 4월 라이브음악 랭킹(자체 4.8/778) → 영업 중. 구글 수치 워크리스트와 동일(Wanderlog는 약 685건·최신 리뷰 2024-10으로 뒤처짐). 1997년 개업.",
+      "latest_review": "2026 (RG, 월 미상)"
     },
     {
       "id": "chlodwig-eck",
@@ -1301,7 +1313,7 @@
       "google_rating": 4.4,
       "google_reviews": 568,
       "google_as_of": null,
-      "rating_source": "wanderlog.com",
+      "rating_source": "wanderlog.com (Google 4.4/568)",
       "summary_ko": "클로트비히 광장 옆에서 1979년부터 영업해 온 쥐트슈타트의 모퉁이 크나이페로, BAP의 볼프강 니데켄이 초창기 공연을 한 곳으로 알려져 있다. 주말엔 DJ 파티나 라이브 음악이 열리고, 주방이 없어 음식을 가져와도 된다.",
       "must_try": [],
       "tips_ko": "주방이 없으니 식사 후 2차로 가거나 음식을 챙겨 갈 것. 주말엔 DJ·라이브로 붐빈다. 맥주 가격·결제 정보는 찾지 못했다. top-rated.online 4.4(579건), Restaurant Guru의 Google 점수도 4.4.",
@@ -1314,12 +1326,17 @@
         "https://www.top-rated.online/cities/Cologne/place/p/1237696/Chlodwig-Eck+-+K%C3%B6ln",
         "https://restaurantguru.com/Chlodwig-Eck-Cologne",
         "https://chlodwig-eck.de/",
-        "https://www.meinesuedstadt.de/branchenverzeichnis/chlodwig-eck/"
+        "https://www.meinesuedstadt.de/branchenverzeichnis/chlodwig-eck/",
+        "https://www.top-rated.online/cities/Humboldtkolonie/place/p/6753463/Chlodwig-Eck+-+K%C3%B6ln"
       ],
       "confidence": "high",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "구글 수치 워크리스트와 동일. RG 구글 4.4(페이지 약 610일 전 갱신), top-rated 4.40/326(옛 스냅샷). 폐업 표시는 없으나 날짜 있는 최근 리뷰는 못 봄. 음악 나오는 크나이페, 주방 없음 — 음식 반입·배달 가능. 음료 싸고 자주 붐빈다는 평.",
+      "latest_review": null
     },
     {
       "id": "bar-botanik",
@@ -1352,9 +1369,9 @@
       "beer_price_note": null,
       "beers": [],
       "google_rating": 4.3,
-      "google_reviews": 861,
+      "google_reviews": 895,
       "google_as_of": null,
-      "rating_source": "wanderlog.com",
+      "rating_source": "restaurantguru.com (Google 4.3/895, 페이지 약 1년 전); wanderlog.com 4.3/861",
       "summary_ko": "'급수탑 속 호텔'이라는 뜻의 Hotel im Wasserturm 11층에 있는 루프탑 바로, 쾰른 시내를 360도로 둘러보는 전망이 특징이다. 전망 좋은 호텔 바에서 한잔하고 싶은 사람에게 맞다.",
       "must_try": [],
       "tips_ko": "리뷰 수가 Wanderlog 스냅숏마다 683–896건으로 다르게 잡혔다(상세 페이지 4.3·861건을 적음). 영업시간·예약 여부는 호텔에 확인. 지역은 판탈레온·제버린 지구 경계(Altstadt-Süd, 50676)라 쥐트슈타트로 분류했다.",
@@ -1363,12 +1380,19 @@
       "award_flags": [],
       "sources": [
         "https://wanderlog.com/place/details/6547746/bar-botanik",
-        "https://wanderlog.com/list/geoCategory/79627/best-rooftop-bars-in-cologne"
+        "https://wanderlog.com/list/geoCategory/79627/best-rooftop-bars-in-cologne",
+        "https://restaurantguru.com/Restaurant-Im-Wasserturm-Cologne",
+        "https://koeln.mitvergnuegen.com/2022/bar-botanik/"
       ],
       "confidence": "medium",
       "research": "r2-bars",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "2026년 2월 구글 리뷰 확인(5점 서비스 칭찬, 2월 14일 1점 음료 대기 불만) → 영업 중. 구글 리뷰 수 861 → 895. 360도 루프톱 전망·칵테일 호평, 가격 높고 자리 없으면 입장 거절 불만. 주소 일치(Kaygasse 2, 50676).",
+      "latest_review": "2026-02",
+      "google_previous": "4.3 (861)"
     },
     {
       "id": "schnoerres",
@@ -1409,7 +1433,7 @@
       "google_rating": 4.2,
       "google_reviews": 387,
       "google_as_of": null,
-      "rating_source": "wanderlog.com",
+      "rating_source": "wanderlog.com (Google 4.2/387)",
       "summary_ko": "쥐트슈타트에서 가장 인기 있는 술집 중 하나로 꼽히는 아담한 크나이페 겸 바로, 쾰시 외에 롱드링크·칵테일도 있고 작은 댄스 플로어가 활기차다. 주말엔 새벽 3시 반까지 열어 2·3차로 좋다.",
       "must_try": [],
       "tips_ko": "영업 월–목 18–01시, 금·토 18–03:30(Mit Vergnügen 2026). 평점 4.2로 선정 기준선이다. 맥주 가격 출처 없음.",
@@ -1419,12 +1443,20 @@
       "sources": [
         "https://wanderlog.com/list/geoCategory/1543979/de-b%C3%A4sta-pubarna-i-k%C3%B6ln",
         "https://koeln.mitvergnuegen.com/2026/bars-kneipen-suedstadt/",
-        "https://koeln.mitvergnuegen.com/2025/kneipen-karneval/"
+        "https://koeln.mitvergnuegen.com/2025/kneipen-karneval/",
+        "https://wanderlog.com/place/details/3439461/im-schn%C3%B6rres",
+        "https://koeln.mitvergnuegen.com/2026/draussen-trinken/",
+        "https://koeln.mitvergnuegen.com/2026/kneipen-karneval/",
+        "https://koeln.mitvergnuegen.com/2024/bars-kneipen-suedstadt/"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "구글 수치 워크리스트와 동일(Wanderlog에 'im Schnörres'로 등재). Mit Vergnügen 2026 기사: 월–목 18–01시, 금–토 18–03:30 → 영업 중. 일요일 휴무(Wanderlog) — 2023 기사엔 일 17시~라 바뀐 듯. 주말 DJ·무료 입장(2024 기사). 서비스·음료 품질 불만 리뷰도.",
+      "latest_review": null
     },
     {
       "id": "toddy-tapper",
@@ -1655,9 +1687,9 @@
         "Reissdorf Kölsch"
       ],
       "google_rating": 4.3,
-      "google_reviews": 862,
+      "google_reviews": 875,
       "google_as_of": null,
-      "rating_source": "wanderlog.com",
+      "rating_source": "top-rated.online (Google 4.30/875); restaurantguru.com Google 4.3/816(옛 스냅샷)",
       "summary_ko": "도이츠 메쎄·LANXESS 아레나에서 가까운 골목의 동네 술집(가스트슈테테)으로, 공식 사이트가 '갓 따른, 알맞은 온도의 라이스도르프(Reissdorf) 쾰시'를 내세운다. 케겔반(볼링 레인)이 있고 FC 쾰른·쾰른 하이에 경기를 중계해, 메쎄 일정 뒤 현지인 틈에서 한잔하기 좋다.",
       "must_try": [
         "Reissdorf Kölsch vom Fass (생 라이스도르프 쾰시)"
@@ -1672,12 +1704,20 @@
         "https://www.em-bierstueffge.de/index.php/getraenke",
         "https://www.gastroguide.de/restaurant/128496/em-bierstueffge/koeln/?order=visited",
         "https://www.koeln-deutz.de/gewerbe/In-Deutz-Em-Bierst%C3%BCffge_3_18_809.html",
-        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/em-bierstueffge"
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/em-bierstueffge",
+        "https://www.top-rated.online/cities/Cologne/place/p/1238012/Restaurant+%E2%80%9EEm+Bierst%C3%BCffge%E2%80%9C+%E2%80%93+K%C3%B6ln",
+        "https://restaurantguru.com/Em-Bierstuffge-Cologne",
+        "https://restaurantguru.com/Currywurst-Cologne-m10412"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "구글 리뷰 수 증가(862 → 875). Wanderlog 최신 구글 리뷰 2025-11, RG 2026년 4월 커리부어스트 목록 등재(자체 4.8/1,051) → 영업 중. 공연 후 늦게까지 영업·가성비 호평, 비독일어 손님 응대 불만. 검색 결과에서 Graf-Geßler-Straße 1 주소는 명시 확인 못 함(변경 신호도 없음).",
+      "latest_review": "2025-11",
+      "google_previous": "4.3 (862)"
     },
     {
       "id": "limes-muelheim",
@@ -1717,9 +1757,9 @@
         "Astra"
       ],
       "google_rating": 4.7,
-      "google_reviews": 473,
+      "google_reviews": 478,
       "google_as_of": null,
-      "rating_source": "wanderlog.com",
+      "rating_source": "restaurantguru.com (Google 4.7/478); wanderlog.com 4.7/473",
       "summary_ko": "강 건너 뮐하임(Mülheim)의 펑크록 성향 크나이페로, 시끄러운 라이브 공연과 쾰른에서 가장 싼 축의 쾰시(2024년 €1.60)로 알려져 있다. 관광지에서 떨어져 있지만 싸게 마시며 동네 록 공연을 보고 싶은 사람에게 맞다.",
       "must_try": [
         "Kölsch (쾰시, 2024년 €1.60)"
@@ -1731,12 +1771,20 @@
       "sources": [
         "https://wanderlog.com/list/geoCategory/817531/best-bars-with-live-music-in-cologne",
         "https://koeln.mitvergnuegen.com/2024/guenstige-bars-kneipen/",
-        "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City"
+        "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City",
+        "https://restaurantguru.com/Limes-Cologne",
+        "https://wanderlog.com/place/details/12550051/limes",
+        "https://koeln.mitvergnuegen.com/2025/bars-kneipen-schael-sick/"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "구글 리뷰 수 소폭 증가(473 → 478). RG 표기명 'Limes Müllem'. 펑크록 크나이페, 공정한 가격. 최근 출처: 화–토 20시~(행사 시 19시~); '일 13–17:30 커피·케이크' 정보는 옛 기사. 이웃 때문에 음악은 22시 종료. MV 2025 샤일직 바 기사가 함께 검색됨.",
+      "latest_review": null,
+      "google_previous": "4.7 (473)"
     },
     {
       "id": "osters-rudi",
@@ -1779,7 +1827,7 @@
       "google_rating": 4.3,
       "google_reviews": 327,
       "google_as_of": null,
-      "rating_source": "restaurantguru.com (Google)",
+      "rating_source": "restaurantguru.com (Google 4.3/327)",
       "summary_ko": "닙페스(Nippes)의 동네·축구 크나이페로, 당구·다트·케겔(볼링)을 즐길 수 있고 쾰른식 안주 할버 한(Halver Hahn)을 낸다. 관광지를 벗어나 현지인 동네 술집 분위기를 느끼고 싶은 사람에게 맞다.",
       "must_try": [
         "Halver Hahn (호밀빵에 고다 치즈·양파·겨자를 곁들인 쾰른식 안주)"
@@ -1796,7 +1844,11 @@
       "confidence": "medium",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "구글 수치 워크리스트와 동일. RG 페이지 최신 리뷰가 스냅샷 기준 7–8개월 전(스냅샷 날짜 미상) — 2025–26년 활동은 확인 못 함, 폐업 표시도 없음. 당구·다트·케겔반·축구 중계 있는 동네 크나이페, 생맥주 가펠 쾰시. 케겔반 예약 불안정 불만(옛 리뷰).",
+      "latest_review": null
     }
   ]
 }
