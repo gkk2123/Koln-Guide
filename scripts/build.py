@@ -67,6 +67,66 @@ def by_rating(rows: list[dict]) -> list[dict]:
     return sorted(rows, key=lambda i: (-(i.get("google_rating") or 0), -(i.get("google_reviews") or 0)))
 
 
+DAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+DAY_KO = {"mon": "월", "tue": "화", "wed": "수", "thu": "목", "fri": "금", "sat": "토", "sun": "일"}
+
+
+def hours_summary(h: dict | None) -> str:
+    """{'mon': 'closed', 'tue': '10:00-18:00', ...} -> '화–일 10:00–18:00 · 월 휴관'."""
+    if not h:
+        return ""
+    groups = []
+    for i, d in enumerate(DAYS):
+        v = h.get(d)
+        if groups and groups[-1][2] == v and groups[-1][1] == i - 1:
+            groups[-1] = (groups[-1][0], i, v)
+        else:
+            groups.append((i, i, v))
+    open_parts, closed = [], []
+    for a, b, v in groups:
+        if v is None:
+            continue
+        days = DAY_KO[DAYS[a]] if a == b else f"{DAY_KO[DAYS[a]]}–{DAY_KO[DAYS[b]]}"
+        if v == "closed":
+            closed.append(days)
+        else:
+            open_parts.append(f"{days} {v.replace('-', '–').replace(',', ', ')}")
+    return " · ".join(open_parts + ([f"{', '.join(closed)} 휴관"] if closed else []))
+
+
+def md(iso: str) -> str:
+    return f"{int(iso[5:7])}/{int(iso[8:10])}"
+
+
+def date_exceptions_summary(dh: dict | None) -> str:
+    """{'2026-12-24': 'closed', '2026-12-25': 'closed', '2026-12-26': '11:00-18:00'} -> '12/24·25 휴관 · 12/26 11:00–18:00'."""
+    groups: dict[str, list[str]] = {}
+    for d, v in sorted((dh or {}).items()):
+        groups.setdefault(v, []).append(d)
+    out = []
+    for v, ds in groups.items():
+        label, prev_month = [], None
+        for d in ds:
+            label.append(md(d) if d[5:7] != prev_month else str(int(d[8:10])))
+            prev_month = d[5:7]
+        out.append(f"{'·'.join(label)} {'휴관' if v == 'closed' else v.replace('-', '–').replace(',', ', ')}")
+    return " · ".join(out)
+
+
+CONF_KO = {"high": "공식 2026", "medium": "공식(날짜 미표기)·신뢰 출처", "low": "참고용"}
+KEY_DATES = ["2026-12-24", "2026-12-25", "2026-12-26", "2026-12-31", "2027-01-01"]
+
+
+def eur(x) -> str:
+    if x is None:
+        return ""
+    return "무료" if x == 0 else (f"€{x:.0f}" if float(x).is_integer() else f"€{x:.2f}")
+
+
+def tickets_summary(t: list | None) -> str:
+    return " · ".join(f"{x['label_ko']} {eur(x.get('eur'))}".strip() for x in t or [])
+
+
 def area_name(areas: dict, aid: str) -> str:
     a = areas.get(aid)
     return a["name_ko"] if a else aid
@@ -182,14 +242,53 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
             continue
         rows.sort(key=lambda i: (i.get("priority") or 2, i["name"]))
         parts.append(f"\n## {L['category'][cat]} — {len(rows)}곳\n")
-        parts.append(table(["이름(지도)", "지역", "요금", "소요", "상태", "한 줄 소개"],
+        parts.append(table(["이름(지도)", "지역", "요금", "운영(11–12월)", "소요", "상태", "한 줄 소개"],
                            [[f"[{esc(i.get('name_ko') or i['name'])}]({maps_url(i)}) {esc(i['name'])}",
                              area_name(areas, i["area"]),
                              i.get("price_note") or ("무료" if i.get("price_eur") == 0 else "–"),
+                             hours_summary(i.get("hours")) or (i.get("hours_note") or "–")[:60],
                              f"{i['duration_min']}분" if i.get("duration_min") else "–",
                              status_text(i), i.get("summary_ko")] for i in rows]))
     (TABLES / "attractions.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
     written.append("attractions.md")
+
+    # tickets & opening hours
+    parts = [banner("관광지 입장권·운영시간", generated).replace(f"기준: 구글 평점 {MIN_RATING}+ · 리뷰 {MIN_REVIEWS}+ · ", ""),
+             "\n운영시간은 2026년 11–12월 기준이에요. 예배 중인 성당, 공휴일(12/24·25·26·31, 1/1)은 달라질 수 있으니 방문 전 공식 사이트를 확인하세요.\n"]
+    passes = load_json(DATA / "passes.json", None)
+    if passes:
+        parts.append("\n## 패스·할인\n")
+        parts.append(table(["패스", "가격", "내용", "출처"],
+                           [[x.get("name_ko"), x.get("price_ko"), x.get("note_ko"),
+                             " ".join(f"[{n + 1}]({u})" for n, u in enumerate(x.get("sources") or []))] for x in passes.get("items", [])]))
+    ticketed = [i for i in sights if i.get("tickets") or i.get("hours") or i.get("status") in ("closed-renovation", "temporary-location")]
+    mon = sorted((i for i in ticketed if (i.get("hours") or {}).get("mon") == "closed"), key=lambda i: i["name"])
+    if mon:
+        parts.append("\n**월요일 휴관:** " + ", ".join(esc(i.get("name_ko") or i["name"]) for i in mon) + "\n")
+    holiday = [i for i in ticketed if i.get("date_hours")]
+    if holiday:
+        parts.append("\n## 연말·연초 특별 일정\n\n공식 사이트에 나온 날짜만 적었어요. 빈칸(–)은 확인하지 못한 날이에요.\n")
+        parts.append(table(["이름"] + [f"{md(d)}" for d in KEY_DATES],
+                           [[esc(i.get("name_ko") or i["name"])] +
+                            [("휴관" if v == "closed" else v.replace("-", "–")) if (v := (i["date_hours"] or {}).get(d)) else "–" for d in KEY_DATES]
+                            for i in sorted(holiday, key=lambda i: (i.get("priority") or 2, i["name"]))]))
+    for cat in L["category"]:
+        rows = sorted([i for i in ticketed if i["category"] == cat], key=lambda i: (i.get("priority") or 2, i["name"]))
+        if not rows:
+            continue
+        parts.append(f"\n## {L['category'][cat]}\n")
+        parts.append(table(["이름", "입장권", "운영시간", "마지막 입장", "예약", "무료·할인", "메모", "확인"],
+                           [[f"[{esc(i.get('name_ko') or i['name'])}]({i.get('website') or maps_url(i)})",
+                             tickets_summary(i.get("tickets")) or i.get("price_note") or "–",
+                             " · ".join(x for x in (hours_summary(i.get("hours")), date_exceptions_summary(i.get("date_hours"))) if x) or "–",
+                             i.get("last_entry") or "–",
+                             {"required": "필수", "recommended": "권장"}.get(i.get("booking"), "–") +
+                             (f" [예매]({i['booking_url']})" if i.get("booking_url") else ""),
+                             i.get("free_note") or "–", (i.get("hours_note") or "")[:140],
+                             (i.get("info_checked") or "") + (f" · {CONF_KO.get(i['info_confidence'], i['info_confidence'])}" if i.get("info_confidence") else "")]
+                            for i in rows]))
+    (TABLES / "attractions-tickets-hours.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
+    written.append("attractions-tickets-hours.md")
 
     # beer pubs
     beer = [i for i in food if i["category"] == "brauhaus"] + [i for i in bars if i["category"] in ("kneipe", "beer-bar")]

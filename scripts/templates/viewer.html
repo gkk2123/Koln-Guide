@@ -213,6 +213,20 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 .tips { margin: 0; padding-left: 18px; font-size: 14px; display: flex; flex-direction: column; gap: 6px; }
 .sun { border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
 .sun td, .sun th { padding: 4px 12px 4px 0; border-bottom: 1px solid var(--line); text-align: left; }
+.today { margin: 0; font-size: 13px; font-weight: 600; display: flex; align-items: baseline; gap: 6px; font-variant-numeric: tabular-nums; }
+.today::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); flex: none; align-self: center; }
+.today.open::before { background: var(--c-sight); }
+.today.soon::before { background: var(--c-beer); }
+.today.closed { color: var(--muted); }
+.today.closed::before { background: var(--accent); }
+.more .hours { width: auto; margin: 6px 0 0; font-variant-numeric: tabular-nums; }
+.more .hours th, .more .hours td { padding: 3px 14px 3px 0; font-size: 13px; color: var(--ink); font-weight: 400; border-bottom: 1px solid var(--line); }
+.more .hours tr.now th, .more .hours tr.now td { font-weight: 700; }
+.tix { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 5px; }
+.tix li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 12px; }
+.tix b { font-family: var(--font-data); font-weight: 500; font-size: 13px; }
+.tix small { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
+.more h4 { margin: 10px 0 0; font-size: 13px; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 </style>
 <!--BODY-->
@@ -274,7 +288,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   var KM_STEPS = [0, 0.5, 1, 2, 3, 5];
   var MIN_RATINGS = [0, 4.4, 4.6, 4.8];
 
-  function fresh() { return { q: "", sel: {}, minRating: 0, maxBeer: 0, free: false, must: false, open: false }; }
+  function fresh() { return { q: "", sel: {}, minRating: 0, maxBeer: 0, free: false, must: false, open: false, today: false, now: false }; }
   var BEER_STEPS = [0, 2.3, 2.6, 2.9];
   var state = { tab: "food", anchor: "dom", maxKm: 0, sort: { food: "rating", beer: "rating", bars: "rating", sights: "priority" },
     origin: null, originLabel: "", moreOpen: {}, view: {}, mapSel: null, route: "main", preset: {}, f: { food: fresh(), beer: fresh(), bars: fresh(), sights: fresh() } };
@@ -385,6 +399,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     if (f.free && it.price_eur !== 0) return false;
     if (f.must && it.priority !== 1) return false;
     if (f.open && it.status && it.status !== "open" && it.status !== "seasonal" && it.status !== "temporary-location") return false;
+    if (f.today || f.now) { var ts = todayState(it, NOW); if (f.today && ts.openToday !== true) return false; if (f.now && !ts.openNow) return false; }
     if (state.maxKm) { var d = dist(it); if (d == null || d > state.maxKm) return false; }
     return true;
   }
@@ -400,9 +415,10 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     price: function (a, b) { return (a.price_level || 9) - (b.price_level || 9) || SORTS.rating(a, b); },
     priority: function (a, b) { return (a.priority || 2) - (b.priority || 2) || SORTS.rating(a, b); },
     beer: function (a, b) { return (a.beer_price_eur || 99) - (b.beer_price_eur || 99) || SORTS.rating(a, b); },
+    fee: function (a, b) { return (a.price_eur == null ? 99 : a.price_eur) - (b.price_eur == null ? 99 : b.price_eur) || SORTS.priority(a, b); },
     name: function (a, b) { return String(a.name).localeCompare(String(b.name)); }
   };
-  var SORT_LABELS = { rating: "평점 높은 순", reviews: "리뷰 많은 순", distance: "가까운 순", price: "가격 낮은 순", beer: "맥주 싼 순", priority: "추천 순", name: "이름 순" };
+  var SORT_LABELS = { rating: "평점 높은 순", reviews: "리뷰 많은 순", distance: "가까운 순", price: "가격 낮은 순", beer: "맥주 싼 순", fee: "입장료 낮은 순", priority: "추천 순", name: "이름 순" };
 
   // ------------------------------------------------------------ filters UI
   function facetChips(items, f, fc) {
@@ -444,7 +460,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     html += group("거리", "", note + '<div class="seg" role="group" aria-label="기준점">' + anchorBtns + '</div><div class="seg" role="group" aria-label="최대 거리">' + kmBtns + "</div>" +
       (hasCoords ? '<p class="hint">직선거리 기준. 도보 시간은 어림값. 카드의 “여기 기준”으로 아무 장소나 기준점이 돼요.</p>' : '<p class="hint">아직 좌표를 수집하지 않아 거리 필터가 꺼져 있어요.</p>'));
 
-    var sortKeys = tab === "sights" ? ["priority", "rating", "distance", "name"] : tab === "beer" ? ["rating", "beer", "reviews", "distance", "name"] : ["rating", "reviews", "distance", "price", "name"];
+    var sortKeys = tab === "sights" ? ["priority", "fee", "rating", "distance", "name"] : tab === "beer" ? ["rating", "beer", "reviews", "distance", "name"] : ["rating", "reviews", "distance", "price", "name"];
     if (!hasCoords) sortKeys = sortKeys.filter(function (k) { return k !== "distance"; });
     html += group("정렬", "", '<select id="sort" aria-label="정렬">' + sortKeys.map(function (k) {
       return '<option value="' + k + '"' + (state.sort[tab] === k ? " selected" : "") + ">" + SORT_LABELS[k] + "</option>";
@@ -475,7 +491,10 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       main += group("빠른 선택", "", '<div class="chips">' +
         '<button type="button" class="chip" data-toggle="must" aria-pressed="' + f.must + '">첫 방문 필수</button>' +
         '<button type="button" class="chip" data-toggle="free" aria-pressed="' + f.free + '">무료</button>' +
-        '<button type="button" class="chip" data-toggle="open" aria-pressed="' + f.open + '">휴관 제외</button></div>');
+        '<button type="button" class="chip" data-toggle="open" aria-pressed="' + f.open + '">휴관 제외</button>' +
+        '<button type="button" class="chip" data-toggle="today" aria-pressed="' + f.today + '">오늘 운영</button>' +
+        '<button type="button" class="chip" data-toggle="now" aria-pressed="' + f.now + '">지금 열림</button></div>' +
+        '<p class="hint">쾰른 시각 ' + esc(nowLabel(NOW)) + ' 기준 · 운영시간을 확인한 곳만 걸러져요. 공휴일·행사 일정은 카드의 “입장권·운영 시간”을 보세요.</p>');
     }
     html += main;
     if (more) {
@@ -589,25 +608,134 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       actions(it) + "</article>";
   }
 
+  // ------------------------------------------------------------ admission & opening hours (Cologne time)
+  var DAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+  var DAY_KO = { mon: "월", tue: "화", wed: "수", thu: "목", fri: "금", sat: "토", sun: "일" };
+  function pad2(n) { return (n < 10 ? "0" : "") + n; }
+  function berlinNow() {
+    var d = new Date(), out = { day: DAYS[(d.getDay() + 6) % 7], min: d.getHours() * 60 + d.getMinutes(),
+      date: d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate()) };
+    try {
+      var parts = {};
+      new Intl.DateTimeFormat("en-US", { timeZone: "Europe/Berlin", weekday: "short", year: "numeric", month: "2-digit", day: "2-digit",
+        hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(d).forEach(function (x) { parts[x.type] = x.value; });
+      var wd = String(parts.weekday || "").slice(0, 3).toLowerCase();
+      if (DAYS.indexOf(wd) >= 0 && parts.year) {
+        out = { day: wd, min: (Number(parts.hour) % 24) * 60 + Number(parts.minute), date: parts.year + "-" + parts.month + "-" + parts.day };
+      }
+    } catch (e) {}
+    return out;
+  }
+  var NOW = berlinNow();
+  function md(iso) { return String(iso || "").slice(5).replace("-", "/").replace(/^0/, "").replace("/0", "/"); }
+  function isoDay(iso) { return DAYS[(new Date(iso + "T12:00:00Z").getUTCDay() + 6) % 7]; }
+  function hm(m) { m = ((m % 1440) + 1440) % 1440; return pad2(Math.floor(m / 60)) + ":" + pad2(m % 60); }
+  function nowLabel(n) { return md(n.date) + "(" + DAY_KO[n.day] + ") " + hm(n.min); }
+  function toMin(t) { var x = String(t).split(":"); return Number(x[0]) * 60 + Number(x[1]); }
+  function ranges(v) {
+    return String(v).split(",").map(function (r) { var x = r.split("-"), a = toMin(x[0]), b = toMin(x[1]); return [a, b <= a ? b + 1440 : b]; });
+  }
+  function fmtRanges(v) { return String(v).replace(/-/g, "–").replace(/,/g, ", "); }
+  function seasonState(it, date) {
+    if (!it.season || !it.season.start) return "";
+    if (date < it.season.start) return "before";
+    if (it.season.end && date > it.season.end) return "after";
+    return "in";
+  }
+  function hoursOn(it, date, day) {
+    if (it.date_hours && it.date_hours[date]) return { v: it.date_hours[date], special: true };
+    return { v: it.hours ? it.hours[day] : null, special: false };
+  }
+  // -> { cls, text, openToday: true|false|null, openNow }
+  function todayState(it, now) {
+    var dk = DAY_KO[now.day];
+    if (it.status === "closed-renovation") return { cls: "closed", text: "휴관 중(공사)", openToday: false, openNow: false };
+    var ss = seasonState(it, now.date);
+    var oneDay = it.season && it.season.start === it.season.end;
+    if (ss === "before") return { cls: "soon", text: oneDay ? md(it.season.start) + " 하루 행사" : md(it.season.start) + " 개막" + (it.season.end ? " · " + md(it.season.end) + "까지" : ""), openToday: false, openNow: false };
+    if (ss === "after") return { cls: "closed", text: "올해 일정 끝남", openToday: false, openNow: false };
+    var h = hoursOn(it, now.date, now.day);
+    if (h.v == null) {
+      if (it.verification === "public-space" && !it.hours) return { cls: "open", text: "상시 개방", openToday: true, openNow: true };
+      if (ss === "in" && !it.hours) return { cls: "open", text: oneDay ? "오늘 행사" : "행사 기간 · " + md(it.season.end) + "까지", openToday: true, openNow: false };
+      return { cls: "", text: "", openToday: null, openNow: false };
+    }
+    if (h.v === "closed") return { cls: "closed", text: "오늘(" + dk + ") 휴관" + (h.special ? " · 특별 일정" : ""), openToday: false, openNow: false };
+    var m = now.min, openNow = false, next = null, closesAt = null;
+    ranges(h.v).forEach(function (r) {
+      if (m >= r[0] && m < r[1]) { openNow = true; closesAt = r[1]; }
+      else if (m < r[0] && next == null) next = r[0];
+    });
+    var state = openNow ? "지금 열림 · " + hm(closesAt) + "까지" : next != null ? hm(next) + " 문 열어요" : "오늘 운영 끝남";
+    if (openNow && it.last_entry && m > toMin(it.last_entry) && toMin(it.last_entry) < closesAt) state = "입장 마감(" + it.last_entry + ")";
+    return { cls: openNow ? "open" : next != null ? "soon" : "closed", text: "오늘(" + dk + ") " + fmtRanges(h.v) + (h.special ? "(특별)" : "") + " · " + state,
+      openToday: true, openNow: openNow && state.indexOf("입장 마감") < 0 };
+  }
+  function eur(x) { return x == null ? "" : x === 0 ? "무료" : "€" + (Number(x) % 1 ? Number(x).toFixed(2) : String(Number(x))); }
+  function ticketsLine(it) {
+    return arr(it.tickets).slice(0, 4).map(function (t) { return t.label_ko + " " + eur(t.eur); }).join(" · ");
+  }
+  function hoursTable(it, now) {
+    if (!it.hours) return "";
+    var groups = [], ti = DAYS.indexOf(now.day);
+    DAYS.forEach(function (d, i) {
+      var v = it.hours[d], g = groups[groups.length - 1];
+      if (g && g.v === v) g.b = i; else groups.push({ a: i, b: i, v: v });
+    });
+    return '<table class="hours"><tbody>' + groups.map(function (g) {
+      var days = g.a === g.b ? DAY_KO[DAYS[g.a]] : DAY_KO[DAYS[g.a]] + "–" + DAY_KO[DAYS[g.b]];
+      return "<tr" + (ti >= g.a && ti <= g.b ? ' class="now"' : "") + "><th>" + days + "</th><td>" +
+        (g.v == null ? "미확인" : g.v === "closed" ? "휴관" : fmtRanges(g.v)) + "</td></tr>";
+    }).join("") + "</tbody></table>";
+  }
+  function upcomingExceptions(it, now) {
+    var dh = it.date_hours || {};
+    return Object.keys(dh).sort().filter(function (d) { return d >= now.date; }).slice(0, 6).map(function (d) {
+      return md(d) + "(" + DAY_KO[isoDay(d)] + ") " + (dh[d] === "closed" ? "휴관" : fmtRanges(dh[d]));
+    }).join(" · ");
+  }
+  var CONF_KO = { high: "공식 2026 자료", medium: "공식(날짜 미표기)·신뢰 출처", low: "참고용 — 방문 전 확인" };
+  function admissionHtml(it, now) {
+    var body = "";
+    var tix = arr(it.tickets);
+    if (tix.length) {
+      body += "<h4>입장권</h4><ul class=\"tix\">" + tix.map(function (t) {
+        return "<li><span>" + esc(t.label_ko) + "</span><b>" + esc(eur(t.eur) || "–") + "</b>" + (t.note_ko ? "<small>" + esc(t.note_ko) + "</small>" : "") + "</li>";
+      }).join("") + "</ul>";
+    } else if (it.price_note) body += "<h4>입장권</h4><p>" + esc(it.price_note) + "</p>";
+    if (it.free_note) body += "<p><b>무료·할인</b> " + esc(it.free_note) + "</p>";
+    if (it.hours) body += "<h4>운영 시간 <small class=\"hint\">11–12월 · 쾰른 시각</small></h4>" + hoursTable(it, now);
+    if (it.last_entry) body += "<p><b>마지막 입장</b> " + esc(it.last_entry) + "</p>";
+    var ex = upcomingExceptions(it, now);
+    if (ex) body += "<p><b>특별 일정</b> " + esc(ex) + "</p>";
+    if (it.hours_note) body += "<p>" + esc(it.hours_note) + "</p>";
+    var bk = it.booking === "required" ? "필수" : it.booking === "recommended" ? "권장" : it.booking === "not-needed" ? "필요 없음" : "";
+    if (bk || it.booking_url) body += "<p><b>예약</b> " + esc(bk) + (it.booking_url ? ' <a href="' + esc(it.booking_url) + '" target="_blank" rel="noopener">공식 예매 ↗</a>' : "") + "</p>";
+    if (it.info_checked) body += "<p><b>확인</b> " + esc(it.info_checked) + " 조사" + (CONF_KO[it.info_confidence] ? " · " + CONF_KO[it.info_confidence] : "") + "</p>";
+    if (!body) return "";
+    return '<details class="more"><summary>입장권·운영 시간</summary>' + body + "</details>";
+  }
+
   function sightCard(it) {
     var area = (AREAS[it.area] && AREAS[it.area].name_ko) || it.area;
     var status = { "closed-renovation": "휴관(공사 중)", "temporary-location": "임시 장소 운영", seasonal: "시즌 한정" }[it.status] || "";
-    var season = it.season && it.season.start ? it.season.start.slice(5).replace("-", "/") + "–" + String(it.season.end || "").slice(5).replace("-", "/") : "";
-    var price = it.price_note || (it.price_eur === 0 ? "무료" : it.price_eur != null ? "€" + it.price_eur : "");
+    var season = it.season && it.season.start ? md(it.season.start) + "–" + md(it.season.end) : "";
+    var price = it.price_note || ticketsLine(it) || (it.price_eur === 0 ? "무료" : it.price_eur != null ? eur(it.price_eur) : "");
     var bits = [];
     if (price) bits.push(esc(price));
     if (it.duration_min) bits.push("약 " + it.duration_min + "분");
-    if (it.travel_time_min) bits.push("중앙역에서 " + it.travel_time_min + "분");
+    var ts = todayState(it, NOW);
     return '<article class="card">' +
       '<div class="card-top"><span class="eyebrow">' + esc(lab("category", it.category)) + " · " + esc(area) + "</span>" +
       (it.priority === 1 ? '<span class="award">필수</span>' : "") + "</div>" +
       "<h3>" + esc(it.name_ko || it.name) + (it.name_ko ? '<span class="alt">' + esc(it.name) + "</span>" : "") + "</h3>" +
       '<p class="meta">' + ratingHtml(it) + distHtml(it) + (status ? "<span><b>" + status + "</b></span>" : "") + (season ? "<span>" + season + "</span>" : "") + "</p>" +
+      (ts.text ? '<p class="today ' + ts.cls + '">' + esc(ts.text) + "</p>" : "") +
       (bits.length ? '<p class="cuisine">' + bits.join(" · ") + "</p>" : "") +
       (it.summary_ko ? '<p class="summary">' + esc(it.summary_ko) + "</p>" : "") +
       tagsHtml(it.tags) +
-      moreHtml([["팁", esc(it.tips_ko)], ["운영", esc(it.hours_note)], ["예약", it.booking === "required" ? "필수" : it.booking === "recommended" ? "권장" : ""],
-        ["주소", esc(it.address)], ["조사 출처", sourcesHtml(it.sources)],
+      admissionHtml(it, NOW) +
+      moreHtml([["팁", esc(it.tips_ko)], ["주소", esc(it.address)], ["조사 출처", sourcesHtml(it.sources)],
         ["확인", { "public-space": "상시 개방 공공장소(입장료·운영시간 없음)", "annual-event": "매년 열리는 행사 — 2026 일정 미확인", unverified: "미확인" }[it.verification] || ""]]) +
       actions(it) + "</article>";
   }
@@ -750,6 +878,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     ],
     sights: [
       { id: "must", label: "첫 방문 필수", apply: function (f) { f.must = true; } },
+      { id: "today", label: "오늘 여는 곳", apply: function (f) { f.today = true; } },
       { id: "free", label: "무료", apply: function (f) { f.free = true; } },
       { id: "rain", label: "비 오는 날", apply: function (f) { f.sel.tag = { "rainy-day": true }; } },
       { id: "xmas", label: "크리스마스 마켓", apply: function (f) { f.sel.tag = { christmas: true }; } },
@@ -783,6 +912,8 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     if (f.must) out.push(["must", "첫 방문 필수"]);
     if (f.free) out.push(["free", "무료"]);
     if (f.open) out.push(["open", "휴관 제외"]);
+    if (f.today) out.push(["today", "오늘 운영"]);
+    if (f.now) out.push(["now", "지금 열림"]);
     var el = document.getElementById("achips");
     el.hidden = !out.length;
     el.innerHTML = out.map(function (c) { return '<button type="button" class="achip" data-chip="' + esc(c[0]) + '" aria-label="' + esc(c[1]) + ' 해제">' + esc(c[1]) + "</button>"; }).join("") +
@@ -910,10 +1041,11 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   function appliedCount(f) {
     var n = 0;
     for (var k in f.sel) n += keys(f.sel[k]).length;
-    return n + (f.minRating ? 1 : 0) + (f.maxBeer ? 1 : 0) + (f.free ? 1 : 0) + (f.must ? 1 : 0) + (f.open ? 1 : 0) + (f.q ? 1 : 0) + (state.maxKm ? 1 : 0);
+    return n + (f.minRating ? 1 : 0) + (f.maxBeer ? 1 : 0) + (f.free ? 1 : 0) + (f.must ? 1 : 0) + (f.open ? 1 : 0) + (f.today ? 1 : 0) + (f.now ? 1 : 0) + (f.q ? 1 : 0) + (state.maxKm ? 1 : 0);
   }
 
   function renderResults() {
+    NOW = berlinNow();
     var tab = state.tab, f = state.f[tab], items = TABS[tab].items;
     var list = items.filter(function (it) { return matches(it, f); });
     var sortKey = state.sort[tab];
@@ -942,6 +1074,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 
   function render() {
     var tab = state.tab;
+    NOW = berlinNow();
     document.querySelectorAll(".tabs a").forEach(function (a) {
       if (a.getAttribute("data-tab") === tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
       var t = TABS[a.getAttribute("data-tab")], n = a.querySelector(".n");

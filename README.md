@@ -10,12 +10,13 @@
 | 필터 웹 뷰어 (목록·지도 보기, 빠른 선택, 러닝 코스 탭) | [`docs/index.html`](docs/index.html) — 브라우저로 열기. GitHub Pages로 올리려면 Settings → Pages → Branch `/docs` |
 | 세계 음식 분석 (나라·동네·요리별 추천, 한식) | [`guides/international-food.md`](guides/international-food.md) |
 | 이번 시즌 (2026-11~2027-02): 대성당 입장료, 휴관, 11.11 카니발, 크리스마스 마켓 | [`guides/season-2026-11-to-2027-02.md`](guides/season-2026-11-to-2027-02.md) |
+| 관광지 입장권·운영시간 (11–12월 요일별 시간, 마지막 입장, 공휴일 휴관, 무료·할인, 예약, 패스) | [`guides/tables/attractions-tickets-hours.md`](guides/tables/attractions-tickets-hours.md) · 웹 뷰어 관광지 탭 "오늘 여는 곳" |
 | 가성비 맥주 펍 (브라우하우스·크나이페·크래프트 맥주, 쾰시 가격) | [`guides/beer-pubs.md`](guides/beer-pubs.md) · [표](guides/tables/beer-pubs.md) |
 | World's 50 Best Bars & 쾰른 칵테일바 | [`guides/bars-and-worlds-50-best.md`](guides/bars-and-worlds-50-best.md) |
 | 미쉐린 2026 쾰른 | [`guides/fine-dining-michelin-2026.md`](guides/fine-dining-michelin-2026.md) |
 | 독일 화이트와인 가이드 | [`guides/german-white-wine.md`](guides/german-white-wine.md) |
 | 러닝 코스 6개 + 현지인 인기 스폿 (프리젠플라츠 출발·도착, 5.3–13.3 km) | [`guides/running-route.md`](guides/running-route.md) · 구글 마이맵 [`routes/koln-running.kml`](routes/koln-running.kml) · GPX 코스별 `routes/koln-running-*.gpx` |
-| 표: 지역별 · 나라·문화권별 · 요리별 · 가격대별 · 바 · 관광지 · 메쎄 근처 · 대성당 근처 · 후보 | [`guides/tables/`](guides/tables/) |
+| 표: 지역별 · 나라·문화권별 · 요리별 · 가격대별 · 바 · 관광지 · 입장권·운영시간 · 메쎄 근처 · 대성당 근처 · 후보 | [`guides/tables/`](guides/tables/) |
 
 터미널에서도 바로 필터링할 수 있습니다. 한 옵션 안의 값은 OR, 옵션끼리는 AND입니다.
 
@@ -37,6 +38,8 @@ python3 scripts/filter.py --near messe --max-km 1.5 --sort distance # 메쎄 1.5
   평점·리뷰 수는 구글 데이터를 보여 주는 집계 사이트(Wanderlog, restaurantguru, werkenntdenbesten 등)에서 출처와 함께 기록했고,
   추정치는 쓰지 않았습니다. 수치를 못 찾았거나 출처 귀속이 애매한 곳은 [후보](guides/tables/candidates.md)로 분리했습니다.
 - **관광지:** 평점 기준 없음. 2026년 운영 상태(공사·임시 장소·시즌)를 확인해 표시. 다리·광장·공원 같은 공공장소는 "상시 개방"으로 표시.
+  입장권·운영시간은 박물관·성당·시설 공식 사이트를 우선으로 11–12월 기준을 적고, 확인 시점과 신뢰도(공식 2026 / 공식 날짜 미표기 / 참고용)를 함께 남겼습니다.
+  출처에서 확인하지 못한 요일·요금은 비워 두고 "미확인"으로 표시합니다.
 - **가격대(1인 음식값, 음료 제외):** € ~15 · €€ 15–30 · €€€ 30–60 · €€€€ 60+ (바는 칵테일 1잔 기준).
   카페·간편식·디저트·브라우하우스·파인다이닝은 출처가 없을 때 유형 기준 추정값을 넣고 **"추정"**으로 표시합니다.
 - **거리:** 쾰른 대성당 · 중앙역 · 쾰른 메쎄 · 벨기에 지구 기준 직선거리, 또는 웹 뷰어에서 아무 장소나 기준점으로 선택.
@@ -82,7 +85,8 @@ Koln-Guide/
 │   ├── restaurants.json         레스토랑·파인다이닝·브라우하우스·간편식·카페·디저트
 │   ├── bars.json                칵테일바·맥주바·바
 │   ├── shops.json               와인숍
-│   ├── attractions.json         관광지·박물관·성당·시즌 이벤트 (쾰른 시내)
+│   ├── attractions.json         관광지·박물관·성당·시즌 이벤트 (쾰른 시내) + 입장권·요일별 운영시간
+│   ├── passes.json              쾰른카드·뮤지엄카드 등 패스·콤비 티켓
 │   ├── wine.json                와인 품종·산지·용어 (뷰어용)
 │   ├── candidates.json          검증 대기·기준 미달 후보
 │   ├── routes-spec.json         러닝 코스 경유지 정의 (공개 장소만)
@@ -90,7 +94,8 @@ Koln-Guide/
 ├── guides/                      사람이 읽는 가이드 + tables/(자동 생성 표)
 ├── research/
 │   ├── methodology.md           조사 방법·한계·다음 단계
-│   └── raw/                     조사 원자료(JSON) + 조사 노트 — 1차(fnb-*, bars, attractions, wine-*) · 2차(r2-*)
+│   └── raw/                     조사 원자료(JSON) + 조사 노트 — 1차(fnb-*, bars, attractions, wine-*) · 2차(r2-*) · 3차(r3-*)
+│                                · 4차 재확인(r4-verify-*) · 5차 입장권·운영시간(r5-tickets-*)
 ├── scripts/
 │   ├── schema.py                분류 어휘·라벨·v1→v2 변환
 │   ├── import_raw.py            research/raw → data/ 병합·중복 제거·기준 적용
@@ -108,7 +113,7 @@ Koln-Guide/
 
 ```bash
 python3 scripts/import_raw.py                  # research/raw/*.json → data/*.json
-python3 scripts/geocode.py                     # (선택) 좌표 채우기 → 거리 필터 활성화
+python3 scripts/geocode.py                     # 좌표 채우기 (캐시 사용, 주소가 바뀐 곳만 새로 조회) → 거리 필터
 GOOGLE_MAPS_API_KEY=... python3 scripts/verify_google_places.py   # (선택) 구글 평점·가격대 실시간 재검증
 python3 scripts/build_routes.py                # (선택) 러닝 코스 다시 계산 → routes/, data/routes.json
 python3 scripts/build.py                       # 표와 웹 뷰어 다시 만들기

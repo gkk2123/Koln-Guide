@@ -280,9 +280,101 @@ def normalize_attraction(p: dict, agent: str) -> dict:
         "sources": as_list(p.get("sources")),
         "verification": p.get("verification") if p.get("verification") in ("sourced", "public-space", "annual-event")
         else ("sourced" if p.get("sources") else "unverified"),
+        **ticket_fields(p),
         "research": agent,
         "checked": TODAY,
     }
+
+
+DAYS = ("mon", "tue", "wed", "thu", "fri", "sat", "sun")
+_RANGE = re.compile(r"^\d{1,2}:\d{2}-\d{1,2}:\d{2}(,\d{1,2}:\d{2}-\d{1,2}:\d{2})*$")
+
+
+def clean_hours(h) -> dict | None:
+    if not isinstance(h, dict):
+        return None
+    out = {}
+    for d in DAYS:
+        v = h.get(d)
+        if isinstance(v, str):
+            v = v.strip().replace("–", "-").replace(" ", "")
+            v = "closed" if v.lower() in ("closed", "geschlossen", "휴관", "-") else v
+            if v != "closed" and not _RANGE.match(v):
+                warn(f"hours: unparsed value '{v}' for {d} -> null")
+                v = None
+        else:
+            v = None
+        out[d] = v
+    return out if any(out.values()) else None
+
+
+def clean_tickets(t) -> list:
+    out = []
+    for x in t if isinstance(t, list) else []:
+        if isinstance(x, dict) and x.get("label_ko"):
+            eur = x.get("eur")
+            try:
+                eur = None if eur is None else round(float(eur), 2)
+            except (TypeError, ValueError):
+                eur = None
+            out.append({"label_ko": x["label_ko"], "eur": eur, "note_ko": x.get("note_ko")})
+    return out
+
+
+_ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def clean_date_hours(d) -> dict | None:
+    """Date exceptions, e.g. {"2026-12-24": "closed", "2026-12-31": "10:00-14:00"}."""
+    if not isinstance(d, dict):
+        return None
+    out = {}
+    for k, v in sorted(d.items()):
+        if not (isinstance(k, str) and _ISO.match(k) and isinstance(v, str)):
+            warn(f"date_hours: dropped {k!r}: {v!r}")
+            continue
+        v = v.strip().replace("–", "-").replace(" ", "")
+        v = "closed" if v.lower() in ("closed", "geschlossen", "휴관") else v
+        if v != "closed" and not _RANGE.match(v):
+            warn(f"date_hours: unparsed value '{v}' for {k}")
+            continue
+        out[k] = v
+    return out or None
+
+
+def ticket_fields(p: dict) -> dict:
+    return {"tickets": clean_tickets(p.get("tickets")), "hours": clean_hours(p.get("hours")),
+            "date_hours": clean_date_hours(p.get("date_hours")),
+            "last_entry": p.get("last_entry"), "free_note": p.get("free_note"), "booking_url": p.get("booking_url"),
+            "info_checked": p.get("checked") or p.get("info_checked")}
+
+
+def apply_attraction_updates(items: list[dict], updates: dict) -> None:
+    """Round-5 ticket/hours research: fields present in an update replace the stored ones."""
+    for it in items:
+        u = updates.get(it["id"])
+        if not u:
+            continue
+        tf = ticket_fields(u)
+        for k, v in tf.items():
+            if v not in (None, [], ""):
+                it[k] = v
+        for k in ("price_note", "hours_note", "status", "season", "booking"):
+            if u.get(k) not in (None, ""):
+                if k == "status" and u[k] not in ATTRACTION_STATUS:
+                    continue
+                if k == "booking" and u[k] not in BOOKING:
+                    continue
+                it[k] = u[k]
+        if u.get("price_eur") is not None:
+            try:
+                it["price_eur"] = round(float(u["price_eur"]), 2)
+            except (TypeError, ValueError):
+                pass
+        for url in as_list(u.get("sources")):
+            if url not in it["sources"]:
+                it["sources"].append(url)
+        it["info_confidence"] = u.get("confidence")
 
 
 def is_attraction(p: dict) -> bool:
@@ -465,6 +557,20 @@ def main() -> int:
 
     cache = load_json(DATA / "geocode-cache.json", {}) or {}
     report = []
+    attraction_updates = {}
+    for f in files:
+        for u in (load_json(f, {}) or {}).get("updates", []):
+            if not u.get("id"):
+                continue
+            prev = attraction_updates.get(u["id"])
+            if prev:  # several files may touch one attraction: later keys win, date exceptions and sources add up
+                merged = {**prev, **{k: v for k, v in u.items() if v not in (None, "", [])}}
+                merged["date_hours"] = {**(prev.get("date_hours") or {}), **(u.get("date_hours") or {})}
+                merged["sources"] = as_list(prev.get("sources")) + [x for x in as_list(u.get("sources")) if x not in as_list(prev.get("sources"))]
+                if u.get("confidence") is None:
+                    merged["confidence"] = prev.get("confidence")
+                u = merged
+            attraction_updates[u["id"]] = u
     verifications = {}
     for vf in verify_files:
         for v in (load_json(vf, {}) or {}).get("verifications", []):
@@ -475,6 +581,8 @@ def main() -> int:
         keep_coords(items, kind, cache)
         if kind != "attractions" and verifications:
             items = apply_verifications(items, verifications, candidates)
+        if kind == "attractions" and attraction_updates:
+            apply_attraction_updates(items, attraction_updates)
         if kind == "attractions":
             items.sort(key=lambda i: (area_rank(i["area"]), i["priority"], i["name"]))
         else:
