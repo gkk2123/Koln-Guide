@@ -279,7 +279,13 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 .nearlist button[aria-pressed="true"] { background: var(--accent-soft); }
 .nearlist .nm { font-weight: 600; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .nearlist .sub { grid-column: 2; font-size: 12px; color: var(--muted); }
-.nearlist .d { grid-column: 3; grid-row: 1 / span 2; font-family: var(--font-data); font-size: 12px; color: var(--ink); text-align: right; align-self: center; white-space: nowrap; }
+.nearlist .dish { grid-column: 2; font-size: 12px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.nearlist .sub b, .lsheet .pz b { color: var(--ink); font-weight: 600; }
+.pz { font-family: var(--font-data); font-size: 12px; letter-spacing: .04em; white-space: nowrap; }
+.pz i { font-style: normal; color: var(--line); }
+.pz small { font-family: var(--font-body); font-size: 11px; letter-spacing: 0; color: var(--muted); margin-right: 2px; }
+.lsheet .dishline { margin: 0; font-size: 13px; color: var(--muted); }
+.nearlist .d { grid-column: 3; grid-row: 1 / span 3; font-family: var(--font-data); font-size: 12px; color: var(--ink); text-align: right; align-self: center; white-space: nowrap; }
 .nearlist .cdot { margin: 0; align-self: center; }
 .card.flash { outline: 3px solid var(--accent); outline-offset: 2px; }
 .gate { min-height: 100vh; display: grid; place-items: center; padding: 24px 16px; }
@@ -420,6 +426,7 @@ function kgStart() {
   var FACETS = {
     food: [
       F("category", "유형", function (i) { return i.category; }, "category"),
+      F("style", "스타일", function (i) { return i.style; }, "style", { hideZero: true, hint: "비스트로·타파스·이자카야…" }),
       F("area", "지역", function (i) { return i.area; }, "area", { order: AREA_ORDER }),
       F("region", "문화권", function (i) { return i.cuisine_region; }, "region", { order: REGION_ORDER }),
       F("country", "나라", function (i) { return i.cuisine_country; }, "country", { hideZero: true }),
@@ -437,6 +444,7 @@ function kgStart() {
     ],
     bars: [
       F("category", "유형", function (i) { return i.category; }, "category"),
+      F("style", "스타일", function (i) { return i.style; }, "style", { hideZero: true }),
       F("area", "지역", function (i) { return i.area; }, "area", { order: AREA_ORDER }),
       F("price", "가격", priceKey, "price_level", { hint: "칵테일 1잔", order: ["1", "2", "3", "4"] }),
       F("drink", "음료", function (i) { return i.drinks; }, "drink"),
@@ -466,7 +474,7 @@ function kgStart() {
   function matches(it, f, skip) {
     if (f.q) {
       var hay = [it.name, it.name_ko, it.cuisine, it.summary_ko, it.tips_ko, arr(it.must_try).join(" "), arr(it.awards).join(" "),
-        lab("category", it.category), arr(it.cuisine_country).map(function (c) { return lab("country", c); }).join(" "),
+        lab("category", it.category), it.style ? lab("style", it.style) : "", arr(it.cuisine_country).map(function (c) { return lab("country", c); }).join(" "),
         lab("region", it.cuisine_region), arr(it.dishes).map(function (d) { return lab("dish", d); }).join(" ")].join(" ").toLowerCase();
       var words = f.q.toLowerCase().split(/\s+/).filter(Boolean);
       for (var w = 0; w < words.length; w++) if (hay.indexOf(words[w]) < 0) return false;
@@ -654,6 +662,23 @@ function kgStart() {
       (it.lat != null ? '<button type="button" class="linkbtn" data-place="' + esc(it.id) + '">여기 기준 거리</button>' : "") + "</div>";
   }
 
+  function styleLabel(it) { return it.style ? lab("style", it.style) : lab("category", it.category); }
+  function countryText(it) { return arr(it.cuisine_country).map(function (c) { return lab("country", c); }).join("·"); }
+  function priceTag(it) {  // "€€" with the rest of the scale faded; "약" when it is a category-based estimate
+    var n = it.price_level;
+    if (!n) return "";
+    return '<span class="pz" title="가격대 ' + n + '/4' + (it.price_estimated ? " · 유형 기준 추정" : "") + '">' + (it.price_estimated ? "<small>약</small>" : "") +
+      "<b>" + "€".repeat(n) + "</b><i>" + "€".repeat(4 - n) + "</i></span>";
+  }
+  function dishShort(m) {  // "Bánh mì (반미 — 베트남식 바게트 샌드위치)" -> "반미"
+    var k = /\(([^)]+)\)/.exec(String(m)), t = k ? k[1] : String(m);
+    return t.split(/\s+[—–-]\s+|,|;/)[0].trim();
+  }
+  function dishLine(it) {
+    var list = arr(it.must_try).map(dishShort).filter(Boolean);
+    if (!list.length) list = arr(it.dishes).filter(function (d) { return d !== "coffee"; }).map(function (d) { return lab("dish", d); });
+    return list.slice(0, 3).join(" · ");
+  }
   function foodLine(it) {
     var head = arr(it.cuisine_country).map(function (c) { return lab("country", c); }).join(" · ") ||
       (it.cuisine_region ? lab("region", it.cuisine_region) : "");
@@ -677,7 +702,7 @@ function kgStart() {
   function fnbCard(it) {
     var area = (AREAS[it.area] && AREAS[it.area].name_ko) || it.area;
     return '<article class="card" id="c-' + esc(it.id) + '">' +
-      '<div class="card-top"><span class="eyebrow">' + esc(lab("category", it.category)) + " · " + esc(area) + "</span>" + priceHtml(it.price_level, it.price_estimated) + "</div>" +
+      '<div class="card-top"><span class="eyebrow">' + esc(styleLabel(it)) + " · " + esc(area) + "</span>" + priceHtml(it.price_level, it.price_estimated) + "</div>" +
       "<h3>" + esc(it.name) + "</h3>" +
       '<p class="cuisine">' + esc(foodLine(it)) + "</p>" +
       '<p class="meta">' + ratingHtml(it) + checkedHtml(it) + (it.beer_price_eur ? '<span class="beer">맥주 <span class="num">€' + Number(it.beer_price_eur).toFixed(2) + "</span></span>" : "") + distHtml(it) + "</p>" +
@@ -1070,11 +1095,17 @@ function kgStart() {
     return '<h3 class="nl-h">' + (byDist ? esc(anchorLabel()) + "에서 가까운 순" : esc(SORT_LABELS[state.sort[state.tab]] || "")) + ' <span class="sub">' + rows.length + "곳</span></h3>" +
       '<ol class="nearlist">' + shown.map(function (it) {
         var d = dist(it), k = kindOf(it);
+        var bits = k === "sight" ? [esc(lab("category", it.category))]
+          : [priceTag(it), esc(countryText(it)), esc(styleLabel(it))];
+        if (it.google_rating) bits.push("★" + Number(it.google_rating).toFixed(1));
+        if (it.beer_price_eur) bits.push("쾰시 €" + Number(it.beer_price_eur).toFixed(2));
+        var dl = k === "sight" ? "" : dishLine(it);
         return '<li><button type="button" data-pick="' + esc(it.id) + '" aria-pressed="' + (state.mapSel === it.id) + '"><i class="cdot" style="background:var(--c-' + k + ')"></i>' +
           '<span class="nm">' + esc(it.name_ko || it.name) + '</span><span class="d">' + (d != null ? fmtDist(d) + "<br>도보 " + walk(d) + "분" : "") + "</span>" +
-          '<span class="sub">' + esc(lab("category", it.category)) + (it.google_rating ? " · ★" + Number(it.google_rating).toFixed(1) : "") + (it.beer_price_eur ? " · 맥주 €" + Number(it.beer_price_eur).toFixed(2) : "") +
-          (k === "sight" ? sightStatusShort(it) : "") + "</span></button></li>";
-      }).join("") + "</ol>" + (rows.length > shown.length ? '<p style="margin:8px 0 0"><button type="button" class="linkbtn" data-nearmore>더 보기 (' + (rows.length - shown.length) + "곳)</button></p>" : "");
+          '<span class="sub">' + bits.filter(Boolean).join(" · ") + (k === "sight" ? sightStatusShort(it) : "") + "</span>" +
+          (dl ? '<span class="dish">' + esc(dl) + "</span>" : "") + "</button></li>";
+      }).join("") + "</ol>" + (rows.length > shown.length ? '<p style="margin:8px 0 0"><button type="button" class="linkbtn" data-nearmore>더 보기 (' + (rows.length - shown.length) + "곳)</button></p>" : "") +
+      (state.tab === "sights" ? "" : '<p class="hint" style="margin-top:8px">가격대: € ~15 · €€ 15–30 · €€€ 30–60 · €€€€ 60+ (1인 음식값, 음료 제외 · 칵테일바는 1잔 기준) · “약”은 유형 기준 추정이에요.</p>');
   }
   function sightStatusShort(it) {
     var ts = todayState(it, NOW);
@@ -1085,10 +1116,11 @@ function kgStart() {
   function sheetHtml(it, k) {
     var ts = k === "sight" ? todayState(it, NOW) : null;
     return '<button type="button" class="lsheet-x" aria-label="닫기" data-close>×</button>' +
-      '<div class="eyebrow"><i class="cdot" style="background:var(--c-' + k + ')"></i>' + esc(lab("category", it.category)) + " · " + esc(areaName(it.area)) + "</div>" +
+      '<div class="eyebrow"><i class="cdot" style="background:var(--c-' + k + ')"></i>' + esc(k === "sight" ? lab("category", it.category) : [countryText(it), styleLabel(it)].filter(Boolean).join(" · ")) + " · " + esc(areaName(it.area)) + "</div>" +
       "<h3>" + esc(it.name_ko || it.name) + (it.name_ko ? '<span class="alt">' + esc(it.name) + "</span>" : "") + "</h3>" +
-      '<p class="meta">' + ratingHtml(it) + (it.beer_price_eur ? '<span class="beer">맥주 <span class="num">€' + Number(it.beer_price_eur).toFixed(2) + "</span></span>" : "") + distHtml(it) + "</p>" +
-      (ts && ts.text ? '<p class="today ' + ts.cls + '">' + esc(ts.text) + "</p>" : (k !== "sight" && foodLine(it) ? '<p class="cuisine">' + esc(foodLine(it)) + "</p>" : "")) +
+      '<p class="meta">' + (k === "sight" ? "" : (priceTag(it) ? "<span>" + priceTag(it) + (pricePp(it) ? " " + esc(pricePp(it)) : "") + "</span>" : "")) + ratingHtml(it) +
+      (it.beer_price_eur ? '<span class="beer">쾰시 <span class="num">€' + Number(it.beer_price_eur).toFixed(2) + "</span></span>" : "") + distHtml(it) + "</p>" +
+      (ts && ts.text ? '<p class="today ' + ts.cls + '">' + esc(ts.text) + "</p>" : (k !== "sight" && dishLine(it) ? '<p class="dishline">추천 · ' + esc(dishLine(it)) + "</p>" : "")) +
       '<div class="actions"><a class="btn primary" href="' + esc(dirUrl(it)) + '" target="_blank" rel="noopener">길찾기</a>' +
       '<a class="btn" href="' + esc(mapsUrl(it)) + '" target="_blank" rel="noopener">구글 지도</a>' +
       '<button type="button" class="btn" data-detail="' + esc(it.id) + '">자세히</button></div>';

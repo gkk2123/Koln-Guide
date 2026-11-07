@@ -28,6 +28,7 @@ python3 scripts/filter.py --diet vegan --price 1-2                  # 비건, �
 python3 scripts/filter.py --occasion business --area deutz-messe    # 메쎄 근처 비즈니스 식사
 python3 scripts/filter.py --kind beer --max-beer 2.6 --sort beer     # 쾰시 €2.60 이하, 싼 순
 python3 scripts/filter.py --kind bar --category cocktail-bar
+python3 scripts/filter.py --style tapas --style wine-bar --style bistro  # 타파스·와인바·비스트로
 python3 scripts/filter.py --kind sight --tag free --tag rainy-day   # 무료 + 비 오는 날
 python3 scripts/filter.py --near messe --max-km 1.5 --sort distance # 메쎄 1.5km 이내, 가까운 순
 ```
@@ -49,6 +50,7 @@ python3 scripts/filter.py --near messe --max-km 1.5 --sort distance # 메쎄 1.5
 | 필터 | 값 예시 |
 |---|---|
 | 유형 | 레스토랑 · 파인다이닝 · 브라우하우스 · 간편식·임비스 · 카페 · 베이커리 · 디저트 · 칵테일바 · 맥주바 · 동네 펍(크나이페) · 와인바 |
+| 스타일 | 비스트로 · 브라세리 · 트라토리아 · 피자리아 · 이자카야 · 타파스·셰어링 · 메제 · 와인바 · 스테이크하우스 · 그릴·바비큐 · 라멘집 · 스시 · 면 요리집 · 파스타 바 · 버거 · 치킨 · 케밥·되너 · 스트리트 푸드 · 가스트하우스 · 칸티나 · 뷔페 · 아침·브런치 카페 … — 설명 문구에서 자동 분류(`schema.infer_style`) |
 | 맥주 | 쾰시·크래프트 맥주, **쾰시 0.2 l 가격**(출처 있는 곳만), 탭 브랜드 |
 | 문화권 → 나라 | 동아시아(한국·일본·중국…) · 동남아 · 남아시아 · 중동·터키·북아프리카 · 남유럽 · 서유럽 · 독일·중부유럽 · 동유럽 · 아메리카 · 아프리카 · 퓨전 |
 | 요리 | 라멘 · 스시 · 쌀국수 · 케밥·되너 · 팔라펠 · 메제 · 피자 · 타코 · 고기구이 · 치킨 · 만두·딤섬 · 쾰른 향토 요리 · 코스 요리 · 브런치 · 케이크 … (32종) |

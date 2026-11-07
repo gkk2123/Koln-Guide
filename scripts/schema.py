@@ -108,6 +108,61 @@ ATTRACTION_TAGS = [
 ATTRACTION_STATUS = ["open", "closed-renovation", "temporary-location", "seasonal"]
 BOOKING = ["not-needed", "recommended", "required"]
 
+# What kind of place it is (format), separate from cuisine/nationality: shown as "인도네시아 · 비스트로 · €€".
+STYLES = {
+    "fine-dining": "파인다이닝", "bistro": "비스트로", "brasserie": "브라세리", "trattoria": "트라토리아",
+    "pizzeria": "피자리아", "izakaya": "이자카야", "tapas": "타파스·셰어링", "mezze": "메제(소량 전채)",
+    "wine-bar": "와인바", "cocktail-bar": "칵테일바", "brauhaus": "브라우하우스", "kneipe": "동네 펍",
+    "beer-bar": "맥주바", "steakhouse": "스테이크하우스", "burger": "버거", "ramen-bar": "라멘집", "sushi-bar": "스시",
+    "noodle-bar": "면 요리집", "pasta-bar": "파스타 바", "kebab": "케밥·되너", "grill": "그릴·바비큐", "chicken": "치킨",
+    "buffet": "뷔페", "gasthaus": "가스트하우스(향토 식당)", "cantina": "칸티나(멕시칸 바)", "streetfood": "스트리트 푸드·임비스", "brunch": "아침·브런치 카페",
+    "cafe": "카페", "bakery": "베이커리", "ice-cream": "젤라토·아이스크림", "dessert": "디저트", "bar": "바",
+}
+STYLE_RULES = [  # first match wins; matched against the English/German cuisine text and the name
+    ("izakaya", r"izakaya"),
+    ("tapas", r"\btapas\b|sharing plates?|small plates?"),
+    ("mezze", r"\bmezz?e\b"),
+    ("wine-bar", r"wine ?bar|weinbar|weinstube|vinothek|enoteca"),
+    ("bistro", r"bistro"),
+    ("brasserie", r"brasserie"),
+    ("trattoria", r"trattoria|osteria"),
+    ("pizzeria", r"pizz"),
+    ("burger", r"burger"),
+    ("ramen-bar", r"ramen"),
+    ("sushi-bar", r"sushi|omakase"),
+    ("steakhouse", r"steak|churrasc|asado|parrilla"),
+    ("kebab", r"kebab|kebap|döner|doner|dürüm|durum"),
+    ("noodle-bar", r"noodle (shop|bar|house)|nudel(bar|haus)|biang|pho specialist"),
+    ("pasta-bar", r"pasta ?bar"),
+    ("kneipe", r"kneipe"),
+    ("gasthaus", r"gasthaus|wirtshaus|gaststätte"),
+    ("cantina", r"cantina"),
+    ("chicken", r"^korean fried chicken|fried chicken (shop|bar)"),
+    ("grill", r"\bbbq\b|barbecue|grill"),
+    ("buffet", r"buffet|all-you-can-eat"),
+    ("streetfood", r"street ?food|imbiss"),
+    ("ice-cream", r"ice cream|gelato|gelateria|eiscaf"),
+    ("bakery", r"bakery|bäckerei|backhaus|patisserie|pâtisserie"),
+    ("brunch", r"brunch|breakfast|frühstück"),
+]
+CATEGORY_STYLE = {"fine-dining": "fine-dining", "cocktail-bar": "cocktail-bar", "wine-bar": "wine-bar",
+                  "brauhaus": "brauhaus", "kneipe": "kneipe", "beer-bar": "beer-bar"}
+FALLBACK_STYLE = {"cafe": "cafe", "bakery": "bakery", "dessert": "dessert", "streetfood": "streetfood", "bar": "bar"}
+
+
+def infer_style(it: dict) -> str | None:
+    """Format of a food/drink place from its category and description; None = plain restaurant."""
+    cat = it.get("category")
+    if cat in CATEGORY_STYLE:
+        return CATEGORY_STYLE[cat]
+    text = f"{it.get('cuisine') or ''} {it.get('name') or ''}".lower()
+    allowed = {"cafe": ("bistro", "brunch", "bakery", "ice-cream"), "bakery": (), "dessert": ("ice-cream",)}.get(cat)
+    for style, rx in STYLE_RULES:
+        if (allowed is None or style in allowed) and re.search(rx, text):
+            return style
+    return FALLBACK_STYLE.get(cat)
+
+
 LABELS_KO = {
     "category": {
         "restaurant": "레스토랑", "fine-dining": "파인다이닝", "brauhaus": "브라우하우스", "streetfood": "간편식·임비스",
@@ -123,6 +178,7 @@ LABELS_KO = {
     "dish": DISHES, "diet": DIET, "meal": MEALS, "occasion": OCCASIONS, "feature": FEATURES,
     "drink": DRINKS, "vibe": VIBE, "reservation": RESERVATION, "payment": PAYMENT, "award": AWARD_FLAGS,
     "price_level": {1: "€", 2: "€€", 3: "€€€", 4: "€€€€"},
+    "style": STYLES,
     "tag": {
         "unesco": "유네스코", "free": "무료", "indoor": "실내", "rainy-day": "비 오는 날", "kid-friendly": "아이 동반",
         "photo-spot": "포토스팟", "night-view": "야경", "must-see": "필수", "christmas": "크리스마스",

@@ -23,7 +23,7 @@ sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 from schema import (  # noqa: E402
     AREAS, ATTRACTION_CATEGORIES, ATTRACTION_STATUS, ATTRACTION_TAGS, BAR_CATEGORIES, BOOKING,
     COUNTRIES, DATA, DATA_FILES, FACETS, FNB_CATEGORIES, FOOD_CATEGORIES, PAYMENT, RAW, REGIONS,
-    RESERVATION, SHOP_CATEGORIES, V1_CUISINE_GROUP, V1_TAGS, award_flags, infer_countries, infer_dishes,
+    RESERVATION, SHOP_CATEGORIES, STYLES, V1_CUISINE_GROUP, V1_TAGS, award_flags, infer_countries, infer_dishes, infer_style,
     in_cologne, is_area_wide, load_json, meets_criteria, norm_name, region_for, save_json, slugify, street_key,
 )
 
@@ -396,6 +396,42 @@ def apply_attraction_updates(items: list[dict], updates: dict) -> None:
                 it["verification"] = "sourced"  # this year's dates are now confirmed
 
 
+def apply_price_updates(items: list[dict], updates: dict) -> None:
+    """Round-6 price research for places that had no price: level, per-person range, Kölsch price, style, dishes."""
+    for it in items:
+        u = updates.get(it["id"])
+        if not u:
+            continue
+        where = f"[{u.get('_file')}] {it['name']}"
+        conf = u.get("confidence")
+        pl = as_int(u.get("price_level"))
+        if pl is not None and 1 <= pl <= 4:
+            it["price_level"] = pl
+            it["price_estimated"] = conf == "low"  # weak evidence stays marked as an estimate
+        elif pl is not None:
+            warn(f"{where}: price_level {pl} out of range")
+        pp = u.get("price_pp") if isinstance(u.get("price_pp"), dict) else None
+        if pp:
+            pp = {k: as_int(pp.get(k)) for k in ("min", "max") if as_int(pp.get(k)) is not None} or None
+            if pp:
+                it["price_pp"] = pp
+        if u.get("price_note_ko") and pl is not None:
+            it["price_note"] = u["price_note_ko"]
+        bp = beer_price(u.get("beer_price_eur"), where)
+        if bp:
+            it["beer_price_eur"] = bp
+            it["beer_price_note"] = u.get("beer_price_note_ko") or it.get("beer_price_note")
+        if u.get("style_hint") in STYLES:
+            it["style_hint"] = u["style_hint"]
+        sig = [x.strip() for x in as_list(u.get("signature_ko")) if isinstance(x, str) and x.strip()]
+        if sig and not it.get("must_try"):
+            it["must_try"] = sig[:3]
+        for url in as_list(u.get("sources")):
+            if url not in it["sources"]:
+                it["sources"].append(url)
+        it["price_checked"] = u.get("checked")
+
+
 def is_attraction(p: dict) -> bool:
     cat = slugify(p.get("category") or "")
     return cat in ATTRACTION_CATEGORIES or ("name_ko" in p and cat not in FNB_CATEGORIES)
@@ -590,6 +626,11 @@ def main() -> int:
                     merged["confidence"] = prev.get("confidence")
                 u = merged
             attraction_updates[u["id"]] = u
+    price_updates = {}
+    for f in files:
+        for u in (load_json(f, {}) or {}).get("price_updates", []):
+            if u.get("id"):
+                price_updates[u["id"]] = {**u, "_file": f.stem}
     verifications = {}
     for vf in verify_files:
         for v in (load_json(vf, {}) or {}).get("verifications", []):
@@ -600,6 +641,11 @@ def main() -> int:
         keep_coords(items, kind, cache)
         if kind != "attractions" and verifications:
             items = apply_verifications(items, verifications, candidates)
+        if kind != "attractions" and price_updates:
+            apply_price_updates(items, price_updates)
+        if kind != "attractions":
+            for it in items:  # format of the place (bistro, wine bar, tapas ...), see schema.STYLES
+                it["style"] = it.pop("style_hint", None) or infer_style(it)
         if kind == "attractions" and attraction_updates:
             apply_attraction_updates(items, attraction_updates)
         if kind == "attractions":

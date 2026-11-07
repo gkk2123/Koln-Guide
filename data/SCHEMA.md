@@ -164,3 +164,13 @@ ISO 3166-1 alpha-2를 씁니다. 하나로 정할 수 없는 퓨전·모던 유�
 ```
 
 관광지 `tags`: `unesco` · `free` · `indoor` · `rainy-day` · `kid-friendly` · `photo-spot` · `night-view` · `must-see` · `christmas` · `karneval` · `dom-view` · `romanesque` · `roman` · `art` · `history` · `chocolate` · `river` · `nature`
+
+## style (자동 분류, v2.1)
+
+음식점·바의 형태. `cuisine`(영문 설명)과 이름에서 규칙으로 정하고(`scripts/schema.py`의 `STYLE_RULES`), 조사에서 분명한 표현이
+나오면(`research/raw/r6-price-*.json`의 `style_hint`) 그것을 씁니다. 값이 없으면 일반 레스토랑(뷰어는 "레스토랑"으로 표시).
+값: fine-dining, bistro, brasserie, trattoria, pizzeria, izakaya, tapas, mezze, wine-bar, cocktail-bar, brauhaus, kneipe, beer-bar,
+steakhouse, burger, ramen-bar, sushi-bar, noodle-bar, pasta-bar, kebab, grill, chicken, buffet, gasthaus, cantina, streetfood,
+brunch, cafe, bakery, ice-cream, dessert, bar. 한국어 라벨은 `LABELS_KO["style"]`.
+
+`price_checked`: 5·6차 가격 조사 확인 시점(예: "2026-11"). `price_note`에는 근거(메뉴판 가격, 구글 1인 범위 등)를 적습니다.

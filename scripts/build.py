@@ -153,6 +153,11 @@ def tickets_summary(t: list | None) -> str:
     return " · ".join(f"{x['label_ko']} {eur(x.get('eur'))}".strip() for x in t or [])
 
 
+def kind_label(i: dict) -> str:
+    """Style (비스트로, 와인바, 타파스 ...) when known, else the broad category."""
+    return L["style"].get(i.get("style") or "", "") or L["category"].get(i["category"], i["category"])
+
+
 def area_name(areas: dict, aid: str) -> str:
     a = areas.get(aid)
     return a["name_ko"] if a else aid
@@ -190,7 +195,7 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
         parts.append(f"\n## {a.get('name_ko', aid)} ({a.get('name_de', '')}) — {len(rows)}곳\n\n{a.get('summary_ko', '')}\n")
         parts.append(table(
             ["이름(지도)", "유형", "나라·음식", "가격", "구글", "대성당", "메쎄", "한 줄 소개", "추천"],
-            [[name_cell(i), L["category"].get(i["category"], i["category"]),
+            [[name_cell(i), kind_label(i),
               " · ".join(x for x in (food_label(i), i.get("cuisine")) if x), price(i), rating(i),
               km(i, "dom"), km(i, "messe"), i.get("summary_ko"), ", ".join(i.get("must_try") or [])[:120]] for i in rows]))
     (TABLES / "restaurants-by-area.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
@@ -211,7 +216,7 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
             if len(by_c) > 1 or code != "INT":
                 parts.append(f"\n### {L['country'].get(code, '기타')} ({len(by_c[code])})\n")
             parts.append(table(["이름(지도)", "지역", "유형", "가격", "구글", "요리", "추천"],
-                               [[name_cell(i), area_name(areas, i["area"]), L["category"].get(i["category"], ""), price(i),
+                               [[name_cell(i), area_name(areas, i["area"]), kind_label(i), price(i),
                                  rating(i), ", ".join(L["dish"].get(d, d) for d in i.get("dishes") or []),
                                  ", ".join(i.get("must_try") or [])[:120]] for i in by_rating(by_c[code])]))
     (TABLES / "restaurants-by-cuisine.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
@@ -330,7 +335,7 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
     if priced:
         parts.append(f"\n## 맥주 싼 순 — {len(priced)}곳\n")
         parts.append(table(["이름(지도)", "지역", "유형", "맥주 가격", "구글", "맥주"],
-                           [[name_cell(i), area_name(areas, i["area"]), L["category"].get(i["category"], ""),
+                           [[name_cell(i), area_name(areas, i["area"]), kind_label(i),
                              f"€{i['beer_price_eur']:.2f}", rating(i), ", ".join(i.get("beers") or [])] for i in priced]))
     for aid in AREAS:
         rows = by_rating([i for i in beer if i["area"] == aid])
@@ -338,7 +343,7 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
             continue
         parts.append(f"\n## {area_name(areas, aid)} — {len(rows)}곳\n")
         parts.append(table(["이름(지도)", "유형", "맥주", "맥주 가격", "구글", "결제", "특징", "한 줄 소개"],
-                           [[name_cell(i), L["category"].get(i["category"], ""),
+                           [[name_cell(i), kind_label(i),
                              ", ".join(i.get("beers") or []) or ", ".join(L["drink"].get(d, d) for d in i.get("drinks") or []),
                              f"€{i['beer_price_eur']:.2f}" if i.get("beer_price_eur") else "–", rating(i),
                              "현금만" if i.get("payment") == "cash-only" else "",
@@ -356,7 +361,7 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
             rows = sorted([i for i in with_d if i["dist"][anchor] <= limit_km], key=lambda i: i["dist"][anchor])
             parts.append(f"\n직선거리 {limit_km:.0f}km 이내 {len(rows)}곳. 도보 시간은 우회 1.3배·시속 4.8km로 어림한 값.\n")
             parts.append(table(["이름(지도)", "유형", "음식", "가격", "구글", "거리", "도보"],
-                               [[name_cell(i), L["category"].get(i["category"], ""), i.get("cuisine"), price(i), rating(i),
+                               [[name_cell(i), kind_label(i), i.get("cuisine"), price(i), rating(i),
                                  f"{i['dist'][anchor]:.2f}km", f"{walk_minutes(i['dist'][anchor])}분"] for i in rows]))
         else:
             area_id = "deutz-messe" if anchor == "messe" else "dom-altstadt"
@@ -364,7 +369,7 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
             parts.append(f"\n아직 좌표가 없어 거리순 정렬을 못 했습니다(`python3 scripts/geocode.py` 실행 필요). "
                          f"우선 '{area_name(areas, area_id)}' 지역 목록을 평점순으로 보여줍니다.\n")
             parts.append(table(["이름(지도)", "유형", "음식", "가격", "구글"],
-                               [[name_cell(i), L["category"].get(i["category"], ""), i.get("cuisine"), price(i), rating(i)]
+                               [[name_cell(i), kind_label(i), i.get("cuisine"), price(i), rating(i)]
                                 for i in rows]))
         (TABLES / fname).write_text("\n".join(parts) + "\n", encoding="utf-8")
         written.append(fname)

@@ -59,6 +59,7 @@ def main() -> int:
     ap.add_argument("--region", action="append", choices=list(REGIONS), help="cuisine region")
     ap.add_argument("--country", action="append", type=str.upper, choices=list(COUNTRIES), help="cuisine country code")
     ap.add_argument("--category", action="append")
+    ap.add_argument("--style", action="append", help="bistro, wine-bar, tapas, izakaya, pizzeria, ... (schema.STYLES)")
     for opt, _field, allowed in FACET_ARGS:
         ap.add_argument(f"--{opt}", action="append", choices=list(allowed))
     ap.add_argument("--price", help="price level or range, e.g. 2 or 1-2")
@@ -107,6 +108,8 @@ def main() -> int:
             if args.region and it.get("cuisine_region") not in args.region:
                 continue
             if args.country and not any_in(it.get("cuisine_country") or [], args.country):
+                continue
+            if args.style and it.get("style") not in args.style:
                 continue
             if args.category and it.get("category") not in args.category:
                 continue
@@ -161,7 +164,7 @@ def main() -> int:
         food = "·".join(L["country"].get(c, c) for c in r.get("cuisine_country") or []) or \
             L["region"].get(r.get("cuisine_region"), "")
         out.append([
-            r["name"], L["category"].get(r.get("category"), r.get("category") or ""), r.get("area") or "",
+            r["name"], L["style"].get(r.get("style") or "", "") or L["category"].get(r.get("category"), r.get("category") or ""), r.get("area") or "",
             food if r["_kind"] != "attractions" else "",
             L["price_level"].get(r.get("price_level"), "") if r["_kind"] != "attractions" else (r.get("price_note") or ""),
             rating, dist,
