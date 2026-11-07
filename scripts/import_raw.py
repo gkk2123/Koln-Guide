@@ -644,8 +644,15 @@ def main() -> int:
         if kind != "attractions" and price_updates:
             apply_price_updates(items, price_updates)
         if kind != "attractions":
+            overrides = {o["id"]: o for o in (load_json(DATA / "style-overrides.json", {}) or {}).get("items", [])}
             for it in items:  # format of the place (bistro, wine bar, tapas ...), see schema.STYLES
                 it["style"] = it.pop("style_hint", None) or infer_style(it)
+                o = overrides.get(it["id"])
+                if o and o.get("style") in STYLES:
+                    it["style"] = o["style"]
+                    if o.get("must_try") and not it.get("must_try"):
+                        it["must_try"] = o["must_try"]
+                    it["sources"] += [u for u in o.get("sources", []) if u not in it["sources"]]
         if kind == "attractions" and attraction_updates:
             apply_attraction_updates(items, attraction_updates)
         if kind == "attractions":

@@ -171,6 +171,8 @@ ISO 3166-1 alpha-2를 씁니다. 하나로 정할 수 없는 퓨전·모던 유�
 나오면(`research/raw/r6-price-*.json`의 `style_hint`) 그것을 씁니다. 값이 없으면 일반 레스토랑(뷰어는 "레스토랑"으로 표시).
 값: fine-dining, bistro, brasserie, trattoria, pizzeria, izakaya, tapas, mezze, wine-bar, cocktail-bar, brauhaus, kneipe, beer-bar,
 steakhouse, burger, ramen-bar, sushi-bar, noodle-bar, pasta-bar, kebab, grill, chicken, buffet, gasthaus, cantina, streetfood,
-brunch, cafe, bakery, ice-cream, dessert, bar. 한국어 라벨은 `LABELS_KO["style"]`.
+brunch, cafe, bakery, ice-cream, dessert, bar, lounge, home-cooking, casual, curry-house, sharing, asian-kitchen, veggie, modern,
+ristorante, traditional, hotel-restaurant. 한국어 라벨은 `LABELS_KO["style"]`. 설명에 형태 단서가 없는 곳은
+`data/style-overrides.json`에 `{id, style, why, sources}`로 직접 지정합니다(규칙보다 우선).
 
 `price_checked`: 5·6차 가격 조사 확인 시점(예: "2026-11"). `price_note`에는 근거(메뉴판 가격, 구글 1인 범위 등)를 적습니다.

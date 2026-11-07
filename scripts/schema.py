@@ -114,8 +114,11 @@ STYLES = {
     "pizzeria": "피자리아", "izakaya": "이자카야", "tapas": "타파스·셰어링", "mezze": "메제(소량 전채)",
     "wine-bar": "와인바", "cocktail-bar": "칵테일바", "brauhaus": "브라우하우스", "kneipe": "동네 펍",
     "beer-bar": "맥주바", "steakhouse": "스테이크하우스", "burger": "버거", "ramen-bar": "라멘집", "sushi-bar": "스시",
-    "noodle-bar": "면 요리집", "pasta-bar": "파스타 바", "kebab": "케밥·되너", "grill": "그릴·바비큐", "chicken": "치킨",
+    "noodle-bar": "면 요리집", "pasta-bar": "파스타 바", "kebab": "케밥·되너", "grill": "그릴·고기구이", "chicken": "치킨",
     "buffet": "뷔페", "gasthaus": "가스트하우스(향토 식당)", "cantina": "칸티나(멕시칸 바)", "streetfood": "스트리트 푸드·임비스", "brunch": "아침·브런치 카페",
+    "home-cooking": "가정식", "casual": "캐주얼 식당", "curry-house": "커리 하우스", "sharing": "셰어 플래터",
+    "asian-kitchen": "아시안 키친", "veggie": "채식·비건", "modern": "모던 다이닝", "ristorante": "리스토란테",
+    "traditional": "정통 식당", "hotel-restaurant": "호텔 레스토랑",
     "lounge": "라운지", "cafe": "카페", "bakery": "베이커리", "ice-cream": "젤라토·아이스크림", "dessert": "디저트", "bar": "바",
 }
 STYLE_RULES = [  # first match wins; matched against the English/German cuisine text and the name
@@ -145,7 +148,17 @@ STYLE_RULES = [  # first match wins; matched against the English/German cuisine 
     ("bakery", r"bakery|bäckerei|backhaus|patisserie|pâtisserie"),
     ("brunch", r"brunch|breakfast|frühstück"),
     ("lounge", r"lounge"),
+    ("hotel-restaurant", r"hotel restaurant"),
+    ("modern", r"market cuisine|marktküche|modern european"),
+    ("veggie", r"^vegan|vegetarian & vegan|100% vegan|vegetarian restaurant"),
+    ("home-cooking", r"home cooking|home-style|hausmannskost"),
+    ("casual", r"comfort food"),
+    ("asian-kitchen", r"pan-asian"),
+    ("curry-house", r"curr(y|ies)"),
+    ("sharing", r"ethiopian|eritrean"),
+    ("traditional", r"^traditional"),
 ]
+DISH_STYLE = [("mezze", "mezze"), ("grill", "grill"), ("pho", "noodle-bar")]  # last resort: the signature dish
 CATEGORY_STYLE = {"fine-dining": "fine-dining", "cocktail-bar": "cocktail-bar", "wine-bar": "wine-bar",
                   "brauhaus": "brauhaus", "kneipe": "kneipe", "beer-bar": "beer-bar"}
 FALLBACK_STYLE = {"cafe": "cafe", "bakery": "bakery", "dessert": "dessert", "streetfood": "streetfood", "bar": "bar"}
@@ -163,6 +176,10 @@ def infer_style(it: dict) -> str | None:
     for style, rx in STYLE_RULES:
         if (allowed is None or style in allowed) and re.search(rx, text):
             return style
+    if cat == "restaurant":
+        for dish, style in DISH_STYLE:
+            if dish in (it.get("dishes") or []):
+                return style
     return FALLBACK_STYLE.get(cat)
 
 

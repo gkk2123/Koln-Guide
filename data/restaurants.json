@@ -701,8 +701,8 @@
       "confidence": "medium",
       "research": "r7-bv-german",
       "checked": "2026-11-07",
-      "style": "gasthaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "gasthaus"
     },
     {
       "id": "el-chango",
@@ -869,7 +869,10 @@
       "google_as_of": null,
       "rating_source": "yably.de (Google 4.40 / 833, 갱신일 미표시)",
       "summary_ko": "대성당 근처 마리엔가르텐가세(Mariengartengasse)에 있는 네팔·티베트 음식점으로, 시내 중심에서는 드문 히말라야 요리 선택지입니다(4.4, 리뷰 664개). 비건 메뉴가 있고 가격대가 중간 수준이라, 대성당을 본 뒤 색다른 음식을 맛보고 싶은 사람에게 맞습니다.",
-      "must_try": [],
+      "must_try": [
+        "Momos (모모 — 티베트·네팔식 만두)",
+        "Kukhura Saag (쿠쿠라 사그 — 닭고기 시금치 커리)"
+      ],
       "tips_ko": "구글 수치는 업소명 없이 주소로만 맞춰 본 값이라, 방문 전 Google 지도에서 이름과 영업 여부를 확인하세요. TripAligner에 따르면 배달도 됩니다.",
       "website": null,
       "awards": [],
@@ -879,7 +882,8 @@
         "https://tripaligner.com/countries/germany-22/destinations/koln-8618/places/buddha-s-eye-6429306",
         "https://yably.de/bewertungen/koeln/buddhas-eye-nepal-tibet-restaurant-mariengartengasse-5",
         "https://www.tripadvisor.com/Restaurant_Review-g187371-d6429306-Reviews-Buddha_s_Eye-Cologne_North_Rhine_Westphalia.html",
-        "https://wanderlog.com/list/geoCategory/2875/best-asian-food-in-cologne"
+        "https://wanderlog.com/list/geoCategory/2875/best-asian-food-in-cologne",
+        "https://speisekarte.menu/restaurants/cologne/buddhas-eye"
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
@@ -890,7 +894,7 @@
       "verification_note": "리뷰 수 664(reviewhero) → 833(Yably 구글)로 갱신. Yably 상호 'Buddha's Eye Nepal Tibet Restaurant', 주소 Mariengartengasse 5 일치. 정통 네팔 음식·모모·가성비 호평, 혼잡 시 서비스·예약 처리 비판. 트립어드바이저 4.3/156. 폐업 신호 없음.",
       "latest_review": null,
       "google_previous": "4.4 (664)",
-      "style": null
+      "style": "curry-house"
     },
     {
       "id": "louis-cafe-am-dom",
@@ -1445,7 +1449,7 @@
       "verification_note": "미쉐린 가이드 다국어 페이지에 현재 등재(Brüsseler Straße 26, 50674 Köln)되어 있어 영업 중으로 판단. 영업시간: 화–금 17:30–24:00(Schlemmer-Atlas), 토 18:00–24:00·일 휴무(미쉐린). 제3자 사이트에 '구글 4.7(200건 이상)' 언급이 있으나 출처가 불명확해 반영하지 않음(기존 4.9/223 유지).",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "modern"
     },
     {
       "id": "shaka-zulu",
@@ -1499,7 +1503,8 @@
         "https://www.opentable.com/r/shaka-zulu-koln",
         "https://www.swipein.restaurant/en/restaurant/shaka-zulu-koln",
         "https://www.speisekarte.de/k%C3%B6ln/restaurant/shaka_zulu/speisekarte",
-        "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-im-belgischen-viertel-in-koeln_shaka-zulu-suedafrikanisch_L1134356_1134346.html"
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-im-belgischen-viertel-in-koeln_shaka-zulu-suedafrikanisch_L1134356_1134346.html",
+        "https://tablejourney.com/germany/cologne/restaurants/shanghai-kueche-cologne/"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -1510,7 +1515,7 @@
       "verification_note": "2026-05-12 남아공 매체(dailynews.co.za)가 남아공 크리에이터의 방문 리뷰와 메뉴 논란을 보도함. 2026년 5월 영업 확인(구글 리뷰 날짜는 아님). 주소 Limburger Str. 29, 50672 Köln·전화 0221 16862814 확인. 영업시간이 출처마다 다름(koeln.de 월–목 12–15·18–22, 토 12–23:30, 일 10–21:30 / swipein 토 17–23:30, 일 18–21:30)이라 방문 전 확인 필요. OpenTable 4.6/209(구글 아님). 구글 수치는 이번 검색에서 미확인.",
       "latest_review": "2026-05",
       "price_checked": "2026-11",
-      "style": null
+      "style": "tapas"
     },
     {
       "id": "hempies",
@@ -1647,8 +1652,8 @@
       "confidence": "medium",
       "research": "r7-bv-german",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "cafe-buur",
@@ -1773,7 +1778,7 @@
       "verification_note": "쾰른관광청·Wolt·PlantsPack에 등록(Brabanter Straße 9, 50674 Köln)되어 있지만 구글 수치·최근 리뷰는 미확인. 한 가이드 사이트 자체 평점 3.9(구글 아님). koeln.de에는 같은 주소로 'Bep Viet'가 등록되어 있음(이전 상호로 추정, 미확인). PlantsPack 영업시간 월–토 11–18('검증 필요' 표시). 폐업 신호 없음.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "noodle-bar"
     },
     {
       "id": "sorellina-di-nuvola-napoli",
@@ -1911,8 +1916,8 @@
       "confidence": "medium",
       "research": "r7-bv-german",
       "checked": "2026-11-07",
-      "style": "brasserie",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brasserie"
     },
     {
       "id": "hambaga",
@@ -2110,7 +2115,7 @@
       "verification_note": "2024년 같은 팀이 Veggie Vu(비건 베트남)를 NiHao로 개명하고 중식 메뉴를 추가함(mitvergnuegen). 같은 주소의 예전 'Ni Hao' 리스팅(구글 4.5/385)은 Wanderlog 목록에 '영구 폐업' 표시. 개명 이전 리스팅으로 추정되며 현 NiHao 리스팅에는 폐업 표시 없음. 다만 spinach.guide는 매일 12–22:30, Wolt(veggie vu1)는 전일 '휴무'로 서로 어긋나고 2026년 리뷰·활동도 미확인이라 방문 전 확인 필요. 서비스 속도·결제 수단에 대한 리뷰는 엇갈림.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "noodle-bar"
     },
     {
       "id": "hankki-koeln",
@@ -2650,7 +2655,7 @@
       "latest_review": null,
       "google_previous": "4.4 (690)",
       "price_checked": "2026-11",
-      "style": null
+      "style": "traditional"
     },
     {
       "id": "lutticher",
@@ -2848,7 +2853,7 @@
       "verification_note": "구글 4.2 유지, 리뷰 903→918. 날짜가 확인된 최신 리뷰 2025-07-02(Wanderlog). 가성비·양·매운맛 호평, 정통성이 부족하다·서비스가 불친절하다는 지적. 예전 리뷰에 '현금만'(현재는 불확실). restaurantguru 자체 2.6/1,524는 신뢰 낮음. Heumarkt 지점(Krua Thai am Heumarkt)과는 다른 곳.",
       "latest_review": "2025-07",
       "google_previous": "4.2 (903)",
-      "style": null
+      "style": "casual"
     },
     {
       "id": "zadem",
@@ -3041,8 +3046,8 @@
       "confidence": "medium",
       "research": "r7-bv-german",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "chum-chay",
@@ -3113,7 +3118,7 @@
       "verification_note": "구글 4.6 유지, 리뷰 1,866→1,987. 확인된 최신 리뷰는 2025년. 음식·양 호평, 입구 대기줄·현금만 결제·좁은 좌석 지적이 있어 예약 권장. restaurantguru 자체 4.8/2,266.",
       "latest_review": "2025",
       "google_previous": "4.6 (1866)",
-      "style": null
+      "style": "veggie"
     },
     {
       "id": "toertchen-toertchen-apostelnstrasse",
@@ -3295,7 +3300,7 @@
       "verification_note": "기존 4.4/391(top-rated)은 오래된 스냅샷이므로 4.5/862로 갱신 권장. 웹사이트 thaifood-koeln.de, 전화 +49 221 2573190, 금 11–22시(RG). 커리·샐러드·팟타이 호평, 영어 메뉴·채식 메뉴·야외석 있음. 'Thai Food II'는 별도 리스팅.",
       "latest_review": null,
       "google_previous": "4.4 (391)",
-      "style": null
+      "style": "casual"
     },
     {
       "id": "reissdorf-am-hahnentor",
@@ -3370,8 +3375,8 @@
       "confidence": "medium",
       "research": "r7-bv-german",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "frueh-em-jan-von-werth",
@@ -3521,7 +3526,7 @@
       "verification_status": "open",
       "verification_note": "구글 4.3 유지. 최신 확인 리뷰 2025-11-27(5/5). 25hours Hotel The Circle 최상층(Im Klapperhof 22-24) 확인, 대성당 뷰. 후무스·메제 호평. 저녁이 비싸다, 서비스가 느리다, 시끄럽다는 지적이 있고 아침이 저녁보다 평이 좋음. 목 12–23시(RG).",
       "latest_review": "2025-11",
-      "style": null
+      "style": "mezze"
     },
     {
       "id": "nam-vietnamese",
@@ -3721,7 +3726,7 @@
       "verification_note": "주소 Jahnstr. 20, 50676 확인(speisekarte.de). Das Örtliche 구글 4.7/1147은 기존값(4.8/1165)보다 리뷰 수가 적어 이전 스냅샷으로 판단, 미반영(평점 4.7~4.8 사이). 영업시간 매일 11:30–23:00(Das Örtliche). speisekarte.de에 2024-12 비판 리뷰가 있으나 최신 리뷰인지는 불명.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "grill"
     },
     {
       "id": "tsukiji-koeln",
@@ -4058,7 +4063,7 @@
       "verification_note": "주소 Händelstr. 26 확인(여러 목록). OpenTable과 werkenntdenbesten('Joginder Ganesha' 명의)에 등록돼 있고 폐업 신호 없음. 구글 수치 미확인. mit Vergnügen 인도 식당 기사(연도 불명확)에서 쾰른에서 가장 오래된 인도 식당 중 하나로 소개.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "curry-house"
     },
     {
       "id": "hana-korean-kitchen",
@@ -4117,7 +4122,7 @@
       "verification_note": "mit Vergnügen 한식 기사 2024·2025년판에 Hohenstaufenring 23으로 등재(2025년까지만 확인). 구글 수치와 2026년 신호는 못 찾음 → 신뢰도 낮음. 2024 기사 영업시간: 월·수–목 12–15/17–21:30, 금–일 12–15/17–22 (화요일 휴무로 보임).",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "home-cooking"
     },
     {
       "id": "ristorante-etrusca",
@@ -4188,7 +4193,7 @@
       "verification_note": "주소 Zülpicher Str. 27 확인. OpenTable과 Schlemmer Atlas(인증 프리미엄 항목)에 등재. 영업시간이 출처마다 다름(OpenTable 매일 12–15/18–23, koeln.de 화–토 18–22·일 12–14/18–22) → 방문 전 확인 필요. 구글 수치 미확인(OpenTable 4.5는 리뷰 2건뿐).",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "ristorante"
     },
     {
       "id": "la-societe",
@@ -4394,7 +4399,7 @@
       "verification_note": "주소 Görresstr. 2 확인. 공식 사이트 영업시간: 화–토 17–24, 일 12–22, 월 휴무(일부 디렉터리는 18시 오픈). 늘 만석이라 예약 권장. 구글 수치 미확인(Tripadvisor 4.0/160).",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "traditional"
     },
     {
       "id": "fasika",
@@ -4456,7 +4461,7 @@
       "verification_note": "공식 사이트·Wolt 운영 중, 주소 Luxemburger Str. 17 확인. Wanderlog 구글 4.6/534는 기존 586보다 적은 이전 스냅샷 → 미반영(평점 4.6은 같음). 영업 17–23시이나 일요일 휴무 여부는 출처마다 다름. Restaurant Guru 4.5/696은 합산값.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "sharing"
     },
     {
       "id": "weinstube-bacchus",
@@ -4729,7 +4734,7 @@
       "verification_note": "평점 불일치 확인용 2차 검색: 구글 4.5로 일관(Wanderlog 807 = 기존값, Restaurant Guru 785, Das Örtliche 739, Yably 692) → 변동 없음. NeoTaste 4.9(2,206~2,239건)와 Restaurant Guru 자체 평점 4.8/880은 구글 수치 아님. 대부분 비건 메뉴, 실내 약 15석이라 전화 예약 권장. 영업 12–22/23시. mit Vergnügen 2025 기사.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "grill"
     },
     {
       "id": "injera-restaurant",
@@ -4801,7 +4806,7 @@
       "verification_note": "주소 Lindenstr. 86 확인. Habeshastudio(약 81일 전, 2026-08경 갱신) 영업시간: 월–목·일 18–23, 금–토 18–24(다른 출처와 다름). Restaurant Guru 구글 4.5 재확인(건수 미표시). speisekarte.menu 4.3/4,269는 구글 아님. 대기·서비스 편차 지적 일부.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "sharing"
     },
     {
       "id": "brauhaus-puetz",
@@ -4946,7 +4951,7 @@
       "latest_review": null,
       "google_previous": "4.4 (4900)",
       "price_checked": "2026-11",
-      "style": null
+      "style": "curry-house"
     },
     {
       "id": "casita-mexicana-belgisches-viertel",
@@ -5152,8 +5157,8 @@
       "confidence": "medium",
       "research": "r7-bv-german",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "cafe-feynsinn",
@@ -5362,7 +5367,7 @@
       "verification_note": "주소 일치(spinach·En Primeur). 퓨전 홈쿠킹, 별도 비건 메뉴 있음. 구글 수치·영업시간·최근 활동 확인 못 함, 폐업 신호 없음.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "home-cooking"
     },
     {
       "id": "cafe-caprista",
@@ -5783,8 +5788,8 @@
       "confidence": "medium",
       "research": "r7-bv-german",
       "checked": "2026-11-07",
-      "style": "gasthaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "gasthaus"
     },
     {
       "id": "vegan-food-revolution",
@@ -5855,7 +5860,7 @@
       "verification_note": "주소 일치. HappyCow 제보: 이제 치즈도 판매해 완전 비건이 아님 — '비건' 소개 시 주의. 'Vegan Revolution' 명의 항목의 4.1(609)은 출처·구글 여부 불명이고 기존 4.7(531)과 수학적으로 양립 불가 → 미반영. 영업 12–22시(HappyCow 매일 / spinach 화–토). Mit Vergnügen 2026 에렌펠트 비건 기사에 노출.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "veggie"
     },
     {
       "id": "bethlehem-oriental-kitchen",
@@ -5923,7 +5928,7 @@
       "verification_note": "주소 일치. 구글 4.7(352) 표기(En Primeur 추정)는 기존 4.7(362)보다 오래된 스냅숏 → 변경 없음. Wolt 'Restaurant Bethlehem' 운영 중 — 화 휴무, 저녁 17:00–21:30 위주. speisekarte.menu 4.4(1,320)·reviewhero 4.3(316)은 다출처 집계라 미반영.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "mezze"
     },
     {
       "id": "popeye-falafel",
@@ -6855,7 +6860,7 @@
       "verification_status": "open",
       "verification_note": "주소 불일치: Restaurant Guru·spinach.guide는 Severinstraße 162a, Mit Vergnügen 2025 기사·워크리스트는 164 — 인접 번지라 같은 가게로 보이며 지도 표기는 162a일 가능성(공식 출처로 확정 못 함). speisekarte.de 메뉴 2025-10-09 갱신, MV 2025 기사 등재 → 영업 중. 영업시간 출처별 상이(RG: 수–금 18–22:30, 토 15시~, 일–화 휴무). 구글 수치 재확인 못 함 — RG 자체 4.5/1,227, spinach 4.2/1,218(둘 다 구글 아님; 워크리스트 구글 4.7과 차이).",
       "latest_review": null,
-      "style": null
+      "style": "casual"
     },
     {
       "id": "pottkind",
@@ -7602,7 +7607,7 @@
       "verification_note": "새 구글 수치 없음(기존 Restaurant Guru 구글 4.7/685 유지 권장). Wanderlog 영업: 점심·저녁, 토 11:30–22:30, 일 11:30–15:00·17:30–22:30. 11880은 11–15·17–23시와 '닫힘' 표시가 있으나 오래된 스냅샷으로 보임. 정통 중식(마파두부·궁보계정) 호평. 전화 +49 221 82956288.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "casual"
     },
     {
       "id": "max-stark",
@@ -7933,7 +7938,7 @@
       "verification_note": "구글 4.4/1,388 재확인. 트립어드바이저 리뷰가 82 → 90건으로 늘어 활동 지속(평점 4.0). 토 17:00–00:30 영업 표기. 작고 인기 많아 예약 권장, 포장 가능. 해물파전·김치전 호평, 일부 메인이 달거나 평범하다는 평. 전화 +49 221 72024255.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "casual"
     },
     {
       "id": "damla-weidengasse",
@@ -8402,7 +8407,7 @@
       "verification_note": "RG 구글 4.5/128(워크리스트와 동일). werkenntdenbesten은 구글 4.6/73(2025-10-22 갱신)으로 건수 차이 — 리스팅 중복 또는 시점 차. MV 2025 기사: 화–토 12–15·17–22:30, 일 12–22:30, 월 휴무 → 영업 중.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "asian-kitchen"
     },
     {
       "id": "deutzer-brauhaus",
@@ -8604,7 +8609,7 @@
       "verification_status": "open",
       "verification_note": "주소 일치(Kennedy-Ufer 2a). 구글 약 4.3/약 1,700건(워크리스트 4.3/1,694와 같은 수준, 정확 수치 미표시 → 갱신 안 함). 하얏트 리젠시 파빌리온 — 같은 주소의 Sticky Fingers 리뷰가 섞일 수 있음. RG '전망 좋은 식당(2026년 7월)' 목록이 함께 검색됨(포함 여부 미확인). 대성당·라인 전망 테라스, 가격 높고 양 적다는 평.",
       "latest_review": null,
-      "style": null
+      "style": "hotel-restaurant"
     },
     {
       "id": "cafe-heimisch",
@@ -8812,7 +8817,7 @@
       "latest_review": "2025-01",
       "google_previous": "4.9 (396)",
       "price_checked": "2026-11",
-      "style": null
+      "style": "sharing"
     },
     {
       "id": "bulgogi-haus",
@@ -9199,7 +9204,7 @@
       "verification_note": "수치 불일치: RG 'Thai Gourmet (311 Neusser)' 4.2/746표(이 중 구글 약 716건, 구글 별점은 명시 안 됨) vs top-rated 구글 4.4/540(주소 Neusser Str. 311 확인) → 갱신 보류. Neusser Str. 207의 'Thai Gourmet 2'와 혼동 주의(RG는 이 지점이 예전에 'Thai Gourmet 2'였을 수 있다고 표기). 16–17시 휴식 시간 언급. 싸고 빠르고 양 많다는 평, 테이크아웃 인기. 날짜 있는 최신 리뷰는 못 봄.",
       "latest_review": null,
       "price_checked": "2026-11",
-      "style": null
+      "style": "casual"
     },
     {
       "id": "kilim-restaurant",
