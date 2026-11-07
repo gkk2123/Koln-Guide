@@ -227,10 +227,35 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 .tix b { font-family: var(--font-data); font-weight: 500; font-size: 13px; }
 .tix small { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
 .more h4 { margin: 10px 0 0; font-size: 13px; }
+.gate { min-height: 100vh; display: grid; place-items: center; padding: 24px 16px; }
+.gate-card { width: min(100%, 360px); background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: var(--radius); padding: 24px 20px; display: flex; flex-direction: column; gap: 12px; }
+.gate-card .wordmark { font-size: 52px; }
+.gate-card h1 { font-size: 18px; line-height: 1.35; }
+.gate-card p { margin: 0; font-size: 14px; color: var(--muted); }
+.gate-card input[type="password"] { font: inherit; font-size: 16px; width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.gate-card .remember { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); }
+.gate-card button { font: inherit; font-size: 15px; font-weight: 600; padding: 10px 14px; border: 0; border-radius: 8px; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+.gate-card button:disabled { opacity: .6; cursor: default; }
+.gate-card .gate-msg { color: var(--accent); font-size: 13px; min-height: 1.4em; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.locked .top, .locked main { display: none; }
 .warn { margin: 0; font-size: 13px; font-weight: 600; background: var(--accent-soft); border-radius: 6px; padding: 4px 8px; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 </style>
 <!--BODY-->
+<div class="gate" id="gate" hidden>
+  <form class="gate-card" id="gate-form">
+    <span class="wordmark" aria-hidden="true">Köln</span>
+    <h1>쾰른 맛집·바·관광지 가이드</h1>
+    <p>비밀번호를 넣으면 열려요.</p>
+    <label class="sr" for="gate-pw">비밀번호</label>
+    <input type="password" id="gate-pw" name="password" autocomplete="current-password" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="비밀번호" required>
+    <label class="remember"><input type="checkbox" id="gate-remember" checked> 이 기기에서 기억하기</label>
+    <button type="submit" id="gate-go">열기</button>
+    <p class="gate-msg" id="gate-msg" role="alert"></p>
+    <noscript><p>이 페이지는 자바스크립트가 필요해요.</p></noscript>
+  </form>
+</div>
 <header class="top">
   <div class="top-inner gutter">
     <div class="brand">
@@ -269,7 +294,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 </main>
 <!--DATA-->
 <script>
-(function () {
+function kgStart() {
   "use strict";
   var G = window.KOLN_GUIDE || { restaurants: [], bars: [], shops: [], attractions: [], areas: [], anchors: [], labels: {} };
   var CFG = window.KOLN_CONFIG || {};
@@ -956,6 +981,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   }
 
   // ------------------------------------------------------------ running tab
+  function fileUrl(path) { return (window.KOLN_FILES && window.KOLN_FILES[path]) || path; }
   function fmtMin(m) { var h = Math.floor(m / 60), mm = Math.round(m - h * 60); return (h ? h + "시간 " : "") + mm + "분"; }
   function courseColor(r) { return "var(--" + (r.token || "accent") + ")"; }
   function renderRun() {
@@ -992,7 +1018,8 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       '"></i>코스</span><span>번호: 경유 순서 · S: 출발·도착 · 작은 원: 1km마다</span></div><div class="run-links" style="margin-top:12px">' +
       rt.gmaps.map(function (x, i) {
         return '<a class="btn primary" href="' + esc(x.url) + '" target="_blank" rel="noopener">구글 지도 길찾기' + (rt.gmaps.length > 1 ? " " + (i + 1) + "/" + rt.gmaps.length : "") + "</a>";
-      }).join("") + (CFG.downloads ? '<a class="btn" href="routes/koln-running.kml">KML (구글 마이맵)</a><a class="btn" href="routes/koln-running-' + rt.id + '.gpx">GPX (러닝 앱)</a>' : "") +
+      }).join("") + (CFG.downloads ? '<a class="btn" href="' + esc(fileUrl("routes/koln-running.kml")) + '" download="koln-running.kml">KML (구글 마이맵)</a><a class="btn" href="' +
+        esc(fileUrl("routes/koln-running-" + rt.id + ".gpx")) + '" download="koln-running-' + rt.id + '.gpx">GPX (러닝 앱)</a>' : "") +
       '</div><p class="map-note">' + (rt.gmaps.length > 1 ? "구글 지도 길찾기는 경유지가 9곳까지라 구간을 나눴어요. " : "") + "구글이 고르는 길은 이 코스와 조금 다를 수 있어요. " +
       (CFG.downloads ? "" : "KML(구글 마이맵)·GPX(러닝 앱) 파일은 저장소 routes/ 폴더에 있어요. ") + "경로 데이터 © OpenStreetMap 기여자.</p></div>";
     html += '<ol class="stops">' + stops.slice(0, -1).map(function (st) {
@@ -1191,11 +1218,73 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 
   var foot = document.getElementById("foot");
   foot.innerHTML = "데이터 기준일 " + esc(G.generated || "") + " · 식음료는 구글 평점 " + ((G.criteria || {}).min_google_rating || 4.2) +
-    "+ & 리뷰 " + ((G.criteria || {}).min_google_reviews || 50) + "+만 표시 · 평점·영업시간은 방문 전 구글 지도에서 다시 확인하세요.";
+    "+ & 리뷰 " + ((G.criteria || {}).min_google_reviews || 50) + "+만 표시 · 평점·영업시간은 방문 전 구글 지도에서 다시 확인하세요." +
+    (window.KOLN_ENC ? ' · <button type="button" class="linkbtn" id="lockbtn">잠그기</button>' : "");
+  var lockbtn = document.getElementById("lockbtn");
+  if (lockbtn) lockbtn.addEventListener("click", function () { kgForget(); location.reload(); });
   document.getElementById("stamp").textContent = (G.generated ? G.generated.slice(0, 7).replace("-", ".") + " 조사 · " : "") + "구글 ★4.2+ · 리뷰 50+";
 
   var rail = document.getElementById("rail");
   if (window.matchMedia && window.matchMedia("(min-width: 960px)").matches) rail.open = true;
   setTab((location.hash || "").slice(1) || recall("tab") || "food");
-})();
+}
+
+// ------------------------------------------------------------ password screen (encrypted GitHub Pages build only)
+// data.enc.js holds the guide as AES-256-GCM ciphertext; the key comes from the password via PBKDF2-SHA256.
+function kgForget() {
+  try { Object.keys(localStorage).forEach(function (k) { if (k.indexOf("kg.key.") === 0) localStorage.removeItem(k); }); } catch (e) {}
+}
+function kgGate() {
+  var E = window.KOLN_ENC, gate = document.getElementById("gate"), form = document.getElementById("gate-form");
+  var input = document.getElementById("gate-pw"), msg = document.getElementById("gate-msg"), go = document.getElementById("gate-go");
+  var remember = document.getElementById("gate-remember"), KEY = "kg.key." + E.salt;
+  document.body.classList.add("locked"); gate.hidden = false;
+  function bytes(b64) { var bin = atob(b64), u = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return u; }
+  function b64(buf) { var u = new Uint8Array(buf), s = ""; for (var i = 0; i < u.length; i++) s += String.fromCharCode(u[i]); return btoa(s); }
+  function busy(on, text) { go.disabled = on; input.disabled = on; msg.textContent = text || ""; }
+  if (!(window.crypto && crypto.subtle && window.TextEncoder && window.DecompressionStream)) {
+    busy(true, "이 브라우저에서는 열 수 없어요. 최신 Chrome·Safari·Firefox로 열어 주세요."); return;
+  }
+  function derive(pw) {
+    return crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveBits"]).then(function (k) {
+      return crypto.subtle.deriveBits({ name: "PBKDF2", hash: "SHA-256", salt: bytes(E.salt), iterations: E.iter }, k, 256);
+    });
+  }
+  function open(bits) {
+    return crypto.subtle.importKey("raw", bits, "AES-GCM", false, ["decrypt"]).then(function (key) {
+      return crypto.subtle.decrypt({ name: "AES-GCM", iv: bytes(E.iv) }, key, bytes(E.ct));
+    }).then(function (plain) {
+      return new Response(new Blob([plain]).stream().pipeThrough(new DecompressionStream("gzip"))).text();
+    }).then(function (txt) {
+      var d = JSON.parse(txt), files = d.files || {};
+      window.KOLN_GUIDE = d.guide; window.KOLN_FILES = {};
+      Object.keys(files).forEach(function (path) {
+        var type = /\.gpx$/.test(path) ? "application/gpx+xml" : "application/vnd.google-earth.kml+xml";
+        window.KOLN_FILES[path] = URL.createObjectURL(new Blob([files[path]], { type: type }));
+      });
+      return bits;
+    });
+  }
+  function unlock(bits, save) {
+    if (save) { try { localStorage.setItem(KEY, b64(bits)); } catch (e) {} }
+    gate.hidden = true; document.body.classList.remove("locked");
+    kgStart();
+  }
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var pw = input.value.trim();
+    if (!pw) return;
+    busy(true, "여는 중…");
+    derive(pw).then(open).then(function (bits) { unlock(bits, remember.checked); }, function () {
+      busy(false, "비밀번호가 맞지 않아요."); input.select();
+    });
+  });
+  var saved = null;
+  try { saved = localStorage.getItem(KEY); } catch (e) {}
+  if (saved) {
+    busy(true, "여는 중…");
+    open(bytes(saved).buffer).then(function (bits) { unlock(bits, false); }, function () { kgForget(); busy(false); input.focus(); });
+  } else input.focus();
+}
+if (window.KOLN_ENC && !window.KOLN_GUIDE) kgGate(); else kgStart();
 </script>

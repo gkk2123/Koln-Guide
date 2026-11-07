@@ -1,0 +1,8 @@
+{
+  "password_protected": true,
+  "password_env": "KOLN_GUIDE_PASSWORD",
+  "kdf": "PBKDF2-HMAC-SHA256",
+  "iterations": 600000,
+  "salt": "RcknGCBDZfj7QhU1NgUJMQ==",
+  "note": "docs/ (GitHub Pages) holds the guide only as AES-256-GCM ciphertext (docs/data.enc.js). The password is never written to the repository; build.py reads it from the environment variable above. The salt is not secret and stays fixed so a browser that remembered the key keeps working after a rebuild."
+}

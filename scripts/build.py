@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """Build the generated outputs from data/*.json.
 
-    python3 scripts/build.py                       # guides/tables/*.md + docs/data.js + docs/index.html
-    python3 scripts/build.py --artifact out.html   # also a single self-contained page (data inlined)
+    KOLN_GUIDE_PASSWORD=... python3 scripts/build.py   # guides/tables/*.md + docs/ (encrypted GitHub Pages site)
+    python3 scripts/build.py --artifact out.html       # also a single self-contained page (data inlined)
+
+docs/ is password-protected (data/site.json): the guide data is written only as AES-256-GCM ciphertext
+(docs/data.enc.js) and the page asks for the password. Without KOLN_GUIDE_PASSWORD, docs/ is left as it is.
 
 Food & drink that no longer meet the bar (Google >= 4.2 and >= 50 reviews) or are marked
 CLOSED_PERMANENTLY are left out of every output.
@@ -10,8 +13,13 @@ CLOSED_PERMANENTLY are left out of every output.
 from __future__ import annotations
 
 import argparse
+import base64
 import datetime as dt
+import gzip
+import hashlib
 import json
+import os
+import shutil
 import re
 import sys
 import urllib.parse
@@ -400,19 +408,68 @@ def viewer_payload(data: dict, areas_doc: dict, generated: str) -> dict:
 
 
 def render_viewer(payload: dict, mode: str) -> str:
-    """mode 'site' -> full HTML document loading data.js; 'artifact' -> fragment with inline data."""
+    """mode 'site' -> full HTML document loading data.js; 'protected' -> same, but the data is the encrypted
+    data.enc.js behind a password screen; 'artifact' -> fragment with inline data."""
     tpl = TEMPLATE.read_text(encoding="utf-8")
     head, body = tpl.split("<!--BODY-->", 1)
     head = head.replace("<!--HEAD-->", "")
-    config = json.dumps({"geolocation": mode == "site", "downloads": mode == "site"})
+    site = mode in ("site", "protected")
+    config = json.dumps({"geolocation": site, "downloads": site})
     data_js = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    if mode == "site":
-        body = body.replace("<!--DATA-->", f'<script>window.KOLN_CONFIG={config};</script>\n<script src="data.js"></script>')
+    if site:
+        src = "data.enc.js" if mode == "protected" else "data.js"
+        body = body.replace("<!--DATA-->", f'<script>window.KOLN_CONFIG={config};</script>\n<script src="{src}"></script>')
+        attrs, extra = "", ""
+        if mode == "protected":  # start locked so nothing flashes before the script runs; keep it out of search engines
+            body = body.replace('<div class="gate" id="gate" hidden>', '<div class="gate" id="gate">', 1)
+            attrs, extra = ' class="locked"', '<meta name="robots" content="noindex, nofollow">\n'
         return ('<!doctype html>\n<html lang="ko">\n<head>\n<meta charset="utf-8">\n'
                 '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
-                f"{head.strip()}\n</head>\n<body>\n{body.strip()}\n</body>\n</html>\n")
+                f"{extra}{head.strip()}\n</head>\n<body{attrs}>\n{body.strip()}\n</body>\n</html>\n")
     body = body.replace("<!--DATA-->", f"<script>window.KOLN_CONFIG={config};window.KOLN_GUIDE={data_js};</script>")
     return f"{head.strip()}\n{body.strip()}\n"
+
+
+def encrypt_site(payload: dict, site: dict, password: str) -> str:
+    """Guide data + route files -> gzip -> AES-256-GCM (key = PBKDF2-SHA256(password, salt)) -> data.enc.js text."""
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM  # pip install cryptography (only for this step)
+
+    files = {f"routes/{f.name}": f.read_text(encoding="utf-8")
+             for f in sorted((ROOT / "routes").glob("*")) if f.suffix in (".kml", ".gpx")}
+    plain = json.dumps({"guide": payload, "files": files}, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    salt = base64.b64decode(site["salt"])
+    key = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), salt, int(site["iterations"]), dklen=32)
+    iv = os.urandom(12)
+    ct = AESGCM(key).encrypt(iv, gzip.compress(plain, mtime=0), None)  # ciphertext || 16-byte tag, as WebCrypto expects
+    enc = {"v": 1, "kdf": "PBKDF2-SHA256", "iter": int(site["iterations"]), "salt": site["salt"],
+           "iv": base64.b64encode(iv).decode(), "ct": base64.b64encode(ct).decode()}
+    return "window.KOLN_ENC = " + json.dumps(enc) + ";\n"
+
+
+def write_site(payload: dict) -> str:
+    """docs/ for GitHub Pages. With data/site.json password_protected, only ciphertext is written."""
+    site = load_json(DATA / "site.json", {}) or {}
+    DOCS.mkdir(exist_ok=True)
+    if not site.get("password_protected"):
+        (DOCS / "data.js").write_text("window.KOLN_GUIDE = " + json.dumps(payload, ensure_ascii=False, indent=1) + ";\n",
+                                      encoding="utf-8")
+        routes_dir = ROOT / "routes"
+        if routes_dir.exists():  # serve the route files next to the GitHub Pages viewer
+            (DOCS / "routes").mkdir(exist_ok=True)
+            for f in routes_dir.glob("*.*"):
+                (DOCS / "routes" / f.name).write_bytes(f.read_bytes())
+        (DOCS / "index.html").write_text(render_viewer(payload, "site"), encoding="utf-8")
+        return "docs/ written (open)"
+    env = site.get("password_env", "KOLN_GUIDE_PASSWORD")
+    password = os.environ.get(env, "")
+    if not password:
+        return f"docs/ NOT rebuilt: the site is password-protected — run with {env}=<password> to rebuild it"
+    (DOCS / "data.enc.js").write_text(encrypt_site(payload, site, password), encoding="utf-8")
+    (DOCS / "index.html").write_text(render_viewer(payload, "protected"), encoding="utf-8")
+    (DOCS / ".nojekyll").write_text("", encoding="utf-8")
+    (DOCS / "data.js").unlink(missing_ok=True)  # never leave readable copies next to the encrypted site
+    shutil.rmtree(DOCS / "routes", ignore_errors=True)
+    return "docs/ written (encrypted, password required)"
 
 
 def main() -> int:
@@ -435,16 +492,9 @@ def main() -> int:
 
     written = write_tables(data, areas, generated)
     payload = viewer_payload(data, areas_doc, generated)
-    DOCS.mkdir(exist_ok=True)
-    (DOCS / "data.js").write_text("window.KOLN_GUIDE = " + json.dumps(payload, ensure_ascii=False, indent=1) + ";\n",
-                                  encoding="utf-8")
-    routes_dir = ROOT / "routes"
-    if routes_dir.exists():  # serve the route files next to the GitHub Pages viewer
-        (DOCS / "routes").mkdir(exist_ok=True)
-        for f in routes_dir.glob("*.*"):
-            (DOCS / "routes" / f.name).write_bytes(f.read_bytes())
+    site_msg = "docs/ skipped (no template)"
     if TEMPLATE.exists():
-        (DOCS / "index.html").write_text(render_viewer(payload, "site"), encoding="utf-8")
+        site_msg = write_site(payload)
         if args.artifact:
             with open(args.artifact, "w", encoding="utf-8") as f:
                 f.write(render_viewer(payload, "artifact"))
@@ -453,6 +503,7 @@ def main() -> int:
     with_coords = sum(1 for v in data.values() for i in v if i.get("lat") is not None)
     print(f"built: {counts}; with coordinates: {with_coords}")
     print("tables:", ", ".join(written))
+    print(site_msg)
     return 0
 
 

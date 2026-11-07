@@ -7,7 +7,7 @@
 
 | 보고 싶은 것 | 위치 |
 |---|---|
-| 필터 웹 뷰어 (목록·지도 보기, 빠른 선택, 러닝 코스 탭) | [`docs/index.html`](docs/index.html) — 브라우저로 열기. GitHub Pages로 올리려면 Settings → Pages → Branch `/docs` |
+| 필터 웹 뷰어 (목록·지도 보기, 빠른 선택, 러닝 코스 탭) — **비밀번호로 잠김** | GitHub Pages: <https://gkk2123.github.io/Koln-Guide/> (Settings → Pages에서 이 브랜치의 `/docs`를 켜면 열려요). 비밀번호는 만든 사람에게 받으세요 |
 | 세계 음식 분석 (나라·동네·요리별 추천, 한식) | [`guides/international-food.md`](guides/international-food.md) |
 | 이번 시즌 (2026-11~2027-02): 대성당 입장료, 휴관, 11.11 카니발, 크리스마스 마켓 | [`guides/season-2026-11-to-2027-02.md`](guides/season-2026-11-to-2027-02.md) |
 | 관광지 입장권·운영시간 (11–12월 요일별 시간, 마지막 입장, 공휴일 휴관, 무료·할인, 예약, 패스) | [`guides/tables/attractions-tickets-hours.md`](guides/tables/attractions-tickets-hours.md) · 웹 뷰어 관광지 탭 "오늘 여는 곳" |
@@ -87,6 +87,7 @@ Koln-Guide/
 │   ├── shops.json               와인숍
 │   ├── attractions.json         관광지·박물관·성당·시즌 이벤트 (쾰른 시내) + 입장권·요일별 운영시간
 │   ├── passes.json              쾰른카드·뮤지엄카드 등 패스·콤비 티켓
+│   ├── site.json                웹 뷰어 잠금 설정 (암호화 방식·솔트 — 비밀번호는 저장하지 않음)
 │   ├── wine.json                와인 품종·산지·용어 (뷰어용)
 │   ├── candidates.json          검증 대기·기준 미달 후보
 │   ├── routes-spec.json         러닝 코스 경유지 정의 (공개 장소만)
@@ -106,7 +107,7 @@ Koln-Guide/
 │   ├── filter.py                CLI 필터
 │   └── templates/viewer.html    웹 뷰어 템플릿
 ├── routes/                      러닝 코스 파일 (KML: 구글 마이맵 · GPX: 러닝 앱 · GeoJSON)
-└── docs/                        필터 웹 뷰어 (생성물: index.html, data.js, routes/)
+└── docs/                        GitHub Pages 웹 뷰어 (생성물: index.html + data.enc.js — 암호화된 데이터)
 ```
 
 ## 데이터 갱신
@@ -116,10 +117,15 @@ python3 scripts/import_raw.py                  # research/raw/*.json → data/*.
 python3 scripts/geocode.py                     # 좌표 채우기 (캐시 사용, 주소가 바뀐 곳만 새로 조회) → 거리 필터
 GOOGLE_MAPS_API_KEY=... python3 scripts/verify_google_places.py   # (선택) 구글 평점·가격대 실시간 재검증
 python3 scripts/build_routes.py                # (선택) 러닝 코스 다시 계산 → routes/, data/routes.json
-python3 scripts/build.py                       # 표와 웹 뷰어 다시 만들기
+KOLN_GUIDE_PASSWORD=... python3 scripts/build.py   # 표와 웹 뷰어 다시 만들기 (비밀번호로 docs/ 암호화)
 ```
 
 `import_raw.py`는 `research/raw` 기준으로 `data/`를 다시 쓰므로, 손으로 고친 내용은 `research/raw`에도 반영하세요.
+
+**웹 뷰어 잠금:** `docs/`에는 가이드 데이터가 AES-256-GCM 암호문(`docs/data.enc.js`)으로만 들어가고, 페이지가 비밀번호를 물어
+브라우저 안에서 풀어요(키 = PBKDF2-SHA256 60만 회). 비밀번호는 저장소 어디에도 없고, `KOLN_GUIDE_PASSWORD` 없이 `build.py`를 돌리면
+`docs/`는 그대로 둬요(실수로 평문이 올라가지 않게). "이 기기에서 기억하기"를 켜면 그 브라우저는 다음부터 바로 열리고, 맨 아래 "잠그기"로 지울 수 있어요.
+단, **이 저장소 자체가 공개**라 `data/`·`guides/`·`research/`의 원자료는 GitHub에서 누구나 볼 수 있어요. 잠금은 웹 뷰어에만 걸립니다.
 같은 곳이 여러 조사 파일에 있으면 나중 조사(r2-*)가 우선합니다.
 
 ## 진행 상황
