@@ -660,12 +660,19 @@
       "award_flags": [],
       "sources": [
         "https://wanderlog.com/place/details/1655928/kneipe--die-oper",
-        "https://veedelcgn.com/news/11-11-in-koeln-koelsch-bis-3-euro-und-was-zum-sessionsstart-feststeht"
+        "https://veedelcgn.com/news/11-11-in-koeln-koelsch-bis-3-euro-und-was-zum-sessionsstart-feststeht",
+        "https://de.restaurantguru.com/Kneipe-Die-Oper-Cologne",
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d27894318-Reviews-Kneipe_Die_Oper-Cologne_North_Rhine_Westphalia.html",
+        "https://www.facebook.com/kneipedieoper/"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "주소 Händelstr. 14 확인. Wanderlog 구글 4.8/122 재확인, 변동 없음. Restaurant Guru 4.7/126은 합산값. 영업시간(Restaurant Guru): 월–목 17–23, 토 17–02(일부 18–01), 일 16–21.",
+      "latest_review": null
     },
     {
       "id": "spirits-bar",
@@ -708,12 +715,18 @@
       "awards": [],
       "award_flags": [],
       "sources": [
-        "https://www.werkenntdenbesten.de/e/54331281/bar/koeln/spirits-dominique-simon-bewertungen.html"
+        "https://www.werkenntdenbesten.de/e/54331281/bar/koeln/spirits-dominique-simon-bewertungen.html",
+        "https://spiritsbar.de/2-contact-us/",
+        "https://www.dasoertliche.de/Themen/Spirits-K%C3%B6ln-Neustadt-S%C3%BCd-Engelbertstr"
       ],
       "confidence": "high",
       "research": "r2-bars",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "주소 Engelbertstr. 63 확인. werkenntdenbesten 구글 4.70/896 재확인, 변동 없음(5개 포털 합산 4.71/1,156). 공식 사이트 영업시간 월–목 18–01, 금–토 18–03, 일 18–24이지만 'Corona special' 표기라 오래된 정보일 수 있음. 디렉터리는 20시 오픈으로 표기. 일부 바텐더가 불친절하다는 리뷰 있음.",
+      "latest_review": null
     },
     {
       "id": "ona-mor",
@@ -758,12 +771,20 @@
       "sources": [
         "https://wanderlog.com/place/details/2017207/ona-mor-bar-k%C3%B6ln",
         "https://wanderlog.com/list/geoCategory/1524105/cocktail-bars",
-        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/",
+        "https://www.yelp.com/biz/ona-mor-k%C3%B6ln-2",
+        "https://restaurantguru.com/Ona-Mor-Cologne",
+        "https://www.top-rated.online/cities/Cologne/place/p/1237627/ONA+MOR+Bar+-+K%C3%B6ln",
+        "https://www.tripadvisor.in/Attraction_Review-g187371-d4052437-Reviews-Ona_Mor-Cologne_North_Rhine_Westphalia.html"
       ],
       "confidence": "medium",
       "research": "r2-bars",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "Yelp 페이지 2026-02 갱신, 주소 Roonstr. 94 확인. Wanderlog 구글 4.7/768과 Restaurant Guru 구글 4.7/714는 기존 785보다 적은 이전 스냅샷 → 변동 없음. 화요일 휴무(Restaurant Guru). 문을 노크해야 입장, 주말엔 거의 만석이라 예약 권장.",
+      "latest_review": null
     },
     {
       "id": "samuels-shep",
@@ -809,12 +830,19 @@
       "award_flags": [],
       "sources": [
         "https://wanderlog.com/place/details/2017205/samuels-shep-i-cocktailbar-k%C3%B6ln",
-        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
+        "https://yably.de/bewertungen/koeln/samuels-shep-i-cocktailbar-koeln-rathenauplatz-5",
+        "https://web2.cylex.de/firma-home/samuel%C2%B4s-shep-i-cocktailbar-koeln-6300825.html",
+        "https://www.golocal.de/koeln/bars-lounges/samuels-shep-i-cocktailbar-koeln-10WptH/"
       ],
       "confidence": "medium",
       "research": "r2-bars",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "주소 Rathenauplatz 5 확인. 모든 출처가 일·월 휴무로 표기, 화–목 19–24, 금–토 ~01/02시. Wanderlog 4.7/138은 기존 4.6/166보다 적은 이전 스냅샷이고, 다른 디렉터리의 4.9/126은 출처가 불명 → 미반영. 2020년 무렵 목록에 게시된 영업시간이 틀렸다는 지적이 있었음.",
+      "latest_review": null
     },
     {
       "id": "der-stiefel",
@@ -857,12 +885,20 @@
       "sources": [
         "https://wanderlog.com/place/details/8643812/der-stiefel",
         "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
-        "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City"
+        "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City",
+        "https://fussballgucken.info/location/stiefel-kneipe-koeln",
+        "https://www.offen.net/koeln/stiefel-B4P4X3/",
+        "https://rausgegangen.de/en/locations/stiefel/",
+        "https://www.dasoertliche.de/Themen/Stiefel-K%C3%B6ln-Neustadt-S%C3%BCd-Z%C3%BClpicher-Str"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "주소 Zülpicher Str. 18 확인, 공식 사이트 stiefelkneipe.de. 영업 월–목·일 18–02, 금–토 18–05, 축구 중계가 있으면 킥오프 1시간 전 오픈. Wanderlog 구글 4.5/1,362 재확인, 변동 없음. 주의: 도어맨이 불친절하고 인종차별·차별을 했다는 리뷰가 여러 건 있음.",
+      "latest_review": null
     },
     {
       "id": "rosebud-bar",
@@ -906,12 +942,20 @@
       "award_flags": [],
       "sources": [
         "https://wanderlog.com/place/details/4359680/rosebud-bar-cologne",
-        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
+        "https://www.yelp.com/biz/cocktail-bar-rosebud-k%C3%B6ln",
+        "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d965584-Reviews-Rosebud_Bar-Cologne_North_Rhine_Westphalia.html",
+        "https://yably.de/bewertungen/koeln/cocktailbar-rosebud-heinsbergstr-20",
+        "https://www.opentable.com/r/rosebud-bar-cologne-koln"
       ],
       "confidence": "medium",
       "research": "r2-bars",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "Yelp 페이지 2026-04 갱신, Tripadvisor 2026 페이지 있음, 주소 Heinsbergstr. 20 확인. Wanderlog 구글 4.5/491 재확인, 변동 없음. Yelp 3.8/62와 Tripadvisor 3.8/51은 낮은 편(서비스 3.3). 영업시간 출처마다 다름(Yelp 19–02·금 ~03 vs Yably 21시~).",
+      "latest_review": null
     },
     {
       "id": "trierer-eck",
@@ -968,12 +1012,20 @@
         "https://restaurantguru.com/Trierer-Eck-Cologne",
         "https://wanderlog.com/place/details/3638747/gastst%C3%A4tte-trierer-eck",
         "https://verliebtinkoeln.com/koelner-lokale-in-denen-das-koelsch-noch-unter-2-euro-kostet/",
-        "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/"
+        "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/",
+        "https://yably.de/bewertungen/koeln/gaststaette-trierer-eck-trierer-str-21a",
+        "https://coolibri.de/restaurant/gaststaette-trierer-eck-koeln/",
+        "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d7990612-Reviews-Trierer_Eck-Cologne_North_Rhine_Westphalia.html",
+        "https://www.online-tischreservierung.de/restaurant/index/Nordrhein-Westfalen/K%C3%B6ln/Sushi/cxjadsl3e6/Gastst%C3%A4tte%20Trierer%20Eck"
       ],
       "confidence": "high",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "주소 Trierer Str. 21A, 50676 확인. 영업 월–목 14시~, 금–일 10:30~, 자정까지(복수 출처). 현금 결제만 가능(coolibri). Restaurant Guru 4.5/507은 구글 단독 수치인지 플랫폼 합산인지 불명확하고, Yably 구글 4.5/367은 이전 스냅샷 → 둘 다 미반영(평점 4.5는 같음). 가격이 합리적이라는 평.",
+      "latest_review": null
     },
     {
       "id": "the-baer-gin-cocktailbar",

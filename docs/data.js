@@ -3418,10 +3418,13 @@ window.KOLN_GUIDE = {
    "reservation": "unknown",
    "payment": "unknown",
    "location": [],
-   "price_level": null,
+   "price_level": 1,
    "price_estimated": false,
-   "price_pp": null,
-   "price_note": "가격 정보 미확인",
+   "price_pp": {
+    "min": 10,
+    "max": 15
+   },
+   "price_note": "리뷰 기준 메인 요리 약 €10–15 (구글 1인 가격대 아님)",
    "beer_price_eur": null,
    "beer_price_note": null,
    "beers": [],
@@ -3439,12 +3442,20 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://www.top-rated.online/cities/Cologne/place/p/2223196/Nam",
-    "https://wanderlog.com/place/details/2627460/nam"
+    "https://wanderlog.com/place/details/2627460/nam",
+    "https://www.namkoeln.de/",
+    "https://finde-offen.de/koeln/nam-3458235",
+    "https://restaurantguru.com/Nam-Cologne",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d14958089-Reviews-Nam-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "1차 검색에서 주소 확인 실패 → 2차 검색으로 finde-offen.de와 공식 사이트(namkoeln.de)에서 Engelbertstr. 3 확인, 폐업 신호 없음. Restaurant Guru 4.9/838(자체 합산)·Tripadvisor 4.9/52는 구글 수치 아님 → 구글 676건 갱신값 미확인. 현금 전용 여부는 리뷰마다 다름. 일요일 휴무 언급은 오래된 리뷰. 전화번호도 출처마다 다름.",
+   "latest_review": null,
    "dist": {
     "dom": 1.78,
     "hbf": 1.86,
@@ -3501,12 +3512,20 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/1508522/the-coffee-gang",
     "https://wanderlog.com/list/geoCategory/17153/best-coffee-shops-and-best-cafes-in-cologne",
-    "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+    "https://tablejourney.com/germany/cologne/cuisine/cafe/",
+    "https://spinach.guide/venues/the-coffee-gang-30325/",
+    "https://travelpal.ai/destinations/europe/germany/north-rhine-westphalia/koln/the-coffee-gang-19-hohenstaufenring",
+    "https://www.brian-coffee-spot.com/2022/06/09/the-coffee-gang-hohenstaufenring",
+    "https://www.meininger.de/locations/coffee-gang-koeln"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Hohenstaufenring 19 확인(여러 목록). Spinach 가이드 영업시간 월–금 8–18, 주말 10–18(갱신일 미상). Travelpal 4.8/약 1.3K는 구글 표기가 없어 미반영. 폐업 신호는 없지만 2025–26년 날짜가 붙은 신호도 찾지 못함 → 신뢰도 낮음.",
+   "latest_review": null,
    "dist": {
     "dom": 1.74,
     "hbf": 1.82,
@@ -3558,12 +3577,18 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
     "https://www.speisekarte.de/k%C3%B6ln/restaurant/sadaf/bewertung",
-    "https://speisekarte.menu/restaurants/koeln/sadaf/menu"
+    "https://speisekarte.menu/restaurants/koeln/sadaf/menu",
+    "https://www.dasoertliche.de/Themen/Sadaf-Köln-Jahnstr",
+    "https://extensionembed.wanderlog.com/place/details/4073168"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Jahnstr. 20, 50676 확인(speisekarte.de). Das Örtliche 구글 4.7/1147은 기존값(4.8/1165)보다 리뷰 수가 적어 이전 스냅샷으로 판단, 미반영(평점 4.7~4.8 사이). 영업시간 매일 11:30–23:00(Das Örtliche). speisekarte.de에 2024-12 비판 리뷰가 있으나 최신 리뷰인지는 불명.",
+   "latest_review": null,
    "dist": {
     "dom": 1.5,
     "hbf": 1.58,
@@ -3625,12 +3650,19 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/2627369/tsukiji",
     "https://wanderlog.com/list/geoCategory/84981/best-sushi-restaurants-and-sushi-bars-in-cologne",
     "https://koeln.mitvergnuegen.com/2024/essen-kwartier-lataeng",
-    "https://koeln.mitvergnuegen.com/2026/kwartier-lataeng"
+    "https://koeln.mitvergnuegen.com/2026/kwartier-lataeng",
+    "https://wolt.com/en/deu/cologne/restaurant/tsukiji-restaurant",
+    "https://www.opentable.co.uk/r/tsukiji-koln",
+    "https://koeln.mitvergnuegen.com/2020/neueroeffnungen-winter-2019-2020/"
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Zülpicher Platz 4a 확인(Wolt 등). Wolt 배달·OpenTable 예약 페이지가 운영 중이라 영업 신호로 봄. OpenTable 영업시간 월–금 11:30–22:30, 토 12–22:30, 일 13–22. OpenTable 4.7/15는 구글 아님 → 구글 최신 수치 미확인.",
+   "latest_review": null,
    "dist": {
     "dom": 1.71,
     "hbf": 1.79,
@@ -3685,12 +3717,19 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/1655848/takumi-japanisches-ramen-restaurant",
-    "https://wanderlog.com/list/geoCategory/1507873/best-ramen-in-cologne"
+    "https://wanderlog.com/list/geoCategory/1507873/best-ramen-in-cologne",
+    "https://www.nochoffen.de/altstadtsued-takumi-koeln-japanisches-ramen",
+    "https://tripaligner.com/countries/germany-22/destinations/koln-8618/places/takumi-japanisches-ramen-restaurant-19103562",
+    "https://www.falstaff.com/en/streetfood/takumi-ramen-1"
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "nochoffen.de에서 Hohenstaufenring 58 목록 확인, 폐업 신호 없음. 다만 날짜가 붙은 최근 신호는 없음. 구글 수치 미확인(TripAligner 4.7/597은 구글 아님). 쾰른에 Takumi 지점이 여러 곳 있음(Antwerpener Str.의 Chicken & Vegan 등) → 혼동 주의.",
+   "latest_review": null,
    "dist": {
     "dom": 1.56,
     "hbf": 1.63,
@@ -3751,12 +3790,19 @@ window.KOLN_GUIDE = {
     "https://www.koeln.de/tourismus/ll/koelner-lokale-mit-koelscher-und-rheinischer-kueche/bei-oma-kleinmann/",
     "https://koeln.mitvergnuegen.com/2019/11-cafes-restaurants-zuelpicher-strasse-koeln/",
     "https://www.speisekarte.de/k%C3%B6ln/restaurant/bei_oma_kleinmann/bewertung",
-    "https://www.xtremefoodies.com/europe/Cologne/review/Bei-Oma-Kleinmann/Schnitzel/8223_8455"
+    "https://www.xtremefoodies.com/europe/Cologne/review/Bei-Oma-Kleinmann/Schnitzel/8223_8455",
+    "https://www.gelbeseiten.de/gsbiz/16bfd285-ac55-41d3-b223-ba65858e9ef8",
+    "https://www.koeln.de/gastro/eintrag/43103/kneipen/bei-oma-kleinmann",
+    "https://www.nochoffen.de/koeln-bei-oma-kleinmann"
    ],
    "confidence": "high",
    "research": "fnb-ehrenfeld-lateng",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Zülpicher Str. 9 확인. 영업시간은 koeln.de 기준 월–목 17–23, 금–토 17–24이나 다른 목록은 금 ~01시. speisekarte.de에 2025-09-13 리뷰 있음(구글 리뷰 아님). 구글 수치 미확인. 예약 권장.",
+   "latest_review": null,
    "dist": {
     "dom": 1.92,
     "hbf": 2.0,
@@ -3800,9 +3846,9 @@ window.KOLN_GUIDE = {
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.7,
-   "google_reviews": 3462,
+   "google_reviews": 3949,
    "google_as_of": null,
-   "rating_source": "wanderlog.com",
+   "rating_source": "aggregator in search results labeled 'Google Maps' (exact site not identified; bookingagency.io or atly.com)",
    "summary_ko": "이름 그대로 아침 전문 카페로, 구글 리뷰 3,400건 이상에 평점 4.7을 받아 쾰른 아침·브런치 리스트 상위권에 든다. 노이슈타트-쥐트(Neustadt-Süd)의 마이스터-게르하르트 거리에 있어 쥘피허 지구 산책과 묶기 좋다.",
    "must_try": [],
    "tips_ko": "지역은 우편번호(50674)와 거리 이름으로 쿼르티어 라텡에 넣었으니 지오코딩 후 확인할 것. 도이츠 Deutzer Freiheit 89의 'ST. LOUIS Café-Köln'과 이름이 같다(같은 브랜드인지는 출처로 확인하지 못함). 메뉴 정보는 이번 조사에서 확보하지 못했다.",
@@ -3811,12 +3857,21 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/534788/st-louis-breakfast",
-    "https://wanderlog.com/list/geoCategory/10013/breakfast-and-brunch"
+    "https://wanderlog.com/list/geoCategory/10013/breakfast-and-brunch",
+    "https://bookingagency.io/cities/germany/cologne/cafes/st-louis-breakfast-cologne",
+    "https://www.atly.com/gluten-free/location/ST-LOUIS-Breakfast",
+    "https://wolt.com/de/deu/cologne/restaurant/st-louis-breakfast",
+    "https://www.ubereats.com/store/st-louis-breakfast/PfhVOuRKULCFpgR9YHzaWg"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Meister-Gerhard-Str. 30 확인. Wolt·Uber Eats 입점 중(영업 신호). 'Google Maps 4.7 (3,949)'는 기존 3,462보다 늘어난 값이지만, 검색 요약상 어느 애그리게이터인지 특정하지 못함. 영업시간 월 9–17, 화–일 9–18(출처마다 조금씩 다름). Uber Eats 4.3/700+는 별개 평점.",
+   "latest_review": null,
+   "google_previous": "4.7 (3462)",
    "dist": {
     "dom": 2.07,
     "hbf": 2.15,
@@ -3873,12 +3928,20 @@ window.KOLN_GUIDE = {
    "awards": [],
    "award_flags": [],
    "sources": [
-    "https://www.top-rated.online/cities/Cologne/place/p/1238024/Ganesha+Indisches+Restaurant+in+K%C3%B6ln+seit+1987"
+    "https://www.top-rated.online/cities/Cologne/place/p/1238024/Ganesha+Indisches+Restaurant+in+K%C3%B6ln+seit+1987",
+    "https://opentable.co.uk/r/ganesha-cologne",
+    "https://www.werkenntdenbesten.de/e/29059189/indisches-restaurant/koeln/joginder-ganesha-indisches-restaurant-bewertungen.html",
+    "https://wanderlog.com/place/details/1700550/ganesha-indisches-restaurant-in-köln-seit-1987",
+    "https://www.koeln.de/branchen/eintrag/55043/gaststaetten-indisch/restaurant-ganesha"
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Händelstr. 26 확인(여러 목록). OpenTable과 werkenntdenbesten('Joginder Ganesha' 명의)에 등록돼 있고 폐업 신호 없음. 구글 수치 미확인. mit Vergnügen 인도 식당 기사(연도 불명확)에서 쾰른에서 가장 오래된 인도 식당 중 하나로 소개.",
+   "latest_review": null,
    "dist": {
     "dom": 1.65,
     "hbf": 1.69,
@@ -3931,12 +3994,18 @@ window.KOLN_GUIDE = {
    "awards": [],
    "award_flags": [],
    "sources": [
-    "https://wanderlog.com/place/details/7295066/hana-korean-kitchen"
+    "https://wanderlog.com/place/details/7295066/hana-korean-kitchen",
+    "https://koeln.mitvergnuegen.com/2024/koreanisch-essen",
+    "https://koeln.mitvergnuegen.com/2025/koreanisch-essen"
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "mit Vergnügen 한식 기사 2024·2025년판에 Hohenstaufenring 23으로 등재(2025년까지만 확인). 구글 수치와 2026년 신호는 못 찾음 → 신뢰도 낮음. 2024 기사 영업시간: 월·수–목 12–15/17–21:30, 금–일 12–15/17–22 (화요일 휴무로 보임).",
+   "latest_review": null,
    "dist": {
     "dom": 1.69,
     "hbf": 1.77,
@@ -3993,12 +4062,20 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/2741348/ristorante-etrusca",
     "https://restaurantguru.com/Etrusca-Cologne",
     "https://wanderlog.com/list/geoCategory/1799196/best-places-for-pasta-in-cologne",
-    "https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/"
+    "https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/",
+    "https://www.opentable.com/r/ristorante-etrusca-koln",
+    "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/ristorante-etrusca/",
+    "https://www.koeln.de/branchen/eintrag/11462/restaurants-italienisch/ristorante-etrusca",
+    "https://joinpearl.co/restaurants/cologne-germany/ristorante-etrusca"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Zülpicher Str. 27 확인. OpenTable과 Schlemmer Atlas(인증 프리미엄 항목)에 등재. 영업시간이 출처마다 다름(OpenTable 매일 12–15/18–23, koeln.de 화–토 18–22·일 12–14/18–22) → 방문 전 확인 필요. 구글 수치 미확인(OpenTable 4.5는 리뷰 2건뿐).",
+   "latest_review": null,
    "dist": {
     "dom": 1.99,
     "hbf": 2.08,
@@ -4058,12 +4135,20 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/list/geoCategory/29648/best-restaurants-to-have-dinner-in-cologne",
     "https://guide.michelin.com/en/nordrhein-westfalen/koln/restaurant/la-societe",
     "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
-    "https://joinpearl.co/restaurants/cologne-germany/la-societe"
+    "https://joinpearl.co/restaurants/cologne-germany/la-societe",
+    "https://restaurant-lasociete.de/",
+    "https://www.opentable.com/r/la-societe-koln",
+    "https://www.yelp.com/biz/la-soci%C3%A9t%C3%A9-k%C3%B6ln-3",
+    "https://www.feinschmecker.de/restaurant/de/k%C3%B6ln/la-soci%C3%A9t%C3%A9-42"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "공식 사이트(약 3주 전 크롤본)에 영업시간 게시: 저녁 목–월 18:30–24, 점심 토–월 12–15 → 화·수 휴무. OpenTable 4.9/316, 'MICHELIN 1 Star 2024·2023' 표기(2025·2026 유지 여부는 미확인). Yelp 4.6/97(2025-09 갱신). 구글 수치 미확인.",
+   "latest_review": null,
    "dist": {
     "dom": 2.05,
     "hbf": 2.14,
@@ -4110,9 +4195,9 @@ window.KOLN_GUIDE = {
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.6,
-   "google_reviews": 2059,
+   "google_reviews": 2120,
    "google_as_of": null,
-   "rating_source": "wanderlog.com (Google)",
+   "rating_source": "yably.de (Google 부분 집계)",
    "summary_ko": "1988년부터 영업해 온 쥘피허 지구(하인스베르크슈트라세·퀴프회이저슈트라세 모퉁이)의 되너 가게로, 팬들 사이에서 '쾰른 최고의 되너'로 불린다. 숯불에 구운 고기와 가게에서 직접 구운 빵, 친절한 서비스가 리뷰에서 특히 칭찬받는다.",
    "must_try": [
     "Döner im hausgemachten Brot (가게에서 직접 구운 빵에 넣은 되너)"
@@ -4125,12 +4210,21 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/1160438/oru%C3%A7-kebap-das-original-seit-1988",
     "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
     "https://koeln.mitvergnuegen.com/2026/kwartier-lataeng",
-    "https://iza-server.uibk.ac.at/pywb/dilimag/20210113092156mp_/https://renk-magazin.de/en/best-german-turkish-restaurants-cologne"
+    "https://iza-server.uibk.ac.at/pywb/dilimag/20210113092156mp_/https://renk-magazin.de/en/best-german-turkish-restaurants-cologne",
+    "https://yably.de/bewertungen/koeln/oruc-kebap-das-original-seit-1988-heinsbergstrasse-1",
+    "https://restaurantguru.com/Oruc-Cologne",
+    "https://speisekarte.menu/restaurants/koeln/oruc",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d6764472-Reviews-Oruc_Kebap-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Heinsbergstr. 1 확인(상호 'Oruç Kebap Das Original seit 1988'). Yably 구글 4.6/2,120으로 기존 2,059보다 늘었고, Restaurant Guru의 구글 4.6도 같은 값. speisekarte.menu 최근 리뷰는 엇갈림(빵·고기·대용량 호평 / 가격·위생 지적). 영업시간 미확인.",
+   "latest_review": null,
+   "google_previous": "4.6 (2059)",
    "dist": {
     "dom": 1.97,
     "hbf": 2.05,
@@ -4184,12 +4278,19 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://restaurantguru.com/El-Inca-Cologne",
     "https://app.wanderlog.com/place/details/1601254/el-inca-restaurant",
-    "https://wanderlog.com/list/geoCategory/799541/best-latin-and-south-american-foods-and-restaurants-in-cologne"
+    "https://wanderlog.com/list/geoCategory/799541/best-latin-and-south-american-foods-and-restaurants-in-cologne",
+    "https://www.el-inca.de/",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d965405-Reviews-El_Inca-Cologne_North_Rhine_Westphalia.html",
+    "https://www.dasoertliche.de/Themen/El-Inca-Lateinamerikanisches-Restaurant-K%C3%B6ln-Neustadt-S%C3%BCd-G%C3%B6rresstr"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Görresstr. 2 확인. 공식 사이트 영업시간: 화–토 17–24, 일 12–22, 월 휴무(일부 디렉터리는 18시 오픈). 늘 만석이라 예약 권장. 구글 수치 미확인(Tripadvisor 4.0/160).",
+   "latest_review": null,
    "dist": {
     "dom": 1.99,
     "hbf": 2.05,
@@ -4240,12 +4341,21 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://extensionembed.wanderlog.com/place/details/1484918/fasika-restaurant",
-    "https://wanderlog.com/list/geoCategory/797742/best-african-foods-and-restaurants-in-cologne"
+    "https://wanderlog.com/list/geoCategory/797742/best-african-foods-and-restaurants-in-cologne",
+    "https://www.fasikarestaurant.de/",
+    "https://wolt.com/en/deu/cologne/restaurant/restaurant-fasika",
+    "https://wanderlog.com/place/details/1484918/fasika-restaurant",
+    "https://restaurantguru.com/Fasika-Cologne",
+    "https://coolibri.de/restaurant/fasika-restaurant-koeln/"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "공식 사이트·Wolt 운영 중, 주소 Luxemburger Str. 17 확인. Wanderlog 구글 4.6/534는 기존 586보다 적은 이전 스냅샷 → 미반영(평점 4.6은 같음). 영업 17–23시이나 일요일 휴무 여부는 출처마다 다름. Restaurant Guru 4.5/696은 합산값.",
+   "latest_review": null,
    "dist": {
     "dom": 1.91,
     "hbf": 2.0,
@@ -4313,12 +4423,19 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
     "https://wanderlog.com/list/geoCategory/1794415/best-spots-for-falafel-in-cologne",
     "https://www.enprimeurclub.com/restaurants/habibi-koln-cologne-restaurant",
-    "https://joinpearl.co/restaurants/cologne-germany/habibi-koln"
+    "https://joinpearl.co/restaurants/cologne-germany/habibi-koln",
+    "https://www.yelp.com/biz/habibi-k%C3%B6ln",
+    "https://wanderlog.com/place/details/1478436/habibi-k%C3%B6ln",
+    "https://halalfoodle.com/restaurants/germany/north-rhine-westphalia/cologne/habibi-koln-zulpicher-str-28"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "Yelp 페이지 2026-07 갱신, 폐업 표기 없음. 평일 11–01시, 금요일은 더 늦게까지. Wanderlog 약 4,285건은 기존 4,329보다 적은 이전 스냅샷 → 미반영. Yelp 4.3/149. 혼잡하고 좌석이 적음, 시나몬 티 무료 제공.",
+   "latest_review": null,
    "dist": {
     "dom": 1.94,
     "hbf": 2.02,
@@ -4377,12 +4494,18 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/1282848/tapeo--co-tapas--cocktails--sangrias",
     "https://restaurantguru.com/Tapeo-Picus-Cologne",
-    "https://app.wanderlog.com/list/geoCategory/1825451/best-places-for-tapas-in-cologne"
+    "https://app.wanderlog.com/list/geoCategory/1825451/best-places-for-tapas-in-cologne",
+    "https://www.yelp.com/biz/tapeo-und-co-k%C3%B6ln",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d965558-Reviews-Tapeo_Co-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "Yelp 페이지 2026-02 갱신, 주소 Lindenstr. 38 확인(옛 이름 'Tapeo Picus'). Wanderlog 구글 4.5/2,336 재확인, 변동 없음. Tripadvisor 4.4/약 400. 시끄럽고 붐빔, 예약 권장. 17시 오픈이며 일요일 휴무 여부는 출처마다 다름.",
+   "latest_review": null,
    "dist": {
     "dom": 1.73,
     "hbf": 1.78,
@@ -4441,12 +4564,22 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/1552638/zarathustra",
     "https://happycow.net/reviews/zarathustra-cologne-241076",
-    "https://speisekarte.menu/restaurants/koeln/zarathustra"
+    "https://speisekarte.menu/restaurants/koeln/zarathustra",
+    "https://restaurantguru.com/Zarathustra-Cologne",
+    "https://www.dasoertliche.de/Themen/Zarathustra-Restaurant-K%C3%B6ln-Dasselstr",
+    "https://yably.de/bewertungen/koeln/restaurant-zarathustra-dasselstr-4",
+    "https://neotaste.com/de/restaurants/cologne/zarathustra",
+    "https://koeln.mitvergnuegen.com/2025/persisch-vegan-zarathustra/",
+    "https://verliebtinkoeln.com/persisch-essen-koeln-zarathustra-restaurant-vegan/"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "평점 불일치 확인용 2차 검색: 구글 4.5로 일관(Wanderlog 807 = 기존값, Restaurant Guru 785, Das Örtliche 739, Yably 692) → 변동 없음. NeoTaste 4.9(2,206~2,239건)와 Restaurant Guru 자체 평점 4.8/880은 구글 수치 아님. 대부분 비건 메뉴, 실내 약 15석이라 전화 예약 권장. 영업 12–22/23시. mit Vergnügen 2025 기사.",
+   "latest_review": null,
    "dist": {
     "dom": 2.07,
     "hbf": 2.15,
@@ -4507,12 +4640,20 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/1655982/injera-restaurant",
-    "https://app.wanderlog.com/list/geoCategory/797742/african-restaurants"
+    "https://app.wanderlog.com/list/geoCategory/797742/african-restaurants",
+    "https://habeshastudio.com/restaurants/koln/injera-restaurant-restaurant/",
+    "https://restaurantguru.com/Injera-Cologne",
+    "https://triptap.com/places/de/north-rhine-westphalia/koeln/injera-restaurant-t0029328",
+    "https://speisekarte.menu/restaurants/koeln/injera-east-african-lounge-restaurant"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Lindenstr. 86 확인. Habeshastudio(약 81일 전, 2026-08경 갱신) 영업시간: 월–목·일 18–23, 금–토 18–24(다른 출처와 다름). Restaurant Guru 구글 4.5 재확인(건수 미표시). speisekarte.menu 4.3/4,269는 구글 아님. 대기·서비스 편차 지적 일부.",
+   "latest_review": null,
    "dist": {
     "dom": 2.02,
     "hbf": 2.07,
@@ -4583,12 +4724,19 @@ window.KOLN_GUIDE = {
     "https://www.golocal.de/koeln/sonstige-gewerbe/brauhaus-puetz-7IICG/",
     "https://www.tripadvisor.com/Restaurant_Review-g187371-d782141-Reviews-Brauhaus_Putz-Cologne_North_Rhine_Westphalia.html",
     "https://www.opentable.com/r/brauhaus-putz-cologne",
-    "https://speisekarte.menu/restaurants/koeln/brauhaus-putz"
+    "https://speisekarte.menu/restaurants/koeln/brauhaus-putz",
+    "https://www.yelp.com/biz/brauhaus-p%C3%BCtz-k%C3%B6ln-2",
+    "https://www.sluurpy.com/en/k%C3%B6ln/restaurant/1745472/brauhaus-p%C3%BCtz",
+    "https://www.dasoertliche.de/Themen/Brauhaus-P%C3%BCtz-K%C3%B6ln-Engelbertstra%C3%9Fe"
    ],
    "confidence": "medium",
    "research": "r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "Yelp 페이지 2026-05 갱신, 주소 Engelbertstr. 67 확인. Restaurant Guru 구글 4.5/739 재확인, 변동 없음. Sluurpy 4.4/434는 이전 스냅샷. 평일 16시 오픈이며 주말 영업시간은 출처마다 다름(일요일 휴무 vs 15–23). Tripadvisor 4.2/474, Yelp 4.0/102.",
+   "latest_review": null,
    "dist": {
     "dom": 1.6,
     "hbf": 1.64,
@@ -4630,9 +4778,9 @@ window.KOLN_GUIDE = {
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.4,
-   "google_reviews": 4900,
+   "google_reviews": 5921,
    "google_as_of": null,
-   "rating_source": "top-rated.online (Google Maps 미러, 표시값 '4.9K'를 반올림한 수, 기준 시점 미표시)",
+   "rating_source": "ginti.de (공식 사이트 Google 리뷰 위젯 'powered by Google')",
    "summary_ko": "루돌프플라츠 남쪽 헨델 거리(Händelstraße)에 있는 인도 레스토랑입니다. 리뷰 약 4,900개(4.4)로 쾰른에서 리뷰가 가장 많은 인도 식당 가운데 하나입니다. 향신료가 겹겹이 쌓인 진한 커리와 난, 망고 라씨가 자주 칭찬받아 정통 인도 커리를 원하는 사람에게 맞습니다.",
    "must_try": [
     "Curry (커리 — '층층이 쌓인 향신료로 진하고 복합적'이라는 리뷰)",
@@ -4644,12 +4792,22 @@ window.KOLN_GUIDE = {
    "awards": [],
    "award_flags": [],
    "sources": [
-    "https://www.top-rated.online/cities/Cologne/place/p/1237972/Ginti+Indian+Restaurant"
+    "https://www.top-rated.online/cities/Cologne/place/p/1237972/Ginti+Indian+Restaurant",
+    "https://ginti.de/",
+    "https://www.yelp.com/biz/ginti-k%C3%B6ln",
+    "https://wanderlog.com/place/details/1282845/ginti-indian-restaurant",
+    "https://www.ubereats.com/de-en/store/ginti-indian-restaurant/bWfT9TvSXHO5GIn7Xpko9g?diningMode=DELIVERY",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d3747837-Reviews-Ginti_Indisches_Restaurant_Cologne-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "공식 사이트 구글 위젯 4.4/5,921로 기존값(반올림한 4.9K)을 갱신. Yelp 2026-04 갱신, Uber Eats 운영 중. 영업 11–23시경(마감 23:00~23:45, 출처마다 다름). Yelp 3.9/140, 서비스가 세심하지 않다는 지적 있음.",
+   "latest_review": null,
+   "google_previous": "4.4 (4900)",
    "dist": {
     "dom": 1.7,
     "hbf": 1.74,
@@ -4691,9 +4849,9 @@ window.KOLN_GUIDE = {
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.4,
-   "google_reviews": 1175,
-   "google_as_of": null,
-   "rating_source": "wanderlog.com (place page, 'From Google')",
+   "google_reviews": 1170,
+   "google_as_of": "2026-09",
+   "rating_source": "werkenntdenbesten.de (google.de, Stand 28.09.2026)",
    "summary_ko": "이름은 '벨기에 지구'지만 실제로는 쥘피허 지구 Roonstraße에 있는 Casita Mexicana 지점이다. 정통 멕시코 길거리 음식을 내며, 아늑한 분위기와 빠른 서비스를 칭찬하는 리뷰가 많다.",
    "must_try": [
     "Tacos (타코)"
@@ -4705,12 +4863,19 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/1282861/casita-mexicana-belgisches-viertel",
     "https://restaurantguru.com/Casita-Mexicana-Cologne-2",
-    "https://wanderlog.com/list/geoCategory/776154/best-mexican-foods-and-restaurants-in-cologne"
+    "https://wanderlog.com/list/geoCategory/776154/best-mexican-foods-and-restaurants-in-cologne",
+    "https://www.werkenntdenbesten.de/e/112910624/mexikanisches-restaurant/koeln/casita-mexicana-bewertungen.html",
+    "https://casitamexicana.de/"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "werkenntdenbesten google.de 4.40/1,170(2026-09-28 갱신). 기존 Wanderlog 4.4/1,175(날짜 없음)와 사실상 같아서 날짜가 있는 값으로 대체. 주소 Roonstr. 88(Neustadt-Süd) 확인 — 상호는 'Belgisches Viertel'이지만 실제 위치는 Roonstraße. Südstadt 지점은 별도 업소. 좁아서 예약 권장, 바쁠 때 느린 서비스·양 대비 가격 지적 있음.",
+   "latest_review": null,
+   "google_previous": "4.4 (1175)",
    "dist": {
     "dom": 1.9,
     "hbf": 1.96,
@@ -4770,12 +4935,20 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/3962943/lebanon-vitamin",
-    "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+    "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
+    "https://www.top-rated.online/cities/Cologne/place/p/3287288/Lebanon+Vitamin",
+    "https://www.offen.net/koeln/lebanon-vitamin-4I8AV1/",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d27249789-Reviews-Lebanon_Vitamin-Cologne_North_Rhine_Westphalia.html",
+    "https://www.11880.com/branchenbuch/koeln/071364425B100090683/lebanon-vitamin.html"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Zülpicher Str. 38 확인(일부 목록은 '38-40'). 디렉터리 영업시간 평일 11–01, 금–토 ~03시. 미러 사이트 4.4/750은 기존 757보다 적어 미반영. 날짜가 붙은 최근 신호 없음.",
+   "latest_review": null,
    "dist": {
     "dom": 1.99,
     "hbf": 2.07,
@@ -4836,12 +5009,18 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/490866/restaurant-caf%C3%A9-feynsinn",
-    "https://www.gelbeseiten.de/gsbiz/c575c5e8-cb41-43be-935a-0d9f8bef67d6"
+    "https://www.gelbeseiten.de/gsbiz/c575c5e8-cb41-43be-935a-0d9f8bef67d6",
+    "https://coolibri.de/restaurant/restaurant-cafe-feynsinn-koeln/",
+    "https://www.golocal.de/koeln/cafes/cafe-feynsinn-fp0Q/"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Rathenauplatz 7 확인. 가장 최근 캐시 목록은 약 10개월 전 것: 월–금 9–24, 토 9:30–24, 일 10–24. Wanderlog 4.2/735(기존 724보다 늘어남)는 검색 요약에서 구글 표기를 확인하지 못해 미반영. 최근 리뷰: 친절·분위기는 호평, 대기 시간·가격은 불만.",
+   "latest_review": null,
    "dist": {
     "dom": 1.91,
     "hbf": 1.99,
@@ -9590,12 +9769,19 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/1655928/kneipe--die-oper",
-    "https://veedelcgn.com/news/11-11-in-koeln-koelsch-bis-3-euro-und-was-zum-sessionsstart-feststeht"
+    "https://veedelcgn.com/news/11-11-in-koeln-koelsch-bis-3-euro-und-was-zum-sessionsstart-feststeht",
+    "https://de.restaurantguru.com/Kneipe-Die-Oper-Cologne",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d27894318-Reviews-Kneipe_Die_Oper-Cologne_North_Rhine_Westphalia.html",
+    "https://www.facebook.com/kneipedieoper/"
    ],
    "confidence": "medium",
    "research": "r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Händelstr. 14 확인. Wanderlog 구글 4.8/122 재확인, 변동 없음. Restaurant Guru 4.7/126은 합산값. 영업시간(Restaurant Guru): 월–목 17–23, 토 17–02(일부 18–01), 일 16–21.",
+   "latest_review": null,
    "dist": {
     "dom": 1.68,
     "hbf": 1.73,
@@ -9645,12 +9831,18 @@ window.KOLN_GUIDE = {
    "awards": [],
    "award_flags": [],
    "sources": [
-    "https://www.werkenntdenbesten.de/e/54331281/bar/koeln/spirits-dominique-simon-bewertungen.html"
+    "https://www.werkenntdenbesten.de/e/54331281/bar/koeln/spirits-dominique-simon-bewertungen.html",
+    "https://spiritsbar.de/2-contact-us/",
+    "https://www.dasoertliche.de/Themen/Spirits-K%C3%B6ln-Neustadt-S%C3%BCd-Engelbertstr"
    ],
    "confidence": "high",
    "research": "r2-bars",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Engelbertstr. 63 확인. werkenntdenbesten 구글 4.70/896 재확인, 변동 없음(5개 포털 합산 4.71/1,156). 공식 사이트 영업시간 월–목 18–01, 금–토 18–03, 일 18–24이지만 'Corona special' 표기라 오래된 정보일 수 있음. 디렉터리는 20시 오픈으로 표기. 일부 바텐더가 불친절하다는 리뷰 있음.",
+   "latest_review": null,
    "dist": {
     "dom": 1.61,
     "hbf": 1.66,
@@ -9702,12 +9894,20 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/2017207/ona-mor-bar-k%C3%B6ln",
     "https://wanderlog.com/list/geoCategory/1524105/cocktail-bars",
-    "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+    "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/",
+    "https://www.yelp.com/biz/ona-mor-k%C3%B6ln-2",
+    "https://restaurantguru.com/Ona-Mor-Cologne",
+    "https://www.top-rated.online/cities/Cologne/place/p/1237627/ONA+MOR+Bar+-+K%C3%B6ln",
+    "https://www.tripadvisor.in/Attraction_Review-g187371-d4052437-Reviews-Ona_Mor-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-bars",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "Yelp 페이지 2026-02 갱신, 주소 Roonstr. 94 확인. Wanderlog 구글 4.7/768과 Restaurant Guru 구글 4.7/714는 기존 785보다 적은 이전 스냅샷 → 변동 없음. 화요일 휴무(Restaurant Guru). 문을 노크해야 입장, 주말엔 거의 만석이라 예약 권장.",
+   "latest_review": null,
    "dist": {
     "dom": 1.91,
     "hbf": 1.96,
@@ -9760,12 +9960,19 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/2017205/samuels-shep-i-cocktailbar-k%C3%B6ln",
-    "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+    "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
+    "https://yably.de/bewertungen/koeln/samuels-shep-i-cocktailbar-koeln-rathenauplatz-5",
+    "https://web2.cylex.de/firma-home/samuel%C2%B4s-shep-i-cocktailbar-koeln-6300825.html",
+    "https://www.golocal.de/koeln/bars-lounges/samuels-shep-i-cocktailbar-koeln-10WptH/"
    ],
    "confidence": "medium",
    "research": "r2-bars",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Rathenauplatz 5 확인. 모든 출처가 일·월 휴무로 표기, 화–목 19–24, 금–토 ~01/02시. Wanderlog 4.7/138은 기존 4.6/166보다 적은 이전 스냅샷이고, 다른 디렉터리의 4.9/126은 출처가 불명 → 미반영. 2020년 무렵 목록에 게시된 영업시간이 틀렸다는 지적이 있었음.",
+   "latest_review": null,
    "dist": {
     "dom": 1.88,
     "hbf": 1.96,
@@ -9815,12 +10022,20 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/8643812/der-stiefel",
     "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
-    "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City"
+    "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City",
+    "https://fussballgucken.info/location/stiefel-kneipe-koeln",
+    "https://www.offen.net/koeln/stiefel-B4P4X3/",
+    "https://rausgegangen.de/en/locations/stiefel/",
+    "https://www.dasoertliche.de/Themen/Stiefel-K%C3%B6ln-Neustadt-S%C3%BCd-Z%C3%BClpicher-Str"
    ],
    "confidence": "medium",
    "research": "r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Zülpicher Str. 18 확인, 공식 사이트 stiefelkneipe.de. 영업 월–목·일 18–02, 금–토 18–05, 축구 중계가 있으면 킥오프 1시간 전 오픈. Wanderlog 구글 4.5/1,362 재확인, 변동 없음. 주의: 도어맨이 불친절하고 인종차별·차별을 했다는 리뷰가 여러 건 있음.",
+   "latest_review": null,
    "dist": {
     "dom": 1.88,
     "hbf": 1.96,
@@ -9871,12 +10086,20 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/4359680/rosebud-bar-cologne",
-    "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+    "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
+    "https://www.yelp.com/biz/cocktail-bar-rosebud-k%C3%B6ln",
+    "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d965584-Reviews-Rosebud_Bar-Cologne_North_Rhine_Westphalia.html",
+    "https://yably.de/bewertungen/koeln/cocktailbar-rosebud-heinsbergstr-20",
+    "https://www.opentable.com/r/rosebud-bar-cologne-koln"
    ],
    "confidence": "medium",
    "research": "r2-bars",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "Yelp 페이지 2026-04 갱신, Tripadvisor 2026 페이지 있음, 주소 Heinsbergstr. 20 확인. Wanderlog 구글 4.5/491 재확인, 변동 없음. Yelp 3.8/62와 Tripadvisor 3.8/51은 낮은 편(서비스 3.3). 영업시간 출처마다 다름(Yelp 19–02·금 ~03 vs Yably 21시~).",
+   "latest_review": null,
    "dist": {
     "dom": 1.88,
     "hbf": 1.97,
@@ -9940,12 +10163,20 @@ window.KOLN_GUIDE = {
     "https://restaurantguru.com/Trierer-Eck-Cologne",
     "https://wanderlog.com/place/details/3638747/gastst%C3%A4tte-trierer-eck",
     "https://verliebtinkoeln.com/koelner-lokale-in-denen-das-koelsch-noch-unter-2-euro-kostet/",
-    "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/"
+    "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/",
+    "https://yably.de/bewertungen/koeln/gaststaette-trierer-eck-trierer-str-21a",
+    "https://coolibri.de/restaurant/gaststaette-trierer-eck-koeln/",
+    "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d7990612-Reviews-Trierer_Eck-Cologne_North_Rhine_Westphalia.html",
+    "https://www.online-tischreservierung.de/restaurant/index/Nordrhein-Westfalen/K%C3%B6ln/Sushi/cxjadsl3e6/Gastst%C3%A4tte%20Trierer%20Eck"
    ],
    "confidence": "high",
    "research": "r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 Trierer Str. 21A, 50676 확인. 영업 월–목 14시~, 금–일 10:30~, 자정까지(복수 출처). 현금 결제만 가능(coolibri). Restaurant Guru 4.5/507은 구글 단독 수치인지 플랫폼 합산인지 불명확하고, Yably 구글 4.5/367은 이전 스냅샷 → 둘 다 미반영(평점 4.5는 같음). 가격이 합리적이라는 평.",
+   "latest_review": null,
    "dist": {
     "dom": 1.77,
     "hbf": 1.88,

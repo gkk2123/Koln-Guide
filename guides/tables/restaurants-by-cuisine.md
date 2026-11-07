@@ -66,7 +66,7 @@
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
-| [Nam](https://www.google.com/maps/search/?api=1&query=Nam%20Engelbertstra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.9 (676) | 쌀국수, 면 요리 | Phở (퍼 — 베트남 쌀국수, 리뷰에서 가장 많이 언급되는 대표 메뉴) |
+| [Nam](https://www.google.com/maps/search/?api=1&query=Nam%20Engelbertstra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | € | ★4.9 (676) | 쌀국수, 면 요리 | Phở (퍼 — 베트남 쌀국수, 리뷰에서 가장 많이 언급되는 대표 메뉴) |
 | [Lúa by Danny](https://www.google.com/maps/search/?api=1&query=L%C3%BAa%20by%20Danny%20Brabanter%20Str.%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | – | ★4.7 (585) | 쌀국수 | Phở (퍼 — 베트남 쌀국수, 리뷰에서 자주 칭찬) |
 | [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 간편식·임비스 | € | ★4.7 (541) | 반미, 쌀국수, 샌드위치 | Bánh mì (반미 — 베트남식 바게트 샌드위치), Phở (퍼 — 쌀국수, 채식 버전도 있음) |
 | [Chum Chay](https://www.google.com/maps/search/?api=1&query=Chum%20Chay%20Friesenwall%2029%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 레스토랑 | – | ★4.6 (1,866) | 쌀국수 | Phở (채식 쌀국수 — Wanderlog 쾰른 쌀국수 목록의 추천 업소) |
@@ -85,7 +85,7 @@
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
 | [Ganesha Indisches Restaurant](https://www.google.com/maps/search/?api=1&query=Ganesha%20Indisches%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2026%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.7 (1,800) | 커리 | Thali (탈리 — 커리·밥·반찬을 한 쟁반에 담은 인도식 정식), Curry (커리) |
-| [Ginti Indian Restaurant](https://www.google.com/maps/search/?api=1&query=Ginti%20Indian%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2033%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.4 (4,900) | 커리 | Curry (커리 — '층층이 쌓인 향신료로 진하고 복합적'이라는 리뷰), Naan (난 — 인도식 화덕 빵), Mango Lassi (망고 라씨 — 망고 요구르트 음료) |
+| [Ginti Indian Restaurant](https://www.google.com/maps/search/?api=1&query=Ginti%20Indian%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2033%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.4 (5,921) | 커리 | Curry (커리 — '층층이 쌓인 향신료로 진하고 복합적'이라는 리뷰), Naan (난 — 인도식 화덕 빵), Mango Lassi (망고 라씨 — 망고 요구르트 음료) |
 
 ### 네팔 (1)
 
@@ -104,7 +104,7 @@
 | [Kebapland](https://www.google.com/maps/search/?api=1&query=Kebapland%20Venloer%20Stra%C3%9Fe%20385%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 간편식·임비스 | € | ★4.7 (12,444) | 케밥·되너, 그릴·숯불구이, 팔라펠 | Kebabteller (케밥 접시 — 숯불에 구운 고기를 곁들이와 함께 내는 한 접시), Lamm-Spieß (숯불 양고기 꼬치), Lahmacun (라마준 — 다진 고기를 얇게 펴 구운 터키식 피자), Kebabt |
 | [Zadem](https://www.google.com/maps/search/?api=1&query=Zadem%20Kaiser-Wilhelm-Ring%206-8%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 레스토랑 | – | ★4.7 (1,131) |  |  |
 | [Ehrenfeld Café](https://www.google.com/maps/search/?api=1&query=Ehrenfeld%20Caf%C3%A9%20Venloer%20Stra%C3%9Fe%20176%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 카페 | € | ★4.7 (131) | 커피 | Türk Kahvesi (튀르크 카흐베시 — 뜨거운 모래로 끓인 터키 커피) |
-| [Oruç Kebap](https://www.google.com/maps/search/?api=1&query=Oru%C3%A7%20Kebap%20Heinsbergstra%C3%9Fe%201%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 간편식·임비스 | € | ★4.6 (2,059) | 케밥·되너, 그릴·숯불구이 | Döner im hausgemachten Brot (가게에서 직접 구운 빵에 넣은 되너) |
+| [Oruç Kebap](https://www.google.com/maps/search/?api=1&query=Oru%C3%A7%20Kebap%20Heinsbergstra%C3%9Fe%201%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 간편식·임비스 | € | ★4.6 (2,120) | 케밥·되너, 그릴·숯불구이 | Döner im hausgemachten Brot (가게에서 직접 구운 빵에 넣은 되너) |
 | [Eat Kumpir](https://www.google.com/maps/search/?api=1&query=Eat%20Kumpir%20Venloer%20Stra%C3%9Fe%20274%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 간편식·임비스 | € | ★4.6 (1,153) |  | Kumpir (쿰피르 — 버터·치즈로 속을 으깬 대형 통감자에 원하는 토핑을 골라 얹음) |
 | [Tantuni Haus](https://www.google.com/maps/search/?api=1&query=Tantuni%20Haus%20Venloer%20Stra%C3%9Fe%20282%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 간편식·임비스 | € | ★4.6 (381) | 케밥·되너 | Tantuni (탄투니 — 잘게 썬 고기를 철판에 볶아 얇은 빵에 돌돌 만 메르신식 랩), Vegan Lahmacun (비건 라마준 — 샐러드를 올려 말아 먹는 얇은 터키식 피자) |
 | [Kudret Kebap House](https://www.google.com/maps/search/?api=1&query=Kudret%20Kebap%20House%20Venloer%20Stra%C3%9Fe%20280%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 간편식·임비스 | € | ★4.5 (7,892) | 케밥·되너 | Döner Kebap (되너 케밥 — 회전 꼬치에 구운 고기를 얇게 썰어 빵에 채운 것) |
@@ -243,7 +243,7 @@
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
 | [Casita Mexicana Südstadt](https://www.google.com/maps/search/?api=1&query=Casita%20Mexicana%20S%C3%BCdstadt%20Severinstra%C3%9Fe%2010-12%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 레스토랑 | – | ★4.5 (2,338) | 타코 | Tacos (타코) |
-| [Casita Mexicana Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Casita%20Mexicana%20Belgisches%20Viertel%20Roonstra%C3%9Fe%2088%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.4 (1,175) | 타코 | Tacos (타코) |
+| [Casita Mexicana Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Casita%20Mexicana%20Belgisches%20Viertel%20Roonstra%C3%9Fe%2088%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.4 (1,170) | 타코 | Tacos (타코) |
 | [Café Especial](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Especial%20Neuh%C3%B6fferstra%C3%9Fe%2032%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 레스토랑 | – | ★4.2 (3,473) | 타코 | Tacos (타코), Burritos (부리토), Quesadillas (퀘사디야), Nachos (나초) |
 
 ### 페루 (2)
