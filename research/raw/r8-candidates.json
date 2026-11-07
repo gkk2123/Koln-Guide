@@ -1230,10 +1230,10 @@
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.4,
-   "google_reviews": 408,
+   "google_reviews": 499,
    "google_as_of": null,
-   "rating_source": "wanderlog.com 장소 페이지 'NOODLE FAN Rudolfplatz/Neumarkt' (4.4 / 408)",
-   "summary_ko": "노이마르크트 남쪽 암 링켄푸울의 중국 수타면 집으로, 면을 직접 뽑는 비앙비앙면과 국수 요리가 칭찬받아 구글 4.4(408건)를 받았다. 쇼핑가(슈일더가세·노이마르크트) 근처에서 따뜻한 국수로 빠르게 한 끼 하기 좋다.",
+   "rating_source": "restaurantguru.com Google 4.4 / 499 ('NOODLE FAN Rudolfplatz/Neumarkt', r8-center-south 기록과 같은 값); wanderlog.com 장소 페이지 4.4 / 408",
+   "summary_ko": "노이마르크트 남쪽 암 링켄푸울의 중국 수타면 집으로, 면을 직접 뽑는 비앙비앙면과 국수 요리가 칭찬받아 구글 4.4(400–500건)를 받았다. 쇼핑가(슈일더가세·노이마르크트) 근처에서 따뜻한 국수로 빠르게 한 끼 하기 좋다.",
    "must_try": [
     "Biang Biang Nudeln (비앙비앙면 — 넓적한 수타면)",
     "Handgezogene Nudelsuppe (수타면 국수)"
@@ -1400,6 +1400,114 @@
    "confidence": "medium"
   }
  ],
- "candidates": [],
+ "candidates": [
+  {
+   "name": "Haus Töller",
+   "area": "kwartier-lateng",
+   "address": "Weyerstraße 96, 50676 Köln",
+   "category": "brauhaus",
+   "reason": "borderline / conflicting numbers (re-checked 2026-11-07): Wanderlog Google 4.2 (710) sits exactly on the bar, but Restaurant Guru shows 4.0 from 1,031 votes (platform not clear) — needs a direct Google Maps check",
+   "found": "8차 재확인: wanderlog.com 장소 페이지 4.2/710(5★417·1★62). Restaurant Guru 자체 4.8/1,113은 약 2년 전 페이지, 다른 RG 표기 4.0/1,031은 구글 값인지 불명. tablejourney 4.3·speisekarte.de 3/5(2건)은 구글 아님. 1343년 기록이 있는 건물의 브라우하우스로 자우어브라텐·할버 한·슈바인스학세(tablejourney), 슈니첼·삶은 족(Beinfleisch) 호평, 서비스가 느리거나 불친절하다는 후기가 많음. koeln.de: 월–토 17시부터, 일 휴무. 예약 권장(speisekarte.de 리뷰).",
+   "sources": [
+    "https://wanderlog.com/place/details/4631914/haus-t%C3%B6ller",
+    "https://restaurantguru.com/Haus-Toller-Cologne",
+    "https://www.koeln.de/gastro/eintrag/36329/restaurants/haus-toeller",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/haus_toeller1",
+    "https://www.spottedbylocals.com/cologne/haus-toller"
+   ]
+  },
+  {
+   "name": "Haxenhaus zum Rheingarten",
+   "area": "dom-altstadt",
+   "address": "Frankenwerft 19, 50667 Köln",
+   "category": "brauhaus",
+   "reason": "below-criteria: Google 4.1 (4,445) via wanderlog.com (re-checked 2026-11-07)",
+   "found": "8차 재확인: Wanderlog Google 4.1/4,445, Tripadvisor 3.5/772, Restaurant Guru 자체 4.0/6,165. 슈바인스학세(돼지 족)와 라인강변 테라스는 호평, 느린 서비스가 가장 흔한 불만. r8-center-south도 같은 결론(Google 4.1).",
+   "sources": [
+    "https://wanderlog.com/place/details/490845/haxenhaus",
+    "https://restaurantguru.com/Haxenhaus-Cologne"
+   ]
+  },
+  {
+   "name": "Nish Nush",
+   "area": "belgisches-viertel",
+   "address": "Aachener Straße 14, 50674 Köln",
+   "category": "restaurant",
+   "reason": "conflicting numbers → below-criteria: Wanderlog Google 4.1 (1,416) vs Restaurant Guru Google 4.6 (1,301); the larger (newer) count is below the bar (re-checked 2026-11-07)",
+   "found": "8차 재확인: Wanderlog 4.1/1,416(Google)·Tripadvisor 4.0/67, Restaurant Guru Google 4.6/1,301. 이스라엘식 스트리트 푸드(팔라펠·후무스·샤와르마). 바삭한 감자튀김·친절한 직원 칭찬, 기름지다·주문과 좌석 안내가 혼란스럽다는 불만, 20시까지 붐빔.",
+   "sources": [
+    "https://wanderlog.com/place/details/1656124/nish-nush",
+    "https://restaurantguru.com/Nish-Nush-Cologne"
+   ]
+  },
+  {
+   "name": "Wen Cheng Köln",
+   "area": "belgisches-viertel",
+   "address": "Flandrische Straße 2, 50674 Köln",
+   "category": "restaurant",
+   "reason": "google-numbers-missing (re-checked 2026-11-07): no Wanderlog or Restaurant Guru listing surfaced yet for the Cologne branch (opened around 2026-05)",
+   "found": "8차 재확인: wanderlog.com·restaurantguru.com 한정 검색에서 쾰른 지점 페이지가 나오지 않음. 베를린 수타면집의 쾰른 지점(Mit Vergnügen 2026).",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2026/handgezogene-nudeln/",
+    "https://koeln.mitvergnuegen.com/2026/neuentdeckungen-mai-2026/"
+   ]
+  },
+  {
+   "name": "Yu*lia Mezze Bar",
+   "area": "dom-altstadt",
+   "address": "Kämmergasse 18, 50676 Köln",
+   "category": "restaurant",
+   "reason": "google-numbers-missing (re-checked 2026-11-07): only Restaurant Guru's own aggregate 3.4 (133) — not Google",
+   "found": "8차 재확인: Restaurant Guru 'Yulia Mezze Bar' 3.4/133(RG 집계, 구글 아님). Wanderlog는 Sahila와 같은 주방이라고 설명. 같은 주소의 파인다이닝 Sahila(Google 4.8/280)는 이번에 places로 올림.",
+   "sources": [
+    "https://restaurantguru.com/Yulia-Mezze-Bar-Cologne",
+    "https://wanderlog.com/place/details/3599860/sahila-the-restaurant"
+   ]
+  },
+  {
+   "name": "Restaurant Kabul",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Elsaßstraße 32, 50677 Köln",
+   "category": "restaurant",
+   "reason": "google-numbers-missing (re-checked 2026-11-07): Restaurant Guru 4.3 (107), Facebook 4.6 (33), Tripadvisor 4.0 (37) — none is Google",
+   "found": "8차 재확인: 주소 Elsassstr. 32, 50677(Restaurant Guru). 친절한 서비스·가정적인 분위기·푸딩 칭찬, 옛 리뷰에 양이 적고 비싸다는 평. 같은 거리의 Phaedra(30번지)·Brauhaus Johann Schäfer(6번지)와 가까움.",
+   "sources": [
+    "https://restaurantguru.com/Kabul-Cologne"
+   ]
+  },
+  {
+   "name": "Erste Liebe",
+   "area": "kwartier-lateng",
+   "address": "Weyerstraße 98, 50676 Köln",
+   "category": "cafe",
+   "reason": "google-numbers-missing (re-checked 2026-11-07): Wanderlog lists it as 'specialty coffee | breakfast | natural wine' but no rating/count surfaced; earlier list snapshot 4.7/109 unconfirmed",
+   "found": "8차 재확인: 리뷰는 커피와 분위기 위주('트렌디한 동네의 깔끔한 작은 가게', '커피는 좋지만 너무 붐빈다'). 와인 관련 리뷰·종합 점수는 못 찾음.",
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/785149/best-wine-bars-and-tasting-rooms-in-cologne"
+   ]
+  },
+  {
+   "name": "ABACCO'S STEAKHOUSE Köln",
+   "area": "other",
+   "address": null,
+   "category": "restaurant",
+   "reason": "address-missing (new lead 2026-11-07): Wanderlog 'best places for steak in Cologne' list shows 4.6 (4,568) — meets the bar, but no address and the platform was not named in the snippet",
+   "found": "8차 조사 중 발견: Wanderlog 스테이크 목록에 El Gaucho·Bei Oma Kleinmann과 함께 올라 있고 4.6/4,568. 주소·지점 미확인.",
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/1503221/best-places-for-steak-in-cologne"
+   ]
+  },
+  {
+   "name": "Punto Pasta",
+   "area": "dom-altstadt",
+   "address": null,
+   "category": "restaurant",
+   "reason": "address-missing; numbers approximate (re-checked 2026-11-07: no address found in German directory search)",
+   "found": "8차 재확인: 'Punto Pasta' 주소가 검색 결과에 나오지 않음. 2차 조사 Wanderlog 약 4.7(314–346).",
+   "sources": [
+    "https://wanderlog.com/place/details/6593401/punto-pasta"
+   ]
+  }
+ ],
  "notes_ko": "작업 중 (중간 저장)"
 }
