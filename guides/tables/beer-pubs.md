@@ -39,14 +39,14 @@
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
-| [Zum Knobelbecher](https://www.google.com/maps/search/?api=1&query=Zum%20Knobelbecher%20Br%C3%BCsseler%20Stra%C3%9Fe%2047%2C%2050674%20K%C3%B6ln) | 동네 펍(크나이페) | 쾰시 | – | ★4.4 (495) | 현금만 |  | 벨기에 지구 브뤼셀러 거리의 쾰시·스포츠 크나이페로, 싼 맥주와 케겔반(볼링 레인)으로 사랑받는다. 젊은 손님이 많아 활기차고, 축구 중계를 보며 현지인들과 어울리기 좋다. |
+| [Zum Knobelbecher](https://www.google.com/maps/search/?api=1&query=Zum%20Knobelbecher%20Br%C3%BCsseler%20Stra%C3%9Fe%2047%2C%2050674%20K%C3%B6ln) | 동네 펍(크나이페) | 쾰시 | – | ★4.4 (567) | 현금만 |  | 벨기에 지구 브뤼셀러 거리의 쾰시·스포츠 크나이페로, 싼 맥주와 케겔반(볼링 레인)으로 사랑받는다. 젊은 손님이 많아 활기차고, 축구 중계를 보며 현지인들과 어울리기 좋다. |
 
 ## 프리젠 지구·에렌슈트라세 — 2곳
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
 | [Weißer Holunder](https://www.google.com/maps/search/?api=1&query=Wei%C3%9Fer%20Holunder%20Gladbacher%20Stra%C3%9Fe%2048%2C%2050672%20K%C3%B6ln) | 동네 펍(크나이페) | 쾰시 | – | ★4.6 (417) |  | 라이브 음악, 일요일 영업 | 쾰른 관광청이 '살아 있는 쾰른 역사의 한 조각'이라고 소개하는 크나이페로, 일요일마다 열리는 쾰른 노래 떼창(싱어롱) 콘서트가 명물이다. 쾰시와 쾰른 노래 문화를 함께 맛보고 싶은 사람에게 좋다. |
-| [FRÜH "Em Jan von Werth"](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20%22Em%20Jan%20von%20Werth%22%20Christophstra%C3%9Fe%2044%2C%2050670%20K%C3%B6ln) | 브라우하우스 | Früh Kölsch | – | ★4.4 (1,090) |  |  | 알터 마르크트가 아니라 크리스토프슈트라세(Christophstraße) 44번지에 있는 프뤼(Früh) 쾰시 브라우하우스다. 쾰시와 쾰른 향토 요리, 활기찬 분위기가 호평받고 저녁에는 금방 자리가 찬다. |
+| [FRÜH "Em Jan von Werth"](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20%22Em%20Jan%20von%20Werth%22%20Christophstra%C3%9Fe%2044%2C%2050670%20K%C3%B6ln) | 브라우하우스 | Früh Kölsch | – | ★4.4 (1,119) |  |  | 알터 마르크트가 아니라 크리스토프슈트라세(Christophstraße) 44번지에 있는 프뤼(Früh) 쾰시 브라우하우스다. 쾰시와 쾰른 향토 요리, 활기찬 분위기가 호평받고 저녁에는 금방 자리가 찬다. |
 
 ## 크바르티어 라텡(쥘피허 지구) — 4곳
 
