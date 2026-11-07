@@ -125,8 +125,10 @@ input[type="search"], select { font: inherit; font-size: 14px; width: 100%; padd
 .more { font-size: 13px; }
 .more summary { cursor: pointer; color: var(--muted); }
 .more p { margin: 6px 0 0; }
-.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: auto; padding-top: 6px; font-size: 13px; font-weight: 600; }
-.actions a { text-decoration: none; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: auto; padding-top: 8px; }
+.btn { font-size: 13px; font-weight: 600; text-decoration: none; border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; color: var(--ink); background: var(--surface); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.meta .ok { color: var(--muted); font-size: 12px; }
 .empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); padding: 28px; text-align: center; color: var(--muted); }
 
 .wine { display: flex; flex-direction: column; gap: 28px; }
@@ -424,9 +426,27 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     if (d == null) return "";
     return '<span>' + esc(anchorLabel()) + ' <span class="num">' + d.toFixed(1) + "km</span> · 도보 " + walk(d) + "분</span>";
   }
+  function placeQuery(it) { return it.name + ", " + (it.address || "Köln"); }
   function mapsUrl(it) {
     if (it.google_maps_url) return it.google_maps_url;
-    return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(it.name + " " + (it.address || "Köln"));
+    return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(placeQuery(it)) +
+      (it.google_place_id ? "&query_place_id=" + encodeURIComponent(it.google_place_id) : "");
+  }
+  function dirUrl(it) {
+    return "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(placeQuery(it)) +
+      (it.google_place_id ? "&destination_place_id=" + encodeURIComponent(it.google_place_id) : "") + "&travelmode=walking";
+  }
+  function checkedHtml(it) {
+    if (!it.verified_at) return "";
+    return '<span class="ok" title="' + esc("영업 여부·구글 수치 재확인일") + '">✓ ' + esc(it.verified_at.slice(5).replace("-", "/")) + " 확인</span>";
+  }
+  function checkedRow(it) {
+    if (!it.verified_at) return "";
+    var bits = [esc(it.verified_at) + " 재확인"];
+    if (it.latest_review) bits.push("최근 리뷰 " + esc(it.latest_review));
+    if (it.google_previous) bits.push("이전 구글 " + esc(it.google_previous));
+    if (it.verification_note) bits.push(esc(it.verification_note));
+    return bits.join(" · ");
   }
   function tagsHtml(tags) {
     if (!tags || !tags.length) return "";
@@ -446,8 +466,9 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     return src.slice(0, 4).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + (i + 1) + "</a>"; }).join(" ");
   }
   function actions(it) {
-    return '<div class="actions"><a href="' + esc(mapsUrl(it)) + '" target="_blank" rel="noopener">구글 지도 ↗</a>' +
-      (it.website ? '<a href="' + esc(it.website) + '" target="_blank" rel="noopener">웹사이트 ↗</a>' : "") +
+    return '<div class="actions"><a class="btn primary" href="' + esc(mapsUrl(it)) + '" target="_blank" rel="noopener">구글 지도 · 사진·리뷰</a>' +
+      '<a class="btn" href="' + esc(dirUrl(it)) + '" target="_blank" rel="noopener">길찾기</a>' +
+      (it.website ? '<a class="btn" href="' + esc(it.website) + '" target="_blank" rel="noopener">웹사이트</a>' : "") +
       (it.lat != null ? '<button type="button" class="linkbtn" data-place="' + esc(it.id) + '">여기 기준 거리</button>' : "") + "</div>";
   }
 
@@ -477,7 +498,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       '<div class="card-top"><span class="eyebrow">' + esc(lab("category", it.category)) + " · " + esc(area) + "</span>" + priceHtml(it.price_level, it.price_estimated) + "</div>" +
       "<h3>" + esc(it.name) + "</h3>" +
       '<p class="cuisine">' + esc(foodLine(it)) + "</p>" +
-      '<p class="meta">' + ratingHtml(it) + (it.beer_price_eur ? '<span class="beer">맥주 <span class="num">€' + Number(it.beer_price_eur).toFixed(2) + "</span></span>" : "") + distHtml(it) + "</p>" +
+      '<p class="meta">' + ratingHtml(it) + checkedHtml(it) + (it.beer_price_eur ? '<span class="beer">맥주 <span class="num">€' + Number(it.beer_price_eur).toFixed(2) + "</span></span>" : "") + distHtml(it) + "</p>" +
       awardsHtml(it.awards) +
       (it.summary_ko ? '<p class="summary">' + esc(it.summary_ko) + "</p>" : "") +
       (it.beers && it.beers.length ? '<div class="try"><span class="label">탭</span>' + it.beers.slice(0, 4).map(function (m) { return '<span class="pill">' + esc(m) + "</span>"; }).join("") + "</div>" : "") +
@@ -487,7 +508,8 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
         ["맥주 가격", esc(it.beer_price_note)],
         ["예약", known(it.reservation) ? esc(lab("reservation", it.reservation)) : ""], ["결제", known(it.payment) ? esc(lab("payment", it.payment)) : ""],
         ["설명", esc(it.cuisine)], ["주소", esc(it.address)],
-        ["평점 출처", it.rating_source ? esc(it.rating_source) + (it.google_as_of ? " · " + esc(it.google_as_of) : "") : ""], ["조사 출처", sourcesHtml(it.sources)]]) +
+        ["평점 출처", it.rating_source ? esc(it.rating_source) + (it.google_as_of ? " · " + esc(it.google_as_of) : "") : ""],
+        ["확인", checkedRow(it)], ["조사 출처", sourcesHtml(it.sources)]]) +
       actions(it) + "</article>";
   }
 

@@ -334,6 +334,64 @@ def dedupe(items: list[dict], kind: str) -> list[dict]:
     return out
 
 
+def price_level_from_pp(pp: dict | None):
+    mx = (pp or {}).get("max") or (pp or {}).get("min")
+    if not mx:
+        return None
+    return 1 if mx <= 15 else 2 if mx <= 30 else 3 if mx <= 60 else 4
+
+
+def apply_verifications(items: list[dict], verifications: dict, candidates: list) -> list[dict]:
+    """Overlay round-4 accuracy checks: closures leave the list, fresher Google numbers win."""
+    kept = []
+    for it in items:
+        v = verifications.get(it["id"])
+        if not v:
+            kept.append(it)
+            continue
+        status = v.get("status") or "unknown"
+        it["verified_at"] = TODAY
+        it["verification_status"] = status
+        it["verification_note"] = v.get("notes_ko")
+        it["latest_review"] = v.get("latest_review")
+        for u in as_list(v.get("sources")):
+            if u not in it["sources"]:
+                it["sources"].append(u)
+        if status in ("closed-permanently", "closed-temporarily"):
+            candidates.append({"name": it["name"], "area": it["area"], "address": it["address"],
+                               "category": it["category"], "reason": f"{status} (확인 {TODAY})",
+                               "found": v.get("notes_ko") or "", "sources": as_list(v.get("sources")),
+                               "research": v["_file"]})
+            warn(f"verification: {it['name']} -> {status}, moved to candidates")
+            continue
+        if v.get("address") and v["address"] != it.get("address"):
+            warn(f"verification: {it['name']} address {it.get('address')} -> {v['address']}")
+            it["address"], it["lat"], it["lng"] = v["address"], None, None
+        r, n = as_float(v.get("google_rating")), as_int(v.get("google_reviews"))
+        if r is not None and n is not None:
+            if n >= (it.get("google_reviews") or 0) or v.get("google_as_of"):
+                if (r, n) != (it.get("google_rating"), it.get("google_reviews")):
+                    it["google_previous"] = f"{it.get('google_rating')} ({it.get('google_reviews')})"
+                it["google_rating"], it["google_reviews"] = r, n
+                it["google_as_of"] = v.get("google_as_of") or it.get("google_as_of")
+                it["rating_source"] = v.get("rating_source") or it.get("rating_source")
+        pp = v.get("price_pp") if isinstance(v.get("price_pp"), dict) else None
+        if pp and it["category"] in FOOD_CATEGORIES:
+            lvl = price_level_from_pp(pp)
+            if lvl:
+                it["price_pp"], it["price_level"], it["price_estimated"] = pp, lvl, False
+                it["price_note"] = v.get("price_note") or it.get("price_note")
+        if not meets_criteria(it):
+            candidates.append({"name": it["name"], "area": it["area"], "address": it["address"],
+                               "category": it["category"], "reason": f"below-criteria after check {TODAY}",
+                               "found": f"Google {it['google_rating']} ({it['google_reviews']}) via {it.get('rating_source')}",
+                               "sources": it["sources"], "research": v["_file"]})
+            warn(f"verification: {it['name']} now below criteria ({it['google_rating']}, {it['google_reviews']})")
+            continue
+        kept.append(it)
+    return kept
+
+
 def area_rank(area: str) -> int:
     return AREAS.index(area) if area in AREAS else len(AREAS)
 
@@ -360,7 +418,8 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
-    files = sorted(p for p in RAW.glob("*.json") if not p.name.endswith("-data.json"))
+    files = sorted(p for p in RAW.glob("*.json") if not p.name.endswith("-data.json") and not p.name.startswith("r4-verify"))
+    verify_files = sorted(RAW.glob("r4-verify*.json"))
     if not files:
         print("no research/raw/*.json files found")
         return 1
@@ -406,9 +465,16 @@ def main() -> int:
 
     cache = load_json(DATA / "geocode-cache.json", {}) or {}
     report = []
+    verifications = {}
+    for vf in verify_files:
+        for v in (load_json(vf, {}) or {}).get("verifications", []):
+            if v.get("id"):
+                verifications[v["id"]] = {**v, "_file": vf.stem}
     for kind in DATA_FILES:
         items = dedupe(buckets.get(kind, []), kind)
         keep_coords(items, kind, cache)
+        if kind != "attractions" and verifications:
+            items = apply_verifications(items, verifications, candidates)
         if kind == "attractions":
             items.sort(key=lambda i: (area_rank(i["area"]), i["priority"], i["name"]))
         else:
