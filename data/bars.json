@@ -31,8 +31,8 @@
       "category": "beer-bar",
       "area": "dom-altstadt",
       "address": "Martinstraße 32, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.937207,
+      "lng": 6.958936,
       "cuisine": "Craft beer taproom with 15 rotating taps",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -75,7 +75,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "papa-joes-jazzlokal",
@@ -83,8 +84,8 @@
       "category": "bar",
       "area": "dom-altstadt",
       "address": "Buttermarkt 37, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.937856,
+      "lng": 6.962126,
       "cuisine": "Live-jazz pub (since 1974)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -130,7 +131,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "papa-joes-biersalon",
@@ -138,8 +140,8 @@
       "category": "beer-bar",
       "area": "dom-altstadt",
       "address": "Alter Markt 50-52, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.938803,
+      "lng": 6.960339,
       "cuisine": "Old-town beer pub with vintage music machines",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -176,7 +178,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "barito",
@@ -184,8 +187,8 @@
       "category": "cocktail-bar",
       "area": "belgisches-viertel",
       "address": "Aachener Straße 59, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.936375,
+      "lng": 6.932856,
       "cuisine": "Cocktail bar",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -221,7 +224,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "little-link",
@@ -229,8 +233,8 @@
       "category": "cocktail-bar",
       "area": "belgisches-viertel",
       "address": "Maastrichter Straße 20, 50672 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.938587,
+      "lng": 6.93697,
       "cuisine": "Experimental cocktail bar with house-made ingredients",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -283,7 +287,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "monkey-bar",
@@ -291,8 +296,8 @@
       "category": "bar",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Im Klapperhof 22-24, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.942046,
+      "lng": 6.943092,
       "cuisine": "Rooftop hotel bar with a street-food bar menu",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -329,7 +334,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "spirits-bar",
@@ -337,8 +343,8 @@
       "category": "cocktail-bar",
       "area": "kwartier-lateng",
       "address": "Engelbertstraße 63, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.934923,
+      "lng": 6.937702,
       "cuisine": "Cocktail bar",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -373,7 +379,8 @@
       ],
       "confidence": "high",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "ona-mor",
@@ -381,8 +388,8 @@
       "category": "cocktail-bar",
       "area": "kwartier-lateng",
       "address": "Roonstraße 94, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.93349,
+      "lng": 6.93394,
       "cuisine": "Cocktail bar",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -419,7 +426,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "samuels-shep",
@@ -427,8 +435,8 @@
       "category": "cocktail-bar",
       "area": "kwartier-lateng",
       "address": "Rathenauplatz 5, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.930633,
+      "lng": 6.937448,
       "cuisine": "Small cocktail bar inspired by Cairo's Shepheard Hotel",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -466,7 +474,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "rosebud-bar",
@@ -474,8 +483,8 @@
       "category": "cocktail-bar",
       "area": "kwartier-lateng",
       "address": "Heinsbergstraße 20, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.930101,
+      "lng": 6.938066,
       "cuisine": "Long-running cocktail bar",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -511,7 +520,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "the-baer-gin-cocktailbar",
@@ -519,8 +529,8 @@
       "category": "cocktail-bar",
       "area": "ehrenfeld",
       "address": "Thebäerstraße 10, 50823 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.946926,
+      "lng": 6.921565,
       "cuisine": "Gin-focused cocktail bar",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -556,7 +566,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "bar-botanik",
@@ -564,8 +575,8 @@
       "category": "bar",
       "area": "suedstadt-rheinauhafen",
       "address": "Kaygasse 2, 50676 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.931609,
+      "lng": 6.951625,
       "cuisine": "Hotel rooftop bar on the 11th floor with 360° city views",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -601,7 +612,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "toddy-tapper",
@@ -609,8 +621,8 @@
       "category": "cocktail-bar",
       "area": "agnesviertel-eigelstein",
       "address": "Schillingstraße 27, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.952126,
+      "lng": 6.957976,
       "cuisine": "Cocktail bar built around Sri Lankan arrack",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -654,7 +666,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "suderman",
@@ -662,8 +675,8 @@
       "category": "cocktail-bar",
       "area": "agnesviertel-eigelstein",
       "address": "Sudermanplatz 3, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.951326,
+      "lng": 6.954184,
       "cuisine": "Neighbourhood cocktail bar with a cosy pub feel",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -699,7 +712,8 @@
       ],
       "confidence": "medium",
       "research": "r2-bars",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     }
   ]
 }

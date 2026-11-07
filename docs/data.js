@@ -402,8 +402,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "dom-altstadt",
    "address": "Komödienstraße 52, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.941599,
+   "lng": 6.95148,
    "cuisine": "Turkish meze restaurant",
    "cuisine_country": [
     "TR"
@@ -445,7 +445,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.48,
+    "hbf": 0.47,
+    "messe": 2.15,
+    "deutz": 1.65,
+    "belgisches": 1.23
+   }
   },
   {
    "id": "nainai-bao",
@@ -453,8 +461,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "dom-altstadt",
    "address": "Josef-Haubrich-Hof 3, 50676 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.934806,
+   "lng": 6.949115,
    "cuisine": "Chinese biang biang noodles and bao",
    "cuisine_country": [
     "CN"
@@ -500,7 +508,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.96,
+    "hbf": 1.06,
+    "messe": 2.59,
+    "deutz": 1.93,
+    "belgisches": 1.08
+   }
   },
   {
    "id": "gangnamstyle-korean-bbq",
@@ -508,8 +524,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "dom-altstadt",
    "address": "Thurnmarkt 7, 50676 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.934602,
+   "lng": 6.962611,
    "cuisine": "Korean BBQ and bar (tabletop grill, QR ordering)",
    "cuisine_country": [
     "KR"
@@ -553,7 +569,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.8,
+    "hbf": 0.93,
+    "messe": 1.85,
+    "deutz": 1.11,
+    "belgisches": 2.0
+   }
   },
   {
    "id": "coco-ramen-sushi",
@@ -561,8 +585,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "dom-altstadt",
    "address": "Breite Straße 26, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939172,
+   "lng": 6.952524,
    "cuisine": "Ramen, sushi and pan-Asian kitchen in the WDR Arkaden",
    "cuisine_country": [
     "JP"
@@ -602,7 +626,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.47,
+    "hbf": 0.54,
+    "messe": 2.17,
+    "deutz": 1.59,
+    "belgisches": 1.25
+   }
   },
   {
    "id": "oma-janssen-colonialwarenhandel",
@@ -610,8 +642,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "dom-altstadt",
    "address": "Alter Markt 56, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93897,
+   "lng": 6.960409,
    "cuisine": "Small grocery-café serving German breakfast",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -658,7 +690,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.3,
+    "hbf": 0.43,
+    "messe": 1.68,
+    "deutz": 1.04,
+    "belgisches": 1.8
+   }
   },
   {
    "id": "cafe-1980-banh-mi",
@@ -666,8 +706,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "dom-altstadt",
    "address": "Bobstraße 28, 50676 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.933731,
+   "lng": 6.94604,
    "cuisine": "Vietnamese café — bánh mì & pho",
    "cuisine_country": [
     "VN"
@@ -714,7 +754,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.2,
+    "hbf": 1.29,
+    "messe": 2.84,
+    "deutz": 2.18,
+    "belgisches": 0.94
+   }
   },
   {
    "id": "lint-no-7",
@@ -722,8 +770,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "dom-altstadt",
    "address": "Lintgasse 7, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938142,
+   "lng": 6.960907,
    "cuisine": "Small breakfast café in the Altstadt (mornings only)",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -761,7 +809,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.39,
+    "hbf": 0.52,
+    "messe": 1.69,
+    "deutz": 1.03,
+    "belgisches": 1.84
+   }
   },
   {
    "id": "thai-viet-street-food-imbiss",
@@ -769,8 +825,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "dom-altstadt",
    "address": "Kleine Budengasse 11a, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939229,
+   "lng": 6.958987,
    "cuisine": "Thai & Vietnamese street food",
    "cuisine_country": [
     "TH",
@@ -809,7 +865,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.23,
+    "hbf": 0.37,
+    "messe": 1.75,
+    "deutz": 1.14,
+    "belgisches": 1.7
+   }
   },
   {
    "id": "el-chango",
@@ -817,8 +881,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "dom-altstadt",
    "address": "Bolzengasse 9, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.9367,
+   "lng": 6.959841,
    "cuisine": "Argentine steakhouse (charcoal grill)",
    "cuisine_country": [
     "AR"
@@ -860,7 +924,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.52,
+    "hbf": 0.66,
+    "messe": 1.85,
+    "deutz": 1.16,
+    "belgisches": 1.77
+   }
   },
   {
    "id": "peters-brauhaus",
@@ -868,8 +940,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "dom-altstadt",
    "address": "Mühlengasse 1, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939245,
+   "lng": 6.960283,
    "cuisine": "Rhineland / Kölsch brauhaus",
    "cuisine_country": [
     "DE"
@@ -915,7 +987,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "fnb-dom-altstadt-eigelstein",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.27,
+    "hbf": 0.39,
+    "messe": 1.67,
+    "deutz": 1.05,
+    "belgisches": 1.79
+   }
   },
   {
    "id": "krua-thai-heumarkt",
@@ -923,8 +1003,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "dom-altstadt",
    "address": "Heumarkt 25, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.935465,
+   "lng": 6.960145,
    "cuisine": "Thai",
    "cuisine_country": [
     "TH"
@@ -959,7 +1039,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.66,
+    "hbf": 0.8,
+    "messe": 1.91,
+    "deutz": 1.2,
+    "belgisches": 1.81
+   }
   },
   {
    "id": "buddhas-eye",
@@ -967,8 +1055,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "dom-altstadt",
    "address": "Mariengartengasse 5, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.941125,
+   "lng": 6.953352,
    "cuisine": "Nepalese & Tibetan",
    "cuisine_country": [
     "NP"
@@ -1006,7 +1094,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.35,
+    "hbf": 0.36,
+    "messe": 2.04,
+    "deutz": 1.52,
+    "belgisches": 1.34
+   }
   },
   {
    "id": "louis-cafe-am-dom",
@@ -1014,8 +1110,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "dom-altstadt",
    "address": "Kleine Budengasse 1-3, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939228,
+   "lng": 6.958417,
    "cuisine": "Café – bubble tea, cakes, coffee",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -1057,7 +1153,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.23,
+    "hbf": 0.36,
+    "messe": 1.79,
+    "deutz": 1.18,
+    "belgisches": 1.66
+   }
   },
   {
    "id": "frueh-am-dom",
@@ -1065,8 +1169,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "dom-altstadt",
    "address": "Am Hof 12-18, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939929,
+   "lng": 6.958359,
    "cuisine": "Rhineland / Kölsch brauhaus",
    "cuisine_country": [
     "DE"
@@ -1118,7 +1222,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "fnb-dom-altstadt-eigelstein",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.15,
+    "hbf": 0.29,
+    "messe": 1.76,
+    "deutz": 1.17,
+    "belgisches": 1.67
+   }
   },
   {
    "id": "beirut-restaurant",
@@ -1126,8 +1238,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "dom-altstadt",
    "address": "Buttermarkt 3, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936985,
+   "lng": 6.962417,
    "cuisine": "Lebanese restaurant — mezze & mixed grill",
    "cuisine_country": [
     "LB"
@@ -1169,7 +1281,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.56,
+    "hbf": 0.69,
+    "messe": 1.68,
+    "deutz": 0.98,
+    "belgisches": 1.95
+   }
   },
   {
    "id": "brauerei-zur-malzmuehle",
@@ -1177,8 +1297,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "dom-altstadt",
    "address": "Heumarkt 6, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.934607,
+   "lng": 6.96053,
    "cuisine": "Rhineland / Kölsch brauhaus",
    "cuisine_country": [
     "DE"
@@ -1228,7 +1348,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "fnb-dom-altstadt-eigelstein",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.76,
+    "hbf": 0.89,
+    "messe": 1.96,
+    "deutz": 1.23,
+    "belgisches": 1.86
+   }
   },
   {
    "id": "petit-frere",
@@ -1236,8 +1364,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Aachener Str. 20, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936652,
+   "lng": 6.936653,
    "cuisine": "Modern French-German cuisine (chef Tim Engelhard)",
    "cuisine_country": [
     "FR",
@@ -1280,7 +1408,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.6,
+    "hbf": 1.63,
+    "messe": 3.31,
+    "deutz": 2.73,
+    "belgisches": 0.23
+   }
   },
   {
    "id": "christoph-pauls-restaurant",
@@ -1288,8 +1424,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Brüsseler Str. 26, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93488,
+   "lng": 6.934746,
    "cuisine": "Seasonal market cuisine (modern European, French-leaning)",
    "cuisine_country": [
     "INT"
@@ -1336,7 +1472,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.8,
+    "hbf": 1.84,
+    "messe": 3.5,
+    "deutz": 2.9,
+    "belgisches": 0.38
+   }
   },
   {
    "id": "shaka-zulu",
@@ -1344,8 +1488,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Limburger Straße 29, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939914,
+   "lng": 6.938313,
    "cuisine": "South African restaurant",
    "cuisine_country": [
     "ZA"
@@ -1382,7 +1526,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.41,
+    "hbf": 1.41,
+    "messe": 3.09,
+    "deutz": 2.57,
+    "belgisches": 0.31
+   }
   },
   {
    "id": "hempies",
@@ -1390,8 +1542,8 @@ window.KOLN_GUIDE = {
    "category": "bakery",
    "area": "belgisches-viertel",
    "address": "Händelstraße 55, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93607,
+   "lng": 6.937077,
    "cuisine": "Vegan bakery and bistro",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -1436,7 +1588,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.59,
+    "hbf": 1.63,
+    "messe": 3.3,
+    "deutz": 2.71,
+    "belgisches": 0.3
+   }
   },
   {
    "id": "cafe-buur",
@@ -1444,8 +1604,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "belgisches-viertel",
    "address": "Richard-Wagner-Straße 28, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.935657,
+   "lng": 6.933937,
    "cuisine": "Brunch café",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -1487,7 +1647,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.82,
+    "hbf": 1.85,
+    "messe": 3.52,
+    "deutz": 2.93,
+    "belgisches": 0.3
+   }
   },
   {
    "id": "lua-by-danny",
@@ -1495,8 +1663,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Brabanter Str. 9, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.937096,
+   "lng": 6.937241,
    "cuisine": "Vietnamese",
    "cuisine_country": [
     "VN"
@@ -1535,7 +1703,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.55,
+    "hbf": 1.58,
+    "messe": 3.25,
+    "deutz": 2.68,
+    "belgisches": 0.22
+   }
   },
   {
    "id": "sorellina-di-nuvola-napoli",
@@ -1543,8 +1719,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Brüsseler Str. 73, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.940445,
+   "lng": 6.934563,
    "cuisine": "Neapolitan pizza (sister of Nuvola Napoli), vegan options",
    "cuisine_country": [
     "IT"
@@ -1589,7 +1765,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.66,
+    "hbf": 1.66,
+    "messe": 3.34,
+    "deutz": 2.83,
+    "belgisches": 0.24
+   }
   },
   {
    "id": "hambaga",
@@ -1597,8 +1781,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Aachener Straße 9, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936225,
+   "lng": 6.936478,
    "cuisine": "Japanese-style burgers, ramen and cocktail bar",
    "cuisine_country": [
     "JP",
@@ -1644,7 +1828,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.63,
+    "hbf": 1.67,
+    "messe": 3.33,
+    "deutz": 2.75,
+    "belgisches": 0.26
+   }
   },
   {
    "id": "ito-japanese-cuisine",
@@ -1652,8 +1844,8 @@ window.KOLN_GUIDE = {
    "category": "fine-dining",
    "area": "belgisches-viertel",
    "address": "Antwerpener Straße 15, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.94017,
+   "lng": 6.936567,
    "cuisine": "Modern Japanese — sushi, omakase and tasting menus",
    "cuisine_country": [
     "JP"
@@ -1702,7 +1894,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.53,
+    "hbf": 1.53,
+    "messe": 3.21,
+    "deutz": 2.69,
+    "belgisches": 0.24
+   }
   },
   {
    "id": "nihao-aachener-strasse",
@@ -1710,8 +1910,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Aachener Straße 31, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936354,
+   "lng": 6.934423,
    "cuisine": "Chinese and Vietnamese dishes",
    "cuisine_country": [
     "CN",
@@ -1747,7 +1947,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.76,
+    "hbf": 1.79,
+    "messe": 3.46,
+    "deutz": 2.89,
+    "belgisches": 0.22
+   }
   },
   {
    "id": "hankki-koeln",
@@ -1755,8 +1963,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Brabanter Straße 42, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939831,
+   "lng": 6.937934,
    "cuisine": "Korean fried chicken and Korean comfort food (tteokbokki, bibimbap)",
    "cuisine_country": [
     "KR"
@@ -1813,7 +2021,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.43,
+    "hbf": 1.44,
+    "messe": 3.12,
+    "deutz": 2.6,
+    "belgisches": 0.28
+   }
   },
   {
    "id": "tigermilch",
@@ -1821,8 +2037,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Brüsseler Str. 12, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.934183,
+   "lng": 6.934698,
    "cuisine": "Modern Peruvian fusion — sharing plates and cocktails",
    "cuisine_country": [
     "PE"
@@ -1867,7 +2083,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.83,
+    "hbf": 1.88,
+    "messe": 3.53,
+    "deutz": 2.92,
+    "belgisches": 0.46
+   }
   },
   {
    "id": "tanoshii",
@@ -1875,8 +2099,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Brabanter Straße 3, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936831,
+   "lng": 6.937261,
    "cuisine": "Sushi (classic and creative) plus Vietnamese warm dishes",
    "cuisine_country": [
     "JP",
@@ -1919,7 +2143,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.55,
+    "hbf": 1.59,
+    "messe": 3.26,
+    "deutz": 2.68,
+    "belgisches": 0.24
+   }
   },
   {
    "id": "cafe-belgique",
@@ -1927,8 +2159,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "belgisches-viertel",
    "address": "Brüsseler Platz 16, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938922,
+   "lng": 6.93368,
    "cuisine": "Neighbourhood street café – coffee, cake, light dishes",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -1973,7 +2205,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.74,
+    "hbf": 1.75,
+    "messe": 3.43,
+    "deutz": 2.9,
+    "belgisches": 0.1
+   }
   },
   {
    "id": "balthasar",
@@ -1981,8 +2221,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "belgisches-viertel",
    "address": "Aachener Straße 18, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936651,
+   "lng": 6.936758,
    "cuisine": "Café-bistro – all-day brunch, cakes, steaks, cocktails",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -2031,7 +2271,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.59,
+    "hbf": 1.63,
+    "messe": 3.3,
+    "deutz": 2.72,
+    "belgisches": 0.24
+   }
   },
   {
    "id": "kouzina-greekstreetfood-wine",
@@ -2039,8 +2287,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Aachener Str. 10, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936716,
+   "lng": 6.937832,
    "cuisine": "Greek street food & wine",
    "cuisine_country": [
     "GR"
@@ -2076,7 +2324,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.52,
+    "hbf": 1.56,
+    "messe": 3.23,
+    "deutz": 2.64,
+    "belgisches": 0.28
+   }
   },
   {
    "id": "bali-restaurant",
@@ -2084,8 +2340,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Brüsseler Platz 2, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93861,
+   "lng": 6.935202,
    "cuisine": "Indonesian",
    "cuisine_country": [
     "ID"
@@ -2123,7 +2379,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.64,
+    "hbf": 1.66,
+    "messe": 3.34,
+    "deutz": 2.8,
+    "belgisches": 0.05
+   }
   },
   {
    "id": "daikan-izakaya",
@@ -2131,8 +2395,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Maastrichter Straße 9, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938154,
+   "lng": 6.938146,
    "cuisine": "Japanese izakaya (DAIKAN Izakaya) — ramen and small plates",
    "cuisine_country": [
     "JP"
@@ -2178,7 +2442,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.45,
+    "hbf": 1.48,
+    "messe": 3.15,
+    "deutz": 2.6,
+    "belgisches": 0.24
+   }
   },
   {
    "id": "hallmackenreuther",
@@ -2186,8 +2458,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "belgisches-viertel",
    "address": "Brüsseler Platz 9, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.937949,
+   "lng": 6.934113,
    "cuisine": "Café-Bar im 50er-Jahre-Stil, Wochenend-Brunch",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -2234,7 +2506,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "fnb-belgisches-friesen",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.73,
+    "hbf": 1.75,
+    "messe": 3.43,
+    "deutz": 2.88,
+    "belgisches": 0.06
+   }
   },
   {
    "id": "krua-thai-belgisches-viertel",
@@ -2242,8 +2522,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "belgisches-viertel",
    "address": "Brüsseler Str. 40-42, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.935943,
+   "lng": 6.934767,
    "cuisine": "Thai",
    "cuisine_country": [
     "TH"
@@ -2278,7 +2558,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.75,
+    "hbf": 1.79,
+    "messe": 3.46,
+    "deutz": 2.87,
+    "belgisches": 0.27
+   }
   },
   {
    "id": "eisliebe-kettengasse",
@@ -2286,8 +2574,8 @@ window.KOLN_GUIDE = {
    "category": "dessert",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Kettengasse 4, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.937933,
+   "lng": 6.941432,
    "cuisine": "Ice cream shop with vegan options",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -2327,7 +2615,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.24,
+    "hbf": 1.27,
+    "messe": 2.94,
+    "deutz": 2.37,
+    "belgisches": 0.47
+   }
   },
   {
    "id": "zadem",
@@ -2335,8 +2631,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Kaiser-Wilhelm-Ring 6-8, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.942688,
+   "lng": 6.941041,
    "cuisine": "Turkish restaurant",
    "cuisine_country": [
     "TR"
@@ -2371,7 +2667,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.22,
+    "hbf": 1.19,
+    "messe": 2.85,
+    "deutz": 2.39,
+    "belgisches": 0.66
+   }
   },
   {
    "id": "daimyo-ramen-sushi",
@@ -2379,8 +2683,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Friesenwall 116, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.940461,
+   "lng": 6.941345,
    "cuisine": "Ramen and light 'fitness' sushi",
    "cuisine_country": [
     "JP"
@@ -2418,7 +2722,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.19,
+    "hbf": 1.19,
+    "messe": 2.87,
+    "deutz": 2.36,
+    "belgisches": 0.52
+   }
   },
   {
    "id": "chum-chay",
@@ -2426,8 +2738,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Friesenwall 29, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938638,
+   "lng": 6.940598,
    "cuisine": "Vietnamese vegetarian & vegan",
    "cuisine_country": [
     "VN"
@@ -2474,7 +2786,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.27,
+    "hbf": 1.3,
+    "messe": 2.97,
+    "deutz": 2.42,
+    "belgisches": 0.41
+   }
   },
   {
    "id": "toertchen-toertchen-apostelnstrasse",
@@ -2482,8 +2802,8 @@ window.KOLN_GUIDE = {
    "category": "dessert",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Apostelnstraße 19, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938029,
+   "lng": 6.944846,
    "cuisine": "Patisserie – small cakes (Törtchen) and coffee",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -2522,7 +2842,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.01,
+    "hbf": 1.05,
+    "messe": 2.71,
+    "deutz": 2.14,
+    "belgisches": 0.71
+   }
   },
   {
    "id": "bai-lu-noodles",
@@ -2530,8 +2858,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Palmstraße 41, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93902,
+   "lng": 6.940528,
    "cuisine": "Chinese noodle shop (beef noodle soup)",
    "cuisine_country": [
     "CN"
@@ -2571,7 +2899,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.27,
+    "hbf": 1.29,
+    "messe": 2.97,
+    "deutz": 2.42,
+    "belgisches": 0.41
+   }
   },
   {
    "id": "thai-food-friesenwall",
@@ -2579,8 +2915,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Friesenwall 24B, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93732,
+   "lng": 6.940645,
    "cuisine": "Thai",
    "cuisine_country": [
     "TH"
@@ -2615,7 +2951,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.31,
+    "hbf": 1.35,
+    "messe": 3.02,
+    "deutz": 2.44,
+    "belgisches": 0.43
+   }
   },
   {
    "id": "neni-koeln",
@@ -2623,8 +2967,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Im Klapperhof 22-24, 50670 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.942046,
+   "lng": 6.943092,
    "cuisine": "Israeli-inspired eastern Mediterranean (NENI by Haya Molcho), in 25hours Hotel The Circle",
    "cuisine_country": [
     "IL"
@@ -2671,7 +3015,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.07,
+    "hbf": 1.05,
+    "messe": 2.72,
+    "deutz": 2.24,
+    "belgisches": 0.72
+   }
   },
   {
    "id": "nam-vietnamese",
@@ -2679,8 +3031,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Engelbertstraße 3, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.930825,
+   "lng": 6.939022,
    "cuisine": "Vietnamese — pho specialist",
    "cuisine_country": [
     "VN"
@@ -2728,7 +3080,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.78,
+    "hbf": 1.86,
+    "messe": 3.43,
+    "deutz": 2.76,
+    "belgisches": 0.89
+   }
   },
   {
    "id": "the-coffee-gang",
@@ -2736,8 +3096,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "kwartier-lateng",
    "address": "Hohenstaufenring 19, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.930261,
+   "lng": 6.94073,
    "cuisine": "Specialty coffee bar (guest-roaster filter and espresso)",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -2779,7 +3139,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.74,
+    "hbf": 1.82,
+    "messe": 3.36,
+    "deutz": 2.67,
+    "belgisches": 0.99
+   }
   },
   {
    "id": "sadaf",
@@ -2787,8 +3155,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Jahnstraße 20, 50676 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.932233,
+   "lng": 6.942416,
    "cuisine": "Persian (Iranian) restaurant",
    "cuisine_country": [
     "IR"
@@ -2825,7 +3193,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.5,
+    "hbf": 1.58,
+    "messe": 3.14,
+    "deutz": 2.48,
+    "belgisches": 0.87
+   }
   },
   {
    "id": "tsukiji-koeln",
@@ -2833,8 +3209,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Zülpicher Platz 4a, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93098,
+   "lng": 6.940126,
    "cuisine": "Japanese sushi restaurant",
    "cuisine_country": [
     "JP"
@@ -2881,7 +3257,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.71,
+    "hbf": 1.79,
+    "messe": 3.35,
+    "deutz": 2.68,
+    "belgisches": 0.9
+   }
   },
   {
    "id": "takumi-ramen-koeln",
@@ -2889,8 +3273,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Hohenstaufenring 58, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.932963,
+   "lng": 6.940333,
    "cuisine": "Japanese ramen restaurant",
    "cuisine_country": [
     "JP"
@@ -2930,7 +3314,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.56,
+    "hbf": 1.63,
+    "messe": 3.23,
+    "deutz": 2.58,
+    "belgisches": 0.71
+   }
   },
   {
    "id": "bei-oma-kleinmann",
@@ -2938,8 +3330,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Zülpicher Straße 9, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.929499,
+   "lng": 6.938257,
    "cuisine": "Kölsche Eckkneipe – Schnitzel & Hausmannskost",
    "cuisine_country": [
     "DE"
@@ -2985,7 +3377,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "fnb-ehrenfeld-lateng",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.92,
+    "hbf": 2.0,
+    "messe": 3.55,
+    "deutz": 2.87,
+    "belgisches": 1.01
+   }
   },
   {
    "id": "st-louis-breakfast",
@@ -2993,8 +3393,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "kwartier-lateng",
    "address": "Meister-Gerhard-Straße 30, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.928966,
+   "lng": 6.93611,
    "cuisine": "Breakfast café",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -3034,7 +3434,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.07,
+    "hbf": 2.15,
+    "messe": 3.71,
+    "deutz": 3.03,
+    "belgisches": 1.05
+   }
   },
   {
    "id": "ganesha-indisches-restaurant",
@@ -3042,8 +3450,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Händelstraße 26, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.935109,
+   "lng": 6.936932,
    "cuisine": "Traditional Indian — curry & thali (since 1987)",
    "cuisine_country": [
     "IN"
@@ -3085,7 +3493,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.65,
+    "hbf": 1.69,
+    "messe": 3.35,
+    "deutz": 2.74,
+    "belgisches": 0.39
+   }
   },
   {
    "id": "hana-korean-kitchen",
@@ -3093,8 +3509,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Hohenstaufenring 23, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.931134,
+   "lng": 6.940352,
    "cuisine": "Korean home cooking (sundubu jjigae, haemul pajeon)",
    "cuisine_country": [
     "KR"
@@ -3132,7 +3548,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.69,
+    "hbf": 1.77,
+    "messe": 3.33,
+    "deutz": 2.66,
+    "belgisches": 0.89
+   }
   },
   {
    "id": "ristorante-etrusca",
@@ -3140,8 +3564,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Zülpicher Str. 27, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.929062,
+   "lng": 6.937461,
    "cuisine": "Italian with Sardinian specialties (40+ years)",
    "cuisine_country": [
     "IT"
@@ -3183,7 +3607,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.99,
+    "hbf": 2.08,
+    "messe": 3.62,
+    "deutz": 2.94,
+    "belgisches": 1.05
+   }
   },
   {
    "id": "la-societe",
@@ -3191,8 +3623,8 @@ window.KOLN_GUIDE = {
    "category": "fine-dining",
    "area": "kwartier-lateng",
    "address": "Kyffhäuserstraße 53, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.928386,
+   "lng": 6.937314,
    "cuisine": "French-inspired contemporary tasting menu (one Michelin star, chef Leon Hofmockel)",
    "cuisine_country": [
     "FR"
@@ -3237,7 +3669,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.05,
+    "hbf": 2.14,
+    "messe": 3.67,
+    "deutz": 2.98,
+    "belgisches": 1.12
+   }
   },
   {
    "id": "oruc-kebap",
@@ -3245,8 +3685,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "kwartier-lateng",
    "address": "Heinsbergstraße 1, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.928835,
+   "lng": 6.938328,
    "cuisine": "Turkish döner & charcoal grill (since 1988)",
    "cuisine_country": [
     "TR"
@@ -3293,7 +3733,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.97,
+    "hbf": 2.05,
+    "messe": 3.59,
+    "deutz": 2.9,
+    "belgisches": 1.09
+   }
   },
   {
    "id": "el-inca-restaurant",
@@ -3301,8 +3749,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Görresstraße 2, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.931294,
+   "lng": 6.934788,
    "cuisine": "Traditional Peruvian",
    "cuisine_country": [
     "PE"
@@ -3341,7 +3789,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.99,
+    "hbf": 2.05,
+    "messe": 3.66,
+    "deutz": 3.01,
+    "belgisches": 0.78
+   }
   },
   {
    "id": "fasika",
@@ -3349,8 +3805,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Luxemburger Straße 17, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.928108,
+   "lng": 6.94083,
    "cuisine": "Ethiopian restaurant",
    "cuisine_country": [
     "ET"
@@ -3386,7 +3842,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.91,
+    "hbf": 2.0,
+    "messe": 3.49,
+    "deutz": 2.78,
+    "belgisches": 1.21
+   }
   },
   {
    "id": "habibi-koeln",
@@ -3394,8 +3858,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "kwartier-lateng",
    "address": "Zülpicher Straße 28, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.92957,
+   "lng": 6.937739,
    "cuisine": "Lebanese falafel & shawarma snack bar",
    "cuisine_country": [
     "LB"
@@ -3448,7 +3912,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.94,
+    "hbf": 2.02,
+    "messe": 3.58,
+    "deutz": 2.9,
+    "belgisches": 1.0
+   }
   },
   {
    "id": "tapeo-and-co",
@@ -3456,8 +3928,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Lindenstraße 38, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.934088,
+   "lng": 6.936402,
    "cuisine": "Spanish tapas, cocktails and sangria",
    "cuisine_country": [
     "ES"
@@ -3501,7 +3973,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.73,
+    "hbf": 1.78,
+    "messe": 3.43,
+    "deutz": 2.81,
+    "belgisches": 0.49
+   }
   },
   {
    "id": "zarathustra",
@@ -3509,8 +3989,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Dasselstraße 4, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.929092,
+   "lng": 6.935923,
    "cuisine": "Persian (Iranian) restaurant with many vegan dishes",
    "cuisine_country": [
     "IR"
@@ -3554,7 +4034,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.07,
+    "hbf": 2.15,
+    "messe": 3.71,
+    "deutz": 3.03,
+    "belgisches": 1.03
+   }
   },
   {
    "id": "injera-restaurant",
@@ -3562,8 +4050,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Lindenstraße 86, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.932436,
+   "lng": 6.933161,
    "cuisine": "Ethiopian / East African restaurant",
    "cuisine_country": [
     "ET"
@@ -3609,7 +4097,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.02,
+    "hbf": 2.07,
+    "messe": 3.71,
+    "deutz": 3.08,
+    "belgisches": 0.66
+   }
   },
   {
    "id": "ginti-indian-restaurant",
@@ -3617,8 +4113,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Händelstraße 33, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.934899,
+   "lng": 6.936284,
    "cuisine": "Indian — curries & naan",
    "cuisine_country": [
     "IN"
@@ -3659,7 +4155,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.7,
+    "hbf": 1.74,
+    "messe": 3.4,
+    "deutz": 2.79,
+    "belgisches": 0.4
+   }
   },
   {
    "id": "casita-mexicana-belgisches-viertel",
@@ -3667,8 +4171,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "kwartier-lateng",
    "address": "Roonstraße 88, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.933343,
+   "lng": 6.934232,
    "cuisine": "Mexican street food (tacos)",
    "cuisine_country": [
     "MX"
@@ -3709,7 +4213,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.9,
+    "hbf": 1.96,
+    "messe": 3.6,
+    "deutz": 2.98,
+    "belgisches": 0.56
+   }
   },
   {
    "id": "lebanon-vitamin",
@@ -3717,8 +4229,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "kwartier-lateng",
    "address": "Zülpicher Straße 38, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.929274,
+   "lng": 6.937274,
    "cuisine": "Lebanese shawarma & sandwiches",
    "cuisine_country": [
     "LB"
@@ -3763,7 +4275,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.99,
+    "hbf": 2.07,
+    "messe": 3.62,
+    "deutz": 2.94,
+    "belgisches": 1.02
+   }
   },
   {
    "id": "cafe-feynsinn",
@@ -3771,8 +4291,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "kwartier-lateng",
    "address": "Rathenauplatz 7, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.930434,
+   "lng": 6.93715,
    "cuisine": "Café-restaurant – breakfast, light lunch, cakes",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -3818,7 +4338,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.91,
+    "hbf": 1.99,
+    "messe": 3.56,
+    "deutz": 2.89,
+    "belgisches": 0.89
+   }
   },
   {
    "id": "gusto-antico",
@@ -3826,8 +4354,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "ehrenfeld",
    "address": "Vogelsanger Str. 216, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.950363,
+   "lng": 6.911354,
    "cuisine": "Italian trattoria — pizza and pasta in a courtyard",
    "cuisine_country": [
     "IT"
@@ -3877,7 +4405,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.44,
+    "hbf": 3.39,
+    "messe": 4.91,
+    "deutz": 4.58,
+    "belgisches": 2.11
+   }
   },
   {
    "id": "soliana",
@@ -3885,8 +4421,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "ehrenfeld",
    "address": "Subbelrather Straße 242, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.954046,
+   "lng": 6.919958,
    "cuisine": "Ethiopian & fusion home cooking",
    "cuisine_country": [
     "ET"
@@ -3936,7 +4472,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.04,
+    "hbf": 2.96,
+    "messe": 4.38,
+    "deutz": 4.13,
+    "belgisches": 2.03
+   }
   },
   {
    "id": "cafe-caprista",
@@ -3944,8 +4488,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "ehrenfeld",
    "address": "Venloer Straße 380, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.952188,
+   "lng": 6.914024,
    "cuisine": "Brunch café – pancakes, egg dishes, cakes",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -3988,7 +4532,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.33,
+    "hbf": 3.27,
+    "messe": 4.75,
+    "deutz": 4.45,
+    "belgisches": 2.12
+   }
   },
   {
    "id": "virtuous-pie",
@@ -3996,8 +4548,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "ehrenfeld",
    "address": "Venloer Str. 241-245, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.946605,
+   "lng": 6.92289,
    "cuisine": "Vegan pizza (house-made vegan cheese and sauces)",
    "cuisine_country": [
     "IT"
@@ -4042,7 +4594,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.55,
+    "hbf": 2.51,
+    "messe": 4.09,
+    "deutz": 3.71,
+    "belgisches": 1.24
+   }
   },
   {
    "id": "maspinzelo",
@@ -4050,8 +4610,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "ehrenfeld",
    "address": "Landmannstraße 4, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.954888,
+   "lng": 6.918242,
    "cuisine": "Georgian tapas (small plates), khinkali",
    "cuisine_country": [
     "GE"
@@ -4100,7 +4660,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.19,
+    "hbf": 3.11,
+    "messe": 4.51,
+    "deutz": 4.27,
+    "belgisches": 2.17
+   }
   },
   {
    "id": "kebapland",
@@ -4108,8 +4676,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "ehrenfeld",
    "address": "Venloer Straße 385, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.95077,
+   "lng": 6.915407,
    "cuisine": "Turkish charcoal grill (mangal) & kebab snack bar",
    "cuisine_country": [
     "TR"
@@ -4165,7 +4733,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.18,
+    "hbf": 3.13,
+    "messe": 4.64,
+    "deutz": 4.32,
+    "belgisches": 1.94
+   }
   },
   {
    "id": "pizzeria-spaccanapoli",
@@ -4173,8 +4749,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "ehrenfeld",
    "address": "Venloer Str. 502, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.955329,
+   "lng": 6.907746,
    "cuisine": "Neapolitan pizza",
    "cuisine_country": [
     "IT"
@@ -4215,7 +4791,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.87,
+    "hbf": 3.8,
+    "messe": 5.24,
+    "deutz": 4.98,
+    "belgisches": 2.67
+   }
   },
   {
    "id": "vegan-food-revolution",
@@ -4223,8 +4807,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "ehrenfeld",
    "address": "Venloer Str. 456, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.954202,
+   "lng": 6.910835,
    "cuisine": "Vegan Middle Eastern — hummus, falafel, baklava",
    "cuisine_country": [],
    "cuisine_region": "middle-east",
@@ -4270,7 +4854,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.62,
+    "hbf": 3.56,
+    "messe": 5.01,
+    "deutz": 4.73,
+    "belgisches": 2.43
+   }
   },
   {
    "id": "bethlehem-oriental-kitchen",
@@ -4278,8 +4870,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "ehrenfeld",
    "address": "Lenauplatz 8, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.9574,
+   "lng": 6.919536,
    "cuisine": "Lebanese / Levantine restaurant",
    "cuisine_country": [
     "LB"
@@ -4323,7 +4915,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.25,
+    "hbf": 3.17,
+    "messe": 4.49,
+    "deutz": 4.3,
+    "belgisches": 2.37
+   }
   },
   {
    "id": "popeye-falafel",
@@ -4331,8 +4931,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "ehrenfeld",
    "address": "Venloer Straße 468, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.954529,
+   "lng": 6.910178,
    "cuisine": "Syrian falafel snack bar",
    "cuisine_country": [
     "SY"
@@ -4378,7 +4978,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.68,
+    "hbf": 3.61,
+    "messe": 5.06,
+    "deutz": 4.79,
+    "belgisches": 2.49
+   }
   },
   {
    "id": "ehrenfeld-cafe",
@@ -4386,8 +4994,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "ehrenfeld",
    "address": "Venloer Straße 176, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.945891,
+   "lng": 6.926648,
    "cuisine": "Turkish café — sand-brewed Turkish coffee",
    "cuisine_country": [
     "TR"
@@ -4431,7 +5039,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.27,
+    "hbf": 2.23,
+    "messe": 3.82,
+    "deutz": 3.43,
+    "belgisches": 1.01
+   }
   },
   {
    "id": "eat-kumpir",
@@ -4439,8 +5055,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "ehrenfeld",
    "address": "Venloer Straße 274, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.948059,
+   "lng": 6.921355,
    "cuisine": "Turkish kumpir (loaded baked potatoes)",
    "cuisine_country": [
     "TR"
@@ -4484,7 +5100,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.69,
+    "hbf": 2.64,
+    "messe": 4.2,
+    "deutz": 3.84,
+    "belgisches": 1.43
+   }
   },
   {
    "id": "van-dyck-espressobar",
@@ -4492,8 +5116,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "ehrenfeld",
    "address": "Körnerstraße 43, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.949293,
+   "lng": 6.922514,
    "cuisine": "Espresso bar of a Cologne coffee roaster",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -4535,7 +5159,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.66,
+    "hbf": 2.6,
+    "messe": 4.13,
+    "deutz": 3.8,
+    "belgisches": 1.49
+   }
   },
   {
    "id": "tantuni-haus",
@@ -4543,8 +5175,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "ehrenfeld",
    "address": "Venloer Straße 282, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.948205,
+   "lng": 6.920998,
    "cuisine": "Turkish tantuni (Mersin-style wraps) & lahmacun",
    "cuisine_country": [
     "TR"
@@ -4590,7 +5222,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.72,
+    "hbf": 2.67,
+    "messe": 4.22,
+    "deutz": 3.87,
+    "belgisches": 1.46
+   }
   },
   {
    "id": "braustelle",
@@ -4598,8 +5238,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "ehrenfeld",
    "address": "Christianstraße 2, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.953847,
+   "lng": 6.910702,
    "cuisine": "Hausbrauerei / brewpub – German pub fare",
    "cuisine_country": [
     "DE"
@@ -4649,7 +5289,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "fnb-ehrenfeld-lateng",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.61,
+    "hbf": 3.55,
+    "messe": 5.01,
+    "deutz": 4.73,
+    "belgisches": 2.41
+   }
   },
   {
    "id": "kudret-kebap-house",
@@ -4657,8 +5305,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "ehrenfeld",
    "address": "Venloer Straße 280, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.948241,
+   "lng": 6.921178,
    "cuisine": "Turkish döner kebab house",
    "cuisine_country": [
     "TR"
@@ -4700,7 +5348,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.71,
+    "hbf": 2.66,
+    "messe": 4.21,
+    "deutz": 3.86,
+    "belgisches": 1.45
+   }
   },
   {
    "id": "sushi-ninja-ehrenfeld",
@@ -4708,8 +5364,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "ehrenfeld",
    "address": "Venloer Straße 241, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.94688,
+   "lng": 6.923414,
    "cuisine": "Sushi bar (Ehrenfeld branch of a two-branch local brand)",
    "cuisine_country": [
     "JP"
@@ -4749,7 +5405,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.52,
+    "hbf": 2.48,
+    "messe": 4.05,
+    "deutz": 3.68,
+    "belgisches": 1.24
+   }
   },
   {
    "id": "pufu",
@@ -4757,8 +5421,8 @@ window.KOLN_GUIDE = {
    "category": "dessert",
    "area": "ehrenfeld",
    "address": "Vogelsanger Straße 197b, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.949741,
+   "lng": 6.912203,
    "cuisine": "Japanese soufflé pancakes",
    "cuisine_country": [
     "JP"
@@ -4799,7 +5463,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.36,
+    "hbf": 3.31,
+    "messe": 4.85,
+    "deutz": 4.51,
+    "belgisches": 2.02
+   }
   },
   {
    "id": "cafe-sehnsucht",
@@ -4807,8 +5479,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "ehrenfeld",
    "address": "Körnerstraße 67, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.949991,
+   "lng": 6.923243,
    "cuisine": "Organic breakfast and brunch café",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -4855,7 +5527,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.64,
+    "hbf": 2.58,
+    "messe": 4.08,
+    "deutz": 3.77,
+    "belgisches": 1.53
+   }
   },
   {
    "id": "essers-gasthaus",
@@ -4863,8 +5543,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "ehrenfeld",
    "address": "Ottostraße 72, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.956475,
+   "lng": 6.927069,
    "cuisine": "Austrian Gasthaus cooking with an award-winning wine list",
    "cuisine_country": [
     "AT"
@@ -4907,7 +5587,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.76,
+    "hbf": 2.67,
+    "messe": 3.96,
+    "deutz": 3.78,
+    "belgisches": 2.09
+   }
   },
   {
    "id": "die-eisdielerin",
@@ -4915,8 +5603,8 @@ window.KOLN_GUIDE = {
    "category": "dessert",
    "area": "ehrenfeld",
    "address": "Venloer Straße 402, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.95267,
+   "lng": 6.913191,
    "cuisine": "Ice cream shop with many vegan flavours and backyard seating",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -4957,7 +5645,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.4,
+    "hbf": 3.34,
+    "messe": 4.82,
+    "deutz": 4.53,
+    "belgisches": 2.19
+   }
   },
   {
    "id": "falafel-koenig",
@@ -4965,8 +5661,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "ehrenfeld",
    "address": "Venloer Straße 384, 50825 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.952244,
+   "lng": 6.913858,
    "cuisine": "Middle Eastern falafel snack bar",
    "cuisine_country": [],
    "cuisine_region": "middle-east",
@@ -5014,7 +5710,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.34,
+    "hbf": 3.28,
+    "messe": 4.76,
+    "deutz": 4.47,
+    "belgisches": 2.13
+   }
   },
   {
    "id": "der-eismacher",
@@ -5022,8 +5726,8 @@ window.KOLN_GUIDE = {
    "category": "dessert",
    "area": "suedstadt-rheinauhafen",
    "address": "Severinstraße 53, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.923985,
+   "lng": 6.958559,
    "cuisine": "Organic ice cream parlour with rotating flavours",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -5061,7 +5765,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.92,
+    "hbf": 2.06,
+    "messe": 2.96,
+    "deutz": 2.2,
+    "belgisches": 2.31
+   }
   },
   {
    "id": "downtowner-koeln",
@@ -5069,8 +5781,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "suedstadt-rheinauhafen",
    "address": "Severinstraße 164, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.92399,
+   "lng": 6.95872,
    "cuisine": "Korean urban comfort food (fried chicken, bulgogi, bibimbap, pancakes, dumplings, corn dogs)",
    "cuisine_country": [
     "KR"
@@ -5120,7 +5832,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.92,
+    "hbf": 2.06,
+    "messe": 2.95,
+    "deutz": 2.19,
+    "belgisches": 2.32
+   }
   },
   {
    "id": "pottkind",
@@ -5128,8 +5848,8 @@ window.KOLN_GUIDE = {
    "category": "fine-dining",
    "area": "suedstadt-rheinauhafen",
    "address": "Darmstädter Str. 9, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.919493,
+   "lng": 6.961168,
    "cuisine": "Seasonal fixed menu at an open-kitchen counter (one Michelin star)",
    "cuisine_country": [
     "INT"
@@ -5177,7 +5897,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.43,
+    "hbf": 2.57,
+    "messe": 3.31,
+    "deutz": 2.56,
+    "belgisches": 2.8
+   }
   },
   {
    "id": "hayati",
@@ -5185,8 +5913,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "suedstadt-rheinauhafen",
    "address": "Severinstraße 52C, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.924437,
+   "lng": 6.958829,
    "cuisine": "Lebanese / Arabic falafel & shawarma counter",
    "cuisine_country": [
     "LB"
@@ -5234,7 +5962,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.87,
+    "hbf": 2.01,
+    "messe": 2.9,
+    "deutz": 2.15,
+    "belgisches": 2.29
+   }
   },
   {
    "id": "ox-und-klee",
@@ -5242,8 +5978,8 @@ window.KOLN_GUIDE = {
    "category": "fine-dining",
    "area": "suedstadt-rheinauhafen",
    "address": "Im Zollhafen 18, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.927407,
+   "lng": 6.966217,
    "cuisine": "Creative tasting menu (two Michelin stars)",
    "cuisine_country": [
     "INT"
@@ -5288,7 +6024,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.64,
+    "hbf": 1.77,
+    "messe": 2.36,
+    "deutz": 1.61,
+    "belgisches": 2.52
+   }
   },
   {
    "id": "capricorn-i-aries-brasserie",
@@ -5296,8 +6040,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "suedstadt-rheinauhafen",
    "address": "Alteburger Str. 31, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.920682,
+   "lng": 6.962231,
    "cuisine": "French brasserie",
    "cuisine_country": [
     "FR"
@@ -5341,7 +6085,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.31,
+    "hbf": 2.44,
+    "messe": 3.15,
+    "deutz": 2.41,
+    "belgisches": 2.75
+   }
   },
   {
    "id": "casita-mexicana-suedstadt",
@@ -5349,8 +6101,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "suedstadt-rheinauhafen",
    "address": "Severinstraße 10-12, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.922569,
+   "lng": 6.959257,
    "cuisine": "Mexican street food (tacos), not Tex-Mex",
    "cuisine_country": [
     "MX"
@@ -5392,7 +6144,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.08,
+    "hbf": 2.22,
+    "messe": 3.06,
+    "deutz": 2.31,
+    "belgisches": 2.46
+   }
   },
   {
    "id": "al-salam",
@@ -5400,8 +6160,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "suedstadt-rheinauhafen",
    "address": "Eifelplatz 4, 50677 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.924442,
+   "lng": 6.944238,
    "cuisine": "Middle Eastern (Arabic) mezze & mixed grill",
    "cuisine_country": [],
    "cuisine_region": "middle-east",
@@ -5444,7 +6204,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.11,
+    "hbf": 2.23,
+    "messe": 3.56,
+    "deutz": 2.82,
+    "belgisches": 1.68
+   }
   },
   {
    "id": "tapavinho",
@@ -5452,8 +6220,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "suedstadt-rheinauhafen",
    "address": "Kurfürstenstraße 29, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.920943,
+   "lng": 6.961646,
    "cuisine": "Portuguese and Spanish tapas",
    "cuisine_country": [
     "PT",
@@ -5501,7 +6269,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.27,
+    "hbf": 2.41,
+    "messe": 3.15,
+    "deutz": 2.4,
+    "belgisches": 2.7
+   }
   },
   {
    "id": "die-fette-kuh",
@@ -5509,8 +6285,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "suedstadt-rheinauhafen",
    "address": "Bonner Str. 43, 50677 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.91817,
+   "lng": 6.960703,
    "cuisine": "Burger bar (self-service)",
    "cuisine_country": [
     "US"
@@ -5553,7 +6329,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.58,
+    "hbf": 2.71,
+    "messe": 3.45,
+    "deutz": 2.71,
+    "belgisches": 2.89
+   }
   },
   {
    "id": "thai-ja-roen-imbiss",
@@ -5561,8 +6345,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "agnesviertel-eigelstein",
    "address": "Thürmchenswall 64, 50668 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.949174,
+   "lng": 6.961515,
    "cuisine": "Thai snack bar (Imbiss)",
    "cuisine_country": [
     "TH"
@@ -5599,7 +6383,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.91,
+    "hbf": 0.78,
+    "messe": 1.42,
+    "deutz": 1.32,
+    "belgisches": 2.23
+   }
   },
   {
    "id": "caruso-pastabar",
@@ -5607,8 +6399,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "agnesviertel-eigelstein",
    "address": "Kasparstraße 19, 50670 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.952534,
+   "lng": 6.953559,
    "cuisine": "Italian pasta bar",
    "cuisine_country": [
     "IT"
@@ -5649,7 +6441,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.29,
+    "hbf": 1.16,
+    "messe": 2.05,
+    "deutz": 1.99,
+    "belgisches": 2.06
+   }
   },
   {
    "id": "tang-wang-koeln",
@@ -5657,8 +6457,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "agnesviertel-eigelstein",
    "address": "Maximinenstraße 4, 50668 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.945181,
+   "lng": 6.958226,
    "cuisine": "Sichuan Chinese",
    "cuisine_country": [
     "CN"
@@ -5703,7 +6503,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.43,
+    "hbf": 0.3,
+    "messe": 1.62,
+    "deutz": 1.27,
+    "belgisches": 1.81
+   }
   },
   {
    "id": "thai-imbiss-eigelstein",
@@ -5711,8 +6519,8 @@ window.KOLN_GUIDE = {
    "category": "streetfood",
    "area": "agnesviertel-eigelstein",
    "address": "Eigelstein 114, 50668 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.949024,
+   "lng": 6.957023,
    "cuisine": "Thai snack bar (Imbiss)",
    "cuisine_country": [
     "TH"
@@ -5749,7 +6557,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.87,
+    "hbf": 0.73,
+    "messe": 1.72,
+    "deutz": 1.55,
+    "belgisches": 1.96
+   }
   },
   {
    "id": "oez-harran-doy-doy",
@@ -5757,8 +6573,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "agnesviertel-eigelstein",
    "address": "Weidengasse 28-34, 50668 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.948107,
+   "lng": 6.95523,
    "cuisine": "Turkish restaurant (Harran style)",
    "cuisine_country": [
     "TR"
@@ -5794,7 +6610,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.79,
+    "hbf": 0.65,
+    "messe": 1.83,
+    "deutz": 1.6,
+    "belgisches": 1.8
+   }
   },
   {
    "id": "gogi-matcha-koeln",
@@ -5802,8 +6626,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "agnesviertel-eigelstein",
    "address": "Johannisstraße 47, 50668 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.944252,
+   "lng": 6.960432,
    "cuisine": "Korean (budae jjigae, cheese buldak, Korean fried chicken)",
    "cuisine_country": [
     "KR"
@@ -5849,7 +6673,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.36,
+    "hbf": 0.26,
+    "messe": 1.48,
+    "deutz": 1.09,
+    "belgisches": 1.92
+   }
   },
   {
    "id": "restaurant-diogenis",
@@ -5857,8 +6689,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "agnesviertel-eigelstein",
    "address": "Sudermanplatz 7, 50670 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.951574,
+   "lng": 6.954613,
    "cuisine": "Greek restaurant",
    "cuisine_country": [
     "GR"
@@ -5893,7 +6725,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.17,
+    "hbf": 1.04,
+    "messe": 1.95,
+    "deutz": 1.86,
+    "belgisches": 2.03
+   }
   },
   {
    "id": "damla-weidengasse",
@@ -5901,8 +6741,8 @@ window.KOLN_GUIDE = {
    "category": "dessert",
    "area": "agnesviertel-eigelstein",
    "address": "Weidengasse 47, 50668 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.948068,
+   "lng": 6.95471,
    "cuisine": "Turkish baklava and sweets shop",
    "cuisine_country": [
     "TR"
@@ -5941,7 +6781,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.8,
+    "hbf": 0.66,
+    "messe": 1.87,
+    "deutz": 1.63,
+    "belgisches": 1.77
+   }
   },
   {
    "id": "nuvola-napoli",
@@ -5949,8 +6797,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "deutz-messe",
    "address": "Deutzer Freiheit 66a, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936706,
+   "lng": 6.973485,
    "cuisine": "Neapolitan pizza",
    "cuisine_country": [
     "IT"
@@ -6001,7 +6849,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "fnb-deutz-messe",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.18,
+    "hbf": 1.26,
+    "messe": 1.21,
+    "deutz": 0.47,
+    "belgisches": 2.72
+   }
   },
   {
    "id": "the-coffice-deutz",
@@ -6009,8 +6865,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "deutz-messe",
    "address": "Charles-de-Gaulle-Platz 1d, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.94315,
+   "lng": 6.971517,
    "cuisine": "Coffee bar at Köln Messe/Deutz station",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -6051,7 +6907,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.95,
+    "hbf": 0.95,
+    "messe": 0.77,
+    "deutz": 0.36,
+    "belgisches": 2.63
+   }
   },
   {
    "id": "st-louis-cafe-deutz",
@@ -6059,8 +6923,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "deutz-messe",
    "address": "Deutzer Freiheit 89, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936882,
+   "lng": 6.974657,
    "cuisine": "Café on Deutzer Freiheit",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -6095,7 +6959,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.25,
+    "hbf": 1.32,
+    "messe": 1.15,
+    "deutz": 0.44,
+    "belgisches": 2.8
+   }
   },
   {
    "id": "lommerzheim",
@@ -6103,8 +6975,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "deutz-messe",
    "address": "Siegesstraße 18, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938631,
+   "lng": 6.97364,
    "cuisine": "Traditional Kölsch pub (Päffgen), Rhineland pub food",
    "cuisine_country": [
     "DE"
@@ -6156,7 +7028,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "fnb-deutz-messe",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.12,
+    "hbf": 1.17,
+    "messe": 1.01,
+    "deutz": 0.26,
+    "belgisches": 2.73
+   }
   },
   {
    "id": "meiwei-deutz",
@@ -6164,8 +7044,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "deutz-messe",
    "address": "Mindener Straße 4, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938136,
+   "lng": 6.971863,
    "cuisine": "Pan-Asian (MEIWEI Asiatisch) — Chinese dumplings (baozi, wonton), Thai salads, curries, noodle soups",
    "cuisine_country": [
     "CN",
@@ -6218,7 +7098,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.01,
+    "hbf": 1.08,
+    "messe": 1.13,
+    "deutz": 0.37,
+    "belgisches": 2.6
+   }
   },
   {
    "id": "deutzer-brauhaus",
@@ -6226,8 +7114,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "deutz-messe",
    "address": "Ottoplatz 7, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.940463,
+   "lng": 6.97438,
    "cuisine": "Brauhaus — Kölsch and Rhineland dishes",
    "cuisine_country": [
     "DE"
@@ -6278,7 +7166,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "fnb-deutz-messe",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.13,
+    "hbf": 1.17,
+    "messe": 0.82,
+    "deutz": 0.06,
+    "belgisches": 2.79
+   }
   },
   {
    "id": "mongos-koeln",
@@ -6286,8 +7182,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "deutz-messe",
    "address": "Ottoplatz 1, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.940385,
+   "lng": 6.971802,
    "cuisine": "Mongolian grill — all-you-can-eat wok buffet (chain)",
    "cuisine_country": [
     "INT"
@@ -6336,7 +7232,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "fnb-deutz-messe",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.95,
+    "hbf": 0.99,
+    "messe": 0.94,
+    "deutz": 0.23,
+    "belgisches": 2.61
+   }
   },
   {
    "id": "grissini-restaurant-terrasse",
@@ -6344,8 +7248,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "deutz-messe",
    "address": "Kennedy-Ufer 2a, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.940381,
+   "lng": 6.969487,
    "cuisine": "Italian hotel restaurant (Hyatt Regency) with terrace",
    "cuisine_country": [
     "IT"
@@ -6385,7 +7289,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.79,
+    "hbf": 0.83,
+    "messe": 1.06,
+    "deutz": 0.39,
+    "belgisches": 2.45
+   }
   },
   {
    "id": "brauhaus-ohne-namen",
@@ -6393,8 +7305,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "deutz-messe",
    "address": "Mathildenstraße 42, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93497,
+   "lng": 6.974302,
    "cuisine": "Brauhaus — Rhineland / regional dishes",
    "cuisine_country": [
     "DE"
@@ -6444,7 +7356,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "fnb-deutz-messe",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.32,
+    "hbf": 1.41,
+    "messe": 1.36,
+    "deutz": 0.65,
+    "belgisches": 2.8
+   }
   },
   {
    "id": "cafe-heimisch",
@@ -6452,8 +7372,8 @@ window.KOLN_GUIDE = {
    "category": "cafe",
    "area": "deutz-messe",
    "address": "Deutzer Freiheit 72–74, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936698,
+   "lng": 6.973968,
    "cuisine": "Café with regional products – breakfast, coffee, light lunch",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -6499,7 +7419,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.21,
+    "hbf": 1.29,
+    "messe": 1.19,
+    "deutz": 0.47,
+    "belgisches": 2.76
+   }
   },
   {
    "id": "cafe-especial",
@@ -6507,8 +7435,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "deutz-messe",
    "address": "Neuhöfferstraße 32, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939485,
+   "lng": 6.9754,
    "cuisine": "Mexican cantina & tequila bar",
    "cuisine_country": [
     "MX"
@@ -6558,7 +7486,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "fnb-deutz-messe",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.22,
+    "hbf": 1.26,
+    "messe": 0.87,
+    "deutz": 0.15,
+    "belgisches": 2.85
+   }
   },
   {
    "id": "enat-aethiopisches-restaurant",
@@ -6566,8 +7502,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "other",
    "address": "Remscheider Straße 45, 51103 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.944688,
+   "lng": 7.005612,
    "cuisine": "Ethiopian / Eritrean restaurant (Kalk)",
    "cuisine_country": [
     "ET",
@@ -6604,7 +7540,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.34,
+    "hbf": 3.34,
+    "messe": 1.72,
+    "deutz": 2.19,
+    "belgisches": 5.02
+   }
   },
   {
    "id": "bulgogi-haus",
@@ -6612,8 +7556,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "other",
    "address": "Neusser Straße 654, 50737 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.984597,
+   "lng": 6.947281,
    "cuisine": "Korean BBQ (tabletop grill) with banchan buffet",
    "cuisine_country": [
     "KR"
@@ -6661,7 +7605,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 4.88,
+    "hbf": 4.74,
+    "messe": 4.87,
+    "deutz": 5.24,
+    "belgisches": 5.22
+   }
   },
   {
    "id": "il-gelato-di-ferigo",
@@ -6669,8 +7621,8 @@ window.KOLN_GUIDE = {
    "category": "dessert",
    "area": "other",
    "address": "Goltsteinstraße 32, 50968 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.911678,
+   "lng": 6.967972,
    "cuisine": "Italian gelateria (30–40 flavours)",
    "cuisine_country": [
     "IT"
@@ -6708,7 +7660,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.36,
+    "hbf": 3.5,
+    "messe": 3.97,
+    "deutz": 3.28,
+    "belgisches": 3.77
+   }
   },
   {
    "id": "zen-japanese-restaurant",
@@ -6716,8 +7676,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "other",
    "address": "Bachemer Straße 233, 50935 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.925334,
+   "lng": 6.907672,
    "cuisine": "Japanese — sushi, sashimi, tempura, udon, gyoza, omakase set",
    "cuisine_country": [
     "JP"
@@ -6770,7 +7730,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "r2-east-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.97,
+    "hbf": 4.01,
+    "messe": 5.66,
+    "deutz": 5.02,
+    "belgisches": 2.38
+   }
   },
   {
    "id": "darwish-konditorei",
@@ -6778,8 +7746,8 @@ window.KOLN_GUIDE = {
    "category": "dessert",
    "area": "other",
    "address": "Zülpicher Straße 273, 50937 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.922543,
+   "lng": 6.922849,
    "cuisine": "Middle Eastern pastry shop (baklava, kunafa)",
    "cuisine_country": [],
    "cuisine_region": "middle-east",
@@ -6817,7 +7785,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.24,
+    "hbf": 3.32,
+    "messe": 4.88,
+    "deutz": 4.18,
+    "belgisches": 1.94
+   }
   },
   {
    "id": "jamas-griechische-taverne",
@@ -6825,8 +7801,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "other",
    "address": "Sechzigstraße 1, 50733 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.959823,
+   "lng": 6.949751,
    "cuisine": "Greek taverna — Greek tapas (mezedes)",
    "cuisine_country": [
     "GR"
@@ -6867,7 +7843,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.15,
+    "hbf": 2.01,
+    "messe": 2.66,
+    "deutz": 2.75,
+    "belgisches": 2.61
+   }
   },
   {
    "id": "thai-gourmet-nippes",
@@ -6875,8 +7859,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "other",
    "address": "Neusser Str. 311, 50733 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.965853,
+   "lng": 6.953256,
    "cuisine": "Thai",
    "cuisine_country": [
     "TH"
@@ -6913,7 +7897,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.76,
+    "hbf": 2.62,
+    "messe": 2.92,
+    "deutz": 3.17,
+    "belgisches": 3.32
+   }
   },
   {
    "id": "kilim-restaurant",
@@ -6921,8 +7913,8 @@ window.KOLN_GUIDE = {
    "category": "restaurant",
    "area": "other",
    "address": "Keupstraße 69, 51063 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.964609,
+   "lng": 7.010907,
    "cuisine": "Turkish restaurant on Keupstraße (Mülheim) — lahmacun, grill, desserts",
    "cuisine_country": [
     "TR"
@@ -6963,7 +7955,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 4.51,
+    "hbf": 4.44,
+    "messe": 2.9,
+    "deutz": 3.65,
+    "belgisches": 6.08
+   }
   }
  ],
  "bars": [
@@ -6973,8 +7973,8 @@ window.KOLN_GUIDE = {
    "category": "beer-bar",
    "area": "dom-altstadt",
    "address": "Martinstraße 32, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.937207,
+   "lng": 6.958936,
    "cuisine": "Craft beer taproom with 15 rotating taps",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7017,7 +8017,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.45,
+    "hbf": 0.59,
+    "messe": 1.87,
+    "deutz": 1.2,
+    "belgisches": 1.7
+   }
   },
   {
    "id": "papa-joes-jazzlokal",
@@ -7025,8 +8033,8 @@ window.KOLN_GUIDE = {
    "category": "bar",
    "area": "dom-altstadt",
    "address": "Buttermarkt 37, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.937856,
+   "lng": 6.962126,
    "cuisine": "Live-jazz pub (since 1974)",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7072,7 +8080,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.47,
+    "hbf": 0.59,
+    "messe": 1.64,
+    "deutz": 0.96,
+    "belgisches": 1.92
+   }
   },
   {
    "id": "papa-joes-biersalon",
@@ -7080,8 +8096,8 @@ window.KOLN_GUIDE = {
    "category": "beer-bar",
    "area": "dom-altstadt",
    "address": "Alter Markt 50-52, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938803,
+   "lng": 6.960339,
    "cuisine": "Old-town beer pub with vintage music machines",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7118,7 +8134,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.31,
+    "hbf": 0.44,
+    "messe": 1.69,
+    "deutz": 1.05,
+    "belgisches": 1.8
+   }
   },
   {
    "id": "barito",
@@ -7126,8 +8150,8 @@ window.KOLN_GUIDE = {
    "category": "cocktail-bar",
    "area": "belgisches-viertel",
    "address": "Aachener Straße 59, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936375,
+   "lng": 6.932856,
    "cuisine": "Cocktail bar",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7163,7 +8187,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.86,
+    "hbf": 1.89,
+    "messe": 3.57,
+    "deutz": 2.99,
+    "belgisches": 0.25
+   }
   },
   {
    "id": "little-link",
@@ -7171,8 +8203,8 @@ window.KOLN_GUIDE = {
    "category": "cocktail-bar",
    "area": "belgisches-viertel",
    "address": "Maastrichter Straße 20, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938587,
+   "lng": 6.93697,
    "cuisine": "Experimental cocktail bar with house-made ingredients",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7225,7 +8257,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.52,
+    "hbf": 1.54,
+    "messe": 3.22,
+    "deutz": 2.68,
+    "belgisches": 0.16
+   }
   },
   {
    "id": "monkey-bar",
@@ -7233,8 +8273,8 @@ window.KOLN_GUIDE = {
    "category": "bar",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Im Klapperhof 22-24, 50670 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.942046,
+   "lng": 6.943092,
    "cuisine": "Rooftop hotel bar with a street-food bar menu",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7271,7 +8311,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.07,
+    "hbf": 1.05,
+    "messe": 2.72,
+    "deutz": 2.24,
+    "belgisches": 0.72
+   }
   },
   {
    "id": "spirits-bar",
@@ -7279,8 +8327,8 @@ window.KOLN_GUIDE = {
    "category": "cocktail-bar",
    "area": "kwartier-lateng",
    "address": "Engelbertstraße 63, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.934923,
+   "lng": 6.937702,
    "cuisine": "Cocktail bar",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7315,7 +8363,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.61,
+    "hbf": 1.66,
+    "messe": 3.31,
+    "deutz": 2.69,
+    "belgisches": 0.43
+   }
   },
   {
    "id": "ona-mor",
@@ -7323,8 +8379,8 @@ window.KOLN_GUIDE = {
    "category": "cocktail-bar",
    "area": "kwartier-lateng",
    "address": "Roonstraße 94, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93349,
+   "lng": 6.93394,
    "cuisine": "Cocktail bar",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7361,7 +8417,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.91,
+    "hbf": 1.96,
+    "messe": 3.61,
+    "deutz": 2.99,
+    "belgisches": 0.54
+   }
   },
   {
    "id": "samuels-shep",
@@ -7369,8 +8433,8 @@ window.KOLN_GUIDE = {
    "category": "cocktail-bar",
    "area": "kwartier-lateng",
    "address": "Rathenauplatz 5, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.930633,
+   "lng": 6.937448,
    "cuisine": "Small cocktail bar inspired by Cairo's Shepheard Hotel",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7408,7 +8472,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.88,
+    "hbf": 1.96,
+    "messe": 3.53,
+    "deutz": 2.87,
+    "belgisches": 0.88
+   }
   },
   {
    "id": "rosebud-bar",
@@ -7416,8 +8488,8 @@ window.KOLN_GUIDE = {
    "category": "cocktail-bar",
    "area": "kwartier-lateng",
    "address": "Heinsbergstraße 20, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.930101,
+   "lng": 6.938066,
    "cuisine": "Long-running cocktail bar",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7453,7 +8525,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.88,
+    "hbf": 1.97,
+    "messe": 3.53,
+    "deutz": 2.85,
+    "belgisches": 0.94
+   }
   },
   {
    "id": "the-baer-gin-cocktailbar",
@@ -7461,8 +8541,8 @@ window.KOLN_GUIDE = {
    "category": "cocktail-bar",
    "area": "ehrenfeld",
    "address": "Thebäerstraße 10, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.946926,
+   "lng": 6.921565,
    "cuisine": "Gin-focused cocktail bar",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7498,7 +8578,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.65,
+    "hbf": 2.6,
+    "messe": 4.18,
+    "deutz": 3.8,
+    "belgisches": 1.33
+   }
   },
   {
    "id": "bar-botanik",
@@ -7506,8 +8594,8 @@ window.KOLN_GUIDE = {
    "category": "bar",
    "area": "suedstadt-rheinauhafen",
    "address": "Kaygasse 2, 50676 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.931609,
+   "lng": 6.951625,
    "cuisine": "Hotel rooftop bar on the 11th floor with 360° city views",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7543,7 +8631,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.17,
+    "hbf": 1.29,
+    "messe": 2.65,
+    "deutz": 1.93,
+    "belgisches": 1.4
+   }
   },
   {
    "id": "toddy-tapper",
@@ -7551,8 +8647,8 @@ window.KOLN_GUIDE = {
    "category": "cocktail-bar",
    "area": "agnesviertel-eigelstein",
    "address": "Schillingstraße 27, 50670 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.952126,
+   "lng": 6.957976,
    "cuisine": "Cocktail bar built around Sri Lankan arrack",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7596,7 +8692,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.21,
+    "hbf": 1.07,
+    "messe": 1.75,
+    "deutz": 1.73,
+    "belgisches": 2.24
+   }
   },
   {
    "id": "suderman",
@@ -7604,8 +8708,8 @@ window.KOLN_GUIDE = {
    "category": "cocktail-bar",
    "area": "agnesviertel-eigelstein",
    "address": "Sudermanplatz 3, 50670 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.951326,
+   "lng": 6.954184,
    "cuisine": "Neighbourhood cocktail bar with a cosy pub feel",
    "cuisine_country": [],
    "cuisine_region": null,
@@ -7641,7 +8745,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r2-bars",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.15,
+    "hbf": 1.02,
+    "messe": 1.97,
+    "deutz": 1.87,
+    "belgisches": 1.99
+   }
   }
  ],
  "shops": [],
@@ -7653,8 +8765,8 @@ window.KOLN_GUIDE = {
    "category": "landmark",
    "area": "dom-altstadt",
    "address": "Alter Markt, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939183,
+   "lng": 6.960041,
    "summary_ko": "브라우하우스가 둘러싼 구시가 광장과 강변 피슈마르크트의 알록달록한 박공집. 대성당~그로스 장크트 마르틴 도보 코스의 중심.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -7679,7 +8791,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.26,
+    "hbf": 0.39,
+    "messe": 1.69,
+    "deutz": 1.06,
+    "belgisches": 1.78
+   }
   },
   {
    "id": "gross-st-martin",
@@ -7688,8 +8808,8 @@ window.KOLN_GUIDE = {
    "category": "church",
    "area": "dom-altstadt",
    "address": "An Groß St. Martin 9, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93831,
+   "lng": 6.961369,
    "summary_ko": "네 개의 작은 탑을 단 사각 탑으로 라인강변 구시가 스카이라인을 완성하는 로마네스크 수도원 성당. 2009년부터 예루살렘 수도 공동체가 머문다.",
    "tips_ko": "지하에 로마 시대 창고 기초가 남은 발굴 구역이 있다(개방 시간 미확인). 강변 Frankenwerft 쪽에서 대성당과 함께 찍는 사진이 명당.",
    "price_eur": 0.0,
@@ -7720,7 +8840,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.39,
+    "hbf": 0.52,
+    "messe": 1.66,
+    "deutz": 1.0,
+    "belgisches": 1.87
+   }
   },
   {
    "id": "hohenzollernbrucke-liebesschlosser",
@@ -7729,8 +8857,8 @@ window.KOLN_GUIDE = {
    "category": "viewpoint",
    "area": "dom-altstadt",
    "address": "Hohenzollernbrücke, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.941318,
+   "lng": 6.965704,
    "summary_ko": "대성당과 중앙역을 잇는 철교의 보행로에 수십만 개 사랑의 자물쇠가 걸린 포토 스폿. 해 질 녘 도이츠 쪽으로 건너가며 대성당을 돌아보는 코스가 정석.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -7757,7 +8885,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.52,
+    "hbf": 0.55,
+    "messe": 1.23,
+    "deutz": 0.65,
+    "belgisches": 2.2
+   }
   },
   {
    "id": "koelner-dom",
@@ -7766,8 +8902,8 @@ window.KOLN_GUIDE = {
    "category": "landmark",
    "area": "dom-altstadt",
    "address": "Domkloster 4, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.941303,
+   "lng": 6.958138,
    "summary_ko": "높이 157m 쌍탑의 고딕 대성당이자 유네스코 세계유산. 동방박사 유골함(Dreikönigenschrein)과 게르하르트 리히터의 남쪽 스테인드글라스가 하이라이트.",
    "tips_ko": "2026-07-01부터 관광객 유료화. 온라인(tickets.koelner-dom.de)에서 최대 3개월 전 예매, 현장 매표소는 Roncalliplatz 2 Kurienhaus. 미사 참석·개인 기도(북쪽 익랑 Nordquerhaus)는 무료. 1/6(주현절)~그다음 일요일, 5/1, 10/3은 무료 입장. 공식 복장 규정은 확인되지 않았지만 예배 공간이므로 단정한 복장과 정숙 권장.",
    "price_eur": 12.0,
@@ -7804,7 +8940,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.01,
+    "hbf": 0.13,
+    "messe": 1.71,
+    "deutz": 1.18,
+    "belgisches": 1.67
+   }
   },
   {
    "id": "weihnachtsmarkt-am-kolner-dom",
@@ -7813,8 +8957,8 @@ window.KOLN_GUIDE = {
    "category": "market-event",
    "area": "dom-altstadt",
    "address": "Roncalliplatz, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.940443,
+   "lng": 6.958202,
    "summary_ko": "대성당 바로 아래 로마 광장의 대표 마켓. 거대한 트리와 별빛 천장이 상징.",
    "tips_ko": "대성당 바로 앞 로마 광장(Roncalliplatz)의 대표 마켓. 주말 저녁은 매우 붐비니 평일 낮이 편해요. 글뤼바인 컵은 보증금(판트)을 받고 돌려주면 환불.",
    "price_eur": 0.0,
@@ -7848,7 +8992,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.09,
+    "hbf": 0.23,
+    "messe": 1.74,
+    "deutz": 1.18,
+    "belgisches": 1.66
+   }
   },
   {
    "id": "altstadt-rheinufer-frankenwerft-fischmarkt",
@@ -7857,8 +9009,8 @@ window.KOLN_GUIDE = {
    "category": "nightlife-area",
    "area": "dom-altstadt",
    "address": "Frankenwerft, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938546,
+   "lng": 6.963037,
    "summary_ko": "브라우하우스와 펍이 강변에 줄지은 관광객 중심 밤거리. 쾰시를 마시며 라인강 야경.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -7883,7 +9035,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.45,
+    "hbf": 0.56,
+    "messe": 1.55,
+    "deutz": 0.88,
+    "belgisches": 1.98
+   }
   },
   {
    "id": "domschatzkammer",
@@ -7892,8 +9052,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Domkloster 4, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.941303,
+   "lng": 6.958138,
    "summary_ko": "대성당 북쪽 지하 공간에 중세 성유물함, 주교관, 전례용 금은 공예품을 전시하는 보물관. 대성당의 1천 년 신앙 유산을 압축해서 볼 수 있다.",
    "tips_ko": "탑과 묶은 콤비 티켓(€12)이 따로 사는 것(€16)보다 저렴. 콤비에는 성당 내부 관광 입장이 포함되지 않음.",
    "price_eur": 8.0,
@@ -7923,7 +9083,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.01,
+    "hbf": 0.13,
+    "messe": 1.71,
+    "deutz": 1.18,
+    "belgisches": 1.67
+   }
   },
   {
    "id": "duftmuseum-farina-haus",
@@ -7932,8 +9100,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Obenmarspforten 21, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.937745,
+   "lng": 6.95793,
    "summary_ko": "요한 마리아 파리나가 '오 드 콜로뉴(Eau de Cologne)'를 처음 만든 향수 회사의 본가. 가이드 투어로 300년 향수 역사와 조향 도구를 본다.",
    "tips_ko": "관람은 가이드 투어 형식(영어 투어 약 1시간). 계단이 많아 휠체어 이용 불가. 4711 하우스와 비교해 보는 '오 드 콜로뉴 원조 논쟁' 코스로 묶기 좋다.",
    "price_eur": null,
@@ -7963,7 +9131,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.39,
+    "hbf": 0.53,
+    "messe": 1.9,
+    "deutz": 1.24,
+    "belgisches": 1.63
+   }
   },
   {
    "id": "heimat-der-heinzel-altstadt-heumarkt-alter-markt",
@@ -7972,8 +9148,8 @@ window.KOLN_GUIDE = {
    "category": "market-event",
    "area": "dom-altstadt",
    "address": "Heumarkt, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.935239,
+   "lng": 6.957603,
    "summary_ko": "쾰른 전설 속 요정 '하인첼멘헨'을 테마로 한 구시가 마켓. 호이마르크트에 아이스링크가 함께 선다.",
    "tips_ko": "구시가 두 광장에 걸친 '하인첼(쾰른 전설의 요정)' 테마 마켓. 호이마르크트에 아이스링크(Heinzels Wintermärchen)가 함께 열려요.",
    "price_eur": 0.0,
@@ -8000,7 +9176,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.67,
+    "hbf": 0.81,
+    "messe": 2.07,
+    "deutz": 1.37,
+    "belgisches": 1.64
+   }
   },
   {
    "id": "kolumba",
@@ -8009,8 +9193,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Kolumbastraße 4, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938586,
+   "lng": 6.953989,
    "summary_ko": "페터 춤토르가 전쟁으로 무너진 성 콜룸바 성당 폐허 위에 지은 쾰른 대교구 미술관. 고대~현대 작품을 해마다 새로 배치하는 고요한 전시로 건축 팬의 성지.",
    "tips_ko": "건물 자체(폐허 위 회색 벽돌, 빛이 새는 벽)가 볼거리. 영업 시간이 짧으니 오후 일찍 방문.",
    "price_eur": null,
@@ -8041,7 +9225,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.42,
+    "hbf": 0.52,
+    "messe": 2.1,
+    "deutz": 1.49,
+    "belgisches": 1.35
+   }
   },
   {
    "id": "kathe-kollwitz-museum-koln",
@@ -8050,8 +9242,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Neumarkt 18-24, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936951,
+   "lng": 6.946371,
    "summary_ko": "독일 표현주의 판화가 케테 콜비츠의 세계 최대 컬렉션.",
    "tips_ko": null,
    "price_eur": 8.0,
@@ -8081,7 +9273,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.96,
+    "hbf": 1.03,
+    "messe": 2.66,
+    "deutz": 2.05,
+    "belgisches": 0.83
+   }
   },
   {
    "id": "koelner-dom-dachfuehrung",
@@ -8090,8 +9290,8 @@ window.KOLN_GUIDE = {
    "category": "experience-tour",
    "area": "dom-altstadt",
    "address": "Domkloster 3, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.940976,
+   "lng": 6.956342,
    "summary_ko": "도메포룸(Domforum)이 운영하는 90분 가이드 투어로, 일반 관람객이 갈 수 없는 대성당 지붕 위 통로를 걷는다. 대성당 투어 중 가장 인기 있는 프로그램.",
    "tips_ko": "16세 이상만 참가 가능, 일정이 금방 차므로 몇 주 전 예매 필수. 주로 독일어 진행이므로 영어 회차 여부를 예매 시 확인. 일반 대성당 가이드 투어도 같은 예매 포털(Domforum)에서 신청.",
    "price_eur": 22.5,
@@ -8119,7 +9319,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.14,
+    "hbf": 0.21,
+    "messe": 1.85,
+    "deutz": 1.31,
+    "belgisches": 1.54
+   }
   },
   {
    "id": "koelner-dom-turm",
@@ -8128,8 +9336,8 @@ window.KOLN_GUIDE = {
    "category": "viewpoint",
    "area": "dom-altstadt",
    "address": "Domkloster 4, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.941303,
+   "lng": 6.958138,
    "summary_ko": "엘리베이터 없이 533계단을 올라 약 97m 높이 전망 플랫폼에서 라인강과 구시가를 내려다보는 코스. 중간에 대성당의 거대한 종(Petersglocke)도 지난다.",
    "tips_ko": "좁은 나선계단이라 편한 신발 필수, 왕복 약 1시간. 성당 내부 관광 입장권(€12)과 별개 티켓이며, 탑+보물관 콤비가 경제적.",
    "price_eur": 8.0,
@@ -8159,7 +9367,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.01,
+    "hbf": 0.13,
+    "messe": 1.71,
+    "deutz": 1.18,
+    "belgisches": 1.67
+   }
   },
   {
    "id": "koelnisches-stadtmuseum",
@@ -8168,8 +9384,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Minoritenstraße 13, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939006,
+   "lng": 6.95428,
    "summary_ko": "건물 문제로 옛 전시관(Zeughaus)을 떠나 2024년 3월 옛 패션 백화점 Franz Sauer 건물에서 다시 문을 연 쾰른 도시사 박물관. 2천 년 쾰른 이야기를 테마별로 압축했다.",
    "tips_ko": "대성당·콜룸바와 가까운 도심 한복판. 월요일 휴관. 저렴해서 짧게 들르기 좋다.",
    "price_eur": 5.0,
@@ -8198,7 +9414,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.38,
+    "hbf": 0.47,
+    "messe": 2.06,
+    "deutz": 1.47,
+    "belgisches": 1.37
+   }
   },
   {
    "id": "markt-der-engel-neumarkt",
@@ -8207,8 +9431,8 @@ window.KOLN_GUIDE = {
    "category": "market-event",
    "area": "dom-altstadt",
    "address": "Neumarkt, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936038,
+   "lng": 6.947659,
    "summary_ko": "천사 복장 공연자와 별 조명이 있는 노이마르크트 마켓. 쇼핑가와 바로 연결.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -8234,7 +9458,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "annual-event",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.95,
+    "hbf": 1.02,
+    "messe": 2.62,
+    "deutz": 1.99,
+    "belgisches": 0.94
+   }
   },
   {
    "id": "museum-ludwig",
@@ -8243,8 +9475,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Heinrich-Böll-Platz, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.940966,
+   "lng": 6.960888,
    "summary_ko": "대성당 바로 옆, 피카소 컬렉션과 워홀·리히텐슈타인 등 팝아트, 러시아 아방가르드로 유명한 20세기·현대미술관. 비 오는 날 1순위 실내 코스.",
    "tips_ko": "매월 첫째 목요일은 22시까지 야간 개장. 18세 이하 무료라 가족 여행에 유리. 대성당·호엔촐레른 다리와 한 동선.",
    "price_eur": 12.0,
@@ -8272,7 +9504,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.19,
+    "hbf": 0.26,
+    "messe": 1.55,
+    "deutz": 0.99,
+    "belgisches": 1.86
+   }
   },
   {
    "id": "ns-dokumentationszentrum",
@@ -8281,8 +9521,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Appellhofplatz 23-25, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.94061,
+   "lng": 6.950246,
    "summary_ko": "1935~45년 쾰른 게슈타포 본부였던 건물. 지하 게슈타포 감옥 기념관과 상설전 '나치 시대의 쾰른'으로 독일 현대사를 생생하게 마주하는 곳.",
    "tips_ko": "지하 감옥은 일반 관람에 포함. 상설전·공용 공간 리뉴얼이 진행 중일 수 있어 관람 범위를 미리 확인. 무거운 주제라 일정 마지막보다 오전 추천.",
    "price_eur": 4.5,
@@ -8312,7 +9552,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.57,
+    "hbf": 0.59,
+    "messe": 2.26,
+    "deutz": 1.73,
+    "belgisches": 1.12
+   }
   },
   {
    "id": "rosenmontagszug-2027",
@@ -8359,8 +9607,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Cäcilienstraße 46, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.935702,
+   "lng": 6.950337,
    "summary_ko": "로마 도시 '콜로니아'였던 쾰른의 로마 유물 박물관. 대성당 옆 본관이 보수 중이라 노이마르크트 근처 '벨기에 하우스'에서 핵심 유물을 임시 전시한다.",
    "tips_ko": "대성당 옆 본관(Roncalliplatz)으로 가지 말 것. 유명한 디오니소스 모자이크가 임시관에서 보이는지는 미확인. 화요일 휴관 주의.",
    "price_eur": 6.0,
@@ -8390,7 +9638,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.83,
+    "hbf": 0.93,
+    "messe": 2.47,
+    "deutz": 1.82,
+    "belgisches": 1.13
+   }
   },
   {
    "id": "schildergasse-hohe-strasse",
@@ -8399,8 +9655,8 @@ window.KOLN_GUIDE = {
    "category": "shopping",
    "area": "dom-altstadt",
    "address": "Schildergasse, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93645,
+   "lng": 6.953118,
    "summary_ko": "대성당에서 노이마르크트까지 이어지는 독일 최대 유동 인구 쇼핑 거리. 대형 브랜드·백화점 밀집.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -8423,7 +9679,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.65,
+    "hbf": 0.76,
+    "messe": 2.26,
+    "deutz": 1.61,
+    "belgisches": 1.31
+   }
   },
   {
    "id": "karneval-sessionseroeffnung-2026",
@@ -8432,8 +9696,8 @@ window.KOLN_GUIDE = {
    "category": "market-event",
    "area": "dom-altstadt",
    "address": "Heumarkt, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.935239,
+   "lng": 6.957603,
    "summary_ko": "매년 11월 11일 11시 11분에 쾰른 카니발 시즌이 시작된다. 분장한 사람들이 아침부터 구시가와 대학가 거리를 가득 메우고 쾰시를 마시며 노래한다.",
    "tips_ko": "2026년은 수요일. 예년 기준 최대 인파는 Heumarkt·Alter Markt(구시가, 공식 무대)와 Zülpicher Viertel(대학가) — 출입 통제·유리병 반입 금지가 반복돼 왔다. 2026년 무대·통제 구역 세부는 이번 조사에서 미확인. 이날 구시가·쥘피허 일대 식당은 혼잡하므로 조용한 일정을 원하면 피할 것.",
    "price_eur": 0.0,
@@ -8460,7 +9724,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "unverified",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.67,
+    "hbf": 0.81,
+    "messe": 2.07,
+    "deutz": 1.37,
+    "belgisches": 1.64
+   }
   },
   {
    "id": "st-maria-im-kapitol",
@@ -8469,8 +9741,8 @@ window.KOLN_GUIDE = {
    "category": "church",
    "area": "dom-altstadt",
    "address": "Kasinostraße 6, 50676 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.934621,
+   "lng": 6.957576,
    "summary_ko": "로마 시대 카피톨 신전 터에 세운 삼엽형(클로버) 성가대석의 로마네스크 성당. 11세기 중엽 목조 문과 1330년경 'Dreikönigenpförtchen(동방박사 쪽문)'이 볼거리.",
    "tips_ko": "목조 문은 남쪽 측랑에 전시. 쪽문은 성당 남동쪽 Lichhof 안뜰에 있다. 평일 개방 시간은 방문 전 교구 확인.",
    "price_eur": null,
@@ -8499,7 +9771,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.74,
+    "hbf": 0.88,
+    "messe": 2.11,
+    "deutz": 1.4,
+    "belgisches": 1.65
+   }
   },
   {
    "id": "strassenkarneval-2027",
@@ -8508,8 +9788,8 @@ window.KOLN_GUIDE = {
    "category": "market-event",
    "area": "dom-altstadt",
    "address": "Alter Markt, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939183,
+   "lng": 6.960041,
    "summary_ko": "카니발 절정 6일. 목요일 'Weiberfastnacht' 11:11에 거리 카니발이 시작돼 월요일 Rosenmontag 퍼레이드를 거쳐 화요일 밤 'Nubbel' 인형을 태우며 끝난다.",
    "tips_ko": "Weiberfastnacht에는 여성들이 남성의 넥타이를 자르는 풍습이 있으니 넥타이는 매지 말 것. 이 기간 많은 박물관이 휴관(예: 슈뉘트겐 '카니발 기간 휴관')하고 숙박비가 급등한다. 날짜는 부활절(2027-03-28)에서 계산한 값 — 공식 일정은 koelnerkarneval.de에서 재확인.",
    "price_eur": 0.0,
@@ -8536,7 +9816,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "unverified",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.26,
+    "hbf": 0.39,
+    "messe": 1.69,
+    "deutz": 1.06,
+    "belgisches": 1.78
+   }
   },
   {
    "id": "4711-haus-glockengasse",
@@ -8545,8 +9833,8 @@ window.KOLN_GUIDE = {
    "category": "shopping",
    "area": "dom-altstadt",
    "address": "Glockengasse 4, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938492,
+   "lng": 6.952251,
    "summary_ko": "'4711' 오 드 콜로뉴의 본점. 매장 안 4711 분수에서 향수를 손에 묻혀 볼 수 있고, 외벽 글로켄슈필(종 연주)이 정시마다 울린다.",
    "tips_ko": "정시에 맞춰 가면 글로켄슈필을 볼 수 있다. 작은 전시 공간과 역사 투어·향수 세미나(유료)도 운영. 기념품 쇼핑에 좋다.",
    "price_eur": 0.0,
@@ -8575,7 +9863,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.52,
+    "hbf": 0.6,
+    "messe": 2.21,
+    "deutz": 1.62,
+    "belgisches": 1.23
+   }
   },
   {
    "id": "makk",
@@ -8584,8 +9880,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "An der Rechtschule 7, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.939762,
+   "lng": 6.954534,
    "summary_ko": "쾰른 응용미술관. 역사 컬렉션은 리뉴얼·보수로 수년째 닫혀 있고, 지금은 디자인 상설전 'Kunst + Design im Dialog'와 특별전만 볼 수 있다.",
    "tips_ko": "디자인·가구에 관심이 있을 때만 추천. 발라프 미술관(휴관) 바로 옆.",
    "price_eur": null,
@@ -8613,7 +9909,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.31,
+    "hbf": 0.39,
+    "messe": 2.01,
+    "deutz": 1.44,
+    "belgisches": 1.4
+   }
   },
   {
    "id": "miqua",
@@ -8622,8 +9926,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Rathausplatz, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938328,
+   "lng": 6.959104,
    "summary_ko": "시청 앞 광장 지하의 로마 총독 관저(프레토리움)와 중세 유대인 지구 유적 위에 짓는 박물관. 개관이 여러 번 연기돼 아직 공사 중이다.",
    "tips_ko": "2026-11~2027-02 관람 불가 — 시청 앞 공사장 외관만 볼 수 있다. 후원회 'MiQua:forum'이 2026년 4분기 강연 프로그램을 운영.",
    "price_eur": null,
@@ -8651,7 +9955,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.33,
+    "hbf": 0.47,
+    "messe": 1.79,
+    "deutz": 1.15,
+    "belgisches": 1.71
+   }
   },
   {
    "id": "museum-schnuetgen",
@@ -8660,8 +9972,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Cäcilienstraße 29-33, 50676 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.934791,
+   "lng": 6.951663,
    "summary_ko": "로마네스크 성 체칠리아 성당 건물에 중세 기독교 미술(목조 조각, 스테인드글라스, 상아·금속 공예)을 모은 박물관. 성당 공간 자체가 전시실이다.",
    "tips_ko": "같은 건물군의 라우텐슈트라우흐-요스트 박물관과 콤비권(€10)이 유리. 노이마르크트 정류장 하차.",
    "price_eur": 6.0,
@@ -8691,7 +10003,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.86,
+    "hbf": 0.97,
+    "messe": 2.44,
+    "deutz": 1.77,
+    "belgisches": 1.25
+   }
   },
   {
    "id": "rautenstrauch-joest-museum",
@@ -8700,8 +10020,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Cäcilienstraße 29-33, 50676 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.934791,
+   "lng": 6.951663,
    "summary_ko": "세계 여러 문화의 생활·종교·의례 유물을 주제별로 비교해 보여 주는 쾰른 시립 민족학 박물관. 어린이 공간(Space4Kids)이 있어 가족에게 좋다.",
    "tips_ko": "슈뉘트겐 박물관과 같은 건물군 — 콤비권(€10)으로 반나절 코스.",
    "price_eur": 7.0,
@@ -8731,7 +10051,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.86,
+    "hbf": 0.97,
+    "messe": 2.44,
+    "deutz": 1.77,
+    "belgisches": 1.25
+   }
   },
   {
    "id": "st-aposteln",
@@ -8740,8 +10068,8 @@ window.KOLN_GUIDE = {
    "category": "church",
    "area": "dom-altstadt",
    "address": "Neumarkt 30, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936606,
+   "lng": 6.944993,
    "summary_ko": "노이마르크트 광장 서쪽 끝을 지키는 로마네스크 성당. 오르간 콘서트와 합창 미사가 잦아 '음악 성당'으로 불린다.",
    "tips_ko": "쇼핑(Schildergasse) 동선 끝에 잠깐 들르기 좋다. 일요일 음악 프로그램은 교구 소식지에서 확인.",
    "price_eur": null,
@@ -8768,7 +10096,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.07,
+    "hbf": 1.13,
+    "messe": 2.76,
+    "deutz": 2.15,
+    "belgisches": 0.74
+   }
   },
   {
    "id": "wallraf-richartz-museum",
@@ -8777,8 +10113,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "dom-altstadt",
    "address": "Obenmarspforten 40, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93741,
+   "lng": 6.958443,
    "summary_ko": "중세 쾰른 화파부터 바로크, 인상주의까지 아우르는 쾰른 대표 고전 미술관. 2026년 8월부터 대규모 보수 공사로 문을 닫았다.",
    "tips_ko": "2026-11~2027-02 여행 중에는 관람 불가. 대표작 일부는 일본 순회전 'Van Gogh and the Impressionists'(나고야, ~2026-11-29)에 나가 있다.",
    "price_eur": null,
@@ -8805,7 +10141,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.43,
+    "hbf": 0.57,
+    "messe": 1.88,
+    "deutz": 1.22,
+    "belgisches": 1.67
+   }
   },
   {
    "id": "belgisches-viertel-brusseler-platz",
@@ -8814,8 +10158,8 @@ window.KOLN_GUIDE = {
    "category": "nightlife-area",
    "area": "belgisches-viertel",
    "address": "Brüsseler Platz, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938553,
+   "lng": 6.934212,
    "summary_ko": "칵테일 바·와인 바가 모인 세련된 밤 동네. 성당 앞 광장에 사람이 모여 '광장 맥주'를 즐긴다.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -8838,7 +10182,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.71,
+    "hbf": 1.73,
+    "messe": 3.41,
+    "deutz": 2.87,
+    "belgisches": 0.04
+   }
   },
   {
    "id": "belgisches-viertel-boutiquen",
@@ -8847,8 +10199,8 @@ window.KOLN_GUIDE = {
    "category": "shopping",
    "area": "belgisches-viertel",
    "address": "Brabanter Straße, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938899,
+   "lng": 6.937594,
    "summary_ko": "Antwerpener·Brabanter·Maastrichter Str.의 디자이너 부티크와 빈티지 숍 골목.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -8871,7 +10223,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.47,
+    "hbf": 1.49,
+    "messe": 3.17,
+    "deutz": 2.63,
+    "belgisches": 0.21
+   }
   },
   {
    "id": "aachener-weiher",
@@ -8880,8 +10240,8 @@ window.KOLN_GUIDE = {
    "category": "park-nature",
    "area": "belgisches-viertel",
    "address": "Aachener Weiher, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.935463,
+   "lng": 6.929729,
    "summary_ko": "동아시아 미술관 앞 호수 공원. 여름엔 학생·젊은 층의 피크닉 명소.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -8905,7 +10265,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.1,
+    "hbf": 2.13,
+    "messe": 3.81,
+    "deutz": 3.23,
+    "belgisches": 0.47
+   }
   },
   {
    "id": "stadtgarten",
@@ -8914,8 +10282,8 @@ window.KOLN_GUIDE = {
    "category": "park-nature",
    "area": "belgisches-viertel",
    "address": "Venloer Straße 40, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.942986,
+   "lng": 6.93516,
    "summary_ko": "벨기에 지구 옆 쾰른에서 가장 오래된 시립 공원. 비어가든과 재즈 클럽, 겨울엔 크리스마스 마켓.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -8939,7 +10307,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.63,
+    "hbf": 1.61,
+    "messe": 3.25,
+    "deutz": 2.8,
+    "belgisches": 0.52
+   }
   },
   {
    "id": "weihnachtsmarkt-im-stadtgarten",
@@ -8948,8 +10324,8 @@ window.KOLN_GUIDE = {
    "category": "market-event",
    "area": "belgisches-viertel",
    "address": "Venloer Straße 40, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.942986,
+   "lng": 6.93516,
    "summary_ko": "공원 숲속에 작가 공예품 위주로 열리는 현지인 선호 마켓.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -8975,7 +10351,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "annual-event",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.63,
+    "hbf": 1.61,
+    "messe": 3.25,
+    "deutz": 2.8,
+    "belgisches": 0.52
+   }
   },
   {
    "id": "ehrenstrasse",
@@ -8984,8 +10368,8 @@ window.KOLN_GUIDE = {
    "category": "shopping",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Ehrenstraße, 50672 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.938313,
+   "lng": 6.941343,
    "summary_ko": "스트리트웨어·스니커즈·컨셉 스토어가 몰린 젊은 쇼핑 거리.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9008,7 +10392,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.23,
+    "hbf": 1.26,
+    "messe": 2.94,
+    "deutz": 2.37,
+    "belgisches": 0.46
+   }
   },
   {
    "id": "st-gereon",
@@ -9017,8 +10409,8 @@ window.KOLN_GUIDE = {
    "category": "church",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Gereonshof 2, 50670 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.942741,
+   "lng": 6.946121,
    "summary_ko": "후기 로마 시대의 원형 건물 위에 13세기 슈타우펜 시대 10각형 돔(데카곤)을 올린 독특한 성당. 쾰른 로마네스크 성당 중 공간감이 가장 인상적이다.",
    "tips_ko": "2026-11-15(일) 17:00 오르간 콘서트(€15)가 있다. 가이드 투어는 교구와 사전 협의.",
    "price_eur": 0.0,
@@ -9048,7 +10440,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.87,
+    "hbf": 0.84,
+    "messe": 2.49,
+    "deutz": 2.03,
+    "belgisches": 0.94
+   }
   },
   {
    "id": "hahnentorburg",
@@ -9057,8 +10457,8 @@ window.KOLN_GUIDE = {
    "category": "landmark",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Rudolfplatz, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936269,
+   "lng": 6.94006,
    "summary_ko": "루돌프 광장의 서쪽 성문. 겨울엔 바로 앞에 니콜라우스도르프 크리스마스 마켓이 선다.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9082,7 +10482,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.39,
+    "hbf": 1.44,
+    "messe": 3.1,
+    "deutz": 2.5,
+    "belgisches": 0.44
+   }
   },
   {
    "id": "nikolausdorf-am-rudolfplatz",
@@ -9091,8 +10499,8 @@ window.KOLN_GUIDE = {
    "category": "market-event",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Rudolfplatz, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.936269,
+   "lng": 6.94006,
    "summary_ko": "하넨토르 성문 앞 산타 마을 콘셉트의 아담한 마켓.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9118,7 +10526,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "annual-event",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.39,
+    "hbf": 1.44,
+    "messe": 3.1,
+    "deutz": 2.5,
+    "belgisches": 0.44
+   }
   },
   {
    "id": "zulpicher-viertel",
@@ -9127,8 +10543,8 @@ window.KOLN_GUIDE = {
    "category": "nightlife-area",
    "area": "kwartier-lateng",
    "address": "Zülpicher Platz, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.930256,
+   "lng": 6.940352,
    "summary_ko": "저렴한 바·클럽이 늘어선 대학가. 학생 위주로 늦게까지 붐비며 카니발 때 최대 인파.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9152,7 +10568,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.76,
+    "hbf": 1.84,
+    "messe": 3.38,
+    "deutz": 2.7,
+    "belgisches": 0.98
+   }
   },
   {
    "id": "ehrenfeld-venloer-strasse-kornerstrasse",
@@ -9161,8 +10585,8 @@ window.KOLN_GUIDE = {
    "category": "nightlife-area",
    "area": "ehrenfeld",
    "address": "Venloer Straße, 50823 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.945254,
+   "lng": 6.928449,
    "summary_ko": "그라피티·클럽·라이브 공연장이 모인 힙한 동네. 다국적 음식점과 늦은 밤 문화.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9185,7 +10609,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.14,
+    "hbf": 2.1,
+    "messe": 3.7,
+    "deutz": 3.3,
+    "belgisches": 0.89
+   }
   },
   {
    "id": "hafen-weihnachtsmarkt-am-schokoladenmuseum",
@@ -9194,8 +10626,8 @@ window.KOLN_GUIDE = {
    "category": "market-event",
    "area": "suedstadt-rheinauhafen",
    "address": "Am Schokoladenmuseum 1A, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.931983,
+   "lng": 6.964436,
    "summary_ko": "초콜릿 박물관 앞 라인강변의 해양 테마 마켓.",
    "tips_ko": "초콜릿 박물관 앞 라인아우하펜의 해양 테마 마켓. 박물관 방문과 묶기 좋아요.",
    "price_eur": 0.0,
@@ -9224,7 +10656,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.12,
+    "hbf": 1.25,
+    "messe": 1.99,
+    "deutz": 1.23,
+    "belgisches": 2.2
+   }
   },
   {
    "id": "kranhauser-rheinauhafen",
@@ -9233,8 +10673,8 @@ window.KOLN_GUIDE = {
    "category": "viewpoint",
    "area": "suedstadt-rheinauhafen",
    "address": "Rheinauhafen, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.926309,
+   "lng": 6.965745,
    "summary_ko": "항구 크레인을 본뜬 거꾸로 L자 고층 건물 세 동이 서 있는 옛 항구 재개발 지구. 초콜릿 박물관과 이어지는 강변 산책로.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9259,7 +10699,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.74,
+    "hbf": 1.88,
+    "messe": 2.48,
+    "deutz": 1.74,
+    "belgisches": 2.55
+   }
   },
   {
    "id": "schokoladenmuseum",
@@ -9268,8 +10716,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "suedstadt-rheinauhafen",
    "address": "Am Schokoladenmuseum 1A, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.931983,
+   "lng": 6.964436,
    "summary_ko": "라인아우하펜 반도 끝 유리 건물의 초콜릿 박물관. 카카오 재배부터 실제 생산 라인 시연, 초콜릿 분수 시식까지 아이·어른 모두 좋아한다.",
    "tips_ko": "평일이 더 싸고 한산. 마지막 입장 17:00, 생산 라인은 폐관 30분 전 종료. 크란하우스·라인아우하펜 산책과 묶기 좋다.",
    "price_eur": null,
@@ -9300,7 +10748,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.12,
+    "hbf": 1.25,
+    "messe": 1.99,
+    "deutz": 1.23,
+    "belgisches": 2.2
+   }
   },
   {
    "id": "deutsches-sport-olympia-museum",
@@ -9309,8 +10765,8 @@ window.KOLN_GUIDE = {
    "category": "museum",
    "area": "suedstadt-rheinauhafen",
    "address": "Im Zollhafen 1, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.93118,
+   "lng": 6.96465,
    "summary_ko": "초콜릿 박물관 옆 라인아우하펜의 스포츠·올림픽 박물관. 직접 몸을 움직이는 체험형 전시가 많아 아이 동반 가족에게 인기.",
    "tips_ko": "초콜릿 박물관과 도보 1분 거리라 하루 코스로 묶기 좋다. 특별전은 일반 입장권에 포함되는 경우가 많다.",
    "price_eur": 10.5,
@@ -9340,7 +10796,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.21,
+    "hbf": 1.34,
+    "messe": 2.05,
+    "deutz": 1.3,
+    "belgisches": 2.24
+   }
   },
   {
    "id": "severinstorburg",
@@ -9349,8 +10813,8 @@ window.KOLN_GUIDE = {
    "category": "landmark",
    "area": "suedstadt-rheinauhafen",
    "address": "Chlodwigplatz, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.921706,
+   "lng": 6.959647,
    "summary_ko": "클로트비히 광장의 남쪽 성문. 쥐트슈타트 산책의 기점.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9374,7 +10838,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.18,
+    "hbf": 2.31,
+    "messe": 3.13,
+    "deutz": 2.38,
+    "belgisches": 2.54
+   }
   },
   {
    "id": "severinstrasse",
@@ -9383,8 +10855,8 @@ window.KOLN_GUIDE = {
    "category": "shopping",
    "area": "suedstadt-rheinauhafen",
    "address": "Severinstraße, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.928803,
+   "lng": 6.957362,
    "summary_ko": "쥐트슈타트 'Veedel' 분위기의 동네 상점가. 제버린스토르부르크 성문까지 이어진다.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9407,7 +10879,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.39,
+    "hbf": 1.52,
+    "messe": 2.57,
+    "deutz": 1.82,
+    "belgisches": 1.91
+   }
   },
   {
    "id": "st-pantaleon",
@@ -9416,8 +10896,8 @@ window.KOLN_GUIDE = {
    "category": "church",
    "area": "suedstadt-rheinauhafen",
    "address": "Am Pantaleonsberg 2, 50676 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.928393,
+   "lng": 6.94735,
    "summary_ko": "10세기 오토 왕조 시대 수도원 성당으로, 비잔틴 출신 황후 테오파노가 공사를 이어 갔고 이곳에 묻혔다. 현대식 대리석 석관에 유해가 안치돼 있다.",
    "tips_ko": "고정 개방 시간이 공지되지 않으니 근처(쥐트슈타트·바르바로사플라츠) 동선에 넣고 열려 있으면 들르는 정도로.",
    "price_eur": 0.0,
@@ -9446,7 +10926,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.62,
+    "hbf": 1.74,
+    "messe": 3.11,
+    "deutz": 2.38,
+    "belgisches": 1.42
+   }
   },
   {
    "id": "volksgarten",
@@ -9455,8 +10943,8 @@ window.KOLN_GUIDE = {
    "category": "park-nature",
    "area": "suedstadt-rheinauhafen",
    "address": "Volksgartenstraße, 50677 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.920035,
+   "lng": 6.953636,
    "summary_ko": "쥐트슈타트의 호수·보트·비어가든이 있는 동네 공원.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9480,7 +10968,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.38,
+    "hbf": 2.52,
+    "messe": 3.51,
+    "deutz": 2.75,
+    "belgisches": 2.43
+   }
   },
   {
    "id": "st-ursula-goldene-kammer",
@@ -9489,8 +10985,8 @@ window.KOLN_GUIDE = {
    "category": "church",
    "area": "agnesviertel-eigelstein",
    "address": "Ursulaplatz 24, 50668 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.945577,
+   "lng": 6.954638,
    "summary_ko": "성 우르술라와 '1만 1천 처녀' 전설의 유골로 벽면 전체를 문양처럼 장식한 17세기 유골실 '황금의 방'이 있는 바실리카. 기묘하고 강렬한 공간.",
    "tips_ko": "중앙역에서 도보 약 7분. 황금의 방은 개방 시간이 짧고 유동적이라 교구 공지 확인 후 방문.",
    "price_eur": 2.0,
@@ -9519,7 +11015,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.54,
+    "hbf": 0.42,
+    "messe": 1.87,
+    "deutz": 1.52,
+    "belgisches": 1.61
+   }
   },
   {
    "id": "eigelsteintorburg",
@@ -9528,8 +11032,8 @@ window.KOLN_GUIDE = {
    "category": "landmark",
    "area": "agnesviertel-eigelstein",
    "address": "Eigelstein, 50668 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.949219,
+   "lng": 6.956679,
    "summary_ko": "중세 성벽의 북쪽 성문. 아이겔슈타인 거리 끝 에버트 광장 쪽에 서 있다.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9553,7 +11057,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.89,
+    "hbf": 0.75,
+    "messe": 1.75,
+    "deutz": 1.59,
+    "belgisches": 1.96
+   }
   },
   {
    "id": "st-kunibert",
@@ -9562,8 +11074,8 @@ window.KOLN_GUIDE = {
    "category": "church",
    "area": "agnesviertel-eigelstein",
    "address": "Kunibertsklostergasse 2, 50668 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.946815,
+   "lng": 6.963171,
    "summary_ko": "라인강변 북쪽의 후기 로마네스크 성당으로, 1220~30년경 '이새의 나무(Jesse)' 창 등 중세 스테인드글라스가 성가대석에 남아 있다. 관광객이 적어 조용하다.",
    "tips_ko": "중앙역 북쪽 출구에서 도보 약 10분. 오후 햇빛이 들 때 창이 가장 아름답다.",
    "price_eur": null,
@@ -9592,7 +11104,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.7,
+    "hbf": 0.6,
+    "messe": 1.27,
+    "deutz": 1.06,
+    "belgisches": 2.21
+   }
   },
   {
    "id": "kolntriangle-aussichtsplattform",
@@ -9601,8 +11121,8 @@ window.KOLN_GUIDE = {
    "category": "viewpoint",
    "area": "deutz-messe",
    "address": "Ottoplatz 1, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.940385,
+   "lng": 6.971802,
    "summary_ko": "도이츠역 옆 103m 빌딩 옥상 전망대. 라인강 너머 대성당·구시가 파노라마를 정면으로 보는 최고의 각도.",
    "tips_ko": "대성당·호엔촐레른 다리·라인강을 정면으로 내려다보는 전망대(29층). 해 질 녘이 가장 좋고, 메쎄/도이츠역에서 걸어서 몇 분.",
    "price_eur": 5.0,
@@ -9631,7 +11151,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.95,
+    "hbf": 0.99,
+    "messe": 0.94,
+    "deutz": 0.23,
+    "belgisches": 2.61
+   }
   },
   {
    "id": "rheinboulevard-deutz",
@@ -9640,8 +11168,8 @@ window.KOLN_GUIDE = {
    "category": "viewpoint",
    "area": "deutz-messe",
    "address": "Deutzer Werft, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.933823,
+   "lng": 6.969804,
    "summary_ko": "도이츠 강변의 넓은 계단식 산책로. 맥주 한 병 들고 앉아 대성당과 구시가 야경을 보는 현지인 명소.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9668,7 +11196,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.16,
+    "hbf": 1.27,
+    "messe": 1.61,
+    "deutz": 0.86,
+    "belgisches": 2.51
+   }
   },
   {
    "id": "rheinpark",
@@ -9677,8 +11213,8 @@ window.KOLN_GUIDE = {
    "category": "park-nature",
    "area": "deutz-messe",
    "address": "Rheinpark, 50679 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.948012,
+   "lng": 6.973138,
    "summary_ko": "도이츠 강변의 넓은 공원. 케이블카(Seilbahn) 동쪽 정류장과 탄츠브루넨 무대가 있다.",
    "tips_ko": null,
    "price_eur": 0.0,
@@ -9704,7 +11240,15 @@ window.KOLN_GUIDE = {
    "sources": [],
    "verification": "public-space",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.28,
+    "hbf": 1.22,
+    "messe": 0.59,
+    "deutz": 0.81,
+    "belgisches": 2.9
+   }
   },
   {
    "id": "kolner-seilbahn",
@@ -9713,8 +11257,8 @@ window.KOLN_GUIDE = {
    "category": "experience-tour",
    "area": "other",
    "address": "Riehler Straße 180, 50735 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.957148,
+   "lng": 6.973548,
    "summary_ko": "동물원 앞에서 라인강을 건너 라인 공원까지 가는 케이블카.",
    "tips_ko": "동물원(Riehl)과 라인파크 사이 라인강을 건너는 케이블카. 11월 중순 이후엔 정규 운행이 끝났을 가능성이 높아요.",
    "price_eur": null,
@@ -9743,7 +11287,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.06,
+    "hbf": 1.96,
+    "messe": 1.31,
+    "deutz": 1.82,
+    "belgisches": 3.43
+   }
   },
   {
    "id": "bonn-beethoven-haus-altstadt",
@@ -9752,8 +11304,8 @@ window.KOLN_GUIDE = {
    "category": "day-trip",
    "area": "day-trip",
    "address": "Bonngasse 18-26, 53111 Bonn",
-   "lat": null,
-   "lng": null,
+   "lat": 50.736113,
+   "lng": 7.101077,
    "summary_ko": "베토벤 생가와 옛 서독 수도의 박물관 마일이 있는 라인강변 도시.",
    "tips_ko": null,
    "price_eur": null,
@@ -9777,7 +11329,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 24.92,
+    "hbf": 25.05,
+    "messe": 24.85,
+    "deutz": 24.42,
+    "belgisches": 25.34
+   }
   },
   {
    "id": "bruhl-schlosser-augustusburg-falkenlust-unesco",
@@ -9786,8 +11346,8 @@ window.KOLN_GUIDE = {
    "category": "day-trip",
    "area": "day-trip",
    "address": "Schlossstraße 6, 50321 Brühl",
-   "lat": null,
-   "lng": null,
+   "lat": 50.828402,
+   "lng": 6.907738,
    "summary_ko": "로코코 계단실로 유명한 선제후 궁전과 사냥 별궁. 역 바로 앞이라 반나절 코스.",
    "tips_ko": null,
    "price_eur": null,
@@ -9813,7 +11373,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 13.04,
+    "hbf": 13.17,
+    "messe": 14.1,
+    "deutz": 13.36,
+    "belgisches": 12.37
+   }
   },
   {
    "id": "aachen-aachener-dom-unesco",
@@ -9822,8 +11390,8 @@ window.KOLN_GUIDE = {
    "category": "day-trip",
    "area": "day-trip",
    "address": "Domhof 1, 52062 Aachen",
-   "lat": null,
-   "lng": null,
+   "lat": 50.774755,
+   "lng": 6.083986,
    "summary_ko": "카롤루스 대제의 팔각 궁정 예배당이 핵심인 독일 최초 유네스코 세계유산. 겨울엔 크리스마스 마켓과 프린텐 과자.",
    "tips_ko": null,
    "price_eur": null,
@@ -9848,7 +11416,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 64.1,
+    "hbf": 64.12,
+    "messe": 65.8,
+    "deutz": 65.21,
+    "belgisches": 62.42
+   }
   },
   {
    "id": "dusseldorf-altstadt-rheinufer-konigsallee",
@@ -9857,8 +11433,8 @@ window.KOLN_GUIDE = {
    "category": "day-trip",
    "area": "day-trip",
    "address": "Burgplatz, 40213 Düsseldorf",
-   "lat": null,
-   "lng": null,
+   "lat": 51.227028,
+   "lng": 6.77137,
    "summary_ko": "알트비어 양조장 골목, 라인강변 산책로, 쾨니히스알레 쇼핑, 일본인 거리.",
    "tips_ko": null,
    "price_eur": null,
@@ -9881,7 +11457,15 @@ window.KOLN_GUIDE = {
    ],
    "verification": "sourced",
    "research": "r2-attractions",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 34.35,
+    "hbf": 34.22,
+    "messe": 34.48,
+    "deutz": 34.86,
+    "belgisches": 34.07
+   }
   }
  ],
  "wine": {

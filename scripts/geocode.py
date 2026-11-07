@@ -21,7 +21,7 @@ import urllib.parse
 import urllib.request
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
-from schema import DATA, DATA_FILES, load_json, save_json  # noqa: E402
+from schema import DATA, DATA_FILES, is_area_wide, load_json, save_json  # noqa: E402
 
 CACHE = DATA / "geocode-cache.json"
 USER_AGENT = "koln-guide/0.1 (travel-guide data build; https://github.com/gkk2123/koln-guide)"
@@ -82,6 +82,9 @@ def main() -> int:
             if it.get("lat") is not None and not args.force:
                 continue
             addr = it.get("address")
+            if is_area_wide(addr):
+                it["lat"] = it["lng"] = None
+                continue
             queries = [q for q in (addr, f"{it['name']}, Köln" if it.get("area") != "day-trip" else it["name"]) if q]
             hit = None
             for q in queries:

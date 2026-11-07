@@ -277,6 +277,11 @@ def walk_minutes(km: float) -> int:
     return max(1, round(km * 1.3 / 4.8 * 60))
 
 
+def is_area_wide(address: str | None) -> bool:
+    """Addresses that describe a route or a whole district, not a point (e.g. a parade route)."""
+    return not address or bool(re.search(r"zugweg|stadtweit|stadtgebiet|^innenstadt", address, re.I))
+
+
 def meets_criteria(item: dict) -> bool:
     r, n = item.get("google_rating"), item.get("google_reviews")
     return isinstance(r, (int, float)) and isinstance(n, int) and r >= MIN_RATING and n >= MIN_REVIEWS

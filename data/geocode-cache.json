@@ -1,0 +1,1325 @@
+{
+  "Komödienstraße 52, 50667 Köln": {
+    "lat": 50.9415987,
+    "lng": 6.9514799,
+    "display_name": "52, Komödienstraße, Andreasviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Josef-Haubrich-Hof 3, 50676 Köln": {
+    "lat": 50.9348058,
+    "lng": 6.9491151,
+    "display_name": "3, Josef-Haubrich-Hof, Cäcilienviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50676, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Thurnmarkt 7, 50676 Köln": {
+    "lat": 50.9346019,
+    "lng": 6.9626105,
+    "display_name": "7, Thurnmarkt, Georgsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50676, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Breite Straße 26, 50667 Köln": {
+    "lat": 50.9391719,
+    "lng": 6.952524,
+    "display_name": "26, Breite Straße, Neumarktviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Alter Markt 56, 50667 Köln": {
+    "lat": 50.9389698,
+    "lng": 6.9604093,
+    "display_name": "56, Alter Markt, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Bobstraße 28, 50676 Köln": {
+    "lat": 50.9337313,
+    "lng": 6.94604,
+    "display_name": "28, Bobstraße, Griechenmarktviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50676, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Lintgasse 7, 50667 Köln": {
+    "lat": 50.938142,
+    "lng": 6.9609066,
+    "display_name": "Lint Hotel Köln, 7, Lintgasse, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kleine Budengasse 11a, 50667 Köln": {
+    "lat": 50.9392288,
+    "lng": 6.9589873,
+    "display_name": "11a, Kleine Budengasse, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Bolzengasse 9, 50667 Köln": {
+    "lat": 50.9367,
+    "lng": 6.9598408,
+    "display_name": "9, Bolzengasse, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Mühlengasse 1, 50667 Köln": {
+    "lat": 50.9392445,
+    "lng": 6.9602828,
+    "display_name": "1, Mühlengasse, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Heumarkt 25, 50667 Köln": {
+    "lat": 50.9354652,
+    "lng": 6.9601451,
+    "display_name": "25, Heumarkt, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Mariengartengasse 5, 50667 Köln": {
+    "lat": 50.941125,
+    "lng": 6.9533516,
+    "display_name": "5, Mariengartengasse, Andreasviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kleine Budengasse 1-3, 50667 Köln": {
+    "lat": 50.9392278,
+    "lng": 6.9584166,
+    "display_name": "1-3, Kleine Budengasse, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Am Hof 12-18, 50667 Köln": {
+    "lat": 50.9399294,
+    "lng": 6.9583593,
+    "display_name": "Am Hof, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Buttermarkt 3, 50667 Köln": {
+    "lat": 50.9369853,
+    "lng": 6.9624175,
+    "display_name": "3, Buttermarkt, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Heumarkt 6, 50667 Köln": {
+    "lat": 50.9346075,
+    "lng": 6.9605296,
+    "display_name": "Brauerei Zur Malzmühle, 6, Heumarkt, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Aachener Str. 20, 50674 Köln": {
+    "lat": 50.9366521,
+    "lng": 6.9366531,
+    "display_name": "20, Aachener Straße, Komponistenviertel, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Str. 26, 50674 Köln": {
+    "lat": 50.9348804,
+    "lng": 6.9347457,
+    "display_name": "26, Brüsseler Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Limburger Straße 29, 50672 Köln": {
+    "lat": 50.9399135,
+    "lng": 6.9383126,
+    "display_name": "29, Limburger Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Händelstraße 55, 50674 Köln": {
+    "lat": 50.9360699,
+    "lng": 6.9370774,
+    "display_name": "55, Händelstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Richard-Wagner-Straße 28, 50674 Köln": {
+    "lat": 50.9356566,
+    "lng": 6.933937,
+    "display_name": "28, Richard-Wagner-Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brabanter Str. 9, 50674 Köln": {
+    "lat": 50.937096,
+    "lng": 6.9372407,
+    "display_name": "9, Brabanter Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Str. 73, 50672 Köln": {
+    "lat": 50.9404454,
+    "lng": 6.9345625,
+    "display_name": "73, Brüsseler Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Aachener Straße 9, 50674 Köln": {
+    "lat": 50.9362255,
+    "lng": 6.9364778,
+    "display_name": "9, Aachener Straße, Komponistenviertel, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Antwerpener Straße 15, 50672 Köln": {
+    "lat": 50.9401701,
+    "lng": 6.9365672,
+    "display_name": "15, Antwerpener Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Aachener Straße 31, 50674 Köln": {
+    "lat": 50.9363544,
+    "lng": 6.9344232,
+    "display_name": "31, Aachener Straße, Komponistenviertel, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brabanter Straße 42, 50672 Köln": {
+    "lat": 50.9398315,
+    "lng": 6.9379343,
+    "display_name": "42, Brabanter Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Str. 12, 50674 Köln": {
+    "lat": 50.9341832,
+    "lng": 6.9346978,
+    "display_name": "12, Brüsseler Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brabanter Straße 3, 50674 Köln": {
+    "lat": 50.9368309,
+    "lng": 6.9372615,
+    "display_name": "3, Brabanter Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Platz 16, 50674 Köln": {
+    "lat": 50.9389222,
+    "lng": 6.9336799,
+    "display_name": "16, Brüsseler Platz, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Aachener Straße 18, 50674 Köln": {
+    "lat": 50.9366506,
+    "lng": 6.9367585,
+    "display_name": "18, Aachener Straße, Komponistenviertel, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Aachener Str. 10, 50674 Köln": {
+    "lat": 50.9367161,
+    "lng": 6.9378321,
+    "display_name": "10, Aachener Straße, Komponistenviertel, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Platz 2, 50672 Köln": {
+    "lat": 50.9386102,
+    "lng": 6.9352018,
+    "display_name": "2, Brüsseler Platz, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Maastrichter Straße 9, 50672 Köln": {
+    "lat": 50.9381544,
+    "lng": 6.9381463,
+    "display_name": "9, Maastrichter Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Platz 9, 50674 Köln": {
+    "lat": 50.9379486,
+    "lng": 6.9341128,
+    "display_name": "9, Brüsseler Platz, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Str. 40-42, 50674 Köln": {
+    "lat": 50.9359427,
+    "lng": 6.9347669,
+    "display_name": "40-42, Brüsseler Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kettengasse 4, 50672 Köln": {
+    "lat": 50.9379325,
+    "lng": 6.9414318,
+    "display_name": "4, Kettengasse, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kaiser-Wilhelm-Ring 6-8, 50672 Köln": {
+    "lat": 50.942688,
+    "lng": 6.9410409,
+    "display_name": "6-8, Kaiser-Wilhelm-Ring, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Friesenwall 116, 50672 Köln": {
+    "lat": 50.9404606,
+    "lng": 6.9413448,
+    "display_name": "116, Friesenwall, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Friesenwall 29, 50672 Köln": {
+    "lat": 50.9386382,
+    "lng": 6.9405977,
+    "display_name": "29, Friesenwall, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Apostelnstraße 19, 50667 Köln": {
+    "lat": 50.9380295,
+    "lng": 6.944846,
+    "display_name": "19, Apostelnstraße, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Palmstraße 41, 50672 Köln": {
+    "lat": 50.9390203,
+    "lng": 6.940528,
+    "display_name": "41, Palmstraße, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Friesenwall 24B, 50672 Köln": {
+    "lat": 50.9373202,
+    "lng": 6.9406453,
+    "display_name": "24b, Friesenwall, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Im Klapperhof 22-24, 50670 Köln": {
+    "lat": 50.9420461,
+    "lng": 6.943092,
+    "display_name": "Rundbau, 22-24, Im Klapperhof, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50670, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Engelbertstraße 3, 50674 Köln": {
+    "lat": 50.930825,
+    "lng": 6.9390216,
+    "display_name": "3, Engelbertstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Hohenstaufenring 19, 50674 Köln": {
+    "lat": 50.9302607,
+    "lng": 6.9407297,
+    "display_name": "19, Hohenstaufenring, Studentenviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Jahnstraße 20, 50676 Köln": {
+    "lat": 50.9322329,
+    "lng": 6.9424163,
+    "display_name": "20, Jahnstraße, Mauritiusviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50676, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Zülpicher Platz 4a, 50674 Köln": {
+    "lat": 50.9309799,
+    "lng": 6.9401262,
+    "display_name": "Taco Loco City, 4a, Zülpicher Platz, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Hohenstaufenring 58, 50674 Köln": {
+    "lat": 50.9329628,
+    "lng": 6.9403334,
+    "display_name": "58, Hohenstaufenring, Komponistenviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Zülpicher Straße 9, 50674 Köln": {
+    "lat": 50.9294995,
+    "lng": 6.9382569,
+    "display_name": "9, Zülpicher Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Meister-Gerhard-Straße 30, 50674 Köln": {
+    "lat": 50.9289656,
+    "lng": 6.9361098,
+    "display_name": "30, Meister-Gerhard-Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Händelstraße 26, 50674 Köln": {
+    "lat": 50.9351087,
+    "lng": 6.9369322,
+    "display_name": "26, Händelstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Hohenstaufenring 23, 50674 Köln": {
+    "lat": 50.9311339,
+    "lng": 6.9403515,
+    "display_name": "23, Hohenstaufenring, Studentenviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Zülpicher Str. 27, 50674 Köln": {
+    "lat": 50.9290623,
+    "lng": 6.937461,
+    "display_name": "27, Zülpicher Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kyffhäuserstraße 53, 50674 Köln": {
+    "lat": 50.9283856,
+    "lng": 6.9373138,
+    "display_name": "53, Kyffhäuserstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Heinsbergstraße 1, 50674 Köln": {
+    "lat": 50.9288349,
+    "lng": 6.9383284,
+    "display_name": "1, Heinsbergstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Görresstraße 2, 50674 Köln": {
+    "lat": 50.9312944,
+    "lng": 6.9347885,
+    "display_name": "2, Görresstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Luxemburger Straße 17, 50674 Köln": {
+    "lat": 50.9281079,
+    "lng": 6.9408302,
+    "display_name": "17, Luxemburger Straße, Studentenviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Zülpicher Straße 28, 50674 Köln": {
+    "lat": 50.9295697,
+    "lng": 6.9377387,
+    "display_name": "28, Zülpicher Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Lindenstraße 38, 50674 Köln": {
+    "lat": 50.9340882,
+    "lng": 6.9364022,
+    "display_name": "38, Lindenstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Dasselstraße 4, 50674 Köln": {
+    "lat": 50.9290919,
+    "lng": 6.9359231,
+    "display_name": "4, Dasselstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Lindenstraße 86, 50674 Köln": {
+    "lat": 50.9324357,
+    "lng": 6.9331612,
+    "display_name": "86, Lindenstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Händelstraße 33, 50674 Köln": {
+    "lat": 50.9348989,
+    "lng": 6.9362843,
+    "display_name": "33, Händelstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Roonstraße 88, 50674 Köln": {
+    "lat": 50.9333427,
+    "lng": 6.9342318,
+    "display_name": "88, Roonstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Zülpicher Straße 38, 50674 Köln": {
+    "lat": 50.9292735,
+    "lng": 6.9372737,
+    "display_name": "Mandali, 38, Zülpicher Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Rathenauplatz 7, 50674 Köln": {
+    "lat": 50.9304345,
+    "lng": 6.9371502,
+    "display_name": "7, Rathenauplatz, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Vogelsanger Str. 216, 50825 Köln": {
+    "lat": 50.9503626,
+    "lng": 6.9113542,
+    "display_name": "216, Vogelsanger Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Subbelrather Straße 242, 50825 Köln": {
+    "lat": 50.9540458,
+    "lng": 6.9199581,
+    "display_name": "242, Subbelrather Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 380, 50825 Köln": {
+    "lat": 50.9521885,
+    "lng": 6.9140242,
+    "display_name": "380, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Str. 241-245, 50823 Köln": {
+    "lat": 50.9466051,
+    "lng": 6.9228895,
+    "display_name": "241-245, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Landmannstraße 4, 50825 Köln": {
+    "lat": 50.9548876,
+    "lng": 6.9182422,
+    "display_name": "4, Landmannstraße, Neuehrenfeld, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 385, 50825 Köln": {
+    "lat": 50.9507704,
+    "lng": 6.9154068,
+    "display_name": "Kebapland, 385, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Str. 502, 50825 Köln": {
+    "lat": 50.9553291,
+    "lng": 6.9077459,
+    "display_name": "502, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Str. 456, 50825 Köln": {
+    "lat": 50.9542015,
+    "lng": 6.9108351,
+    "display_name": "456, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Lenauplatz 8, 50825 Köln": {
+    "lat": 50.9573999,
+    "lng": 6.9195357,
+    "display_name": "8, Lenauplatz, Neuehrenfeld, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 468, 50825 Köln": {
+    "lat": 50.9545292,
+    "lng": 6.910178,
+    "display_name": "468, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 176, 50823 Köln": {
+    "lat": 50.9458913,
+    "lng": 6.9266477,
+    "display_name": "176, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 274, 50823 Köln": {
+    "lat": 50.9480592,
+    "lng": 6.9213547,
+    "display_name": "274, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Körnerstraße 43, 50823 Köln": {
+    "lat": 50.9492926,
+    "lng": 6.9225139,
+    "display_name": "43, Körnerstraße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 282, 50823 Köln": {
+    "lat": 50.948205,
+    "lng": 6.9209976,
+    "display_name": "282, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Christianstraße 2, 50825 Köln": {
+    "lat": 50.9538467,
+    "lng": 6.9107022,
+    "display_name": "2, Christianstraße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 280, 50823 Köln": {
+    "lat": 50.9482406,
+    "lng": 6.9211778,
+    "display_name": "280, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 241, 50823 Köln": {
+    "lat": 50.9468795,
+    "lng": 6.9234138,
+    "display_name": "Sushi Ninja, 241, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Vogelsanger Straße 197b, 50825 Köln": {
+    "lat": 50.9497408,
+    "lng": 6.9122034,
+    "display_name": "197b, Vogelsanger Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Körnerstraße 67, 50823 Köln": {
+    "lat": 50.9499906,
+    "lng": 6.9232428,
+    "display_name": "67, Körnerstraße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Ottostraße 72, 50823 Köln": {
+    "lat": 50.9564751,
+    "lng": 6.9270693,
+    "display_name": "72, Ottostraße, Neuehrenfeld, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 402, 50825 Köln": {
+    "lat": 50.9526696,
+    "lng": 6.9131906,
+    "display_name": "402, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 384, 50825 Köln": {
+    "lat": 50.9522437,
+    "lng": 6.9138576,
+    "display_name": "384, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Severinstraße 53, 50678 Köln": {
+    "lat": 50.9239853,
+    "lng": 6.9585589,
+    "display_name": "53, Severinstraße, Severinsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Severinstraße 164, 50678 Köln": {
+    "lat": 50.9239896,
+    "lng": 6.9587204,
+    "display_name": "Severinstraße, Severinsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Darmstädter Str. 9, 50678 Köln": {
+    "lat": 50.9194931,
+    "lng": 6.9611679,
+    "display_name": "9, Darmstädter Straße, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Severinstraße 52C, 50678 Köln": {
+    "lat": 50.9244372,
+    "lng": 6.9588286,
+    "display_name": "52c, Severinstraße, Severinsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Im Zollhafen 18, 50678 Köln": {
+    "lat": 50.9274066,
+    "lng": 6.9662166,
+    "display_name": "Kranhaus Mitte, 18, Im Zollhafen, Rheinauhafen, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Alteburger Str. 31, 50678 Köln": {
+    "lat": 50.9206815,
+    "lng": 6.9622305,
+    "display_name": "31, Alteburger Straße, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Severinstraße 10-12, 50678 Köln": {
+    "lat": 50.9225692,
+    "lng": 6.9592574,
+    "display_name": "Casita Mexicana, 10-12, Severinstraße, Severinsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Eifelplatz 4, 50677 Köln": {
+    "lat": 50.924442,
+    "lng": 6.9442376,
+    "display_name": "4, Eifelplatz, Volksgartenviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50677, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kurfürstenstraße 29, 50678 Köln": {
+    "lat": 50.9209434,
+    "lng": 6.9616459,
+    "display_name": "29, Kurfürstenstraße, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Bonner Str. 43, 50677 Köln": {
+    "lat": 50.9181698,
+    "lng": 6.9607027,
+    "display_name": "43, Bonner Straße, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50677, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Thürmchenswall 64, 50668 Köln": {
+    "lat": 50.9491742,
+    "lng": 6.9615154,
+    "display_name": "64, Thürmchenswall, Kunibertsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50668, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kasparstraße 19, 50670 Köln": {
+    "lat": 50.9525345,
+    "lng": 6.953559,
+    "display_name": "19, Kasparstraße, Agnesviertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50670, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Maximinenstraße 4, 50668 Köln": {
+    "lat": 50.945181,
+    "lng": 6.9582256,
+    "display_name": "4, Maximinenstraße, Andreasviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50668, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Eigelstein 114, 50668 Köln": {
+    "lat": 50.9490243,
+    "lng": 6.9570233,
+    "display_name": "114, Eigelstein, Ursulaviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50668, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Weidengasse 28-34, 50668 Köln": {
+    "lat": 50.9481068,
+    "lng": 6.9552301,
+    "display_name": "28-34, Weidengasse, Ursulaviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50668, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Johannisstraße 47, 50668 Köln": {
+    "lat": 50.944252,
+    "lng": 6.9604321,
+    "display_name": "47, Johannisstraße, Kunibertsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50668, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Sudermanplatz 7, 50670 Köln": {
+    "lat": 50.9515743,
+    "lng": 6.9546126,
+    "display_name": "7, Sudermanplatz, Agnesviertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50670, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Weidengasse 47, 50668 Köln": {
+    "lat": 50.9480675,
+    "lng": 6.95471,
+    "display_name": "47-49, Weidengasse, Ursulaviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50668, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Deutzer Freiheit 66a, 50679 Köln": {
+    "lat": 50.936706,
+    "lng": 6.9734847,
+    "display_name": "66a, Deutzer Freiheit, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Charles-de-Gaulle-Platz 1d, 50679 Köln": {
+    "lat": 50.9431498,
+    "lng": 6.9715172,
+    "display_name": "1d, Charles-de-Gaulle-Platz, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Deutzer Freiheit 89, 50679 Köln": {
+    "lat": 50.936882,
+    "lng": 6.9746567,
+    "display_name": "89, Deutzer Freiheit, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Siegesstraße 18, 50679 Köln": {
+    "lat": 50.9386312,
+    "lng": 6.9736398,
+    "display_name": "Lommerzheim, 18, Siegesstraße, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Mindener Straße 4, 50679 Köln": {
+    "lat": 50.9381359,
+    "lng": 6.971863,
+    "display_name": "4, Mindener Straße, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Ottoplatz 7, 50679 Köln": {
+    "lat": 50.9404627,
+    "lng": 6.9743799,
+    "display_name": "Bahnhof Deutz/Messe, 7, Ottoplatz, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Ottoplatz 1, 50679 Köln": {
+    "lat": 50.9403854,
+    "lng": 6.9718022,
+    "display_name": "Köln Triangle, 1, Ottoplatz, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kennedy-Ufer 2a, 50679 Köln": {
+    "lat": 50.9403805,
+    "lng": 6.9694865,
+    "display_name": "Hyatt Regency Cologne, 2a, Kennedy-Ufer, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Mathildenstraße 42, 50679 Köln": {
+    "lat": 50.9349695,
+    "lng": 6.9743023,
+    "display_name": "42, Mathildenstraße, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Deutzer Freiheit 72–74, 50679 Köln": {
+    "lat": 50.9366984,
+    "lng": 6.973968,
+    "display_name": "Heimisch Kaffee & Regionales, 72-74, Deutzer Freiheit, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Neuhöfferstraße 32, 50679 Köln": {
+    "lat": 50.9394853,
+    "lng": 6.9754001,
+    "display_name": "32, Neuhöfferstraße, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Remscheider Straße 45, 51103 Köln": {
+    "lat": 50.9446879,
+    "lng": 7.0056116,
+    "display_name": "45, Remscheider Straße, Kalk, Köln, Nordrhein-Westfalen, 51103, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Neusser Straße 654, 50737 Köln": {
+    "lat": 50.9845969,
+    "lng": 6.9472812,
+    "display_name": "Hotel Lindenhof, 654, Neusser Straße, Weidenpesch, Nippes, Köln, Nordrhein-Westfalen, 50737, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Goltsteinstraße 32, 50968 Köln": {
+    "lat": 50.9116782,
+    "lng": 6.9679717,
+    "display_name": "32, Goltsteinstraße, Bayenthal, Rodenkirchen, Köln, Nordrhein-Westfalen, 50968, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Bachemer Straße 233, 50935 Köln": {
+    "lat": 50.9253345,
+    "lng": 6.9076723,
+    "display_name": "233, Bachemer Straße, Lindenthal, Köln, Nordrhein-Westfalen, 50935, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Zülpicher Straße 273, 50937 Köln": {
+    "lat": 50.9225434,
+    "lng": 6.9228492,
+    "display_name": "273, Zülpicher Straße, Sülz, Lindenthal, Köln, Nordrhein-Westfalen, 50937, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Sechzigstraße 1, 50733 Köln": {
+    "lat": 50.9598228,
+    "lng": 6.9497507,
+    "display_name": "1, Sechzigstraße, Sechzigviertel, Nippes, Köln, Nordrhein-Westfalen, 50733, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Neusser Str. 311, 50733 Köln": {
+    "lat": 50.9658531,
+    "lng": 6.9532561,
+    "display_name": "311, Neusser Straße, Nippes, Köln, Nordrhein-Westfalen, 50733, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Keupstraße 69, 51063 Köln": {
+    "lat": 50.9646093,
+    "lng": 7.0109069,
+    "display_name": "69, Keupstraße, Mülheim, Köln, Nordrhein-Westfalen, 51063, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Martinstraße 32, 50667 Köln": {
+    "lat": 50.9372073,
+    "lng": 6.9589359,
+    "display_name": "32, Martinstraße, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Buttermarkt 37, 50667 Köln": {
+    "lat": 50.9378561,
+    "lng": 6.9621259,
+    "display_name": "37, Buttermarkt, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Alter Markt 50-52, 50667 Köln": {
+    "lat": 50.9388026,
+    "lng": 6.9603387,
+    "display_name": "Papa Joe’s Klimperkasten, 50-52, Alter Markt, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Aachener Straße 59, 50674 Köln": {
+    "lat": 50.9363748,
+    "lng": 6.9328558,
+    "display_name": "59, Aachener Straße, Komponistenviertel, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Maastrichter Straße 20, 50672 Köln": {
+    "lat": 50.9385871,
+    "lng": 6.9369697,
+    "display_name": "20, Maastrichter Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Engelbertstraße 63, 50674 Köln": {
+    "lat": 50.9349226,
+    "lng": 6.9377022,
+    "display_name": "63, Engelbertstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Roonstraße 94, 50674 Köln": {
+    "lat": 50.9334897,
+    "lng": 6.9339403,
+    "display_name": "94, Roonstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Rathenauplatz 5, 50674 Köln": {
+    "lat": 50.9306334,
+    "lng": 6.9374478,
+    "display_name": "5, Rathenauplatz, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Heinsbergstraße 20, 50674 Köln": {
+    "lat": 50.9301007,
+    "lng": 6.9380659,
+    "display_name": "20, Heinsbergstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Thebäerstraße 10, 50823 Köln": {
+    "lat": 50.9469265,
+    "lng": 6.9215655,
+    "display_name": "10, Thebäerstraße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kaygasse 2, 50676 Köln": {
+    "lat": 50.9316094,
+    "lng": 6.9516255,
+    "display_name": "Wasserturm Hotel Cologne, Curio Collection by Hilton, 2, Kaygasse, Griechenmarktviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50676, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Schillingstraße 27, 50670 Köln": {
+    "lat": 50.9521265,
+    "lng": 6.9579758,
+    "display_name": "27, Schillingstraße, Agnesviertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50670, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Sudermanplatz 3, 50670 Köln": {
+    "lat": 50.9513257,
+    "lng": 6.9541842,
+    "display_name": "3, Sudermanplatz, Agnesviertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50670, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Alter Markt, 50667 Köln": {
+    "lat": 50.9391835,
+    "lng": 6.9600406,
+    "display_name": "Alter Markt, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "An Groß St. Martin 9, 50667 Köln": {
+    "lat": 50.9383103,
+    "lng": 6.9613689,
+    "display_name": "Gemeinschaft von Jerusalem, 9-11, An Groß Sankt Martin, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Hohenzollernbrücke, 50679 Köln": {
+    "lat": 50.9413176,
+    "lng": 6.9657036,
+    "display_name": "Hohenzollernbrücke, Trankgassenwerft, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Domkloster 4, 50667 Köln": {
+    "lat": 50.9413035,
+    "lng": 6.958138,
+    "display_name": "Kölner Dom, 4, Domkloster, Andreasviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Roncalliplatz, 50667 Köln": {
+    "lat": 50.9404427,
+    "lng": 6.9582023,
+    "display_name": "Roncalliplatz, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Frankenwerft, 50667 Köln": {
+    "lat": 50.9385459,
+    "lng": 6.9630369,
+    "display_name": "Frankenwerft, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Obenmarspforten 21, 50667 Köln": {
+    "lat": 50.9377446,
+    "lng": 6.9579305,
+    "display_name": "Duftmuseum im Farina-Haus, 21, Obenmarspforten, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Heumarkt, 50667 Köln": {
+    "lat": 50.9352392,
+    "lng": 6.9576027,
+    "display_name": "Heumarkt, Pipinstraße, Kapitolviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kolumbastraße 4, 50667 Köln": {
+    "lat": 50.9385858,
+    "lng": 6.953989,
+    "display_name": "Kolumba Kunstmuseum, 4, Kolumbastraße, Neumarktviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Neumarkt 18-24, 50667 Köln": {
+    "lat": 50.9369514,
+    "lng": 6.9463707,
+    "display_name": "Kreissparkasse Köln, 18-24, Neumarkt, Cäcilienviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Domkloster 3, 50667 Köln": {
+    "lat": 50.940976,
+    "lng": 6.9563416,
+    "display_name": "Domradio, 3, Domkloster, Andreasviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Minoritenstraße 13, 50667 Köln": {
+    "lat": 50.9390065,
+    "lng": 6.9542799,
+    "display_name": "13, Minoritenstraße, Neumarktviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Neumarkt, 50667 Köln": {
+    "lat": 50.9360383,
+    "lng": 6.9476587,
+    "display_name": "Neumarkt, Cäcilienviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Heinrich-Böll-Platz, 50667 Köln": {
+    "lat": 50.9409661,
+    "lng": 6.9608878,
+    "display_name": "Heinrich-Böll-Platz, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Appellhofplatz 23-25, 50667 Köln": {
+    "lat": 50.9406105,
+    "lng": 6.9502463,
+    "display_name": "23-25, Appellhofplatz, Neumarktviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Innenstadt Köln (Zugweg)": {
+    "lat": 50.9177883,
+    "lng": 6.9569713,
+    "display_name": "Zugweg, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50677, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Cäcilienstraße 46, 50667 Köln": {
+    "lat": 50.9357021,
+    "lng": 6.9503366,
+    "display_name": "Belgisches Haus, 46, Cäcilienstraße, Cäcilienviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Schildergasse, 50667 Köln": {
+    "lat": 50.9364497,
+    "lng": 6.9531182,
+    "display_name": "Schildergasse, Neumarktviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kasinostraße 6, 50676 Köln": {
+    "lat": 50.9346207,
+    "lng": 6.9575761,
+    "display_name": "6, Kasinostraße, Kapitolviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50676, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Glockengasse 4, 50667 Köln": {
+    "lat": 50.9384921,
+    "lng": 6.9522511,
+    "display_name": "4711-Haus, 4, Glockengasse, Neumarktviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "An der Rechtschule 7, 50667 Köln": {
+    "lat": 50.9397621,
+    "lng": 6.9545341,
+    "display_name": "Museum für Angewandte Kunst, 7, An der Rechtschule, Andreasviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Rathausplatz, 50667 Köln": {
+    "lat": 50.9383285,
+    "lng": 6.9591037,
+    "display_name": "Rathausplatz, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Cäcilienstraße 29-33, 50676 Köln": {
+    "lat": 50.9347912,
+    "lng": 6.9516632,
+    "display_name": "Museum Schnütgen, 29-33, Cäcilienstraße, Cäcilienviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Neumarkt 30, 50667 Köln": {
+    "lat": 50.9366059,
+    "lng": 6.9449926,
+    "display_name": "St. Aposteln, 30, Neumarkt, Cäcilienviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Obenmarspforten 40, 50667 Köln": {
+    "lat": 50.9374105,
+    "lng": 6.9584434,
+    "display_name": "Wallraf-Richartz-Museum & Fondation Corboud, 40, Obenmarspforten, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Platz, 50672 Köln": {
+    "lat": 50.9385534,
+    "lng": 6.9342124,
+    "display_name": "Brüsseler Platz, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brabanter Straße, 50672 Köln": {
+    "lat": 50.9388993,
+    "lng": 6.9375943,
+    "display_name": "Brabanter Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Aachener Weiher, 50674 Köln": {
+    "lat": 50.9354632,
+    "lng": 6.9297294,
+    "display_name": "Biergarten Aachener Weiher, Richard-Wagner-Straße, Komponistenviertel, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 40, 50672 Köln": {
+    "lat": 50.9429863,
+    "lng": 6.9351599,
+    "display_name": "Stadtgarten, 40, Venloer Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Ehrenstraße, 50672 Köln": {
+    "lat": 50.9383126,
+    "lng": 6.9413432,
+    "display_name": "Ehrenstraße, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Gereonshof 2, 50670 Köln": {
+    "lat": 50.9427406,
+    "lng": 6.9461207,
+    "display_name": "2, Gereonshof, Gereonsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50670, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Rudolfplatz, 50674 Köln": {
+    "lat": 50.9362687,
+    "lng": 6.9400601,
+    "display_name": "Rudolfplatz, Mauritiusviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Zülpicher Platz, 50674 Köln": {
+    "lat": 50.9302562,
+    "lng": 6.9403517,
+    "display_name": "Zülpicher Platz, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße, 50823 Köln": {
+    "lat": 50.9452539,
+    "lng": 6.9284492,
+    "display_name": "Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Am Schokoladenmuseum 1A, 50678 Köln": {
+    "lat": 50.9319828,
+    "lng": 6.9644356,
+    "display_name": "Schokoladenmuseum, 1a, Am Schokoladenmuseum, Rheinauhafen, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Rheinauhafen, 50678 Köln": {
+    "lat": 50.9263092,
+    "lng": 6.9657455,
+    "display_name": "Rheinauhafen, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Im Zollhafen 1, 50678 Köln": {
+    "lat": 50.93118,
+    "lng": 6.9646504,
+    "display_name": "Deutsches Sport- und Olympiamuseum, 1, Im Zollhafen, Rheinauhafen, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Chlodwigplatz, 50678 Köln": {
+    "lat": 50.9217056,
+    "lng": 6.9596471,
+    "display_name": "Chlodwigplatz, Severinsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Severinstraße, 50678 Köln": {
+    "lat": 50.9288034,
+    "lng": 6.9573621,
+    "display_name": "Severinstraße, Georgsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Am Pantaleonsberg 2, 50676 Köln": {
+    "lat": 50.9283931,
+    "lng": 6.94735,
+    "display_name": "2, Am Pantaleonsberg, Pantaleonsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50676, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Volksgartenstraße, 50677 Köln": {
+    "lat": 50.9200353,
+    "lng": 6.9536358,
+    "display_name": "Volksgartenstraße, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50677, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Ursulaplatz 24, 50668 Köln": {
+    "lat": 50.945577,
+    "lng": 6.9546383,
+    "display_name": "24, Ursulaplatz, Ursulaviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50668, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Eigelstein, 50668 Köln": {
+    "lat": 50.9492192,
+    "lng": 6.9566792,
+    "display_name": "Eigelstein, Ursulaviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50668, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kunibertsklostergasse 2, 50668 Köln": {
+    "lat": 50.9468153,
+    "lng": 6.963171,
+    "display_name": "2, Kunibertsklostergasse, Kunibertsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50668, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Deutzer Werft, 50679 Köln": {
+    "lat": 50.933823,
+    "lng": 6.9698041,
+    "display_name": "Deutzer Werft, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Rheinpark, 50679 Köln": {
+    "lat": 50.9480124,
+    "lng": 6.9731378,
+    "display_name": "Kleinbahn im Rheinpark, Auenweg, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Riehler Straße 180, 50735 Köln": {
+    "lat": 50.9571476,
+    "lng": 6.9735483,
+    "display_name": "Seilbahnstation Zoo, 180, Riehler Straße, Riehl, Nippes, Köln, Nordrhein-Westfalen, 50735, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Bonngasse 18-26, 53111 Bonn": {
+    "lat": 50.7361132,
+    "lng": 7.1010772,
+    "display_name": "Bonngasse, Bonn-Zentrum, Stadtbezirk Bonn, Bonn, Nordrhein-Westfalen, 53111, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Schlossstraße 6, 50321 Brühl": {
+    "lat": 50.8284022,
+    "lng": 6.9077385,
+    "display_name": "Schloss Augustusburg, 6, Schloßstraße, Kierberg, Brühl, Rhein-Erft-Kreis, Nordrhein-Westfalen, 50321, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Domhof 1, 52062 Aachen": {
+    "lat": 50.7747551,
+    "lng": 6.0839856,
+    "display_name": "Aachener Dom, 1, Domhof, Burtscheid, Aachen-Mitte, Aachen, Städteregion Aachen, Nordrhein-Westfalen, 52062, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Burgplatz, 40213 Düsseldorf": {
+    "lat": 51.2270276,
+    "lng": 6.7713702,
+    "display_name": "Burgplatz, Altstadt, Stadtbezirk 1, Düsseldorf, Nordrhein-Westfalen, 40213, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  }
+}

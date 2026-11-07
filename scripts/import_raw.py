@@ -24,7 +24,7 @@ from schema import (  # noqa: E402
     AREAS, ATTRACTION_CATEGORIES, ATTRACTION_STATUS, ATTRACTION_TAGS, BAR_CATEGORIES, BOOKING,
     COUNTRIES, DATA, DATA_FILES, FACETS, FNB_CATEGORIES, FOOD_CATEGORIES, PAYMENT, RAW, REGIONS,
     RESERVATION, SHOP_CATEGORIES, V1_CUISINE_GROUP, V1_TAGS, award_flags, infer_countries, infer_dishes,
-    load_json, meets_criteria, norm_name, region_for, save_json, slugify, street_key,
+    is_area_wide, load_json, meets_criteria, norm_name, region_for, save_json, slugify, street_key,
 )
 
 TODAY = dt.date.today().isoformat()
@@ -323,6 +323,8 @@ def area_rank(area: str) -> int:
 def keep_coords(items: list[dict], kind: str, cache: dict) -> None:
     old = {i["id"]: i for i in (load_json(DATA_FILES[kind], {"items": []}).get("items", []))}
     for it in items:
+        if is_area_wide(it.get("address")):
+            continue
         prev = old.get(it["id"])
         if prev and prev.get("lat") is not None:
             it["lat"], it["lng"] = prev["lat"], prev["lng"]

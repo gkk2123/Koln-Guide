@@ -25,7 +25,7 @@ python3 scripts/filter.py --diet vegan --price 1-2                  # 비건, �
 python3 scripts/filter.py --occasion business --area deutz-messe    # 메쎄 근처 비즈니스 식사
 python3 scripts/filter.py --kind bar --category cocktail-bar
 python3 scripts/filter.py --kind sight --tag free --tag rainy-day   # 무료 + 비 오는 날
-python3 scripts/filter.py --near messe --max-km 1.5 --sort distance # 메쎄 1.5km 이내 (좌표 필요)
+python3 scripts/filter.py --near messe --max-km 1.5 --sort distance # 메쎄 1.5km 이내, 가까운 순
 ```
 
 ## 선정 기준
@@ -121,6 +121,7 @@ python3 scripts/build.py                       # 표와 웹 뷰어 다시 만들
 | 미쉐린 2026 | 쾰른 스타 10곳·빕 구르망 3곳 |
 | 독일 화이트와인 가이드 | 완료 (품종 12 · 산지 13 · 라벨 용어 59) |
 | 후보 (검증 대기·기준 미달) | 202곳 |
-| 남은 일 | 좌표(거리 필터) · 일반 레스토랑 67곳 가격대 · 와인바/와인숍 · 메쎄 방문자 정보 검증 |
+| 좌표 · 거리 필터 | 완료 — 198곳 (OpenStreetMap Nominatim). 대성당·중앙역·메쎄·벨기에 지구·아무 장소 기준 |
+| 남은 일 | 일반 레스토랑 67곳 가격대 · 와인바/와인숍 · 메쎄 방문자 정보 검증 · 후보 202곳 재검증 |
 
 조사 방법과 한계는 [`research/methodology.md`](research/methodology.md)에 있습니다.
