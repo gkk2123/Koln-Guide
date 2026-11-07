@@ -86,6 +86,11 @@
       "id": "restaurant-ngon-ngon",
       "style": "casual",
       "why": "양 많은 캐주얼 베트남 식당(리뷰)"
+    },
+    {
+      "id": "fink-restaurant-cafe",
+      "style": "bistro",
+      "why": "작은 제철 레스토랑 겸 카페, 짧은 메뉴(리조토·토끼 요리·오늘의 요리)"
     }
   ]
 }

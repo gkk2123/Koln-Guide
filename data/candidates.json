@@ -40,7 +40,7 @@
       "r8-suelz.json",
       "wine-places.json"
     ],
-    "count": 265
+    "count": 304
   },
   "items": [
     {
@@ -221,18 +221,6 @@
       "found": "없음",
       "sources": [],
       "research": "fnb-dom-altstadt-eigelstein"
-    },
-    {
-      "name": "Thai Street Food",
-      "area": "ehrenfeld",
-      "address": "Venloer Straße 282, 50823 Köln",
-      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
-      "found": "Thai street food; in Mit Vergnügen 2026 Ehrenfeld and Venloer Straße lists.",
-      "sources": [
-        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
-        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
-      ],
-      "research": "fnb-ehrenfeld-lateng"
     },
     {
       "name": "Café Wo ist Tom?",
@@ -486,19 +474,6 @@
       "research": "r2-cafes-dessert"
     },
     {
-      "name": "Zeit für Brot",
-      "area": "ehrenfeld",
-      "address": "Venloer Straße 202, 50823 Köln",
-      "category": "bakery",
-      "cuisine_country": [],
-      "reason": "closure-signal / google-numbers-not-found: werkenntdenbesten에는 같은 주소에 다른 업체(Fresh Café & Backshop, Die Mehlwerkstatt)만 있고 Zeit für Brot 항목이 없음. Wanderlog에도 페이지 없음",
-      "found": "Venloer Str. 202, 50823 Köln = 'Fresh Café & Backshop'(werkenntdenbesten), 같은 페이지 구조화 데이터에 'Die Mehlwerkstatt'도 같은 주소로 표시. 업체가 바뀌었거나 다른 이름으로 등록됐을 수 있어 현재 영업 확인 필요.",
-      "sources": [
-        "https://www.werkenntdenbesten.de/baeckerei/koeln"
-      ],
-      "research": "r2-cafes-dessert"
-    },
-    {
       "name": "Bäckerei Zimmermann",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Ehrenstraße 75, Köln (PLZ nicht ermittelt)",
@@ -626,38 +601,6 @@
       "research": "r2-east-asia"
     },
     {
-      "name": "Wen Cheng Köln",
-      "area": "belgisches-viertel",
-      "address": "Flandrische Straße 2, 50674 Köln",
-      "category": "restaurant",
-      "cuisine_country": [
-        "CN"
-      ],
-      "reason": "google-numbers-missing: opened in Cologne around 2026-05, no aggregator numbers found yet",
-      "found": "베를린의 인기 수타면집 쾰른 지점(Mit Vergnügen 2026년 5월 신규 오픈 목록, 링에서 도보 거리). 매일 17–22시. 순한 수제 육수와 채소절임을 곁들인 국수, 칠리오일을 올린 넓은 비앙비앙면, 바오 추천. 면 뽑는 과정을 볼 수 있음. 1라운드 'Wen Cheng'(주소 미상) 후보와 같은 곳.",
-      "sources": [
-        "https://koeln.mitvergnuegen.com/2026/handgezogene-nudeln/",
-        "https://koeln.mitvergnuegen.com/2026/neuentdeckungen-mai-2026/"
-      ],
-      "research": "r2-east-asia"
-    },
-    {
-      "name": "Qing Tian | Handpulled Noodles",
-      "area": "ehrenfeld",
-      "address": "Venloer Straße 207, 50823 Köln",
-      "category": "restaurant",
-      "cuisine_country": [
-        "CN"
-      ],
-      "reason": "conflicting-numbers + possible temporary closure: Wanderlog place page 4.9 (109) vs list page 4.7 (238) labelled 'Temporarily Closed'",
-      "found": "수타면·만두·칠리오일 호평. +49 221 35929901. 영업 재개 여부를 확인한 뒤 places로 올릴 것(1라운드 후보 'Qing Tian'과 같은 곳).",
-      "sources": [
-        "https://wanderlog.com/place/details/14995220/qing-tian--handpulled-noodles-in-k%C3%B6ln",
-        "https://wanderlog.com/list/geoCategory/22508/best-chinese-food-in-cologne"
-      ],
-      "research": "r2-east-asia"
-    },
-    {
       "name": "Tokyo Ramen TAKEICHI Köln",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Friesenstraße 57, 50670 Köln",
@@ -732,37 +675,6 @@
       "found": "Wanderlog 라멘 리스트에 이름만 있음. takezo.de, +49 221 95628690.",
       "sources": [
         "https://wanderlog.com/list/geoCategory/1507873/best-ramen-in-cologne"
-      ],
-      "research": "r2-east-asia"
-    },
-    {
-      "name": "Xing Wang • Lecker asiatisch essen",
-      "area": "friesenviertel-ehrenstrasse",
-      "address": "Palmstraße 47, 50672 Köln",
-      "category": "restaurant",
-      "cuisine_country": [
-        "CN"
-      ],
-      "reason": "attribution-unclear + borderline: Wanderlog rating 4.2 (278), platform not stated; cuisine unspecified (generic Asian)",
-      "found": "Wanderlog 중식 리스트에 포함. 쓰촨·딤섬·훠궈 전문인지 불명.",
-      "sources": [
-        "https://restaurantguru.com/Xing-Wang-Cologne",
-        "https://wanderlog.com/list/geoCategory/22508/best-chinese-food-in-cologne"
-      ],
-      "research": "r2-east-asia"
-    },
-    {
-      "name": "Restaurant Great Wall Köln",
-      "area": "dom-altstadt",
-      "address": null,
-      "category": "restaurant",
-      "cuisine_country": [
-        "CN"
-      ],
-      "reason": "address and numbers missing",
-      "found": "대성당 근처 3층 규모 중식당, 쓰촨·후난 지방 요리(Wanderlog 중식 리스트 설명).",
-      "sources": [
-        "https://wanderlog.com/list/geoCategory/22508/best-chinese-food-in-cologne"
       ],
       "research": "r2-east-asia"
     },
@@ -907,23 +819,6 @@
       "research": "r2-europe-americas"
     },
     {
-      "name": "Pizzeria Made In Napoli",
-      "area": "ehrenfeld",
-      "address": "Subbelrather Str. 280, Köln (PLZ 미확인)",
-      "category": "restaurant",
-      "cuisine_country": [
-        "IT"
-      ],
-      "reason": "address-incomplete: postcode not seen in a source",
-      "found": "Wanderlog 구글 4.7 (1,844). werkenntdenbesten 3개 포털 종합 4.57 (1,890). 가족 운영, 큰 피자, '쾰른 최고 피자집'이라는 리뷰. 우편번호만 확인되면 바로 채택 가능.",
-      "sources": [
-        "https://wanderlog.com/place/details/2755181/pizzeria-made-in-napoli",
-        "https://restaurantguru.com/Made-in-Napoli-Cologne",
-        "https://www.werkenntdenbesten.de/pizzeria/koeln"
-      ],
-      "research": "r2-europe-americas"
-    },
-    {
       "name": "Casona Argentina",
       "area": "other",
       "address": "Hauptstraße 456, 51143 Köln",
@@ -966,37 +861,6 @@
       "sources": [
         "https://restaurantguru.com/Heimatsunde-Cologne-2",
         "https://wanderlog.com/list/geoCategory/776154/best-mexican-foods-and-restaurants-in-cologne"
-      ],
-      "research": "r2-europe-americas"
-    },
-    {
-      "name": "Plomari",
-      "area": "other",
-      "address": null,
-      "category": "restaurant",
-      "cuisine_country": [
-        "GR"
-      ],
-      "reason": "address-missing (area unknown)",
-      "found": "Wanderlog 4.7 (552) / 4.5 (556) — 어느 쪽이 구글인지 불명. 우조와 문어구이 호평.",
-      "sources": [
-        "https://wanderlog.com/list/geoCategory/786948/best-greek-foods-and-restaurants-in-cologne"
-      ],
-      "research": "r2-europe-americas"
-    },
-    {
-      "name": "Punto Pasta",
-      "area": "dom-altstadt",
-      "address": null,
-      "category": "restaurant",
-      "cuisine_country": [
-        "IT"
-      ],
-      "reason": "address-missing; numbers approximate",
-      "found": "Wanderlog 약 4.7 (314–346, 목록마다 다름). 중앙역 근처 숨은 가성비 파스타집이라는 평.",
-      "sources": [
-        "https://wanderlog.com/place/details/6593401/punto-pasta",
-        "https://wanderlog.com/list/geoCategory/1799196/best-places-for-pasta-in-cologne"
       ],
       "research": "r2-europe-americas"
     },
@@ -1077,22 +941,6 @@
       "research": "r2-europe-americas"
     },
     {
-      "name": "Le Moissonnier Bistro",
-      "area": "agnesviertel-eigelstein",
-      "address": "Krefelder Str. 25, 50670 Köln",
-      "category": "fine-dining",
-      "cuisine_country": [
-        "FR"
-      ],
-      "reason": "google-numbers-missing",
-      "found": "1차 조사의 2026 미쉐린 목록에 1스타로 올라 있음(옛 2스타 Le Moissonnier의 후신). Wanderlog 목록에는 옛 '2스타' 설명만 남아 있음. 구글 수치 미확인.",
-      "sources": [
-        "https://wanderlog.com/list/geoCategory/59993/michelin-star-restaurants-in-cologne",
-        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/"
-      ],
-      "research": "r2-europe-americas"
-    },
-    {
       "name": "Ouzeria",
       "area": "belgisches-viertel",
       "address": null,
@@ -1119,21 +967,6 @@
       "found": "이번 라운드 파인다이닝 검색에 나오지 않음. 1차 조사: OpenTable 4.7(구글 아님).",
       "sources": [
         "https://www.opentable.com/r/esszimmer-koln"
-      ],
-      "research": "r2-europe-americas"
-    },
-    {
-      "name": "Alfredo",
-      "area": "dom-altstadt",
-      "address": "Tunisstraße 3, 50667 Köln (1차 조사 사전지식, 미검증)",
-      "category": "restaurant",
-      "cuisine_country": [
-        "IT"
-      ],
-      "reason": "google-numbers-missing",
-      "found": "Wanderlog 페이지에서 이름만 언급됨. 1차 조사 요약: 미쉐린 '셀렉티드' 목록에 이름(미확인).",
-      "sources": [
-        "https://wanderlog.com/list/geoCategory/59993/michelin-star-restaurants-in-cologne"
       ],
       "research": "r2-europe-americas"
     },
@@ -1166,41 +999,6 @@
         "https://wanderlog.com/list/geoCategory/799541/best-latin-and-south-american-foods-and-restaurants-in-cologne"
       ],
       "research": "r2-europe-americas"
-    },
-    {
-      "name": "Restaurant Fabian",
-      "area": "ehrenfeld",
-      "address": "Venloer Straße 531, 50825 Köln",
-      "category": "restaurant",
-      "cuisine_country": [
-        "INT"
-      ],
-      "reason": "possible-closure-flag",
-      "found": "Google 5.0 (182) via Wanderlog — meets the bar, BUT the Wanderlog page shows 'Permanently closed' for every day (may be a data error: reviews are recent, still bookable on OpenTable 4.8/18, listed in Mit Vergnügen 2026 Ehrenfeld). International sharing plates / mezze at fine-dining level with seasonal regional produce; OpenTable price band €31–50 pp. Promote after a status check.",
-      "sources": [
-        "https://wanderlog.com/place/details/9742293/restaurant-fabian",
-        "https://www.opentable.com/r/restaurant-fabian-koln",
-        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
-      ],
-      "research": "r2-middle-east-africa"
-    },
-    {
-      "name": "Yu*lia Mezze Bar",
-      "area": "dom-altstadt",
-      "address": "Kämmergasse 18, 50676 Köln",
-      "category": "restaurant",
-      "cuisine_country": [
-        "INT"
-      ],
-      "reason": "google-numbers-not-found",
-      "found": "Julia Komp's (Sahila) mezze bar: mezze plus grilled meat & fish; a review calls the mezze plate 'legendary'. Wanderlog page exists but no rating surfaced; koeln.de 0 reviews. Altstadt-Süd, border with Südstadt.",
-      "sources": [
-        "https://wanderlog.com/place/details/9741292/yulia-mezze-bar",
-        "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/yulia-mezze-bar/",
-        "https://joinpearl.co/restaurants/cologne-germany/yu-lia-mezze-bar",
-        "https://magazine.cologne-tourism.com/culinary/fine-dining-cologne-side-projects-star-chefs/"
-      ],
-      "research": "r2-middle-east-africa"
     },
     {
       "name": "Murat Grill-Imbiss & Pizzeria",
@@ -1251,21 +1049,6 @@
       "research": "r2-middle-east-africa"
     },
     {
-      "name": "Restaurant Kabul",
-      "area": "suedstadt-rheinauhafen",
-      "address": "Elsaßstraße 32, 50677 Köln",
-      "category": "restaurant",
-      "cuisine_country": [
-        "AF"
-      ],
-      "reason": "google-numbers-not-found",
-      "found": "Cylex: Afghan specialties (listing claims the only Afghan restaurant in Köln), catering; Mon–Fri 18:30–22:30, Fri/Sat to 23:00, Sun closed (may be outdated). No Google numbers found.",
-      "sources": [
-        "https://web2.cylex.de/firma-home/restaurant-kabul-6028463.html"
-      ],
-      "research": "r2-middle-east-africa"
-    },
-    {
       "name": "Bamiyan & Bollyfood Restaurant Köln",
       "area": "other",
       "address": "주소 미확인",
@@ -1293,22 +1076,6 @@
       "sources": [
         "https://wanderlog.com/list/geoCategory/1794415/best-spots-for-falafel-in-cologne",
         "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
-      ],
-      "research": "r2-middle-east-africa"
-    },
-    {
-      "name": "Nish Nush",
-      "area": "belgisches-viertel",
-      "address": "Aachener Straße 14, 50674 Köln",
-      "category": "restaurant",
-      "cuisine_country": [
-        "IL"
-      ],
-      "reason": "google-numbers-not-found",
-      "found": "Israeli street food (falafel/hummus) in a trendy exposed-brick room; described as more upscale. Would add a second Israeli pick if numbers check out.",
-      "sources": [
-        "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
-        "https://wanderlog.com/list/geoCategory/1794415/best-spots-for-falafel-in-cologne"
       ],
       "research": "r2-middle-east-africa"
     },
@@ -1569,22 +1336,6 @@
       "research": "r2-se-south-asia"
     },
     {
-      "name": "Bun Pho",
-      "area": "dom-altstadt",
-      "address": "Fleischmengergasse 59, Köln (PLZ 미확인)",
-      "category": "restaurant",
-      "cuisine_country": [
-        "VN"
-      ],
-      "reason": "google-attribution-unclear",
-      "found": "검색 요약상 한 포털(speisekarte.menu로 보임)에 4.5 / 1,897건. 구글 값인지 불명확. koeln.de 업소 항목 있음.",
-      "sources": [
-        "https://speisekarte.menu/restaurants/cologne/bun-pho",
-        "https://www.koeln.de/branchen/eintrag/41697/restaurants-vietnamesisch/vietnamesisches-restaurant-bun-pho"
-      ],
-      "research": "r2-se-south-asia"
-    },
-    {
       "name": "Hanoi 36",
       "area": "ehrenfeld",
       "address": "Venloer Straße 239B, Köln (PLZ 미확인, 주소 출처 신뢰도 낮음)",
@@ -1596,22 +1347,6 @@
       "found": "36시간 끓인 육수의 쌀국수를 내세움. 편집 추천 목록과 품질이 낮은 블로그성 페이지에서만 나옴. 주소는 검색 요약에서만 확인함.",
       "sources": [
         "https://scratchandwin.tcl.com/instastories-0079/hanoi-36-kln-is-this-the-best-vietnamese-food-in-town.html"
-      ],
-      "research": "r2-se-south-asia"
-    },
-    {
-      "name": "1992 Vietnamese Fusion & Sushi",
-      "area": "agnesviertel-eigelstein",
-      "address": "주소 미확인 (아그네스 지구)",
-      "category": "restaurant",
-      "cuisine_country": [
-        "VN"
-      ],
-      "reason": "google-numbers-not-found + address-missing",
-      "found": "Wanderlog: 아그네스 지구에 있고 '쾰른 최고의 쌀국수 중 하나'라는 평판. top-rated.online 페이지는 있지만 수치는 확인 못 함.",
-      "sources": [
-        "https://www.top-rated.online/cities/Cologne/place/p/8242316/1992+Vietnamese+Fusion+&+Sushi",
-        "https://wanderlog.com/list/geoCategory/1820358/pho"
       ],
       "research": "r2-se-south-asia"
     },
@@ -2197,18 +1932,6 @@
       "research": "r7-bv-german"
     },
     {
-      "name": "Haus Töller",
-      "area": "kwartier-lateng",
-      "address": "Weyerstraße 96, 50676 Köln",
-      "category": "brauhaus",
-      "reason": "not-verified: outside this round's ~1 km radius (near Barbarossaplatz, roughly 1.2–1.4 km from Brüsseler Platz); Google numbers not searched",
-      "found": "Mit Vergnügen 2026 '21 urige Brauhäuser in Köln'에 포함, 1343년 첫 기록이 있는 오래된 브라우하우스. 가이드 본 목록에 없으므로 전체 브라우하우스 라운드에서 구글 수치를 확인할 만한 리드.",
-      "sources": [
-        "https://koeln.mitvergnuegen.com/2026/urige-brauhaeuser/"
-      ],
-      "research": "r7-bv-german"
-    },
-    {
       "name": "Wein Bistro L'escalier",
       "area": "belgisches-viertel",
       "address": "Brüsseler Str. 11, 50674 Köln",
@@ -2237,21 +1960,6 @@
         "https://tablejourney.com/germany/cologne/fine-dining/onda-cologne/",
         "https://koeln.mitvergnuegen.com/2025/fine-dining-restaurants/",
         "https://wanderlog.com/place/details/1541947/pauls-fish--chips"
-      ],
-      "research": "r7-bv-wine"
-    },
-    {
-      "name": "Café Storch",
-      "area": "belgisches-viertel",
-      "address": "Aachener Str. 17, 50674 Köln",
-      "category": "bar",
-      "reason": "not-wine-focused + google-count-not-captured: Wanderlog 와인바 목록에 들어 있지만 리뷰 속 음료는 맥주·사과 쇼를레 위주. 구글은 약 4.6(스냅샷별 약 250–265건)이지만 정확한 건수를 한 출처에서 확인하지 못함. 한 Wanderlog 목록엔 ‘Temporarily Closed’ 표시가 있는데, Mit Vergnügen 2026 ‘아늑한 바’ 기사는 영업시간(일–목 17–1시, 금·토 17–2시)과 함께 소개함.",
-      "found": "촛불을 켠 차분한 카페 겸 바(종일 재즈, 엉뚱한 그림과 삐뚤어진 의자). Mit Vergnügen은 ‘와인 한 잔 놓고 끝없는 대화에 빠지기 좋은 조용한 저녁’이라고 씀. 조용한 바를 찾는 여행자에게 맞으니 바(bar) 주제에서 다시 검토할 것을 권함. 웹사이트 cafe-storch.de.",
-      "sources": [
-        "https://wanderlog.com/place/details/1508528/caf%C3%A9-storch",
-        "https://restaurantguru.com/Cafe-Storch-Cologne",
-        "https://koeln.mitvergnuegen.com/2026/gemuetliche-bars-koeln/",
-        "https://koeln.mitvergnuegen.com/lieblingsorte/lieblingsort-cafe-storch/"
       ],
       "research": "r7-bv-wine"
     },
@@ -2295,29 +2003,107 @@
       "research": "r7-bv-wine"
     },
     {
-      "name": "Tanica",
+      "name": "Haus Töller",
       "area": "kwartier-lateng",
-      "address": "Engelbertstraße 31a, 50674 Köln",
-      "category": "wine-bar",
-      "reason": "google-numbers-not-checked (검색 한도 소진)",
-      "found": "tablejourney: 내추럴 와인 바 겸 보틀숍, Star Wine List 등재, 나눠 먹는 작은 접시 요리. 브뤼셀 광장에서 남쪽으로 약 1 km(크바르티어 라텡 북쪽). tablejourney는 벨기에 지구로도, 크바르티어 라텡으로도 적어 지역 표기가 엇갈림.",
+      "address": "Weyerstraße 96, 50676 Köln",
+      "category": "brauhaus",
+      "reason": "borderline / conflicting numbers (re-checked 2026-11-07): Wanderlog Google 4.2 (710) sits exactly on the bar, but Restaurant Guru shows 4.0 from 1,031 votes (platform not clear) — needs a direct Google Maps check",
+      "found": "8차 재확인: wanderlog.com 장소 페이지 4.2/710(5★417·1★62). Restaurant Guru 자체 4.8/1,113은 약 2년 전 페이지, 다른 RG 표기 4.0/1,031은 구글 값인지 불명. tablejourney 4.3·speisekarte.de 3/5(2건)은 구글 아님. 1343년 기록이 있는 건물의 브라우하우스로 자우어브라텐·할버 한·슈바인스학세(tablejourney), 슈니첼·삶은 족(Beinfleisch) 호평, 서비스가 느리거나 불친절하다는 후기가 많음. koeln.de: 월–토 17시부터, 일 휴무. 예약 권장(speisekarte.de 리뷰).",
       "sources": [
-        "https://tablejourney.com/germany/cologne/wine-bars/tanica/"
+        "https://wanderlog.com/place/details/4631914/haus-t%C3%B6ller",
+        "https://restaurantguru.com/Haus-Toller-Cologne",
+        "https://www.koeln.de/gastro/eintrag/36329/restaurants/haus-toeller",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/haus_toeller1",
+        "https://www.spottedbylocals.com/cologne/haus-toller"
       ],
-      "research": "r7-bv-wine"
+      "research": "r8-candidates"
+    },
+    {
+      "name": "Nish Nush",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 14, 50674 Köln",
+      "category": "restaurant",
+      "reason": "conflicting numbers → below-criteria: Wanderlog Google 4.1 (1,416) vs Restaurant Guru Google 4.6 (1,301); the larger (newer) count is below the bar (re-checked 2026-11-07)",
+      "found": "8차 재확인: Wanderlog 4.1/1,416(Google)·Tripadvisor 4.0/67, Restaurant Guru Google 4.6/1,301. 이스라엘식 스트리트 푸드(팔라펠·후무스·샤와르마). 바삭한 감자튀김·친절한 직원 칭찬, 기름지다·주문과 좌석 안내가 혼란스럽다는 불만, 20시까지 붐빔.",
+      "sources": [
+        "https://wanderlog.com/place/details/1656124/nish-nush",
+        "https://restaurantguru.com/Nish-Nush-Cologne"
+      ],
+      "research": "r8-candidates"
+    },
+    {
+      "name": "Wen Cheng Köln",
+      "area": "belgisches-viertel",
+      "address": "Flandrische Straße 2, 50674 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing (re-checked 2026-11-07): no Wanderlog or Restaurant Guru listing surfaced yet for the Cologne branch (opened around 2026-05)",
+      "found": "8차 재확인: wanderlog.com·restaurantguru.com 한정 검색에서 쾰른 지점 페이지가 나오지 않음. 베를린 수타면집의 쾰른 지점(Mit Vergnügen 2026).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/handgezogene-nudeln/",
+        "https://koeln.mitvergnuegen.com/2026/neuentdeckungen-mai-2026/"
+      ],
+      "research": "r8-candidates"
+    },
+    {
+      "name": "Yu*lia Mezze Bar",
+      "area": "dom-altstadt",
+      "address": "Kämmergasse 18, 50676 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing (re-checked 2026-11-07): only Restaurant Guru's own aggregate 3.4 (133) — not Google",
+      "found": "8차 재확인: Restaurant Guru 'Yulia Mezze Bar' 3.4/133(RG 집계, 구글 아님). Wanderlog는 Sahila와 같은 주방이라고 설명. 같은 주소의 파인다이닝 Sahila(Google 4.8/280)는 이번에 places로 올림.",
+      "sources": [
+        "https://restaurantguru.com/Yulia-Mezze-Bar-Cologne",
+        "https://wanderlog.com/place/details/3599860/sahila-the-restaurant"
+      ],
+      "research": "r8-candidates"
+    },
+    {
+      "name": "Restaurant Kabul",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Elsaßstraße 32, 50677 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing (re-checked 2026-11-07): Restaurant Guru 4.3 (107), Facebook 4.6 (33), Tripadvisor 4.0 (37) — none is Google",
+      "found": "8차 재확인: 주소 Elsassstr. 32, 50677(Restaurant Guru). 친절한 서비스·가정적인 분위기·푸딩 칭찬, 옛 리뷰에 양이 적고 비싸다는 평. 같은 거리의 Phaedra(30번지)·Brauhaus Johann Schäfer(6번지)와 가까움.",
+      "sources": [
+        "https://restaurantguru.com/Kabul-Cologne"
+      ],
+      "research": "r8-candidates"
     },
     {
       "name": "Erste Liebe",
       "area": "kwartier-lateng",
       "address": "Weyerstraße 98, 50676 Köln",
       "category": "cafe",
-      "reason": "out-of-scope: 브뤼셀 광장에서 약 1.4 km(바르바로사플라츠·판탈레온 지구 경계, 지역 id 확인 필요)로 이번 범위(약 1 km) 밖. Wanderlog 목록 표기 4.7/109(장소 페이지 미확인)라 해당 지역 조사 때 다시 검토할 것.",
-      "found": "낮엔 스페셜티 커피·아침 카페, 저녁엔 내추럴 와인과 저녁 식사를 내는 와인바(테라스, 겨울엔 내추럴 글뤼바인 — Mit Vergnügen).",
+      "reason": "google-numbers-missing (re-checked 2026-11-07): Wanderlog lists it as 'specialty coffee | breakfast | natural wine' but no rating/count surfaced; earlier list snapshot 4.7/109 unconfirmed",
+      "found": "8차 재확인: 리뷰는 커피와 분위기 위주('트렌디한 동네의 깔끔한 작은 가게', '커피는 좋지만 너무 붐빈다'). 와인 관련 리뷰·종합 점수는 못 찾음.",
       "sources": [
-        "https://wanderlog.com/list/geoCategory/17153/best-coffee-shops-and-best-cafes-in-cologne",
-        "https://koeln.mitvergnuegen.com/2023/weinbars/"
+        "https://wanderlog.com/list/geoCategory/785149/best-wine-bars-and-tasting-rooms-in-cologne"
       ],
-      "research": "r7-bv-wine"
+      "research": "r8-candidates"
+    },
+    {
+      "name": "ABACCO'S STEAKHOUSE Köln",
+      "area": "other",
+      "address": null,
+      "category": "restaurant",
+      "reason": "address-missing (new lead 2026-11-07): Wanderlog 'best places for steak in Cologne' list shows 4.6 (4,568) — meets the bar, but no address and the platform was not named in the snippet",
+      "found": "8차 조사 중 발견: Wanderlog 스테이크 목록에 El Gaucho·Bei Oma Kleinmann과 함께 올라 있고 4.6/4,568. 주소·지점 미확인.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1503221/best-places-for-steak-in-cologne"
+      ],
+      "research": "r8-candidates"
+    },
+    {
+      "name": "Punto Pasta",
+      "area": "dom-altstadt",
+      "address": null,
+      "category": "restaurant",
+      "reason": "address-missing; numbers approximate (re-checked 2026-11-07: no address found in German directory search)",
+      "found": "8차 재확인: 'Punto Pasta' 주소가 검색 결과에 나오지 않음. 2차 조사 Wanderlog 약 4.7(314–346).",
+      "sources": [
+        "https://wanderlog.com/place/details/6593401/punto-pasta"
+      ],
+      "research": "r8-candidates"
     },
     {
       "name": "Lalezar Restaurant",
@@ -2577,18 +2363,6 @@
       "research": "r8-center-south"
     },
     {
-      "name": "NOODLE FAN",
-      "area": "friesenviertel-ehrenstrasse",
-      "address": "Rudolfplatz/Neumarkt 지점 — 번지 미확인",
-      "category": "restaurant",
-      "reason": "address-missing: 'NOODLE FAN Rudolfplatz/Neumarkt' Google 4.4 / 499 (Restaurant Guru)로 수치는 기준 충족",
-      "found": "중식 면 요리점, Wanderlog에 지점 2곳(루돌프플라츠/노이마르크트, 대성당).",
-      "sources": [
-        "https://restaurantguru.com/NOODLE-FAN-RudolfplatzNeumarkt-Cologne"
-      ],
-      "research": "r8-center-south"
-    },
-    {
       "name": "Caffettiamo",
       "area": "friesenviertel-ehrenstrasse",
       "address": "주소 미확인",
@@ -2603,14 +2377,380 @@
     {
       "name": "Café Colonius",
       "area": "other",
-      "address": "주소 미확인",
+      "address": "Subbelrather Straße 19, Köln",
       "category": "cafe",
-      "reason": "address-missing: Google 4.6 / 115 (Restaurant Guru)",
-      "found": "",
+      "reason": "conflicting-counts: Restaurant Guru Google 4.6 — 115건/140건으로 스냅숏마다 다름; 지역(에렌펠트/노이슈타트노르트 경계) 확인 필요",
+      "found": "주소는 Restaurant Guru 검색 요약 기준.",
       "sources": [
         "https://restaurantguru.com/Cafe-Colonius-Cologne"
       ],
       "research": "r8-center-south"
+    },
+    {
+      "name": "Sattgrün Köln am Neumarkt",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Apostelnstraße 2, 50667 Köln",
+      "category": "restaurant",
+      "reason": "second-branch + conflicting-scores: Restaurant Guru Google 4.7 / 138로 수치는 기준 충족, 다만 같은 페이지 자체 점수 2.1 / 149와 차이가 커 영업·지점 확인 필요",
+      "found": "비건 뷔페 체인 Sattgrün의 노이마르크트 지점으로 보임. 콜룸바 지점(Ludwigstraße 11)은 places에 넣음.",
+      "sources": [
+        "https://restaurantguru.com/Sattgrun-Cologne-2"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Café Riese",
+      "area": "dom-altstadt",
+      "address": "Schildergasse 103, 50667 Köln",
+      "category": "cafe",
+      "reason": "below-criteria: Wanderlog Google 4.0 (3,153); 노이마르크트 지점 3.8 (271)",
+      "found": "케이크·커피·친절 칭찬, 관광객이 많고 비싸다는 불만. Restaurant Guru는 4.4 (222)로 다른 스냅숏.",
+      "sources": [
+        "https://wanderlog.com/place/details/3263065/cafe-riese-k%C3%B6ln",
+        "https://wanderlog.com/place/details/2556331/caf%C3%A9-riese-neumarkt",
+        "https://de.restaurantguru.com/Cafe-Riese-Cologne-2"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Caffè MA.",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Severinstraße 149, 50678 Köln",
+      "category": "cafe",
+      "reason": "google-review-count-missing: Restaurant Guru Google 4.8 (리뷰 수 없음)",
+      "found": "",
+      "sources": [
+        "https://de.restaurantguru.com/Caffe-MA-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Café Loone",
+      "area": "suedstadt-rheinauhafen",
+      "address": "주소 미확인",
+      "category": "cafe",
+      "reason": "address-missing: Google 4.7 / 360 (Restaurant Guru, URL Cafe-Bahar-Cologne)",
+      "found": "세베린슈트라세 카페 검색에 함께 나옴 — 위치 미확인.",
+      "sources": [
+        "https://restaurantguru.com/Cafe-Bahar-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "XIAO Köln",
+      "area": "dom-altstadt",
+      "address": "주소 미확인",
+      "category": "restaurant",
+      "reason": "address-missing: Google 4.6 / 3,024 (Restaurant Guru)로 수치는 기준 충족",
+      "found": "대성당 북서쪽 거리 검색에 함께 나옴. 업종(중식/아시아) 추정, 미확인.",
+      "sources": [
+        "https://restaurantguru.com/XIAO-Koln-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "La Cantina Da Pasquale",
+      "area": "agnesviertel-eigelstein",
+      "address": "Marzellenstraße 45-49, 50668 Köln",
+      "category": "restaurant",
+      "reason": "count-attribution-unclear: Google 4.4, '688'이 구글 리뷰 수인지 Restaurant Guru 투표 수인지 불명",
+      "found": "",
+      "sources": [
+        "https://restaurantguru.com/Da-Pasquale-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Segafredo (Marzellenstraße)",
+      "area": "agnesviertel-eigelstein",
+      "address": "Marzellenstraße 23, 50668 Köln",
+      "category": "cafe",
+      "reason": "conflicting-numbers: Google 4.5 (50) vs 4.1 on the same Restaurant Guru page",
+      "found": "",
+      "sources": [
+        "https://restaurantguru.com/Segafredo-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Ristorante Sansone Due",
+      "area": "dom-altstadt",
+      "address": "Komödienstraße 60, 50667 Köln",
+      "category": "restaurant",
+      "reason": "permanently-closed (Restaurant Guru); last Google 4.2 (519)",
+      "found": "",
+      "sources": [
+        "https://restaurantguru.com/Sansone-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Mangal Döner Heumarkt",
+      "area": "dom-altstadt",
+      "address": "Heumarkt (번지 미확인), 50667 Köln",
+      "category": "streetfood",
+      "reason": "address-incomplete: Google 4.8 / 1,865 (Restaurant Guru)로 수치는 기준 충족",
+      "found": "본너 슈트라세 Mangal Doner Restaurant의 자매점으로 보임(이름 기준).",
+      "sources": [
+        "https://restaurantguru.com/Mangal-Doner-Heumarkt-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "MühlenBar",
+      "area": "dom-altstadt",
+      "address": "Heumarkt 6, 50667 Köln",
+      "category": "bar",
+      "reason": "conflicting-numbers: Restaurant Guru 본문 Google 4.6 (267) vs 구조화 데이터 3.3",
+      "found": "Brauerei zur Malzmühle(Heumarkt 6, 이미 places에 있음)와 같은 주소 — 부속 바일 가능성.",
+      "sources": [
+        "https://restaurantguru.com/Muhlenbar-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Sweet Sushi Köln Südstadt",
+      "area": "suedstadt-rheinauhafen",
+      "address": "주소 미확인 (쥐트슈타트)",
+      "category": "restaurant",
+      "reason": "address-missing: Wanderlog Google 4.4 / 909로 수치는 기준 충족",
+      "found": "스시가 신선하다는 후기, 신용카드 불가 불만.",
+      "sources": [
+        "https://wanderlog.com/place/details/3490326/sweet-sushi-k%C3%B6ln-s%C3%BCdstadt"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "HARDY KUGEL",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Ubierring 58, 50678 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing: Restaurant Guru 자체 4.8 / 422만 확인",
+      "found": "업종 미확인.",
+      "sources": [
+        "https://restaurantguru.com/Hardy-Kugel-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "frau maher",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Ubierring 35, 50678 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "Restaurant Guru 설명: 파인다이닝·브런치.",
+      "sources": [
+        "https://restaurantguru.com/frau-maher-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "sander Restaurant (Schildergasse)",
+      "area": "dom-altstadt",
+      "address": "Schildergasse, 50667 Köln",
+      "category": "restaurant",
+      "reason": "permanently-closed (Restaurant Guru); last Google 4.3 (547)",
+      "found": "",
+      "sources": [
+        "https://restaurantguru.com/Sander-Restaurant-Germany"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Woyton an der Schildergasse",
+      "area": "dom-altstadt",
+      "address": "Schildergasse, 50667 Köln",
+      "category": "cafe",
+      "reason": "permanently-closed (Restaurant Guru); last Google 4.2 (337)",
+      "found": "",
+      "sources": [
+        "https://de.restaurantguru.com/Woyton-An-der-Schildergasse-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Pier 124",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenwall 124, Köln",
+      "category": "bar",
+      "reason": "content-missing: Google 4.8 / 221 (Restaurant Guru)로 수치는 기준 충족, 업종 미확인",
+      "found": "",
+      "sources": [
+        "https://restaurantguru.com/Pier-124-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Supasalad Friesenwall",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenwall (번지 미확인), Köln",
+      "category": "restaurant",
+      "reason": "address-incomplete: Google 4.4 / 271 (Restaurant Guru)",
+      "found": "샐러드 체인. 바이트마르크트 지점(Waidmarkt 11)은 Restaurant Guru 자체 3.2 (34).",
+      "sources": [
+        "https://restaurantguru.com/Supasalad-Cologne",
+        "https://restaurantguru.com/Supasalad-Cologne-6"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "MAULVOLL Weinbar",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Im Ferkulum 30, 50678 Köln",
+      "category": "wine-bar",
+      "reason": "count-attribution-unclear: Google 4.7, '277'이 구글 리뷰 수인지 불명 (Restaurant Guru, URL Weinladen-Sudstadt)",
+      "found": "성 세베린 성당 뒤 Im Ferkulum의 와인바(와인 가게 겸).",
+      "sources": [
+        "https://restaurantguru.com/Weinladen-Sudstadt-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Coellner Bar",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Ubierring 22, 50678 Köln",
+      "category": "cocktail-bar",
+      "reason": "below-criteria: Google 4.1 (Restaurant Guru)",
+      "found": "칵테일 바, 1인 €10–20 표기.",
+      "sources": [
+        "https://restaurantguru.com/Coellner-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Fiffibar",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Severinswall 35, 50678 Köln",
+      "category": "cocktail-bar",
+      "reason": "google-numbers-missing",
+      "found": "쥐트슈타트 칵테일 바로 추천하는 후기.",
+      "sources": [
+        "https://restaurantguru.com/Fiffi-Bar-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "WIEWALDI coffee roasters",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Kleiner Griechenmarkt 33, 50676 Köln",
+      "category": "cafe",
+      "reason": "google-review-count-missing: Restaurant Guru Google 4.9 (리뷰 수 없음), Restaurant Guru 쾰른 커피하우스 1위",
+      "found": "커피 로스터(URL은 이전 상호 Giovanna Kaffee).",
+      "sources": [
+        "https://restaurantguru.com/Giovanna-Kaffee-Guter-Kaffee-aus-Koln-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Pettirosso",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Kleiner Griechenmarkt 49, 50676 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "이탈리아 음식.",
+      "sources": [
+        "https://de.restaurantguru.com/Pettirosso-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Ansgar's - Restaurant Bar Kegelbahn",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Kleiner Griechenmarkt 73, 50676 Köln",
+      "category": "kneipe",
+      "reason": "google-numbers-missing",
+      "found": "레스토랑·바·케겔반(볼링 비슷한 독일식 놀이).",
+      "sources": [
+        "https://restaurantguru.com/Ansgars-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "EPI Boulangerie Patisserie",
+      "area": "dom-altstadt",
+      "address": "Breite Straße 29, 50667 Köln",
+      "category": "bakery",
+      "reason": "google-numbers-missing: Restaurant Guru 자체 4.8 / 1,190만 확인",
+      "found": "",
+      "sources": [
+        "https://restaurantguru.com/Grand-Epi-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Bei Bepi",
+      "area": "dom-altstadt",
+      "address": "Breite Straße 85, 50667 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing: Restaurant Guru 자체 4.7 / 1,460만 확인",
+      "found": "",
+      "sources": [
+        "https://restaurantguru.com/Bei-Bepi-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Hase Restaurant",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "St.-Apern-Straße 17, 50667 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing: Restaurant Guru 자체 4.8 / 1,337만 확인",
+      "found": "",
+      "sources": [
+        "https://restaurantguru.com/Hase-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Bastian's",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Auf dem Berlich 3-5, 50667 Köln",
+      "category": "bakery",
+      "reason": "google-review-count-missing: 리뷰 발췌에 Google 4.4 언급만, Restaurant Guru 자체 4.3 / 4,586",
+      "found": "",
+      "sources": [
+        "https://restaurantguru.com/Bastians-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Café Konditorei Hirsch",
+      "area": "other",
+      "address": "Goltsteinstraße 55-57, 50968 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "바이엔탈 콘디토라이.",
+      "sources": [
+        "https://restaurantguru.com/Cafe-Hirsch-Cologne-2"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Omagerichte",
+      "area": "other",
+      "address": "Alteburger Straße 299, Köln",
+      "category": "restaurant",
+      "reason": "google-review-count-missing: Restaurant Guru 'Google users 4.9', 자체 4.9 / 70",
+      "found": "이름('할머니 요리')상 가정식으로 보임. 쥐트슈타트보다 남쪽.",
+      "sources": [
+        "https://restaurantguru.com/Omagerichte-Cologne"
+      ],
+      "research": "r8-center-south"
+    },
+    {
+      "name": "Restaurant Fabian",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 531, 50825 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-low-confidence",
+      "found": "Google 5.0 (223) via wanderlog.com 목록 스냅숏 (Google 5.0 / 223); 장소 페이지 5.0 / 182; OpenTable 4.8은 구글 아님",
+      "sources": [
+        "https://wanderlog.com/place/details/9742293/restaurant-fabian",
+        "https://www.opentable.com/r/restaurant-fabian-koln",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-besondere-anlaesse/"
+      ],
+      "research": "r8-ehrenfeld-agnes"
     },
     {
       "name": "Pak Firini",
@@ -2712,18 +2852,6 @@
       "research": "r8-ehrenfeld-agnes"
     },
     {
-      "name": "Sternhagel",
-      "area": "agnesviertel-eigelstein",
-      "address": "Krefelder Straße 101, 50670 Köln",
-      "category": "kneipe",
-      "reason": "google-numbers-not-found",
-      "found": "Mit Vergnügen 2024 '아그네스 지구 바·크나이페 11': 펑크 술집, 도펠코프(카드게임)·다트, 매주 화요일 게임의 밤.",
-      "sources": [
-        "https://koeln.mitvergnuegen.com/2024/bars-kneipen-agnesviertel/"
-      ],
-      "research": "r8-ehrenfeld-agnes"
-    },
-    {
       "name": "AGNES+",
       "area": "agnesviertel-eigelstein",
       "address": "Neusser Straße 58, 50670 Köln",
@@ -2808,6 +2936,183 @@
         "https://www.speisekarte.de/k%C3%B6ln/restaurant/piccola_essen_trinken_agnesviertel"
       ],
       "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "Qing Tian | Handpulled Noodles",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 207, 50823 Köln",
+      "category": "restaurant",
+      "reason": "possible temporary closure (re-checked 2026-11-07): Wanderlog later snapshot 4.7 / 238 labelled 'Temporarily Closed' (earlier 4.9 / 109)",
+      "found": "Mit Vergnügen 2026 '에렌펠트 맛집 21'에는 여전히 Venloer Straße 207로 소개됨. 수타면·만두·칠리오일 호평. 영업 재개가 확인되면 places로 올릴 것.",
+      "sources": [
+        "https://wanderlog.com/place/details/14995220/qing-tian--handpulled-noodles-in-k%C3%B6ln",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "Thai Street Food",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 282, 50823 Köln",
+      "category": "streetfood",
+      "reason": "google-numbers-not-found (re-checked 2026-11-07: Wanderlog search returned only the unrelated Thai-Viet Street Food Imbiss)",
+      "found": "Mit Vergnügen 2026 '에렌펠트 맛집 21'에 Venloer Straße 282로 소개. Restaurant Guru 자체 점수 4.4 / 469(구글 아님), 1인 €10–20.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://restaurantguru.com/Thai-Street-Food-Cologne"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "1992 Vietnamese Fusion & Sushi",
+      "area": "agnesviertel-eigelstein",
+      "address": "주소 미확인 (아그네스 지구)",
+      "category": "restaurant",
+      "reason": "address-missing + attribution-unclear (re-checked 2026-11-07): Wanderlog page 4.5 / 505, source label not seen",
+      "found": "Wanderlog: 아그네스 지구, '쾰른 최고의 쌀국수 중 하나'라는 평판. 주소만 확인되면 채택 가능성 높음.",
+      "sources": [
+        "https://wanderlog.com/place/details/1455614/1992-vietnamese-fusion--sushi",
+        "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "Cafe Extrablatt Köln Eigelstein",
+      "area": "agnesviertel-eigelstein",
+      "address": "주소 미확인 (Wanderlog 요약상 Lübecker Straße)",
+      "category": "cafe",
+      "reason": "address-unverified (chain café): Wanderlog Google 4.3 / 1,806 meets the bar",
+      "found": "체인 카페. 아침 뷔페·큰 카푸치노, 가성비 호평(Wanderlog). 번지 확인 필요.",
+      "sources": [
+        "https://wanderlog.com/place/details/5166666/cafe-extrablatt-k%C3%B6ln-eigelstein"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "KLUTH",
+      "area": "ehrenfeld",
+      "address": "Hansemannstraße 33, 50823 Köln",
+      "category": "fine-dining",
+      "reason": "google-numbers-not-found",
+      "found": "Wanderlog: 6코스 서프라이즈 메뉴의 파인다이닝. 구글 수치는 검색 결과에 나오지 않음.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/40359/nice-restaurants-and-fine-dining-in-cologne"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "Hans & Franz",
+      "area": "ehrenfeld",
+      "address": "주소 미확인 (에렌펠트)",
+      "category": "restaurant",
+      "reason": "google-numbers-not-found (OpenTable 4.8 / 7 is not Google)",
+      "found": "OpenTable: 에렌펠트의 독일·프랑스 요리, 제철 지향.",
+      "sources": [
+        "https://www.opentable.com/cuisine/best-regional-german-restaurants-cologne-ehrenfeld"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "el carrito",
+      "area": "ehrenfeld",
+      "address": "주소 미확인 (에렌펠트)",
+      "category": "restaurant",
+      "reason": "google-numbers-not-found (OpenTable 4.3 is not Google)",
+      "found": "OpenTable: 에렌펠트의 남미 음식점.",
+      "sources": [
+        "https://www.opentable.ca/features/best-authentic-restaurants-cologne-ehrenfeld?lang=fr-ca"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "Selam",
+      "area": "ehrenfeld",
+      "address": "주소 미확인 (Venloer Straße 주변)",
+      "category": "restaurant",
+      "reason": "google-numbers-not-found",
+      "found": "koeln.de 에렌펠트 인기 식당 목록: 향신료를 듬뿍 쓰는 정통 에티오피아 요리.",
+      "sources": [
+        "https://www.koeln.de/koeln/essen_und_trinken/gut-essen-in-den-besten-restaurants-in-koeln-ehrenfeld_1172053.html"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "Hemmer",
+      "area": "ehrenfeld",
+      "address": "주소 미확인 (노이에렌펠트)",
+      "category": "restaurant",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "Mit Vergnügen 2026 '노이에렌펠트 21': 소박하지만 맛있고 저렴한 음식, 여름엔 모퉁이 테라스. Wanderlog에서 찾지 못함.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "Zeit für Brot",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 202, 50823 Köln",
+      "category": "bakery",
+      "reason": "replaced: the same address is now 'Die Mehlwerkstatt' (added to places this round, Google 4.5 / 1,939)",
+      "found": "Venloer Str. 202의 현재 업체는 Die Mehlwerkstatt로 확인(Wanderlog, werkenntdenbesten).",
+      "sources": [
+        "https://wanderlog.com/place/details/1326802/die-mehlwerkstatt",
+        "https://www.werkenntdenbesten.de/baeckerei/koeln"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "La Dolce Vita",
+      "area": "agnesviertel-eigelstein",
+      "address": "Eigelstein 145, 50668 Köln",
+      "category": "dessert",
+      "reason": "google-numbers-not-found",
+      "found": "Wanderlog: 아이겔슈타인의 아이스크림 가게, 분위기·친절한 직원 호평. 겨울철 영업 여부 미확인.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/49283/places-to-have-best-gelato-in-cologne"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "Café Dein & Mein",
+      "area": "agnesviertel-eigelstein",
+      "address": "Ewaldistraße (번지 미확인), 50670 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-not-found",
+      "found": "Mit Vergnügen 2024 '아그네스 지구 카페 11' 수록.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/cafes-agenesviertel/"
+      ],
+      "research": "r8-ehrenfeld-agnes"
+    },
+    {
+      "name": "Villa Mathilde",
+      "area": "deutz-messe",
+      "address": "Mathildenstraße 27, 50679 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-low-confidence",
+      "found": "Google 4.6 (620) via wanderlog.com (Google ~4.6 / ~620 as summarised; second score 4.0 / 53)",
+      "sources": [
+        "https://extensionembed.wanderlog.com/place/details/3263154",
+        "https://koeln.mitvergnuegen.com/2019/gemuetlich-abschalten-in-der-villa-mathilde-in-deutz/",
+        "https://koeln.mitvergnuegen.com/2026/gemuetliche-cafes/",
+        "https://spinach.guide/venues/villa-mathilde-30000/",
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ],
+      "research": "r8-muelheim"
+    },
+    {
+      "name": "Tomoki Restaurant",
+      "area": "muelheim-kalk",
+      "address": "Formesstraße 2, 51063 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-low-confidence",
+      "found": "Google 4.7 (510) via wanderlog.com (Google ~4.7 / 510)",
+      "sources": [
+        "https://wanderlog.com/place/details/9830897/tomoki-restaurant",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/"
+      ],
+      "research": "r8-muelheim"
     },
     {
       "name": "Mevlana Restaurant",
@@ -2944,18 +3249,6 @@
       "category": "restaurant",
       "reason": "google-numbers-not-found + address-missing",
       "found": "뮐하임의 숯불 그릴, 할랄·유기농 고기(Mit Vergnügen 2026 뮐하임 맛집 11곳).",
-      "sources": [
-        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/"
-      ],
-      "research": "r8-muelheim"
-    },
-    {
-      "name": "An Banh Mi",
-      "area": "muelheim-kalk",
-      "address": "Schanzenstraße (번지 미확인), 51063 Köln",
-      "category": "streetfood",
-      "reason": "google-numbers-not-found",
-      "found": "샨첸슈트라세의 베트남 반미 샌드위치 가게(Mit Vergnügen 2026 뮐하임 맛집 11곳).",
       "sources": [
         "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/"
       ],
@@ -3164,7 +3457,7 @@
       "address": "Stammheimer Straße 100, 50735 Köln",
       "category": "restaurant",
       "reason": "google-numbers-missing: OpenTable 4.9 from only 5 reviews; Restaurant Guru figures (~4.3, 434 votes) are not Google",
-      "found": "Traditional Rhineland Gasthaus in Riehl (OpenTable: 'gemütlicher und traditionsreicher Treffpunkt ... herzhafte Speisen'). OpenTable calls it the most popular restaurant in Nippes.",
+      "found": "릴의 전통 라인란트 가스트하우스(OpenTable: '정통 라인란트식 환대와 든든한 요리'). OpenTable은 닙페스 일대 최고 인기 식당이라고 표시. 구글 수치 확인되면 승격 가능.",
       "sources": [
         "https://opentable.com.mx/features/best-lunch-restaurants-cologne-nippes",
         "https://restaurantguru.com/Riehler-Hof-Cologne"
@@ -3174,12 +3467,24 @@
     {
       "name": "Rakete – Wein- & Apéritivobar",
       "area": "nippes",
-      "address": null,
+      "address": "Baudriplatz 2, Köln (PLZ 미확인)",
       "category": "wine-bar",
-      "reason": "google-numbers-missing + address-missing: Restaurant Guru 4.7 from 26 reviews is its own score, not Google",
-      "found": "Wine and aperitivo bar listed under Nippes searches; whiskey sour mentioned by reviewers.",
+      "reason": "below-bar: Restaurant Guru shows 4.7 from only 26 reviews (labelled Google) — under 50",
+      "found": "와인·아페리티보 바. 아늑한 동네 분위기·친절한 주인 호평, 위스키 사워 언급. 아침·브런치·야외석 표시. 닙페스 검색에서 나왔지만 위치(Baudriplatz)가 닙페스인지 미확인.",
       "sources": [
         "https://restaurantguru.com/Rakete-Wein-und-Aperitivobar-Cologne"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "The Tasty Pasty Company",
+      "area": "nippes",
+      "address": "Mauenheimer Straße 28, 50733 Köln",
+      "category": "cafe",
+      "reason": "google-review-count-missing + possible closure: Google 4.6 on Restaurant Guru; Anguli Coffee is now listed at the same address",
+      "found": "영국식 파이(pasty) 카페로 기록돼 있으나 같은 번지에 현재 Anguli Coffee가 있어 폐업·이전 가능성.",
+      "sources": [
+        "https://restaurantguru.com/The-Tasty-Pasty-Company-Cologne"
       ],
       "research": "r8-nippes"
     },
@@ -3189,7 +3494,7 @@
       "address": "Neusser Straße (Hausnummer nicht ermittelt), 50733 Köln",
       "category": "bar",
       "reason": "google-numbers-missing + address-incomplete",
-      "found": "Pub/bar on Neusser Straße with beer, cocktails, wine and spirits (Restaurant Guru).",
+      "found": "노이서 거리의 펍·바(맥주·칵테일·와인·증류주).",
       "sources": [
         "https://restaurantguru.com/Nachtschwaermer-Cologne"
       ],
@@ -3201,7 +3506,7 @@
       "address": "Kempener Straße 68, 50733 Köln",
       "category": "cocktail-bar",
       "reason": "permanently-closed (Restaurant Guru)",
-      "found": "Cocktail bar marked permanently closed.",
+      "found": "칵테일 바 — Restaurant Guru에 영구 폐업 표시.",
       "sources": [
         "https://restaurantguru.com/Barfly-Cologne"
       ],
@@ -3210,12 +3515,13 @@
     {
       "name": "Pizzeria Mimmo u Santo",
       "area": "nippes",
-      "address": null,
+      "address": "Neusser Straße (Hausnummer nicht ermittelt), 50733 Köln",
       "category": "restaurant",
-      "reason": "permanently-closed (Wanderlog)",
-      "found": "Wanderlog listing marked 'Permanently Closed'.",
+      "reason": "closure-signal: Wanderlog 'Permanently Closed' (Mit Vergnügen 2025 still lists 'Mimmo & Santo' with gluten-free and vegan options)",
+      "found": "노이서 거리의 이탈리아 피자집. 출처 간 영업 여부가 엇갈림.",
       "sources": [
-        "https://wanderlog.com/place/details/1282844/pizzeria-mimmo-u-santo"
+        "https://wanderlog.com/place/details/1282844/pizzeria-mimmo-u-santo",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
       ],
       "research": "r8-nippes"
     },
@@ -3224,8 +3530,8 @@
       "area": "nippes",
       "address": "Neusser Straße 273, 50733 Köln",
       "category": "wine-shop",
-      "reason": "out-of-scope (wine-shop chain) + review count missing: Google 4.4 on Restaurant Guru, RG's own 0.8/26",
-      "found": "Wine retail chain branch with tasting; not a bar or restaurant.",
+      "reason": "out-of-scope (wine-shop chain) + review count missing: Google 4.4 on Restaurant Guru (RG's own 0.8 / 26)",
+      "found": "와인 판매 체인 지점(시음 가능). 바·식당이 아님.",
       "sources": [
         "https://restaurantguru.com/Jacques-Wein-Depot-Koln-Nippes-Cologne"
       ],
@@ -3237,7 +3543,7 @@
       "address": null,
       "category": "streetfood",
       "reason": "below-bar: Google 4.1 (Restaurant Guru)",
-      "found": "Delivery/takeaway pizzeria.",
+      "found": "배달·포장 위주 피자집.",
       "sources": [
         "https://restaurantguru.com/Pizza-Terminator-Cologne"
       ],
@@ -3248,34 +3554,34 @@
       "area": "nippes",
       "address": "Neusser Straße 289, 50733 Köln",
       "category": "restaurant",
-      "reason": "google-numbers-missing (Wanderlog page shows a single review, no rating)",
-      "found": "Vietnamese restaurant on Neusser Straße.",
+      "reason": "google-numbers-missing (Wanderlog shows a single review, no rating)",
+      "found": "노이서 거리의 베트남 식당.",
       "sources": [
         "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne"
       ],
       "research": "r8-nippes"
     },
     {
-      "name": "Komagene Köln-Nippes",
+      "name": "An Banh Mi",
       "area": "nippes",
-      "address": null,
+      "address": "Niehler Straße 147, 50733 Köln",
       "category": "streetfood",
-      "reason": "google-numbers-missing",
-      "found": "Çiğ köfte chain branch.",
+      "reason": "google-numbers-not-found (no Wanderlog / Restaurant Guru listing surfaced)",
+      "found": "Mit Vergnügen '닙페스에서 맛있게 먹기 11곳'(2025)에 나온 반미 가게.",
       "sources": [
-        "https://de.restaurantguru.com/Komagene-Cologne-3"
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
       ],
       "research": "r8-nippes"
     },
     {
-      "name": "finefine – Healthy Food Köln Nippes",
+      "name": "Komagene Köln-Nippes",
       "area": "nippes",
-      "address": null,
-      "category": "restaurant",
-      "reason": "below-bar: Restaurant Guru shows Google 3.5 (112); structured data on the same page says 4.2 — conflicting",
-      "found": "Healthy food / bowls in Nippes. Address not captured.",
+      "address": "Neusser Straße 324, 50733 Köln",
+      "category": "streetfood",
+      "reason": "google-numbers-missing (Restaurant Guru's own 1.4 / 71 only)",
+      "found": "치쾨프테(çiğ köfte — 튀르키예식 불구르 완자) 체인 지점.",
       "sources": [
-        "https://restaurantguru.com/finefine-Healthy-Food-Koln-Nippes-Cologne"
+        "https://de.restaurantguru.com/Komagene-Cologne-3"
       ],
       "research": "r8-nippes"
     },
@@ -3285,9 +3591,129 @@
       "address": null,
       "category": "streetfood",
       "reason": "google-numbers-conflicting: text cites Google 4.7, structured data 1.3; review count not shown",
-      "found": "Çiğ köfte chain branch in Nippes.",
+      "found": "치쾨프테(çiğ köfte) 체인 지점.",
       "sources": [
         "https://restaurantguru.com/cigkoftem-koln-nippes-Cologne"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "finefine – Healthy Food Köln Nippes",
+      "area": "nippes",
+      "address": null,
+      "category": "restaurant",
+      "reason": "below-bar / conflicting: Restaurant Guru shows Google 3.5 (112); structured data on the same page says 4.2",
+      "found": "건강식·볼 가게. 주소 미확보.",
+      "sources": [
+        "https://restaurantguru.com/finefine-Healthy-Food-Koln-Nippes-Cologne"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "Simit Dünyası",
+      "area": "nippes",
+      "address": "Wilhelmstraße 51, 50733 Köln",
+      "category": "bakery",
+      "reason": "google-numbers-missing",
+      "found": "튀르키예 시미트(깨 링빵) 베이커리·카페 체인. Restaurant Guru 소개문에 '닙페스에서 놓치면 안 될 곳'.",
+      "sources": [
+        "https://restaurantguru.com/Simit-Dunyasi-Cologne-2"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "Café Wohnraum",
+      "area": "nippes",
+      "address": "Neusser Straße 314, 50733 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "샌드위치·베이글·케이크·비건 메뉴, 스페셜티 커피·스무디(Wanderlog 목록 설명).",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/10013/best-breakfast-and-brunch-in-cologne"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "Frau Mexi",
+      "area": "nippes",
+      "address": null,
+      "category": "cafe",
+      "reason": "google-numbers-missing + address-missing",
+      "found": "Mit Vergnügen '닙페스 아침 식사 11곳': 페이스트리·베이글.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/fruehstueck-nippes"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "WERNHERS",
+      "area": "nippes",
+      "address": "Neusser Straße 261, 50733 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-missing (not searched — search cap reached)",
+      "found": "노이서 거리의 카페(Restaurant Guru).",
+      "sources": [
+        "https://restaurantguru.com/Wernhers-Cologne"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "Eis-Engeln",
+      "area": "nippes",
+      "address": null,
+      "category": "dessert",
+      "reason": "google-numbers-missing + address-missing",
+      "found": "Wanderlog 디저트 목록: '닙페스 최고의 아이스크림 가게'라는 후기. 겨울(11–12월) 휴업 여부 확인 필요.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/26078/best-desserts-and-snacks-in-cologne"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "Café Eiszeit",
+      "area": "nippes",
+      "address": "Hartwichstraße 93, 50733 Köln",
+      "category": "dessert",
+      "reason": "google-numbers-missing",
+      "found": "닙페스 아이스크림 카페. 겨울 휴업 여부 확인 필요.",
+      "sources": [
+        "https://de.restaurantguru.com/Cafe-Eiszeit-Cologne"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "Don Taco Grill",
+      "area": "nippes",
+      "address": "Boltensternstraße 104-112, 50735 Köln",
+      "category": "streetfood",
+      "reason": "google-numbers-missing (Wanderlog shows reviews but no overall rating)",
+      "found": "릴의 타코·그릴 가게. 친절한 직원 호평.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1782260"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "Bierbrunnen",
+      "area": "nippes",
+      "address": null,
+      "category": "kneipe",
+      "reason": "address-missing / location unconfirmed: Restaurant Guru Google 4.7 / 58 (surfaced in a Nippes search)",
+      "found": "주소가 확인되면 승격 가능(기준 충족).",
+      "sources": [
+        "https://restaurantguru.com/Bierbrunnen-Cologne"
+      ],
+      "research": "r8-nippes"
+    },
+    {
+      "name": "Gasthaus Goldenes Fass",
+      "area": "other",
+      "address": "Stammheimer Ring 111, Köln (PLZ 미확인)",
+      "category": "restaurant",
+      "reason": "out-of-area / location unverified: Restaurant Guru Google 4.4 / 213 — Stammheimer Ring is probably in Stammheim (Mülheim district), not Riehl",
+      "found": "Riehl 검색에서 함께 나온 가스트하우스. 주소 지역 확인 후 해당 지역에 넣을 것.",
+      "sources": [
+        "https://restaurantguru.com/Goldenes-Fass-Cologne"
       ],
       "research": "r8-nippes"
     },

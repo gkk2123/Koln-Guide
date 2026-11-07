@@ -130,3 +130,15 @@ wanderlog 장소 페이지·restaurantguru의 Google 항목 등 구글 수치를
 - 표: `guides/tables/belgisches-viertel.md`(자동 생성). 뷰어: "독일·쾰른 요리", "벨기에 지구", "와인바", "조용한 곳", "활기찬 곳",
   "라운지" 빠른 선택. 와인바 성격의 레스토랑(Lütticher, Weinstube Bacchus)은 바 탭에도 함께 보입니다.
 - 좌표 조회 중 Nominatim이 HTTP 429(요청 과다)를 돌려줘 `geocode.py`에 대기 후 재시도를 넣었습니다.
+
+## 8차: 동네 확장과 보강 (2026-11-07)
+
+- 동네 3곳 추가: 니페스·리엘(`nippes`), 쥘츠·린덴탈(`suelz-lindenthal`), 뮐하임·칼크(`muelheim-kalk`). 중심점은 Nominatim으로 잡았고
+  (빌헬름플라츠, 베렌라터 거리, 코이프슈트라세), 원자료에서 `other`였던 곳은 우편번호로 새 동네에 자동 배정합니다(`schema.refine_area`).
+- 여섯 묶음(새 동네 3 · 에렌펠트·아그네스 지구 · 도심·쥐트슈타트 · 기존 후보 재확인)으로 웹 검색 192회를 써서 구글 수치를 보여 주는
+  목록 페이지(wanderlog, restaurantguru)부터 훑었습니다. 기준은 같습니다(구글 ★4.2+ · 리뷰 50+). 같은 곳이 여러 묶음에서 나오면 import가
+  합칩니다.
+- 근삿값(~)만 있는 곳(Villa Mathilde, Tomoki)과 구글 상태가 '영구 폐업'인 곳(Restaurant Fabian)은 후보로 내렸습니다.
+- 스타일: 새 장소 대부분은 설명 문구로 자동 분류되고, 해산물·비어가든·피데·라마준 스타일과 "이탈리아 레스토랑 → 리스토란테" 기본값을
+  더했습니다. 남은 곳은 `data/style-overrides.json`에 근거와 함께 지정. 식음료 346곳 중 345곳에 스타일이 있습니다(Zadem만 정보 없음).
+- 좌표 조회 중 Nominatim이 여러 번 HTTP 429를 돌려줬지만 대기 후 재시도로 모두 찾았습니다.

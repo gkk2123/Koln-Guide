@@ -40,7 +40,7 @@
       "r8-suelz.json",
       "wine-places.json"
     ],
-    "count": 49
+    "count": 52
   },
   "items": [
     {
@@ -599,6 +599,64 @@
       "style": "wine-bar"
     },
     {
+      "id": "cafe-storch",
+      "name": "Café Storch",
+      "category": "bar",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 17, 50674 Köln",
+      "lat": 50.936332,
+      "lng": 6.935965,
+      "cuisine": "Candlelit café-bar with jazz and quirky decor — beer, fresh Apfelschorle, crêpes",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "late-night"
+      ],
+      "occasions": [
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "quiet"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 출처 없음",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.6,
+      "google_reviews": 259,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 (4.6 / 259, 5★207·1★12); restaurantguru.com Google 4.6. RG 자체 2.9 / 351은 구글 아님",
+      "summary_ko": "벨기에 지구 아헨 거리 초입의 촛불 켠 카페 겸 바로, 하루 종일 재즈가 흐르고 엉뚱한 그림과 삐뚤어진 의자가 있는 아늑한 공간이다(구글 4.6, 259건). 시끄러운 클럽형 바 대신 맥주나 사과 쇼를레 한 잔 놓고 조용히 이야기하고 싶을 때 좋다.",
+      "must_try": [
+        "Frisch gepresste Apfelschorle (생사과 쇼를레)",
+        "Crêpes (크레프)"
+      ],
+      "tips_ko": "영업 여부를 꼭 확인할 것 — 예전 Wanderlog 목록에 '임시 휴업' 표시가 있었고 '지난주 두 번 갔는데 두 번 다 닫혀 있었다'는 리뷰도 있다. 반면 Mit Vergnügen 2026 '아늑한 바' 기사는 일–목 17–1시, 금·토 17–2시 영업으로 소개했다(7차 조사). 직원 친절이 자주 칭찬받는다. 웹사이트 cafe-storch.de.",
+      "website": "https://cafe-storch.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1508528/caf%C3%A9-storch",
+        "https://restaurantguru.com/Cafe-Storch-Cologne",
+        "https://koeln.mitvergnuegen.com/2026/gemuetliche-bars-koeln/"
+      ],
+      "confidence": "medium",
+      "research": "r8-candidates",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "bar"
+    },
+    {
       "id": "low-budget",
       "name": "Low Budget",
       "category": "bar",
@@ -1058,9 +1116,7 @@
         "group",
         "date"
       ],
-      "features": [
-        "live-music"
-      ],
+      "features": [],
       "drinks": [
         "cocktails"
       ],
@@ -1095,8 +1151,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "cocktail-bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cocktail-bar"
     },
     {
       "id": "frohnatur-bistrooo-bar-bar-bar",
@@ -2005,8 +2061,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "bar"
     },
     {
       "id": "torburg",
@@ -2594,8 +2650,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "kneipe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kneipe"
     },
     {
       "id": "king-georg",
@@ -2638,14 +2694,15 @@
       "google_rating": 4.5,
       "google_reviews": 347,
       "google_as_of": null,
-      "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 347)",
-      "summary_ko": "에버트플라츠 바로 옆 수더만슈트라세에서 50년 가까이 자리를 지켜온 탄츠바(댄스 바)로, 평일엔 낭독회·재즈 공연, 토요일엔 DJ가 트는 클럽 바로 바뀐다. 근처 칵테일 바 Suderman과 묶어 아그네스 지구 밤 코스로 좋다.",
+      "rating_source": "wanderlog.com (Google 4.5 / 347 — 검색 요약상 Wanderlog 페이지 값, 개별 장소 URL은 결과에 표시되지 않음)",
+      "summary_ko": "에버트플라츠 바로 옆 수더만슈트라세에서 50년째 자리를 지켜온 탄츠바(댄스 바)로, 평일엔 낭독회·재즈 공연, 토요일엔 DJ가 트는 클럽 바로 바뀐다. 근처 칵테일 바 Suderman과 묶어 아그네스 지구 밤 코스로 좋다.",
       "must_try": [],
       "tips_ko": "공연·파티 일정은 날마다 다르니 방문 전 프로그램을 확인할 것(공연일엔 입장료가 있을 수 있음). 늦은 밤 위주.",
       "website": null,
       "awards": [],
       "award_flags": [],
       "sources": [
+        "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
         "https://koeln.mitvergnuegen.com/2024/bars-kneipen-agnesviertel/",
         "https://koeln.mitvergnuegen.com/2025/tanzbars/",
         "https://koeln.mitvergnuegen.com/2026/agnesviertel/"
@@ -2653,8 +2710,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "bar"
     },
     {
       "id": "lapidarium",
@@ -2681,9 +2738,7 @@
       "drinks": [
         "koelsch"
       ],
-      "vibe": [
-        "local-favorite"
-      ],
+      "vibe": [],
       "reservation": "unknown",
       "payment": "cash-only",
       "location": [],
@@ -2698,7 +2753,7 @@
       "google_reviews": 517,
       "google_as_of": null,
       "rating_source": "wanderlog.com 장소 페이지 (Google 4.4 / 517)",
-      "summary_ko": "아이겔슈타인 거리 북쪽 끝(아이겔슈타인 성문 근처)의 카페 겸 바 겸 크나이페로, 독일 음식과 쾰른 지역 맥주를 낸다. 관광객보다 동네 손님이 많은 편안한 곳이라 아이겔슈타인 산책 끝에 한잔하기 좋다.",
+      "summary_ko": "아이겔슈타인 거리 북쪽(아이겔슈타인 성문 쪽)의 카페 겸 바 겸 크나이페로, 독일 음식과 쾰른 지역 맥주를 낸다. 구글 리뷰 500건 이상에 4.4라, 아이겔슈타인 산책 끝에 맥주 한잔하며 쉬어 가기 좋다.",
       "must_try": [
         "Kölsch (쾰시)"
       ],
@@ -2712,8 +2767,63 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "kneipe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kneipe"
+    },
+    {
+      "id": "sternhagel",
+      "name": "Sternhagel",
+      "category": "kneipe",
+      "area": "agnesviertel-eigelstein",
+      "address": "Krefelder Straße 101, 50670 Köln",
+      "lat": 50.953842,
+      "lng": 6.950394,
+      "cuisine": "Punk dive bar / Kneipe with darts and Doppelkopf card games, Tuesday game night",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "late-night"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite",
+        "hidden-gem"
+      ],
+      "reservation": "walk-in",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "음료 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 370,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소·목록 페이지 'Sternhagel Bar' (Google 4.4 / 370; 다른 스냅숏 4.4 / 353)",
+      "summary_ko": "아그네스 지구 크레펠더 슈트라세의 펑크풍 동네 술집으로, 다트와 도펠코프(독일 카드게임)를 즐기는 단골이 모이고 매주 화요일엔 게임의 밤이 열린다. 세련된 칵테일 바 대신 꾸밈없는 쾰른 크나이페 분위기를 보고 싶을 때 좋다.",
+      "must_try": [],
+      "tips_ko": "구글 등록명은 'Sternhagel Bar'. 저녁·밤 위주 영업으로 보이며 영업시간·결제 방식은 방문 전 확인. 에버트플라츠에서 걸어서 약 5–10분.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/12550050/sternhagel-bar",
+        "https://koeln.mitvergnuegen.com/2024/bars-kneipen-agnesviertel/"
+      ],
+      "confidence": "medium",
+      "research": "r8-ehrenfeld-agnes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "kneipe"
     },
     {
       "id": "weinhaus-vogel",
@@ -2743,7 +2853,6 @@
         "koelsch"
       ],
       "vibe": [
-        "traditional",
         "local-favorite"
       ],
       "reservation": "unknown",
@@ -2760,7 +2869,7 @@
       "google_reviews": 1539,
       "google_as_of": null,
       "rating_source": "wanderlog.com 장소 페이지 (Google 4.3 / 1,539; 별도 4.0 / 193은 다른 포털)",
-      "summary_ko": "아이겔슈타인 거리의 오래된 쾰시 크나이페 겸 식당(가스트로펍)으로, 한 리뷰어가 '훌륭한 독일 식당'이라 부를 만큼 음식도 평이 좋다. 구글 리뷰 1,500건 이상에 4.3, Wanderlog '저렴한 맛집' 목록에도 올라 부담 없이 쾰른식 술집 분위기를 느끼기 좋다.",
+      "summary_ko": "아이겔슈타인 거리의 쾰시 크나이페 겸 식당(가스트로펍)으로, 한 리뷰어가 '훌륭한 독일 식당'이라 부를 만큼 음식도 평이 좋다. 구글 리뷰 1,500건 이상에 4.3, Wanderlog '저렴한 맛집' 목록에도 올라 부담 없이 쾰른식 술집 분위기를 느끼기 좋다.",
       "must_try": [
         "Kölsch vom Fass (생 쾰시)"
       ],
@@ -2775,8 +2884,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "kneipe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kneipe"
     },
     {
       "id": "em-bierstueffge",
@@ -2856,6 +2965,66 @@
       "style": "kneipe"
     },
     {
+      "id": "gaffel-im-linkewitz",
+      "name": "Gaffel im Linkewitz",
+      "category": "kneipe",
+      "area": "nippes",
+      "address": "Niehler Damm 179, 50735 Köln",
+      "lat": 50.989593,
+      "lng": 6.963788,
+      "cuisine": "Gaststätte (Kölsch pub with food) serving Gaffel Kölsch, in Niehl",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [
+        "koelsch"
+      ],
+      "vibe": [
+        "local-favorite",
+        "traditional"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [
+        "Gaffel Kölsch"
+      ],
+      "google_rating": 4.5,
+      "google_reviews": 614,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.5 / 614; the page's structured data shows 4.4)",
+      "summary_ko": "닙페스 구의 닐(Niehl) 동네, 닐러 담(Niehler Damm)에 있는 가펠 쾰시 가스트슈테테다. 구글 4.5(614건)로 평이 좋지만 시내에서 멀어 닐·릴 쪽에 일정이 있을 때 들를 만하다.",
+      "must_try": [
+        "Gaffel Kölsch (가펠 쾰시)"
+      ],
+      "tips_ko": "출처에 우편번호가 없어 닐 지역 우편번호(50735)로 적었다. 메뉴·영업시간은 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Gaffel-im-Linkewitz-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-nippes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "kneipe"
+    },
+    {
       "id": "alt-neppes",
       "name": "Alt Neppes",
       "category": "kneipe",
@@ -2863,13 +3032,12 @@
       "address": "Neusser Straße 301, 50733 Köln",
       "lat": 50.965493,
       "lng": 6.953322,
-      "cuisine": "Old-school Nippes Kölsch pub (Kneipe) with home-style food",
+      "cuisine": "Old-school Nippes Kölsch pub (Kneipe)",
       "cuisine_country": [],
       "cuisine_region": null,
       "dishes": [],
       "diet": [],
       "meals": [
-        "dinner",
         "late-night"
       ],
       "occasions": [
@@ -2889,19 +3057,19 @@
       "price_level": null,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
       "google_rating": 4.4,
       "google_reviews": 321,
       "google_as_of": null,
-      "rating_source": "restaurantguru.com (Google 4.4 / 321; Restaurant Guru's own 3.1/377 is not Google)",
-      "summary_ko": "'노이서 거리의 옛 닙페스(Neppes는 닙페스의 쾰른 사투리)'라는 이름의 쾰시 크나이페로, Mit Vergnügen의 '저렴한 바·크나이페', '진짜 쾰른 크나이페' 목록에 오른 곳이다. 구글 4.4(321건)로 동네 술집 분위기를 느끼기에 좋다.",
+      "rating_source": "restaurantguru.com (Google 4.4 / 321; Restaurant Guru's own 3.1 / 377 is not Google)",
+      "summary_ko": "'옛 닙페스'(Neppes는 닙페스의 쾰른 사투리)라는 이름의 쾰시 크나이페로, Mit Vergnügen의 '저렴한 바·크나이페 11곳'과 '진짜 쾰른 크나이페 11곳'에 오른 곳이다. 구글 4.4(321건)로 동네 술집 분위기를 느끼기 좋다.",
       "must_try": [
         "Kölsch vom Fass (생 쾰시)"
       ],
-      "tips_ko": "관광지 술집이 아니라 단골 위주 동네 술집이다. 축구 경기 날엔 붐빈다. 결제 수단은 현금을 챙기는 편이 안전하다(미확인).",
+      "tips_ko": "관광 술집이 아니라 단골 위주의 동네 술집이다. 같은 거리 295번지 Em Golde Kappes, 340번지 Neppeser Gaffel Stube와 묶어 노이서 거리 크나이페 순례를 하기 좋다.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -2913,8 +3081,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "kneipe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kneipe"
     },
     {
       "id": "neppeser-gaffel-stube",
@@ -2924,15 +3092,13 @@
       "address": "Neusser Straße 340, 50733 Köln",
       "lat": 50.967466,
       "lng": 6.953403,
-      "cuisine": "Gaffel Kölsch pub and restaurant (Kneipe, formerly 'Restauration Pet Wirtz')",
-      "cuisine_country": [
-        "DE"
-      ],
-      "cuisine_region": "central-europe",
+      "cuisine": "Gaffel Kölsch pub (Kneipe), formerly 'Restauration Pet Wirtz'",
+      "cuisine_country": [],
+      "cuisine_region": null,
       "dishes": [],
       "diet": [],
       "meals": [
-        "dinner"
+        "late-night"
       ],
       "occasions": [
         "group"
@@ -2951,7 +3117,7 @@
       "price_level": null,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [
@@ -2960,12 +3126,12 @@
       "google_rating": 4.4,
       "google_reviews": 246,
       "google_as_of": null,
-      "rating_source": "restaurantguru.com (Google 4.4 / 246; Restaurant Guru's own 3.4/260 is not Google)",
-      "summary_ko": "노이서 거리의 가펠(Gaffel) 쾰시 크나이페로, 닙페스 동네 사람들이 쾰시 한잔과 쾰른식 안주를 즐기는 곳이다. 구글 4.4(246건).",
+      "rating_source": "restaurantguru.com (Google 4.4 / 246; Restaurant Guru's own 3.4 / 260 is not Google)",
+      "summary_ko": "노이서 거리 북쪽의 가펠(Gaffel) 쾰시 크나이페로, 닙페스 동네 사람들이 쾰시 한잔하러 모이는 곳이다. 구글 4.4(246건).",
       "must_try": [
         "Gaffel Kölsch (가펠 쾰시)"
       ],
-      "tips_ko": "음식 메뉴·영업시간은 방문 전 확인. 같은 거리 301번지 Alt Neppes와 묶어 '크나이페 투어'를 하기 좋다.",
+      "tips_ko": "음식 메뉴·영업시간은 출처에서 확인하지 못했다. Daikan 닙페스점(332번지)과 가까워 저녁 뒤 한잔하기 좋다.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -2975,8 +3141,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "kneipe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kneipe"
     },
     {
       "id": "flora-6",
@@ -2986,13 +3152,12 @@
       "address": "Florastraße 6, 50733 Köln",
       "lat": 50.964677,
       "lng": 6.954349,
-      "cuisine": "Nippes neighbourhood Kölsch pub (Kneipe)",
+      "cuisine": "Nippes neighbourhood Kölsch pub (Kneipe) pouring Gaffel",
       "cuisine_country": [],
       "cuisine_region": null,
       "dishes": [],
       "diet": [],
       "meals": [
-        "dinner",
         "late-night"
       ],
       "occasions": [
@@ -3011,30 +3176,33 @@
       "price_level": null,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
-      "beers": [],
+      "beers": [
+        "Gaffel Kölsch"
+      ],
       "google_rating": 4.3,
       "google_reviews": 458,
       "google_as_of": null,
-      "rating_source": "restaurantguru.com (Google 4.3 / 458; Restaurant Guru's own 2.7/504 is not Google)",
-      "summary_ko": "닙페스 플로라 거리 6번지의 동네 크나이페로, Mit Vergnügen 크나이페 목록에 이름이 오른 곳이다. 구글 4.3(458건)으로 현지인 단골이 많은 쾰시 술집이다.",
+      "rating_source": "restaurantguru.com (Google 4.3 / 458; Restaurant Guru's own 2.7 / 504 is not Google)",
+      "summary_ko": "닙페스 플로라 거리 6번지의 동네 크나이페로, Mit Vergnügen 크나이페 목록에 이름이 오르고 가펠(Gaffel) 쾰시를 낸다. 구글 4.3(458건)으로 현지 단골이 많은 쾰시 술집이다.",
       "must_try": [
-        "Kölsch (쾰시)"
+        "Gaffel Kölsch (가펠 쾰시)"
       ],
-      "tips_ko": "이름의 'Flora'는 길 이름(Florastraße)이고 식물원 Flora와는 떨어져 있다(Neusser Str. 바로 옆).",
+      "tips_ko": "이름의 'Flora'는 길 이름(Florastraße)이고 릴의 식물원 플로라(Flora)와는 다른 곳이다.",
       "website": null,
       "awards": [],
       "award_flags": [],
       "sources": [
-        "https://restaurantguru.com/Flora-6-Cologne"
+        "https://restaurantguru.com/Flora-6-Cologne",
+        "https://wanderlog.com/place/details/12792986/flora-6-k%C3%B6ln-nippes"
       ],
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "kneipe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kneipe"
     },
     {
       "id": "osters-rudi",
@@ -3227,8 +3395,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "kneipe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kneipe"
     }
   ]
 }

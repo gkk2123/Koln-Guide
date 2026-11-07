@@ -23,10 +23,11 @@
 | [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €2.50 | ★4.3 (22,460) | Früh Kölsch |
 | [Craftbeer Corner Coeln (CCC)](https://www.google.com/maps/search/?api=1&query=Craftbeer%20Corner%20Coeln%20%28CCC%29%20Martinstra%C3%9Fe%2032%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 맥주바 | €4.00 | ★4.7 (1,722) | Veedels Wiess (Kölsch-style house beer), 15 rotating craft taps |
 
-## 대성당·구시가 — 9곳
+## 대성당·구시가 — 11곳
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
+| [Augustiner am Heumarkt](https://www.google.com/maps/search/?api=1&query=Augustiner%20am%20Heumarkt%20Heumarkt%2042-44%2C%2050667%20K%C3%B6ln) | 브라우하우스 | Augustiner (München) | – | ★4.7 (6,586) |  |  | 구시가 호이마르크트(Heumarkt) 광장의 바이에른식 맥주 식당으로, 뮌헨 아우구스티너(Augustiner) 맥주를 낸다. 구글 리뷰 6,500건이 넘는데도 4.7을 유지해, 쾰시 대신 바이에른 맥주와 독일 요리를 즐기고 싶을 때 좋다. |
 | [Craftbeer Corner Coeln (CCC)](https://www.google.com/maps/search/?api=1&query=Craftbeer%20Corner%20Coeln%20%28CCC%29%20Martinstra%C3%9Fe%2032%2C%2050667%20K%C3%B6ln) | 맥주바 | Veedels Wiess (Kölsch-style house beer), 15 rotating craft taps | €4.00 | ★4.7 (1,722) |  | 루프탑 | 2016년 문을 연 쾰른 최초의 탭룸 겸 크래프트 맥주 바로, 매일 바뀌는 15개 탭 맥주를 구시가 한복판(Martinstraße)에서 마신다. 맥주를 잘 아는 직원과 루프탑 자리가 호평이라, 쾰시 말고 다른 맥주를 맛보고 싶은 맥주 애호가에게 1순위다. |
 | [Kunst Kaschämm](https://www.google.com/maps/search/?api=1&query=Kunst%20Kasch%C3%A4mm%20Alter%20Markt%202%2C%2050667%20K%C3%B6ln) | 동네 펍 | Reissdorf Kölsch | €1.70 | ★4.6 (1,125) |  | 일요일 영업 | 관광객으로 붐비는 알터 마르크트(Alter Markt)에 있으면서도 생 라이스도르프 쾰시를 €1.70에 판다고 소개된 작은 술집으로, 칵테일 메뉴도 많다. 주방은 없지만 금·토 새벽 3시까지 열어, 구시가에서 싸게 늦게까지 마시기 좋다. |
 | [Tipsy Monk](https://www.google.com/maps/search/?api=1&query=Tipsy%20Monk%20Salzgasse%202-4%2C%2050667%20K%C3%B6ln) | 맥주바 | 30 taps: Belgian classics and international craft, 100+ bottled beers | – | ★4.6 (699) |  | 일요일 영업 | 구시가 잘츠가세의 벨기에·인터내셔널 크래프트 맥주 바로, 예전 '델리리움 카페 쾰른(Délirium Café Köln)'이 이름을 바꾼 곳이다. 생맥주 탭 30개와 병맥주 100종 이상, 보드게임 50여 개가 있어 쾰시 대신 벨기에 맥주를 마시며 놀기 좋다. |
@@ -34,6 +35,7 @@
 | [Papa Joe's Biersalon](https://www.google.com/maps/search/?api=1&query=Papa%20Joe%27s%20Biersalon%20Alter%20Markt%2050-52%2C%2050667%20K%C3%B6ln) | 맥주바 | 쾰시 | – | ★4.5 (3,427) |  |  | 구시가 알터 마르크트(Alter Markt)의 맥주 펍으로, 오래된 자동 연주 음악 기계들로 꾸민 독특한 실내가 명물이다. 새벽 3시까지 열어 구시가에서 늦게까지 한잔하기 좋고, 구글 기반 리뷰가 3천 건을 넘을 만큼 많이 찾는 곳이다. |
 | [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 브라우하우스 | Früh Kölsch | €2.50 | ★4.3 (22,460) |  | 테라스 | 대성당 바로 남쪽 Am Hof에 있는 Früh Kölsch의 대표 브라우하우스로, Fodor's가 '대성당 그늘 아래의 유서 깊은 옛 양조장'으로 소개한 쾰른 관광 1번지 맥주홀이다. 구글 리뷰 약 2만 건(4.3)으로 규모·인지도는 최고지만 서비스 평은 크게 엇갈린다. |
 | [Gilden im Zims](https://www.google.com/maps/search/?api=1&query=Gilden%20im%20Zims%20Heumarkt%2077%2C%2050667%20K%C3%B6ln) | 브라우하우스 | Gilden Kölsch | – | ★4.3 (9,988) |  | 일요일 영업 | 호이마르크트(Heumarkt)에 있는 길덴 쾰시(Gilden Kölsch)의 브라우하우스 'Gilden im Zims – Heimat kölscher Helden'으로, 오픈테이블 후기에서 '가 본 곳 중 가장 친절한 브라우하우스'로 꼽힐 만큼 서비스 평이 좋다. 식사 뒤 지하 아치형 저장고(Gewölbekeller)에서 춤을 출 수 있을 만큼 흥겹고, 일요일 브런치도 있다. |
+| [Gaffel am Dom (Bahnhofsvorplatz)](https://www.google.com/maps/search/?api=1&query=Gaffel%20am%20Dom%20%28Bahnhofsvorplatz%29%20Bahnhofsvorplatz%201%2C%2050667%20K%C3%B6ln) | 브라우하우스 | Gaffel Kölsch | – | ★4.3 (8,716) |  |  | 쾰른 중앙역 정문 앞(대성당 바로 옆)의 대형 가펠(Gaffel) 쾰시 브라우하우스로, 연간 방문객이 매우 많은 곳이다. 구글 리뷰 8,700건에 4.3으로, 도착하자마자 또는 기차 타기 전 쾰시와 향토 요리를 맛보기에 위치가 가장 편하다. |
 | [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 브라우하우스 | Peters Kölsch | €2.30 | ★4.2 (8,850) |  |  | 구시가 알터 마르크트(Alter Markt) 인근 Mühlengasse의 대형 전통 브라우하우스로, Peters Kölsch와 쾨베스(Köbes, 브라우하우스 웨이터)의 서빙 자체가 '경험의 일부'라는 후기가 많다. 관광객 비중이 높지만 구글 리뷰 8천여 건에 4.4로 구시가 브라우하우스 중 평점이 높은 편이라 첫 브라우하우스로 무난하다. |
 | [Brauerei zur Malzmühle](https://www.google.com/maps/search/?api=1&query=Brauerei%20zur%20Malzm%C3%BChle%20Heumarkt%206%2C%2050667%20K%C3%B6ln) | 브라우하우스 | Mühlen Kölsch | €2.40 | ★4.2 (2,584) |  |  | 호이마르크트(Heumarkt)에 있는, Mühlen Kölsch를 빚는 Malzmühle 양조장의 브라우하우스로, 음식과 친절한 서비스, 브라우하우스 특유의 분위기를 칭찬하는 후기가 많다. 쾰른 매체 독자 투표와 브라우하우스 추천 리스트에 꾸준히 이름을 올리는 곳. |
 
@@ -69,22 +71,31 @@
 |---|---|---|---|---|---|---|---|
 | [Braustelle](https://www.google.com/maps/search/?api=1&query=Braustelle%20Christianstra%C3%9Fe%202%2C%2050825%20K%C3%B6ln) | 브라우하우스 | Helios (Braustelle 하우스 맥주), Ehrenfelder Alt | – | ★4.6 (342) |  |  | 2001년부터 에렌펠트 헬리오스 지구 모퉁이를 지켜 온 작은 하우스 양조장 겸 동네 펍으로, '낮에는 쾰른에서 가장 작은 양조장, 밤에는 최고의 펍'이라는 평을 듣는다. 직접 빚은 헬리오스(Helios) 맥주에 소박한 독일식 안주를 곁들이고 싶은 맥주 애호가에게 잘 맞는다. |
 
-## 쥐트슈타트·라인아우하펜 — 5곳
+## 쥐트슈타트·라인아우하펜 — 9곳
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
 | [Früh em Veedel](https://www.google.com/maps/search/?api=1&query=Fr%C3%BCh%20em%20Veedel%20Chlodwigplatz%2028%2C%2050678%20K%C3%B6ln) | 브라우하우스 | Früh Kölsch | – | ★4.6 (1,327) |  |  | 쥐트슈타트 클로드비히플라츠(Chlodwigplatz)에 있는 프뤼(Früh) 쾰시의 동네 지점 'Em Veedel(동네에서)'로, 리뷰에서 '작은 Früh'라고 불린다. 구글 4.6(1,327건)으로 대성당 옆 Früh am Dom(4.3)보다 평점이 높아, 관광객 인파를 피해 프뤼 쾰시를 마시고 싶은 사람에게 맞다. |
 | [Torburg](https://www.google.com/maps/search/?api=1&query=Torburg%20Kart%C3%A4userwall%201%2C%2050678%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.6 (745) |  | 라이브 음악, 테라스, 일요일 영업 | 쥐트슈타트 클로트비히 광장 근처에 2000년 문을 연 크나이페로, 라이브 음악과 큰 테라스가 특징이다. 매일 오후 3시부터 열고 '쾰시 한잔하기 좋은 동네 술집'이라는 리뷰가 있다. |
 | [Ubier-Schänke](https://www.google.com/maps/search/?api=1&query=Ubier-Sch%C3%A4nke%20Ubierring%2019%2C%2050678%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.5 (739) |  |  | 쥐트슈타트 우비어링(Ubierring)의 전통 쾰시 크나이페로, '관광객 없는 진짜 쾰른 술집'이라는 리뷰가 많다. 음식은 빵과 간단한 따뜻한 안주 정도라, 저녁 식사 후 쾰시 몇 잔 하러 가기 좋다. |
+| [Brauhaus Severin](https://www.google.com/maps/search/?api=1&query=Brauhaus%20Severin%20Severinstra%C3%9Fe%2028%2C%2050678%20K%C3%B6ln) | 브라우하우스 | 쾰시 | – | ★4.5 (641) |  | 테라스 | 세베린 지구 한가운데의 브라우하우스풍 쾰시 술집으로, 두 개 층에 스포츠 중계 화면을 갖췄고(speisekarte.de 'Gaststätte Severin' 소개) 음식과 친절한 서비스, 테라스 전망이 칭찬받는다. 구글 641건에 4.5로 관광지 브라우하우스보다 동네 분위기가 강하다. |
+| [Brauhaus Reissdorf am Griechenmarkt](https://www.google.com/maps/search/?api=1&query=Brauhaus%20Reissdorf%20am%20Griechenmarkt%20Kleiner%20Griechenmarkt%2040%2C%2050676%20K%C3%B6ln) | 브라우하우스 | Reissdorf Kölsch | – | ★4.4 (2,229) |  |  | 판탈레온 지구 클라이너 그리헨마르크트의 라이스도르프 양조장 직영 브라우하우스로, 관광객보다 현지인이 많이 찾는 집이다(구글 4.4, 2,200여 건). 생 라이스도르프 쾰시와 슈니첼·커리부어스트가 리뷰에서 자주 칭찬받는다. |
+| [Zum alten Brauhaus](https://www.google.com/maps/search/?api=1&query=Zum%20alten%20Brauhaus%20Severinstra%C3%9Fe%2051%2C%2050678%20K%C3%B6ln) | 브라우하우스 | 쾰시 | – | ★4.4 (1,739) |  |  | 세베린슈트라세 51번지의 오래된 쾰시 맥주집 겸 식당으로, 메트 빵(Mett), 커리부어스트, 슈니첼, 바삭한 학세(Schweinshaxe), 베이컨 팬케이크 같은 독일 대중 음식을 낸다. 영어 응대와 단체 손님에 친절하다는 후기가 많아 쥐트슈타트에서 편하게 쾰시 한잔하기 좋다. |
+| [Brauhaus Johann Schäfer](https://www.google.com/maps/search/?api=1&query=Brauhaus%20Johann%20Sch%C3%A4fer%20Elsa%C3%9Fstra%C3%9Fe%206%2C%2050677%20K%C3%B6ln) | 브라우하우스 | 쾰시 | – | ★4.4 (1,728) |  | 테라스, 일요일 영업 | 쥐트슈타트 엘자스슈트라세의 현대식 브라우하우스로, 직접 만든 맥주(쾰시·필스)와 제철 재료로 만든 독일 요리, 채식·비건 메뉴를 함께 낸다. Falstaff 84점·Der Feinschmecker 등재 등 미식 매체 평가도 받아, 관광지 브라우하우스보다 음식에 신경 쓴 쾰른식 저녁을 원할 때 좋다. |
 | [Chlodwig-Eck](https://www.google.com/maps/search/?api=1&query=Chlodwig-Eck%20Annostra%C3%9Fe%201-3%2C%2050678%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.4 (568) |  | 라이브 음악 | 클로트비히 광장 옆에서 1979년부터 영업해 온 쥐트슈타트의 모퉁이 크나이페로, BAP의 볼프강 니데켄이 초창기 공연을 한 곳으로 알려져 있다. 주말엔 DJ 파티나 라이브 음악이 열리고, 주방이 없어 음식을 가져와도 된다. |
 | [Schnörres](https://www.google.com/maps/search/?api=1&query=Schn%C3%B6rres%20Dreik%C3%B6nigenstra%C3%9Fe%202%2C%2050678%20K%C3%B6ln) | 동네 펍 | 쾰시, 칵테일 | – | ★4.2 (387) |  |  | 쥐트슈타트에서 가장 인기 있는 술집 중 하나로 꼽히는 아담한 크나이페 겸 바로, 쾰시 외에 롱드링크·칵테일도 있고 작은 댄스 플로어가 활기차다. 주말엔 새벽 3시 반까지 열어 2·3차로 좋다. |
 
-## 아그네스 지구·아이겔슈타인 — 2곳
+## 아그네스 지구·아이겔슈타인 — 7곳
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
 | [Zum Goldenen Kegel](https://www.google.com/maps/search/?api=1&query=Zum%20Goldenen%20Kegel%20Balthasarstra%C3%9Fe%2053%2C%2050670%20K%C3%B6ln) | 동네 펍 | Reissdorf Kölsch | €1.70 | ★4.7 (212) |  |  | 아그네스 지구 주택가의 케겔반(9핀 볼링)이 있는 동네 크나이페로, 갓 따른 라이스도르프 쾰시가 2024년 여름 €1.70으로 쾰른에서 가장 싼 축이었다. '전통과 현대가 섞인 숨은 보석'이라는 평이 있어 친구들과 볼링을 치며 싸게 마시기 좋다. |
 | [Max Stark](https://www.google.com/maps/search/?api=1&query=Max%20Stark%20Unter%20Kahlenhausen%2047%2C%2050668%20K%C3%B6ln) | 브라우하우스 | Päffgen Kölsch | – | ★4.6 (3,953) |  |  | 중앙역 북쪽 운터 칼렌하우젠(Unter Kahlenhausen)에 있는 전통 쾰시 술집 겸 식당으로, 패프겐 쾰시(Päffgen Kölsch)와 슈니첼·자우어브라텐 같은 향토 요리가 호평받는다. 구글 4.6(3,953건)으로 평점이 높지만 시끄럽고 서비스가 느리다는 평도 있어, 북적이는 분위기를 즐기는 사람에게 맞는다. |
+| [Agnesklause](https://www.google.com/maps/search/?api=1&query=Agnesklause%20Wei%C3%9Fenburgstra%C3%9Fe%208A%2C%2050670%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.6 (146) |  |  | 아그네스 지구 바이센부르크슈트라세의 전통적인 동네 크나이페로, 핀볼(Flipper) 기계와 맥주가 있는 소박한 단골 술집이다. 구글 4.6으로 평이 좋아 현지인 틈에서 쾰시 한잔하기 좋다. |
+| [Brauhaus Stüsser](https://www.google.com/maps/search/?api=1&query=Brauhaus%20St%C3%BCsser%20Neusser%20Str.%2047%2C%2050670%20K%C3%B6ln) | 브라우하우스 | 쾰시 | – | ★4.5 (863) |  |  | 아그네스 지구 노이서 슈트라세에 있는 1920년 무렵부터 이어온 브라우하우스풍 쾰시 술집 겸 식당으로, 옛 사진이 걸린 실내가 정겹다. 버섯 소스 슈니첼, 메츠거브라트부르스트(정육점식 소시지)와 감자, 힘멜 운 애드(사과·감자 퓌레와 선지 소시지) 같은 라인란트 향토 요리를 푸짐하게 내 관광지 브라우하우스보다 동네 분위기를 느끼기 좋다. |
+| [Lapidarium](https://www.google.com/maps/search/?api=1&query=Lapidarium%20Eigelstein%20118%2C%2050668%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.4 (517) | 현금만 |  | 아이겔슈타인 거리 북쪽(아이겔슈타인 성문 쪽)의 카페 겸 바 겸 크나이페로, 독일 음식과 쾰른 지역 맥주를 낸다. 구글 리뷰 500건 이상에 4.4라, 아이겔슈타인 산책 끝에 맥주 한잔하며 쉬어 가기 좋다. |
+| [Sternhagel](https://www.google.com/maps/search/?api=1&query=Sternhagel%20Krefelder%20Stra%C3%9Fe%20101%2C%2050670%20K%C3%B6ln) | 동네 펍 |  | – | ★4.4 (370) |  |  | 아그네스 지구 크레펠더 슈트라세의 펑크풍 동네 술집으로, 다트와 도펠코프(독일 카드게임)를 즐기는 단골이 모이고 매주 화요일엔 게임의 밤이 열린다. 세련된 칵테일 바 대신 꾸밈없는 쾰른 크나이페 분위기를 보고 싶을 때 좋다. |
+| [Weinhaus Vogel](https://www.google.com/maps/search/?api=1&query=Weinhaus%20Vogel%20Eigelstein%2074%2C%2050668%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.3 (1,539) |  |  | 아이겔슈타인 거리의 쾰시 크나이페 겸 식당(가스트로펍)으로, 한 리뷰어가 '훌륭한 독일 식당'이라 부를 만큼 음식도 평이 좋다. 구글 리뷰 1,500건 이상에 4.3, Wanderlog '저렴한 맛집' 목록에도 올라 부담 없이 쾰른식 술집 분위기를 느끼기 좋다. |
 
 ## 도이츠·메쎄(강 건너) — 4곳
 
@@ -95,14 +106,34 @@
 | [Brauhaus ohne Namen (b.o.n.)](https://www.google.com/maps/search/?api=1&query=Brauhaus%20ohne%20Namen%20%28b.o.n.%29%20Mathildenstra%C3%9Fe%2042%2C%2050679%20K%C3%B6ln) | 브라우하우스 | 쾰시 | – | ★4.3 (1,740) |  | 일요일 영업 | 도이츠 마틸덴슈트라세에 있는 젊고 아늑한 브라우하우스로, 라인 지방 향토 요리와 쾰시를 낸다. LANXESS 아레나·메쎄·도이츠역에서 걸어서 몇 분 거리라 행사 전후 저녁 식사에 좋고, 큼직한 코텔레트가 인기다. |
 | [Em Bierstüffge](https://www.google.com/maps/search/?api=1&query=Em%20Bierst%C3%BCffge%20Graf-Ge%C3%9Fler-Stra%C3%9Fe%201%2C%2050679%20K%C3%B6ln) | 동네 펍 | Reissdorf Kölsch | – | ★4.3 (875) | 현금만 | 일요일 영업, 테라스 | 도이츠 메쎄·LANXESS 아레나에서 가까운 골목의 동네 술집(가스트슈테테)으로, 공식 사이트가 '갓 따른, 알맞은 온도의 라이스도르프(Reissdorf) 쾰시'를 내세운다. 케겔반(볼링 레인)이 있고 FC 쾰른·쾰른 하이에 경기를 중계해, 메쎄 일정 뒤 현지인 틈에서 한잔하기 좋다. |
 
-## 니페스·리엘 — 1곳
+## 니페스·리엘 — 6곳
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
+| [Gaffel im Linkewitz](https://www.google.com/maps/search/?api=1&query=Gaffel%20im%20Linkewitz%20Niehler%20Damm%20179%2C%2050735%20K%C3%B6ln) | 동네 펍 | Gaffel Kölsch | – | ★4.5 (614) |  |  | 닙페스 구의 닐(Niehl) 동네, 닐러 담(Niehler Damm)에 있는 가펠 쾰시 가스트슈테테다. 구글 4.5(614건)로 평이 좋지만 시내에서 멀어 닐·릴 쪽에 일정이 있을 때 들를 만하다. |
+| [FRÜH "Em Golde Kappes"](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20%22Em%20Golde%20Kappes%22%20Neusser%20Stra%C3%9Fe%20295%2C%2050733%20K%C3%B6ln) | 브라우하우스 | Früh Kölsch | – | ★4.4 (2,385) |  |  | 1913년부터 닙페스 노이서 거리(Neusser Str.)에 있던 쾰시 맥주집으로, 2009년 프뤼(Früh) 양조장이 넘겨받아 복원한 뒤 다시 열었다. 구글 리뷰 2,300여 건에 4.4로 닙페스에서 가장 이름난 브라우하우스라, 시내 관광객 인파 없이 쾰시와 라인란트 향토 요리를 즐기기 좋다. |
+| [Alt Neppes](https://www.google.com/maps/search/?api=1&query=Alt%20Neppes%20Neusser%20Stra%C3%9Fe%20301%2C%2050733%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.4 (321) |  |  | '옛 닙페스'(Neppes는 닙페스의 쾰른 사투리)라는 이름의 쾰시 크나이페로, Mit Vergnügen의 '저렴한 바·크나이페 11곳'과 '진짜 쾰른 크나이페 11곳'에 오른 곳이다. 구글 4.4(321건)로 동네 술집 분위기를 느끼기 좋다. |
+| [Neppeser Gaffel Stube](https://www.google.com/maps/search/?api=1&query=Neppeser%20Gaffel%20Stube%20Neusser%20Stra%C3%9Fe%20340%2C%2050733%20K%C3%B6ln) | 동네 펍 | Gaffel Kölsch | – | ★4.4 (246) |  |  | 노이서 거리 북쪽의 가펠(Gaffel) 쾰시 크나이페로, 닙페스 동네 사람들이 쾰시 한잔하러 모이는 곳이다. 구글 4.4(246건). |
+| [Flora 6](https://www.google.com/maps/search/?api=1&query=Flora%206%20Florastra%C3%9Fe%206%2C%2050733%20K%C3%B6ln) | 동네 펍 | Gaffel Kölsch | – | ★4.3 (458) |  |  | 닙페스 플로라 거리 6번지의 동네 크나이페로, Mit Vergnügen 크나이페 목록에 이름이 오르고 가펠(Gaffel) 쾰시를 낸다. 구글 4.3(458건)으로 현지 단골이 많은 쾰시 술집이다. |
 | [Osters Rudi](https://www.google.com/maps/search/?api=1&query=Osters%20Rudi%20Hartwichstra%C3%9Fe%2026-28%2C%2050733%20K%C3%B6ln) | 동네 펍 |  | – | ★4.3 (327) |  |  | 닙페스(Nippes)의 동네·축구 크나이페로, 당구·다트·케겔(볼링)을 즐길 수 있고 쾰른식 안주 할버 한(Halver Hahn)을 낸다. 관광지를 벗어나 현지인 동네 술집 분위기를 느끼고 싶은 사람에게 맞다. |
 
-## 뮐하임·칼크(강 건너 동쪽) — 1곳
+## 쥘츠·린덴탈 — 2곳
+
+| 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
+|---|---|---|---|---|---|---|---|
+| [Landmann in Lindenthal](https://www.google.com/maps/search/?api=1&query=Landmann%20in%20Lindenthal%20D%C3%BCrener%20Stra%C3%9Fe%20143%2C%2050931%20K%C3%B6ln) | 브라우하우스 |  | – | ★4.7 (622) |  |  | 린덴탈 뒤러너 슈트라세의 브라우하우스풍 식당으로, 힘멜 운 애드(Himmel un Ääd — 으깬 감자·사과에 블루트부르스트를 곁들인 쾰른 향토 요리)와 슈니첼 같은 독일 가정식을 낸다. 구글 리뷰 600여 건에 4.7로 음식·서비스 칭찬이 꾸준해, 시내 관광지 브라우하우스 대신 동네 단골집 분위기를 원할 때 좋다. |
+| [Haus Unkelbach](https://www.google.com/maps/search/?api=1&query=Haus%20Unkelbach%20Luxemburger%20Stra%C3%9Fe%20260%2C%2050937%20K%C3%B6ln) | 브라우하우스 | 쾰시 | – | ★4.3 (2,500) |  | 테라스 | 1930년부터 쥘츠·클레텐베르크 경계 룩셈부르거 슈트라세를 지켜 온 브라우하우스형 레스토랑으로, 쾰시와 함께 슈바인스학세(돼지 정강이 구이) 같은 독일 전통 요리를 낸다. 구글 리뷰 2,500여 건에 4.3이고 야외 자리가 있어, 시내 관광객 붐비는 브라우하우스 대신 현지인 동네 브라우하우스를 경험하기 좋다. |
+
+## 뮐하임·칼크(강 건너 동쪽) — 3곳
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
 | [Limes](https://www.google.com/maps/search/?api=1&query=Limes%20M%C3%BClheimer%20Freiheit%20150%2C%2051063%20K%C3%B6ln) | 동네 펍 | Kölsch, Astra | €1.60 | ★4.7 (478) |  | 라이브 음악 | 강 건너 뮐하임(Mülheim)의 펑크록 성향 크나이페로, 시끄러운 라이브 공연과 쾰른에서 가장 싼 축의 쾰시(2024년 €1.60)로 알려져 있다. 관광지에서 떨어져 있지만 싸게 마시며 동네 록 공연을 보고 싶은 사람에게 맞다. |
+| [Gilden Brauhaus](https://www.google.com/maps/search/?api=1&query=Gilden%20Brauhaus%20Clevischer%20Ring%20121%2C%2051063%20K%C3%B6ln) | 브라우하우스 | 쾰시 | – | ★4.6 (3,939) |  |  | 뮐하임 클레비셔 링(Clevischer Ring)의 브라우하우스로, 쾰른 향토 요리와 생 쾰시를 낸다(Mit Vergnügen 2026 '뮐하임 맛집 11곳'). 구글 리뷰 3,900건 이상에 4.6으로, 양이 많고 서비스가 빠르고 친절하다는 평이 많다. |
+| [Brauwelt Köln (Kalk)](https://www.google.com/maps/search/?api=1&query=Brauwelt%20K%C3%B6ln%20%28Kalk%29%20Kalker%20Hauptstra%C3%9Fe%20260%2C%2051103%20K%C3%B6ln) | 브라우하우스 | Sünner Kölsch, Mühlen Kölsch | – | ★4.3 (2,423) |  | 비어가든 | 칼크의 옛 쥔너(Sünner) 양조장 건물을 브라우하우스·비어가르텐으로 바꾼 곳으로, 세계에서 가장 오래된 쾰시 양조장이자 쾰른 유일의 증류소라고 소개된다. 쥔너 쾰시와 뮐렌 쾰시를 마시며 맥주·진 시음 세트를 즐길 수 있고 실내외 공간이 넓어 단체에 좋다. |
+
+## 기타 시내 — 1곳
+
+| 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
+|---|---|---|---|---|---|---|---|
+| [Restaurant & Kneipe Köln / Kölsche Art](https://www.google.com/maps/search/?api=1&query=Restaurant%20%26%20Kneipe%20K%C3%B6ln%20%7C%20K%C3%B6lsche%20Art%20Aachener%20Stra%C3%9Fe%20607%2C%2050933%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.5 (440) |  |  | 브라운스펠트 아헨 거리(Aachener Str. 607)의 동네 쾰시 크나이페 겸 식당으로, 음식과 서비스가 호평받아 구글 4.5(440건)를 받았다. 관광지와 떨어진 주거지역이라 쾰른 사람들의 평범한 단골 술집 분위기를 보고 싶을 때 갈 만하다. |

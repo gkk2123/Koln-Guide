@@ -40,7 +40,7 @@
       "r8-suelz.json",
       "wine-places.json"
     ],
-    "count": 265
+    "count": 294
   },
   "items": [
     {
@@ -102,8 +102,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "bakery",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "bakery"
     },
     {
       "id": "kuchi-mami",
@@ -113,65 +113,54 @@
       "address": "Komödienstraße 43, 50667 Köln",
       "lat": 50.941413,
       "lng": 6.95402,
-      "cuisine": "Pan-Asian restaurant — sushi (nigiri, sashimi) plus Japanese, Thai and Vietnamese dishes (duck, pho)",
+      "cuisine": "Pan-Asian restaurant with a sushi focus",
       "cuisine_country": [
-        "JP",
-        "VN",
-        "TH"
+        "JP"
       ],
       "cuisine_region": "east-asia",
       "dishes": [
-        "sushi",
-        "pho"
+        "sushi"
       ],
       "diet": [],
       "meals": [
         "lunch",
         "dinner"
       ],
-      "occasions": [],
+      "occasions": [
+        "group",
+        "date"
+      ],
       "features": [],
       "drinks": [],
-      "vibe": [
-        "lively"
-      ],
-      "reservation": "recommended",
+      "vibe": [],
+      "reservation": "unknown",
       "payment": "unknown",
       "location": [],
       "price_level": 2,
       "price_estimated": false,
-      "price_pp": {
-        "min": 20,
-        "max": 30
-      },
-      "price_note": "Restaurant Guru 방문자 리뷰 기준 1인 €20–30, Wanderlog 가격대 'affordable'",
+      "price_pp": null,
+      "price_note": "가격 정보 미확인 — 스시·범아시아 캐주얼로 보고 2",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
       "google_rating": 4.8,
       "google_reviews": 1734,
       "google_as_of": null,
-      "rating_source": "restaurantguru.com Google 4.8 / 1,734; wanderlog.com 장소 페이지 From Google 4.8 / 1,647. RG 스시 순위 4.9 / 2,368은 RG 자체 점수",
-      "summary_ko": "대성당 서쪽 코뫼디엔 거리의 범아시아 식당으로, 니기리·사시미 같은 스시와 오리 요리, 베트남 쌀국수·태국 요리를 함께 낸다. 구글 리뷰 1,700여 건에 4.8이라 대성당 근처에서 가성비 좋은 아시아 음식을 찾을 때 믿을 만하다.",
-      "must_try": [
-        "Sushi (스시 — 니기리·사시미)",
-        "Ente (오리 요리 — 리뷰 추천)",
-        "Phở Hanoi (하노이식 쌀국수)"
-      ],
-      "tips_ko": "주말엔 예약이 사실상 필수이고 금방 자리가 찬다는 후기가 있다. 대성당·중앙역에서 걸어서 5–10분. 영업시간은 방문 전 확인.",
+      "rating_source": "restaurantguru.com (Google 4.8 / 1,734; Restaurant Guru 자체 투표 2,320은 구글 아님)",
+      "summary_ko": "대성당 서쪽 코뫼디엔슈트라세의 스시 중심 범아시아 식당이다. 구글 1,700여 건에 4.8로 대성당 주변 아시아 식당 가운데 평이 가장 좋은 편이라, 성당 관람 뒤 저녁 장소로 편하다.",
+      "must_try": [],
+      "tips_ko": "대성당에서 걸어서 5분 안쪽. 메뉴·가격은 출처에서 자세히 확인하지 못했다. 같은 길 37번지에 중식당 Great Wall, 52번지에 터키 메제집 Artistanbul Meze가 있다.",
       "website": null,
       "awards": [],
       "award_flags": [],
       "sources": [
-        "https://restaurantguru.com/Kuchi-Mami-Cologne",
-        "https://wanderlog.com/place/details/1473276/kuchi-mami",
-        "https://restaurantguru.com/sushi-Cologne-m27"
+        "https://restaurantguru.com/Kuchi-Mami-Cologne"
       ],
       "confidence": "medium",
-      "research": "r8-candidates",
+      "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "asian-kitchen",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "asian-kitchen"
     },
     {
       "id": "rievkoochebud",
@@ -239,8 +228,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "artistanbul-meze",
@@ -309,6 +298,67 @@
       "latest_review": null,
       "price_checked": "2026-11",
       "style": "mezze"
+    },
+    {
+      "id": "espresso-perfetto",
+      "name": "Espresso Perfetto",
+      "category": "cafe",
+      "area": "dom-altstadt",
+      "address": "Kolumbastraße 8, 50667 Köln",
+      "lat": 50.938876,
+      "lng": 6.953977,
+      "cuisine": "Espresso bar in the Kolumba quarter",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast"
+      ],
+      "occasions": [
+        "solo",
+        "quick"
+      ],
+      "features": [],
+      "drinks": [
+        "specialty-coffee"
+      ],
+      "vibe": [
+        "local-favorite",
+        "hidden-gem"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "카페 — 정확한 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.8,
+      "google_reviews": 717,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.8 / 717)",
+      "summary_ko": "콜룸바 미술관 근처 콜룸바슈트라세의 에스프레소 바다. 구글 700여 건에 4.8로, 시내 쇼핑가(Schildergasse) 바로 옆에서 제대로 된 에스프레소 한 잔을 마시기 좋다.",
+      "must_try": [
+        "Espresso (에스프레소)"
+      ],
+      "tips_ko": "메뉴·영업시간은 출처에서 확인하지 못했다(주말 휴무 여부 확인). 콜룸바 미술관(Kolumba) 관람 전후에 들르기 좋다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Espresso-Perfetto-Cologne-3"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "nainai-bao",
@@ -434,8 +484,69 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "fine-dining",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "fine-dining"
+    },
+    {
+      "id": "augustiner-am-heumarkt",
+      "name": "Augustiner am Heumarkt",
+      "category": "brauhaus",
+      "area": "dom-altstadt",
+      "address": "Heumarkt 42-44, 50667 Köln",
+      "lat": 50.935003,
+      "lng": 6.961381,
+      "cuisine": "Bavarian beer hall restaurant pouring Augustiner beer from Munich",
+      "cuisine_country": [
+        "DE"
+      ],
+      "cuisine_region": "central-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "lively",
+        "traditional"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인 — 맥주홀 일반 가격대로 보고 2",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [
+        "Augustiner (München)"
+      ],
+      "google_rating": 4.7,
+      "google_reviews": 6586,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.7 / 6,586; 자체 투표 7,378은 구글 아님)",
+      "summary_ko": "구시가 호이마르크트(Heumarkt) 광장의 바이에른식 맥주 식당으로, 뮌헨 아우구스티너(Augustiner) 맥주를 낸다. 구글 리뷰 6,500건이 넘는데도 4.7을 유지해, 쾰시 대신 바이에른 맥주와 독일 요리를 즐기고 싶을 때 좋다.",
+      "must_try": [
+        "Augustiner Helles (아우구스티너 헬레스)"
+      ],
+      "tips_ko": "쾰른 전통 쾰시 브라우하우스가 아니라 바이에른 스타일이라는 점 참고. 11–12월엔 호이마르크트 크리스마스 마켓(Heimat der Heinzel)과 아이스링크 바로 앞이라 매우 붐비니 예약을 권한다. 메뉴·가격은 출처에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Augustiner-am-Heumarkt-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "black-angus-xl-steakhouse",
@@ -500,8 +611,75 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "steakhouse",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "steakhouse"
+    },
+    {
+      "id": "sattgrun-koln-kolumba-viertel",
+      "name": "Sattgrün Köln Kolumba Viertel",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Ludwigstraße 11, 50667 Köln",
+      "lat": 50.938498,
+      "lng": 6.954884,
+      "cuisine": "All-vegan buffet restaurant — choose a plate size and pay per plate",
+      "cuisine_country": [
+        "INT"
+      ],
+      "cuisine_region": "international",
+      "dishes": [
+        "bowls"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "quick",
+        "solo",
+        "group"
+      ],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "접시 크기별 정액 — 실제 가격은 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 2095,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (From Google 4.7 / 2,095); restaurantguru.com Google 4.7 / 2,143",
+      "summary_ko": "콜룸바 지구의 100% 비건 뷔페 식당으로, 접시 크기를 골라 원하는 만큼 담고 접시값만 내는 방식이다. 구글 2,000건 넘게 4.7이라 시내 한복판에서 채소 위주의 다양한 한 끼를 빠르게 먹기 좋다.",
+      "must_try": [],
+      "tips_ko": "가격은 접시 크기로 정해지니 처음에 크기를 잘 고를 것. 야외석이 있다. 노이마르크트(Apostelnstraße 2)에도 지점이 있다는 Restaurant Guru 페이지가 있으나 수치가 엇갈려 후보로만 남겼다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://app.wanderlog.com/place/details/1503088/sattgr%C3%BCn-k%C3%B6ln-kolumba-viertel",
+        "https://restaurantguru.com/Sattgrun-Cologne",
+        "https://wanderlog.com/list/geoCategory/92121/best-vegan-restaurants-in-cologne"
+      ],
+      "confidence": "high",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "buffet"
     },
     {
       "id": "gangnamstyle-korean-bbq",
@@ -638,6 +816,62 @@
       "latest_review": "2025",
       "google_previous": "4.7 (541)",
       "style": "streetfood"
+    },
+    {
+      "id": "restaurant-great-wall-koln",
+      "name": "Restaurant Great Wall Köln",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Komödienstraße 37, 50667 Köln",
+      "lat": 50.941473,
+      "lng": 6.954504,
+      "cuisine": "Chinese restaurant on three floors near the Dom — Sichuan and Hunan regional cooking",
+      "cuisine_country": [
+        "CN"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "family"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 1058,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.7 / 1,058; 자체 투표 1,611은 구글 아님)",
+      "summary_ko": "대성당 근처 코뫼디엔슈트라세의 3층 규모 중식당으로, 쓰촨·후난 지방 요리를 낸다(이전 조사 Wanderlog 중식 목록 설명). 구글 1,000여 건에 4.7이라 매운 중국 요리가 그리울 때 대성당에서 바로 갈 수 있다.",
+      "must_try": [],
+      "tips_ko": "단체석이 넉넉한 편(3층 규모)이라 여럿이 가기 좋다. 맵기 조절이 되는지 주문 때 물어볼 것. 메뉴·가격은 출처에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Great-Wall-Cologne",
+        "https://wanderlog.com/list/geoCategory/22508/best-chinese-food-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "asian-kitchen"
     },
     {
       "id": "coco-ramen-sushi",
@@ -788,9 +1022,7 @@
         "ES"
       ],
       "cuisine_region": "southern-europe",
-      "dishes": [
-        "tapas"
-      ],
+      "dishes": [],
       "diet": [
         "vegetarian"
       ],
@@ -802,9 +1034,7 @@
         "group"
       ],
       "features": [],
-      "drinks": [
-        "wine-list"
-      ],
+      "drinks": [],
       "vibe": [
         "trendy"
       ],
@@ -825,7 +1055,7 @@
       "google_reviews": 684,
       "google_as_of": null,
       "rating_source": "restaurantguru.com (Google 4.7 / 684)",
-      "summary_ko": "노이마르크트 남쪽 마우리티우스슈타인베크의 스페인식 베르무트 바(Vermuteria)로, 스페인 음식과 채식 메뉴를 함께 낸다. 구글 680여 건에 4.7로, 베르무트 한잔과 작은 접시로 저녁을 즐기기 좋다.",
+      "summary_ko": "노이마르크트 남쪽 마우리티우스슈타인베크의 스페인식 베르무트 바(Vermuteria)로, 스페인 음식과 채식 메뉴를 함께 낸다. 구글 680여 건에 4.7로, 베르무트 한잔과 스페인 음식으로 저녁을 즐기기 좋다.",
       "must_try": [
         "Vermut (스페인식 베르무트)"
       ],
@@ -840,8 +1070,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "tapas",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "tapas"
     },
     {
       "id": "lint-no-7",
@@ -1027,8 +1257,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "traditional",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "traditional"
     },
     {
       "id": "gelateria-luissimo",
@@ -1083,8 +1313,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "ice-cream",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "ice-cream"
     },
     {
       "id": "suenner-im-walfisch",
@@ -1294,6 +1524,68 @@
       "style": "steakhouse"
     },
     {
+      "id": "bun-pho",
+      "name": "Bun Pho",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Fleischmengergasse 59, 50676 Köln",
+      "lat": 50.935215,
+      "lng": 6.948691,
+      "cuisine": "Vietnamese noodle restaurant (pho, bún)",
+      "cuisine_country": [
+        "VN"
+      ],
+      "cuisine_region": "southeast-asia",
+      "dishes": [
+        "pho",
+        "noodles"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "quick",
+        "solo"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "쌀국수 위주 — 정확한 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 1109,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.5 / 1,109; 다른 스냅숏 1,162–1,189); restaurantguru.com Google 4.5 / 1,156",
+      "summary_ko": "노이마르크트 남쪽 플라이시멩거가세의 베트남 쌀국수집(Bun Pho – Vietnamese Cuisine)으로, Wanderlog '쾰른 쌀국수 명소' 목록에 오른다. 구글 1,100여 건에 4.5라 쇼핑 중 따뜻한 국물 한 그릇이 생각날 때 좋다.",
+      "must_try": [
+        "Phở Bò (소고기 쌀국수)"
+      ],
+      "tips_ko": "점심시간엔 근처 직장인으로 붐빌 수 있다. 메뉴·가격은 출처에서 자세히 확인하지 못했다. 이전 조사의 '구글 귀속 불명' 문제는 Wanderlog·Restaurant Guru 구글 수치로 해소.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2627293/bun-pho-vietnamese-cuisine",
+        "https://restaurantguru.com/Bun-Pho-vietnamesische-Kuche-Cologne",
+        "https://wanderlog.com/list/geoCategory/1820358/best-spots-for-pho-in-cologne"
+      ],
+      "confidence": "high",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "noodle-bar"
+    },
+    {
       "id": "steakhouse-ponchos",
       "name": "Steakhouse Ponchos",
       "category": "restaurant",
@@ -1301,7 +1593,7 @@
       "address": "Salzgasse 11, 50667 Köln",
       "lat": 50.937723,
       "lng": 6.961787,
-      "cuisine": "Argentinian steakhouse in an old-town vaulted cellar",
+      "cuisine": "Argentinian steakhouse in a vaulted cellar",
       "cuisine_country": [
         "AR"
       ],
@@ -1330,33 +1622,32 @@
       "price_level": 3,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 출처 없음(리뷰에 '맛있지만 비싸다'는 평)",
+      "price_note": "스테이크하우스라 1인 €30 이상으로 보고 3 — 메뉴판 가격 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
       "google_rating": 4.5,
-      "google_reviews": 882,
+      "google_reviews": 863,
       "google_as_of": null,
-      "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 882; Tripadvisor 4.0 / 546); restaurantguru.com Google 4.5 / 863",
-      "summary_ko": "구시가 잘츠가세의 지하 셀러에 자리한 아르헨티나식 스테이크하우스로, 구글 4.5(880여 건)를 받았다. 라인강변 브라우하우스 골목 한가운데라 대성당·구시가 관광 뒤 스테이크 저녁을 먹기 좋은 위치다.",
+      "rating_source": "restaurantguru.com (본문 Google 4.5 / 863; 자체 4.3 / 1,542와 구조화 데이터 486건은 구글 아님); wanderlog.com Google 4.5, Tripadvisor 4.0",
+      "summary_ko": "구시가 잘츠가세(Salzgasse)의 지하 셀러에 자리한 아르헨티나 스테이크하우스로, 마늘 감바스와 고르곤졸라 필레가 칭찬받는다. 구글 860여 건에 4.5로, 라인강변 산책 뒤 아늑한 동굴 같은 공간에서 고기를 먹기 좋다.",
       "must_try": [
-        "Argentinian steak (아르헨티나식 스테이크)",
         "Gambas al Ajillo (마늘 새우 — 후기 추천)",
         "Filet mit Gorgonzola (고르곤졸라 소스 안심)"
       ],
-      "tips_ko": "한 리뷰에서 직원이 말없이 계산서에 €30를 더하고 현금 팁을 요구했다고 하니 계산서를 꼼꼼히 확인할 것. 박람회(Messe) 기간엔 서비스가 바쁘다는 후기가 있다. 영업시간·예약은 방문 전 확인.",
+      "tips_ko": "지하라 휴대폰이 잘 안 터진다. 계산서 오류나 팁을 강하게 요구했다는 경고 후기가 있으니 영수증을 꼭 확인할 것. 박람회 기간엔 서비스가 바쁘다.",
       "website": null,
       "awards": [],
       "award_flags": [],
       "sources": [
-        "https://wanderlog.com/place/details/3077322/steakhouse-ponchos",
-        "https://restaurantguru.com/Ponchos-Cologne"
+        "https://restaurantguru.com/Ponchos-Cologne",
+        "https://wanderlog.com/place/details/3077322/steakhouse-ponchos"
       ],
       "confidence": "medium",
-      "research": "r8-candidates, r8-center-south",
+      "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "steakhouse",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "steakhouse"
     },
     {
       "id": "caffe-gelato-marco-polo",
@@ -1414,8 +1705,65 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "ice-cream",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "ice-cream"
+    },
+    {
+      "id": "alfredo",
+      "name": "Alfredo",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Tunisstraße 3, 50667 Köln",
+      "lat": 50.938709,
+      "lng": 6.9529,
+      "cuisine": "Italian ristorante near the Opera",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "pasta"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "business",
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 287,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com ('Ristorante Alfredo' Google 4.5 / 287; 자체 투표 466은 구글 아님)",
+      "summary_ko": "오페라 극장(Offenbachplatz) 근처 투니스슈트라세의 이탈리아 리스토란테다. 구글 287건에 4.5로, 시내 중심에서 조용하게 이탈리아 정찬을 하기 좋다.",
+      "must_try": [],
+      "tips_ko": "이전 조사에서 미쉐린 가이드 '셀렉티드' 목록에 이름이 있다는 요약이 있었으나 미확인. 메뉴·가격·휴무일은 출처에서 확인하지 못했으니 예약 때 확인할 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Alfredo-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "ristorante"
     },
     {
       "id": "krua-thai-heumarkt",
@@ -1542,6 +1890,66 @@
       "latest_review": null,
       "google_previous": "4.4 (664)",
       "style": "curry-house"
+    },
+    {
+      "id": "noodle-fan-rudolfplatz-neumarkt",
+      "name": "NOODLE FAN Rudolfplatz/Neumarkt",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Am Rinkenpfuhl 46, 50676 Köln",
+      "lat": 50.93533,
+      "lng": 6.943134,
+      "cuisine": "Chinese hand-pulled noodle bar — biang biang noodles, noodle soups, bao",
+      "cuisine_country": [
+        "CN"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "noodles",
+        "dumplings"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 출처 없음(리뷰에 '양에 비해 비싸다'는 평)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 499,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com Google 4.4 / 499 ('NOODLE FAN Rudolfplatz/Neumarkt', r8-center-south 기록과 같은 값); wanderlog.com 장소 페이지 4.4 / 408",
+      "summary_ko": "노이마르크트 남쪽 암 링켄푸울의 중국 수타면 집으로, 면을 직접 뽑는 비앙비앙면과 국수 요리가 칭찬받아 구글 4.4(400–500건)를 받았다. 쇼핑가(슈일더가세·노이마르크트) 근처에서 따뜻한 국수로 빠르게 한 끼 하기 좋다.",
+      "must_try": [
+        "Biang Biang Nudeln (비앙비앙면 — 넓적한 수타면)",
+        "Handgezogene Nudelsuppe (수타면 국수)"
+      ],
+      "tips_ko": "직원이 여러 언어를 한다는 평이 있다. 양에 비해 가격이 높다는 후기도 있다. 대성당 쪽 지점(NOODLE FAN – Dom, Komödienstraße 13)도 있지만 그쪽은 구글 수치가 출처마다 엇갈려(4.2/688 vs 4.8/881) 이번엔 넣지 않았다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/8759978/noodle-fan-rudolfplatzneumarkt",
+        "https://restaurantguru.com/NOODLE-FAN-RudolfplatzNeumarkt-Cologne",
+        "https://wanderlog.com/list/geoCategory/22508/a-melhor-comida-chinesa-em-col%C3%B3nia"
+      ],
+      "confidence": "medium",
+      "research": "r8-candidates",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "noodle-bar"
     },
     {
       "id": "louis-cafe-am-dom",
@@ -1763,13 +2171,12 @@
       "address": "Bahnhofsvorplatz 1, 50667 Köln",
       "lat": 50.942161,
       "lng": 6.956819,
-      "cuisine": "Brauhaus of the Gaffel brewery — Gaffel Kölsch with Rhineland classics and schnitzel, opposite the Hauptbahnhof",
+      "cuisine": "Large Gaffel Kölsch Brauhaus at the main station with Rhineland food",
       "cuisine_country": [
         "DE"
       ],
       "cuisine_region": "central-europe",
       "dishes": [
-        "schnitzel",
         "rhineland-classics"
       ],
       "diet": [],
@@ -1781,54 +2188,48 @@
         "group",
         "quick"
       ],
-      "features": [
-        "open-sunday"
-      ],
+      "features": [],
       "drinks": [
         "koelsch"
       ],
       "vibe": [
         "touristy",
-        "lively",
-        "traditional"
+        "lively"
       ],
-      "reservation": "recommended",
+      "reservation": "unknown",
       "payment": "unknown",
       "location": [],
       "price_level": 2,
-      "price_estimated": true,
+      "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 출처 없음(리뷰에 '비싼 편'이라는 평이 있음)",
+      "price_note": "브라우하우스 일반 가격대(메인 €15–25)로 보고 2 — 메뉴판 가격 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [
         "Gaffel Kölsch"
       ],
       "google_rating": 4.3,
-      "google_reviews": 9576,
+      "google_reviews": 8716,
       "google_as_of": null,
-      "rating_source": "wanderlog.com 장소 페이지 (Google 4.3 / 9,576; Tripadvisor 4.0 / 2,336). Restaurant Guru 4.3 / 14,828은 RG 자체 집계",
-      "summary_ko": "중앙역 광장(Bahnhofsvorplatz) 바로 앞, 대성당 옆에 있는 가펠(Gaffel) 양조장의 대형 브라우하우스로 구글 리뷰가 9,500건이 넘는다(4.3). 슈니첼과 생 가펠 쾰시를 활기찬 맥주홀 분위기에서 즐길 수 있어, 도착 첫날이나 기차 타기 전 한 끼로 가장 편한 위치다.",
+      "rating_source": "restaurantguru.com (Google 4.3 / 8,716); wanderlog.com Google 4.3, Tripadvisor 4.0",
+      "summary_ko": "쾰른 중앙역 정문 앞(대성당 바로 옆)의 대형 가펠(Gaffel) 쾰시 브라우하우스로, 연간 방문객이 매우 많은 곳이다. 구글 리뷰 8,700건에 4.3으로, 도착하자마자 또는 기차 타기 전 쾰시와 향토 요리를 맛보기에 위치가 가장 편하다.",
       "must_try": [
         "Gaffel Kölsch vom Fass (생 가펠 쾰시)",
-        "Schnitzel (슈니첼 — 리뷰 추천)",
         "Rheinischer Sauerbraten (라인식 자우어브라텐)"
       ],
-      "tips_ko": "저녁엔 예약을 권한다(Wanderlog 요약). 붐비는 시간엔 서비스가 느리고 시끄럽다는 후기가 많고, 가격이 높다는 평도 있다. 중앙역 바로 앞이라 짐을 들고 들르기 쉽다. 2026-11-11(카니발 시즌 개막일)과 크리스마스 마켓 기간 주말엔 매우 붐빈다.",
+      "tips_ko": "역 앞이라 늘 붐비고 관광객이 많다. 쾰시는 잔을 비우면 계속 채워 주니 그만 마시려면 잔 위에 코스터(Bierdeckel)를 올릴 것. 이전 조사에서 Yelp 2026-10 갱신으로 영업 중임을 확인했고, 요일별 영업시간은 방문 전 확인할 것.",
       "website": null,
       "awards": [],
       "award_flags": [],
       "sources": [
-        "https://wanderlog.com/place/details/1188764/gaffel-am-dom-brauhaus",
         "https://restaurantguru.com/Gaffel-am-Dom-Cologne",
-        "https://wanderlog.com/list/geoCategory/1572657/best-brauhaus-in-cologne",
         "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d1837141-Reviews-Gaffel_am_Dom-Cologne_North_Rhine_Westphalia.html"
       ],
       "confidence": "medium",
-      "research": "r8-candidates, r8-center-south",
+      "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "peters-brauhaus",
@@ -2633,8 +3034,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "modern",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "modern"
     },
     {
       "id": "belgischer-hof",
@@ -2960,8 +3361,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "steakhouse",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "steakhouse"
     },
     {
       "id": "hankki-koeln",
@@ -3499,8 +3900,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "pizzeria",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "pizzeria"
     },
     {
       "id": "bali-restaurant",
@@ -3761,8 +4162,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": null,
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "casual"
     },
     {
       "id": "krua-thai-belgisches-viertel",
@@ -3824,6 +4225,64 @@
       "style": "casual"
     },
     {
+      "id": "cafe-romeo-romeo",
+      "name": "Café Romeo Romeo",
+      "category": "cafe",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Kaiser-Wilhelm-Ring 10, Köln",
+      "lat": 50.942991,
+      "lng": 6.941289,
+      "cuisine": "Café on the Kaiser-Wilhelm-Ring",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee",
+        "cake"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "occasions": [
+        "solo",
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.8,
+      "google_reviews": 2433,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.8 / 2,433)",
+      "summary_ko": "카이저빌헬름링(Kaiser-Wilhelm-Ring)의 카페로, 구글 2,400건 넘게 4.8이라 링 일대 카페 가운데 평가가 가장 높은 편이다. 프리젠플라츠·메디아파크 쪽을 오갈 때 커피와 간단한 식사로 쉬어 가기 좋다.",
+      "must_try": [],
+      "tips_ko": "어떤 메뉴가 유명한지는 출처에서 확인하지 못했다. 바로 옆 6–8번지가 중동 레스토랑 Zadem. 우편번호는 출처에서 확인하지 못해 주소에 넣지 않았다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Romeo-Romeo-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "cafe"
+    },
+    {
       "id": "cafe-il-barista-pfeilstrasse",
       "name": "Café Il Barista Pfeilstraße",
       "category": "cafe",
@@ -3880,8 +4339,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "zadem",
@@ -4002,6 +4461,67 @@
       "style": "ramen-bar"
     },
     {
+      "id": "cloud-kitchen",
+      "name": "Cloud Kitchen",
+      "category": "cafe",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Rudolfplatz 4, Köln",
+      "lat": 50.936811,
+      "lng": 6.940116,
+      "cuisine": "Brunch café at Rudolfplatz (eggs Benedict, bread plates), order via app",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "brunch-plates",
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "brunch"
+      ],
+      "occasions": [
+        "date",
+        "solo"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "trendy"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "브런치 — 정확한 가격 미확인, 1인 €15 안팎으로 보고 2",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 704,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.7 / 704; 구조화 데이터 4.9는 자체 점수); wanderlog.com 4.6 / 571 (이전 스냅숏)",
+      "summary_ko": "루돌프플라츠(Rudolfplatz) 광장의 브런치 카페로, 에그 베네딕트와 넉넉한 빵 구성이 칭찬받는다. 구글 700여 건에 4.7이라 루돌프플라츠·미텔슈트라세 쇼핑 전 아침을 먹기 좋다.",
+      "must_try": [
+        "Eggs Benedict (에그 베네딕트)"
+      ],
+      "tips_ko": "앱으로 주문하는 방식이라 주문이 꼬였다는 후기, 대기가 길고 품절 메뉴가 있다는 후기가 있다. 주말 오전엔 일찍 갈 것. 우편번호는 출처에서 확인하지 못해 주소에 넣지 않았다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Cloud-Kitchen-Cologne",
+        "https://wanderlog.com/place/details/6971186/cloud-kitchen"
+      ],
+      "confidence": "high",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "brunch"
+    },
+    {
       "id": "heising-adelmann",
       "name": "Heising & Adelmann",
       "category": "restaurant",
@@ -4058,8 +4578,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "modern",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "modern"
     },
     {
       "id": "peters-am-hahnentor",
@@ -4138,66 +4658,6 @@
       "style": "brauhaus"
     },
     {
-      "id": "sattgrun-koln-am-neumarkt",
-      "name": "Sattgrün Köln am Neumarkt",
-      "category": "restaurant",
-      "area": "friesenviertel-ehrenstrasse",
-      "address": "Apostelnstraße 2, 50667 Köln",
-      "lat": 50.936954,
-      "lng": 6.945459,
-      "cuisine": "Vegetarian-vegan restaurant (chain branch at Neumarkt)",
-      "cuisine_country": [
-        "INT"
-      ],
-      "cuisine_region": "international",
-      "dishes": [
-        "bowls"
-      ],
-      "diet": [
-        "vegan",
-        "vegetarian"
-      ],
-      "meals": [
-        "lunch",
-        "dinner"
-      ],
-      "occasions": [
-        "quick",
-        "solo"
-      ],
-      "features": [],
-      "drinks": [],
-      "vibe": [],
-      "reservation": "unknown",
-      "payment": "unknown",
-      "location": [],
-      "price_level": null,
-      "price_estimated": false,
-      "price_pp": null,
-      "price_note": "가격 정보 미확인",
-      "beer_price_eur": null,
-      "beer_price_note": null,
-      "beers": [],
-      "google_rating": 4.7,
-      "google_reviews": 138,
-      "google_as_of": null,
-      "rating_source": "restaurantguru.com (Google 4.7 / 138; 같은 페이지 Restaurant Guru 자체 점수 2.1 / 149는 구글 아님)",
-      "summary_ko": "노이마르크트(Neumarkt) 광장 서쪽 아포스텔른슈트라세 초입의 채식·비건 식당 체인 사트그륀(Sattgrün) 지점이다. 구글 평점 4.7로, 시내 한복판에서 고기 없는 한 끼를 찾을 때 좋다.",
-      "must_try": [],
-      "tips_ko": "구글 리뷰 수(138)가 아직 적고 Restaurant Guru 자체 점수와 차이가 크니 방문 전 최근 리뷰를 확인할 것. 메뉴 구성(뷔페식 여부 등)은 출처에서 확인하지 못했다.",
-      "website": null,
-      "awards": [],
-      "award_flags": [],
-      "sources": [
-        "https://restaurantguru.com/Sattgrun-Cologne-2"
-      ],
-      "confidence": "medium",
-      "research": "r8-center-south",
-      "checked": "2026-11-07",
-      "style": "veggie",
-      "coord_source": "nominatim"
-    },
-    {
       "id": "chum-chay",
       "name": "Chum Chay",
       "category": "restaurant",
@@ -4269,6 +4729,63 @@
       "style": "veggie"
     },
     {
+      "id": "eatdoori-indisches-restaurant-koln",
+      "name": "eatDOORI - Indisches Restaurant Köln",
+      "category": "restaurant",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Hohenzollernring 19, Köln",
+      "lat": 50.937339,
+      "lng": 6.93882,
+      "cuisine": "Indian restaurant on the Ring",
+      "cuisine_country": [
+        "IN"
+      ],
+      "cuisine_region": "south-asia",
+      "dishes": [
+        "curry"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.6,
+      "google_reviews": 1321,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.6 / 1,321; 헤더의 1,901은 자체 투표)",
+      "summary_ko": "호엔촐레른링(Hohenzollernring)의 인도 레스토랑이다. 구글 1,300여 건에 4.6으로, 링·에렌슈트라세 일대에서 커리를 먹기에 평이 가장 좋은 곳 중 하나다.",
+      "must_try": [],
+      "tips_ko": "메뉴·가격은 출처에서 확인하지 못했다. 우편번호는 출처에서 확인하지 못해 주소에 넣지 않았다. 매운 정도는 주문 때 조절을 부탁할 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/eatDOORI-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "curry-house"
+    },
+    {
       "id": "cafe-de-paris-cologne",
       "name": "Café de Paris Cologne",
       "category": "cafe",
@@ -4329,8 +4846,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brunch",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brunch"
     },
     {
       "id": "hommage-cafe",
@@ -4345,8 +4862,7 @@
       "cuisine_region": null,
       "dishes": [
         "brunch-plates",
-        "coffee",
-        "cake"
+        "coffee"
       ],
       "diet": [
         "vegetarian"
@@ -4396,8 +4912,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brunch",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brunch"
     },
     {
       "id": "toertchen-toertchen-apostelnstrasse",
@@ -4582,6 +5098,66 @@
       "style": "casual"
     },
     {
+      "id": "hans-im-gluck-koln-am-ring",
+      "name": "HANS IM GLÜCK - KÖLN Am Ring",
+      "category": "restaurant",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Hohenzollernring 38-40, 50672 Köln",
+      "lat": 50.938932,
+      "lng": 6.939865,
+      "cuisine": "Burger restaurant (German burger-grill chain)",
+      "cuisine_country": [
+        "DE"
+      ],
+      "cuisine_region": "central-europe",
+      "dishes": [
+        "burger"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "lively"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "버거 체인 — 정확한 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 6598,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.4 / 6,598; Restaurant Guru 자체 4.9 / 7,945는 구글 아님); 주소·업종 wanderlog.com 장소 페이지",
+      "summary_ko": "프리젠플라츠와 루돌프플라츠 사이 링(Hohenzollernring)에 있는 독일 버거 체인 '한스 임 글뤽'의 쾰른 지점이다. 구글 리뷰 6,500건 넘게 4.4라, 링 주변 바 거리에서 놀기 전 무난하게 버거로 저녁을 먹기 좋다.",
+      "must_try": [],
+      "tips_ko": "체인이라 특별한 현지 경험은 아니지만 빠르고 무난하다. 메뉴·가격은 출처에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Hans-Im-Gluck-Cologne-3",
+        "https://wanderlog.com/place/details/2616850/hans-im-gl%C3%BCck-k%C3%B6ln-am-ring"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "burger"
+    },
+    {
       "id": "frittenwerk-koln",
       "name": "Frittenwerk Köln",
       "category": "streetfood",
@@ -4641,8 +5217,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "reissdorf-am-hahnentor",
@@ -4782,8 +5358,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brunch",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brunch"
     },
     {
       "id": "frueh-em-jan-von-werth",
@@ -4936,6 +5512,60 @@
       "style": "mezze"
     },
     {
+      "id": "espressito-cafe-bar",
+      "name": "Espressito Café Bar",
+      "category": "cafe",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Kaiser-Wilhelm-Ring 42, Köln",
+      "lat": 50.944707,
+      "lng": 6.942947,
+      "cuisine": "Espresso café-bar on the Ring",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast"
+      ],
+      "occasions": [
+        "solo",
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "카페 — 정확한 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.3,
+      "google_reviews": 188,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.3 / 188; 헤더 217은 자체 투표)",
+      "summary_ko": "카이저빌헬름링 42번지의 작은 에스프레소 카페 바다. 구글 188건에 4.3으로, 링을 따라 걷다 잠깐 커피 한 잔 하기 좋다.",
+      "must_try": [],
+      "tips_ko": "메뉴·영업시간은 출처에서 확인하지 못했다. 우편번호는 출처에서 확인하지 못해 주소에 넣지 않았다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Espressito-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "cafe"
+    },
+    {
       "id": "cafe-waschsalon",
       "name": "Café Waschsalon",
       "category": "cafe",
@@ -4943,19 +5573,14 @@
       "address": "Ehrenstraße 77, 50672 Köln",
       "lat": 50.938185,
       "lng": 6.940301,
-      "cuisine": "Café-bar on Ehrenstraße (breakfast, light meals, drinks)",
+      "cuisine": "Café-bar on Ehrenstraße",
       "cuisine_country": [],
       "cuisine_region": null,
       "dishes": [
-        "brunch-plates",
         "coffee"
       ],
       "diet": [],
-      "meals": [
-        "breakfast",
-        "brunch",
-        "lunch"
-      ],
+      "meals": [],
       "occasions": [
         "solo",
         "group"
@@ -4968,7 +5593,7 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": 2,
+      "price_level": 1,
       "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
@@ -4991,8 +5616,66 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
+    },
+    {
+      "id": "xing-wang-lecker-asiatisch-essen",
+      "name": "Xing Wang • Lecker asiatisch essen",
+      "category": "restaurant",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Palmstraße 47, 50672 Köln",
+      "lat": 50.93896,
+      "lng": 6.940199,
+      "cuisine": "Casual Chinese-Asian restaurant — duck dishes, generous cheap portions",
+      "cuisine_country": [
+        "CN"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "리뷰에 '양이 많고 싸다'는 평(구체적 가격 없음)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.2,
+      "google_reviews": 276,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 (Google 4.2 / 276; Tripadvisor 3.0 / 8). Restaurant Guru 4.1 / 293은 RG 자체 집계 — 기준선(4.2)에 딱 걸림",
+      "summary_ko": "에렌슈트라세 북쪽 팜 거리의 소박한 중국·아시아 식당으로, 양 많고 싼 음식과 친절한 주인 부부, 오리 요리로 구글 4.2(276건)를 받았다. 가게 안에 어항이 있는 동네 중국집 분위기라 에렌슈트라세 쇼핑 중 저렴하게 한 끼 하기 좋다.",
+      "must_try": [
+        "Ente (오리 요리 — 리뷰에서 가장 자주 언급)"
+      ],
+      "tips_ko": "간이 싱겁다는 후기가 있다. 구글 평점이 기준선(4.2)에 걸려 있다. 같은 거리 41번지 Bai Lu Noodles(가이드 등재)와 가깝다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4502380/xing-wang--lecker-asiatisch-essen",
+        "https://restaurantguru.com/Xing-Wang-Cologne",
+        "https://wanderlog.com/list/geoCategory/22508/best-chinese-food-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-candidates",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "asian-kitchen"
     },
     {
       "id": "nam-vietnamese",
@@ -5921,8 +6604,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "il-bagutta",
@@ -5976,8 +6659,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": null,
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "ristorante"
     },
     {
       "id": "fasika",
@@ -6098,8 +6781,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "curry-house",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "curry-house"
     },
     {
       "id": "weinstube-bacchus",
@@ -6360,8 +7043,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "steakhouse",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "steakhouse"
     },
     {
       "id": "zarathustra",
@@ -6718,6 +7401,63 @@
       "style": "streetfood"
     },
     {
+      "id": "tanica",
+      "name": "Tanica",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Engelbertstraße 31a, 50674 Köln",
+      "lat": 50.932741,
+      "lng": 6.938425,
+      "cuisine": "Italian restaurant with a good wine list (since 2017)",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [
+        "wine-list"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 출처 없음",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 1002,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 (첫 점수 Google 4.4 / 1,002; Tripadvisor 4.0 / 139). Restaurant Guru 4.4 / 1,738은 RG 자체 집계",
+      "summary_ko": "쥘피허 지구 엥겔베르트 거리의 이탈리안 레스토랑으로, 2017년부터 영업하며 와인 셀렉션이 좋다는 평과 함께 구글 4.4(1,000여 건)를 받았다. 링 안쪽 대학가에서 와인을 곁들인 이탈리아식 저녁을 먹기 좋다.",
+      "must_try": [],
+      "tips_ko": "이전 조사(tablejourney)는 '내추럴 와인 바·보틀숍'으로 적었지만 Wanderlog 기준으로는 와인 리스트가 있는 이탈리안 식당이다. 야외석에 벌레가 많았다·서비스가 나빴다는 후기도 있다. 같은 거리 63번지 Spirits Bar, 67번지 Brauhaus Pütz와 가깝다. 메뉴·영업시간은 방문 전 확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4087239/tanica",
+        "https://restaurantguru.com/Tanica-Cologne",
+        "https://wanderlog.com/list/geoCategory/785149/best-wine-bars-and-tasting-rooms-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-candidates",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "ristorante"
+    },
+    {
       "id": "manuela-tapas-bar",
       "name": "Manuela Tapas Bar",
       "category": "restaurant",
@@ -6772,8 +7512,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "tapas",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "tapas"
     },
     {
       "id": "lebanon-vitamin",
@@ -6899,8 +7639,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "noodle-bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "noodle-bar"
     },
     {
       "id": "hellers-brauhaus",
@@ -7178,8 +7918,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "bistro",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "bistro"
     },
     {
       "id": "soliana",
@@ -7563,12 +8303,12 @@
       "payment": "unknown",
       "location": [],
       "price_level": 1,
-      "price_estimated": false,
+      "price_estimated": true,
       "price_pp": {
         "min": 10,
         "max": 20
       },
-      "price_note": "Restaurant Guru 1인 €10–20 표기(쿰피르 1개 기준이면 €15 이하일 가능성) — 메뉴판 가격 미확인",
+      "price_note": "Restaurant Guru 1인 €10–20 표기 — 메뉴판 가격 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -7591,8 +8331,69 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
+    },
+    {
+      "id": "kaffeebud-ehrenfeld",
+      "name": "Kaffeebud Ehrenfeld",
+      "category": "cafe",
+      "area": "ehrenfeld",
+      "address": "Glasstraße 62, 50823 Köln",
+      "lat": 50.9516,
+      "lng": 6.922675,
+      "cuisine": "Small neighbourhood coffee bar / café",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee",
+        "cake"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast"
+      ],
+      "occasions": [
+        "solo",
+        "quick"
+      ],
+      "features": [],
+      "drinks": [
+        "specialty-coffee"
+      ],
+      "vibe": [
+        "local-favorite",
+        "hidden-gem"
+      ],
+      "reservation": "walk-in",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "메뉴 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.8,
+      "google_reviews": 416,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 (Google 4.8 / 416; 별도 5.0 / 20은 다른 포털)",
+      "summary_ko": "에렌펠트 주택가 글라스슈트라세의 작은 동네 커피집으로, 구글 리뷰 400건 이상에 4.8의 매우 높은 평점을 받는다. Wanderlog의 쾰른 케이크·애프터눈 티 목록에도 함께 오르는 곳이라 커피와 케이크로 쉬어 가기 좋다.",
+      "must_try": [],
+      "tips_ko": "벤로어 슈트라세에서 한 블록 안쪽 주택가에 있다. 메뉴·영업시간은 이번 조사에서 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3263116/kaffeebud-ehrenfeld",
+        "https://wanderlog.com/list/geoCategory/18938/best-cake-shops-and-cake-bakeries-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-ehrenfeld-agnes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "kebapland",
@@ -7743,6 +8544,75 @@
       "style": "gasthaus"
     },
     {
+      "id": "pizzeria-made-in-napoli",
+      "name": "Pizzeria Made In Napoli",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Subbelrather Str. 280, 50825 Köln",
+      "lat": 50.955512,
+      "lng": 6.916181,
+      "cuisine": "Family-run Neapolitan-style pizzeria — fluffy thick crust, thin base; vegan and fried pizza options",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "pizza"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "family"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "메뉴 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 1844,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 (Google 4.7 / 1,844 — 이전 라운드 기록값, 이번 검색에서도 같은 페이지에 구글 리뷰 1,844건 표시 확인); werkenntdenbesten 3개 포털 종합 4.57 / 1,890은 구글 단독 아님",
+      "summary_ko": "노이에렌펠트 주벨라터 슈트라세의 가족 운영 나폴리식 피자집으로, 폭신하고 두툼한 테두리에 얇은 바닥의 피자가 특징이고 비건 피자와 튀긴 피자(피차 프리타)도 있다. 구글 리뷰 1,800건 이상에 4.7, '쾰른 최고의 피자집'이라는 후기까지 있어 에렌펠트 쪽 피자로는 첫손에 꼽힌다.",
+      "must_try": [
+        "Pizza Napoletana (나폴리식 피자)",
+        "Pizza fritta (튀긴 피자)"
+      ],
+      "tips_ko": "2026년에 같은 주벨라터 슈트라세의 더 큰 가게(280번지)로 옮겼다는 보도가 있으니 옛 주소로 가지 말 것. 인기가 많아 저녁엔 예약 권장. 이전 라운드 후보(우편번호 미확인)였던 곳을 이번에 주소 확인 후 올림.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2755181/pizzeria-made-in-napoli",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/",
+        "https://spinach.guide/venues/made-in-napoli-25260/",
+        "https://www.atly.com/gluten-free/location/PizzeriaMadeInNapoli",
+        "https://restaurantguru.com/Made-in-Napoli-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-ehrenfeld-agnes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "pizzeria"
+    },
+    {
       "id": "vegan-food-revolution",
       "name": "Vegan Food Revolution",
       "category": "restaurant",
@@ -7866,7 +8736,7 @@
       "must_try": [
         "Rheinische Hausmannskost (라인란트 가정식 — 비건 버전 가능)"
       ],
-      "tips_ko": "바로 맞은편 4번지가 조지아 식당 Maspinzelo(가이드 수록). 작은 동네 식당이라 저녁엔 예약하는 편이 안전하다. 영업시간·메뉴는 방문 전 확인.",
+      "tips_ko": "바로 맞은편 4번지가 조지아 식당 Maspinzelo(가이드 수록). 영업시간·메뉴·예약 방법은 이번 조사에서 미확인 — 방문 전 확인.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -7877,8 +8747,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "gasthaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "gasthaus"
     },
     {
       "id": "bethlehem-oriental-kitchen",
@@ -8000,8 +8870,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "popeye-falafel",
@@ -8201,8 +9071,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "sharing",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "sharing"
     },
     {
       "id": "eat-kumpir",
@@ -8328,8 +9198,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "van-dyck-espressobar",
@@ -8459,7 +9329,7 @@
       "verification_status": "open",
       "verification_note": "Mit Vergnügen: Kebapland의 '작은 자매점'이며 '근처의 더 현대적인 매장으로 이전'했다고 언급 — 추가 검색으로도 이전 시점·새 주소 확인 못 함. spinach는 Venloer Str. 282 표기(이전 후 주소일 가능성) → 방문 전 위치 확인 필요. spinach 4.2(377)는 출처 불명이고 기존 구글 4.6(381)과 상충 → 미반영.",
       "latest_review": null,
-      "style": "streetfood"
+      "style": "pide"
     },
     {
       "id": "braustelle",
@@ -8633,7 +9503,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": 1,
-      "price_estimated": false,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "빵집 겸 카페 — 구체 가격 미확인",
       "beer_price_eur": null,
@@ -8644,10 +9514,7 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com 목록 스냅숏 (Google 4.5 / 1,939); 장소 페이지 4.7 / 1,869 (별도 4.0 / 50은 다른 포털)",
       "summary_ko": "에렌펠트 초입 벤로어 슈트라세 202번지의 빵집 겸 카페로, 구글 리뷰가 2,000건 가까이 쌓인 인기 베이커리다. 갓 구운 빵과 커피로 아침을 먹거나 빵을 사 가기 좋다.",
-      "must_try": [
-        "Croissant & Kaffee (크루아상과 커피)",
-        "Sauerteigbrot (사워도우 빵)"
-      ],
+      "must_try": [],
       "tips_ko": "예전 후보 'Zeit für Brot'가 있던 주소(Venloer Str. 202)와 같다 — 현장 간판은 Die Mehlwerkstatt로 확인할 것. 바로 옆 206번지가 브런치 카페 cafecafe.",
       "website": null,
       "awards": [],
@@ -8660,8 +9527,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "bakery",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "bakery"
     },
     {
       "id": "sushi-ninja-ehrenfeld",
@@ -8729,6 +9596,62 @@
       "latest_review": null,
       "price_checked": "2026-11",
       "style": "sushi-bar"
+    },
+    {
+      "id": "nanay-s-cafe",
+      "name": "Nanay's Café",
+      "category": "cafe",
+      "area": "ehrenfeld",
+      "address": "Venloer Str. 432, 50825 Köln",
+      "lat": 50.953483,
+      "lng": 6.911915,
+      "cuisine": "Café",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "brunch"
+      ],
+      "occasions": [
+        "solo"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "메뉴 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 545,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 545; 별도 3.5 / 19는 다른 포털)",
+      "summary_ko": "에렌펠트 역 서쪽 벤로어 슈트라세 432번지의 카페로, 구글 리뷰 500건 이상에 4.5를 받는다. 에렌펠트 역·Café Rotkehlchen과 가까워 벤로어 슈트라세 산책 중 들르기 좋다.",
+      "must_try": [],
+      "tips_ko": "메뉴·영업시간은 이번 조사에서 미확인 — 방문 전 구글 지도 확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/17153/best-coffee-shops-and-best-cafes-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-ehrenfeld-agnes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "pufu",
@@ -8807,8 +9730,7 @@
       ],
       "cuisine_region": "central-europe",
       "dishes": [
-        "rhineland-classics",
-        "schnitzel"
+        "rhineland-classics"
       ],
       "diet": [],
       "meals": [
@@ -8826,7 +9748,7 @@
         "traditional",
         "local-favorite"
       ],
-      "reservation": "recommended",
+      "reservation": "unknown",
       "payment": "unknown",
       "location": [],
       "price_level": null,
@@ -8841,11 +9763,8 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 487; 별도 4.5 / 35는 다른 포털)",
       "summary_ko": "노이에렌펠트 란트만슈트라세의 전통 독일 식당으로, 볼프강 푀트겐(Wolfgang Pöttgen)이 4대째 이어 운영하는 동네 노포다. 소박하지만 푸짐한 독일 가정식을 내 관광지 밖에서 쾰른 사람들의 단골집 분위기를 느끼기 좋다.",
-      "must_try": [
-        "Schnitzel (슈니첼)",
-        "Kölsch (쾰시)"
-      ],
-      "tips_ko": "같은 거리 3번지 Moselstübchen, 4번지 Maspinzelo와 함께 란트만슈트라세 맛집 골목을 이룬다. 동네 단골이 많아 저녁엔 예약 권장. 영업시간은 방문 전 확인.",
+      "must_try": [],
+      "tips_ko": "같은 거리 3번지 Moselstübchen, 4번지 Maspinzelo(가이드 수록)와 함께 란트만슈트라세 맛집 골목을 이룬다. 영업시간·예약 방법은 이번 조사에서 미확인 — 방문 전 확인.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -8856,8 +9775,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "gasthaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "gasthaus"
     },
     {
       "id": "stickel-restaurant",
@@ -8868,10 +9787,8 @@
       "lat": 50.956059,
       "lng": 6.917424,
       "cuisine": "Neighbourhood restaurant and wine bar with terrace (successor of the former Maifeld)",
-      "cuisine_country": [
-        "INT"
-      ],
-      "cuisine_region": "international",
+      "cuisine_country": [],
+      "cuisine_region": null,
       "dishes": [],
       "diet": [],
       "meals": [
@@ -8889,7 +9806,7 @@
       "vibe": [
         "local-favorite"
       ],
-      "reservation": "recommended",
+      "reservation": "unknown",
       "payment": "unknown",
       "location": [],
       "price_level": null,
@@ -8905,7 +9822,7 @@
       "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 151)",
       "summary_ko": "노이에렌펠트 시마르플라츠(Simarplatz)의 레스토랑 겸 와인바로, 동네 인기집이던 Maifeld가 문을 닫은 자리에 들어섰다. 와인과 함께 저녁을 즐기기 좋은 곳이라 데이트나 조용한 저녁 식사에 어울린다.",
       "must_try": [],
-      "tips_ko": "테라스는 따뜻한 계절용. 메뉴·영업시간은 이번 조사에서 미확인 — 방문 전 확인하고 저녁엔 예약 권장.",
+      "tips_ko": "테라스는 따뜻한 계절용. 메뉴·영업시간·예약 방법은 이번 조사에서 미확인 — 방문 전 확인.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -8916,8 +9833,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "wine-bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "wine-bar"
     },
     {
       "id": "cafe-sehnsucht",
@@ -8988,6 +9905,64 @@
       "style": "brunch"
     },
     {
+      "id": "lost-monk-asian-pacific-cuisine",
+      "name": "Lost Monk - Asian Pacific Cuisine",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 241-245, 50823 Köln",
+      "lat": 50.946605,
+      "lng": 6.92289,
+      "cuisine": "Asian-Pacific fusion kitchen",
+      "cuisine_country": [
+        "INT"
+      ],
+      "cuisine_region": "international",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "trendy"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "메뉴 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 1199,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 스냅숏 두 개가 서로 다름: Google 4.4 / 1,199 와 4.6 / 673 — 보수적으로 낮은 평점 쪽 기재",
+      "summary_ko": "에렌펠트 벤로어 슈트라세 241–245번지(가이드 수록 Sushi Ninja·Virtuous Pie와 같은 건물)의 아시아·태평양 퓨전 레스토랑으로, Mit Vergnügen 2026 '에렌펠트 맛집 21'에 올랐다. 구글 리뷰 수백~천여 건에 4.4–4.6으로 꾸준히 평이 좋다.",
+      "must_try": [],
+      "tips_ko": "Wanderlog 스냅숏마다 수치가 달라(4.4/1,199 vs 4.6/673) 등록이 바뀌었을 가능성이 있다 — 방문 전 구글 지도에서 현재 상태를 확인할 것. 메뉴·영업시간은 이번 조사에서 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/9099478",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "confidence": "medium",
+      "research": "r8-ehrenfeld-agnes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "asian-kitchen"
+    },
+    {
       "id": "cafecafe",
       "name": "cafecafe",
       "category": "cafe",
@@ -9044,8 +10019,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "brunch",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brunch"
     },
     {
       "id": "essers-gasthaus",
@@ -9202,7 +10177,6 @@
       "dishes": [],
       "diet": [],
       "meals": [
-        "lunch",
         "dinner",
         "late-night"
       ],
@@ -9210,13 +10184,11 @@
         "group"
       ],
       "features": [
-        "beer-garden",
-        "terrace"
+        "beer-garden"
       ],
       "drinks": [],
       "vibe": [
-        "lively",
-        "trendy"
+        "lively"
       ],
       "reservation": "unknown",
       "payment": "unknown",
@@ -9232,22 +10204,82 @@
       "google_reviews": 3466,
       "google_as_of": null,
       "rating_source": "wanderlog.com 장소·목록 페이지 (Google 4.2 / 3,287–3,487, 스냅숏마다 다름); 별도 3.0 / 76은 다른 포털",
-      "summary_ko": "옛 마차(객차) 공장 건물을 쓰는 에렌펠트의 레스토랑 겸 클럽 겸 대형 비어가든으로, 넓고 활기찬 분위기가 특징이다. 구글 리뷰 3,000건 이상에 4.2로, 에렌펠트 클럽·공연장 거리(Heliosgelände 근처)에서 여럿이 먹고 마시기 좋다.",
+      "summary_ko": "옛 마차(객차) 공장 건물을 쓰는 에렌펠트의 레스토랑 겸 클럽 겸 대형 비어가든으로, 넓고 활기찬 분위기가 특징이다. 구글 리뷰 3,000건 이상에 4.2로, 클럽·공연장이 모인 에렌펠트 서쪽에서 여럿이 먹고 마시기 좋다.",
       "must_try": [],
       "tips_ko": "이전 라운드 후보(수치 미확인)였던 곳을 이번에 구글 수치로 확인. 비어가든은 따뜻한 계절 위주라 11–12월엔 실내 레스토랑·행사 위주일 가능성이 크다 — 방문 전 공식 사이트에서 영업·행사 일정을 확인할 것. 전화 +49 221 9541626.",
       "website": "https://herbrands.de/",
       "awards": [],
       "award_flags": [],
       "sources": [
-        "https://extensionembed.wanderlog.com/place/details/1506283",
+        "https://wanderlog.com/list/geoCategory/151474/best-clubs-and-nightclubs-in-cologne",
         "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer",
-        "https://willkommen.koelntourismus.de/en/gastro/herbrands"
+        "https://extensionembed.wanderlog.com/place/details/1506283",
+        "https://willkommen.koelntourismus.de/en/gastro/herbrands",
+        "https://entdecke.dein-nrw.de/en/dein-nrw/streaming/detail/Gastro/g_100014846/herbrand-s"
       ],
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": null,
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "beer-garden"
+    },
+    {
+      "id": "jaely-s-cafe-restaurant",
+      "name": "Jaely's Cafe & Restaurant",
+      "category": "cafe",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 252, 50823 Köln",
+      "lat": 50.947634,
+      "lng": 6.922555,
+      "cuisine": "Café-restaurant",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "occasions": [
+        "solo",
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "메뉴 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.2,
+      "google_reviews": 1151,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 목록 스냅숏 (Google 4.2 / 1,151); 장소 페이지 4.2 / 1,120",
+      "summary_ko": "에렌펠트 초입 벤로어 슈트라세의 카페 겸 레스토랑으로, Mit Vergnügen 2026 '에렌펠트 맛집 21'에 올랐다. 구글 리뷰 1,100건 이상으로 붐비는 동네 인기 카페다.",
+      "must_try": [],
+      "tips_ko": "구글 4.2로 이 가이드 기준선에 딱 걸리는 곳. 메뉴·영업시간은 이번 조사에서 미확인 — 방문 전 확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1326801/jaelys-cafe--restaurant",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "confidence": "medium",
+      "research": "r8-ehrenfeld-agnes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "pizza-pasta-traditionale",
@@ -9305,8 +10337,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "pizzeria",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "pizzeria"
     },
     {
       "id": "der-eismacher",
@@ -9504,8 +10536,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "phaedra",
@@ -9562,8 +10594,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "modern",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "modern"
     },
     {
       "id": "pottkind",
@@ -9693,8 +10725,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "noodle-bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "noodle-bar"
     },
     {
       "id": "frueh-em-veedel",
@@ -9955,7 +10987,7 @@
       "must_try": [
         "Frühstücks-Bagel (아침 베이글)"
       ],
-      "tips_ko": "도이츠의 THE COFFICE DEUTZ와 같은 계열로 보인다(이름 기준). 메뉴·영업시간은 구글 지도에서 확인할 것. 초콜릿 박물관(Schokoladenmuseum)에서 강을 따라 걸어서 약 10분.",
+      "tips_ko": "도이츠의 THE COFFICE DEUTZ와 같은 계열로 보인다(이름 기준). 메뉴·영업시간은 구글 지도에서 확인할 것. 초콜릿 박물관(Schokoladenmuseum)에서 강을 따라 걸어서 10–15분 정도.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -9965,8 +10997,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "capricorn-i-aries-brasserie",
@@ -10095,8 +11127,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "casita-mexicana-suedstadt",
@@ -10294,8 +11326,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "ahlan-imbiss",
@@ -10362,8 +11394,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "da-nino",
@@ -10421,8 +11453,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "pizzeria",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "pizzeria"
     },
     {
       "id": "tapavinho",
@@ -10627,8 +11659,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "zum-alten-brauhaus",
@@ -10694,8 +11726,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "brauhaus-johann-schafer",
@@ -10705,7 +11737,7 @@
       "address": "Elsaßstraße 6, 50677 Köln",
       "lat": 50.920028,
       "lng": 6.959336,
-      "cuisine": "Modern Südstadt Brauhaus — Kölsch and Pils with seasonal Rhineland dishes and vegetarian options",
+      "cuisine": "Modern Brauhaus with its own beer — seasonal German dishes, vegetarian and vegan options, terrace",
       "cuisine_country": [
         "DE"
       ],
@@ -10714,52 +11746,66 @@
         "rhineland-classics"
       ],
       "diet": [
-        "vegetarian"
+        "vegetarian",
+        "vegan"
       ],
       "meals": [
+        "lunch",
         "dinner"
       ],
       "occasions": [
-        "group"
+        "group",
+        "date"
       ],
-      "features": [],
+      "features": [
+        "terrace",
+        "open-sunday"
+      ],
       "drinks": [
         "koelsch"
       ],
-      "vibe": [],
-      "reservation": "unknown",
+      "vibe": [
+        "local-favorite",
+        "trendy"
+      ],
+      "reservation": "recommended",
       "payment": "unknown",
       "location": [],
       "price_level": 2,
-      "price_estimated": true,
+      "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 출처 없음(리뷰에 '양에 비해 비싸다'는 평이 있음)",
+      "price_note": "Wanderlog 목록 설명 '모던 독일 클래식을 비교적 저렴하게' — 메뉴판 가격은 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
       "google_rating": 4.4,
       "google_reviews": 1728,
       "google_as_of": null,
-      "rating_source": "wanderlog.com 장소 페이지 (Google 4.4 / 1,728; Tripadvisor 4.0 / 134). Restaurant Guru 4.8 / 2,417은 RG 자체 점수(약 1,280일 전 페이지)",
-      "summary_ko": "쥐트슈타트 엘자스 거리의 현대식 브라우하우스로, 인테리어와 친절한 직원이 칭찬받고 구글 4.4(1,700여 건)를 받았다. 이전 조사에서 Falstaff 84점·Der Feinschmecker 등재가 확인된 곳이라, 관광객 많은 구시가 브라우하우스보다 요리에 더 신경 쓴 쾰른 음식을 원할 때 좋다.",
+      "rating_source": "wanderlog.com 장소 페이지 (From Google 4.4 / 1,728; 목록 페이지는 약 1,800건); Tripadvisor 약 4.0 (131–134)",
+      "summary_ko": "쥐트슈타트 엘자스슈트라세의 현대식 브라우하우스로, 직접 만든 맥주(쾰시·필스)와 제철 재료로 만든 독일 요리, 채식·비건 메뉴를 함께 낸다. Falstaff 84점·Der Feinschmecker 등재 등 미식 매체 평가도 받아, 관광지 브라우하우스보다 음식에 신경 쓴 쾰른식 저녁을 원할 때 좋다.",
       "must_try": [
-        "Kölsch vom Fass (생 쾰시)",
-        "Saisonale rheinische Gerichte (제철 라인란트 요리)"
+        "Hausgebrautes Kölsch (직접 양조한 쾰시)"
       ],
-      "tips_ko": "리뷰 평이 엇갈린다 — 맛이 달다, 채식 메뉴가 아쉽다, 양에 비해 비싸다는 후기도 있다(반면 golocal 리뷰는 채식·비건 메뉴를 칭찬). 라인아우하펜 쪽 'Biergarten am Rheinauhafen Johann Schäfer'는 별개 업소(여름 비어가든)다. 영업시간은 방문 전 확인.",
+      "tips_ko": "이전 조사 기준 평일 12–22시, 주말 10–22시, 전화 0221 16860975, 테라스 있음. 음식이 들쭉날쭉하고 단맛이 강하다는 후기도 있다. 라인강변의 'Biergarten am Rheinauhafen Johann Schäfer'는 같은 계열의 계절 비어가든(별개 업소).",
       "website": null,
-      "awards": [],
-      "award_flags": [],
+      "awards": [
+        "Falstaff 84/100",
+        "Der Feinschmecker (등재)"
+      ],
+      "award_flags": [
+        "other-award"
+      ],
       "sources": [
         "https://wanderlog.com/place/details/2181727/johann-sch%C3%A4fer-brauhaus",
         "https://restaurantguru.com/Johann-Schaefer-Cologne",
-        "https://wanderlog.com/list/geoCategory/1572657/best-brauhaus-in-cologne"
+        "https://www.gastroguide.de/restaurant/251819/brauhaus-johann-schaefer/koeln/bewertungen",
+        "https://www.falstaff.com/en/restaurants/brauhaus-johann-schaefer-koeln"
       ],
-      "confidence": "medium",
-      "research": "r8-candidates",
+      "confidence": "high",
+      "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "pasta-werkstatt",
@@ -10815,8 +11861,73 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "pasta-bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "pasta-bar"
+    },
+    {
+      "id": "lowen-cafe",
+      "name": "Löwen Café",
+      "category": "cafe",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Severinstraße 54A, 50678 Köln",
+      "lat": 50.924599,
+      "lng": 6.958831,
+      "cuisine": "Roastery café of Löwen Kaffee (Cologne coffee roaster founded 1841 in the Severinsviertel)",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee",
+        "cake"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "occasions": [
+        "solo",
+        "date"
+      ],
+      "features": [],
+      "drinks": [
+        "specialty-coffee"
+      ],
+      "vibe": [
+        "local-favorite",
+        "traditional"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "카페 — 정확한 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 456,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.4 / 456); Restaurant Guru 자체 4.4 / 502는 구글 아님",
+      "summary_ko": "1841년 세베린 지구에서 시작한 쾰른 커피 로스터 '뢰벤 카페(Löwen Kaffee)'가 2019년 세베린슈트라세로 돌아와 연 카페다(Mit Vergnügen). 1841년 창업한 동네 로스터의 커피를 성 세베린 성당 근처에서 마셔 볼 수 있다.",
+      "must_try": [
+        "Hausröstung Filterkaffee / Espresso (자가 로스팅 커피)"
+      ],
+      "tips_ko": "원두를 사 갈 수 있는지, 메뉴·영업시간은 출처에서 확인하지 못했다. 같은 블록에 Hayati(52C)·Der Eismacher(53)·Zum alten Brauhaus(51)가 모여 있다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3263127/l%C3%B6wen-caf%C3%A9",
+        "https://restaurantguru.com/Lowen-Cafe-Cologne",
+        "https://koeln.mitvergnuegen.com/2026/severinstrasse-suedstadt/"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "485grad",
@@ -10875,8 +11986,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "pizzeria",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "pizzeria"
     },
     {
       "id": "la-esquina",
@@ -10938,8 +12049,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "tapas",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "tapas"
     },
     {
       "id": "mangal-doner-restaurant",
@@ -10958,9 +12069,7 @@
         "kebab",
         "grill"
       ],
-      "diet": [
-        "halal"
-      ],
+      "diet": [],
       "meals": [
         "lunch",
         "dinner",
@@ -11006,8 +12115,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "kebab",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kebab"
     },
     {
       "id": "indian-curry-basmati-house",
@@ -11025,9 +12134,7 @@
       "dishes": [
         "curry"
       ],
-      "diet": [
-        "vegetarian"
-      ],
+      "diet": [],
       "meals": [
         "lunch",
         "dinner"
@@ -11127,8 +12234,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "thai-ja-roen-imbiss",
@@ -11196,12 +12303,13 @@
       "address": "Weißenburgstraße 50, 50670 Köln",
       "lat": 50.953846,
       "lng": 6.959802,
-      "cuisine": "Neighbourhood café",
+      "cuisine": "Neighbourhood café known for Russian blini",
       "cuisine_country": [],
       "cuisine_region": null,
       "dishes": [
         "coffee",
-        "cake"
+        "cake",
+        "brunch-plates"
       ],
       "diet": [],
       "meals": [
@@ -11230,20 +12338,23 @@
       "google_reviews": 748,
       "google_as_of": null,
       "rating_source": "wanderlog.com 장소 페이지 (첫 평점 4.8 / 748 = Google; 4.0 / 33은 다른 포털)",
-      "summary_ko": "아그네스 지구 바이센부르크슈트라세의 동네 카페로, 구글 리뷰 700건 이상에 4.8이라는 매우 높은 평점을 받는다. 아그네스 교회(St. Agnes) 주변을 산책하다 커피와 케이크로 쉬어 가기 좋다.",
-      "must_try": [],
+      "summary_ko": "아그네스 지구 바이센부르크슈트라세의 동네 카페로, 러시아식 블리니(얇은 팬케이크)로 알려져 있고 구글 리뷰 700건 이상에 4.8이라는 매우 높은 평점을 받는다. 아그네스 지구를 산책하다 커피와 블리니로 쉬어 가기 좋다.",
+      "must_try": [
+        "Blini (블리니 — 러시아식 얇은 팬케이크)"
+      ],
       "tips_ko": "같은 이름의 다른 지점과 헷갈리지 않도록 'Agnesviertel' 지점인지 확인할 것. 메뉴·영업시간은 이번 조사에서 미확인.",
       "website": null,
       "awards": [],
       "award_flags": [],
       "sources": [
-        "https://wanderlog.com/place/details/9554913"
+        "https://wanderlog.com/place/details/9554913",
+        "https://koeln.mitvergnuegen.com/2024/cafes-agenesviertel/"
       ],
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "reefhouse",
@@ -11299,8 +12410,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": null,
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "seafood"
     },
     {
       "id": "pizzeria-toto-e-peppino-2-0",
@@ -11318,12 +12429,9 @@
       "dishes": [
         "pizza"
       ],
-      "diet": [
-        "vegetarian"
-      ],
+      "diet": [],
       "meals": [
-        "dinner",
-        "late-night"
+        "dinner"
       ],
       "occasions": [
         "group",
@@ -11335,7 +12443,7 @@
         "local-favorite",
         "lively"
       ],
-      "reservation": "recommended",
+      "reservation": "unknown",
       "payment": "unknown",
       "location": [],
       "price_level": null,
@@ -11365,8 +12473,68 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "pizzeria",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "pizzeria"
+    },
+    {
+      "id": "le-moissonnier-bistro",
+      "name": "Le Moissonnier Bistro",
+      "category": "restaurant",
+      "area": "agnesviertel-eigelstein",
+      "address": "Krefelder Straße 25, 50670 Köln",
+      "lat": 50.950755,
+      "lng": 6.952234,
+      "cuisine": "French bistro-restaurant — successor of the former two-Michelin-star Le Moissonnier",
+      "cuisine_country": [
+        "FR"
+      ],
+      "cuisine_region": "western-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "date",
+        "business"
+      ],
+      "features": [],
+      "drinks": [
+        "wine-list"
+      ],
+      "vibe": [],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "이번 조사에서 메뉴 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 705,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 'Le Moissonnier'(같은 주소) — 장소 페이지 From Google 4.7 / 666, '40 Nice restaurants' 목록 4.7 / 705(최신으로 보이는 스냅숏); 별도 4.5 / 416은 다른 포털",
+      "summary_ko": "아그네스 지구 크레펠더 슈트라세의 프랑스 비스트로로, 쾰른을 대표하던 미쉐린 2스타 레스토랑 르 무아소니에(Le Moissonnier)의 뒤를 이은 곳이다. 같은 주소의 구글 리뷰 700여 건이 4.7로 매우 높아, 특별한 저녁이나 프렌치 점심을 원할 때 아그네스 지구에서 첫손에 꼽을 만하다.",
+      "must_try": [],
+      "tips_ko": "1차 조사 자료(Mit Vergnügen 2026 미쉐린 목록)에는 2026 미쉐린 1스타로 올라 있었으나 이번 라운드에서는 재확인하지 못함. 구글 수치는 옛 'Le Moissonnier' 시절 리뷰가 섞인 같은 주소 등록값이다. 예약 권장 — 메뉴·영업일은 방문 전 공식 채널로 확인할 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/412795/le-moissonnier",
+        "https://wanderlog.com/list/geoCategory/0040359",
+        "https://wanderlog.com/list/geoCategory/59993/michelin-star-restaurants-in-cologne",
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/"
+      ],
+      "confidence": "medium",
+      "research": "r8-ehrenfeld-agnes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "bistro"
     },
     {
       "id": "tang-wang-koeln",
@@ -11464,13 +12632,13 @@
       "vibe": [
         "local-favorite"
       ],
-      "reservation": "recommended",
+      "reservation": "unknown",
       "payment": "unknown",
       "location": [],
       "price_level": null,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 출처 없음(이번 조사에서 메뉴판 미확인)",
+      "price_note": "메뉴 가격 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -11480,10 +12648,9 @@
       "rating_source": "wanderlog.com 장소·목록 페이지 (Google 4.7 / 561–573, 스냅숏마다 다름)",
       "summary_ko": "아그네스 지구 발타자르슈트라세의 스페인 타파스 레스토랑으로, 구글 리뷰 500여 건에 4.7의 높은 평점을 받는다. 여러 타파스를 나눠 먹으며 와인 한잔하는 저녁에 잘 맞는다.",
       "must_try": [
-        "Tapas (타파스 모둠)",
-        "Creamy chicken tapas (크리미 치킨 타파스 — 리뷰 추천)"
+        "Tapas (타파스 모둠)"
       ],
-      "tips_ko": "Mit Vergnügen(2025) 기준 수–일 18:00–24:00 영업(옛 정보라 방문 전 확인). 같은 거리 53번지가 가이드 수록 크나이페 Zum Goldenen Kegel. 저녁엔 예약 권장.",
+      "tips_ko": "Mit Vergnügen(2025) 기준 수–일 18:00–24:00 영업(옛 정보라 방문 전 확인). 같은 거리 53번지가 가이드 수록 크나이페 Zum Goldenen Kegel. 인기 있는 작은 타파스 집이라 저녁엔 미리 자리를 확인하는 편이 안전하다.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -11491,16 +12658,13 @@
         "https://wanderlog.com/place/details/10428129/salera-tapas-y-mas",
         "https://wanderlog.com/list/geoCategory/1825451/best-places-for-tapas-in-cologne",
         "https://koeln.mitvergnuegen.com/2025/restaurants-spanisch-essen/",
-        "https://koeln.mitvergnuegen.com/2025/restaurants-agnesviertel",
-        "https://wanderlog.com/place/details/3590204/salera-tapas-y-mas",
-        "https://www.koeln.de/branchen/eintrag/45662/restaurants-spanisch/salera-tapas-y-mas",
-        "https://www.airbnb.com/things-to-do/places/691355"
+        "https://koeln.mitvergnuegen.com/2025/restaurants-agnesviertel"
       ],
       "confidence": "medium",
-      "research": "r8-candidates, r8-ehrenfeld-agnes",
+      "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "tapas",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "tapas"
     },
     {
       "id": "max-stark",
@@ -11659,8 +12823,7 @@
       ],
       "cuisine_region": "southern-europe",
       "dishes": [
-        "pasta",
-        "pizza"
+        "pasta"
       ],
       "diet": [],
       "meals": [
@@ -11681,7 +12844,7 @@
         "local-favorite",
         "lively"
       ],
-      "reservation": "recommended",
+      "reservation": "unknown",
       "payment": "unknown",
       "location": [],
       "price_level": null,
@@ -11712,8 +12875,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "trattoria",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "trattoria"
     },
     {
       "id": "thai-imbiss-eigelstein",
@@ -11801,8 +12964,7 @@
         "koelsch"
       ],
       "vibe": [
-        "traditional",
-        "local-favorite"
+        "traditional"
       ],
       "reservation": "unknown",
       "payment": "unknown",
@@ -11821,7 +12983,7 @@
       "summary_ko": "아그네스 지구 노이서 슈트라세에 있는 1920년 무렵부터 이어온 브라우하우스풍 쾰시 술집 겸 식당으로, 옛 사진이 걸린 실내가 정겹다. 버섯 소스 슈니첼, 메츠거브라트부르스트(정육점식 소시지)와 감자, 힘멜 운 애드(사과·감자 퓌레와 선지 소시지) 같은 라인란트 향토 요리를 푸짐하게 내 관광지 브라우하우스보다 동네 분위기를 느끼기 좋다.",
       "must_try": [
         "Schnitzel mit Champignonrahmsoße (버섯 크림소스 슈니첼)",
-        "Metzgerbratwurst mit Bratkartoffeln (정육점식 소시지와 감자구이)",
+        "Metzgerbratwurst mit Kartoffeln (정육점식 소시지와 감자)",
         "Himmel un Ääd (힘멜 운 애드 — 사과·감자 퓌레와 블루트부르스트)"
       ],
       "tips_ko": "에버트플라츠(Ebertplatz) 역에서 북쪽으로 걸어서 몇 분 거리. 저녁엔 동네 손님으로 붐비니 여럿이면 전화(+49 221 27075858)로 자리를 확인할 것. 직원이 불친절했다는 후기도 한 건 있음. 영업시간은 이번 조사에서 미확인.",
@@ -11835,8 +12997,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "hoai-viet",
@@ -11881,10 +13043,8 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 416)",
       "summary_ko": "터키 식당이 늘어선 바이덴가세 한쪽의 베트남 식당으로, 음식이 신선하고 값이 싸다는 평이 많다. 메뉴 표기가 분명하고 영어 번역도 있어 처음 가도 주문하기 쉽다.",
-      "must_try": [
-        "Phở (쌀국수)"
-      ],
-      "tips_ko": "중앙역 북쪽에서 걸어서 약 10분. 세부 메뉴·영업시간은 이번 조사에서 미확인 — 방문 전 구글 지도 확인.",
+      "must_try": [],
+      "tips_ko": "중앙역 북쪽에서 걸어서 약 10분. 대표 메뉴·영업시간은 이번 조사에서 미확인 — 방문 전 구글 지도 확인.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -11895,8 +13055,65 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": null,
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "casual"
+    },
+    {
+      "id": "da-damiano",
+      "name": "Da Damiano",
+      "category": "restaurant",
+      "area": "agnesviertel-eigelstein",
+      "address": "Marzellenstraße 66, 50668 Köln",
+      "lat": 50.944356,
+      "lng": 6.956212,
+      "cuisine": "Italian restaurant",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "family",
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 247,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.5 / 247; 자체 투표 551은 구글 아님)",
+      "summary_ko": "중앙역 서쪽 마르첼렌슈트라세(Marzellenstraße)의 이탈리아 식당이다. 구글 247건에 4.5로, 중앙역·대성당 근처에 묵을 때 관광지 밖에서 편하게 이탈리아 음식을 먹기 좋다.",
+      "must_try": [],
+      "tips_ko": "주소상 중앙역 북서쪽(우르줄라 성당 쪽)이라 지역은 아이겔슈타인으로 분류했다. 바로 옆 68–70번지가 Luciano. 메뉴·가격은 출처에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Da-Damiano-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "ristorante"
     },
     {
       "id": "oez-harran-doy-doy",
@@ -12090,8 +13307,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": null,
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "casual"
     },
     {
       "id": "haus-des-doners",
@@ -12129,9 +13346,9 @@
       "payment": "unknown",
       "location": [],
       "price_level": 1,
-      "price_estimated": false,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "되너 임비스 — 구체 가격은 미확인(일반적인 쾰른 되너 가격대로 추정, 메뉴판 미확인)",
+      "price_note": "되너 임비스 — 메뉴판 가격 미확인(가격대는 임비스 기준 추정)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -12141,8 +13358,7 @@
       "rating_source": "wanderlog.com 장소 페이지 (Google 4.4 / 675)",
       "summary_ko": "바이덴가세의 되너 케밥 전문 임비스로, 음식과 직원 모두 칭찬받고 가게가 깨끗하며 안에 앉을 자리도 넉넉하다는 후기가 많다. 중앙역·아이겔슈타인 근처에서 빠르고 싸게 한 끼를 해결하기 좋다.",
       "must_try": [
-        "Döner im Brot (빵에 넣은 되너 케밥)",
-        "Dürüm (얇은 빵에 만 되너 롤)"
+        "Döner (되너 케밥)"
       ],
       "tips_ko": "포장도 되고 매장에서 먹을 수도 있다. 영업시간·결제 방식은 이번 조사에서 미확인.",
       "website": null,
@@ -12154,8 +13370,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "kebab",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kebab"
     },
     {
       "id": "mangal-restaurant",
@@ -12205,8 +13421,7 @@
       "rating_source": "wanderlog.com 장소 페이지 (Google 4.3 / 3,899); Wanderlog 'best Turkish' 목록 스냅숏은 4,014건",
       "summary_ko": "'쾰른의 리틀 이스탄불'로 불리는 바이덴가세(Weidengasse)의 대표 터키식 그릴 레스토랑으로, 구글 리뷰가 4,000건 가까이 쌓인 동네 간판집이다. 숯불 향 나는 고기 요리, 특히 닭꼬치(타북 시시)가 호평이라 중앙역 북쪽에서 든든한 터키식 저녁을 먹기 좋다.",
       "must_try": [
-        "Tavuk Şiş (닭고기 꼬치구이 — 리뷰 추천)",
-        "Karışık Izgara (모둠 그릴)"
+        "Tavuk Şiş (닭고기 꼬치구이 — 리뷰 추천)"
       ],
       "tips_ko": "중앙역 북쪽 출구에서 아이겔슈타인 방향으로 걸어서 약 10분. 같은 거리의 Mangal Döner(x Lukas Podolski, 구글 3.6)·Mangal Burger(폐업)와는 다른 가게이니 이름을 확인할 것. 가격은 주변 임비스보다 조금 높다는 후기.",
       "website": null,
@@ -12219,8 +13434,67 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "grill",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "grill"
+    },
+    {
+      "id": "luciano-il-ristorante-dal-1969",
+      "name": "Luciano IL RISTORANTE dal 1969",
+      "category": "restaurant",
+      "area": "agnesviertel-eigelstein",
+      "address": "Marzellenstraße 68-70, 50668 Köln",
+      "lat": 50.944551,
+      "lng": 6.956042,
+      "cuisine": "Italian ristorante (since 1969)",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "pasta"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "family",
+        "business"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "traditional"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.3,
+      "google_reviews": 298,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.3 / 298)",
+      "summary_ko": "1969년부터 영업한 마르첼렌슈트라세의 이탈리아 리스토란테다. 구글 298건에 4.3으로, 중앙역 근처에서 오래된 동네 이탈리안을 찾을 때 고를 만하다.",
+      "must_try": [],
+      "tips_ko": "메뉴·가격·휴무일은 출처에서 확인하지 못했다. 바로 옆 66번지 Da Damiano와 비교해 고를 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Luciano-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r8-center-south",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "ristorante"
     },
     {
       "id": "reispapier",
@@ -12287,8 +13561,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "noodle-bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "noodle-bar"
     },
     {
       "id": "adana-et-restaurant",
@@ -12349,8 +13623,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "grill",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "grill"
     },
     {
       "id": "damla-weidengasse",
@@ -12611,8 +13885,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "steakhouse",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "steakhouse"
     },
     {
       "id": "st-louis-cafe-deutz",
@@ -12820,72 +14094,6 @@
       "style": "grill"
     },
     {
-      "id": "villa-mathilde",
-      "name": "Villa Mathilde",
-      "category": "cafe",
-      "area": "deutz-messe",
-      "address": "Mathildenstraße 27, 50679 Köln",
-      "lat": 50.935718,
-      "lng": 6.974526,
-      "cuisine": "Cosy café with homemade cakes and Sunday breakfast",
-      "cuisine_country": [],
-      "cuisine_region": null,
-      "dishes": [
-        "cake",
-        "coffee",
-        "brunch-plates"
-      ],
-      "diet": [],
-      "meals": [
-        "breakfast",
-        "brunch"
-      ],
-      "occasions": [
-        "date",
-        "solo"
-      ],
-      "features": [],
-      "drinks": [],
-      "vibe": [
-        "quiet",
-        "hidden-gem"
-      ],
-      "reservation": "unknown",
-      "payment": "cash-only",
-      "location": [],
-      "price_level": 2,
-      "price_estimated": true,
-      "price_pp": null,
-      "price_note": "가격 정보 미확인",
-      "beer_price_eur": null,
-      "beer_price_note": null,
-      "beers": [],
-      "google_rating": 4.6,
-      "google_reviews": 620,
-      "google_as_of": null,
-      "rating_source": "wanderlog.com (Google ~4.6 / ~620 as summarised; second score 4.0 / 53)",
-      "summary_ko": "도이츠 주택가 마틸덴슈트라세의 아늑한 카페로, 앤티크한 실내 장식과 조용한 분위기, 직접 만든 케이크가 칭찬받는다. Mit Vergnügen '쾰른의 아늑한 카페 11곳'에 여러 해 꼽혔고, 메쎄에서 걸어갈 수 있는 쉼터다.",
-      "must_try": [
-        "Hausgemachter Kuchen (수제 케이크)"
-      ],
-      "tips_ko": "현금만 받는다는 후기가 있다. 한 목록에는 수–토 10:30–18:00 영업으로 나오니 월·화와 일요일 영업 여부를 확인할 것(일요일 아침 식사를 언급한 후기도 있음). 주인에 대한 평이 엇갈린다.",
-      "website": null,
-      "awards": [],
-      "award_flags": [],
-      "sources": [
-        "https://extensionembed.wanderlog.com/place/details/3263154",
-        "https://koeln.mitvergnuegen.com/2019/gemuetlich-abschalten-in-der-villa-mathilde-in-deutz/",
-        "https://koeln.mitvergnuegen.com/2026/gemuetliche-cafes/",
-        "https://spinach.guide/venues/villa-mathilde-30000/",
-        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
-      ],
-      "confidence": "medium",
-      "research": "r8-muelheim",
-      "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
-    },
-    {
       "id": "meiwei-deutz",
       "name": "MEIWEI",
       "category": "restaurant",
@@ -13013,8 +14221,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": null,
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "ristorante"
     },
     {
       "id": "glashaus-restaurant-bar-hyatt-regency-koln",
@@ -13145,8 +14353,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "modern",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "modern"
     },
     {
       "id": "deutzer-brauhaus",
@@ -13530,7 +14738,7 @@
       "price_level": 2,
       "price_estimated": true,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -13538,12 +14746,12 @@
       "google_reviews": 465,
       "google_as_of": null,
       "rating_source": "wanderlog.com place page (Google 4.8 / 465; 389 of them five-star)",
-      "summary_ko": "켐페너 거리(Kempener Str.)의 작은 동네 카페로, 홈메이드 케이크와 커피 칭찬이 많고 Mit Vergnügen의 '닙페스 아침 식사 11곳'에 아이 동반에 좋은 카페로 소개됐다. 구글 4.8(465건)로 닙페스 카페 중 최상위 평점이다.",
+      "summary_ko": "켐페너 거리의 작은 동네 카페로, 케이크와 커피 칭찬이 많고 Mit Vergnügen의 '닙페스 아침 식사 11곳'에 아이와 가기 좋은 카페로 소개됐다. 구글 4.8(465건)로 닙페스 카페 중 최상위 평점이다.",
       "must_try": [
-        "Hausgemachter Kuchen (홈메이드 케이크)",
+        "Kuchen (케이크)",
         "Frühstück (아침 메뉴)"
       ],
-      "tips_ko": "자리가 적어 주말엔 붐비고 시끄러울 수 있다는 후기가 있다. 평일 오전이나 오후 커피·케이크 시간대를 노릴 것.",
+      "tips_ko": "자리가 적어 주말엔 붐비고 시끄러울 수 있다는 후기가 있다. 평일 오전이나 오후 커피·케이크 시간을 노릴 것. 같은 거리 46번지가 Hà Nội 46이다.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -13554,8 +14762,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "restaurant-schlemmergarten-kleingartenverein-koln-riehl",
@@ -13565,7 +14773,7 @@
       "address": "Boltensternstraße 90, 50735 Köln",
       "lat": 50.969662,
       "lng": 6.979507,
-      "cuisine": "Allotment-garden club restaurant (Vereinsgaststätte) with garden terrace",
+      "cuisine": "Allotment-garden club restaurant (Vereinsgaststätte) in Riehl",
       "cuisine_country": [],
       "cuisine_region": null,
       "dishes": [],
@@ -13578,9 +14786,7 @@
         "group",
         "family"
       ],
-      "features": [
-        "terrace"
-      ],
+      "features": [],
       "drinks": [],
       "vibe": [
         "hidden-gem",
@@ -13592,7 +14798,7 @@
       "price_level": null,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -13600,21 +14806,22 @@
       "google_reviews": 396,
       "google_as_of": null,
       "rating_source": "restaurantguru.com (Google 4.8 / 396, German page)",
-      "summary_ko": "릴(Riehl)의 주말농장 단지(Kleingartenverein) 안에 있는 클럽 식당으로, 관광객은 거의 모르는 동네 사람들의 단골집이다. 구글 4.8(396건)로 평점이 매우 높아 동물원·식물원(Flora) 구경 뒤 들르기 좋다.",
+      "summary_ko": "릴(Riehl)의 주말농장 단지(Kleingartenverein) 안에 있는 클럽 식당으로, 관광객은 거의 모르는 동네 사람들의 단골집이다. 구글 4.8(396건)로 평점이 매우 높아 쾰른 사람들의 일상적인 외식 문화를 엿보기 좋다.",
       "must_try": [],
-      "tips_ko": "주말농장 안이라 찾기가 조금 어렵다(Boltensternstraße 90). 메뉴·영업일은 방문 전 확인.",
+      "tips_ko": "주말농장 단지 안이라 입구 찾기가 조금 어렵다(Boltensternstraße 90). 메뉴(Restaurant Guru에 메뉴 페이지 있음)·영업일은 확인하지 못했으니 방문 전 확인할 것.",
       "website": null,
       "awards": [],
       "award_flags": [],
       "sources": [
         "https://restaurantguru.com/Restaurant-Schlemmergarten-im-Kleingartenverein-Koln-Riehl-Cologne",
-        "https://de.restaurantguru.com/amp/Restaurant-Schlemmergarten-im-Kleingartenverein-Koln-Riehl-Cologne"
+        "https://de.restaurantguru.com/amp/Restaurant-Schlemmergarten-im-Kleingartenverein-Koln-Riehl-Cologne",
+        "https://restaurantguru.com/Restaurant-Schlemmergarten-im-Kleingartenverein-Koln-Riehl-Cologne/menu"
       ],
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "gasthaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "gasthaus"
     },
     {
       "id": "cafe-goldjunge-nippes",
@@ -13629,7 +14836,6 @@
       "cuisine_region": null,
       "dishes": [
         "brunch-plates",
-        "cake",
         "coffee"
       ],
       "diet": [],
@@ -13653,32 +14859,32 @@
       "price_level": 2,
       "price_estimated": true,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
       "google_rating": 4.7,
       "google_reviews": 443,
       "google_as_of": null,
-      "rating_source": "restaurantguru.com (Google 4.7 / 443)",
-      "summary_ko": "쾰른에 네 곳(쥘츠·미디어파크·시내·닙페스)을 둔 아침·브런치 카페 골트융에의 닙페스 지점으로, 노이서 거리(Neusser Str.) 한가운데 있다. 구글 4.7(443건)로 동네 카페 중 평이 가장 좋은 편이라 닙페스 산책 전 아침 식사 장소로 알맞다.",
+      "rating_source": "restaurantguru.com (Google 4.7 / 443); wanderlog.com 4.7 / 441. RG's own 4.8 is not Google",
+      "summary_ko": "쾰른에 네 곳(쥘츠·미디어파크·시내·닙페스)을 둔 아침·브런치 카페 골트융에의 닙페스 지점으로, 노이서 거리 한가운데 있다. 구글 4.7(440여 건)로 닙페스 카페 중 평이 가장 좋은 편이라 동네 산책 전 아침 식사 장소로 알맞다.",
       "must_try": [
-        "Frühstück (아침 세트)",
-        "Kuchen (홈메이드 케이크)"
+        "Frühstück (아침 세트)"
       ],
-      "tips_ko": "주말 오전 브런치 시간엔 자리가 빨리 찬다. 노이서 거리 287번지 Café Pause, 314번지 Café Wohnraum 등 카페가 몰려 있어 대기가 길면 옮겨도 된다. 영업시간은 방문 전 확인.",
+      "tips_ko": "아침은 맛있지만 느리게 나왔다, 아이스커피가 값에 비해 아쉬웠다는 후기가 있다. 주말 오전엔 자리가 빨리 차니 바로 옆 Café Pause(287번지)도 대안이다.",
       "website": null,
       "awards": [],
       "award_flags": [],
       "sources": [
         "https://restaurantguru.com/Cafe-Goldjunge-Cologne-3",
+        "https://wanderlog.com/place/details/5295598/caf%C3%A9-goldjunge-nippes",
         "https://wanderlog.com/list/geoCategory/10013/best-breakfast-and-brunch-in-cologne"
       ],
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "brunch",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brunch"
     },
     {
       "id": "gaziantep-altntepsi",
@@ -13688,15 +14894,12 @@
       "address": "Auguststraße 35, 50733 Köln",
       "lat": 50.96293,
       "lng": 6.951653,
-      "cuisine": "Turkish (Gaziantep-style) pide and lahmacun bakery-restaurant",
+      "cuisine": "Turkish restaurant in the Gaziantep tradition — lahmacun and pide",
       "cuisine_country": [
         "TR"
       ],
       "cuisine_region": "middle-east",
-      "dishes": [
-        "bread-pastry",
-        "grill"
-      ],
+      "dishes": [],
       "diet": [],
       "meals": [
         "lunch",
@@ -13718,7 +14921,7 @@
       "price_level": 1,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "리뷰에서 '저렴한 가격(inexpensive)' 언급 — 메뉴판 가격은 미확인",
+      "price_note": "리뷰에서 '저렴한 가격(inexpensive)'을 여러 번 언급 — 메뉴판 가격은 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -13726,12 +14929,12 @@
       "google_reviews": 347,
       "google_as_of": null,
       "rating_source": "wanderlog.com place page (Google 4.7 / 347)",
-      "summary_ko": "닙페스 아우구스트 거리의 튀르키예 가지안테프식 식당으로, 화덕에서 구운 라마준(얇은 튀르키예 피자)과 피데(배 모양 피자) 칭찬이 많다. 구글 4.7(347건)에 가격이 싸고 손님 대접이 좋다는 후기가 많아 싸고 든든한 한 끼로 좋다.",
+      "summary_ko": "닙페스 아우구스트 거리의 튀르키예 가지안테프식 식당으로, 라마준(얇은 튀르키예 피자)과 피데(배 모양 튀르키예 피자) 칭찬이 많다. 구글 4.7(347건)에 값이 싸고 손님 대접이 좋다는 후기가 많아 싸고 든든한 한 끼로 좋다.",
       "must_try": [
         "Lahmacun (라마준 — 다진 고기를 얹은 얇은 튀르키예 피자)",
         "Pide (피데 — 배 모양 튀르키예 피자)"
       ],
-      "tips_ko": "관광객보다 동네 손님 위주의 소박한 가게다. 포장도 흔하다(미확인). 영업시간은 방문 전 확인.",
+      "tips_ko": "관광객보다 동네 손님 위주의 소박한 가게다. 영업시간은 출처에서 확인하지 못했다.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -13741,8 +14944,272 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "bakery",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "pide"
+    },
+    {
+      "id": "lamia-restaurant",
+      "name": "Lamia Restaurant",
+      "category": "restaurant",
+      "area": "nippes",
+      "address": "Neusser Straße 182, 50733 Köln",
+      "lat": 50.959964,
+      "lng": 6.954925,
+      "cuisine": "Mediterranean seafood restaurant — mezze, fish, daily fresh oysters",
+      "cuisine_country": [
+        "INT"
+      ],
+      "cuisine_region": "international",
+      "dishes": [
+        "seafood",
+        "mezze"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "date",
+        "business"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 224,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com place page (Google 4.7 / 224; the second score 4.5 / 7 is another site)",
+      "summary_ko": "노이서 거리의 지중해 레스토랑으로 메제·생선 요리와 매일 들여오는 생굴이 특징이며, 별을 받은 여성 셰프 밑에서 일했던 요리사들이 주방을 맡는다(Mit Vergnügen). 구글 4.7(224건)에 해산물 리소토 등 신선한 해산물 칭찬이 많아 닙페스에서 특별한 저녁을 원할 때 좋다.",
+      "must_try": [
+        "Risotto ai frutti di mare (해산물 리소토)",
+        "Austern (생굴)",
+        "Mezze (지중해식 메제)"
+      ],
+      "tips_ko": "일·월 휴무, 그 외 요일은 점심·저녁 영업(Wanderlog). 전화 +49 221 88889988. 처음에 서빙이 조금 늦었다는 후기가 있다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4267646/lamia-restaurant",
+        "https://restaurantguru.com/Lamia-Restaurant-Cologne/menu",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+      ],
+      "confidence": "medium",
+      "research": "r8-nippes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "mezze"
+    },
+    {
+      "id": "anguli-coffee",
+      "name": "Anguli Coffee",
+      "category": "cafe",
+      "area": "nippes",
+      "address": "Mauenheimer Straße 28, 50733 Köln",
+      "lat": 50.966128,
+      "lng": 6.951918,
+      "cuisine": "Specialty coffee café at Schillplatz",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast"
+      ],
+      "occasions": [
+        "solo",
+        "quick"
+      ],
+      "features": [
+        "open-sunday"
+      ],
+      "drinks": [
+        "specialty-coffee"
+      ],
+      "vibe": [
+        "hidden-gem"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 200,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.7 / 200); wanderlog.com 4.7 / 181. RG's own 2.8 / 200 is not Google",
+      "summary_ko": "닙페스 쉴플라츠(Schillplatz) 바로 앞의 스페셜티 커피 카페로, Wanderlog가 '고품질 커피 전문의 숨은 보석'으로 소개하고 Mit Vergnügen의 닙페스 아침 식사 목록에도 올랐다. 구글 4.7(약 200건)이라 동네 산책 중 커피 한잔하기 좋다.",
+      "must_try": [
+        "Specialty Coffee (스페셜티 커피)"
+      ],
+      "tips_ko": "Restaurant Guru 기준 평일 08–18시, 주말 10–18시(출처마다 시간이 조금 다르니 확인할 것).",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://de.restaurantguru.com/Anguli-Coffee-Cologne",
+        "https://wanderlog.com/place/details/8822395/anguli-coffee",
+        "https://koeln.mitvergnuegen.com/2024/fruehstueck-nippes"
+      ],
+      "confidence": "medium",
+      "research": "r8-nippes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "cafe"
+    },
+    {
+      "id": "fink-restaurant-cafe",
+      "name": "Fink – restaurant café",
+      "category": "restaurant",
+      "area": "nippes",
+      "address": "Siebachstraße 50, 50733 Köln",
+      "lat": 50.960774,
+      "lng": 6.950016,
+      "cuisine": "Small seasonal restaurant-café — short, freshly cooked menu (risotto, rabbit, daily specials)",
+      "cuisine_country": [
+        "INT"
+      ],
+      "cuisine_region": "international",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "date",
+        "solo"
+      ],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [],
+      "vibe": [
+        "hidden-gem",
+        "quiet"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 150,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.7 / 150; page about 450 days old); wanderlog.com 4.7 / 144. RG's own 4.7 / 277 and Tripadvisor 4.5 / 21 are not Google",
+      "summary_ko": "닙페스 북쪽 지바흐 거리의 작은 레스토랑 겸 카페로, 메뉴는 짧지만 제철 재료로 매일 새로 요리한다(Mit Vergnügen). 구글 4.7(150건)에 리소토·토끼 요리와 오늘의 메뉴 칭찬이 많아 조용한 동네 저녁으로 좋다.",
+      "must_try": [
+        "Tagesgericht (오늘의 메뉴)",
+        "Risotto (리소토)",
+        "Kaninchen (토끼 요리 — 메뉴에 있을 때)"
+      ],
+      "tips_ko": "메뉴가 작고 계절마다 바뀌어 원하는 요리가 없을 수 있다. 여름엔 야외석이 인기다. 영업시간은 출처에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Fink-Cologne",
+        "https://wanderlog.com/place/details/3746902/fink-restaurant-cafe",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+      ],
+      "confidence": "medium",
+      "research": "r8-nippes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "bistro"
+    },
+    {
+      "id": "hornochse-burger-manufaktur-koln",
+      "name": "Hornochse – Burger Manufaktur Köln",
+      "category": "restaurant",
+      "area": "nippes",
+      "address": "Neusser Straße 304, 50733 Köln",
+      "lat": 50.9659,
+      "lng": 6.953766,
+      "cuisine": "Burger restaurant — beef, vegetarian and vegan burgers with fries",
+      "cuisine_country": [
+        "US"
+      ],
+      "cuisine_region": "americas",
+      "dishes": [
+        "burger"
+      ],
+      "diet": [
+        "vegetarian",
+        "vegan"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.6,
+      "google_reviews": 1277,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com place page (Google 4.6 / 1,277; Wanderlog list snapshots show 1,458–1,466 reviews). A Restaurant Guru snippet shows Google 4.4 and RG structured data 4.3 / 1,426",
+      "summary_ko": "노이서 거리의 수제 버거집으로, Mit Vergnügen이 '닙페스에서 버거라면 단연 첫 번째 주소'라고 꼽은 곳이다. 소고기·채식·비건 버거를 모두 내고 구글 리뷰 1,200건 이상에 4.6이라 든든한 저녁으로 좋다.",
+      "must_try": [
+        "Royal Cheese Burger (로열 치즈버거 — 큼직하다는 호평)",
+        "Portobello Burger (포르토벨로 버섯 채식 버거)",
+        "Pommes (감자튀김)"
+      ],
+      "tips_ko": "마요네즈·케첩을 따로 돈 받는다는 불만, 미디엄 레어로 시켰는데 완전히 익혀 나왔다는 후기가 있다. 알레르기가 있으면 주문 때 꼭 말할 것(알레르겐이 섞였다는 후기 언급).",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2616846/hornochse-burger-manufaktur-k%C3%B6ln",
+        "https://restaurantguru.com/Hornochse-Cologne",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+      ],
+      "confidence": "medium",
+      "research": "r8-nippes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "burger"
     },
     {
       "id": "riehler-hof",
@@ -13752,7 +15219,7 @@
       "address": "Stammheimer Straße 133, 50735 Köln",
       "lat": 50.966433,
       "lng": 6.977648,
-      "cuisine": "German Gaststätte in Riehl known for schnitzel",
+      "cuisine": "German neighbourhood Gaststätte in Riehl known for schnitzel",
       "cuisine_country": [
         "DE"
       ],
@@ -13770,9 +15237,7 @@
         "family"
       ],
       "features": [],
-      "drinks": [
-        "koelsch"
-      ],
+      "drinks": [],
       "vibe": [
         "local-favorite",
         "traditional"
@@ -13783,7 +15248,7 @@
       "price_level": null,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -13791,12 +15256,11 @@
       "google_reviews": 526,
       "google_as_of": null,
       "rating_source": "restaurantguru.com (Google 4.6 / 526; the page's structured-data 4.5 / 608 is a cross-site aggregate)",
-      "summary_ko": "릴(Riehl) 슈탐하이머 거리의 독일식 동네 가스트슈테테로, 리뷰에서 슈니첼과 직원 칭찬이 자주 나온다. 구글 4.6(526건)이라 쾰른 동물원·플로라 식물원 쪽에서 독일 가정식 저녁을 먹기에 좋다.",
+      "summary_ko": "릴(Riehl) 슈탐하이머 거리의 독일식 동네 가스트슈테테로, 리뷰에 슈니첼과 직원 칭찬이 자주 나온다. 구글 4.6(526건)이라 쾰른 동물원·플로라 식물원 쪽 일정 뒤 독일 가정식 저녁을 먹기 좋다.",
       "must_try": [
-        "Schnitzel (슈니첼)",
-        "Kölsch (쾰시)"
+        "Schnitzel (슈니첼)"
       ],
-      "tips_ko": "동네 단골집이라 저녁엔 예약하는 편이 안전하다(미확인). 쾰른 동물원(Zoo)에서 북쪽으로 걸어서 15분 안팎.",
+      "tips_ko": "동네 단골 위주의 가게다. 메뉴·영업시간은 출처에서 확인하지 못했으니 방문 전 확인할 것.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -13806,8 +15270,146 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "gasthaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "gasthaus"
+    },
+    {
+      "id": "haus-schnackertz",
+      "name": "Haus Schnackertz",
+      "category": "restaurant",
+      "area": "nippes",
+      "address": "Bülowstraße 2, 50733 Köln",
+      "lat": 50.964329,
+      "lng": 6.956185,
+      "cuisine": "German gutbürgerlich restaurant (Gasthaus) — schnitzel, cordon bleu and its signature Nippeser Senfrostbraten",
+      "cuisine_country": [
+        "DE"
+      ],
+      "cuisine_region": "central-europe",
+      "dishes": [
+        "schnitzel",
+        "steak"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "family",
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite",
+        "traditional"
+      ],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "옛 메뉴판(약 4년 전 업로드, Restaurant Guru): Carpaccio vom Rind €9.90, kleines paniertes Kalbsschnitzel €7.90, Blaubeerpfannkuchen €6.50 — 현재 가격은 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.6,
+      "google_reviews": 519,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com / wanderlog.com (Google 4.6; 519–541 reviews depending on the snapshot — lower figure used). Tripadvisor 4.5 / 66 and Restaurant Guru's own 4.5 / 742 are not Google",
+      "summary_ko": "닙페스 뷜로 거리(Bülowstraße)의 독일 가정식(gutbürgerlich) 식당으로, 슈니첼과 감자샐러드, 그리고 이 집 명물 '닙페스식 겨자 로스트브라텐(Nippeser Senfrostbraten)'으로 알려져 있다. 구글 4.6(약 520–540건)에 영어가 되는 친절한 직원 칭찬이 많아 독일 음식을 제대로 먹고 싶을 때 좋다.",
+      "must_try": [
+        "Nippeser Senfrostbraten (닙페스식 겨자 로스트브라텐 — 이 집 명물)",
+        "Wiener Schnitzel / Cordon bleu (비너 슈니첼·코르동 블뢰)",
+        "Kaiserschmarrn (카이저슈마렌 — 잘게 찢은 팬케이크 디저트)"
+      ],
+      "tips_ko": "인기가 많아 미리 예약하라는 후기가 많다(전화 +49 221 766839). 주변 주차가 어렵다는 불만이 반복되니 대중교통으로 갈 것. 간 요리가 덜 익었다는 후기도 하나 있다.",
+      "website": "https://schnackertz.koeln",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Schnackertz-Cologne",
+        "https://restaurantguru.com/Schnackertz-Cologne/menu",
+        "https://wanderlog.com/place/details/4059239/haus-schnackertz",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+      ],
+      "confidence": "medium",
+      "research": "r8-nippes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "gasthaus"
+    },
+    {
+      "id": "a-comer",
+      "name": "a comer!",
+      "category": "restaurant",
+      "area": "nippes",
+      "address": "Einheitstraße 15, 50733 Köln",
+      "lat": 50.964928,
+      "lng": 6.952182,
+      "cuisine": "Peruvian-Spanish tapas bar — ceviche and small plates, varied wine list",
+      "cuisine_country": [
+        "PE",
+        "ES"
+      ],
+      "cuisine_region": "americas",
+      "dishes": [
+        "tapas",
+        "seafood",
+        "flammkuchen"
+      ],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [
+        "date",
+        "group"
+      ],
+      "features": [],
+      "drinks": [
+        "wine-list"
+      ],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.6,
+      "google_reviews": 300,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.6 / 300); wanderlog.com 4.6 / 299; OpenTable 4.5 / 132 is not Google",
+      "summary_ko": "닙페스 아인하이트 거리의 페루·스페인식 타파스 바로, 세비체와 작은 접시 요리, 다양한 와인이 강점이다. 구글 4.6(약 300건)에 아늑한 분위기와 친절한 서비스 칭찬이 많아 둘이서 저녁 먹기 좋다.",
+      "must_try": [
+        "Ceviche (세비체 — 라임즙에 절인 페루식 생선 요리)",
+        "Tapas (타파스 여러 접시)"
+      ],
+      "tips_ko": "화–토 17–23시 저녁만 영업, 일·월 휴무(Wanderlog). 가격에 비해 양이 적고 품절 메뉴가 있었다는 후기도 있으니 여러 접시를 나눠 먹을 생각으로 갈 것. Mit Vergnügen은 플람쿠헨도 낸다고 소개했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Einheit-15-Cologne",
+        "https://wanderlog.com/place/details/5217249/a-comer",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/",
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/dies-sind-die-besten-restaurants-in-koeln-nippes_1118008.html"
+      ],
+      "confidence": "medium",
+      "research": "r8-nippes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "tapas"
     },
     {
       "id": "adolph-s-backerei-filiale-nippes",
@@ -13817,12 +15419,11 @@
       "address": "Sechzigstraße 21, 50733 Köln",
       "lat": 50.959746,
       "lng": 6.948596,
-      "cuisine": "Bakery branch with café seating (bread, rolls, pastries)",
+      "cuisine": "Neighbourhood bakery branch (bread, rolls, pastries)",
       "cuisine_country": [],
       "cuisine_region": null,
       "dishes": [
-        "bread-pastry",
-        "coffee"
+        "bread-pastry"
       ],
       "diet": [],
       "meals": [
@@ -13840,7 +15441,7 @@
       "price_level": 1,
       "price_estimated": true,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -13848,11 +15449,11 @@
       "google_reviews": 176,
       "google_as_of": null,
       "rating_source": "restaurantguru.com (Google 4.6 / 176; Restaurant Guru's own 3/5 from 180 is not Google)",
-      "summary_ko": "섹치히 지구(Sechzigviertel) 섹치히 거리의 동네 빵집 지점으로 빵·브뢰첸·페이스트리를 판다. 구글 4.6(176건)으로 평이 좋아 근처 숙소에서 아침 빵을 사기 좋다.",
+      "summary_ko": "섹치히 지구(Sechzigviertel) 섹치히 거리의 동네 빵집 지점으로 빵·브뢰첸·페이스트리를 판다. 구글 4.6(176건)으로 평이 좋아 근처에 묵는다면 아침 빵을 사기 좋다.",
       "must_try": [
         "Brötchen (브뢰첸 — 독일식 아침 빵)"
       ],
-      "tips_ko": "빵집이라 아침 일찍 열고 오후엔 빵이 떨어질 수 있다. 일요일 영업 여부는 확인 필요.",
+      "tips_ko": "빵집이라 아침 일찍 열고 오후엔 빵이 떨어질 수 있다. 영업시간·일요일 영업은 출처에서 확인하지 못했다. 같은 거리 1번지가 그리스 식당 Jamas다.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -13862,8 +15463,73 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "bakery",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "bakery"
+    },
+    {
+      "id": "ha-noi-46-restaurant",
+      "name": "Hà Nội 46 Restaurant",
+      "category": "restaurant",
+      "area": "nippes",
+      "address": "Kempener Straße 46, 50733 Köln",
+      "lat": 50.963268,
+      "lng": 6.950131,
+      "cuisine": "Vietnamese and pan-Asian restaurant (pho, vegetarian options)",
+      "cuisine_country": [
+        "VN"
+      ],
+      "cuisine_region": "southeast-asia",
+      "dishes": [
+        "pho",
+        "noodles"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "quick",
+        "solo"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 754,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.5 / 754); wanderlog.com place page 4.5 / 669 and list page 4.5 / 751. RG structured data 4.3 / 800 is a cross-site aggregate",
+      "summary_ko": "켐페너 거리의 베트남·범아시아 식당으로 쌀국수(phở) 칭찬이 많고 채식 메뉴도 있다. 구글 4.5(750건 안팎)로 닙페스에서 리뷰가 가장 많은 아시아 식당 중 하나다.",
+      "must_try": [
+        "Phở (베트남 쌀국수)"
+      ],
+      "tips_ko": "현금만 받는다고 미리 안내받았다는 후기가 있으니 현금을 챙길 것. 요리끼리 맛 차이가 적다, 계산이 더 나왔다, 배달 주문이 오지 않았다는 불만 후기도 있어 매장에서 먹고 계산서를 확인하길 권한다. 전화 +49 221 29490698.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/HA-NOI-46-Cologne",
+        "https://wanderlog.com/place/details/1965756/h%C3%A0-n%E1%BB%99i-46-restaurant",
+        "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+      ],
+      "confidence": "medium",
+      "research": "r8-nippes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "asian-kitchen"
     },
     {
       "id": "jamas-griechische-taverne",
@@ -13944,10 +15610,11 @@
       ],
       "cuisine_region": "southern-europe",
       "dishes": [
-        "tapas",
-        "pasta"
+        "tapas"
       ],
-      "diet": [],
+      "diet": [
+        "vegetarian"
+      ],
       "meals": [
         "dinner"
       ],
@@ -13956,9 +15623,7 @@
         "group"
       ],
       "features": [],
-      "drinks": [
-        "wine-list"
-      ],
+      "drinks": [],
       "vibe": [
         "local-favorite"
       ],
@@ -13968,7 +15633,7 @@
       "price_level": null,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -13976,56 +15641,56 @@
       "google_reviews": 402,
       "google_as_of": null,
       "rating_source": "restaurantguru.com (Google 4.5 / 402)",
-      "summary_ko": "닙페스 주택가 샤른호르스트 거리의 이탈리아 타파스 식당으로, 작은 접시 요리를 여러 개 시켜 나눠 먹는 방식이다. 구글 4.5(약 400건)로 동네 이탈리안 중 평이 좋아 2–4명 저녁에 알맞다.",
+      "summary_ko": "닙페스 주택가 샤른호르스트 거리의 이탈리아 타파스 식당으로, 작은 접시 요리를 여러 개 시켜 나눠 먹는 방식이고 채식 메뉴도 있다. 구글 4.5(약 400건)로 동네 이탈리안 중 평이 좋아 2–4명 저녁에 알맞다.",
       "must_try": [
-        "Italienische Tapas (이탈리아식 타파스 모둠)"
+        "Italienische Tapas (이탈리아식 타파스 여러 접시)"
       ],
-      "tips_ko": "작은 가게라 저녁은 예약하는 편이 안전하다(웹사이트 nippes.bisu-koeln.de). 쾰른에 다른 Bisù 지점도 있으니 주소를 확인할 것.",
+      "tips_ko": "작은 동네 식당이라 저녁은 예약하는 편이 안전하다(웹사이트 nippes.bisu-koeln.de). 쾰른에 다른 Bisù 지점('Bisù – Italienisches Speiselokal')도 있으니 주소를 확인할 것.",
       "website": "https://nippes.bisu-koeln.de",
       "awards": [],
       "award_flags": [],
       "sources": [
-        "https://restaurantguru.com/Bisu-Nippes-Cologne"
+        "https://restaurantguru.com/Bisu-Nippes-Cologne",
+        "https://restaurantguru.com/Bisu-Nippes-Cologne/menu",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
       ],
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "tapas",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "tapas"
     },
     {
-      "id": "potpourri-koln",
-      "name": "POTPOURRI Köln",
-      "category": "cafe",
+      "id": "fruh-em-golde-kappes",
+      "name": "FRÜH \"Em Golde Kappes\"",
+      "category": "brauhaus",
       "area": "nippes",
-      "address": "Mauenheimer Straße 92, 50733 Köln",
-      "lat": 50.968737,
-      "lng": 6.948815,
-      "cuisine": "Healthy brunch café with many vegan options (pancakes, bowls; weekend brunch with bottomless sparkling wine)",
-      "cuisine_country": [],
-      "cuisine_region": null,
+      "address": "Neusser Straße 295, 50733 Köln",
+      "lat": 50.965064,
+      "lng": 6.953393,
+      "cuisine": "Historic Kölsch Brauhaus (since 1913, run by Früh since 2009) with rustic Rhineland dishes",
+      "cuisine_country": [
+        "DE"
+      ],
+      "cuisine_region": "central-europe",
       "dishes": [
-        "brunch-plates",
-        "bowls",
-        "coffee"
+        "rhineland-classics"
       ],
-      "diet": [
-        "vegan",
-        "vegetarian"
-      ],
+      "diet": [],
       "meals": [
-        "breakfast",
-        "brunch",
-        "lunch"
+        "lunch",
+        "dinner"
       ],
       "occasions": [
-        "group",
-        "date"
+        "group"
       ],
       "features": [],
-      "drinks": [],
+      "drinks": [
+        "koelsch"
+      ],
       "vibe": [
-        "trendy"
+        "traditional",
+        "local-favorite"
       ],
       "reservation": "unknown",
       "payment": "unknown",
@@ -14033,7 +15698,79 @@
       "price_level": 2,
       "price_estimated": true,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [
+        "Früh Kölsch"
+      ],
+      "google_rating": 4.4,
+      "google_reviews": 2385,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.4 / 2,385); wanderlog.com 4.4 / 2,375 (earlier snapshot). Restaurant Guru's own 4.8 is not Google",
+      "summary_ko": "1913년부터 닙페스 노이서 거리(Neusser Str.)에 있던 쾰시 맥주집으로, 2009년 프뤼(Früh) 양조장이 넘겨받아 복원한 뒤 다시 열었다. 구글 리뷰 2,300여 건에 4.4로 닙페스에서 가장 이름난 브라우하우스라, 시내 관광객 인파 없이 쾰시와 라인란트 향토 요리를 즐기기 좋다.",
+      "must_try": [
+        "Früh Kölsch vom Fass (생 프뤼 쾰시)",
+        "Rheinische Küche (라인란트 향토 요리)"
+      ],
+      "tips_ko": "노이서 거리 295번지로 Café Goldjunge(291번지)·Alt Neppes(301번지)와 몇 걸음 거리다. 저녁·주말엔 붐비니 여럿이면 예약하는 편이 안전하다. 메뉴·가격은 출처에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Em-Golde-Kappes-Cologne",
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/dies-sind-die-besten-restaurants-in-koeln-nippes_em_golde_kappes_L1118008_1136456.html",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+      ],
+      "confidence": "medium",
+      "research": "r8-nippes",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "brauhaus"
+    },
+    {
+      "id": "potpourri-koln",
+      "name": "POTPOURRI Köln",
+      "category": "restaurant",
+      "area": "nippes",
+      "address": "Mauenheimer Straße 92, 50733 Köln",
+      "lat": 50.968737,
+      "lng": 6.948815,
+      "cuisine": "Restaurant-café in the Altenberger Hof with courtyard — healthy, vegan-friendly food and Sunday brunch",
+      "cuisine_country": [
+        "INT"
+      ],
+      "cuisine_region": "international",
+      "dishes": [
+        "brunch-plates",
+        "bowls"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [
+        "brunch",
+        "lunch"
+      ],
+      "occasions": [
+        "group",
+        "date"
+      ],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [],
+      "vibe": [
+        "trendy"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -14041,23 +15778,24 @@
       "google_reviews": 848,
       "google_as_of": null,
       "rating_source": "wanderlog.com place page (Google 4.4 / 848; the second score 4.0 / 17 is Tripadvisor)",
-      "summary_ko": "닙페스 북쪽 마우엔하이머 거리의 건강식 브런치 카페로, 비건 메뉴(바나나 팬케이크 등)가 많고 친절한 직원 칭찬이 많다. 구글 리뷰 800여 건에 4.4라 채식 동행이 있을 때 고르기 좋은 브런치 장소다.",
+      "summary_ko": "문화공간 알텐베르거 호프(Altenberger Hof) 안뜰에 있는 레스토랑 겸 카페로, 건강식·비건 메뉴(바나나 팬케이크 등)와 일요일 브런치로 알려져 있다. 구글 리뷰 800여 건에 4.4로, 채식하는 동행이 있을 때 고르기 좋은 브런치 장소다.",
       "must_try": [
         "Bananen-Pancakes (바나나 팬케이크 — 비건 가능)",
-        "Brunch (브런치 메뉴)"
+        "Sonntagsbrunch (일요일 브런치)"
       ],
-      "tips_ko": "스파클링 와인 무제한 브런치 구성에 무알코올 대안이 없었다는 불만 후기가 있으니 주문 전 구성 확인. 주말 브런치는 예약 권장(미확인).",
+      "tips_ko": "브런치의 스파클링 와인 무제한 구성에 무알코올 대안이 없었다는 불만 후기가 있으니 주문 전 구성을 확인할 것. 일요일 브런치는 붐빌 수 있으니 미리 자리를 확인할 것.",
       "website": null,
       "awards": [],
       "award_flags": [],
       "sources": [
-        "https://wanderlog.com/place/details/4103234/potpourri-k%C3%B6ln"
+        "https://wanderlog.com/place/details/4103234/potpourri-k%C3%B6ln",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
       ],
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "brunch",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brunch"
     },
     {
       "id": "shibuya-neusser-strasse",
@@ -14067,14 +15805,14 @@
       "address": "Neusser Straße 332, 50733 Köln",
       "lat": 50.967082,
       "lng": 6.953496,
-      "cuisine": "Japanese restaurant — sushi and ramen (Wanderlog also lists it as Daikan)",
+      "cuisine": "Japanese izakaya — ramen, sushi and bao buns (Nippes branch of Daikan; Wanderlog still lists it as 'Shibuya')",
       "cuisine_country": [
         "JP"
       ],
       "cuisine_region": "east-asia",
       "dishes": [
-        "sushi",
-        "ramen"
+        "ramen",
+        "sushi"
       ],
       "diet": [],
       "meals": [
@@ -14094,33 +15832,34 @@
       "price_level": null,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
       "google_rating": 4.4,
       "google_reviews": 563,
       "google_as_of": null,
-      "rating_source": "wanderlog.com place page 'Shibuya' (Google 4.4 / 563, captured in earlier round r2; listing re-seen in round 8)",
-      "summary_ko": "노이서 거리 332번지의 일본 식당으로 스시와 라멘을 함께 낸다. 서비스가 매우 친절하고 스시 품질이 좋으며 가게가 아늑하고 깨끗하다는 후기가 많다(구글 4.4, 563건).",
+      "rating_source": "wanderlog.com place page 'Shibuya' at Neusser Str. 332 (Google 4.4 / 563, captured in round r2; identity re-checked in round 8)",
+      "summary_ko": "노이서 거리 332번지의 일본 이자카야로, 벨기에 지구 다이칸(Daikan)의 닙페스 분점이라 라멘·스시·바오번을 낸다(Mit Vergnügen; Wanderlog엔 옛 이름 'Shibuya'로 등록). 친절한 서비스와 스시 품질, 아늑하고 깨끗한 가게 칭찬이 많고 구글 4.4(563건)다.",
       "must_try": [
-        "Sushi (스시)",
         "Ramen (라멘)",
-        "Hausgemachter Eistee (홈메이드 아이스티)"
+        "Sushi (스시)",
+        "Bao Buns (바오번)"
       ],
-      "tips_ko": "Wanderlog에는 같은 주소가 'Daikan'으로도 표시된다. 벨기에 지구의 Daikan(Maastrichter Str. 9)과 같은 계열일 수 있지만 확인되지 않았으니 지도에서는 주소로 찾을 것.",
-      "website": null,
+      "tips_ko": "지도에서는 'DAIKAN IZAKAYA (Nippes)' 또는 'Shibuya'로 나올 수 있다. Restaurant Guru엔 리뷰 없는 'Daikan, Neusser Str. 339' 항목도 따로 있으니 번지(332)로 찾을 것. 홈메이드 아이스티를 추천하는 후기가 있다.",
+      "website": "https://daikan.de",
       "awards": [],
       "award_flags": [],
       "sources": [
         "https://wanderlog.com/place/details/3490317/shibuya",
-        "https://wanderlog.com/list/geoCategory/54638/best-japanese-food-and-restaurants-in-cologne"
+        "https://restaurantguru.com/Shibuya-Cologne",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
       ],
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "sushi-bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "izakaya"
     },
     {
       "id": "thai-gourmet-nippes",
@@ -14190,30 +15929,22 @@
       "address": "Neusser Straße 171, 50733 Köln",
       "lat": 50.959648,
       "lng": 6.95428,
-      "cuisine": "Traditional German Gaststätte (pub-restaurant) with hearty, generous portions",
-      "cuisine_country": [
-        "DE"
-      ],
-      "cuisine_region": "central-europe",
-      "dishes": [
-        "schnitzel",
-        "rhineland-classics"
-      ],
+      "cuisine": "Old-style neighbourhood Gaststätte (pub-restaurant) praised for generous portions",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [],
       "diet": [],
       "meals": [
-        "lunch",
         "dinner"
       ],
       "occasions": [
         "group"
       ],
       "features": [],
-      "drinks": [
-        "koelsch"
-      ],
+      "drinks": [],
       "vibe": [
         "hidden-gem",
-        "traditional"
+        "local-favorite"
       ],
       "reservation": "unknown",
       "payment": "unknown",
@@ -14221,7 +15952,7 @@
       "price_level": null,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -14229,12 +15960,9 @@
       "google_reviews": 575,
       "google_as_of": null,
       "rating_source": "wanderlog.com place page (Google 4.3 / 575)",
-      "summary_ko": "노이서 거리 남쪽 끝(아그네스 지구 쪽)에 있는 오래된 독일식 가스트슈테테로, 양이 넉넉하고 주인·직원이 친절하다는 '숨은 맛집' 후기가 많다. 구글 4.3(575건)으로 관광지 밖에서 쾰른 동네 식당 분위기를 느끼기 좋다.",
-      "must_try": [
-        "Schnitzel (슈니첼 — 리뷰상 대표 메뉴, 미확인)",
-        "Kölsch (쾰시)"
-      ],
-      "tips_ko": "메뉴·가격은 출처에서 확인하지 못했다. 포션이 크니 1인 1메뉴면 충분하다는 후기가 많다. 영업일은 방문 전 확인.",
+      "summary_ko": "노이서 거리 171번지의 오래된 동네 가스트슈테테로, 양이 넉넉하고 주인·직원이 친절하다는 '숨은 맛집' 후기가 많다. 구글 4.3(575건)으로 관광지 밖 쾰른 동네 식당 분위기를 느끼기 좋다.",
+      "must_try": [],
+      "tips_ko": "출처에서 메뉴·요리 국적·가격을 확인하지 못했다. 양이 많다는 후기가 많으니 주문은 적게 시작할 것. 영업일은 방문 전 확인.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -14245,8 +15973,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "gasthaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "gasthaus"
     },
     {
       "id": "cafe-pause",
@@ -14261,8 +15989,7 @@
       "cuisine_region": null,
       "dishes": [
         "sandwiches",
-        "coffee",
-        "brunch-plates"
+        "coffee"
       ],
       "diet": [
         "vegan"
@@ -14285,23 +16012,23 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": 2,
+      "price_level": 1,
       "price_estimated": true,
       "price_pp": null,
-      "price_note": null,
+      "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
       "google_rating": 4.2,
       "google_reviews": 361,
       "google_as_of": null,
-      "rating_source": "wanderlog.com place page (Google 4.2 / 361; another Wanderlog list snapshot 4.2 / 379)",
-      "summary_ko": "노이서 거리의 동네 카페로 커피와 함께 구운 파니니·포카치아·크레프·토스트를 낸다. 가격과 친절한 직원 칭찬이 많고 비건 메뉴와 여름 야외석이 있어 가볍게 아침이나 점심을 먹기 좋다.",
+      "rating_source": "wanderlog.com place page (Google 4.2 / 361; a Wanderlog list snapshot shows 4.2 / 379)",
+      "summary_ko": "노이서 거리의 동네 카페로 커피와 함께 구운 파니니·포카치아·크레프·토스트를 낸다. 음식·가격·친절한 직원 칭찬이 많고 비건 메뉴와 여름 야외석이 있어 가볍게 아침이나 점심을 먹기 좋다.",
       "must_try": [
         "Panini (구운 파니니)",
         "Crêpe (크레프)"
       ],
-      "tips_ko": "구글 4.2로 기준선에 딱 걸리는 곳이라 기대치는 '편한 동네 카페' 정도로. 바로 옆 291번지가 Café Goldjunge다.",
+      "tips_ko": "구글 4.2로 기준선에 딱 걸리는 곳이라 '편한 동네 카페' 정도로 기대할 것. 바로 옆 291번지가 Café Goldjunge다.",
       "website": null,
       "awards": [],
       "award_flags": [],
@@ -14312,8 +16039,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "down-to-earth-noodles",
@@ -14368,8 +16095,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "noodle-bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "noodle-bar"
     },
     {
       "id": "stube",
@@ -14420,8 +16147,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "cafe-goldjunge-sulz",
@@ -14481,8 +16208,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "brunch",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brunch"
     },
     {
       "id": "zen-japanese-restaurant",
@@ -14617,8 +16344,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "mezze",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "mezze"
     },
     {
       "id": "landmann-in-lindenthal",
@@ -14681,8 +16408,73 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
+    },
+    {
+      "id": "plomari",
+      "name": "Plomari",
+      "category": "restaurant",
+      "area": "suelz-lindenthal",
+      "address": "Luxemburger Straße 319, Köln",
+      "lat": 50.912433,
+      "lng": 6.924478,
+      "cuisine": "Greek taverna — grilled octopus, ouzo on the house",
+      "cuisine_country": [
+        "GR"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "seafood",
+        "grill"
+      ],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 출처 없음",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 577,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com Google 4.7 / 577; wanderlog.com 장소 페이지 Google 4.7 / 552 (Tripadvisor 4.5 / 556)",
+      "summary_ko": "쥘츠·클레텐베르크 경계(쥘츠귀르텔과 룩셈부르거 거리 교차로 근처)의 그리스 타베르나로, 정통 그리스 음식과 문어구이, 주인이 내주는 우조로 구글 4.7(550–580건)을 받았다. 늘 자리가 차는 동네 인기 그리스 식당이라 여럿이 저녁을 먹기 좋다.",
+      "must_try": [
+        "Gegrillter Oktopus (문어구이)",
+        "Ouzo (우조 — 주인이 서비스로 내주는 경우가 많다는 리뷰)"
+      ],
+      "tips_ko": "자리가 금방 차서 예약을 권한다(리뷰). 주소는 Wanderlog·Restaurant Guru 기준 Luxemburger Str. 319이고, Wolt·freizeitmonster는 'Sülzgürtel 96, 50937 Köln'으로 적는다(모퉁이 건물로 보이나 미확인). 2017년 리뷰엔 주인이 바뀐 뒤 양이 줄고 가격이 올랐다는 평도 있다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Plomari-Cologne",
+        "https://wanderlog.com/place/details/1188798/plomari",
+        "https://wanderlog.com/list/geoCategory/786948/best-greek-foods-and-restaurants-in-cologne",
+        "https://wolt.com/de/deu/cologne/restaurant/plomari-koeln/items/meeresfruchte-9",
+        "https://freizeitmonster.de/blog/gyros-essen-koeln"
+      ],
+      "confidence": "medium",
+      "research": "r8-candidates",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "grill"
     },
     {
       "id": "holm-kaffeerosterei-cafe",
@@ -14738,8 +16530,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "cafe-bo",
@@ -14797,8 +16589,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "brunch",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brunch"
     },
     {
       "id": "bisu-sulz",
@@ -14862,8 +16654,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "tapas",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "tapas"
     },
     {
       "id": "sakura",
@@ -14920,8 +16712,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "sushi-bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "sushi-bar"
     },
     {
       "id": "restaurant-kuschari-konig",
@@ -14977,8 +16769,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "darwish-konditorei",
@@ -15097,8 +16889,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "gasthaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "gasthaus"
     },
     {
       "id": "sulzer-kebab",
@@ -15153,8 +16945,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "kebab",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kebab"
     },
     {
       "id": "el-habab",
@@ -15214,8 +17006,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "ristorante-faro",
@@ -15270,8 +17062,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "ristorante",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "ristorante"
     },
     {
       "id": "pizzeria-trattoria-siciliana",
@@ -15323,8 +17115,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "pizzeria",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "pizzeria"
     },
     {
       "id": "haus-unkelbach",
@@ -15390,8 +17182,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "deli-sulz",
@@ -15456,8 +17248,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "bistro",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "bistro"
     },
     {
       "id": "falafel-shawarma-sulz",
@@ -15515,8 +17307,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "heilandt-cafe-sulz",
@@ -15569,8 +17361,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "afghanisches-persisches-mari-restaurant",
@@ -15587,18 +17379,14 @@
       ],
       "cuisine_region": "middle-east",
       "dishes": [
-        "kebab",
-        "grill"
+        "kebab"
       ],
       "diet": [],
       "meals": [
         "lunch",
         "dinner"
       ],
-      "occasions": [
-        "group",
-        "family"
-      ],
+      "occasions": [],
       "features": [],
       "drinks": [],
       "vibe": [],
@@ -15633,8 +17421,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "buffet",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "buffet"
     },
     {
       "id": "enat-aethiopisches-restaurant",
@@ -15770,8 +17558,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "haldispoon",
@@ -15834,8 +17622,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "nobiko",
@@ -15901,8 +17689,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "noodle-bar",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "noodle-bar"
     },
     {
       "id": "villa-kalka",
@@ -15970,8 +17758,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "van-dyck-mulheim",
@@ -16028,8 +17816,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "bhasin",
@@ -16093,71 +17881,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "curry-house",
-      "coord_source": "nominatim"
-    },
-    {
-      "id": "tomoki-restaurant",
-      "name": "Tomoki Restaurant",
-      "category": "restaurant",
-      "area": "muelheim-kalk",
-      "address": "Formesstraße 2, 51063 Köln",
-      "lat": 50.959653,
-      "lng": 6.996536,
-      "cuisine": "Vietnamese and sushi restaurant (Asian kitchen)",
-      "cuisine_country": [
-        "VN",
-        "JP"
-      ],
-      "cuisine_region": "southeast-asia",
-      "dishes": [
-        "sushi"
-      ],
-      "diet": [],
-      "meals": [
-        "lunch",
-        "dinner"
-      ],
-      "occasions": [
-        "group",
-        "date"
-      ],
-      "features": [],
-      "drinks": [],
-      "vibe": [
-        "local-favorite"
-      ],
-      "reservation": "unknown",
-      "payment": "unknown",
-      "location": [],
-      "price_level": null,
-      "price_estimated": false,
-      "price_pp": null,
-      "price_note": "가격 정보 미확인",
-      "beer_price_eur": null,
-      "beer_price_note": null,
-      "beers": [],
-      "google_rating": 4.7,
-      "google_reviews": 510,
-      "google_as_of": null,
-      "rating_source": "wanderlog.com (Google ~4.7 / 510)",
-      "summary_ko": "뮐하임의 베트남·스시 레스토랑으로, 베트남 클래식 요리와 스시를 함께 낸다(Mit Vergnügen 2026). 리뷰에서 신선한 재료와 서비스가 자주 칭찬받는다.",
-      "must_try": [
-        "Sushi (스시)"
-      ],
-      "tips_ko": "영업시간은 이번 조사에서 확인하지 못했다. 뮐하임 중심가에서 가깝다.",
-      "website": null,
-      "awards": [],
-      "award_flags": [],
-      "sources": [
-        "https://wanderlog.com/place/details/9830897/tomoki-restaurant",
-        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/"
-      ],
-      "confidence": "medium",
-      "research": "r8-muelheim",
-      "checked": "2026-11-07",
-      "style": "asian-kitchen",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "curry-house"
     },
     {
       "id": "ristorante-d-amore",
@@ -16219,8 +17944,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "pizzeria",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "pizzeria"
     },
     {
       "id": "gilden-brauhaus",
@@ -16285,8 +18010,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "trash-chic",
@@ -16353,8 +18078,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "kneipe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "kneipe"
     },
     {
       "id": "cigkoftem-keupstrasse",
@@ -16417,8 +18142,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "streetfood",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "streetfood"
     },
     {
       "id": "scampino",
@@ -16483,8 +18208,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": null,
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "seafood"
     },
     {
       "id": "cafe-vreiheit",
@@ -16548,8 +18273,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "brunch",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brunch"
     },
     {
       "id": "konditorei-kluppelberg",
@@ -16605,8 +18330,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "dessert",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "dessert"
     },
     {
       "id": "kunefem-damla",
@@ -16666,8 +18391,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "dessert",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "dessert"
     },
     {
       "id": "blauer-konig",
@@ -16723,8 +18448,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "home-cooking",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "home-cooking"
     },
     {
       "id": "buyuk-harran-doy-doy",
@@ -16782,8 +18507,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": null,
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "grill"
     },
     {
       "id": "cafe-jakubowski",
@@ -16840,8 +18565,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "cafe",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "cafe"
     },
     {
       "id": "kilim-restaurant",
@@ -16905,7 +18630,7 @@
       "verification_note": "최신 구글 리뷰 2025-07(Wanderlog) → 영업 중. Wanderlog 구글 4.3/3,027·top-rated 4.30/1,777은 워크리스트 3,248보다 적은 옛 스냅샷이라 갱신 안 함(RG도 구글 4.3). 라흐마준 호평. 옆집 Kilim 베이커리(Keupstr. 73)는 별개 업소. 배달 없음(리뷰).",
       "latest_review": "2025-07",
       "price_checked": "2026-11",
-      "style": "grill"
+      "style": "pide"
     },
     {
       "id": "brauwelt-koln-kalk",
@@ -16975,8 +18700,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "brauhaus",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "brauhaus"
     },
     {
       "id": "localino",
@@ -17041,8 +18766,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "pizzeria",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "pizzeria"
     },
     {
       "id": "damla-keupstrasse",
@@ -17101,8 +18826,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "dessert",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "dessert"
     },
     {
       "id": "bulgogi-haus",
@@ -17226,8 +18951,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "ice-cream",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "style": "ice-cream"
     },
     {
       "id": "il-gelato-di-ferigo",
