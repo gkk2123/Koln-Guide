@@ -26,6 +26,7 @@
       "r5-tickets-dates.json",
       "r5-tickets-dom-city.json",
       "r5-tickets-private.json",
+      "r6-price-a.json",
       "r6-price-b.json",
       "wine-places.json"
     ],
@@ -59,10 +60,13 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 3,
       "price_estimated": false,
-      "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_pp": {
+        "min": 31,
+        "max": 50
+      },
+      "price_note": "OpenTable 가격대 €31–50 (같은 주소 'Artistanbul Restaurant'로 등록, 날짜 없음) — 메뉴별 가격은 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -83,7 +87,8 @@
         "https://wanderlog.com/list/geoCategory/29648/best-restaurants-to-have-dinner-in-cologne",
         "https://www.11880.com/suche/mezze/koeln",
         "https://www.opentable.co.uk/r/artistanbul-restaurant-koln",
-        "https://www.opentable.ae/r/artistanbul-restaurant-koln"
+        "https://www.opentable.ae/r/artistanbul-restaurant-koln",
+        "https://joinpearl.co/restaurants/cologne-germany/artistanbul-meze"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -93,6 +98,7 @@
       "verification_status": "unknown",
       "verification_note": "이번 검색에서 구글 평점·리뷰 수·최근 리뷰를 찾지 못해 영업 여부 미확인(폐업 신호도 못 봄). 11880에 'Artistanbul Meze'(Komödienstraße 52, Altstadt-Nord, 전화 0162 3662942) 등록은 있으나 영업시간 없음. OpenTable 'Artistanbul Restaurant'(같은 주소) 4.7/9표, 다른 OpenTable 페이지는 Porz 지점으로 연결돼 지점 혼동 가능. 방문 전 구글 지도 확인 권장.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "mezze"
     },
     {
@@ -190,10 +196,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "테이블 그릴 프리미엄 앙트르코트 200 g €32·블랙타이거 새우 200 g €23 (2025-09 메뉴); 로제 떡볶이·데리야키 치킨 €15, 양념치킨 €13부터 (2023 기사)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -215,7 +221,8 @@
         "https://wanderlog.com/place/details/7033962/gangnamstyle-korean-bbq--bulgogi--bar",
         "https://koeln.mitvergnuegen.com/2023/gangnamstyle",
         "https://koeln.mitvergnuegen.com/2025/koreanisch-essen",
-        "https://www.speisekarte.de/k%C3%B6ln/restaurant/gangnamstyle_korean_bbq_bulgogi_bar"
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/gangnamstyle_korean_bbq_bulgogi_bar",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/gangnamstyle_korean_bbq_bulgogi_bar/speisekarte"
       ],
       "confidence": "medium",
       "research": "r2-east-asia",
@@ -225,6 +232,7 @@
       "verification_status": "unknown",
       "verification_note": "구글 수치·최근 리뷰를 찾지 못해 현재 영업 여부 미확인(폐업 신호도 없음). 주소 Thurnmarkt 7, 50676은 Mit Vergnügen 2023 기사와 일치, 같은 매체의 2024·2025년판 '쾰른 한식' 목록이 함께 검색됨. 2023 기사 영업시간: 월–목 17–22:30, 금 17–23, 토 12–23, 일 12–22:30(변경 가능). speisekarte.de는 리뷰 0건.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "grill"
     },
     {
@@ -324,10 +332,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인(리뷰: 점심 가격이 합리적)",
+      "price_note": "라멘 €14.90–16.90·우동 €13.90 (Wolt 배달 메뉴, 날짜 없음); 2022 기사: 전 메뉴 €15 이하",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -336,7 +344,11 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (Google)",
       "summary_ko": "시내 쇼핑가 브라이테 거리의 WDR 아케이드(WDR Arkaden) 안에 있는 라멘·스시·아시아 요리집으로, 라멘이 맛있고 점심 가격이 합리적이라는 평이 많다. 대성당 주변 관광이나 쇼핑 중 점심 한 그릇에 좋지만, 서비스가 느릴 때가 있다.",
-      "must_try": [],
+      "must_try": [
+        "Veggie TanTan Ramen (베지 탄탄 라멘 — 매콤한 참깨 채식 라멘)",
+        "Beji Miso Ramen (베지 미소 라멘 — 미소 육수 채식 라멘)",
+        "Tonkotsu Ramen (돈코츠 라멘 — 진한 돼지뼈 육수 라멘)"
+      ],
       "tips_ko": "점심 가성비가 좋다는 리뷰가 많습니다. 붐비면 서비스가 느려질 수 있습니다. 전화 +49 221 88889999.",
       "website": null,
       "awards": [],
@@ -346,7 +358,9 @@
         "https://wolt.com/de/deu/cologne/restaurant/coco-ramen",
         "https://www.lieferando.de/en/menu/coco-ramen",
         "https://www.koeln.de/branchen/eintrag/47375/sushi-bars/coco-ramen",
-        "https://plantspack.com/place/coco-ramen-koln"
+        "https://plantspack.com/place/coco-ramen-koln",
+        "https://wolt.com/en/deu/cologne/restaurant/coco-ramen",
+        "https://koeln.mitvergnuegen.com/2022/coco-ramen-die-besten-veggie-ramen-koelns"
       ],
       "confidence": "medium",
       "research": "r2-east-asia",
@@ -356,6 +370,7 @@
       "verification_status": "open",
       "verification_note": "구글 수치는 확인 못 함(Spinach 4.1은 구글 아님). Wolt·Lieferando 배달 페이지 활성 — 간접 영업 신호. Wolt 영업시간 월–토 12:00–21:30, 일 14:00–19:30(PlantsPack은 월–토 ~22시, 일 ~20시). 주소는 WDR 아케이드 Breite Str. 26, 50667로 일치(Lieferando·koeln.de는 'Breite Straße 6-26', Wolt의 우편번호 50739는 오기로 보임).",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "ramen-bar"
     },
     {
@@ -663,7 +678,10 @@
         "https://restaurantguru.com/El-Chango-Cologne",
         "https://wanderlog.com/list/geoCategory/1503221/best-steaks-in-cologne",
         "https://www.11880.com/branchenbuch/koeln/071364395B27993131/el-chango-argentinisches-restaurant.html",
-        "https://www.tripadvisor.com/Restaurant_Review-g187371-d2317301-Reviews-El_Chango-Cologne_North_Rhine_Westphalia.html"
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d2317301-Reviews-El_Chango-Cologne_North_Rhine_Westphalia.html",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/el_chango/speisekarte",
+        "https://www.koeln.de/tourismus/ll/beliebte-restaurants-in-der-koelner-altstadt/el-chango/",
+        "https://prinz.de/koeln/locations/86620-el-chango/"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -673,6 +691,7 @@
       "verification_status": "open",
       "verification_note": "구글 4.5 재확인. 이번 조회 리뷰 수(1,841–1,906)가 기존 1,929보다 적어 기존 값 유지(스냅샷 차이). 2026년 트립어드바이저 리뷰에서 메뉴 변경 언급 → 영업 중. 숯불 스테이크·새우/버섯 아히요 호평, 서비스 속도 불만 일부. 트립어드바이저 약 4.2/628.",
       "latest_review": "2026",
+      "price_checked": "2026-11",
       "style": "steakhouse"
     },
     {
@@ -698,10 +717,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "koeln.de: 수프 약 €7, 메인 대부분 €10 미만, 가장 비싼 메뉴도 €15 미만 (날짜 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -710,7 +729,10 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (Google 4.4 / 948); restaurantguru.com Google 4.4",
       "summary_ko": "구시가 호이마르크트(Heumarkt) 광장, 같은 이름의 정류장 가까이에 있는 태국 레스토랑입니다(4.4, 리뷰 748개). 벨기에 지구 1호점에 이은 2호점입니다. 대성당과 라인강변을 둘러본 뒤 앉아서 태국 음식을 먹기 편한 위치입니다.",
-      "must_try": [],
+      "must_try": [
+        "Thai-Curry mit Reis (타이 커리 — 밥을 곁들인 태국식 커리)",
+        "Frühlingsrollen (스프링롤 — 바삭한 태국식 튀김 춘권)"
+      ],
       "tips_ko": "벨기에 지구 지점(Brüsseler Str. 40-42)은 평점이 4.2로 조금 낮습니다.",
       "website": null,
       "awards": [],
@@ -718,7 +740,9 @@
       "sources": [
         "https://www.top-rated.online/cities/Koeln/place/p/2223278/Krua+Thai+2+-+Heumarkt",
         "https://wanderlog.com/place/details/3690494/krua-thai-am-heumarkt",
-        "https://restaurantguru.com/Krua-Thai-Cologne-2"
+        "https://restaurantguru.com/Krua-Thai-Cologne-2",
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/koelns-beste-imbisse-und-fast-food-laeden_krua-thai-thail-ndisch_L1127923_1127775.html",
+        "https://www.meininger-hotels.com/blog/besten-imbisse-in-koeln/"
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
@@ -729,7 +753,8 @@
       "verification_note": "리뷰 수 748 → 948 갱신(활동 신호). 정통 태국 맛·양 많고 가격 합리적이라는 평. 셀프서비스·일회용 컵, 카드 결제 수수료 불만, 팟타이 실망 리뷰 일부. top-rated.online 상호는 'Krua Thai 2 – Heumarkt'. Restaurant Guru 4.8은 자체 합산 점수.",
       "latest_review": null,
       "google_previous": "4.4 (748)",
-      "style": null
+      "price_checked": "2026-11",
+      "style": "streetfood"
     },
     {
       "id": "buddhas-eye",
@@ -1101,10 +1126,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "Zabihah 가격 등급 $$ (중간) — 메뉴 가격 미확인; 샌드위치 3.50부터 (Spotted by Locals, 날짜 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -1125,7 +1150,9 @@
         "https://wanderlog.com/place/details/763650/beirut-restaurant",
         "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
         "https://yably.de/bewertungen/koeln/beirut-restaurant-buttermarkt-3",
-        "https://restaurantguru.com/Beirut-Cologne"
+        "https://restaurantguru.com/Beirut-Cologne",
+        "https://www.zabihah.com/restaurants/cb4f7622-7767-11ef-95ae-6045bdeb9f57/beirut-kln-nordrhein-westfalen",
+        "https://www.spottedbylocals.com/cologne/beirut"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -1135,6 +1162,7 @@
       "verification_status": "open",
       "verification_note": "구글 4.2 재확인. 이번 조회 리뷰 수가 기존 3,692보다 적어 기존 값 유지(스냅샷 차이). 매일 12:00–23:00(Yably, 공휴일 ~24시). 11880의 '수요일 12시까지 닫힘' 표시는 오래된 스냅샷으로 보임. 메제 플레이트·믹스 그릴 추천, 좁다는 평, 예약 권장.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "mezze"
     },
     {
@@ -6821,10 +6849,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "일부 메뉴만 확인: 전채 €6.80–9.80, 국수탕 등 메인 약 €11.80까지 (Wolt), 새콤달콤 돼지갈비 €8.80 (speisekarte.de 2024-01)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -6846,7 +6874,9 @@
         "https://restaurantguru.com/Tang-Wang-Cologne",
         "https://wanderlog.com/place/details/1525287/tang-wang-k%C3%B6ln",
         "https://wanderlog.com/list/geoCategory/22508/best-chinese-food-in-cologne",
-        "https://www.11880.com/branchenbuch/koeln/071364406B54135957/resturant-tang-wang-restaurant.html"
+        "https://www.11880.com/branchenbuch/koeln/071364406B54135957/resturant-tang-wang-restaurant.html",
+        "https://wolt.com/de/deu/cologne/restaurant/tang-wang",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/tang_wang1/speisekarte"
       ],
       "confidence": "high",
       "research": "r2-east-asia",
@@ -6856,6 +6886,7 @@
       "verification_status": "open",
       "verification_note": "새 구글 수치 없음(기존 Restaurant Guru 구글 4.7/685 유지 권장). Wanderlog 영업: 점심·저녁, 토 11:30–22:30, 일 11:30–15:00·17:30–22:30. 11880은 11–15·17–23시와 '닫힘' 표시가 있으나 오래된 스냅샷으로 보임. 정통 중식(마파두부·궁보계정) 호평. 전화 +49 221 82956288.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -6957,10 +6988,13 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 3,
       "price_estimated": false,
-      "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_pp": {
+        "min": 31,
+        "max": 50
+      },
+      "price_note": "OpenTable 가격대 €31–50; 미쉐린 빕 구르망 €€ (2025-01 '이달의 빕'); 3코스를 직접 골라 구성하는 방식",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -6982,7 +7016,9 @@
         "https://www.hogapage.de/nachrichten/wirtschaft/gastronomie/guide-michelin-2023-sterne-rekord-für-deutsche-spitzengastronomen/?page=6",
         "https://wanderlog.com/place/details/884741/caruso-pastabar",
         "https://restaurantguru.com/Pasta-Bar-Cologne-2",
-        "https://www.tripadvisor.com/Restaurant_Review-g187371-d718264-Reviews-or30-Caruso_Pastabar-Cologne_North_Rhine_Westphalia.html"
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d718264-Reviews-or30-Caruso_Pastabar-Cologne_North_Rhine_Westphalia.html",
+        "https://www.opentable.ie/r/caruso-pastabar-koln",
+        "https://guide.michelin.com/de/de/article/dining-out/unser-bib-des-monats-caruso-pastabar-in-koln"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -6993,6 +7029,7 @@
       "verification_note": "평점 4.7 → 4.6 소폭 하락(리뷰 957 → 994). 영업 월–토 18:00–23:00(Wanderlog는 17:30~), 일요일 휴무. 파스타·서비스 호평. 트립어드바이저 4.6/690. 전화 +49 221 9386311, caruso-pastabar.de.",
       "latest_review": null,
       "google_previous": "4.7 (957)",
+      "price_checked": "2026-11",
       "style": "pasta-bar"
     },
     {
@@ -7075,10 +7112,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "Wanderlog '저렴한 맛집(cheap eats)' 목록에 포함 — 메뉴 가격은 미확인",
+      "price_note": "아다나 케밥 €17.90·안테프 에즈메 €5.90 (speisekarte.de 2023-05 메뉴)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -7087,7 +7124,11 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (Google)",
       "summary_ko": "중앙역 북쪽 아이겔슈타인 지구 바이덴가세의 터키 레스토랑으로, 이름의 '하란(Harran)'은 터키 남동부의 지명이다. Wanderlog '쾰른 저렴한 맛집' 목록에 구글 평점 4.4(2,404건)로 올라 있다.",
-      "must_try": [],
+      "must_try": [
+        "Adana Kebap (아다나 케밥 — 매콤한 다진 고기 꼬치구이)",
+        "Lahmacun (라마준 — 다진 고기를 얹은 얇은 튀르키예식 피자)",
+        "Lammkopfsuppe (양 머리 수프 — 튀르키예식 켈레 파차)"
+      ],
       "tips_ko": "이름이 비슷한 'Büyük Harran Doy Doy'(구글 4.4·6,142건, 주소 미확인)와는 별개 가게. 메뉴 세부 정보는 이번 조사에서 미확인.",
       "website": null,
       "awards": [],
@@ -7098,7 +7139,9 @@
         "https://wanderlog.com/place/details/1160462/%C3%B6z-harran-doy-doy",
         "https://yably.de/bewertungen/koeln/oez-harran-doy-doy-weidengasse-28-34",
         "https://restaurantguru.com/Oez-Harran-Cologne",
-        "https://www.tripadvisor.de/Restaurant_Review-g187371-d4114963-Reviews-Oz_Harran_Doy_Doy-Cologne_North_Rhine_Westphalia.html"
+        "https://www.tripadvisor.de/Restaurant_Review-g187371-d4114963-Reviews-Oz_Harran_Doy_Doy-Cologne_North_Rhine_Westphalia.html",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/oez_harran_doy_doy/speisekarte",
+        "https://www.koeln.de/leben/ll/imbisse-und-fast-food-in-koeln/oez-harran-doy-doy/"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -7108,7 +7151,8 @@
       "verification_status": "open",
       "verification_note": "구글 4.4 재확인. 이번 조회 리뷰 수가 기존 2,404보다 적어 기존 값 유지. 심야 영업: 트립어드바이저 월–금 ~05:00, 토 ~07:00(11880의 9–24시는 오래된 정보로 보임). Restaurant Guru 페이지는 약 759일 전 스냅샷. 전화 +49 221 1307394.",
       "latest_review": null,
-      "style": null
+      "price_checked": "2026-11",
+      "style": "kebab"
     },
     {
       "id": "gogi-matcha-koeln",
@@ -7138,10 +7182,10 @@
       "reservation": "recommended",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "2019 기사: 고기·해물 볶음 요리 €15–17.50, 찌개 €14.50–15.50, 채식 메인 €10–13, 점심 €7–10 (최신 가격 미확인)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -7173,6 +7217,7 @@
       "verification_status": "open",
       "verification_note": "구글 4.4/1,388 재확인. 트립어드바이저 리뷰가 82 → 90건으로 늘어 활동 지속(평점 4.0). 토 17:00–00:30 영업 표기. 작고 인기 많아 예약 권장, 포장 가능. 해물파전·김치전 호평, 일부 메인이 달거나 평범하다는 평. 전화 +49 221 72024255.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -7267,10 +7312,10 @@
       "location": [
         "near-messe"
       ],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "뇨키 €15.90·봉골레 스파게티 €14.90·브루스케타 €12.90 (speisekarte.de 2025-10); 피자 €11.90–14.90 (2023 기사)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -7292,7 +7337,8 @@
         "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/nuvola-napoli/",
         "https://koeln.mitvergnuegen.com/2023/nuvola-napoli/",
         "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/",
-        "https://www.reviewhero.io/de/neapolitanisches-restaurant/koeln"
+        "https://www.reviewhero.io/de/neapolitanisches-restaurant/koeln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/nuvola_napoli/speisekarte"
       ],
       "confidence": "high",
       "research": "fnb-deutz-messe",
@@ -7302,6 +7348,7 @@
       "verification_status": "open",
       "verification_note": "주소 일치(Deutzer Freiheit 66a). MV 2025 도이츠 맛집 기사 등재 → 영업 중. 영업 월–금 12–22시, 주말 13시 또는 15시–22시(출처별 상이). Reviewhero 4.8/903(구글 여부 불명), spinach 4.1 — 워크리스트의 spinach 4.8/1,172와 불일치, 구글 수치 재확인 필요.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "pizzeria"
     },
     {
@@ -7639,6 +7686,7 @@
       "verification_status": "open",
       "verification_note": "RG 구글 4.5/128(워크리스트와 동일). werkenntdenbesten은 구글 4.6/73(2025-10-22 갱신)으로 건수 차이 — 리스팅 중복 또는 시점 차. MV 2025 기사: 화–토 12–15·17–22:30, 일 12–22:30, 월 휴무 → 영업 중.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -7941,10 +7989,10 @@
       "location": [
         "near-messe"
       ],
-      "price_level": null,
+      "price_level": 1,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "speisekarte.de: 메인 대부분 €15 미만 (날짜 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -7971,7 +8019,8 @@
         "https://tripaligner.com/countries/germany-22/destinations/koln-8618/places/cafe-especial-koln-983157",
         "https://wanderlog.com/place/details/2150977/cafe-especial-k%C3%B6ln",
         "https://restaurantguru.com/Cafe-Especial-Cologne",
-        "https://koeln.mitvergnuegen.com/2026/mexikanisch-essen/"
+        "https://koeln.mitvergnuegen.com/2026/mexikanisch-essen/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/cafe_especial"
       ],
       "confidence": "medium",
       "research": "fnb-deutz-messe",
@@ -7982,6 +8031,7 @@
       "verification_note": "구글 리뷰 수 증가(3,473 → 3,517). 주소 일치(Neuhöfferstraße 32). Mit Vergnügen 2026 멕시칸 기사에 '월–일 12시부터'로 등재 → 영업 중. 매콤하지만 균형 잡힌 메뉴·친절한 직원 칭찬, 맛이 밋밋하고 느리다는 불만도.",
       "latest_review": null,
       "google_previous": "4.2 (3473)",
+      "price_checked": "2026-11",
       "style": "cantina"
     },
     {
@@ -8008,10 +8058,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "도로 왓 €16.50·삼부사 €6.50·도로 티브스(감자튀김 포함) €8.90 (speisekarte.de 2025-10 메뉴)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -8020,7 +8070,11 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com 아프리카 음식 리스트 (Google 4.9/565)",
       "summary_ko": "강 건너 칼크 지역의 에티오피아 레스토랑(에리트레아 요리로도 분류)으로, 구글 평점 4.9(396건)로 쾰른 아프리카 음식점 가운데 가장 높은 축의 평가를 받는다. 도심에서 떨어져 있지만 에티오피아 음식에 관심이 있다면 찾아갈 만하다.",
-      "must_try": [],
+      "must_try": [
+        "Doro Wat (도로 왓 — 매콤한 에티오피아식 닭고기 스튜)",
+        "Doro Tibs (도로 티브스 — 에티오피아식 닭고기 볶음)",
+        "Sambusa (삼부사 — 속을 채운 바삭한 튀김 페이스트리)"
+      ],
       "tips_ko": "메뉴·영업시간은 이번 조사에서 미확인 — 방문 전 확인할 것.",
       "website": null,
       "awards": [],
@@ -8029,7 +8083,9 @@
         "https://wanderlog.com/list/geoCategory/797742/best-african-foods-and-restaurants-in-cologne",
         "https://app.wanderlog.com/list/geoCategory/797742/african-restaurants",
         "https://wanderlog.com/place/details/12528597/enat-%C3%A4thiopisches-restaurant",
-        "https://koeln.mitvergnuegen.com/2025/restaurants-afrikanisch-essen/"
+        "https://koeln.mitvergnuegen.com/2025/restaurants-afrikanisch-essen/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/enat_aethiopisches_restaurant/speisekarte",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/enat_aethiopisches_restaurant1/speisekarte"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -8040,6 +8096,7 @@
       "verification_note": "구글 리뷰 수 변경: 396 → 565(Wanderlog 리스트, 더 최신 스냅샷으로 추정; 장소 페이지는 4.9/396). RG 자체 4.8/550. 주소 일치(Remscheider Str. 45, 51103). 영업 월–금 17–23, 토·일 16–23시(MV 2025 기사로 추정). 검색에서 본 최신 날짜 리뷰는 2025-01. 커피 세리머니·채식 플래터 호평, 대기·식기 부족 불만.",
       "latest_review": "2025-01",
       "google_previous": "4.9 (396)",
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -8330,10 +8387,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "koeln.de: 메제 1접시 약 €7–10 이상, 양갈비 등 메인은 €30을 넘기도 함; 수블라키 €14 (speisekarte.menu, 날짜 없음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -8353,7 +8410,9 @@
         "https://wanderlog.com/place/details/3984169/jamas-griechische-taverne-k%C3%B6ln",
         "https://wanderlog.com/list/geoCategory/786948/best-greek-foods-and-restaurants-in-cologne",
         "https://restaurantguru.com/Jamas-Cologne",
-        "https://top-rated.online/cities/Nippes/place/p/6079405/Jamas+Griechische+Taverne+-+K%C3%B6ln"
+        "https://top-rated.online/cities/Nippes/place/p/6079405/Jamas+Griechische+Taverne+-+K%C3%B6ln",
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/dies-sind-die-besten-restaurants-in-koeln-nippes_taverne_jamas_L1118008_1118000.html",
+        "https://speisekarte.menu/restaurants/koeln/jamas-4/menu"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -8364,7 +8423,8 @@
       "verification_note": "구글 리뷰 수 증가(426 → 451, RG) → 영업 정황. Wanderlog 4.5/426, top-rated 4.50/354는 옛 스냅샷. 주소 일치(Sechzigstraße 1, 50733). 날짜 있는 최신 리뷰는 못 봄. 메제·수블라키·야외석 호평, 대기 길고 최소 주문(약 €20–25) 압박·주인 불친절 불만. 여름엔 예약 권장.",
       "latest_review": null,
       "google_previous": "4.5 (426)",
-      "style": "tapas"
+      "price_checked": "2026-11",
+      "style": "mezze"
     },
     {
       "id": "thai-gourmet-nippes",
@@ -8412,7 +8472,8 @@
         "https://www.top-rated.online/cities/Cologne/place/p/4167204/Thai+Gourmet?r",
         "https://restaurantguru.com/Thai-Gourmet-Cologne",
         "https://top-rated.online/cities/Nippes/place/p/6078579/Thai+Gourmet",
-        "https://restaurantguru.com/Thai-Gourmet-Cologne-2"
+        "https://restaurantguru.com/Thai-Gourmet-Cologne-2",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/thai_gourmet_nippes/speisekarte"
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
@@ -8422,6 +8483,7 @@
       "verification_status": "open",
       "verification_note": "수치 불일치: RG 'Thai Gourmet (311 Neusser)' 4.2/746표(이 중 구글 약 716건, 구글 별점은 명시 안 됨) vs top-rated 구글 4.4/540(주소 Neusser Str. 311 확인) → 갱신 보류. Neusser Str. 207의 'Thai Gourmet 2'와 혼동 주의(RG는 이 지점이 예전에 'Thai Gourmet 2'였을 수 있다고 표기). 16–17시 휴식 시간 언급. 싸고 빠르고 양 많다는 평, 테이크아웃 인기. 날짜 있는 최신 리뷰는 못 봄.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -8449,10 +8511,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "Zabihah 가격 등급 $ (저렴) — 메뉴 가격 미확인; Wanderlog 리뷰 '합리적 가격'",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -8473,7 +8535,9 @@
         "https://wanderlog.com/place/details/1160436/kilim-restaurant",
         "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
         "https://restaurantguru.com/Kilim-Cologne",
-        "https://www.top-rated.online/cities/Nippes/place/p/8242334/Kilim+Restaurant"
+        "https://www.top-rated.online/cities/Nippes/place/p/8242334/Kilim+Restaurant",
+        "https://www.zabihah.com/restaurants/ca3cfa70-7767-11ef-95ae-6045bdeb9f57/kilim-kln-nordrhein-westfalen",
+        "https://wanderlog.com/place/details/2701792/restaurant-kilim"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -8483,6 +8547,7 @@
       "verification_status": "open",
       "verification_note": "최신 구글 리뷰 2025-07(Wanderlog) → 영업 중. Wanderlog 구글 4.3/3,027·top-rated 4.30/1,777은 워크리스트 3,248보다 적은 옛 스냅샷이라 갱신 안 함(RG도 구글 4.3). 라흐마준 호평. 옆집 Kilim 베이커리(Keupstr. 73)는 별개 업소. 배달 없음(리뷰).",
       "latest_review": "2025-07",
+      "price_checked": "2026-11",
       "style": "grill"
     }
   ]

@@ -1,0 +1,408 @@
+{
+  "agent": "r6-price-a",
+  "generated": "2026-11-07",
+  "price_updates": [
+    {
+      "id": "artistanbul-meze",
+      "name": "Artistanbul Meze",
+      "price_level": 3,
+      "price_pp": {"min": 31, "max": 50},
+      "price_note_ko": "OpenTable 가격대 €31–50 (같은 주소 'Artistanbul Restaurant'로 등록, 날짜 없음) — 메뉴별 가격은 미확인",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "mezze",
+      "signature_ko": [],
+      "sources": [
+        "https://www.opentable.co.uk/r/artistanbul-restaurant-koln",
+        "https://joinpearl.co/restaurants/cologne-germany/artistanbul-meze"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "gangnamstyle-korean-bbq",
+      "name": "Gangnamstyle Korean BBQ • Bulgogi • Bar",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "테이블 그릴 프리미엄 앙트르코트 200 g €32·블랙타이거 새우 200 g €23 (2025-09 메뉴); 로제 떡볶이·데리야키 치킨 €15, 양념치킨 €13부터 (2023 기사)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/gangnamstyle_korean_bbq_bulgogi_bar/speisekarte",
+        "https://koeln.mitvergnuegen.com/2023/gangnamstyle"
+      ],
+      "confidence": "high",
+      "checked": "2026-11"
+    },
+    {
+      "id": "coco-ramen-sushi",
+      "name": "COCO Ramen – Sushi – Asian kitchen",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "라멘 €14.90–16.90·우동 €13.90 (Wolt 배달 메뉴, 날짜 없음); 2022 기사: 전 메뉴 €15 이하",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "ramen-bar",
+      "signature_ko": [
+        "Veggie TanTan Ramen (베지 탄탄 라멘 — 매콤한 참깨 채식 라멘)",
+        "Beji Miso Ramen (베지 미소 라멘 — 미소 육수 채식 라멘)",
+        "Tonkotsu Ramen (돈코츠 라멘 — 진한 돼지뼈 육수 라멘)"
+      ],
+      "sources": [
+        "https://wolt.com/en/deu/cologne/restaurant/coco-ramen",
+        "https://koeln.mitvergnuegen.com/2022/coco-ramen-die-besten-veggie-ramen-koelns"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "el-chango",
+      "name": "El Chango",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "스테이크 가격 미확인 — 엠파나다 €11.70·샐러드 €8.40–12.80 (speisekarte.de 2026-04 메뉴), 사이드는 별도 주문(Prinz)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "steakhouse",
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/el_chango/speisekarte",
+        "https://www.koeln.de/tourismus/ll/beliebte-restaurants-in-der-koelner-altstadt/el-chango/",
+        "https://prinz.de/koeln/locations/86620-el-chango/"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "krua-thai-heumarkt",
+      "name": "Krua Thai am Heumarkt",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note_ko": "koeln.de: 수프 약 €7, 메인 대부분 €10 미만, 가장 비싼 메뉴도 €15 미만 (날짜 없음)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "streetfood",
+      "signature_ko": [
+        "Thai-Curry mit Reis (타이 커리 — 밥을 곁들인 태국식 커리)",
+        "Frühlingsrollen (스프링롤 — 바삭한 태국식 튀김 춘권)"
+      ],
+      "sources": [
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/koelns-beste-imbisse-und-fast-food-laeden_krua-thai-thail-ndisch_L1127923_1127775.html",
+        "https://www.meininger-hotels.com/blog/besten-imbisse-in-koeln/"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "beirut-restaurant",
+      "name": "Beirut Restaurant",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "Zabihah 가격 등급 $$ (중간) — 메뉴 가격 미확인; 샌드위치 3.50부터 (Spotted by Locals, 날짜 없음)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.zabihah.com/restaurants/cb4f7622-7767-11ef-95ae-6045bdeb9f57/beirut-kln-nordrhein-westfalen",
+        "https://www.spottedbylocals.com/cologne/beirut"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "tang-wang-koeln",
+      "name": "Tang Wang Köln",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note_ko": "일부 메뉴만 확인: 전채 €6.80–9.80, 국수탕 등 메인 약 €11.80까지 (Wolt), 새콤달콤 돼지갈비 €8.80 (speisekarte.de 2024-01)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://wolt.com/de/deu/cologne/restaurant/tang-wang",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/tang_wang1/speisekarte"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "caruso-pastabar",
+      "name": "CARUSO Pastabar",
+      "price_level": 3,
+      "price_pp": {"min": 31, "max": 50},
+      "price_note_ko": "OpenTable 가격대 €31–50; 미쉐린 빕 구르망 €€ (2025-01 '이달의 빕'); 3코스를 직접 골라 구성하는 방식",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.opentable.ie/r/caruso-pastabar-koln",
+        "https://guide.michelin.com/de/de/article/dining-out/unser-bib-des-monats-caruso-pastabar-in-koln"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "oez-harran-doy-doy",
+      "name": "Öz Harran Doy Doy",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "아다나 케밥 €17.90·안테프 에즈메 €5.90 (speisekarte.de 2023-05 메뉴)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "kebab",
+      "signature_ko": [
+        "Adana Kebap (아다나 케밥 — 매콤한 다진 고기 꼬치구이)",
+        "Lahmacun (라마준 — 다진 고기를 얹은 얇은 튀르키예식 피자)",
+        "Lammkopfsuppe (양 머리 수프 — 튀르키예식 켈레 파차)"
+      ],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/oez_harran_doy_doy/speisekarte",
+        "https://www.koeln.de/leben/ll/imbisse-und-fast-food-in-koeln/oez-harran-doy-doy/"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "gogi-matcha-koeln",
+      "name": "Gogi Matcha Korean Restaurant",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "2019 기사: 고기·해물 볶음 요리 €15–17.50, 찌개 €14.50–15.50, 채식 메인 €10–13, 점심 €7–10 (최신 가격 미확인)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2019/gogi-matcha-das-vielleicht-beste-koreanische-restaurant-koelns/"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "nuvola-napoli",
+      "name": "Nuvola Napoli",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "뇨키 €15.90·봉골레 스파게티 €14.90·브루스케타 €12.90 (speisekarte.de 2025-10); 피자 €11.90–14.90 (2023 기사)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "pizzeria",
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/nuvola_napoli/speisekarte",
+        "https://koeln.mitvergnuegen.com/2023/nuvola-napoli/"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "meiwei-deutz",
+      "name": "MEIWEI",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "쾰른 도이츠 MEIWEI의 메뉴·가격을 찾지 못함 (검색 결과는 빈·오슬로의 같은 이름 업소뿐)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "cafe-especial",
+      "name": "Café Especial",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note_ko": "speisekarte.de: 메인 대부분 €15 미만 (날짜 없음)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/cafe_especial"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "enat-aethiopisches-restaurant",
+      "name": "Enat Äthiopisches Restaurant",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "도로 왓 €16.50·삼부사 €6.50·도로 티브스(감자튀김 포함) €8.90 (speisekarte.de 2025-10 메뉴)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [
+        "Doro Wat (도로 왓 — 매콤한 에티오피아식 닭고기 스튜)",
+        "Doro Tibs (도로 티브스 — 에티오피아식 닭고기 볶음)",
+        "Sambusa (삼부사 — 속을 채운 바삭한 튀김 페이스트리)"
+      ],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/enat_aethiopisches_restaurant/speisekarte",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/enat_aethiopisches_restaurant1/speisekarte"
+      ],
+      "confidence": "high",
+      "checked": "2026-11"
+    },
+    {
+      "id": "jamas-griechische-taverne",
+      "name": "Jamas Griechische Taverne",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "koeln.de: 메제 1접시 약 €7–10 이상, 양갈비 등 메인은 €30을 넘기도 함; 수블라키 €14 (speisekarte.menu, 날짜 없음)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "mezze",
+      "signature_ko": [],
+      "sources": [
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/dies-sind-die-besten-restaurants-in-koeln-nippes_taverne_jamas_L1118008_1118000.html",
+        "https://speisekarte.menu/restaurants/koeln/jamas-4/menu"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "thai-gourmet-nippes",
+      "name": "Thai Gourmet",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "Nippes 지점 메뉴 가격 미확인 (speisekarte.de 페이지는 있으나 내용 확인 불가); 다른 지점(쥘츠) 가격은 적용하지 않음",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/thai_gourmet_nippes/speisekarte"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "kilim-restaurant",
+      "name": "Kilim Restaurant",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note_ko": "Zabihah 가격 등급 $ (저렴) — 메뉴 가격 미확인; Wanderlog 리뷰 '합리적 가격'",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.zabihah.com/restaurants/ca3cfa70-7767-11ef-95ae-6045bdeb9f57/kilim-kln-nordrhein-westfalen",
+        "https://wanderlog.com/place/details/2701792/restaurant-kilim"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "papa-joes-jazzlokal",
+      "name": "Papa Joe's Jazzlokal",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note_ko": "자동 칵테일 머신 칵테일 €8–10, 하우스 맥주 0.4 l €4.80 (2019 기사 — 최신 가격 미확인)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2019/papa-joes-jazzlokal-koeln/"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "tipsy-monk",
+      "name": "Tipsy Monk",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "가격 정보 미확인 (구 Délirium Café, 국제 크래프트 맥주 중심 — 쾰시 판매 여부도 미확인)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "beer-bar",
+      "signature_ko": [],
+      "sources": [
+        "https://rausgegangen.de/en/locations/tipsy-monk-bier-bar-koln"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "papa-joes-biersalon",
+      "name": "Papa Joe's Biersalon",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "쾰시·음식 가격 미확인 (리뷰: 가펠 쾰시를 0.4 l 잔으로 제공)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [
+        "Schweinshaxe (슈바인스학세 — 독일식 돼지 정강이 구이)"
+      ],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/gaststaette_klimperkasten_papa_joes_biersalon"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "toddy-tapper",
+      "name": "Toddy Tapper",
+      "price_level": 3,
+      "price_pp": null,
+      "price_note_ko": "Tablejourney 가격 등급 €€€ (최상위) — 칵테일 1잔 가격은 미확인",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "cocktail-bar",
+      "signature_ko": [],
+      "sources": [
+        "https://tablejourney.com/germany/cologne/cuisine/cocktail-bar/"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "suderman",
+      "name": "Suderman",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "칵테일 1잔 가격 미확인; 미니 칵테일 3잔 테이스팅 플라이트 €20·아페로 플라이트 €19.50 (Expedia)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "cocktail-bar",
+      "signature_ko": [
+        "Herrengedeck (헤렌게데크 — 맥주와 짝을 맞춘 미니 칵테일·샷 세트)"
+      ],
+      "sources": [
+        "https://www.expedia.ie/things-to-do/suderman-cocktail-tasting-flight.a52915264.activity-details",
+        "https://www.meininger.de/locations/suderman-koeln",
+        "https://www.falstaff.com/en/news/the-5-most-spectacular-cocktail-bars-in-cologne"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "osters-rudi",
+      "name": "Osters Rudi",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "쾰시·음식 가격 미확인 (2025 기사: 할버 한·쾰시·볼링의 전통 크나이페)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "kneipe",
+      "signature_ko": [],
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/kegeln-kegelbahn-koeln/"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    }
+  ],
+  "notes_ko": "검색 40회 사용(한도 도달). 영구 폐업을 보여 준 출처는 없음. MEIWEI(도이츠, Mindener Str. 4)는 온라인 흔적을 찾지 못해 상호·영업 여부 재확인 필요. Artistanbul Meze: OpenTable 페이지 하나는 같은 주소(Komödienstr. 52), 다른 하나(https://www.opentable.ae/r/artistanbul-restaurant-koln)는 Porz 위치로 표기돼 혼동 가능. TV 방송 목록에는 'Artistanbul 2'가 2017년 12월 Römerbrunnen 맞은편에 열었다고 나옴(https://thetvdb.com/series/mein-lokal-dein-lokal-der-profi-kommt/episodes/8850359). 크나이페·비어바(Tipsy Monk, Papa Joe's Biersalon, Osters Rudi)의 쾰시 0.2 l 가격은 온라인에서 찾지 못함. 신뢰도 낮음 항목(Beirut·Kilim: Zabihah 가격 등급, Toddy Tapper: Tablejourney €€€, Gogi Matcha·Papa Joe's Jazzlokal: 2019 가격, Tang Wang: 일부 메뉴)은 최신 메뉴로 다시 확인 권장. El Chango는 스테이크 가격을 찾지 못해 등급 비움."
+}

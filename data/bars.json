@@ -26,6 +26,7 @@
       "r5-tickets-dates.json",
       "r5-tickets-dom-city.json",
       "r5-tickets-private.json",
+      "r6-price-a.json",
       "r6-price-b.json",
       "wine-places.json"
     ],
@@ -129,10 +130,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "price_note": "자동 칵테일 머신 칵테일 €8–10, 하우스 맥주 0.4 l €4.80 (2019 기사 — 최신 가격 미확인)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -158,7 +159,8 @@
         "https://www.werkenntdenbesten.de/cityguide/koeln/koeln-ausgehen",
         "https://www.travelbook.de/orte/auch-eine-deutsche-dabei-die-besten-bars-in-europa",
         "https://www.top-rated.online/cities/K%C3%B6ln/place/p/4163142/Papa+Joe's+Jazz+Bar",
-        "https://www.tripadvisor.com/Attraction_Review-g187371-d6686795-Reviews-Papa_Joe_s_Jazz_Lokal-Cologne_North_Rhine_Westphalia.html"
+        "https://www.tripadvisor.com/Attraction_Review-g187371-d6686795-Reviews-Papa_Joe_s_Jazz_Lokal-Cologne_North_Rhine_Westphalia.html",
+        "https://koeln.mitvergnuegen.com/2019/papa-joes-jazzlokal-koeln/"
       ],
       "confidence": "medium",
       "research": "r2-bars",
@@ -169,6 +171,7 @@
       "verification_note": "리뷰 수 2,634 → 2,693 갱신. 구글 상호는 'Papa Joe's Jazz Bar'. 저녁 19/20시~심야 영업(월–목 20–03, 금–일 19–02 등 출처 상이), papajoes.de. 현금만 가능하다는 리뷰 다수. 라이브 재즈·하우스 쾰시 호평, 음료가 비싸다·관광객용이라는 평 일부. 트립어드바이저 'Jazz Lokal' 4.3/324.",
       "latest_review": null,
       "google_previous": "4.6 (2634)",
+      "price_checked": "2026-11",
       "style": "bar"
     },
     {
@@ -311,6 +314,7 @@
       "verification_status": "open",
       "verification_note": "상호 변경: 같은 주소(Salzgasse 2-4)의 옛 'Delirium Café Köln'이 'Tipsy Monk'로 이름을 바꾸고 국제 크래프트 맥주 중심으로 운영(rausgegangen.de 소개문). 2026년 3월 방문 블로그(retiredmartin.com) 확인 → 영업 중. 리뷰 사이트엔 아직 구 상호로 남은 곳이 있음(Yably 구 상호 항목: 구글 4.60/690, 17:00–01:00·금·토 더 늦게). 새 상호 기준 구글 수치는 확인 못 함(추가 검색 1회 사용).",
       "latest_review": "2026-03",
+      "price_checked": "2026-11",
       "style": "beer-bar"
     },
     {
@@ -350,7 +354,9 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com",
       "summary_ko": "구시가 알터 마르크트(Alter Markt)의 맥주 펍으로, 오래된 자동 연주 음악 기계들로 꾸민 독특한 실내가 명물이다. 새벽 3시까지 열어 구시가에서 늦게까지 한잔하기 좋고, 구글 기반 리뷰가 3천 건을 넘을 만큼 많이 찾는 곳이다.",
-      "must_try": [],
+      "must_try": [
+        "Schweinshaxe (슈바인스학세 — 독일식 돼지 정강이 구이)"
+      ],
       "tips_ko": "같은 구시가 Buttermarkt 37에 같은 이름의 재즈 바(Papa Joe's Jazzlokal)가 따로 있으니 혼동 주의. 새벽 3시 영업은 Wanderlog 기준이라 방문 전 확인. 맥주 리스트·가격은 확인 못 함. Wanderlog 상세 페이지는 4.5(3,297건), 목록 페이지는 4.4–4.5(3,427–3,453건).",
       "website": null,
       "awards": [],
@@ -362,7 +368,8 @@
         "https://www.speisekarte.de/k%C3%B6ln/restaurant/gaststaette_klimperkasten_papa_joes_biersalon/speisekarte",
         "https://restaurantguru.com/Papa-Joes-Biersalon-Cologne",
         "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d7009269-Reviews-Papa_Joe_s-Cologne_North_Rhine_Westphalia.html",
-        "https://www.11880.com/branchenbuch/koeln/071364395B27132537/klimperkasten-papa-joe-s-biersalon.html"
+        "https://www.11880.com/branchenbuch/koeln/071364395B27132537/klimperkasten-papa-joe-s-biersalon.html",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/gaststaette_klimperkasten_papa_joes_biersalon"
       ],
       "confidence": "medium",
       "research": "r2-bars, r3-beer-pubs",
@@ -372,6 +379,7 @@
       "verification_status": "open",
       "verification_note": "Wanderlog 구글 4.5 재확인(리뷰 약 3,300으로 기존 3,427보다 적어 기존 값 유지). Restaurant Guru의 구글 4.1 표기는 불일치 — 오래된 수치 가능성. 일부 사이트 상호 'Klimperkasten Papa Joe's Biersalon'. 영업 대략 매일 11:00–03:00(11880·golocal; Restaurant Guru는 평일 일부 ~01시). 자동 연주 악기 분위기 호평, 최근 리뷰에 느린 서비스·샐러드 불만.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "beer-bar"
     },
     {
@@ -1527,10 +1535,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 3,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "price_note": "Tablejourney 가격 등급 €€€ (최상위) — 칵테일 1잔 가격은 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -1567,6 +1575,7 @@
       "verification_status": "open",
       "verification_note": "구글 4.8/879 재확인. 영업 화–목 18:00~24/01시, 금·토 ~02시, 일요일 휴무; 월요일은 출처 상이(Restaurant Guru 18시~, top-rated.online 휴무). 전화 0221 44707408, toddytapper.de. 폐업 신호 없음.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "cocktail-bar"
     },
     {
@@ -1604,7 +1613,9 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (Google 4.7 / 613)",
       "summary_ko": "아그네스 지구 주더만플라츠(Sudermanplatz)의 칵테일 바로, 칵테일을 내면서도 동네 펍처럼 아늑한 분위기가 특징이다. 구글 기반 평점 4.7(600여 건)로, 아그네스 지구에서 저녁 한잔하기 좋은 곳이다.",
-      "must_try": [],
+      "must_try": [
+        "Herrengedeck (헤렌게데크 — 맥주와 짝을 맞춘 미니 칵테일·샷 세트)"
+      ],
       "tips_ko": "메뉴·가격·영업시간은 이번 조사에서 확보하지 못했다.",
       "website": null,
       "awards": [],
@@ -1613,7 +1624,10 @@
         "https://wanderlog.com/place/details/6296434/suderman",
         "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
         "https://yably.de/bewertungen/koeln/suderman-sudermanpl-3",
-        "https://restaurantguru.com/Suderman-Cologne"
+        "https://restaurantguru.com/Suderman-Cologne",
+        "https://www.expedia.ie/things-to-do/suderman-cocktail-tasting-flight.a52915264.activity-details",
+        "https://www.meininger.de/locations/suderman-koeln",
+        "https://www.falstaff.com/en/news/the-5-most-spectacular-cocktail-bars-in-cologne"
       ],
       "confidence": "medium",
       "research": "r2-bars",
@@ -1623,6 +1637,7 @@
       "verification_status": "open",
       "verification_note": "구글 4.7/613 재확인(다른 출처의 631건 언급은 출처 불명확). Yably 여러 출처 합산 4.67/864, 트립어드바이저 4.2/18. 영업 화–토 저녁(Yably 19시~, 화–목 ~02시, 금·토 ~03시; Wanderlog는 18시~01/02시), 일·월 휴무. 일부 페이지는 675–929일 전 스냅샷. sudermanbar.de.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "cocktail-bar"
     },
     {
@@ -1900,6 +1915,7 @@
       "verification_status": "open",
       "verification_note": "구글 수치 워크리스트와 동일. RG 페이지 최신 리뷰가 스냅샷 기준 7–8개월 전(스냅샷 날짜 미상) — 2025–26년 활동은 확인 못 함, 폐업 표시도 없음. 당구·다트·케겔반·축구 중계 있는 동네 크나이페, 생맥주 가펠 쾰시. 케겔반 예약 불안정 불만(옛 리뷰).",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "kneipe"
     }
   ]
