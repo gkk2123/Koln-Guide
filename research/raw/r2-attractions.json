@@ -1,0 +1,711 @@
+{
+  "agent": "r2-attractions",
+  "generated": "2026-11-07",
+  "schema": "v2",
+  "scope": "Round-2 check of round-1 attraction candidates: public spaces, KölnTriangle, Christmas markets 2026, Seilbahn, Kollwitz, day trips",
+  "places": [
+    {
+      "name": "Altstadt: Alter Markt, Heumarkt & Fischmarkt",
+      "name_ko": "구시가 광장(알터 마르크트·호이마르크트·피슈마르크트)",
+      "category": "landmark",
+      "area": "dom-altstadt",
+      "address": "Alter Markt, 50667 Köln",
+      "summary_ko": "브라우하우스가 둘러싼 구시가 광장과 강변 피슈마르크트의 알록달록한 박공집. 대성당~그로스 장크트 마르틴 도보 코스의 중심.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 1,
+      "tags": [
+        "free",
+        "history",
+        "photo-spot"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Hohenzollernbrücke (Liebesschlösser)",
+      "name_ko": "호엔촐레른 다리(사랑의 자물쇠)",
+      "category": "viewpoint",
+      "area": "dom-altstadt",
+      "address": "Hohenzollernbrücke, 50679 Köln",
+      "summary_ko": "대성당과 중앙역을 잇는 철교의 보행로에 수십만 개 사랑의 자물쇠가 걸린 포토 스폿. 해 질 녘 도이츠 쪽으로 건너가며 대성당을 돌아보는 코스가 정석.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 1,
+      "tags": [
+        "free",
+        "photo-spot",
+        "dom-view",
+        "night-view",
+        "river"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Rheinboulevard Deutz",
+      "name_ko": "라인 불바르(도이츠 강변 계단)",
+      "category": "viewpoint",
+      "area": "deutz-messe",
+      "address": "Deutzer Werft, 50679 Köln",
+      "summary_ko": "도이츠 강변의 넓은 계단식 산책로. 맥주 한 병 들고 앉아 대성당과 구시가 야경을 보는 현지인 명소.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 1,
+      "tags": [
+        "free",
+        "photo-spot",
+        "dom-view",
+        "night-view",
+        "river"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Kranhäuser & Rheinauhafen",
+      "name_ko": "크란하우스·라인아우하펜",
+      "category": "viewpoint",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Rheinauhafen, 50678 Köln",
+      "summary_ko": "항구 크레인을 본뜬 거꾸로 L자 고층 건물 세 동이 서 있는 옛 항구 재개발 지구. 초콜릿 박물관과 이어지는 강변 산책로.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 2,
+      "tags": [
+        "free",
+        "photo-spot",
+        "river"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Rheinpark",
+      "name_ko": "라인 공원",
+      "category": "park-nature",
+      "area": "deutz-messe",
+      "address": "Rheinpark, 50679 Köln",
+      "summary_ko": "도이츠 강변의 넓은 공원. 케이블카(Seilbahn) 동쪽 정류장과 탄츠브루넨 무대가 있다.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 2,
+      "tags": [
+        "free",
+        "nature",
+        "river",
+        "kid-friendly"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Stadtgarten",
+      "name_ko": "슈타트가르텐",
+      "category": "park-nature",
+      "area": "belgisches-viertel",
+      "address": "Venloer Straße 40, 50672 Köln",
+      "summary_ko": "벨기에 지구 옆 쾰른에서 가장 오래된 시립 공원. 비어가든과 재즈 클럽, 겨울엔 크리스마스 마켓.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 3,
+      "tags": [
+        "free",
+        "nature"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Aachener Weiher",
+      "name_ko": "아헨너 바이어(호수 공원)",
+      "category": "park-nature",
+      "area": "belgisches-viertel",
+      "address": "Aachener Weiher, 50674 Köln",
+      "summary_ko": "동아시아 미술관 앞 호수 공원. 여름엔 학생·젊은 층의 피크닉 명소.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 3,
+      "tags": [
+        "free",
+        "nature"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Volksgarten",
+      "name_ko": "폴크스가르텐",
+      "category": "park-nature",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Volksgartenstraße, 50677 Köln",
+      "summary_ko": "쥐트슈타트의 호수·보트·비어가든이 있는 동네 공원.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 3,
+      "tags": [
+        "free",
+        "nature"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Eigelsteintorburg",
+      "name_ko": "아이겔슈타인 성문",
+      "category": "landmark",
+      "area": "agnesviertel-eigelstein",
+      "address": "Eigelstein, 50668 Köln",
+      "summary_ko": "중세 성벽의 북쪽 성문. 아이겔슈타인 거리 끝 에버트 광장 쪽에 서 있다.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 3,
+      "tags": [
+        "free",
+        "history"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Hahnentorburg",
+      "name_ko": "하넨토르부르크 성문",
+      "category": "landmark",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Rudolfplatz, 50674 Köln",
+      "summary_ko": "루돌프 광장의 서쪽 성문. 겨울엔 바로 앞에 니콜라우스도르프 크리스마스 마켓이 선다.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 3,
+      "tags": [
+        "free",
+        "history"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Severinstorburg",
+      "name_ko": "제버린스토르부르크 성문",
+      "category": "landmark",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Chlodwigplatz, 50678 Köln",
+      "summary_ko": "클로트비히 광장의 남쪽 성문. 쥐트슈타트 산책의 기점.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 3,
+      "tags": [
+        "free",
+        "history"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Schildergasse & Hohe Straße",
+      "name_ko": "실더가세·호에 슈트라세(메인 쇼핑가)",
+      "category": "shopping",
+      "area": "dom-altstadt",
+      "address": "Schildergasse, 50667 Köln",
+      "summary_ko": "대성당에서 노이마르크트까지 이어지는 독일 최대 유동 인구 쇼핑 거리. 대형 브랜드·백화점 밀집.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 2,
+      "tags": [
+        "free"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Ehrenstraße",
+      "name_ko": "에렌슈트라세",
+      "category": "shopping",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Ehrenstraße, 50672 Köln",
+      "summary_ko": "스트리트웨어·스니커즈·컨셉 스토어가 몰린 젊은 쇼핑 거리.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 2,
+      "tags": [
+        "free"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Belgisches Viertel – Boutiquen",
+      "name_ko": "벨기에 지구 부티크 거리",
+      "category": "shopping",
+      "area": "belgisches-viertel",
+      "address": "Brabanter Straße, 50672 Köln",
+      "summary_ko": "Antwerpener·Brabanter·Maastrichter Str.의 디자이너 부티크와 빈티지 숍 골목.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 2,
+      "tags": [
+        "free"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Severinstraße",
+      "name_ko": "제버린슈트라세",
+      "category": "shopping",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Severinstraße, 50678 Köln",
+      "summary_ko": "쥐트슈타트 'Veedel' 분위기의 동네 상점가. 제버린스토르부르크 성문까지 이어진다.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 3,
+      "tags": [
+        "free"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Zülpicher Viertel",
+      "name_ko": "쥘피허 지구(대학가 밤문화)",
+      "category": "nightlife-area",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Platz, 50674 Köln",
+      "summary_ko": "저렴한 바·클럽이 늘어선 대학가. 학생 위주로 늦게까지 붐비며 카니발 때 최대 인파.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 3,
+      "tags": [
+        "free",
+        "karneval"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Belgisches Viertel (Brüsseler Platz)",
+      "name_ko": "벨기에 지구(브뤼셀 광장)",
+      "category": "nightlife-area",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Platz, 50672 Köln",
+      "summary_ko": "칵테일 바·와인 바가 모인 세련된 밤 동네. 성당 앞 광장에 사람이 모여 '광장 맥주'를 즐긴다.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 2,
+      "tags": [
+        "free"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Altstadt-Rheinufer (Frankenwerft & Fischmarkt)",
+      "name_ko": "구시가 강변(프랑켄베르프트·피슈마르크트)",
+      "category": "nightlife-area",
+      "area": "dom-altstadt",
+      "address": "Frankenwerft, 50667 Köln",
+      "summary_ko": "브라우하우스와 펍이 강변에 줄지은 관광객 중심 밤거리. 쾰시를 마시며 라인강 야경.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 2,
+      "tags": [
+        "free",
+        "river",
+        "dom-view"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "Ehrenfeld (Venloer Straße & Körnerstraße)",
+      "name_ko": "에렌펠트(벤로어·쾨르너 거리)",
+      "category": "nightlife-area",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße, 50823 Köln",
+      "summary_ko": "그라피티·클럽·라이브 공연장이 모인 힙한 동네. 다국적 음식점과 늦은 밤 문화.",
+      "sources": [],
+      "price_eur": 0,
+      "price_note": "무료 · 상시 개방",
+      "booking": "not-needed",
+      "status": "open",
+      "priority": 3,
+      "tags": [
+        "free"
+      ],
+      "verification": "public-space",
+      "hours_note": "공공장소(상시 개방). 2026년 공사·통제 여부는 현장 확인"
+    },
+    {
+      "name": "KölnTriangle (Aussichtsplattform)",
+      "name_ko": "쾰른트라이앵글 전망대",
+      "category": "viewpoint",
+      "area": "deutz-messe",
+      "address": "Ottoplatz 1, 50679 Köln",
+      "summary_ko": "도이츠역 옆 103m 빌딩 옥상 전망대. 라인강 너머 대성당·구시가 파노라마를 정면으로 보는 최고의 각도.",
+      "sources": [
+        "https://www.koeln.de/tourismus/sehenswertes/koelntriangle/",
+        "https://www.cologne-tourism.com/see-experience/poi/koelntriangle/"
+      ],
+      "price_eur": 5,
+      "price_note": "성인 €5 / 학생 €4 / 12세 이하 무료",
+      "duration_min": 45,
+      "status": "open",
+      "booking": "not-needed",
+      "priority": 1,
+      "hours_note": "10–4월 매일 11–20시, 5–9월 일–목 11–20시·금–토 11–22시. 폭풍·뇌우 시 폐쇄",
+      "tips_ko": "대성당·호엔촐레른 다리·라인강을 정면으로 내려다보는 전망대(29층). 해 질 녘이 가장 좋고, 메쎄/도이츠역에서 걸어서 몇 분.",
+      "tags": [
+        "photo-spot",
+        "dom-view",
+        "night-view",
+        "river"
+      ],
+      "verification": "sourced"
+    },
+    {
+      "name": "Weihnachtsmarkt am Kölner Dom",
+      "name_ko": "대성당 크리스마스 마켓",
+      "category": "market-event",
+      "area": "dom-altstadt",
+      "address": "Roncalliplatz, 50667 Köln",
+      "summary_ko": "대성당 바로 아래 로마 광장의 대표 마켓. 거대한 트리와 별빛 천장이 상징.",
+      "sources": [
+        "https://www.koeln.de/weihnachten/weihnachtsmaerkte-koeln",
+        "https://pixidia.com/?p=82503",
+        "https://www.festivalsindeutschland.de/festival/weihnachtsmarkt-koelner-dom",
+        "https://rove.me/de/to/germany/cologne-christmas-markets"
+      ],
+      "price_eur": 0,
+      "price_note": "무료 입장",
+      "status": "seasonal",
+      "season": {
+        "start": "2026-11-16",
+        "end": "2026-12-23"
+      },
+      "booking": "not-needed",
+      "priority": 1,
+      "hours_note": "일–수 11–21시, 목–금 11–22시, 토 10–22시. 2026-11-22(일, 토텐존탁) 휴무",
+      "tips_ko": "대성당 바로 앞 로마 광장(Roncalliplatz)의 대표 마켓. 주말 저녁은 매우 붐비니 평일 낮이 편해요. 글뤼바인 컵은 보증금(판트)을 받고 돌려주면 환불.",
+      "tags": [
+        "christmas",
+        "free",
+        "dom-view",
+        "must-see"
+      ],
+      "verification": "sourced"
+    },
+    {
+      "name": "Heimat der Heinzel (Altstadt: Heumarkt & Alter Markt)",
+      "name_ko": "하인첼의 고향(구시가 마켓)",
+      "category": "market-event",
+      "area": "dom-altstadt",
+      "address": "Heumarkt, 50667 Köln",
+      "summary_ko": "쾰른 전설 속 요정 '하인첼멘헨'을 테마로 한 구시가 마켓. 호이마르크트에 아이스링크가 함께 선다.",
+      "sources": [
+        "https://pixidia.com/?p=82503",
+        "https://rove.me/de/to/germany/cologne-christmas-markets"
+      ],
+      "price_eur": 0,
+      "price_note": "무료 입장 (아이스링크 별도)",
+      "status": "seasonal",
+      "season": null,
+      "booking": "not-needed",
+      "priority": 2,
+      "hours_note": "2026 일정: 11-23 개장·2027-01-10 종료라는 자료가 있으나 출처마다 달라요. 공식 사이트 확인",
+      "tips_ko": "구시가 두 광장에 걸친 '하인첼(쾰른 전설의 요정)' 테마 마켓. 호이마르크트에 아이스링크(Heinzels Wintermärchen)가 함께 열려요.",
+      "tags": [
+        "christmas",
+        "free"
+      ],
+      "verification": "sourced"
+    },
+    {
+      "name": "Hafen-Weihnachtsmarkt (am Schokoladenmuseum)",
+      "name_ko": "항구 크리스마스 마켓(초콜릿 박물관 앞)",
+      "category": "market-event",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Am Schokoladenmuseum 1A, 50678 Köln",
+      "summary_ko": "초콜릿 박물관 앞 라인강변의 해양 테마 마켓.",
+      "sources": [
+        "https://www.koeln.de/weihnachten/weihnachtsmaerkte-koeln",
+        "https://www.urlaubstracker.de/weihnachtsmaerkte-termine-informationen/"
+      ],
+      "price_eur": 0,
+      "price_note": "무료 입장",
+      "status": "seasonal",
+      "season": null,
+      "booking": "not-needed",
+      "priority": 2,
+      "hours_note": "2026 일정 출처 상이: 11-13~2027-01-03(koeln.de) / 11-20~12-29(urlaubstracker). 공식 확인",
+      "tips_ko": "초콜릿 박물관 앞 라인아우하펜의 해양 테마 마켓. 박물관 방문과 묶기 좋아요.",
+      "tags": [
+        "christmas",
+        "free",
+        "river",
+        "chocolate"
+      ],
+      "verification": "sourced"
+    },
+    {
+      "name": "Markt der Engel (Neumarkt)",
+      "name_ko": "천사들의 마켓(노이마르크트)",
+      "category": "market-event",
+      "area": "dom-altstadt",
+      "address": "Neumarkt, 50667 Köln",
+      "summary_ko": "천사 복장 공연자와 별 조명이 있는 노이마르크트 마켓. 쇼핑가와 바로 연결.",
+      "sources": [
+        "https://www.koeln.de/weihnachten/weihnachtsmaerkte-koeln"
+      ],
+      "price_eur": 0,
+      "price_note": "무료 입장",
+      "status": "seasonal",
+      "season": null,
+      "booking": "not-needed",
+      "priority": 2,
+      "hours_note": "2026 일정은 이번 조사에서 확인하지 못했어요. 방문 전 공식 사이트 확인",
+      "tags": [
+        "christmas",
+        "free"
+      ],
+      "verification": "annual-event"
+    },
+    {
+      "name": "Nikolausdorf am Rudolfplatz",
+      "name_ko": "니콜라우스 마을(루돌프 광장)",
+      "category": "market-event",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Rudolfplatz, 50674 Köln",
+      "summary_ko": "하넨토르 성문 앞 산타 마을 콘셉트의 아담한 마켓.",
+      "sources": [
+        "https://www.koeln.de/weihnachten/weihnachtsmaerkte-koeln"
+      ],
+      "price_eur": 0,
+      "price_note": "무료 입장",
+      "status": "seasonal",
+      "season": null,
+      "booking": "not-needed",
+      "priority": 3,
+      "hours_note": "2026 일정은 이번 조사에서 확인하지 못했어요. 방문 전 공식 사이트 확인",
+      "tags": [
+        "christmas",
+        "free"
+      ],
+      "verification": "annual-event"
+    },
+    {
+      "name": "Weihnachtsmarkt im Stadtgarten",
+      "name_ko": "슈타트가르텐 크리스마스 마켓",
+      "category": "market-event",
+      "area": "belgisches-viertel",
+      "address": "Venloer Straße 40, 50672 Köln",
+      "summary_ko": "공원 숲속에 작가 공예품 위주로 열리는 현지인 선호 마켓.",
+      "sources": [
+        "https://www.koeln.de/weihnachten/weihnachtsmaerkte-koeln"
+      ],
+      "price_eur": 0,
+      "price_note": "무료 입장",
+      "status": "seasonal",
+      "season": null,
+      "booking": "not-needed",
+      "priority": 3,
+      "hours_note": "2026 일정은 이번 조사에서 확인하지 못했어요. 방문 전 공식 사이트 확인",
+      "tags": [
+        "christmas",
+        "free"
+      ],
+      "verification": "annual-event"
+    },
+    {
+      "name": "Kölner Seilbahn",
+      "name_ko": "쾰른 케이블카",
+      "category": "experience-tour",
+      "area": "other",
+      "address": "Riehler Straße 180, 50735 Köln",
+      "summary_ko": "동물원 앞에서 라인강을 건너 라인 공원까지 가는 케이블카.",
+      "sources": [
+        "https://www.koeln.de/freizeit/koelner-seilbahn/",
+        "https://stadtwerkekoeln.de/fileadmin/_media/presse/PIs_2024/KVB_2024/KVB_2024_03_13__PM_Koelner_Seilbahn_-_Saisonstart_am_14._Maerz_2024.pdf",
+        "https://stadtwerkekoeln.de/fileadmin/_media/presse/PIs_2023/KVB_2023/KVB_2023_11_30__PM_Koelner_Seilbahn_laedt_zu_Adventsfahrten_ein_-_02.-03.12._sowie_09.-10.12._und_16.-17.12.2023.pdf"
+      ],
+      "price_eur": null,
+      "price_note": "편도 성인 €5·4–12세 €3 (2024년 요금, 2026년 미확인)",
+      "duration_min": 30,
+      "status": "seasonal",
+      "season": null,
+      "booking": "not-needed",
+      "priority": 3,
+      "hours_note": "2026 시즌 미확인. 예년 3월 중순~11월 초 매일 10–18시, 11–12월엔 대림절 주말 운행이 있었음",
+      "tips_ko": "동물원(Riehl)과 라인파크 사이 라인강을 건너는 케이블카. 11월 중순 이후엔 정규 운행이 끝났을 가능성이 높아요.",
+      "tags": [
+        "river",
+        "kid-friendly",
+        "photo-spot"
+      ],
+      "verification": "sourced"
+    },
+    {
+      "name": "Käthe Kollwitz Museum Köln",
+      "name_ko": "케테 콜비츠 미술관",
+      "category": "museum",
+      "area": "dom-altstadt",
+      "address": "Neumarkt 18-24, 50667 Köln",
+      "summary_ko": "독일 표현주의 판화가 케테 콜비츠의 세계 최대 컬렉션.",
+      "sources": [
+        "https://www.evangelisch.de/inhalte/248456/11-10-2025/wiedereroeffnung-nach-3-jahren-koeln-zeigt-kaethe-kollwitz-neuem-licht",
+        "https://willkommen.koelntourismus.de/en/poi/kollwitz-museum-koeln",
+        "https://www.kollwitz.de/en/"
+      ],
+      "price_eur": 8,
+      "price_note": "성인 €8",
+      "duration_min": 75,
+      "status": "open",
+      "booking": "not-needed",
+      "priority": 2,
+      "hours_note": "월요일 휴관. 약 3년 리노베이션 후 2025년 10월 재개관. 'KOLLWITZ Selected' 전시 ~2026-11-15",
+      "tags": [
+        "art",
+        "indoor",
+        "rainy-day",
+        "history"
+      ],
+      "verification": "sourced"
+    },
+    {
+      "name": "Bonn (Beethoven-Haus & Altstadt)",
+      "name_ko": "본(베토벤 생가)",
+      "category": "day-trip",
+      "area": "day-trip",
+      "address": "Bonngasse 18-26, 53111 Bonn",
+      "summary_ko": "베토벤 생가와 옛 서독 수도의 박물관 마일이 있는 라인강변 도시.",
+      "sources": [
+        "https://www.bahn.de/reisen/view/verbindung/koeln/bonn.shtml",
+        "https://www.rome2rio.com/Train/Cologne/Bonn-Hbf"
+      ],
+      "travel_time_min": 25,
+      "price_note": "쾰른 중앙역 → 본 중앙역 20–27분 (RE 5, RB 48, RB 26)",
+      "status": "open",
+      "booking": "not-needed",
+      "priority": 2,
+      "tags": [],
+      "hours_note": "열차 시간은 시간대·요일별로 달라요. DB Navigator 앱으로 확인",
+      "verification": "sourced"
+    },
+    {
+      "name": "Brühl – Schlösser Augustusburg & Falkenlust (UNESCO)",
+      "name_ko": "브륄 아우구스투스부르크·팔켄루스트 궁전(유네스코)",
+      "category": "day-trip",
+      "area": "day-trip",
+      "address": "Schlossstraße 6, 50321 Brühl",
+      "summary_ko": "로코코 계단실로 유명한 선제후 궁전과 사냥 별궁. 역 바로 앞이라 반나절 코스.",
+      "sources": [
+        "https://www.schlossbruehl.de/en/how-to-get-there/",
+        "https://koeln.mitvergnuegen.com/2024/bruehl/"
+      ],
+      "travel_time_min": 15,
+      "price_note": "쾰른 중앙역 → 브륄역 10–18분 (RB 48, RE 5, MRB 26), 역에서 아우구스투스부르크 성까지 도보 5분",
+      "status": "open",
+      "booking": "not-needed",
+      "priority": 2,
+      "tags": [
+        "unesco"
+      ],
+      "hours_note": "열차 시간은 시간대·요일별로 달라요. DB Navigator 앱으로 확인",
+      "verification": "sourced"
+    },
+    {
+      "name": "Düsseldorf (Altstadt, Rheinufer, Königsallee)",
+      "name_ko": "뒤셀도르프",
+      "category": "day-trip",
+      "area": "day-trip",
+      "address": "Burgplatz, 40213 Düsseldorf",
+      "summary_ko": "알트비어 양조장 골목, 라인강변 산책로, 쾨니히스알레 쇼핑, 일본인 거리.",
+      "sources": [
+        "https://www.bahn.de/reisen/view/verbindung/koeln/duesseldorf.shtml"
+      ],
+      "travel_time_min": 25,
+      "price_note": "ICE 약 21분 / 지역열차 약 31분",
+      "status": "open",
+      "booking": "not-needed",
+      "priority": 3,
+      "tags": [],
+      "hours_note": "열차 시간은 시간대·요일별로 달라요. DB Navigator 앱으로 확인",
+      "verification": "sourced"
+    },
+    {
+      "name": "Aachen (Aachener Dom, UNESCO)",
+      "name_ko": "아헨(아헨 대성당, 유네스코)",
+      "category": "day-trip",
+      "area": "day-trip",
+      "address": "Domhof 1, 52062 Aachen",
+      "summary_ko": "카롤루스 대제의 팔각 궁정 예배당이 핵심인 독일 최초 유네스코 세계유산. 겨울엔 크리스마스 마켓과 프린텐 과자.",
+      "sources": [
+        "https://www.bahn.de/reisen/view/verbindung/koeln/aachen.shtml"
+      ],
+      "travel_time_min": 40,
+      "price_note": "가장 빠른 열차(ICE) 약 31분 / RE 약 52분",
+      "status": "open",
+      "booking": "not-needed",
+      "priority": 3,
+      "tags": [
+        "unesco"
+      ],
+      "hours_note": "열차 시간은 시간대·요일별로 달라요. DB Navigator 앱으로 확인",
+      "verification": "sourced"
+    }
+  ],
+  "candidates": []
+}

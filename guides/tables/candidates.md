@@ -8,15 +8,23 @@
 
 | 이름 | 지역 | 사유 | 확인된 정보 |
 |---|---|---|---|
-| Little Link | 벨기에 지구 | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | Falstaff 바 페이지 96점(가이드 연도 표기 미확인). Bar Magazine 'The 8 Best Bars in Cologne (2026)' 선정. 공식 사이트 타이틀 문구 'Innovativste Bar des Jahres'(연도·주최 미확인). Accor 여행 가이드가 'World's 50 Best Bars 리스트에 포함된 적 있다'고 쓰지만 연도·순위 없음 — 50 Best 리스트 출처로는 확인되지 않음(가이드에 표기 금지). 창업자 Stephan Hinz, 자가 제조 재료(포르치니 위스키, 로즈힙 슈럽, 블랙베리 캐비아), 슬라이더 23시까지. 구글 평점·리뷰 수 미확보. |
+| Historisches Rathaus Köln | 대성당·구시가 | unverified-2026 | 외관은 무료로 상시 관람 가능. 내부 관람·투어 가능 여부와 시간은 미확인. MiQua 공사장과 인접 |
+| Flora und Botanischer Garten Köln | 기타 시내 | unverified-2026 | 이번 세션 출처 없음. (일반 지식·미검증: 입장 무료) 운영 시간·온실 개방 미확인 |
+| Melaten-Friedhof | 기타 시내 | unverified-2026 | 이번 세션 출처 없음. (일반 지식·미검증: 무료) 개방 시간 미확인 |
+| KD Köln-Düsseldorfer – Panoramafahrt | 대성당·구시가 | unverified-2026 | 2026 겨울 운항 여부·요금 미확인(검색 한도 소진) |
+| Kölner Zoo & Aquarium | 기타 시내 | unverified-2026 | 2026 입장료·겨울 운영 시간 미확인 |
+| Kölsch-/Brauhaus-Führung | 대성당·구시가 | unverified-2026 | 운영사·요금·일정 미확인(주소는 쾰른 관광 안내소 기준) |
+| Wochenmärkte (z. B. Wilhelmplatz Nippes) | 기타 시내 | unverified-2026 | 장터 요일·시간 미확인 |
+| Heinzels Wintermärchen – Eisbahn am Heumarkt | 대성당·구시가 | unverified-2026-dates | 2026 운영 기간·요금 미검색 |
+| Ahrtal (Ahrweiler, Rech, Mayschoß) | 근교 당일치기 | unverified-2026 | 2026 철도(Ahrtalbahn) 복구·운행 상태 미검색 — 반드시 확인 |
+| Königswinter & Drachenfels | 근교 당일치기 | unverified-2026 | 산악열차 겨울 운행·요금 미검색 |
+| Mittelrhein (Bacharach & Loreley) | 근교 당일치기 | unverified-2026 | 열차 소요 시간·겨울 유람선 미검색 |
+| Monschau | 근교 당일치기 | unverified-2026 | 교통·소요 시간 미검색 |
+| Museum für Ostasiatische Kunst | 벨기에 지구 | unverified-2026-status | 2026 운영 상태·요금 미검색 |
+| Odysseum | 기타 시내 | unverified-2026-status | 2026 운영 여부 미검색 — 폐관 가능성 확인 필요 |
 | Seiberts | 프리젠 지구·에렌슈트라세 | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | Volker Seibert가 운영하는 클래식 칵테일 바(Seiberts Classic Bar & Liquid Kitchen). enprimeurclub.com: World's 500 Best Bars(Top 500 Bars) 2025 436위(원 리스트 미확인). 검색 요약상 Mixology Bar Awards 2025 Top 10(원출처 페이지 특정 못 함). Wanderlog: 책 '150 Bars You Need to Visit Before You Die' 수록. 구글 수치 미확보. |
-| Toddy Tapper | 아그네스 지구·아이겔슈타인 | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | 50 Best 공식 'Discovery' 데이터베이스 등재(순위 리스트 아님). 스리랑카 출신 바텐더 Indika Silva 운영, 이름은 아락(arrack) 원료인 야자 수액 채취꾼에서 따왔고 메뉴 전반에 아락 사용. 제3자 리스트에 'Falstaff가 독일 최고 바 중 하나로 꼽음' 언급(출처 페이지 특정 못 함). 구글 수치 미확보. |
 | Asimmetric Bar | 에렌펠트 | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | koelnticket 매거진: '50 Best Discovery in the World 2022' 등재(순위 리스트 아님). 주소·영업 여부·구글 수치 미확보. |
-| Papa Joe's Jazzlokal | 대성당·구시가 | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | Travelbook 기사: European Bar Guide의 유럽 베스트 바 리스트 6위, '세계 최고의 재즈바 중 하나'로 소개(리스트 연도 미확인). 구시가의 재즈 라이브 펍. 주소·구글 수치 미확보. |
-| ONA MOR |  | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | konfetti의 쾰른 칵테일바 가이드에 선정, 다른 쾰른 바 리스트에서도 인기 칵테일바로 반복 언급. 위치·주소·구글 수치 미확보. |
-| Monkey Bar (25hours Hotel The Circle) |  | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | 검색 요약에서 쾰른 인기 바로 이름만 언급(Wanderlog·Yelp·funkyGERMANY 등 리스트 묶음, 정확한 출처 페이지 특정 못 함). 리드 시드 정보로는 25hours Hotel The Circle 루프탑 바 — 이번 세션에서 위치·영업·구글 수치 확인 못 함. |
 | Soul Bar |  | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | 검색 요약에서 쾰른 인기 바로 이름만 언급(Wanderlog·Yelp·funkyGERMANY 등 리스트 묶음, 정확한 출처 페이지 특정 못 함). 위치·종류·구글 수치 미확보. |
-| Barito |  | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | konfetti의 쾰른 베스트 칵테일바 가이드에 선정. 위치·주소·구글 수치 미확보. |
 | Franky's Bar |  | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | konfetti의 쾰른 베스트 칵테일바 가이드에 선정. 위치·주소·구글 수치 미확보. |
 | Shaker's |  | google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단) | konfetti의 쾰른 베스트 칵테일바 가이드에 선정. 위치·주소·구글 수치 미확보. |
 | Christoph Paul's Restaurant | 벨기에 지구 | google-numbers-missing: no exact Google review count found (strong candidate, Michelin-listed) | Michelin Guide 등재(€€ · Marktküche/saisonal, schöne Terrasse; Christoph Paul & Juliane 운영). En Primeur Club 표에 'Bib Gourmand' 표시(연도 미표시). 출처가 불분명한 애그리게이터 문구 'Google-Nutzer vergeben 4,7 bei über 200 Bewertungen' — 정확한 리뷰 수가 없어 채택하지 않음. 영업시간 출처별 상이(Foodle: 수–토 18:00~, Schlemmer-Atlas: 화–금 17:30~). 전화번호도 출처별 1자리 상이. |
@@ -133,6 +141,36 @@
 | Fette Kuh | 쥐트슈타트·라인아우하펜 | google-numbers-missing | Seed from the lead; not researched (search budget exhausted). Nothing found in this session. |
 | Zur Tant | 기타 시내 | google-numbers-missing | Michelin 2026: one star, kept (t-online list, mitvergnuegen 2026, guide.michelin.com 2026 list). No Google numbers found (search budget exhausted). |
 | La Cuisine Rademacher | 기타 시내 | google-numbers-missing | Michelin 2026: one star (t-online list, mitvergnuegen 2026, guide.michelin.com 2026 list); chef Marlon Rademacher, Köln-Dellbrück. No Google numbers found (search budget exhausted). |
+| Seiberts – Classic Bar & Liquid Kitchen | 프리젠 지구·에렌슈트라세 | temporarily-closed-flag (Wanderlog/구글 리스팅에 'Temporarily Closed' 표시, 재개 여부 미확인) | Wanderlog 4.5 (1,303) — 별점 분포 5★1,075·4★72·3★33·2★29·1★94. 다른 스냅숏 1,297–1,305건으로 리뷰 수가 거의 늘지 않음(한 목록은 4.6·1,144건). 'Temporarily Closed' 표시. 폐업·재개 뉴스는 못 찾음. koeln.de·Köln Tourismus·mixology.eu·Prinz·restaurantguru 등 디렉터리는 영업 중처럼 표기(날짜 없음). 영업시간 정보 엇갈림(화–일 17–02 / 화–목 16–24, 금 16–01, 토 14–01). 운영자 Volker Seibert, 2014년 개업(unilocal), 전화 +49 221 30195013. 수상(1차): Top 500 Bars 2025 #436(enprimeurclub 인용, 원 리스트 미확인), Mixology Bar Awards 2025 Top 10(원출처 미확인), 책 '150 Bars You Need to Visit Before You Die' 수록. 영업 확인되면 places로 올릴 것. |
+| The Grid Bar | 프리젠 지구·에렌슈트라세 | permanently-closed | Wanderlog 4.5 (577) + 'Permanently Closed' 표시(라운지 목록). 가이드에서 제외. |
+| Sixpack | 벨기에 지구 | below-criteria (Google 3.4) | Wanderlog 3.4 (554), 다른 플랫폼 2.8 (28). 큰 냉장고에서 맥주를 골라 마시는 벨기에 지구의 '전설적' 펍, 늦은 밤 전자음악·애프터아워 분위기(Wanderlog 요약). |
+| Barracuda Bar | 벨기에 지구 | below-criteria (Google 4.1) | Wanderlog 4.1 (190). 해산물 플래터와 칵테일을 내는 벨기에 지구 바(Wanderlog 요약). |
+| Biermuseum | 대성당·구시가 | below-criteria (Google 4.0) | Wanderlog 4.0 (1,347), 목록 1,359건. 별점 분포 652·359·179·60·97. 펍, 가격대 'affordable'. |
+| Gibbon |  | not-found (Wanderlog 검색에서 리스팅 없음) | 리드 시드. 이번 조사에서 쾰른 바로 확인되는 결과 없음. 이름 정확성부터 확인 필요. |
+| OSMAN 30 | 프리젠 지구·에렌슈트라세 | google-numbers-not-found | KölnTurm 30층 레스토랑·바(Wanderlog 루프탑·전망 목록). 주소는 목록 스니펫 기준이며 OSMAN 30과의 연결이 확실하지 않음. 평점 미확보. 바보다 레스토랑 성격. |
+| Bumann & SOHN | 에렌펠트 | google-numbers-not-found | 비어가든이 있는 에렌펠트의 활기찬 복합 공간, 칵테일·독일 맥주(Wanderlog 목록 요약). 구글 수치 미확보. |
+| Pegel | 벨기에 지구 | google-numbers-not-found | 벨기에 지구 외곽의 인기 펍, 맥주 셀렉션 호평(Wanderlog 목록 요약). 주소·수치 미확보. |
+| Scheinbar |  | google-numbers-not-found | Wanderlog 쾰른 칵테일 바 목록에 이름만 등장. 위치·수치 미확보. |
+| Lorbass Bar & Lounge |  | google-numbers-not-found | Wanderlog 쾰른 칵테일 바 목록에 이름만 등장. 위치·수치 미확보. |
+| Macky's Asia Lounge |  | address-missing | Wanderlog 4.3 (327). 칵테일 바가 아니라 노래방(가라오케) 바. 주소 미확보. |
+| MD BAR |  | address-missing | werkenntdenbesten google.de 4.6 (129). 위치·업종 미확인. |
+| Mäurer Bar |  | address-missing | werkenntdenbesten google.de 4.7 (88). 위치·업종 미확인. |
+| Thai Street Food (Ehrenfeld) | 에렌펠트 | address-conflict + google-numbers-not-found | Round 1 출처는 Mit Vergnügen 2026 리스트 두 개뿐. top-rated.online에서 Venloer Str. 282는 Tantuni Haus(터키식 탄투니, 4.6/372)로 나옴. 이름으로 검색하면 구시가의 Thai-Viet Street Food Imbiss(Kleine Budengasse 11a, 다른 업소)만 나옴. |
+| Yame – Vietnamese Streetfood | 쥐트슈타트·라인아우하펜 | google-review-count-missing | top-rated.online 4.7 (리뷰 수는 표시되지 않음). 쌀국수와 볼을 추천하는 리뷰. 쥐트슈타트. 전화 +49 221 26138439. |
+| Thali – Indisches Essen Restaurant Köln | 기타 시내 | address-missing | top-rated.online 4.6 (454), 채식 메뉴가 많음. 주소가 검색 결과에 나오지 않아 지역을 정하지 못함(area는 임시값 other). |
+| Kuchi Mami | 기타 시내 | address-missing; 스시 중심의 범아시아 식당이라 범위 경계 | top-rated.online 4.8 (1.5K). 스시가 중심이고 베트남 요리도 있으며, 소고기 쌀국수를 추천하는 리뷰가 있음. 메뉴에 'Pho Hanoi'가 있다는 소개도 있음. 주소 미확인(area는 임시값 other). |
+| Bun Pho | 대성당·구시가 | google-attribution-unclear | 검색 요약상 한 포털(speisekarte.menu로 보임)에 4.5 / 1,897건. 구글 값인지 불명확. koeln.de 업소 항목 있음. |
+| Hanoi 36 | 에렌펠트 | google-numbers-not-found | 36시간 끓인 육수의 쌀국수를 내세움. 편집 추천 목록과 품질이 낮은 블로그성 페이지에서만 나옴. 주소는 검색 요약에서만 확인함. |
+| 1992 Vietnamese Fusion & Sushi | 아그네스 지구·아이겔슈타인 | google-numbers-not-found + address-missing | Wanderlog: 아그네스 지구에 있고 '쾰른 최고의 쌀국수 중 하나'라는 평판. top-rated.online 페이지는 있지만 수치는 확인 못 함. |
+| Ngon-Ngon | 기타 시내 | google-numbers-not-found + address-missing | top-rated.online 리뷰에 '독일에서 먹은 쌀국수 중 최고'라는 평. 수치와 주소는 확인 못 함. |
+| LU Vietnamese Cuisine | 기타 시내 | google-numbers-not-found + address-missing | Wanderlog 쾰른 쌀국수 목록 소개문에 Chum Chay, Viet Village와 함께 추천 업소로 이름만 나옴. |
+| Rangoli Köln | 기타 시내 | below-threshold: top-rated.online 3.9 | 평점 3.9. 아주 나쁜 리뷰와 좋은 리뷰가 섞여 있음. |
+| Namaste | 기타 시내 | google-numbers-not-found + address-missing | 리뷰에 '내게는 쾰른 최고의 인도 식당'이라는 평. 커리와 갈릭 로티가 칭찬받음. 수치는 검색 결과에 없었음. |
+| Das Tandoori | 크바르티어 라텡(쥘피허 지구) | google-numbers-not-found | 리뷰에 쾰른 남역(Köln Süd) 바로 옆 Kyffhäuser Str.이라고 나옴. 평이 엇갈리고, 수치는 확인 못 함. |
+| Chennai Chef | 기타 시내 | google-numbers-not-found + address-missing | top-rated.online에 '남인도 레스토랑(South Indian restaurant)'으로 올라 있음. 쾰른에서 드문 남인도 식당일 수 있음. 수치와 주소는 확인 못 함. |
+| Momo Empire | 대성당·구시가 | google-numbers-not-found; 네팔 음식점인지 불명확 | En Primeur Club 레스토랑 가이드에 이 주소로 올라 있음. 모모(히말라야식 만두) 가게로 보이지만, 출처상 네팔 음식점인지는 확실하지 않음. |
+| Tibet Momo | 벨기에 지구 | google-numbers-not-found; 티베트 음식(스키마에 해당 국가 코드 없음) | En Primeur Club: 소박한 티베트 식당이고 모모가 맛있다는 평. 구글 수치는 확인 못 함. |
+| Daur Lang | 기타 시내 | google-numbers-not-found + address-missing | top-rated.online에 범아시아 비스트로로 분류됨. 리뷰에서 정통 인도네시아 음식, 매주 바뀌는 작은 메뉴, 비건·채식 옵션, 플라스틱 없는 포장이 칭찬받음. |
 | Wein am Rhein | 아그네스 지구·아이겔슈타인 | not-verified (검색 한도 소진). 배경지식 기반 리드일 뿐: 중앙역 북쪽 Johannisstraße(라인강 쪽)의 독일 와인 중심 레스토랑 겸 와인바로 기억되며, 같은 주소에 파인다이닝 'maximilian lorenz'가 있었던 것으로 기억됨. 존재·정확한 주소·구글 평점/리뷰 수·2026년 영업 여부 모두 확인 필요. 확인되면 category restaurant 또는 wine-bar, tag german-wine 후보. | 이번 세션에서 찾은 수치·출처 없음 |
 | Henne.Weinbar | 프리젠 지구·에렌슈트라세 | not-verified (검색 한도 소진). 배경지식 기반 리드: Mittelstraße 인근 Pfeilstraße의 와인바(작은 접시 요리+와인)로 기억됨. 독일 와인 비중·주소·구글 수치·영업 여부 확인 필요. 확인되면 category wine-bar. | 이번 세션에서 찾은 수치·출처 없음 |
 | Kölner Weinkeller | 기타 시내 | not-verified (검색 한도 소진). 배경지식 기반 리드: Braunsfeld(Stolberger Straße)의 대형 와인 전문 매장으로 기억됨(시음 행사). 주소·구글 수치·영업 여부·독일 와인 비중 확인 필요. 확인되면 category wine-shop. | 이번 세션에서 찾은 수치·출처 없음 |

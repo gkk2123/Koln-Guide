@@ -1,0 +1,822 @@
+{
+  "agent": "r2-bars",
+  "generated": "2026-11-07",
+  "schema": "v2",
+  "scope": "쾰른 바 2차: 1차 후보 바의 구글 수치·정확한 주소·영업 상태 검증 + 크래프트 맥주 바·루프탑/호텔 바 추가 (와인바·브라우하우스 제외, World's 50 Best는 1차 결론 유지)",
+  "places": [
+    {
+      "id": "little-link",
+      "name": "Little Link",
+      "category": "cocktail-bar",
+      "area": "belgisches-viertel",
+      "address": "Maastrichter Straße 20, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Experimental cocktail bar with house-made ingredients",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [
+        "trendy"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.7,
+      "google_reviews": 1407,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "벨기에 지구의 실험적 칵테일 바로, 포르치니 위스키·로즈힙 슈럽·블랙베리 캐비아처럼 직접 만든 재료를 쓰고 메뉴를 술 종류가 아닌 맛 프로필별로 짠다(창업자 Stephan Hinz). Falstaff 바 가이드 96점을 받은 쾰른 대표 칵테일 바라, 칵테일을 제대로 즐기고 싶은 사람에게 1순위다.",
+      "must_try": [
+        "Sliders (슬라이더 — 바에서 내는 미니 버거, 공식 사이트 기준 23시까지 주문)",
+        "Reibekuchen-Drink (라이베쿠헨 드링크 — 쾰른식 감자전에서 착안한 칵테일. 언론 기사 소개 메뉴라 현재 판매 여부 확인 필요)"
+      ],
+      "tips_ko": "구글 기반 평점이 Wanderlog 스냅숏마다 4.7–4.8(1,189–1,407건)로 다르게 잡혔고, 가장 최근으로 보이는 4.7(1,407건)을 적었다. 'World's 50 Best Bars' 순위에 오른 적은 확인되지 않으니 가이드에 그렇게 쓰지 말 것. 영업시간·예약은 공식 사이트에서 확인.",
+      "website": "https://www.littlelink.de/en/",
+      "awards": [
+        "Falstaff Bar-Guide 96 Punkte (연도 미확인)",
+        "Bar Magazine 'The 8 Best Bars in Cologne' 2026",
+        "'Innovativste Bar' 수상 문구 (주최·연도 미확인)"
+      ],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
+        "https://wanderlog.com/place/details/1478418/little-link",
+        "https://www.littlelink.de/en/",
+        "https://www.falstaff.com/en/bars/little-link",
+        "https://barmagazine.com/best-bars/cologne",
+        "https://www.about-drinks.com/little-link-vom-koelnisch-wasser-im-cocktailglas-bis-zum-reibekuchen-drink/",
+        "https://www.werkenntdenbesten.de/e/104597183/bar/koeln/little-link-bewertungen.html",
+        "https://tablejourney.com/germany/cologne/bars/little-link/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "toddy-tapper",
+      "name": "Toddy Tapper",
+      "category": "cocktail-bar",
+      "area": "agnesviertel-eigelstein",
+      "address": "Schillingstraße 27, 50670 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Cocktail bar built around Sri Lankan arrack",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.8,
+      "google_reviews": 879,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "스리랑카 출신 바텐더 Indika Silva가 운영하는 아그네스 지구의 칵테일 바로, 이름(야자 수액 채취꾼)처럼 야자 증류주 아락(arrack)을 메뉴 전반에 쓴다. 독특한 재료로 만든 섬세한 칵테일과 서비스·플레이팅 칭찬이 많아 색다른 칵테일을 찾는 사람에게 맞다.",
+      "must_try": [
+        "Arrack cocktails (아락 칵테일 — 스리랑카 야자 증류주 베이스의 시그니처 칵테일)"
+      ],
+      "tips_ko": "50 Best 'Discovery' 등재는 추천 데이터베이스일 뿐 1–100위 순위가 아니다. 영업일·시간은 방문 전 확인.",
+      "website": null,
+      "awards": [
+        "50 Best Discovery 등재 (순위 아님 / not a ranking)"
+      ],
+      "sources": [
+        "https://wanderlog.com/place/details/4000468/toddy-tapper-k%C3%B6ln",
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
+        "https://www.theworlds50best.com/discovery/Establishments/Germany/Cologne/Toddy-Tapper.html",
+        "https://tablejourney.com/germany/cologne/cuisine/cocktail-bar/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ona-mor",
+      "name": "ONA MOR",
+      "category": "cocktail-bar",
+      "area": "kwartier-lateng",
+      "address": "Roonstraße 94, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Cocktail bar",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.7,
+      "google_reviews": 785,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "쥘피허 지구 로온슈트라세(Roonstraße)의 칵테일 바로, konfetti의 쾰른 칵테일 바 가이드를 비롯해 여러 바 리스트에 반복해서 이름이 오른다. 구글 기반 평점 4.7(리뷰 700건 이상)로 평가가 고르게 높아, 대학가 쪽에서 칵테일 한잔할 곳으로 고르기 좋다.",
+      "must_try": [],
+      "tips_ko": "Wanderlog 상세 페이지는 4.7(768건), 목록 페이지는 4.7(694–785건)로 스냅숏마다 다르다. 메뉴·가격·영업시간은 이번 조사에서 확보하지 못했다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2017207/ona-mor-bar-k%C3%B6ln",
+        "https://wanderlog.com/list/geoCategory/1524105/cocktail-bars",
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "the-baer-gin-cocktailbar",
+      "name": "The Bär – Gin- & Cocktailbar",
+      "category": "cocktail-bar",
+      "area": "ehrenfeld",
+      "address": "Thebäerstraße 10, 50823 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Gin-focused cocktail bar",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.8,
+      "google_reviews": 525,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "에렌펠트의 진(gin) 전문 칵테일 바로, 진과 진 베이스 칵테일에 집중한다. 구글 기반 평점 4.8(리뷰 500여 건)로 평가가 매우 높아, 진 칵테일을 좋아하는 사람에게 맞다.",
+      "must_try": [],
+      "tips_ko": "Wanderlog 목록 스냅숏 4.8(471건)·4.8(525건) 중 최근 값을 적었다. 메뉴·가격·영업시간은 확인 못 함.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4637608/the-b%C3%A4r--gin--cocktailbar-k%C3%B6ln",
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "monkey-bar",
+      "name": "Monkey Bar (25hours Hotel The Circle)",
+      "category": "bar",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Im Klapperhof 22-24, 50670 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Rooftop hotel bar with a street-food bar menu",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "rooftop",
+        "dom-view"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.2,
+      "google_reviews": 1314,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "프리젠플라츠 근처 25hours Hotel The Circle 꼭대기 층의 루프탑 바로, '어반 정글' 콘셉트 인테리어와 스트리트푸드 바 메뉴를 갖췄다. 쾰른 대성당이 보이는 파노라마 전망이 가장 큰 매력이라, 야경을 보며 한잔하고 싶은 여행자에게 맞다.",
+      "must_try": [],
+      "tips_ko": "구글 기반 평점 4.2는 선정 기준선에 딱 걸친 값이고, 같은 페이지의 다른 플랫폼 점수(3.8, 90건)는 더 낮다. 음료 수준보다 전망을 보고 가는 곳으로 생각할 것. 같은 호텔 8층의 레스토랑 NENI와 다른 곳이다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1235346/monkey-bar",
+        "https://wanderlog.com/list/geoCategory/79627/best-rooftop-bars-in-cologne"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "spirits-bar",
+      "name": "Spirits Bar (Dominique Simon)",
+      "category": "cocktail-bar",
+      "area": "kwartier-lateng",
+      "address": "Engelbertstraße 63, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Cocktail bar",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.7,
+      "google_reviews": 896,
+      "google_as_of": null,
+      "rating_source": "werkenntdenbesten.de (google.de)",
+      "summary_ko": "쥘피허 지구 엥겔베르트슈트라세(Engelbertstraße)의 칵테일 바로, 리뷰에서 뛰어난 칵테일·친절한 서비스·아늑한 분위기가 고르게 칭찬받는다. 구글 평점 4.7(896건)로 대학가 근처에서 믿고 갈 만한 칵테일 바다.",
+      "must_try": [],
+      "tips_ko": "일부(소수) 리뷰에 특정 바텐더가 불친절하거나 강요하듯 권한다는 불만이 있다. 영업시간·가격은 확인 못 함.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/54331281/bar/koeln/spirits-dominique-simon-bewertungen.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "papa-joes-biersalon",
+      "name": "Papa Joe's Biersalon",
+      "category": "beer-bar",
+      "area": "dom-altstadt",
+      "address": "Alter Markt 50-52, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Old-town beer pub with vintage music machines",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "late-night"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "맥주 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.5,
+      "google_reviews": 3427,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "구시가 알터 마르크트(Alter Markt)의 맥주 펍으로, 오래된 자동 연주 음악 기계들로 꾸민 독특한 실내가 명물이다. 새벽 3시까지 열어 구시가에서 늦게까지 한잔하기 좋고, 구글 기반 리뷰가 3천 건을 넘을 만큼 많이 찾는 곳이다.",
+      "must_try": [],
+      "tips_ko": "같은 구시가 Buttermarkt 37에 같은 이름의 재즈 바(Papa Joe's Jazzlokal)가 따로 있으니 혼동 주의. 새벽 3시 영업은 Wanderlog 기준이라 방문 전 확인. 맥주 리스트·가격은 확인 못 함. Wanderlog 상세 페이지는 4.5(3,297건), 목록 페이지는 4.4–4.5(3,427–3,453건).",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1289014/papa-joes-biersalon",
+        "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "papa-joes-jazzlokal",
+      "name": "Papa Joe's Jazzlokal",
+      "category": "bar",
+      "area": "dom-altstadt",
+      "address": "Buttermarkt 37, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Live-jazz pub (since 1974)",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "live-music"
+      ],
+      "drinks": [],
+      "vibe": [
+        "traditional"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.6,
+      "google_reviews": 2634,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "1974년부터 쾰른 재즈 씬을 지켜 온 구시가의 작은 재즈 펍('Streckstrump')으로, 연주자의 손놀림이 보일 만큼 가까이에서 라이브 재즈를 듣는다. 18개 병으로 60여 가지 칵테일을 섞는 기계 'Cocktail Joe'도 명물이라, 라이브 음악과 함께 편하게 한잔하고 싶은 사람에게 맞다.",
+      "must_try": [
+        "Cocktail Joe (칵테일 조 — 18개 병으로 60여 가지 칵테일을 섞어 주는 자동 칵테일 기계)"
+      ],
+      "tips_ko": "Wanderlog에는 'Papa Joe's Jazz Bar'로 올라 있다. 공연 일정·입장료 여부는 이번 조사에서 확인 못 했으니 방문 전 확인. 알터 마르크트의 Papa Joe's Biersalon과는 다른 가게다.",
+      "website": null,
+      "awards": [
+        "European Bar Guide 유럽 베스트 바 리스트 6위 (Travelbook 보도, 리스트 연도 미확인)"
+      ],
+      "sources": [
+        "https://wanderlog.com/place/details/1289016/papa-joes-jazz-bar",
+        "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
+        "https://www.werkenntdenbesten.de/cityguide/koeln/koeln-ausgehen",
+        "https://www.travelbook.de/orte/auch-eine-deutsche-dabei-die-besten-bars-in-europa"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "rosebud-bar",
+      "name": "Rosebud Bar",
+      "category": "cocktail-bar",
+      "area": "kwartier-lateng",
+      "address": "Heinsbergstraße 20, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Long-running cocktail bar",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.5,
+      "google_reviews": 491,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "쥘피허 광장 근처 하인스베르크슈트라세(Heinsbergstraße)에서 28년 가까이 영업해 온 칵테일 바로, 수준 높은 칵테일로 Wanderlog '쾰른 칵테일 바 50' 목록 1위에 올라 있다. 오래된 동네 칵테일 바를 좋아하는 사람에게 맞다.",
+      "must_try": [],
+      "tips_ko": "약 2년 전 리스팅에 '연초부터 새 주인'이라는 언급이 있어 분위기가 예전과 다를 수 있다. 같은 페이지의 다른 플랫폼 점수는 3.8(50건). 영업시간·가격은 확인 못 함.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4359680/rosebud-bar-cologne",
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "craftbeer-corner-coeln",
+      "name": "Craftbeer Corner Coeln (CCC)",
+      "category": "beer-bar",
+      "area": "dom-altstadt",
+      "address": "Martinstraße 32, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Craft beer taproom with 15 rotating taps",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "rooftop"
+      ],
+      "drinks": [
+        "craft-beer"
+      ],
+      "vibe": [
+        "lively"
+      ],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "맥주 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.7,
+      "google_reviews": 1722,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "2016년 문을 연 쾰른 최초의 탭룸 겸 크래프트 맥주 바로, 매일 바뀌는 15개 탭 맥주를 구시가 한복판(Martinstraße)에서 마신다. 맥주를 잘 아는 직원과 루프탑 자리가 호평이라, 쾰시 말고 다른 맥주를 맛보고 싶은 맥주 애호가에게 1순위다.",
+      "must_try": [
+        "Rotating craft beers on tap (매일 바뀌는 15개 탭의 크래프트 맥주)"
+      ],
+      "tips_ko": "저녁엔 붐벼서 앉고 싶으면 예약하라는 후기와 '일주일에 며칠 밤만 연다'는 후기가 있으니 영업일을 꼭 확인할 것. 루프탑은 후기 기준이라 계절별 운영 여부도 확인. Wanderlog 목록 페이지에는 1,780–1,791건으로 더 많이 잡혀 있다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1784407/craftbeer-corner",
+        "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer",
+        "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "suderman",
+      "name": "Suderman",
+      "category": "cocktail-bar",
+      "area": "agnesviertel-eigelstein",
+      "address": "Sudermanplatz 3, 50670 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Neighbourhood cocktail bar with a cosy pub feel",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.7,
+      "google_reviews": 613,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "아그네스 지구 주더만플라츠(Sudermanplatz)의 칵테일 바로, 칵테일을 내면서도 동네 펍처럼 아늑한 분위기가 특징이다. 구글 기반 평점 4.7(600여 건)로, 아그네스 지구에서 저녁 한잔하기 좋은 곳이다.",
+      "must_try": [],
+      "tips_ko": "메뉴·가격·영업시간은 이번 조사에서 확보하지 못했다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/6296434/suderman",
+        "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "bar-botanik",
+      "name": "Bar Botanik (Hotel im Wasserturm)",
+      "category": "bar",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Kaygasse 2, 50676 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Hotel rooftop bar on the 11th floor with 360° city views",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "rooftop"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.3,
+      "google_reviews": 861,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "'급수탑 속 호텔'이라는 뜻의 Hotel im Wasserturm 11층에 있는 루프탑 바로, 쾰른 시내를 360도로 둘러보는 전망이 특징이다. 전망 좋은 호텔 바에서 한잔하고 싶은 사람에게 맞다.",
+      "must_try": [],
+      "tips_ko": "리뷰 수가 Wanderlog 스냅숏마다 683–896건으로 다르게 잡혔다(상세 페이지 4.3·861건을 적음). 영업시간·예약 여부는 호텔에 확인. 지역은 판탈레온·제버린 지구 경계(Altstadt-Süd, 50676)라 쥐트슈타트로 분류했다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/6547746/bar-botanik",
+        "https://wanderlog.com/list/geoCategory/79627/best-rooftop-bars-in-cologne"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "samuels-shep",
+      "name": "Samuel's Shep",
+      "category": "cocktail-bar",
+      "area": "kwartier-lateng",
+      "address": "Rathenauplatz 5, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Small cocktail bar inspired by Cairo's Shepheard Hotel",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "late-night"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.6,
+      "google_reviews": 166,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "라텐아우플라츠(Rathenauplatz)의 작은 칵테일 바로, 카이로의 전설적인 셰퍼드 호텔(Shepheard Hotel)에서 영감을 받은 인테리어에 아늑하고 고급스러운 분위기가 호평이다. 완성도 높고 창의적인 칵테일과 세심한 서비스가 리뷰에서 자주 언급된다.",
+      "must_try": [],
+      "tips_ko": "Wanderlog 기준 일·월 휴무, 화 19–24시, 금·토 19–02시. 같은 주소·같은 콘셉트의 옛 'Shepheard'가 이름을 바꾼 것으로 보이지만 확인하지 못했다(리뷰 수가 적은 건 구글 리스팅이 새로 생겼기 때문일 수 있음). 상세 페이지는 4.7(138건), 목록은 4.6(166건) — 최근 값으로 보이는 목록 수치를 적었다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2017205/samuels-shep-i-cocktailbar-k%C3%B6ln",
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "barito",
+      "name": "Barito",
+      "category": "cocktail-bar",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 59, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Cocktail bar",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "google_rating": 4.8,
+      "google_reviews": 469,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "벨기에 지구 입구 아헨 거리(Aachener Str.)의 칵테일 바로, konfetti의 '쾰른 베스트 칵테일 바' 가이드에 선정됐다. 구글 기반 평점 4.8(460여 건)로 평가가 매우 높다.",
+      "must_try": [],
+      "tips_ko": "Wanderlog 기준 금·토 18–24시, 일–수 휴무(목요일은 미확인)라 주말 위주로 연다. 같은 페이지의 다른 플랫폼 점수는 5.0(33건).",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1484920/barito",
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Seiberts – Classic Bar & Liquid Kitchen",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenwall 33, 50672 Köln",
+      "category": "cocktail-bar",
+      "cuisine_country": [],
+      "reason": "temporarily-closed-flag (Wanderlog/구글 리스팅에 'Temporarily Closed' 표시, 재개 여부 미확인)",
+      "found": "Wanderlog 4.5 (1,303) — 별점 분포 5★1,075·4★72·3★33·2★29·1★94. 다른 스냅숏 1,297–1,305건으로 리뷰 수가 거의 늘지 않음(한 목록은 4.6·1,144건). 'Temporarily Closed' 표시. 폐업·재개 뉴스는 못 찾음. koeln.de·Köln Tourismus·mixology.eu·Prinz·restaurantguru 등 디렉터리는 영업 중처럼 표기(날짜 없음). 영업시간 정보 엇갈림(화–일 17–02 / 화–목 16–24, 금 16–01, 토 14–01). 운영자 Volker Seibert, 2014년 개업(unilocal), 전화 +49 221 30195013. 수상(1차): Top 500 Bars 2025 #436(enprimeurclub 인용, 원 리스트 미확인), Mixology Bar Awards 2025 Top 10(원출처 미확인), 책 '150 Bars You Need to Visit Before You Die' 수록. 영업 확인되면 places로 올릴 것.",
+      "sources": [
+        "https://wanderlog.com/place/details/1373849/seiberts-classic-bar--liquid-kitchen",
+        "https://www.koeln.de/branchen/eintrag/43395/bars-lounges/seiberts",
+        "https://www.mixology.eu/bars/klassische-bar/seiberts",
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/seiberts",
+        "https://prinz.de/koeln/locations/123006-seiberts-bar/",
+        "https://restaurantguru.com/Seiberts-Cologne",
+        "https://unilocal.de/deutschland/koln/seiberts-38181",
+        "https://www.enprimeurclub.com/bars/seiberts-bar-cologne-bar",
+        "https://tablejourney.com/germany/cologne/bars/"
+      ]
+    },
+    {
+      "name": "Soul Bar",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "permanently-closed",
+      "found": "Wanderlog 칵테일 바 목록 스냅숏: 4.6 (382) + 'Permanently Closed' 표시. 주소 미확보. 가이드에서 제외.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1524105/cocktail-bars"
+      ]
+    },
+    {
+      "name": "The Grid Bar",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenstraße 62, 50670 Köln",
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "permanently-closed",
+      "found": "Wanderlog 4.5 (577) + 'Permanently Closed' 표시(라운지 목록). 가이드에서 제외.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1481778/best-lounges-in-cologne"
+      ]
+    },
+    {
+      "name": "Sixpack",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 33, 50674 Köln",
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "below-criteria (Google 3.4)",
+      "found": "Wanderlog 3.4 (554), 다른 플랫폼 2.8 (28). 큰 냉장고에서 맥주를 골라 마시는 벨기에 지구의 '전설적' 펍, 늦은 밤 전자음악·애프터아워 분위기(Wanderlog 요약).",
+      "sources": [
+        "https://wanderlog.com/place/details/1820759/sixpack",
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne"
+      ]
+    },
+    {
+      "name": "Barracuda Bar",
+      "area": "belgisches-viertel",
+      "address": "Bismarckstraße 44, 50672 Köln",
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "below-criteria (Google 4.1)",
+      "found": "Wanderlog 4.1 (190). 해산물 플래터와 칵테일을 내는 벨기에 지구 바(Wanderlog 요약).",
+      "sources": [
+        "https://wanderlog.com/place/details/1820845/barracuda-bar-k%C3%B6ln",
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne"
+      ]
+    },
+    {
+      "name": "Biermuseum",
+      "area": "dom-altstadt",
+      "address": "Buttermarkt 39, 50667 Köln",
+      "category": "beer-bar",
+      "cuisine_country": [],
+      "reason": "below-criteria (Google 4.0)",
+      "found": "Wanderlog 4.0 (1,347), 목록 1,359건. 별점 분포 652·359·179·60·97. 펍, 가격대 'affordable'.",
+      "sources": [
+        "https://wanderlog.com/place/details/2475831/biermuseum",
+        "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer"
+      ]
+    },
+    {
+      "name": "Asimmetric Bar",
+      "area": "ehrenfeld",
+      "address": null,
+      "category": "cocktail-bar",
+      "cuisine_country": [],
+      "reason": "not-found (Wanderlog 검색 2회에서 리스팅 없음)",
+      "found": "1차: '50 Best Discovery' 2022 등재(순위 아님, koelnticket). 이번 조사에서 주소·영업 여부·구글 수치 모두 못 찾음 — 폐업 여부부터 확인 필요.",
+      "sources": [
+        "https://www.koelnticket.de/magazin/deine-stadt/koeln-bei-nacht-entdecke-die-besten-bars-der-domstadt"
+      ]
+    },
+    {
+      "name": "Franky's Bar",
+      "area": null,
+      "address": null,
+      "category": "cocktail-bar",
+      "cuisine_country": [],
+      "reason": "not-found (Wanderlog 검색에서 리스팅 없음)",
+      "found": "1차: konfetti 쾰른 칵테일 바 가이드 선정. 위치·구글 수치 미확보.",
+      "sources": [
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ]
+    },
+    {
+      "name": "Shaker's",
+      "area": null,
+      "address": null,
+      "category": "cocktail-bar",
+      "cuisine_country": [],
+      "reason": "not-found (Wanderlog 검색에서 리스팅 없음)",
+      "found": "1차: konfetti 쾰른 칵테일 바 가이드 선정. 위치·구글 수치 미확보.",
+      "sources": [
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ]
+    },
+    {
+      "name": "Gibbon",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "not-found (Wanderlog 검색에서 리스팅 없음)",
+      "found": "리드 시드. 이번 조사에서 쾰른 바로 확인되는 결과 없음. 이름 정확성부터 확인 필요.",
+      "sources": []
+    },
+    {
+      "name": "OSMAN 30",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Im Mediapark 8, 50670 Köln",
+      "category": "restaurant",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "KölnTurm 30층 레스토랑·바(Wanderlog 루프탑·전망 목록). 주소는 목록 스니펫 기준이며 OSMAN 30과의 연결이 확실하지 않음. 평점 미확보. 바보다 레스토랑 성격.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/79627/best-rooftop-bars-in-cologne",
+        "https://wanderlog.com/list/geoCategory/76057/best-restaurants-with-a-view-in-cologne"
+      ]
+    },
+    {
+      "name": "Bumann & SOHN",
+      "area": "ehrenfeld",
+      "address": "Bartholomäus-Schink-Straße 2, 50825 Köln",
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "비어가든이 있는 에렌펠트의 활기찬 복합 공간, 칵테일·독일 맥주(Wanderlog 목록 요약). 구글 수치 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer"
+      ]
+    },
+    {
+      "name": "Pegel",
+      "area": "belgisches-viertel",
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "벨기에 지구 외곽의 인기 펍, 맥주 셀렉션 호평(Wanderlog 목록 요약). 주소·수치 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer"
+      ]
+    },
+    {
+      "name": "Scheinbar",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Wanderlog 쾰른 칵테일 바 목록에 이름만 등장. 위치·수치 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+      ]
+    },
+    {
+      "name": "Lorbass Bar & Lounge",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Wanderlog 쾰른 칵테일 바 목록에 이름만 등장. 위치·수치 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+      ]
+    },
+    {
+      "name": "Macky's Asia Lounge",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "address-missing",
+      "found": "Wanderlog 4.3 (327). 칵테일 바가 아니라 노래방(가라오케) 바. 주소 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1524105/cocktail-bars"
+      ]
+    },
+    {
+      "name": "MD BAR",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "address-missing",
+      "found": "werkenntdenbesten google.de 4.6 (129). 위치·업종 미확인.",
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/113054184/bar/koeln/md-bar-bewertungen.html"
+      ]
+    },
+    {
+      "name": "Mäurer Bar",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "address-missing",
+      "found": "werkenntdenbesten google.de 4.7 (88). 위치·업종 미확인.",
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/113509537/bar/koeln/maeurer-bar-bewertungen.html"
+      ]
+    }
+  ]
+}

@@ -485,7 +485,8 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       (it.summary_ko ? '<p class="summary">' + esc(it.summary_ko) + "</p>" : "") +
       tagsHtml(it.tags) +
       moreHtml([["팁", esc(it.tips_ko)], ["운영", esc(it.hours_note)], ["예약", it.booking === "required" ? "필수" : it.booking === "recommended" ? "권장" : ""],
-        ["주소", esc(it.address)], ["조사 출처", sourcesHtml(it.sources)]]) +
+        ["주소", esc(it.address)], ["조사 출처", sourcesHtml(it.sources)],
+        ["확인", { "public-space": "상시 개방 공공장소(입장료·운영시간 없음)", "annual-event": "매년 열리는 행사 — 2026 일정 미확인", unverified: "미확인" }[it.verification] || ""]]) +
       actions(it) + "</article>";
   }
 

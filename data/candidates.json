@@ -6,31 +6,188 @@
       "min_google_reviews": 50
     },
     "research_files": [
+      "attractions.json",
       "bars.json",
       "fnb-belgisches-friesen.json",
       "fnb-deutz-messe.json",
       "fnb-dom-altstadt-eigelstein.json",
       "fnb-ehrenfeld-lateng.json",
       "fnb-suedstadt-other-korean.json",
+      "r2-attractions.json",
+      "r2-bars.json",
+      "r2-se-south-asia.json",
       "wine-places.json"
     ],
-    "count": 128
+    "count": 166
   },
   "items": [
     {
-      "name": "Little Link",
+      "name": "Historisches Rathaus Köln",
+      "name_ko": "쾰른 구 시청사",
+      "category": "landmark",
+      "area": "dom-altstadt",
+      "address": "Rathausplatz 2, 50667 Köln",
+      "summary_ko": "독일에서 가장 오래된 시청 중 하나. 르네상스 회랑(Laube)과 인물 조각이 빼곡한 시청탑 외관이 볼거리.",
+      "reason": "unverified-2026",
+      "found": "외관은 무료로 상시 관람 가능. 내부 관람·투어 가능 여부와 시간은 미확인. MiQua 공사장과 인접",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Flora und Botanischer Garten Köln",
+      "name_ko": "플로라·식물원",
+      "category": "park-nature",
+      "area": "other",
+      "address": "Am Botanischen Garten 1a, 50735 Köln",
+      "summary_ko": "동물원 옆, 19세기 플로라 궁전과 온실이 있는 시립 식물원.",
+      "reason": "unverified-2026",
+      "found": "이번 세션 출처 없음. (일반 지식·미검증: 입장 무료) 운영 시간·온실 개방 미확인",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Melaten-Friedhof",
+      "name_ko": "멜라텐 묘지",
+      "category": "park-nature",
+      "area": "other",
+      "address": "Aachener Straße 204, 50931 Köln",
+      "summary_ko": "아름드리 가로수와 조각 묘비가 늘어선 19세기 중앙 묘지. 조용한 산책과 묘비 예술 감상.",
+      "reason": "unverified-2026",
+      "found": "이번 세션 출처 없음. (일반 지식·미검증: 무료) 개방 시간 미확인",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "KD Köln-Düsseldorfer – Panoramafahrt",
+      "name_ko": "KD 라인강 파노라마 유람선",
+      "category": "experience-tour",
+      "area": "dom-altstadt",
+      "address": "Frankenwerft 35, 50667 Köln",
+      "summary_ko": "구시가 강변에서 출발하는 약 1시간 라인강 유람선. 대성당 스카이라인을 물 위에서 본다.",
+      "reason": "unverified-2026",
+      "found": "2026 겨울 운항 여부·요금 미확인(검색 한도 소진)",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Kölner Zoo & Aquarium",
+      "name_ko": "쾰른 동물원·수족관",
+      "category": "experience-tour",
+      "area": "other",
+      "address": "Riehler Straße 173, 50735 Köln",
+      "summary_ko": "1860년 개장한 독일 대표 동물원 중 하나. 코끼리 공원과 수족관·곤충관.",
+      "reason": "unverified-2026",
+      "found": "2026 입장료·겨울 운영 시간 미확인",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Kölsch-/Brauhaus-Führung",
+      "name_ko": "쾰시·브라우하우스 투어",
+      "category": "experience-tour",
+      "area": "dom-altstadt",
+      "address": "Kardinal-Höffner-Platz 1, 50667 Köln",
+      "summary_ko": "구시가 브라우하우스를 돌며 쾰시 문화와 'Köbes(점원)' 예절을 배우는 가이드 투어.",
+      "reason": "unverified-2026",
+      "found": "운영사·요금·일정 미확인(주소는 쾰른 관광 안내소 기준)",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Wochenmärkte (z. B. Wilhelmplatz Nippes)",
+      "name_ko": "주간 장터(니페스 빌헬름 광장 등)",
+      "category": "shopping",
+      "area": "other",
+      "address": "Wilhelmplatz, 50733 Köln",
+      "summary_ko": "현지인 생활을 엿볼 수 있는 동네 장터. 니페스 빌헬름 광장 장터가 가장 크다는 평.",
+      "reason": "unverified-2026",
+      "found": "장터 요일·시간 미확인",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Heinzels Wintermärchen – Eisbahn am Heumarkt",
+      "name_ko": "호이마르크트 아이스링크",
+      "category": "market-event",
+      "area": "dom-altstadt",
+      "address": "Heumarkt, 50667 Köln",
+      "summary_ko": "구시가 크리스마스 마켓 안의 야외 스케이트장과 컬링 레인.",
+      "reason": "unverified-2026-dates",
+      "found": "2026 운영 기간·요금 미검색",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Ahrtal (Ahrweiler, Rech, Mayschoß)",
+      "name_ko": "아르 계곡 와인 마을",
+      "category": "day-trip",
+      "area": "day-trip",
+      "address": "Bad Neuenahr-Ahrweiler",
+      "summary_ko": "적포도주(슈페트부르군더) 산지의 계곡 마을들. 2021년 홍수 피해 이후 복구 진행.",
+      "reason": "unverified-2026",
+      "found": "2026 철도(Ahrtalbahn) 복구·운행 상태 미검색 — 반드시 확인",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Königswinter & Drachenfels",
+      "name_ko": "쾨니히스빈터·드라헨펠스",
+      "category": "day-trip",
+      "area": "day-trip",
+      "address": "Drachenfels, 53639 Königswinter",
+      "summary_ko": "라인강 위 고성 폐허와 드라헨부르크 성, 톱니바퀴 산악열차.",
+      "reason": "unverified-2026",
+      "found": "산악열차 겨울 운행·요금 미검색",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Mittelrhein (Bacharach & Loreley)",
+      "name_ko": "중부 라인 계곡(바흐라흐·로렐라이)",
+      "category": "day-trip",
+      "area": "day-trip",
+      "address": "Bacharach, 55422 Bacharach",
+      "summary_ko": "고성과 포도밭이 이어지는 유네스코 라인 협곡. 겨울엔 유람선이 대부분 쉰다.",
+      "reason": "unverified-2026",
+      "found": "열차 소요 시간·겨울 유람선 미검색",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Monschau",
+      "name_ko": "몬샤우",
+      "category": "day-trip",
+      "area": "day-trip",
+      "address": "Stadtstraße, 52156 Monschau",
+      "summary_ko": "아이펠 산지의 목골조 동화 마을. 겨울 크리스마스 마켓이 인기. 대중교통은 아헨 경유 버스.",
+      "reason": "unverified-2026",
+      "found": "교통·소요 시간 미검색",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Museum für Ostasiatische Kunst",
+      "name_ko": "동아시아 미술관",
+      "category": "museum",
       "area": "belgisches-viertel",
-      "address": "Maastrichter Straße 20, 50672 Köln",
-      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
-      "found": "Falstaff 바 페이지 96점(가이드 연도 표기 미확인). Bar Magazine 'The 8 Best Bars in Cologne (2026)' 선정. 공식 사이트 타이틀 문구 'Innovativste Bar des Jahres'(연도·주최 미확인). Accor 여행 가이드가 'World's 50 Best Bars 리스트에 포함된 적 있다'고 쓰지만 연도·순위 없음 — 50 Best 리스트 출처로는 확인되지 않음(가이드에 표기 금지). 창업자 Stephan Hinz, 자가 제조 재료(포르치니 위스키, 로즈힙 슈럽, 블랙베리 캐비아), 슬라이더 23시까지. 구글 평점·리뷰 수 미확보.",
-      "sources": [
-        "https://www.littlelink.de/en/",
-        "https://www.falstaff.com/en/bars/little-link",
-        "https://barmagazine.com/best-bars/cologne",
-        "https://all.accor.com/a/en/limitless/thematics/entertainment/bars-in-cologne.html",
-        "https://wanderlog.com/place/details/1478418/little-link"
-      ],
-      "research": "bars"
+      "address": "Universitätsstraße 100, 50674 Köln",
+      "summary_ko": "아헨너 바이어 호숫가의 중국·한국·일본 미술관. 한국 도자기 컬렉션이 있어 한국 여행자에게 흥미로운 곳.",
+      "reason": "unverified-2026-status",
+      "found": "2026 운영 상태·요금 미검색",
+      "sources": [],
+      "research": "attractions"
+    },
+    {
+      "name": "Odysseum",
+      "name_ko": "오디세움(과학 체험관)",
+      "category": "museum",
+      "area": "other",
+      "address": "Corintostraße 1, 51103 Köln",
+      "summary_ko": "칼크 지역의 어린이 과학 체험관.",
+      "reason": "unverified-2026-status",
+      "found": "2026 운영 여부 미검색 — 폐관 가능성 확인 필요",
+      "sources": [],
+      "research": "attractions"
     },
     {
       "name": "Seiberts",
@@ -41,17 +198,6 @@
       "sources": [
         "https://www.enprimeurclub.com/bars/seiberts-bar-cologne-bar",
         "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne"
-      ],
-      "research": "bars"
-    },
-    {
-      "name": "Toddy Tapper",
-      "area": "agnesviertel-eigelstein",
-      "address": "Schillingstraße 27, Köln (우편번호 미확인)",
-      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
-      "found": "50 Best 공식 'Discovery' 데이터베이스 등재(순위 리스트 아님). 스리랑카 출신 바텐더 Indika Silva 운영, 이름은 아락(arrack) 원료인 야자 수액 채취꾼에서 따왔고 메뉴 전반에 아락 사용. 제3자 리스트에 'Falstaff가 독일 최고 바 중 하나로 꼽음' 언급(출처 페이지 특정 못 함). 구글 수치 미확보.",
-      "sources": [
-        "https://www.theworlds50best.com/discovery/Establishments/Germany/Cologne/Toddy-Tapper.html"
       ],
       "research": "bars"
     },
@@ -67,40 +213,6 @@
       "research": "bars"
     },
     {
-      "name": "Papa Joe's Jazzlokal",
-      "area": "dom-altstadt",
-      "address": null,
-      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
-      "found": "Travelbook 기사: European Bar Guide의 유럽 베스트 바 리스트 6위, '세계 최고의 재즈바 중 하나'로 소개(리스트 연도 미확인). 구시가의 재즈 라이브 펍. 주소·구글 수치 미확보.",
-      "sources": [
-        "https://www.travelbook.de/orte/auch-eine-deutsche-dabei-die-besten-bars-in-europa"
-      ],
-      "research": "bars"
-    },
-    {
-      "name": "ONA MOR",
-      "area": null,
-      "address": null,
-      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
-      "found": "konfetti의 쾰른 칵테일바 가이드에 선정, 다른 쾰른 바 리스트에서도 인기 칵테일바로 반복 언급. 위치·주소·구글 수치 미확보.",
-      "sources": [
-        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
-      ],
-      "research": "bars"
-    },
-    {
-      "name": "Monkey Bar (25hours Hotel The Circle)",
-      "area": null,
-      "address": null,
-      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
-      "found": "검색 요약에서 쾰른 인기 바로 이름만 언급(Wanderlog·Yelp·funkyGERMANY 등 리스트 묶음, 정확한 출처 페이지 특정 못 함). 리드 시드 정보로는 25hours Hotel The Circle 루프탑 바 — 이번 세션에서 위치·영업·구글 수치 확인 못 함.",
-      "sources": [
-        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne",
-        "https://funkygermany.com/en/best-bars-in-cologne/"
-      ],
-      "research": "bars"
-    },
-    {
       "name": "Soul Bar",
       "area": null,
       "address": null,
@@ -109,17 +221,6 @@
       "sources": [
         "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne",
         "https://funkygermany.com/en/best-bars-in-cologne/"
-      ],
-      "research": "bars"
-    },
-    {
-      "name": "Barito",
-      "area": null,
-      "address": null,
-      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
-      "found": "konfetti의 쾰른 베스트 칵테일바 가이드에 선정. 위치·주소·구글 수치 미확보.",
-      "sources": [
-        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
       ],
       "research": "bars"
     },
@@ -1586,6 +1687,439 @@
         "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026"
       ],
       "research": "fnb-suedstadt-other-korean"
+    },
+    {
+      "name": "Seiberts – Classic Bar & Liquid Kitchen",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenwall 33, 50672 Köln",
+      "category": "cocktail-bar",
+      "cuisine_country": [],
+      "reason": "temporarily-closed-flag (Wanderlog/구글 리스팅에 'Temporarily Closed' 표시, 재개 여부 미확인)",
+      "found": "Wanderlog 4.5 (1,303) — 별점 분포 5★1,075·4★72·3★33·2★29·1★94. 다른 스냅숏 1,297–1,305건으로 리뷰 수가 거의 늘지 않음(한 목록은 4.6·1,144건). 'Temporarily Closed' 표시. 폐업·재개 뉴스는 못 찾음. koeln.de·Köln Tourismus·mixology.eu·Prinz·restaurantguru 등 디렉터리는 영업 중처럼 표기(날짜 없음). 영업시간 정보 엇갈림(화–일 17–02 / 화–목 16–24, 금 16–01, 토 14–01). 운영자 Volker Seibert, 2014년 개업(unilocal), 전화 +49 221 30195013. 수상(1차): Top 500 Bars 2025 #436(enprimeurclub 인용, 원 리스트 미확인), Mixology Bar Awards 2025 Top 10(원출처 미확인), 책 '150 Bars You Need to Visit Before You Die' 수록. 영업 확인되면 places로 올릴 것.",
+      "sources": [
+        "https://wanderlog.com/place/details/1373849/seiberts-classic-bar--liquid-kitchen",
+        "https://www.koeln.de/branchen/eintrag/43395/bars-lounges/seiberts",
+        "https://www.mixology.eu/bars/klassische-bar/seiberts",
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/seiberts",
+        "https://prinz.de/koeln/locations/123006-seiberts-bar/",
+        "https://restaurantguru.com/Seiberts-Cologne",
+        "https://unilocal.de/deutschland/koln/seiberts-38181",
+        "https://www.enprimeurclub.com/bars/seiberts-bar-cologne-bar",
+        "https://tablejourney.com/germany/cologne/bars/"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "The Grid Bar",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenstraße 62, 50670 Köln",
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "permanently-closed",
+      "found": "Wanderlog 4.5 (577) + 'Permanently Closed' 표시(라운지 목록). 가이드에서 제외.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1481778/best-lounges-in-cologne"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Sixpack",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 33, 50674 Köln",
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "below-criteria (Google 3.4)",
+      "found": "Wanderlog 3.4 (554), 다른 플랫폼 2.8 (28). 큰 냉장고에서 맥주를 골라 마시는 벨기에 지구의 '전설적' 펍, 늦은 밤 전자음악·애프터아워 분위기(Wanderlog 요약).",
+      "sources": [
+        "https://wanderlog.com/place/details/1820759/sixpack",
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Barracuda Bar",
+      "area": "belgisches-viertel",
+      "address": "Bismarckstraße 44, 50672 Köln",
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "below-criteria (Google 4.1)",
+      "found": "Wanderlog 4.1 (190). 해산물 플래터와 칵테일을 내는 벨기에 지구 바(Wanderlog 요약).",
+      "sources": [
+        "https://wanderlog.com/place/details/1820845/barracuda-bar-k%C3%B6ln",
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Biermuseum",
+      "area": "dom-altstadt",
+      "address": "Buttermarkt 39, 50667 Köln",
+      "category": "beer-bar",
+      "cuisine_country": [],
+      "reason": "below-criteria (Google 4.0)",
+      "found": "Wanderlog 4.0 (1,347), 목록 1,359건. 별점 분포 652·359·179·60·97. 펍, 가격대 'affordable'.",
+      "sources": [
+        "https://wanderlog.com/place/details/2475831/biermuseum",
+        "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Gibbon",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "not-found (Wanderlog 검색에서 리스팅 없음)",
+      "found": "리드 시드. 이번 조사에서 쾰른 바로 확인되는 결과 없음. 이름 정확성부터 확인 필요.",
+      "sources": [],
+      "research": "r2-bars"
+    },
+    {
+      "name": "OSMAN 30",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Im Mediapark 8, 50670 Köln",
+      "category": "restaurant",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "KölnTurm 30층 레스토랑·바(Wanderlog 루프탑·전망 목록). 주소는 목록 스니펫 기준이며 OSMAN 30과의 연결이 확실하지 않음. 평점 미확보. 바보다 레스토랑 성격.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/79627/best-rooftop-bars-in-cologne",
+        "https://wanderlog.com/list/geoCategory/76057/best-restaurants-with-a-view-in-cologne"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Bumann & SOHN",
+      "area": "ehrenfeld",
+      "address": "Bartholomäus-Schink-Straße 2, 50825 Köln",
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "비어가든이 있는 에렌펠트의 활기찬 복합 공간, 칵테일·독일 맥주(Wanderlog 목록 요약). 구글 수치 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Pegel",
+      "area": "belgisches-viertel",
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "벨기에 지구 외곽의 인기 펍, 맥주 셀렉션 호평(Wanderlog 목록 요약). 주소·수치 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Scheinbar",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Wanderlog 쾰른 칵테일 바 목록에 이름만 등장. 위치·수치 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Lorbass Bar & Lounge",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Wanderlog 쾰른 칵테일 바 목록에 이름만 등장. 위치·수치 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Macky's Asia Lounge",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "address-missing",
+      "found": "Wanderlog 4.3 (327). 칵테일 바가 아니라 노래방(가라오케) 바. 주소 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1524105/cocktail-bars"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "MD BAR",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "address-missing",
+      "found": "werkenntdenbesten google.de 4.6 (129). 위치·업종 미확인.",
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/113054184/bar/koeln/md-bar-bewertungen.html"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Mäurer Bar",
+      "area": null,
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "address-missing",
+      "found": "werkenntdenbesten google.de 4.7 (88). 위치·업종 미확인.",
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/113509537/bar/koeln/maeurer-bar-bewertungen.html"
+      ],
+      "research": "r2-bars"
+    },
+    {
+      "name": "Thai Street Food (Ehrenfeld)",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße, 50823 Köln (번지 불일치: round 1의 282번지는 top-rated.online에서 Tantuni Haus 주소로 나옴)",
+      "category": "streetfood",
+      "cuisine_country": [
+        "TH"
+      ],
+      "reason": "address-conflict + google-numbers-not-found",
+      "found": "Round 1 출처는 Mit Vergnügen 2026 리스트 두 개뿐. top-rated.online에서 Venloer Str. 282는 Tantuni Haus(터키식 탄투니, 4.6/372)로 나옴. 이름으로 검색하면 구시가의 Thai-Viet Street Food Imbiss(Kleine Budengasse 11a, 다른 업소)만 나옴.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/",
+        "https://www.top-rated.online/cities/Cologne/place/p/8501654/Tantuni+Haus"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Yame – Vietnamese Streetfood",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Bonner Str. 33, 50677 Köln",
+      "category": "streetfood",
+      "cuisine_country": [
+        "VN"
+      ],
+      "reason": "google-review-count-missing",
+      "found": "top-rated.online 4.7 (리뷰 수는 표시되지 않음). 쌀국수와 볼을 추천하는 리뷰. 쥐트슈타트. 전화 +49 221 26138439.",
+      "sources": [
+        "https://www.top-rated.online/cities/Cologne/place/p/9161776/Yame+-+Vietnamese+Streetfood"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Thali – Indisches Essen Restaurant Köln",
+      "area": "other",
+      "address": "주소 미확인",
+      "category": "restaurant",
+      "cuisine_country": [
+        "IN"
+      ],
+      "reason": "address-missing",
+      "found": "top-rated.online 4.6 (454), 채식 메뉴가 많음. 주소가 검색 결과에 나오지 않아 지역을 정하지 못함(area는 임시값 other).",
+      "sources": [
+        "https://top-rated.online/cities/Cologne/place/p/6080110/Thali-+Indisches+Essen+Restaurant+K%C3%B6ln"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Kuchi Mami",
+      "area": "other",
+      "address": "주소 미확인",
+      "category": "restaurant",
+      "cuisine_country": [
+        "JP",
+        "VN"
+      ],
+      "reason": "address-missing; 스시 중심의 범아시아 식당이라 범위 경계",
+      "found": "top-rated.online 4.8 (1.5K). 스시가 중심이고 베트남 요리도 있으며, 소고기 쌀국수를 추천하는 리뷰가 있음. 메뉴에 'Pho Hanoi'가 있다는 소개도 있음. 주소 미확인(area는 임시값 other).",
+      "sources": [
+        "https://www.top-rated.online/cities/Cologne/place/p/1237947/Kuchi+Mami"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Bun Pho",
+      "area": "dom-altstadt",
+      "address": "Fleischmengergasse 59, Köln (PLZ 미확인)",
+      "category": "restaurant",
+      "cuisine_country": [
+        "VN"
+      ],
+      "reason": "google-attribution-unclear",
+      "found": "검색 요약상 한 포털(speisekarte.menu로 보임)에 4.5 / 1,897건. 구글 값인지 불명확. koeln.de 업소 항목 있음.",
+      "sources": [
+        "https://speisekarte.menu/restaurants/cologne/bun-pho",
+        "https://www.koeln.de/branchen/eintrag/41697/restaurants-vietnamesisch/vietnamesisches-restaurant-bun-pho"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Hanoi 36",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 239B, Köln (PLZ 미확인, 주소 출처 신뢰도 낮음)",
+      "category": "restaurant",
+      "cuisine_country": [
+        "VN"
+      ],
+      "reason": "google-numbers-not-found",
+      "found": "36시간 끓인 육수의 쌀국수를 내세움. 편집 추천 목록과 품질이 낮은 블로그성 페이지에서만 나옴. 주소는 검색 요약에서만 확인함.",
+      "sources": [
+        "https://scratchandwin.tcl.com/instastories-0079/hanoi-36-kln-is-this-the-best-vietnamese-food-in-town.html"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "1992 Vietnamese Fusion & Sushi",
+      "area": "agnesviertel-eigelstein",
+      "address": "주소 미확인 (아그네스 지구)",
+      "category": "restaurant",
+      "cuisine_country": [
+        "VN"
+      ],
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "Wanderlog: 아그네스 지구에 있고 '쾰른 최고의 쌀국수 중 하나'라는 평판. top-rated.online 페이지는 있지만 수치는 확인 못 함.",
+      "sources": [
+        "https://www.top-rated.online/cities/Cologne/place/p/8242316/1992+Vietnamese+Fusion+&+Sushi",
+        "https://wanderlog.com/list/geoCategory/1820358/pho"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Ngon-Ngon",
+      "area": "other",
+      "address": "주소 미확인",
+      "category": "restaurant",
+      "cuisine_country": [
+        "VN"
+      ],
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "top-rated.online 리뷰에 '독일에서 먹은 쌀국수 중 최고'라는 평. 수치와 주소는 확인 못 함.",
+      "sources": [
+        "https://www.top-rated.online/cities/Cologne/place/p/6195031/Ngon-Ngon"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "LU Vietnamese Cuisine",
+      "area": "other",
+      "address": "주소 미확인",
+      "category": "restaurant",
+      "cuisine_country": [
+        "VN"
+      ],
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "Wanderlog 쾰른 쌀국수 목록 소개문에 Chum Chay, Viet Village와 함께 추천 업소로 이름만 나옴.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1820358/pho"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Rangoli Köln",
+      "area": "other",
+      "address": "주소 미확인",
+      "category": "restaurant",
+      "cuisine_country": [
+        "IN"
+      ],
+      "reason": "below-threshold: top-rated.online 3.9",
+      "found": "평점 3.9. 아주 나쁜 리뷰와 좋은 리뷰가 섞여 있음.",
+      "sources": [
+        "https://www.top-rated.online/cities/Cologne/place/p/1238182/Rangoli+K%C3%B6ln"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Namaste",
+      "area": "other",
+      "address": "주소 미확인",
+      "category": "restaurant",
+      "cuisine_country": [
+        "IN"
+      ],
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "리뷰에 '내게는 쾰른 최고의 인도 식당'이라는 평. 커리와 갈릭 로티가 칭찬받음. 수치는 검색 결과에 없었음.",
+      "sources": [
+        "https://www.top-rated.online/cities/Cologne/place/p/6194938/Namaste?r"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Das Tandoori",
+      "area": "kwartier-lateng",
+      "address": "Kyffhäuserstraße, Köln (번지·PLZ 미확인; Köln Süd역 근처)",
+      "category": "restaurant",
+      "cuisine_country": [
+        "IN"
+      ],
+      "reason": "google-numbers-not-found",
+      "found": "리뷰에 쾰른 남역(Köln Süd) 바로 옆 Kyffhäuser Str.이라고 나옴. 평이 엇갈리고, 수치는 확인 못 함.",
+      "sources": [
+        "https://www.top-rated.online/cities/Cologne/place/p/7813925/Indisches+Restaurant:+Das+Tandoori+in+K%C3%B6ln?r"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Chennai Chef",
+      "area": "other",
+      "address": "주소 미확인",
+      "category": "restaurant",
+      "cuisine_country": [
+        "IN"
+      ],
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "top-rated.online에 '남인도 레스토랑(South Indian restaurant)'으로 올라 있음. 쾰른에서 드문 남인도 식당일 수 있음. 수치와 주소는 확인 못 함.",
+      "sources": [
+        "https://top-rated.online/cities/Cologne/place/p/8562047/Chennai+Chef"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Momo Empire",
+      "area": "dom-altstadt",
+      "address": "An St. Agatha 27, 50667 Köln",
+      "category": "restaurant",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found; 네팔 음식점인지 불명확",
+      "found": "En Primeur Club 레스토랑 가이드에 이 주소로 올라 있음. 모모(히말라야식 만두) 가게로 보이지만, 출처상 네팔 음식점인지는 확실하지 않음.",
+      "sources": [
+        "https://www.enprimeurclub.com/restaurants/momo-empire-cologne-restaurant"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Tibet Momo",
+      "area": "belgisches-viertel",
+      "address": "Aachener Str. 11, 50674 Köln",
+      "category": "restaurant",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found; 티베트 음식(스키마에 해당 국가 코드 없음)",
+      "found": "En Primeur Club: 소박한 티베트 식당이고 모모가 맛있다는 평. 구글 수치는 확인 못 함.",
+      "sources": [
+        "https://www.enprimeurclub.com/restaurants/tibet-momo-cologne-restaurant"
+      ],
+      "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Daur Lang",
+      "area": "other",
+      "address": "주소 미확인",
+      "category": "restaurant",
+      "cuisine_country": [
+        "ID"
+      ],
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "top-rated.online에 범아시아 비스트로로 분류됨. 리뷰에서 정통 인도네시아 음식, 매주 바뀌는 작은 메뉴, 비건·채식 옵션, 플라스틱 없는 포장이 칭찬받음.",
+      "sources": [
+        "https://www.top-rated.online/cities/Cologne/place/p/8158896/Daur+Lang"
+      ],
+      "research": "r2-se-south-asia"
     },
     {
       "name": "Wein am Rhein",

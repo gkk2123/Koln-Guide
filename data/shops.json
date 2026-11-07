@@ -6,12 +6,16 @@
       "min_google_reviews": 50
     },
     "research_files": [
+      "attractions.json",
       "bars.json",
       "fnb-belgisches-friesen.json",
       "fnb-deutz-messe.json",
       "fnb-dom-altstadt-eigelstein.json",
       "fnb-ehrenfeld-lateng.json",
       "fnb-suedstadt-other-korean.json",
+      "r2-attractions.json",
+      "r2-bars.json",
+      "r2-se-south-asia.json",
       "wine-places.json"
     ],
     "count": 0

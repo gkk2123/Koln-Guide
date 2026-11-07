@@ -144,7 +144,7 @@ def normalize_fnb(p: dict, agent: str) -> dict:
         elif facet == "award" and val not in flags:
             flags.append(val)
     fallback_region = None
-    cg = slugify(p.get("cuisine_group") or "")
+    cg = slugify(p["cuisine_group"]) if p.get("cuisine_group") else ""
     if cg in V1_CUISINE_GROUP:
         c_list, fallback_region, dish_list, diet_list = V1_CUISINE_GROUP[cg]
         if not countries:
@@ -255,6 +255,8 @@ def normalize_attraction(p: dict, agent: str) -> dict:
         "travel_time_min": as_int(p.get("travel_time_min")),
         "website": p.get("website"),
         "sources": as_list(p.get("sources")),
+        "verification": p.get("verification") if p.get("verification") in ("sourced", "public-space", "annual-event")
+        else ("sourced" if p.get("sources") else "unverified"),
         "research": agent,
         "checked": TODAY,
     }
@@ -380,7 +382,7 @@ def main() -> int:
         report.append(f"{kind:12s} {len(items):4d}")
 
     # candidates: drop the ones that ended up in the main lists, dedupe by name
-    main_names = {norm_name(i["name"]) for k in ("restaurants", "bars", "shops") for i in buckets[k]}
+    main_names = {norm_name(i["name"]) for k in DATA_FILES for i in buckets[k]}
     seen, cands = set(), []
     for c in candidates:
         key = norm_name(c.get("name", ""))

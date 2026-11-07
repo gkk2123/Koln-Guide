@@ -7,6 +7,52 @@
 문화권 → 나라 순서. 카페·디저트처럼 나라 구분이 없는 곳은 [요리 종류별 표](restaurants-by-dish.md)에 있습니다.
 
 
+## 동남아시아 — 12곳
+
+
+### 태국 (7)
+
+| 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
+|---|---|---|---|---|---|---|
+| [Thai Ja-Röen Imbiss](https://www.google.com/maps/search/?api=1&query=Thai%20Ja-R%C3%B6en%20Imbiss%20Th%C3%BCrmchenswall%2064%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 간편식·임비스 | – | ★4.9 (157) |  |  |
+| [Thai-Viet Street Food Imbiss](https://www.google.com/maps/search/?api=1&query=Thai-Viet%20Street%20Food%20Imbiss%20Kleine%20Budengasse%2011a%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 간편식·임비스 | – | ★4.6 (2,400) |  |  |
+| [Thai Imbiss](https://www.google.com/maps/search/?api=1&query=Thai%20Imbiss%20Eigelstein%20114%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 간편식·임비스 | – | ★4.5 (1,535) |  |  |
+| [Krua Thai am Heumarkt](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20am%20Heumarkt%20Heumarkt%2025%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레스토랑 | – | ★4.4 (748) |  |  |
+| [Thai Gourmet](https://www.google.com/maps/search/?api=1&query=Thai%20Gourmet%20Neusser%20Str.%20311%2C%2050733%20K%C3%B6ln) | 기타 시내 | 레스토랑 | – | ★4.4 (540) |  |  |
+| [Thai Food](https://www.google.com/maps/search/?api=1&query=Thai%20Food%20Friesenwall%2024B%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 레스토랑 | – | ★4.4 (391) |  |  |
+| [Krua Thai – Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20%E2%80%93%20Belgisches%20Viertel%20Br%C3%BCsseler%20Str.%2040-42%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | – | ★4.2 (903) |  |  |
+
+### 베트남 (4)
+
+| 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
+|---|---|---|---|---|---|---|
+| [Nam](https://www.google.com/maps/search/?api=1&query=Nam%20Engelbertstra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.9 (676) | 쌀국수, 면 요리 | Phở (퍼 — 베트남 쌀국수, 리뷰에서 가장 많이 언급되는 대표 메뉴) |
+| [Lúa by Danny](https://www.google.com/maps/search/?api=1&query=L%C3%BAa%20by%20Danny%20Brabanter%20Str.%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | – | ★4.7 (585) | 쌀국수 | Phở (퍼 — 베트남 쌀국수, 리뷰에서 자주 칭찬) |
+| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 간편식·임비스 | – | ★4.7 (541) | 반미, 쌀국수, 샌드위치 | Bánh mì (반미 — 베트남식 바게트 샌드위치), Phở (퍼 — 쌀국수, 채식 버전도 있음) |
+| [Chum Chay](https://www.google.com/maps/search/?api=1&query=Chum%20Chay%20Friesenwall%2029%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 레스토랑 | – | ★4.6 (1,866) | 쌀국수 | Phở (채식 쌀국수 — Wanderlog 쾰른 쌀국수 목록의 추천 업소) |
+
+### 인도네시아 (1)
+
+| 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
+|---|---|---|---|---|---|---|
+| [Bali Restaurant](https://www.google.com/maps/search/?api=1&query=Bali%20Restaurant%20Br%C3%BCsseler%20Platz%202%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | – | ★4.4 (690) |  | Sate (사테 — 땅콩 소스를 곁들인 인도네시아식 꼬치구이) |
+
+## 남아시아 — 3곳
+
+
+### 인도 (2)
+
+| 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
+|---|---|---|---|---|---|---|
+| [Ganesha Indisches Restaurant](https://www.google.com/maps/search/?api=1&query=Ganesha%20Indisches%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2026%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.7 (1,800) | 커리 | Thali (탈리 — 커리·밥·반찬을 한 쟁반에 담은 인도식 정식), Curry (커리) |
+| [Ginti Indian Restaurant](https://www.google.com/maps/search/?api=1&query=Ginti%20Indian%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2033%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.4 (4,900) | 커리 | Curry (커리 — '층층이 쌓인 향신료로 진하고 복합적'이라는 리뷰), Naan (난 — 인도식 화덕 빵), Mango Lassi (망고 라씨 — 망고 요구르트 음료) |
+
+### 네팔 (1)
+
+| 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
+|---|---|---|---|---|---|---|
+| [Buddha's Eye](https://www.google.com/maps/search/?api=1&query=Buddha%27s%20Eye%20Mariengartengasse%205%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레스토랑 | €€ | ★4.4 (664) |  |  |
+
 ## 남유럽 — 1곳
 
 
