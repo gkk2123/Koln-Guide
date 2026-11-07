@@ -74,3 +74,9 @@ Wanderlog처럼 한 페이지에 여러 곳의 구글 평점·리뷰 수·주소
 주소가 바뀌면 좌표를 다시 계산). 사진은 검색 도구로 볼 수 없어 최근 리뷰 시점을 활동 신호로 썼습니다. 요약은
 [`verification-2026-11-07.md`](verification-2026-11-07.md). 구글 Places API 연동은 사용자가 키를 주지 않아 보류했고,
 `scripts/verify_google_places.py`는 키가 생기면 place ID만 저장하고 평점 등은 변경 내역만 출력하도록 바꿨습니다(구글 약관의 캐싱 제한).
+
+## 러닝 코스 (2026-11-07)
+
+공개 장소만 경유지로 쓰고(출발·도착: 프리젠플라츠), OpenStreetMap 보행 경로 서버(routing.openstreetmap.de)로 실제 길을 계산했습니다.
+`data/routes-spec.json`(경유지 정의) → `scripts/build_routes.py` → `routes/*.kml|gpx|geojson`, `data/routes.json`(뷰어용 단순화 경로·1km 표시·구글 지도 링크).
+구글 지도 길찾기 링크는 경유지 9곳 제한 때문에 긴 코스를 두 구간으로 나눴습니다. 일출·일몰은 NOAA 근사식으로 계산했습니다.

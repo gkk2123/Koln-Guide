@@ -273,6 +273,7 @@ def viewer_payload(data: dict, areas_doc: dict, generated: str) -> dict:
         "shops": data["shops"],
         "attractions": data["attractions"],
         "wine": load_json(DATA / "wine.json", None),
+        "routes": load_json(DATA / "routes.json", None),
     }
 
 
@@ -281,7 +282,7 @@ def render_viewer(payload: dict, mode: str) -> str:
     tpl = TEMPLATE.read_text(encoding="utf-8")
     head, body = tpl.split("<!--BODY-->", 1)
     head = head.replace("<!--HEAD-->", "")
-    config = json.dumps({"geolocation": mode == "site"})
+    config = json.dumps({"geolocation": mode == "site", "downloads": mode == "site"})
     data_js = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     if mode == "site":
         body = body.replace("<!--DATA-->", f'<script>window.KOLN_CONFIG={config};</script>\n<script src="data.js"></script>')
@@ -315,6 +316,11 @@ def main() -> int:
     DOCS.mkdir(exist_ok=True)
     (DOCS / "data.js").write_text("window.KOLN_GUIDE = " + json.dumps(payload, ensure_ascii=False, indent=1) + ";\n",
                                   encoding="utf-8")
+    routes_dir = ROOT / "routes"
+    if routes_dir.exists():  # serve the route files next to the GitHub Pages viewer
+        (DOCS / "routes").mkdir(exist_ok=True)
+        for f in routes_dir.glob("*.*"):
+            (DOCS / "routes" / f.name).write_bytes(f.read_bytes())
     if TEMPLATE.exists():
         (DOCS / "index.html").write_text(render_viewer(payload, "site"), encoding="utf-8")
         if args.artifact:

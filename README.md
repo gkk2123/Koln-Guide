@@ -7,13 +7,14 @@
 
 | 보고 싶은 것 | 위치 |
 |---|---|
-| 필터 웹 뷰어 | [`docs/index.html`](docs/index.html) — 브라우저로 열기. GitHub Pages로 올리려면 Settings → Pages → Branch `/docs` |
+| 필터 웹 뷰어 (목록·지도 보기, 빠른 선택, 러닝 코스 탭) | [`docs/index.html`](docs/index.html) — 브라우저로 열기. GitHub Pages로 올리려면 Settings → Pages → Branch `/docs` |
 | 세계 음식 분석 (나라·동네·요리별 추천, 한식) | [`guides/international-food.md`](guides/international-food.md) |
 | 이번 시즌 (2026-11~2027-02): 대성당 입장료, 휴관, 11.11 카니발, 크리스마스 마켓 | [`guides/season-2026-11-to-2027-02.md`](guides/season-2026-11-to-2027-02.md) |
 | 가성비 맥주 펍 (브라우하우스·크나이페·크래프트 맥주, 쾰시 가격) | [`guides/beer-pubs.md`](guides/beer-pubs.md) · [표](guides/tables/beer-pubs.md) |
 | World's 50 Best Bars & 쾰른 칵테일바 | [`guides/bars-and-worlds-50-best.md`](guides/bars-and-worlds-50-best.md) |
 | 미쉐린 2026 쾰른 | [`guides/fine-dining-michelin-2026.md`](guides/fine-dining-michelin-2026.md) |
 | 독일 화이트와인 가이드 | [`guides/german-white-wine.md`](guides/german-white-wine.md) |
+| 러닝 코스 (프리젠플라츠 출발·도착, 11.3 km / 7.4 km) | [`guides/running-route.md`](guides/running-route.md) · 구글 마이맵 [`routes/koln-running.kml`](routes/koln-running.kml) · GPX [`main`](routes/koln-running-main.gpx) / [`short`](routes/koln-running-short.gpx) |
 | 표: 지역별 · 나라·문화권별 · 요리별 · 가격대별 · 바 · 관광지 · 메쎄 근처 · 대성당 근처 · 후보 | [`guides/tables/`](guides/tables/) |
 
 터미널에서도 바로 필터링할 수 있습니다. 한 옵션 안의 값은 OR, 옵션끼리는 AND입니다.
@@ -83,7 +84,9 @@ Koln-Guide/
 │   ├── shops.json               와인숍
 │   ├── attractions.json         관광지·박물관·성당·시즌 이벤트 (쾰른 시내)
 │   ├── wine.json                와인 품종·산지·용어 (뷰어용)
-│   └── candidates.json          검증 대기·기준 미달 후보
+│   ├── candidates.json          검증 대기·기준 미달 후보
+│   ├── routes-spec.json         러닝 코스 경유지 정의 (공개 장소만)
+│   └── routes.json              뷰어용 러닝 코스 (생성물)
 ├── guides/                      사람이 읽는 가이드 + tables/(자동 생성 표)
 ├── research/
 │   ├── methodology.md           조사 방법·한계·다음 단계
@@ -94,9 +97,11 @@ Koln-Guide/
 │   ├── geocode.py               주소 → 좌표 (OSM Nominatim 또는 Google)
 │   ├── verify_google_places.py  Google Places API로 평점·리뷰 수·영업 상태 재검증
 │   ├── build.py                 data/ → guides/tables/*.md + docs/
+│   ├── build_routes.py          러닝 코스 계산 (OSM 보행 경로) → routes/, data/routes.json
 │   ├── filter.py                CLI 필터
 │   └── templates/viewer.html    웹 뷰어 템플릿
-└── docs/                        필터 웹 뷰어 (생성물: index.html, data.js)
+├── routes/                      러닝 코스 파일 (KML: 구글 마이맵 · GPX: 러닝 앱 · GeoJSON)
+└── docs/                        필터 웹 뷰어 (생성물: index.html, data.js, routes/)
 ```
 
 ## 데이터 갱신
@@ -105,6 +110,7 @@ Koln-Guide/
 python3 scripts/import_raw.py                  # research/raw/*.json → data/*.json
 python3 scripts/geocode.py                     # (선택) 좌표 채우기 → 거리 필터 활성화
 GOOGLE_MAPS_API_KEY=... python3 scripts/verify_google_places.py   # (선택) 구글 평점·가격대 실시간 재검증
+python3 scripts/build_routes.py                # (선택) 러닝 코스 다시 계산 → routes/, data/routes.json
 python3 scripts/build.py                       # 표와 웹 뷰어 다시 만들기
 ```
 

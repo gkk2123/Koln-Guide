@@ -1,0 +1,224 @@
+{
+ "meta": {
+  "note": "러닝 코스 정의. 공개 장소만 사용. scripts/build_routes.py가 OSM 보행 경로(routing.openstreetmap.de)로 실제 길을 계산합니다."
+ },
+ "stops": {
+  "friesenplatz": {
+   "name_ko": "프리젠플라츠",
+   "name": "Friesenplatz",
+   "type": "출발·도착",
+   "desc_ko": "U-Bahn 프리젠플라츠역 앞 광장. 링(Ring) 북쪽 구간의 교차로라 찾기 쉬워요.",
+   "attraction_id": null,
+   "lat": 50.940569,
+   "lng": 6.939968
+  },
+  "st-gereon": {
+   "name_ko": "장크트 게레온 성당",
+   "name": "St. Gereon",
+   "type": "로마네스크 성당",
+   "desc_ko": "10각형 돔이 독특한 로마네스크 성당. 쾰른 12대 로마네스크 성당 중 하나예요.",
+   "attraction_id": "st-gereon",
+   "lat": 50.942741,
+   "lng": 6.946121
+  },
+  "dom": {
+   "name_ko": "쾰른 대성당",
+   "name": "Kölner Dom",
+   "type": "랜드마크·유네스코",
+   "desc_ko": "대성당 앞 광장(Domplatte)을 지나요. 11/16부터는 남쪽 로마 광장에 크리스마스 마켓이 서요(11시 개장).",
+   "attraction_id": "koelner-dom",
+   "lat": 50.941303,
+   "lng": 6.958138
+  },
+  "ludwig": {
+   "name_ko": "루트비히 미술관",
+   "name": "Museum Ludwig",
+   "type": "미술관(외관)",
+   "desc_ko": "대성당과 라인강 사이의 현대미술관. 하인리히-뵐 광장을 지나 다리로 올라가요.",
+   "attraction_id": "museum-ludwig",
+   "lat": 50.940966,
+   "lng": 6.960888
+  },
+  "hohenzollern": {
+   "name_ko": "호엔촐레른 다리",
+   "name": "Hohenzollernbrücke",
+   "type": "다리·포토스팟",
+   "desc_ko": "사랑의 자물쇠가 걸린 철교 보행로로 라인강을 건너요. 낮엔 붐비니 아침이 편해요.",
+   "attraction_id": "hohenzollernbrucke-liebesschlosser",
+   "lat": 50.941318,
+   "lng": 6.965704
+  },
+  "triangle": {
+   "name_ko": "쾰른트라이앵글",
+   "name": "KölnTriangle",
+   "type": "전망대(외관)",
+   "desc_ko": "다리를 건너면 바로 보이는 고층 빌딩. 전망대는 11–20시라 아침 러닝 땐 외관만 봐요.",
+   "attraction_id": "kolntriangle-aussichtsplattform",
+   "lat": 50.940385,
+   "lng": 6.971802
+  },
+  "rheinboulevard": {
+   "name_ko": "라인불바르 계단",
+   "name": "Rheinboulevard",
+   "type": "전망 포인트",
+   "desc_ko": "대성당·호엔촐레른 다리가 정면으로 보이는 강변 계단. 사진 찍기 가장 좋은 곳이에요.",
+   "attraction_id": "rheinboulevard-deutz",
+   "lat": 50.9386,
+   "lng": 6.9682
+  },
+  "deutzer-bruecke": {
+   "name_ko": "도이츠 다리",
+   "name": "Deutzer Brücke",
+   "type": "다리",
+   "desc_ko": "구시가 쪽으로 다시 건너요.",
+   "attraction_id": null,
+   "lat": 50.936406,
+   "lng": 6.966189
+  },
+  "altermarkt": {
+   "name_ko": "알터 마르크트·옛 시청",
+   "name": "Alter Markt",
+   "type": "구시가 광장",
+   "desc_ko": "구시가 중심 광장. 바닥이 돌길이라 발밑을 조심하세요.",
+   "attraction_id": "altstadt-alter-markt-heumarkt-fischmarkt",
+   "lat": 50.939183,
+   "lng": 6.960041
+  },
+  "gross-st-martin": {
+   "name_ko": "그로스 장크트 마르틴",
+   "name": "Groß St. Martin",
+   "type": "로마네스크 성당",
+   "desc_ko": "라인강변 스카이라인의 사각 탑 성당. 여기서 강변 산책로로 내려가요.",
+   "attraction_id": "gross-st-martin",
+   "lat": 50.93831,
+   "lng": 6.961369
+  },
+  "schokoladenmuseum": {
+   "name_ko": "초콜릿 박물관",
+   "name": "Schokoladenmuseum",
+   "type": "박물관(외관)",
+   "desc_ko": "라인아우하펜 끝의 유리 건물. 박물관은 10시에 열어요.",
+   "attraction_id": "schokoladenmuseum",
+   "lat": 50.931983,
+   "lng": 6.964436
+  },
+  "kranhaeuser": {
+   "name_ko": "크란하우스",
+   "name": "Kranhäuser",
+   "type": "현대 건축",
+   "desc_ko": "옛 항구 크레인 모양의 거꾸로 L자 빌딩 세 동. 차 없는 강변길이 이어져요.",
+   "attraction_id": "kranhauser-rheinauhafen",
+   "lat": 50.926309,
+   "lng": 6.965745
+  },
+  "severinstorburg": {
+   "name_ko": "세버린 성문",
+   "name": "Severinstorburg",
+   "type": "중세 성문",
+   "desc_ko": "쥐트슈타트 클로트비히 광장의 중세 성문.",
+   "attraction_id": "severinstorburg",
+   "lat": 50.921706,
+   "lng": 6.959647
+  },
+  "volksgarten": {
+   "name_ko": "폴크스가르텐",
+   "name": "Volksgarten",
+   "type": "공원",
+   "desc_ko": "연못이 있는 쥐트슈타트의 공원.",
+   "attraction_id": "volksgarten",
+   "lat": 50.920035,
+   "lng": 6.953636
+  },
+  "hahnentorburg": {
+   "name_ko": "하넨 성문",
+   "name": "Hahnentorburg",
+   "type": "중세 성문",
+   "desc_ko": "루돌프 광장의 중세 성문. 여기서 링을 따라 출발점으로 돌아가요.",
+   "attraction_id": "hahnentorburg",
+   "lat": 50.936269,
+   "lng": 6.94006
+  },
+  "st-aposteln": {
+   "name_ko": "장크트 아포스텔른 성당",
+   "name": "St. Aposteln",
+   "type": "로마네스크 성당",
+   "desc_ko": "노이마르크트 광장 서쪽 끝의 로마네스크 성당.",
+   "attraction_id": "st-aposteln",
+   "lat": 50.936606,
+   "lng": 6.944993
+  }
+ },
+ "routes": [
+  {
+   "id": "main",
+   "name_ko": "메인 루프 — 대성당·라인강 양안·라인아우하펜·쥐트슈타트",
+   "order": [
+    "friesenplatz",
+    "st-gereon",
+    "dom",
+    "ludwig",
+    "hohenzollern",
+    "triangle",
+    "rheinboulevard",
+    "deutzer-bruecke",
+    "altermarkt",
+    "gross-st-martin",
+    "schokoladenmuseum",
+    "kranhaeuser",
+    "severinstorburg",
+    "volksgarten",
+    "hahnentorburg",
+    "friesenplatz"
+   ],
+   "color": "C30F2B"
+  },
+  {
+   "id": "short",
+   "name_ko": "짧은 루프 — 대성당·라인강 다리 두 개·구시가",
+   "order": [
+    "friesenplatz",
+    "st-gereon",
+    "dom",
+    "hohenzollern",
+    "triangle",
+    "rheinboulevard",
+    "deutzer-bruecke",
+    "gross-st-martin",
+    "altermarkt",
+    "st-aposteln",
+    "friesenplatz"
+   ],
+   "color": "1F6FB2"
+  }
+ ],
+ "rhine": [
+  [
+   50.964784,
+   6.993835
+  ],
+  [
+   50.954108,
+   6.976109
+  ],
+  [
+   50.941438,
+   6.965704
+  ],
+  [
+   50.936406,
+   6.966189
+  ],
+  [
+   50.930706,
+   6.967302
+  ],
+  [
+   50.917999,
+   6.976813
+  ],
+  [
+   50.899807,
+   6.990679
+  ]
+ ]
+}

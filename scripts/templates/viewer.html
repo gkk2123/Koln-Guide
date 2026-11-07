@@ -18,6 +18,8 @@
   --accent-soft: #F7E1E4;
   --star: #A87400;
   --header: #FFFFFF;
+  --land: #F7F7F4; --water: #CBDDE8; --route2: #1F6FB2;
+  --c-food: #C30F2B; --c-cafe: #8A5A2B; --c-beer: #B07A00; --c-bar: #6B3FA0; --c-sight: #1F7A4D;
   --font-display: "Grenze Gotisch", "UnifrakturMaguntia", Georgia, serif;
   --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
   --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -28,12 +30,16 @@
     --bg: #101315; --surface: #181C1F; --ink: #ECEAE6; --muted: #A6A39D; --line: #2D3337;
     --chip: #232A2E; --accent: #F04A60; --accent-ink: #16070A; --accent-soft: #3B1B21;
     --star: #E8C14E; --header: #14181B; color-scheme: dark;
+    --land: #15191C; --water: #1F3B4D; --route2: #5AA9E6;
+    --c-food: #F04A60; --c-cafe: #D09A66; --c-beer: #E8C14E; --c-bar: #B48AE8; --c-sight: #4CC38A;
   }
 }
 :root[data-theme="dark"] {
   --bg: #101315; --surface: #181C1F; --ink: #ECEAE6; --muted: #A6A39D; --line: #2D3337;
   --chip: #232A2E; --accent: #F04A60; --accent-ink: #16070A; --accent-soft: #3B1B21;
   --star: #E8C14E; --header: #14181B; color-scheme: dark;
+    --land: #15191C; --water: #1F3B4D; --route2: #5AA9E6;
+    --c-food: #F04A60; --c-cafe: #D09A66; --c-beer: #E8C14E; --c-bar: #B48AE8; --c-sight: #4CC38A;
 }
 
 * { box-sizing: border-box; }
@@ -56,6 +62,7 @@ h1, h2, h3 { text-wrap: balance; margin: 0; }
 .tabs a .n { font-family: var(--font-data); font-size: 12px; color: var(--muted); margin-left: 4px; }
 .tabs a[aria-current="page"] { background: var(--accent); color: var(--accent-ink); }
 .tabs a[aria-current="page"] .n { color: inherit; opacity: .8; }
+@media (max-width: 600px) { .tabs a .n { display: none; } .tabs a { padding: 8px 10px; } }
 
 .wrap { max-width: 1280px; margin: 0 auto; padding-block: 20px 48px; }
 .layout { display: grid; grid-template-columns: 1fr; gap: 20px; align-items: start; }
@@ -144,6 +151,62 @@ th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--lin
 th { font-size: 12px; color: var(--muted); font-weight: 600; }
 tr:last-child td { border-bottom: 0; }
 footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
+.layout > * { min-width: 0; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.presets { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; max-width: 100%; min-width: 0; flex: 1 1 auto; }
+.preset { font: inherit; font-size: 13px; white-space: nowrap; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 5px 11px; cursor: pointer; }
+.preset[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.viewtoggle { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; flex: none; }
+.viewtoggle button { font: inherit; font-size: 13px; border: 0; background: var(--surface); color: var(--ink); padding: 5px 12px; cursor: pointer; }
+.viewtoggle button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.active-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 12px; }
+.achip { font: inherit; font-size: 12px; border: 0; border-radius: 999px; padding: 3px 9px; background: var(--accent-soft); color: var(--ink); cursor: pointer; }
+.achip::after { content: " ×"; color: var(--muted); }
+.achip.clear { background: none; color: var(--accent); text-decoration: underline; }
+.achip.clear::after { content: ""; }
+.map-wrap { background: var(--land); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.map-wrap svg { display: block; width: 100%; height: auto; }
+.map-note { font-size: 12px; color: var(--muted); margin: 6px 0 0; }
+.map-pick { margin-top: 12px; max-width: 520px; }
+.m-land { fill: var(--land); }
+.m-water { fill: none; stroke: var(--water); stroke-linecap: round; stroke-linejoin: round; }
+.m-label { fill: var(--muted); font-size: 12px; font-family: var(--font-body); }
+.m-river { fill: var(--muted); font-size: 12px; font-style: italic; letter-spacing: .08em; }
+.m-anchor { fill: var(--surface); stroke: var(--ink); stroke-width: 1.5; }
+.m-anchor-t { fill: var(--ink); font-size: 12px; font-weight: 600; font-family: var(--font-body); }
+.dot { stroke: var(--surface); stroke-width: 1.5; cursor: pointer; }
+.dot.sel { stroke: var(--ink); stroke-width: 2.5; }
+.hit { fill: transparent; cursor: pointer; }
+.k-food { fill: var(--c-food); } .k-cafe { fill: var(--c-cafe); } .k-beer { fill: var(--c-beer); } .k-bar { fill: var(--c-bar); } .k-sight { fill: var(--c-sight); }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12px; color: var(--muted); margin-top: 6px; }
+.legend i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+.r-line { fill: none; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.r-main { stroke: var(--accent); } .r-short { stroke: var(--route2); }
+.r-stop { stroke: var(--surface); stroke-width: 2; }
+.r-stop-t { fill: var(--accent-ink); font-size: 11px; font-weight: 700; font-family: var(--font-data); }
+.r-km { fill: var(--surface); stroke: var(--muted); stroke-width: 1.5; }
+.r-km-t { fill: var(--muted); font-size: 10px; font-family: var(--font-data); }
+.fab { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 6; font: inherit; font-weight: 600; font-size: 14px; border: 0; border-radius: 999px; padding: 10px 16px; background: var(--ink); color: var(--surface); box-shadow: 0 4px 14px rgba(0, 0, 0, .18); cursor: pointer; }
+@media (min-width: 960px) { .fab { display: none; } }
+.run { display: flex; flex-direction: column; gap: 18px; }
+.run-head { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; }
+.run-head h2 { font-size: 22px; }
+.run-stats { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 13px; color: var(--muted); }
+.run-stats b { display: block; font-family: var(--font-data); font-size: 20px; color: var(--ink); font-weight: 500; }
+.run-grid { display: grid; grid-template-columns: 1fr; gap: 18px; align-items: start; }
+@media (min-width: 960px) { .run-grid { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); } }
+.run-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.stops { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.stops li { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 10px; border-bottom: 1px solid var(--line); padding-bottom: 10px; }
+.stops .km { font-family: var(--font-data); font-size: 12px; color: var(--muted); text-align: right; padding-top: 3px; }
+.stops .nm { font-weight: 700; }
+.stops .nm small { font-weight: 500; color: var(--muted); margin-left: 4px; }
+.stops .ty { font-size: 12px; color: var(--accent); font-weight: 600; }
+.stops p { margin: 2px 0 6px; font-size: 14px; }
+.stops a { font-size: 13px; font-weight: 600; text-decoration: none; }
+.tips { margin: 0; padding-left: 18px; font-size: 14px; display: flex; flex-direction: column; gap: 6px; }
+.sun { border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+.sun td, .sun th { padding: 4px 12px 4px 0; border-bottom: 1px solid var(--line); text-align: left; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 </style>
 <!--BODY-->
@@ -155,10 +218,11 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     </div>
     <nav class="tabs" aria-label="섹션">
       <a href="#food" data-tab="food">맛집<span class="n"></span></a>
-      <a href="#beer" data-tab="beer">맥주 펍<span class="n"></span></a>
-      <a href="#bars" data-tab="bars">칵테일·바<span class="n"></span></a>
+      <a href="#beer" data-tab="beer">맥주<span class="n"></span></a>
+      <a href="#bars" data-tab="bars">바<span class="n"></span></a>
       <a href="#sights" data-tab="sights">관광지<span class="n"></span></a>
-      <a href="#wine" data-tab="wine">독일 화이트와인</a>
+      <a href="#run" data-tab="run">러닝</a>
+      <a href="#wine" data-tab="wine">와인</a>
     </nav>
   </div>
 </header>
@@ -170,11 +234,16 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     </details>
     <section aria-live="polite">
       <div class="results-head"><h2 id="rtitle">맛집</h2><span class="sub" id="rsub"></span></div>
+      <div class="toolbar" id="toolbar"></div>
+      <div class="active-chips" id="achips" hidden></div>
       <p class="notice" id="notice" hidden></p>
+      <div id="mapview" hidden></div>
       <div class="grid" id="grid"></div>
     </section>
   </div>
-  <div class="wine" id="wine" hidden></div>
+  <div class="wine" id="wineview" hidden></div>
+  <div class="run" id="runview" hidden></div>
+  <button type="button" class="fab" id="fab" hidden>필터</button>
   <footer id="foot"></footer>
 </main>
 <!--DATA-->
@@ -193,6 +262,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       .concat((G.bars || []).filter(function (i) { return i.category === "kneipe" || i.category === "beer-bar"; })) },
     bars: { title: "칵테일·바", items: (G.bars || []).filter(function (i) { return i.category !== "kneipe" && i.category !== "beer-bar"; }).concat(G.shops || []) },
     sights: { title: "관광지", items: G.attractions || [] },
+    run: { title: "러닝 코스", items: [] },
     wine: { title: "독일 화이트와인", items: [] }
   };
   var KM_STEPS = [0, 0.5, 1, 2, 3, 5];
@@ -201,7 +271,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   function fresh() { return { q: "", sel: {}, minRating: 0, maxBeer: 0, free: false, must: false, open: false }; }
   var BEER_STEPS = [0, 2.3, 2.6, 2.9];
   var state = { tab: "food", anchor: "dom", maxKm: 0, sort: { food: "rating", beer: "rating", bars: "rating", sights: "priority" },
-    origin: null, originLabel: "", moreOpen: {}, f: { food: fresh(), beer: fresh(), bars: fresh(), sights: fresh() } };
+    origin: null, originLabel: "", moreOpen: {}, view: {}, mapSel: null, route: "main", preset: {}, f: { food: fresh(), beer: fresh(), bars: fresh(), sights: fresh() } };
 
   function store(k, v) { try { localStorage.setItem("kg." + k, v); } catch (e) {} }
   function recall(k) { try { return localStorage.getItem("kg." + k); } catch (e) { return null; } }
@@ -538,7 +608,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 
   // ------------------------------------------------------------ wine tab
   function renderWine() {
-    var w = G.wine, el = document.getElementById("wine");
+    var w = G.wine, el = document.getElementById("wineview");
     if (!w) { el.innerHTML = '<div class="empty">와인 가이드 데이터가 아직 없어요. 저장소의 guides/german-white-wine.md를 참고하세요.</div>'; return; }
     var html = "<section><h2>독일 화이트와인 한눈에</h2><p class=\"lede\">품종, 산지, 라벨 용어를 정리했어요. 자세한 설명과 추천 병은 저장소의 <code>guides/german-white-wine.md</code>에 있어요.</p></section>";
     if (w.grapes && w.grapes.length) {
@@ -567,6 +637,227 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   }
 
   // ------------------------------------------------------------ main render
+
+  // ------------------------------------------------------------ map engine (inline SVG; map tiles can't load here)
+  var KX = Math.cos(50.937 * Math.PI / 180);
+  var KIND_LABEL = { food: "식당", cafe: "카페·디저트", beer: "맥주 펍", bar: "바", sight: "관광지" };
+  function kindOf(it) {
+    if ("booking" in it) return "sight";
+    var c = it.category;
+    if (c === "cafe" || c === "bakery" || c === "dessert") return "cafe";
+    if (c === "brauhaus" || c === "kneipe" || c === "beer-bar") return "beer";
+    if (c === "cocktail-bar" || c === "wine-bar" || c === "bar" || c === "wine-shop") return "bar";
+    return "food";
+  }
+  function fitExt(pts, minLat, minLng) {
+    var a = 90, b = -90, c = 180, d = -180;
+    pts.forEach(function (q) { a = Math.min(a, q[0]); b = Math.max(b, q[0]); c = Math.min(c, q[1]); d = Math.max(d, q[1]); });
+    var latS = Math.max(b - a, minLat) * 1.18, lngS = Math.max(d - c, minLng) * 1.18;
+    var r = latS / (lngS * KX);
+    if (r > 1.1) lngS = latS / (1.1 * KX);
+    if (r < 0.62) latS = 0.62 * lngS * KX;
+    var cLat = (a + b) / 2, cLng = (c + d) / 2;
+    return { minLat: cLat - latS / 2, maxLat: cLat + latS / 2, minLng: cLng - lngS / 2, maxLng: cLng + lngS / 2 };
+  }
+  function mapGeo(ext, w) {
+    var sc = w / ((ext.maxLng - ext.minLng) * KX);
+    return { w: Math.round(w), h: Math.round((ext.maxLat - ext.minLat) * sc), s: sc,
+      p: function (lat, lng) { return [(lng - ext.minLng) * KX * sc, (ext.maxLat - lat) * sc]; } };
+  }
+  function smoothPath(pts) {
+    var d = "M" + pts[0][0].toFixed(1) + "," + pts[0][1].toFixed(1);
+    for (var i = 0; i < pts.length - 1; i++) {
+      var p0 = pts[i - 1] || pts[i], p1 = pts[i], p2 = pts[i + 1], p3 = pts[i + 2] || p2;
+      d += "C" + (p1[0] + (p2[0] - p0[0]) / 6).toFixed(1) + "," + (p1[1] + (p2[1] - p0[1]) / 6).toFixed(1) + " " +
+        (p2[0] - (p3[0] - p1[0]) / 6).toFixed(1) + "," + (p2[1] - (p3[1] - p1[1]) / 6).toFixed(1) + " " + p2[0].toFixed(1) + "," + p2[1].toFixed(1);
+    }
+    return d;
+  }
+  function inside(g, q) { return q[0] >= 0 && q[1] >= 0 && q[0] <= g.w && q[1] <= g.h; }
+  function baseMap(g) {
+    var R = ((G.routes || {}).rhine || []).map(function (q) { return g.p(q[0], q[1]); });
+    var out = '<rect class="m-land" width="' + g.w + '" height="' + g.h + '"/>';
+    if (R.length > 1) {
+      out += '<path class="m-water" d="' + smoothPath(R) + '" stroke-width="' + Math.max(9, 330 * g.s / 110540).toFixed(1) + '"/>';
+      var mid = R.length > 4 ? [(R[3][0] + R[4][0]) / 2, (R[3][1] + R[4][1]) / 2] : null;
+      if (mid && inside(g, mid)) out += '<text class="m-river" x="' + (mid[0] + 14).toFixed(1) + '" y="' + mid[1].toFixed(1) + '">라인강</text>';
+    }
+    (G.anchors || []).forEach(function (a) {
+      if (a.id !== "dom" && a.id !== "messe") return;
+      var q = g.p(a.lat, a.lng);
+      if (!inside(g, q)) return;
+      out += '<rect class="m-anchor" x="' + (q[0] - 5).toFixed(1) + '" y="' + (q[1] - 5).toFixed(1) + '" width="10" height="10"/>' +
+        '<text class="m-anchor-t" x="' + (q[0] + 9).toFixed(1) + '" y="' + (q[1] - 7).toFixed(1) + '">' + esc(a.id === "dom" ? "대성당" : "메쎄") + "</text>";
+    });
+    return out;
+  }
+  function svgWrap(g, inner, label) {
+    return '<svg viewBox="0 0 ' + g.w + " " + g.h + '" width="' + g.w + '" height="' + g.h + '" role="img" aria-label="' + esc(label || "쾰른 도심 약도") + '">' + inner + "</svg>";
+  }
+  function boxWidth(el, fallback) { return Math.max(280, Math.min((el && el.clientWidth) || fallback, 1100)); }
+
+  function renderMapView(list) {
+    var el = document.getElementById("mapview");
+    var withC = list.filter(function (i) { return i.lat != null; });
+    if (!withC.length) { el.innerHTML = '<div class="empty">지도에 표시할 곳이 없어요.</div>'; return; }
+    var g = mapGeo(fitExt(withC.map(function (i) { return [i.lat, i.lng]; }), 0.008, 0.014), boxWidth(el, 800));
+    var sel = null, dots = "", kinds = {};
+    withC.forEach(function (it) {
+      var q = g.p(it.lat, it.lng), k = kindOf(it);
+      kinds[k] = true;
+      if (it.id === state.mapSel) { sel = [it, q, k]; return; }
+      dots += '<circle class="hit" cx="' + q[0].toFixed(1) + '" cy="' + q[1].toFixed(1) + '" r="14" data-id="' + esc(it.id) + '"/>' +
+        '<circle class="dot k-' + k + '" cx="' + q[0].toFixed(1) + '" cy="' + q[1].toFixed(1) + '" r="6" data-id="' + esc(it.id) + '"><title>' + esc(it.name_ko || it.name) + "</title></circle>";
+    });
+    if (sel) dots += '<circle class="dot sel k-' + sel[2] + '" cx="' + sel[1][0].toFixed(1) + '" cy="' + sel[1][1].toFixed(1) + '" r="9" data-id="' + esc(sel[0].id) + '"/>';
+    var legend = Object.keys(kinds).map(function (k) { return '<span><i style="background:var(--c-' + k + ')"></i>' + KIND_LABEL[k] + "</span>"; }).join("");
+    var missing = list.length - withC.length;
+    el.innerHTML = '<div class="map-wrap">' + svgWrap(g, baseMap(g) + dots) + '</div><div class="legend">' + legend + "</div>" +
+      '<p class="map-note">점을 누르면 카드가 열려요. 지도는 약도예요' + (missing ? " · 좌표 없는 " + missing + "곳은 목록에서 보세요" : "") + ".</p>" +
+      (sel ? '<div class="map-pick">' + (kindOf(sel[0]) === "sight" ? sightCard(sel[0]) : fnbCard(sel[0])) + "</div>" : "");
+  }
+
+  // ------------------------------------------------------------ presets + active chips
+  function near(anchor, km) { return function () { state.anchor = anchor; state.maxKm = km; state.sort[state.tab] = "distance"; }; }
+  var PRESETS = {
+    food: [
+      { id: "kr", label: "한식", apply: function (f) { f.sel.country = { KR: true }; } },
+      { id: "dom1", label: "대성당 1km", apply: near("dom", 1) },
+      { id: "messe", label: "메쎄 근처", apply: near("messe", 2) },
+      { id: "cheap", label: "€ 저렴", apply: function (f) { f.sel.price = { "1": true }; } },
+      { id: "vegan", label: "비건", apply: function (f) { f.sel.diet = { vegan: true }; } },
+      { id: "late", label: "늦게까지", apply: function (f) { f.sel.meal = { "late-night": true }; } },
+      { id: "cafe", label: "카페·디저트", apply: function (f) { f.sel.category = { cafe: true, bakery: true, dessert: true }; } },
+      { id: "fine", label: "파인다이닝", apply: function (f) { f.sel.category = { "fine-dining": true }; } }
+    ],
+    beer: [
+      { id: "cheap", label: "쾰시 €2.30 이하", apply: function (f) { f.maxBeer = 2.3; state.sort.beer = "beer"; } },
+      { id: "brau", label: "브라우하우스", apply: function (f) { f.sel.category = { brauhaus: true }; } },
+      { id: "kneipe", label: "동네 펍", apply: function (f) { f.sel.category = { kneipe: true }; } },
+      { id: "craft", label: "크래프트 맥주", apply: function (f) { f.sel.drink = { "craft-beer": true }; } },
+      { id: "dom1", label: "대성당 1km", apply: near("dom", 1) }
+    ],
+    bars: [
+      { id: "cocktail", label: "칵테일바", apply: function (f) { f.sel.category = { "cocktail-bar": true }; } },
+      { id: "late", label: "늦게까지", apply: function (f) { f.sel.meal = { "late-night": true }; } },
+      { id: "dom1", label: "대성당 1km", apply: near("dom", 1) }
+    ],
+    sights: [
+      { id: "must", label: "첫 방문 필수", apply: function (f) { f.must = true; } },
+      { id: "free", label: "무료", apply: function (f) { f.free = true; } },
+      { id: "rain", label: "비 오는 날", apply: function (f) { f.sel.tag = { "rainy-day": true }; } },
+      { id: "xmas", label: "크리스마스 마켓", apply: function (f) { f.sel.tag = { christmas: true }; } },
+      { id: "night", label: "야경", apply: function (f) { f.sel.tag = { "night-view": true }; } }
+    ]
+  };
+  function applyPreset(id) {
+    var tab = state.tab, p = (PRESETS[tab] || []).filter(function (x) { return x.id === id; })[0];
+    state.f[tab] = fresh(); state.maxKm = 0;
+    if (!p || state.preset[tab] === id) { state.preset[tab] = null; render(); return; }
+    p.apply(state.f[tab]); state.preset[tab] = id; render();
+  }
+  function renderToolbar() {
+    var tab = state.tab, v = state.view[tab] || "list";
+    document.getElementById("toolbar").innerHTML = '<div class="presets" role="group" aria-label="빠른 선택">' +
+      (PRESETS[tab] || []).map(function (p) {
+        return '<button type="button" class="preset" data-preset="' + p.id + '" aria-pressed="' + (state.preset[tab] === p.id) + '">' + esc(p.label) + "</button>";
+      }).join("") + '</div><div class="viewtoggle" role="group" aria-label="보기 방식">' +
+      '<button type="button" data-view="list" aria-pressed="' + (v === "list") + '">목록</button>' +
+      '<button type="button" data-view="map" aria-pressed="' + (v === "map") + '">지도</button></div>';
+  }
+  function renderChips() {
+    var tab = state.tab, f = state.f[tab], out = [];
+    (FACETS[tab] || []).forEach(function (fc) {
+      keys(f.sel[fc.key]).forEach(function (v) { out.push(["sel:" + fc.key + ":" + v, fc.label + " · " + fc.lab(v)]); });
+    });
+    if (f.q) out.push(["q", "검색: " + f.q]);
+    if (state.maxKm) out.push(["km", anchorLabel() + " " + state.maxKm + "km 이내"]);
+    if (f.minRating) out.push(["rating", "★" + f.minRating.toFixed(1) + "+"]);
+    if (f.maxBeer) out.push(["beer", "맥주 €" + f.maxBeer.toFixed(2) + " 이하"]);
+    if (f.must) out.push(["must", "첫 방문 필수"]);
+    if (f.free) out.push(["free", "무료"]);
+    if (f.open) out.push(["open", "휴관 제외"]);
+    var el = document.getElementById("achips");
+    el.hidden = !out.length;
+    el.innerHTML = out.map(function (c) { return '<button type="button" class="achip" data-chip="' + esc(c[0]) + '" aria-label="' + esc(c[1]) + ' 해제">' + esc(c[1]) + "</button>"; }).join("") +
+      (out.length > 1 ? '<button type="button" class="achip clear" data-chip="all">모두 지우기</button>' : "");
+  }
+  function removeChip(id) {
+    var f = state.f[state.tab];
+    if (id === "all") { state.f[state.tab] = fresh(); state.maxKm = 0; }
+    else if (id.indexOf("sel:") === 0) { var p = id.split(":"); if (f.sel[p[1]]) f.sel[p[1]][p.slice(2).join(":")] = false; }
+    else if (id === "q") f.q = "";
+    else if (id === "km") state.maxKm = 0;
+    else if (id === "rating") f.minRating = 0;
+    else if (id === "beer") f.maxBeer = 0;
+    else f[id] = false;
+    state.preset[state.tab] = null;
+    render();
+  }
+
+  // ------------------------------------------------------------ running tab
+  function fmtMin(m) { var h = Math.floor(m / 60), mm = Math.round(m - h * 60); return (h ? h + "시간 " : "") + mm + "분"; }
+  function renderRun() {
+    var el = document.getElementById("runview"), RT = (G.routes || {}).routes || [];
+    if (!RT.length) { el.innerHTML = '<div class="empty">러닝 코스 데이터가 아직 없어요.</div>'; return; }
+    var rt = RT.filter(function (r) { return r.id === state.route; })[0] || RT[0];
+    var km = rt.distance_km, stops = rt.stops, color = rt.id === "main" ? "accent" : "route2";
+    var html = '<div class="run-head"><h2>러닝 코스</h2><div class="viewtoggle" role="group" aria-label="코스 선택">' + RT.map(function (r) {
+      return '<button type="button" data-route="' + r.id + '" aria-pressed="' + (r.id === rt.id) + '">' + (r.id === "main" ? "메인 " : "짧은 코스 ") + r.distance_km.toFixed(1) + "km</button>";
+    }).join("") + "</div></div>";
+    html += '<p class="hint" style="font-size:14px">' + esc(rt.name_ko) + ". 프리젠플라츠(U-Bahn) 출발·도착, 관광지 " + (stops.length - 2) + "곳을 지나요. 실제 보행로 기준이에요.</p>";
+    html += '<div class="run-stats"><span><b>' + km.toFixed(1) + " km</b>거리</span><span><b>" + fmtMin(km * 5.5) + "</b>5분30초/km</span><span><b>" +
+      fmtMin(km * 6.5) + "</b>6분30초/km</span><span><b>" + (stops.length - 2) + "곳</b>경유 관광지</span></div>";
+    html += '<div class="run-grid"><div><div class="map-wrap" id="runmap"></div><div class="legend"><span><i style="background:var(--' + color +
+      ')"></i>코스</span><span>번호: 경유 순서 · S: 출발·도착 · 작은 원: 1km마다</span></div><div class="run-links" style="margin-top:12px">' +
+      rt.gmaps.map(function (x, i) {
+        return '<a class="btn primary" href="' + esc(x.url) + '" target="_blank" rel="noopener">구글 지도 길찾기' + (rt.gmaps.length > 1 ? " " + (i + 1) + "/" + rt.gmaps.length : "") + "</a>";
+      }).join("") + (CFG.downloads ? '<a class="btn" href="routes/koln-running.kml">KML (구글 마이맵)</a><a class="btn" href="routes/koln-running-' + rt.id + '.gpx">GPX (러닝 앱)</a>' : "") +
+      '</div><p class="map-note">' + (rt.gmaps.length > 1 ? "구글 지도 길찾기는 경유지가 9곳까지라 두 구간으로 나눴어요. " : "") +
+      (CFG.downloads ? "" : "KML(구글 마이맵)·GPX(러닝 앱) 파일은 저장소 routes/ 폴더에 있어요. ") + "경로 데이터 © OpenStreetMap 기여자.</p></div>";
+    html += '<ol class="stops">' + stops.slice(0, -1).map(function (st) {
+      var q = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(st.name + ", Köln");
+      return '<li><span class="km">' + (st.n === 0 ? "0 km" : st.km.toFixed(1) + " km") + '</span><div><div class="ty">' + (st.n === 0 ? "S · 출발" : st.n + " · " + esc(st.type)) +
+        '</div><div class="nm">' + esc(st.name_ko) + "<small>" + esc(st.name) + "</small></div><p>" + esc(st.desc_ko) + '</p><a href="' + esc(q) + '" target="_blank" rel="noopener">구글 지도 ↗</a></div></li>';
+    }).join("") + '<li><span class="km">' + km.toFixed(1) + ' km</span><div><div class="ty">S · 도착</div><div class="nm">프리젠플라츠<small>Friesenplatz</small></div></div></li></ol></div>';
+    var sun = ((G.routes || {}).sun || []).map(function (x) { return "<tr><td>" + esc(x.date.slice(5).replace("-", "/")) + "</td><td>" + esc(x.sunrise) + "</td><td>" + esc(x.sunset) + "</td></tr>"; }).join("");
+    html += '<section><h2 style="font-size:18px">달리기 전에</h2><ul class="tips" style="margin-top:8px">' +
+      "<li>11월엔 해가 늦게 뜨고 일찍 져요. 어두울 땐 밝은 옷이나 라이트를 챙기세요.</li>" +
+      "<li>호엔촐레른 다리 보행로와 대성당 앞은 낮에 붐벼요. 이른 아침이 가장 편해요.</li>" +
+      "<li>11/16부터 대성당 남쪽 로마 광장에 크리스마스 마켓이 서요(11시 개장). 아침엔 지나가기 괜찮아요.</li>" +
+      "<li>구시가(알터 마르크트·그로스 장크트 마르틴 주변)는 돌길이에요. 발목 조심하세요.</li>" +
+      "<li>라인강 산책로와 라인아우하펜은 차 없는 평지라 페이스 내기 좋아요. 링(Ring) 구간은 신호등이 많아요.</li>" +
+      "<li>구글 마이맵: mymaps.google.com → 새 지도 → 가져오기 → KML 파일. GPX는 Strava·Garmin·Komoot에서 경로 가져오기로 넣어요.</li></ul>" +
+      (sun ? '<table class="sun" style="margin-top:12px"><thead><tr><th>날짜</th><th>일출</th><th>일몰</th></tr></thead><tbody>' + sun + "</tbody></table>" : "") + "</section>";
+    el.innerHTML = html;
+    drawRunMap(rt);
+  }
+  function drawRunMap(rt) {
+    var box = document.getElementById("runmap");
+    if (!box) return;
+    var g = mapGeo(fitExt(rt.path.concat(rt.stops.map(function (x) { return [x.lat, x.lng]; })), 0.006, 0.01), boxWidth(box, 700));
+    var pts = rt.path.map(function (q) { var p = g.p(q[0], q[1]); return p[0].toFixed(1) + "," + p[1].toFixed(1); }).join(" ");
+    var kmm = rt.km_markers.map(function (m) {
+      var p = g.p(m.lat, m.lng);
+      return '<circle class="r-km" cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="3.5"/><text class="r-km-t" x="' + (p[0] + 6).toFixed(1) + '" y="' + (p[1] - 5).toFixed(1) + '">' + m.km + "</text>";
+    }).join("");
+    var color = rt.id === "main" ? "accent" : "route2";
+    var stops = rt.stops.slice(0, -1).map(function (x) {
+      var p = g.p(x.lat, x.lng), r = x.n === 0 ? 12 : 10;
+      return '<circle class="r-stop" cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="' + r + '" style="fill:var(--' + color + ')"><title>' + esc(x.name_ko) + "</title></circle>" +
+        '<text class="r-stop-t" x="' + p[0].toFixed(1) + '" y="' + (p[1] + 4).toFixed(1) + '" text-anchor="middle">' + (x.n === 0 ? "S" : x.n) + "</text>";
+    }).join("");
+    box.innerHTML = svgWrap(g, baseMap(g) + '<polyline class="r-line r-' + (rt.id === "main" ? "main" : "short") + '" points="' + pts + '"/>' + kmm + stops, "러닝 코스 약도");
+  }
+  function anchorAtPlace(id) {
+    var all = [].concat(TABS.food.items, TABS.beer.items, TABS.bars.items, TABS.sights.items);
+    var it = all.filter(function (x) { return x.id === id; })[0];
+    if (it && it.lat != null) {
+      state.anchor = "place"; state.origin = { lat: it.lat, lng: it.lng }; state.originLabel = it.name_ko || it.name;
+      state.sort[state.tab] = "distance"; render(); window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
+
   function appliedCount(f) {
     var n = 0;
     for (var k in f.sel) n += keys(f.sel[k]).length;
@@ -579,8 +870,13 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     var sortKey = state.sort[tab];
     list.sort(SORTS[sortKey] || SORTS.rating);
     var card = tab === "sights" ? sightCard : fnbCard;
-    var grid = document.getElementById("grid");
-    grid.innerHTML = list.length ? list.map(card).join("") :
+    var grid = document.getElementById("grid"), mv = document.getElementById("mapview");
+    var asMap = (state.view[tab] || "list") === "map" && list.length > 0;
+    state._list = list;
+    renderChips();
+    mv.hidden = !asMap; grid.hidden = asMap;
+    if (asMap) { grid.innerHTML = ""; renderMapView(list); }
+    else grid.innerHTML = list.length ? list.map(card).join("") :
       '<div class="empty">조건에 맞는 곳이 없어요. 필터를 줄이거나 <button type="button" class="reset" id="reset2">초기화</button> 해 보세요.</div>';
     document.getElementById("rtitle").textContent = TABS[tab].title;
     var sub = list.length + "곳 · " + SORT_LABELS[sortKey];
@@ -602,11 +898,15 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       var t = TABS[a.getAttribute("data-tab")], n = a.querySelector(".n");
       if (n && t) n.textContent = t.items.length;
     });
-    var isWine = tab === "wine";
-    document.getElementById("layout").hidden = isWine;
-    document.getElementById("wine").hidden = !isWine;
+    var isWine = tab === "wine", isRun = tab === "run";
+    document.getElementById("layout").hidden = isWine || isRun;
+    document.getElementById("wineview").hidden = !isWine;
+    document.getElementById("runview").hidden = !isRun;
+    document.getElementById("fab").hidden = isWine || isRun;
     if (isWine) { renderWine(); return; }
+    if (isRun) { renderRun(); return; }
     renderFilters();
+    renderToolbar();
     renderResults();
   }
 
@@ -616,6 +916,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   document.getElementById("filters").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b || b.disabled) return;
     var f = state.f[state.tab];
+    state.preset[state.tab] = null;
     if (b.id === "reset") { state.f[state.tab] = fresh(); state.maxKm = 0; render(); return; }
     if (b.hasAttribute("data-facet")) {
       var fac = b.getAttribute("data-facet"), v = b.getAttribute("data-v");
@@ -638,17 +939,36 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   document.getElementById("filters").addEventListener("change", function (e) {
     if (e.target.id === "sort") { state.sort[state.tab] = e.target.value; renderResults(); }
   });
-  document.getElementById("grid").addEventListener("click", function (e) {
-    if (e.target.id === "reset2") { state.f[state.tab] = fresh(); state.maxKm = 0; render(); return; }
+  function cardClicks(e) {
+    if (e.target.id === "reset2") { state.f[state.tab] = fresh(); state.maxKm = 0; state.preset[state.tab] = null; render(); return; }
     var pb = e.target.closest("[data-place]");
-    if (pb) {
-      var id = pb.getAttribute("data-place"), all = [].concat(TABS.food.items, TABS.bars.items, TABS.sights.items);
-      var it = all.filter(function (x) { return x.id === id; })[0];
-      if (it && it.lat != null) {
-        state.anchor = "place"; state.origin = { lat: it.lat, lng: it.lng }; state.originLabel = it.name_ko || it.name;
-        state.sort[state.tab] = "distance"; render(); window.scrollTo({ top: 0, behavior: "smooth" });
-      }
-    }
+    if (pb) { anchorAtPlace(pb.getAttribute("data-place")); return; }
+    var dot = e.target.closest("[data-id]");
+    if (dot && e.currentTarget.id === "mapview") { state.mapSel = dot.getAttribute("data-id"); renderMapView(state._list || []); }
+  }
+  document.getElementById("grid").addEventListener("click", cardClicks);
+  document.getElementById("mapview").addEventListener("click", cardClicks);
+  document.getElementById("toolbar").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    if (b.hasAttribute("data-preset")) applyPreset(b.getAttribute("data-preset"));
+    else if (b.hasAttribute("data-view")) { state.view[state.tab] = b.getAttribute("data-view"); store("view", state.view[state.tab]); renderToolbar(); renderResults(); }
+  });
+  document.getElementById("achips").addEventListener("click", function (e) {
+    var b = e.target.closest("[data-chip]"); if (b) removeChip(b.getAttribute("data-chip"));
+  });
+  document.getElementById("runview").addEventListener("click", function (e) {
+    var b = e.target.closest("[data-route]"); if (b) { state.route = b.getAttribute("data-route"); renderRun(); }
+  });
+  document.getElementById("fab").addEventListener("click", function () {
+    var rail = document.getElementById("rail"); rail.open = true; rail.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  var resizeT = null;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeT);
+    resizeT = setTimeout(function () {
+      if (state.tab === "run") renderRun();
+      else if (!document.getElementById("mapview").hidden) renderMapView(state._list || []);
+    }, 200);
   });
   function locate() {
     if (!navigator.geolocation) { state.anchor = "dom"; render(); return; }
