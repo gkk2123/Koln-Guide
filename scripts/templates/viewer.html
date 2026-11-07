@@ -113,6 +113,7 @@ input[type="search"], select { font: inherit; font-size: 14px; width: 100%; padd
 .meta { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; font-variant-numeric: tabular-nums; }
 .meta .star { color: var(--star); }
 .meta .num { font-family: var(--font-data); font-size: 12px; }
+.meta .beer { color: var(--ink); font-weight: 600; }
 .summary { margin: 2px 0 0; font-size: 14px; }
 .awards { display: flex; flex-wrap: wrap; gap: 4px; }
 .award { font-size: 11px; font-weight: 600; border: 1px solid var(--accent); color: var(--accent); border-radius: 4px; padding: 1px 6px; }
@@ -152,7 +153,8 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     </div>
     <nav class="tabs" aria-label="섹션">
       <a href="#food" data-tab="food">맛집<span class="n"></span></a>
-      <a href="#bars" data-tab="bars">바<span class="n"></span></a>
+      <a href="#beer" data-tab="beer">맥주 펍<span class="n"></span></a>
+      <a href="#bars" data-tab="bars">칵테일·바<span class="n"></span></a>
       <a href="#sights" data-tab="sights">관광지<span class="n"></span></a>
       <a href="#wine" data-tab="wine">독일 화이트와인</a>
     </nav>
@@ -185,16 +187,19 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   var ANCHORS = (G.anchors || []).filter(function (a) { return ANCHOR_IDS.indexOf(a.id) >= 0; });
   var TABS = {
     food: { title: "맛집", items: G.restaurants || [] },
-    bars: { title: "바·와인숍", items: (G.bars || []).concat(G.shops || []) },
+    beer: { title: "맥주 펍", items: (G.restaurants || []).filter(function (i) { return i.category === "brauhaus"; })
+      .concat((G.bars || []).filter(function (i) { return i.category === "kneipe" || i.category === "beer-bar"; })) },
+    bars: { title: "칵테일·바", items: (G.bars || []).filter(function (i) { return i.category !== "kneipe" && i.category !== "beer-bar"; }).concat(G.shops || []) },
     sights: { title: "관광지", items: G.attractions || [] },
     wine: { title: "독일 화이트와인", items: [] }
   };
   var KM_STEPS = [0, 0.5, 1, 2, 3, 5];
   var MIN_RATINGS = [0, 4.4, 4.6, 4.8];
 
-  function fresh() { return { q: "", sel: {}, minRating: 0, free: false, must: false, open: false }; }
-  var state = { tab: "food", anchor: "dom", maxKm: 0, sort: { food: "rating", bars: "rating", sights: "priority" },
-    origin: null, originLabel: "", moreOpen: {}, f: { food: fresh(), bars: fresh(), sights: fresh() } };
+  function fresh() { return { q: "", sel: {}, minRating: 0, maxBeer: 0, free: false, must: false, open: false }; }
+  var BEER_STEPS = [0, 2.3, 2.6, 2.9];
+  var state = { tab: "food", anchor: "dom", maxKm: 0, sort: { food: "rating", beer: "rating", bars: "rating", sights: "priority" },
+    origin: null, originLabel: "", moreOpen: {}, f: { food: fresh(), beer: fresh(), bars: fresh(), sights: fresh() } };
 
   function store(k, v) { try { localStorage.setItem("kg." + k, v); } catch (e) {} }
   function recall(k) { try { return localStorage.getItem("kg." + k); } catch (e) { return null; } }
@@ -262,6 +267,16 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       F("award", "수상·선정", function (i) { return i.award_flags; }, "award", { more: true }),
       F("payment", "결제", function (i) { return known(i.payment); }, "payment", { more: true })
     ],
+    beer: [
+      F("category", "유형", function (i) { return i.category; }, "category"),
+      F("area", "지역", function (i) { return i.area; }, "area", { order: AREA_ORDER }),
+      F("drink", "맥주", function (i) { return arr(i.drinks).filter(function (d) { return d === "koelsch" || d === "craft-beer"; }); }, "drink"),
+      F("payment", "결제", function (i) { return known(i.payment); }, "payment"),
+      F("feature", "공간·서비스", function (i) { return i.features; }, "feature", { more: true }),
+      F("vibe", "분위기", function (i) { return i.vibe; }, "vibe", { more: true }),
+      F("meal", "시간대", function (i) { return i.meals; }, "meal", { more: true }),
+      F("price", "음식 가격", priceKey, "price_level", { more: true, hint: "1인 음식값", order: ["1", "2", "3", "4"] })
+    ],
     sights: [
       F("category", "유형", function (i) { return i.category; }, "category"),
       F("area", "지역", function (i) { return i.area; }, "area", { order: AREA_ORDER }),
@@ -288,6 +303,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       if (!hit) return false;
     }
     if (f.minRating && !((it.google_rating || 0) >= f.minRating)) return false;
+    if (f.maxBeer && !(it.beer_price_eur && it.beer_price_eur <= f.maxBeer)) return false;
     if (f.free && it.price_eur !== 0) return false;
     if (f.must && it.priority !== 1) return false;
     if (f.open && it.status && it.status !== "open" && it.status !== "seasonal" && it.status !== "temporary-location") return false;
@@ -305,9 +321,10 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     },
     price: function (a, b) { return (a.price_level || 9) - (b.price_level || 9) || SORTS.rating(a, b); },
     priority: function (a, b) { return (a.priority || 2) - (b.priority || 2) || SORTS.rating(a, b); },
+    beer: function (a, b) { return (a.beer_price_eur || 99) - (b.beer_price_eur || 99) || SORTS.rating(a, b); },
     name: function (a, b) { return String(a.name).localeCompare(String(b.name)); }
   };
-  var SORT_LABELS = { rating: "평점 높은 순", reviews: "리뷰 많은 순", distance: "가까운 순", price: "가격 낮은 순", priority: "추천 순", name: "이름 순" };
+  var SORT_LABELS = { rating: "평점 높은 순", reviews: "리뷰 많은 순", distance: "가까운 순", price: "가격 낮은 순", beer: "맥주 싼 순", priority: "추천 순", name: "이름 순" };
 
   // ------------------------------------------------------------ filters UI
   function facetChips(items, f, fc) {
@@ -349,7 +366,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     html += group("거리", "", note + '<div class="seg" role="group" aria-label="기준점">' + anchorBtns + '</div><div class="seg" role="group" aria-label="최대 거리">' + kmBtns + "</div>" +
       (hasCoords ? '<p class="hint">직선거리 기준. 도보 시간은 어림값. 카드의 “여기 기준”으로 아무 장소나 기준점이 돼요.</p>' : '<p class="hint">아직 좌표를 수집하지 않아 거리 필터가 꺼져 있어요.</p>'));
 
-    var sortKeys = tab === "sights" ? ["priority", "rating", "distance", "name"] : ["rating", "reviews", "distance", "price", "name"];
+    var sortKeys = tab === "sights" ? ["priority", "rating", "distance", "name"] : tab === "beer" ? ["rating", "beer", "reviews", "distance", "name"] : ["rating", "reviews", "distance", "price", "name"];
     if (!hasCoords) sortKeys = sortKeys.filter(function (k) { return k !== "distance"; });
     html += group("정렬", "", '<select id="sort" aria-label="정렬">' + sortKeys.map(function (k) {
       return '<option value="' + k + '"' + (state.sort[tab] === k ? " selected" : "") + ">" + SORT_LABELS[k] + "</option>";
@@ -361,7 +378,16 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       if (!chips) return;
       var g = group(fc.label, fc.hint || "", '<div class="chips">' + chips + "</div>");
       if (fc.more) more += g; else main += g;
-      if (fc.key === "price" && tab !== "sights") {
+      if (fc.key === "drink" && tab === "beer") {
+        var priced = items.filter(function (i) { return i.beer_price_eur; }).length;
+        main += group("맥주 가격", "쾰시 0.2 l · 가격 확인된 " + priced + "곳 기준", '<div class="seg" role="group" aria-label="맥주 가격">' + BEER_STEPS.map(function (b) {
+          return '<button type="button" data-beer="' + b + '" aria-pressed="' + (f.maxBeer === b) + '">' + (b ? "€" + b.toFixed(2) + " 이하" : "전체") + "</button>";
+        }).join("") + "</div>");
+        main += group("구글 평점", "", '<div class="seg" role="group" aria-label="최소 평점">' + MIN_RATINGS.map(function (r) {
+          return '<button type="button" data-rating="' + r + '" aria-pressed="' + (f.minRating === r) + '">' + (r ? "★" + r.toFixed(1) + "+" : "4.2+ 전체") + "</button>";
+        }).join("") + "</div>");
+      }
+      if (fc.key === "price" && tab !== "sights" && tab !== "beer") {
         main += group("구글 평점", "", '<div class="seg" role="group" aria-label="최소 평점">' + MIN_RATINGS.map(function (r) {
           return '<button type="button" data-rating="' + r + '" aria-pressed="' + (f.minRating === r) + '">' + (r ? "★" + r.toFixed(1) + "+" : "4.2+ 전체") + "</button>";
         }).join("") + "</div>");
@@ -451,12 +477,14 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       '<div class="card-top"><span class="eyebrow">' + esc(lab("category", it.category)) + " · " + esc(area) + "</span>" + priceHtml(it.price_level, it.price_estimated) + "</div>" +
       "<h3>" + esc(it.name) + "</h3>" +
       '<p class="cuisine">' + esc(foodLine(it)) + "</p>" +
-      '<p class="meta">' + ratingHtml(it) + distHtml(it) + "</p>" +
+      '<p class="meta">' + ratingHtml(it) + (it.beer_price_eur ? '<span class="beer">맥주 <span class="num">€' + Number(it.beer_price_eur).toFixed(2) + "</span></span>" : "") + distHtml(it) + "</p>" +
       awardsHtml(it.awards) +
       (it.summary_ko ? '<p class="summary">' + esc(it.summary_ko) + "</p>" : "") +
+      (it.beers && it.beers.length ? '<div class="try"><span class="label">탭</span>' + it.beers.slice(0, 4).map(function (m) { return '<span class="pill">' + esc(m) + "</span>"; }).join("") + "</div>" : "") +
       (it.must_try && it.must_try.length ? '<div class="try"><span class="label">추천</span>' + it.must_try.slice(0, 4).map(function (m) { return '<span class="pill">' + esc(m) + "</span>"; }).join("") + "</div>" : "") +
       facetTags(it) +
       moreHtml([["팁", esc(it.tips_ko)], ["가격", esc([it.price_note, pricePp(it)].filter(Boolean).join(" · "))],
+        ["맥주 가격", esc(it.beer_price_note)],
         ["예약", known(it.reservation) ? esc(lab("reservation", it.reservation)) : ""], ["결제", known(it.payment) ? esc(lab("payment", it.payment)) : ""],
         ["설명", esc(it.cuisine)], ["주소", esc(it.address)],
         ["평점 출처", it.rating_source ? esc(it.rating_source) + (it.google_as_of ? " · " + esc(it.google_as_of) : "") : ""], ["조사 출처", sourcesHtml(it.sources)]]) +
@@ -520,7 +548,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   function appliedCount(f) {
     var n = 0;
     for (var k in f.sel) n += keys(f.sel[k]).length;
-    return n + (f.minRating ? 1 : 0) + (f.free ? 1 : 0) + (f.must ? 1 : 0) + (f.open ? 1 : 0) + (f.q ? 1 : 0) + (state.maxKm ? 1 : 0);
+    return n + (f.minRating ? 1 : 0) + (f.maxBeer ? 1 : 0) + (f.free ? 1 : 0) + (f.must ? 1 : 0) + (f.open ? 1 : 0) + (f.q ? 1 : 0) + (state.maxKm ? 1 : 0);
   }
 
   function renderResults() {
@@ -578,6 +606,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     }
     else if (b.hasAttribute("data-km")) { state.maxKm = Number(b.getAttribute("data-km")); }
     else if (b.hasAttribute("data-rating")) { f.minRating = Number(b.getAttribute("data-rating")); }
+    else if (b.hasAttribute("data-beer")) { f.maxBeer = Number(b.getAttribute("data-beer")); if (f.maxBeer && state.sort[state.tab] === "rating") state.sort[state.tab] = "beer"; }
     else if (b.hasAttribute("data-toggle")) { var k = b.getAttribute("data-toggle"); f[k] = !f[k]; }
     render();
   });

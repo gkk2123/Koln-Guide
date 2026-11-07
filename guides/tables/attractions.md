@@ -104,12 +104,3 @@
 | [벨기에 지구(브뤼셀 광장)](https://www.google.com/maps/search/?api=1&query=Belgisches%20Viertel%20%28Br%C3%BCsseler%20Platz%29%20Br%C3%BCsseler%20Platz%2C%2050672%20K%C3%B6ln) Belgisches Viertel (Brüsseler Platz) | 벨기에 지구 | 무료 · 상시 개방 | – | 운영 | 칵테일 바·와인 바가 모인 세련된 밤 동네. 성당 앞 광장에 사람이 모여 '광장 맥주'를 즐긴다. |
 | [에렌펠트(벤로어·쾨르너 거리)](https://www.google.com/maps/search/?api=1&query=Ehrenfeld%20%28Venloer%20Stra%C3%9Fe%20%26%20K%C3%B6rnerstra%C3%9Fe%29%20Venloer%20Stra%C3%9Fe%2C%2050823%20K%C3%B6ln) Ehrenfeld (Venloer Straße & Körnerstraße) | 에렌펠트 | 무료 · 상시 개방 | – | 운영 | 그라피티·클럽·라이브 공연장이 모인 힙한 동네. 다국적 음식점과 늦은 밤 문화. |
 | [쥘피허 지구(대학가 밤문화)](https://www.google.com/maps/search/?api=1&query=Z%C3%BClpicher%20Viertel%20Z%C3%BClpicher%20Platz%2C%2050674%20K%C3%B6ln) Zülpicher Viertel | 크바르티어 라텡(쥘피허 지구) | 무료 · 상시 개방 | – | 운영 | 저렴한 바·클럽이 늘어선 대학가. 학생 위주로 늦게까지 붐비며 카니발 때 최대 인파. |
-
-## 근교 당일치기 — 4곳
-
-| 이름(지도) | 지역 | 요금 | 소요 | 상태 | 한 줄 소개 |
-|---|---|---|---|---|---|
-| [본(베토벤 생가)](https://www.google.com/maps/search/?api=1&query=Bonn%20%28Beethoven-Haus%20%26%20Altstadt%29%20Bonngasse%2018-26%2C%2053111%20Bonn) Bonn (Beethoven-Haus & Altstadt) | 근교 당일치기 | 쾰른 중앙역 → 본 중앙역 20–27분 (RE 5, RB 48, RB 26) | – | 운영 | 베토벤 생가와 옛 서독 수도의 박물관 마일이 있는 라인강변 도시. |
-| [브륄 아우구스투스부르크·팔켄루스트 궁전(유네스코)](https://www.google.com/maps/search/?api=1&query=Br%C3%BChl%20%E2%80%93%20Schl%C3%B6sser%20Augustusburg%20%26%20Falkenlust%20%28UNESCO%29%20Schlossstra%C3%9Fe%206%2C%2050321%20Br%C3%BChl) Brühl – Schlösser Augustusburg & Falkenlust (UNESCO) | 근교 당일치기 | 쾰른 중앙역 → 브륄역 10–18분 (RB 48, RE 5, MRB 26), 역에서 아우구스투스부르크 성까지 도보 5분 | – | 운영 | 로코코 계단실로 유명한 선제후 궁전과 사냥 별궁. 역 바로 앞이라 반나절 코스. |
-| [아헨(아헨 대성당, 유네스코)](https://www.google.com/maps/search/?api=1&query=Aachen%20%28Aachener%20Dom%2C%20UNESCO%29%20Domhof%201%2C%2052062%20Aachen) Aachen (Aachener Dom, UNESCO) | 근교 당일치기 | 가장 빠른 열차(ICE) 약 31분 / RE 약 52분 | – | 운영 | 카롤루스 대제의 팔각 궁정 예배당이 핵심인 독일 최초 유네스코 세계유산. 겨울엔 크리스마스 마켓과 프린텐 과자. |
-| [뒤셀도르프](https://www.google.com/maps/search/?api=1&query=D%C3%BCsseldorf%20%28Altstadt%2C%20Rheinufer%2C%20K%C3%B6nigsallee%29%20Burgplatz%2C%2040213%20D%C3%BCsseldorf) Düsseldorf (Altstadt, Rheinufer, Königsallee) | 근교 당일치기 | ICE 약 21분 / 지역열차 약 31분 | – | 운영 | 알트비어 양조장 골목, 라인강변 산책로, 쾨니히스알레 쇼핑, 일본인 거리. |

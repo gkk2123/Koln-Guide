@@ -1,6 +1,6 @@
 # Köln Guide — 쾰른 맛집·바·관광지 가이드
 
-쾰른 여행용 가이드 데이터와 뷰어입니다. 구글 평점 4.2 이상·리뷰 50개 이상인 식음료(30개 나라 음식), 칵테일바,
+쾰른(Köln) 시내 여행용 가이드 데이터와 뷰어입니다. 쾰른 시 경계(우편번호 50667–51149) 안의 장소만 다룹니다. 구글 평점 4.2 이상·리뷰 50개 이상인 식음료(30개 나라 음식), 칵테일바,
 관광지, 독일 화이트와인 가이드를 한곳에 모아 **가격·거리·나라·요리·지역·평점** 등으로 걸러 볼 수 있게 만들었습니다.
 
 ## 바로 보기
@@ -10,6 +10,7 @@
 | 필터 웹 뷰어 | [`docs/index.html`](docs/index.html) — 브라우저로 열기. GitHub Pages로 올리려면 Settings → Pages → Branch `/docs` |
 | 세계 음식 분석 (나라·동네·요리별 추천, 한식) | [`guides/international-food.md`](guides/international-food.md) |
 | 이번 시즌 (2026-11~2027-02): 대성당 입장료, 휴관, 11.11 카니발, 크리스마스 마켓 | [`guides/season-2026-11-to-2027-02.md`](guides/season-2026-11-to-2027-02.md) |
+| 가성비 맥주 펍 (브라우하우스·크나이페·크래프트 맥주, 쾰시 가격) | [`guides/beer-pubs.md`](guides/beer-pubs.md) · [표](guides/tables/beer-pubs.md) |
 | World's 50 Best Bars & 쾰른 칵테일바 | [`guides/bars-and-worlds-50-best.md`](guides/bars-and-worlds-50-best.md) |
 | 미쉐린 2026 쾰른 | [`guides/fine-dining-michelin-2026.md`](guides/fine-dining-michelin-2026.md) |
 | 독일 화이트와인 가이드 | [`guides/german-white-wine.md`](guides/german-white-wine.md) |
@@ -23,6 +24,7 @@ python3 scripts/filter.py --region middle-east --area ehrenfeld     # 에렌펠�
 python3 scripts/filter.py --dish ramen --dish pho                   # 라멘 또는 쌀국수
 python3 scripts/filter.py --diet vegan --price 1-2                  # 비건, €~€€
 python3 scripts/filter.py --occasion business --area deutz-messe    # 메쎄 근처 비즈니스 식사
+python3 scripts/filter.py --kind beer --max-beer 2.6 --sort beer     # 쾰시 €2.60 이하, 싼 순
 python3 scripts/filter.py --kind bar --category cocktail-bar
 python3 scripts/filter.py --kind sight --tag free --tag rainy-day   # 무료 + 비 오는 날
 python3 scripts/filter.py --near messe --max-km 1.5 --sort distance # 메쎄 1.5km 이내, 가까운 순
@@ -42,7 +44,8 @@ python3 scripts/filter.py --near messe --max-km 1.5 --sort distance # 메쎄 1.5
 
 | 필터 | 값 예시 |
 |---|---|
-| 유형 | 레스토랑 · 파인다이닝 · 브라우하우스 · 간편식·임비스 · 카페 · 베이커리 · 디저트 · 칵테일바 · 맥주바 · 와인바 |
+| 유형 | 레스토랑 · 파인다이닝 · 브라우하우스 · 간편식·임비스 · 카페 · 베이커리 · 디저트 · 칵테일바 · 맥주바 · 동네 펍(크나이페) · 와인바 |
+| 맥주 | 쾰시·크래프트 맥주, **쾰시 0.2 l 가격**(출처 있는 곳만), 탭 브랜드 |
 | 문화권 → 나라 | 동아시아(한국·일본·중국…) · 동남아 · 남아시아 · 중동·터키·북아프리카 · 남유럽 · 서유럽 · 독일·중부유럽 · 동유럽 · 아메리카 · 아프리카 · 퓨전 |
 | 요리 | 라멘 · 스시 · 쌀국수 · 케밥·되너 · 팔라펠 · 메제 · 피자 · 타코 · 고기구이 · 치킨 · 만두·딤섬 · 쾰른 향토 요리 · 코스 요리 · 브런치 · 케이크 … (32종) |
 | 식단 / 시간대 / 상황 | 비건·채식·할랄·글루텐프리 / 아침·브런치·점심·저녁·심야 / 데이트·비즈니스·단체·혼밥·가족·빠른 한 끼 |
@@ -78,7 +81,7 @@ Koln-Guide/
 │   ├── restaurants.json         레스토랑·파인다이닝·브라우하우스·간편식·카페·디저트
 │   ├── bars.json                칵테일바·맥주바·바
 │   ├── shops.json               와인숍
-│   ├── attractions.json         관광지·박물관·성당·시즌 이벤트·근교
+│   ├── attractions.json         관광지·박물관·성당·시즌 이벤트 (쾰른 시내)
 │   ├── wine.json                와인 품종·산지·용어 (뷰어용)
 │   └── candidates.json          검증 대기·기준 미달 후보
 ├── guides/                      사람이 읽는 가이드 + tables/(자동 생성 표)
@@ -116,7 +119,7 @@ python3 scripts/build.py                       # 표와 웹 뷰어 다시 만들
 | 항목 | 상태 |
 |---|---|
 | 식음료 (구글 4.2+/50+) | **식당 99곳 + 카페·디저트 26곳, 30개 나라** · 바 14곳 |
-| 관광지 | 60곳 (대성당·성당·박물관·전망·공원·크리스마스 마켓·카니발·근교 4곳) |
+| 관광지 | 56곳 (대성당·성당·박물관·전망·공원·크리스마스 마켓·카니발) — 쾰른 시내만 |
 | World's 50 Best Bars | 쾰른 바 없음 (2025·2026, 1–100위). 독일 전체로도 2026년 0곳 |
 | 미쉐린 2026 | 쾰른 스타 10곳·빕 구르망 3곳 |
 | 독일 화이트와인 가이드 | 완료 (품종 12 · 산지 13 · 라벨 용어 59) |

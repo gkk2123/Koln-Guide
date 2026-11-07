@@ -191,6 +191,31 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
     (TABLES / "attractions.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
     written.append("attractions.md")
 
+    # beer pubs
+    beer = [i for i in food if i["category"] == "brauhaus"] + [i for i in bars if i["category"] in ("kneipe", "beer-bar")]
+    parts = [banner("맥주 펍 — 브라우하우스·크나이페·맥주바", generated),
+             "\n쾰시는 0.2 l 잔(Stange) 기준이고, 맥주 가격은 출처가 있는 곳만 적었습니다. "
+             "현금만 받는 곳이 많으니 현금을 챙기세요.\n"]
+    priced = sorted([i for i in beer if i.get("beer_price_eur")], key=lambda i: (i["beer_price_eur"], -(i.get("google_rating") or 0)))
+    if priced:
+        parts.append(f"\n## 맥주 싼 순 — {len(priced)}곳\n")
+        parts.append(table(["이름(지도)", "지역", "유형", "맥주 가격", "구글", "맥주"],
+                           [[name_cell(i), area_name(areas, i["area"]), L["category"].get(i["category"], ""),
+                             f"€{i['beer_price_eur']:.2f}", rating(i), ", ".join(i.get("beers") or [])] for i in priced]))
+    for aid in AREAS:
+        rows = by_rating([i for i in beer if i["area"] == aid])
+        if not rows:
+            continue
+        parts.append(f"\n## {area_name(areas, aid)} — {len(rows)}곳\n")
+        parts.append(table(["이름(지도)", "유형", "맥주", "맥주 가격", "구글", "결제", "특징", "한 줄 소개"],
+                           [[name_cell(i), L["category"].get(i["category"], ""),
+                             ", ".join(i.get("beers") or []) or ", ".join(L["drink"].get(d, d) for d in i.get("drinks") or []),
+                             f"€{i['beer_price_eur']:.2f}" if i.get("beer_price_eur") else "–", rating(i),
+                             "현금만" if i.get("payment") == "cash-only" else "",
+                             ", ".join(L["feature"].get(f, f) for f in i.get("features") or []), i.get("summary_ko")] for i in rows]))
+    (TABLES / "beer-pubs.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
+    written.append("beer-pubs.md")
+
     # near Messe / near Dom
     for anchor, title, limit_km, fname in (("messe", "쾰른 메쎄 근처 (가까운 순)", 2.0, "near-messe.md"),
                                            ("dom", "대성당 근처 (가까운 순)", 1.0, "near-dom.md")):

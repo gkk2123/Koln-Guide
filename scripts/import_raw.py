@@ -24,7 +24,7 @@ from schema import (  # noqa: E402
     AREAS, ATTRACTION_CATEGORIES, ATTRACTION_STATUS, ATTRACTION_TAGS, BAR_CATEGORIES, BOOKING,
     COUNTRIES, DATA, DATA_FILES, FACETS, FNB_CATEGORIES, FOOD_CATEGORIES, PAYMENT, RAW, REGIONS,
     RESERVATION, SHOP_CATEGORIES, V1_CUISINE_GROUP, V1_TAGS, award_flags, infer_countries, infer_dishes,
-    is_area_wide, load_json, meets_criteria, norm_name, region_for, save_json, slugify, street_key,
+    in_cologne, is_area_wide, load_json, meets_criteria, norm_name, region_for, save_json, slugify, street_key,
 )
 
 TODAY = dt.date.today().isoformat()
@@ -84,6 +84,18 @@ def clean_tags(tags, allowed, where):
         else:
             warn(f"{where}: unknown tag '{t}' dropped")
     return out
+
+
+def beer_price(v, where: str):
+    """EUR for a 0.2 l Kölsch / cheapest draft; plausible range only."""
+    try:
+        x = None if v in (None, "") else round(float(str(v).replace(",", ".").replace("€", "")), 2)
+    except ValueError:
+        x = None
+    if x is not None and not 1.0 <= x <= 9.0:
+        warn(f"{where}: beer_price_eur {x} out of range -> null")
+        x = None
+    return x
 
 
 def clean_enum_list(values, allowed: dict, where: str, field: str) -> list[str]:
@@ -197,6 +209,9 @@ def normalize_fnb(p: dict, agent: str) -> dict:
         "price_estimated": price_estimated,
         "price_pp": ppp,
         "price_note": p.get("price_note"),
+        "beer_price_eur": beer_price(p.get("beer_price_eur"), where),
+        "beer_price_note": p.get("beer_price_note"),
+        "beers": as_list(p.get("beers")),
         "google_rating": as_float(p.get("google_rating")),
         "google_reviews": as_int(p.get("google_reviews")),
         "google_as_of": p.get("google_as_of"),
@@ -279,7 +294,7 @@ def merge_into(primary: dict, other: dict) -> dict:
     for k, v in other.items():
         if primary.get(k) in (None, "", []) and v not in (None, "", []):
             primary[k] = v
-    for k in ("awards", "award_flags", "sources", "must_try", "cuisine_country", "location", *FACETS):
+    for k in ("awards", "award_flags", "sources", "must_try", "cuisine_country", "location", "beers", *FACETS):
         seen = list(primary.get(k) or [])
         for v in other.get(k) or []:
             if v not in seen:
@@ -349,12 +364,16 @@ def main() -> int:
 
     buckets: dict[str, list[dict]] = defaultdict(list)
     candidates: list[dict] = []
+    dropped_outside: list[str] = []
     for f in files:
         doc = load_json(f, {})
         agent = doc.get("agent") or f.stem
         for p in doc.get("places", []):
             if not p.get("name"):
                 warn(f"[{agent}] entry without name skipped")
+                continue
+            if not in_cologne(p.get("address"), p.get("area")):
+                dropped_outside.append(f"{p['name']} ({p.get('address')})")
                 continue
             if is_attraction(p):
                 buckets["attractions"].append(normalize_attraction(p, agent))
@@ -375,6 +394,9 @@ def main() -> int:
                     else "bars" if it["category"] in BAR_CATEGORIES else "shops")
             buckets[kind].append(it)
         for c in doc.get("candidates", []):
+            if not in_cologne(c.get("address"), c.get("area")):
+                dropped_outside.append(f"{c.get('name')} ({c.get('address')})")
+                continue
             c = dict(c)
             c["research"] = agent
             candidates.append(c)
@@ -430,6 +452,8 @@ def main() -> int:
             save_json(DATA / "wine.json", load_json(wine))
 
     print("\n".join(report))
+    if dropped_outside:
+        print(f"left out (outside Cologne): {len(dropped_outside)} — " + "; ".join(dropped_outside))
     by_area = Counter(i["area"] for k in ("restaurants", "bars", "shops") for i in buckets[k])
     print("F&B by area:", dict(sorted(by_area.items(), key=lambda kv: area_rank(kv[0]))))
     if warnings:

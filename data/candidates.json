@@ -22,7 +22,7 @@
       "r2-se-south-asia.json",
       "wine-places.json"
     ],
-    "count": 202
+    "count": 198
   },
   "items": [
     {
@@ -118,54 +118,6 @@
       "summary_ko": "구시가 크리스마스 마켓 안의 야외 스케이트장과 컬링 레인.",
       "reason": "unverified-2026-dates",
       "found": "2026 운영 기간·요금 미검색",
-      "sources": [],
-      "research": "attractions"
-    },
-    {
-      "name": "Ahrtal (Ahrweiler, Rech, Mayschoß)",
-      "name_ko": "아르 계곡 와인 마을",
-      "category": "day-trip",
-      "area": "day-trip",
-      "address": "Bad Neuenahr-Ahrweiler",
-      "summary_ko": "적포도주(슈페트부르군더) 산지의 계곡 마을들. 2021년 홍수 피해 이후 복구 진행.",
-      "reason": "unverified-2026",
-      "found": "2026 철도(Ahrtalbahn) 복구·운행 상태 미검색 — 반드시 확인",
-      "sources": [],
-      "research": "attractions"
-    },
-    {
-      "name": "Königswinter & Drachenfels",
-      "name_ko": "쾨니히스빈터·드라헨펠스",
-      "category": "day-trip",
-      "area": "day-trip",
-      "address": "Drachenfels, 53639 Königswinter",
-      "summary_ko": "라인강 위 고성 폐허와 드라헨부르크 성, 톱니바퀴 산악열차.",
-      "reason": "unverified-2026",
-      "found": "산악열차 겨울 운행·요금 미검색",
-      "sources": [],
-      "research": "attractions"
-    },
-    {
-      "name": "Mittelrhein (Bacharach & Loreley)",
-      "name_ko": "중부 라인 계곡(바흐라흐·로렐라이)",
-      "category": "day-trip",
-      "area": "day-trip",
-      "address": "Bacharach, 55422 Bacharach",
-      "summary_ko": "고성과 포도밭이 이어지는 유네스코 라인 협곡. 겨울엔 유람선이 대부분 쉰다.",
-      "reason": "unverified-2026",
-      "found": "열차 소요 시간·겨울 유람선 미검색",
-      "sources": [],
-      "research": "attractions"
-    },
-    {
-      "name": "Monschau",
-      "name_ko": "몬샤우",
-      "category": "day-trip",
-      "area": "day-trip",
-      "address": "Stadtstraße, 52156 Monschau",
-      "summary_ko": "아이펠 산지의 목골조 동화 마을. 겨울 크리스마스 마켓이 인기. 대중교통은 아헨 경유 버스.",
-      "reason": "unverified-2026",
-      "found": "교통·소요 시간 미검색",
       "sources": [],
       "research": "attractions"
     },

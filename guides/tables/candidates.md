@@ -16,10 +16,6 @@
 | Kölsch-/Brauhaus-Führung | 대성당·구시가 | unverified-2026 | 운영사·요금·일정 미확인(주소는 쾰른 관광 안내소 기준) |
 | Wochenmärkte (z. B. Wilhelmplatz Nippes) | 기타 시내 | unverified-2026 | 장터 요일·시간 미확인 |
 | Heinzels Wintermärchen – Eisbahn am Heumarkt | 대성당·구시가 | unverified-2026-dates | 2026 운영 기간·요금 미검색 |
-| Ahrtal (Ahrweiler, Rech, Mayschoß) | 근교 당일치기 | unverified-2026 | 2026 철도(Ahrtalbahn) 복구·운행 상태 미검색 — 반드시 확인 |
-| Königswinter & Drachenfels | 근교 당일치기 | unverified-2026 | 산악열차 겨울 운행·요금 미검색 |
-| Mittelrhein (Bacharach & Loreley) | 근교 당일치기 | unverified-2026 | 열차 소요 시간·겨울 유람선 미검색 |
-| Monschau | 근교 당일치기 | unverified-2026 | 교통·소요 시간 미검색 |
 | Museum für Ostasiatische Kunst | 벨기에 지구 | unverified-2026-status | 2026 운영 상태·요금 미검색 |
 | Odysseum | 기타 시내 | unverified-2026-status | 2026 운영 여부 미검색 — 폐관 가능성 확인 필요 |
 | Salon Schmitz | 벨기에 지구 | google-numbers-missing; aggregate scores (3.8–3.99) suggest likely below-criteria | werkenntdenbesten.de 종합 3,99 (4개 포털 합산 1425건, 구글 단독 수치는 검색 결과에 노출되지 않음). speisekarte.menu 3.8 (7,211건, 출처 미표기). 번지 출처별 상이: 28(werkenntdenbesten, speisekarte.menu) / 28–30(smart-travelling) / 34(koeln.de). koeln.de는 'Schmitz – Salon, Bar, Metzgerei' 묶음으로 소개하며, Metzgerei Schmitz 별도 수치는 미확인. |

@@ -4,57 +4,151 @@
     "checked": "2026-11-07"
   },
   "anchors": [
-    {"id": "dom", "label_ko": "쾰른 대성당", "label_de": "Kölner Dom", "lat": 50.941278, "lng": 6.958281,
-     "source": "https://structurae.net/de/bauwerke/koelner-dom"},
-    {"id": "hbf", "label_ko": "쾰른 중앙역", "label_de": "Köln Hbf", "lat": 50.9425, "lng": 6.95806,
-     "source": "https://en.wikipedia.org/wiki/K%C3%B6ln_Hauptbahnhof"},
-    {"id": "messe", "label_ko": "쾰른 메쎄", "label_de": "Koelnmesse", "lat": 50.946401, "lng": 6.98123,
-     "source": "https://en.wikipedia.org/wiki/Koelnmesse"},
-    {"id": "deutz", "label_ko": "메쎄/도이츠역", "label_de": "Köln Messe/Deutz", "lat": 50.94083, "lng": 6.975,
-     "source": "https://en.wikipedia.org/wiki/K%C3%B6ln_Messe/Deutz_station"},
-    {"id": "belgisches", "label_ko": "벨기에 지구", "label_de": "Belgisches Viertel", "lat": 50.93833, "lng": 6.93472,
-     "source": "https://en.wikipedia.org/wiki/Belgian_Quarter"}
+    {
+      "id": "dom",
+      "label_ko": "쾰른 대성당",
+      "label_de": "Kölner Dom",
+      "lat": 50.941278,
+      "lng": 6.958281,
+      "source": "https://structurae.net/de/bauwerke/koelner-dom"
+    },
+    {
+      "id": "hbf",
+      "label_ko": "쾰른 중앙역",
+      "label_de": "Köln Hbf",
+      "lat": 50.9425,
+      "lng": 6.95806,
+      "source": "https://en.wikipedia.org/wiki/K%C3%B6ln_Hauptbahnhof"
+    },
+    {
+      "id": "messe",
+      "label_ko": "쾰른 메쎄",
+      "label_de": "Koelnmesse",
+      "lat": 50.946401,
+      "lng": 6.98123,
+      "source": "https://en.wikipedia.org/wiki/Koelnmesse"
+    },
+    {
+      "id": "deutz",
+      "label_ko": "메쎄/도이츠역",
+      "label_de": "Köln Messe/Deutz",
+      "lat": 50.94083,
+      "lng": 6.975,
+      "source": "https://en.wikipedia.org/wiki/K%C3%B6ln_Messe/Deutz_station"
+    },
+    {
+      "id": "belgisches",
+      "label_ko": "벨기에 지구",
+      "label_de": "Belgisches Viertel",
+      "lat": 50.93833,
+      "lng": 6.93472,
+      "source": "https://en.wikipedia.org/wiki/Belgian_Quarter"
+    }
   ],
   "areas": [
-    {"id": "dom-altstadt", "name_ko": "대성당·구시가", "name_de": "Dom & Altstadt",
-     "center": {"lat": 50.941278, "lng": 6.958281, "label": "Kölner Dom"},
-     "summary_ko": "쾰른 대성당과 중앙역, 라인강변 구시가. 전통 브라우하우스(쾰시 맥주홀)가 가장 많이 모여 있고 관광객도 가장 많다.",
-     "best_for_ko": "첫 방문, 브라우하우스, 대성당 주변 산책"},
-    {"id": "belgisches-viertel", "name_ko": "벨기에 지구", "name_de": "Belgisches Viertel",
-     "center": {"lat": 50.93833, "lng": 6.93472, "label": "Brüsseler Platz 일대"},
-     "summary_ko": "브뤼셀 광장(Brüsseler Platz)을 중심으로 한 19세기 주택가. 편집숍·카페·바가 골목마다 있는 쾰른의 대표 '힙' 동네.",
-     "best_for_ko": "카페, 브런치, 편집숍, 저녁 한잔"},
-    {"id": "friesenviertel-ehrenstrasse", "name_ko": "프리젠 지구·에렌슈트라세", "name_de": "Friesenviertel & Ehrenstraße",
-     "center": {"lat": 50.94056, "lng": 6.94028, "label": "Friesenplatz"},
-     "summary_ko": "에렌슈트라세 쇼핑 거리와 프리젠플라츠·루돌프플라츠 주변. 패션 매장, 카페, 클래식 브라우하우스, 밤 문화가 섞여 있다.",
-     "best_for_ko": "쇼핑, 카페, 브라우하우스, 나이트라이프"},
-    {"id": "kwartier-lateng", "name_ko": "크바르티어 라텡(쥘피허 지구)", "name_de": "Kwartier Latäng / Zülpicher Viertel",
-     "center": {"lat": 50.93111, "lng": 6.94056, "label": "Zülpicher Platz"},
-     "summary_ko": "쾰른대학교 근처 학생가. 저렴한 맛집과 펍이 많고, 11월 11일 카니발 개막·카니발 기간엔 축제 인파의 중심.",
-     "best_for_ko": "가성비 식사, 펍, 학생가 분위기"},
-    {"id": "ehrenfeld", "name_ko": "에렌펠트", "name_de": "Ehrenfeld",
-     "center": {"lat": 50.9516, "lng": 6.9177, "label": "Bahnhof Köln-Ehrenfeld"},
-     "summary_ko": "옛 공장지대가 문화지구로 바뀐 다문화 동네. 벤로어 거리(Venloer Str.)의 터키·중동 음식, 그래피티, 클럽, 비건 맛집.",
-     "best_for_ko": "다국적 음식, 스트리트아트, 클럽"},
-    {"id": "suedstadt-rheinauhafen", "name_ko": "쥐트슈타트·라인아우하펜", "name_de": "Südstadt & Rheinauhafen",
-     "center": {"lat": 50.92111, "lng": 6.96, "label": "Chlodwigplatz"},
-     "summary_ko": "쥐트슈타트는 쾰른 토박이 정서가 진한 동네(Severinstraße·Chlodwigplatz). 라인아우하펜은 크레인 모양 빌딩(Kranhäuser)과 초콜릿 박물관이 있는 강변 신시가.",
-     "best_for_ko": "로컬 브라우하우스, 강변 산책, 초콜릿 박물관"},
-    {"id": "agnesviertel-eigelstein", "name_ko": "아그네스 지구·아이겔슈타인", "name_de": "Agnesviertel & Eigelstein",
-     "center": {"lat": 50.949306, "lng": 6.956806, "label": "Eigelsteintorburg"},
-     "summary_ko": "중앙역 북쪽. 중세 성문 아이겔슈타인토어 주변의 서민적인 술집과, 조용한 아그네스 지구의 레스토랑·와인바.",
-     "best_for_ko": "로컬 술집, 조용한 저녁 식사"},
-    {"id": "deutz-messe", "name_ko": "도이츠·메쎄(강 건너)", "name_de": "Deutz & Koelnmesse",
-     "center": {"lat": 50.94083, "lng": 6.975, "label": "Bahnhof Köln Messe/Deutz"},
-     "summary_ko": "라인강 동쪽. 쾰른 메쎄(전시·컨퍼런스장)와 LANXESS arena, 대성당 전경이 가장 잘 보이는 강변 계단(Rheinboulevard)과 KölnTriangle 전망대.",
-     "best_for_ko": "메쎄 출장, 대성당 야경, 강변 산책"},
-    {"id": "other", "name_ko": "기타 시내", "name_de": "Weitere Stadtteile",
-     "center": null,
-     "summary_ko": "린덴탈, 쥘츠, 니페스, 뮐하임, 릴(동물원) 등 도심 밖 동네.",
-     "best_for_ko": "목적지가 분명할 때"},
-    {"id": "day-trip", "name_ko": "근교 당일치기", "name_de": "Tagesausflüge",
-     "center": null,
-     "summary_ko": "본, 브륄, 뒤셀도르프, 아헨, 아르 계곡 등 기차로 1시간 안팎의 근교.",
-     "best_for_ko": "일정 여유가 있을 때"}
+    {
+      "id": "dom-altstadt",
+      "name_ko": "대성당·구시가",
+      "name_de": "Dom & Altstadt",
+      "center": {
+        "lat": 50.941278,
+        "lng": 6.958281,
+        "label": "Kölner Dom"
+      },
+      "summary_ko": "쾰른 대성당과 중앙역, 라인강변 구시가. 전통 브라우하우스(쾰시 맥주홀)가 가장 많이 모여 있고 관광객도 가장 많다.",
+      "best_for_ko": "첫 방문, 브라우하우스, 대성당 주변 산책"
+    },
+    {
+      "id": "belgisches-viertel",
+      "name_ko": "벨기에 지구",
+      "name_de": "Belgisches Viertel",
+      "center": {
+        "lat": 50.93833,
+        "lng": 6.93472,
+        "label": "Brüsseler Platz 일대"
+      },
+      "summary_ko": "브뤼셀 광장(Brüsseler Platz)을 중심으로 한 19세기 주택가. 편집숍·카페·바가 골목마다 있는 쾰른의 대표 '힙' 동네.",
+      "best_for_ko": "카페, 브런치, 편집숍, 저녁 한잔"
+    },
+    {
+      "id": "friesenviertel-ehrenstrasse",
+      "name_ko": "프리젠 지구·에렌슈트라세",
+      "name_de": "Friesenviertel & Ehrenstraße",
+      "center": {
+        "lat": 50.94056,
+        "lng": 6.94028,
+        "label": "Friesenplatz"
+      },
+      "summary_ko": "에렌슈트라세 쇼핑 거리와 프리젠플라츠·루돌프플라츠 주변. 패션 매장, 카페, 클래식 브라우하우스, 밤 문화가 섞여 있다.",
+      "best_for_ko": "쇼핑, 카페, 브라우하우스, 나이트라이프"
+    },
+    {
+      "id": "kwartier-lateng",
+      "name_ko": "크바르티어 라텡(쥘피허 지구)",
+      "name_de": "Kwartier Latäng / Zülpicher Viertel",
+      "center": {
+        "lat": 50.93111,
+        "lng": 6.94056,
+        "label": "Zülpicher Platz"
+      },
+      "summary_ko": "쾰른대학교 근처 학생가. 저렴한 맛집과 펍이 많고, 11월 11일 카니발 개막·카니발 기간엔 축제 인파의 중심.",
+      "best_for_ko": "가성비 식사, 펍, 학생가 분위기"
+    },
+    {
+      "id": "ehrenfeld",
+      "name_ko": "에렌펠트",
+      "name_de": "Ehrenfeld",
+      "center": {
+        "lat": 50.9516,
+        "lng": 6.9177,
+        "label": "Bahnhof Köln-Ehrenfeld"
+      },
+      "summary_ko": "옛 공장지대가 문화지구로 바뀐 다문화 동네. 벤로어 거리(Venloer Str.)의 터키·중동 음식, 그래피티, 클럽, 비건 맛집.",
+      "best_for_ko": "다국적 음식, 스트리트아트, 클럽"
+    },
+    {
+      "id": "suedstadt-rheinauhafen",
+      "name_ko": "쥐트슈타트·라인아우하펜",
+      "name_de": "Südstadt & Rheinauhafen",
+      "center": {
+        "lat": 50.92111,
+        "lng": 6.96,
+        "label": "Chlodwigplatz"
+      },
+      "summary_ko": "쥐트슈타트는 쾰른 토박이 정서가 진한 동네(Severinstraße·Chlodwigplatz). 라인아우하펜은 크레인 모양 빌딩(Kranhäuser)과 초콜릿 박물관이 있는 강변 신시가.",
+      "best_for_ko": "로컬 브라우하우스, 강변 산책, 초콜릿 박물관"
+    },
+    {
+      "id": "agnesviertel-eigelstein",
+      "name_ko": "아그네스 지구·아이겔슈타인",
+      "name_de": "Agnesviertel & Eigelstein",
+      "center": {
+        "lat": 50.949306,
+        "lng": 6.956806,
+        "label": "Eigelsteintorburg"
+      },
+      "summary_ko": "중앙역 북쪽. 중세 성문 아이겔슈타인토어 주변의 서민적인 술집과, 조용한 아그네스 지구의 레스토랑·와인바.",
+      "best_for_ko": "로컬 술집, 조용한 저녁 식사"
+    },
+    {
+      "id": "deutz-messe",
+      "name_ko": "도이츠·메쎄(강 건너)",
+      "name_de": "Deutz & Koelnmesse",
+      "center": {
+        "lat": 50.94083,
+        "lng": 6.975,
+        "label": "Bahnhof Köln Messe/Deutz"
+      },
+      "summary_ko": "라인강 동쪽. 쾰른 메쎄(전시·컨퍼런스장)와 LANXESS arena, 대성당 전경이 가장 잘 보이는 강변 계단(Rheinboulevard)과 KölnTriangle 전망대.",
+      "best_for_ko": "메쎄 출장, 대성당 야경, 강변 산책"
+    },
+    {
+      "id": "other",
+      "name_ko": "기타 시내",
+      "name_de": "Weitere Stadtteile",
+      "center": null,
+      "summary_ko": "린덴탈, 쥘츠, 니페스, 뮐하임, 릴(동물원) 등 도심 밖 동네.",
+      "best_for_ko": "목적지가 분명할 때"
+    }
   ]
 }

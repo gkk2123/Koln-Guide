@@ -35,8 +35,10 @@ v1은 `cuisine_group` 하나에 나라(이탈리아)와 스타일(비건·해산
 
 ### `category` — 가게 유형
 
-`restaurant`(레스토랑) · `fine-dining`(파인다이닝·코스) · `brauhaus`(쾰시 맥주홀) · `streetfood`(간편식·임비스) ·
-`cafe` · `bakery` · `dessert` · `cocktail-bar` · `wine-bar` · `beer-bar` · `bar` · `wine-shop`
+`restaurant`(레스토랑) · `fine-dining`(파인다이닝·코스) · `brauhaus`(쾰시 맥주홀·양조장 직영) · `streetfood`(간편식·임비스) ·
+`cafe` · `bakery` · `dessert` · `cocktail-bar` · `wine-bar` · `beer-bar`(크래프트·수입 맥주 바) · `kneipe`(쾰시를 파는 동네 펍, 양조장 직영 아님) · `bar` · `wine-shop`
+
+**쾰른 시내만** 다룹니다. 우편번호 50667–51149 밖이거나 `area: day-trip`인 항목은 import 때 빠집니다.
 
 ### `cuisine_country` — 나라 코드
 
@@ -91,7 +93,6 @@ ISO 3166-1 alpha-2를 씁니다. 하나로 정할 수 없는 퓨전·모던 유�
 | `agnesviertel-eigelstein` | 아그네스 지구·아이겔슈타인 | Eigelstein, Agnesviertel, Neustadt-Nord(Ebertplatz, Neusser Str. 안쪽), 중앙역 북쪽 Kunibertsviertel |
 | `deutz-messe` | 도이츠·메쎄(강 건너) | 라인강 동안 Deutz, 쾰른 메쎄(Koelnmesse), LANXESS arena, Deutzer Freiheit, Rheinboulevard, Rheinpark, KölnTriangle |
 | `other` | 기타 시내 | Lindenthal, Sülz, Nippes, Mülheim, Riehl, Bayenthal, Porz 등 |
-| `day-trip` | 근교 당일치기 | 관광지 전용 |
 
 ## Place (식음료: `data/restaurants.json`, `data/bars.json`, `data/shops.json`)
 
@@ -118,6 +119,9 @@ ISO 3166-1 alpha-2를 씁니다. 하나로 정할 수 없는 퓨전·모던 유�
   "price_level": 2,
   "price_pp": {"min": 12, "max": 20},    // 선택
   "price_note": "피자 €9–16",
+  "beer_price_eur": 2.4,                 // 맥주 펍: 쾰시 0.2 l(또는 가장 싼 생맥주) 가격, 출처 있을 때만
+  "beer_price_note": "Kölsch 0.2 l €2.40 (2026-03, express.de)",
+  "beers": ["Päffgen Kölsch"],           // 탭에 있는 대표 맥주·브랜드
   "google_rating": 4.8,
   "google_reviews": 1172,
   "google_as_of": "2026-05",             // 출처에 표시된 기준 시점 (없으면 null)
@@ -139,7 +143,7 @@ ISO 3166-1 alpha-2를 씁니다. 하나로 정할 수 없는 퓨전·모던 유�
   "id": "koelner-dom",
   "name": "Kölner Dom",
   "name_ko": "쾰른 대성당",
-  "category": "landmark",               // landmark | church | museum | viewpoint | park-nature | experience-tour | shopping | market-event | nightlife-area | day-trip
+  "category": "landmark",               // landmark | church | museum | viewpoint | park-nature | experience-tour | shopping | market-event | nightlife-area
   "area": "dom-altstadt",
   "address": "Domkloster 4, 50667 Köln",
   "lat": null, "lng": null,
@@ -154,7 +158,6 @@ ISO 3166-1 alpha-2를 씁니다. 하나로 정할 수 없는 퓨전·모던 유�
   "priority": 1,                        // 1=첫 방문 필수, 2=추천, 3=취향
   "tags": ["unesco", "free", "must-see"],
   "google_rating": 4.8, "google_reviews": 90000, "google_as_of": null, "rating_source": "…",
-  "travel_time_min": null,              // day-trip만: 쾰른 중앙역 기준 편도
   "website": "https://…",
   "sources": ["https://…"]
 }

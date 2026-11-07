@@ -27,7 +27,7 @@ AREAS = [
 ]
 
 FOOD_CATEGORIES = ["restaurant", "fine-dining", "brauhaus", "streetfood", "cafe", "bakery", "dessert"]
-BAR_CATEGORIES = ["cocktail-bar", "wine-bar", "beer-bar", "bar"]
+BAR_CATEGORIES = ["cocktail-bar", "wine-bar", "beer-bar", "kneipe", "bar"]
 SHOP_CATEGORIES = ["wine-shop"]
 FNB_CATEGORIES = FOOD_CATEGORIES + BAR_CATEGORIES + SHOP_CATEGORIES
 
@@ -112,7 +112,7 @@ LABELS_KO = {
     "category": {
         "restaurant": "레스토랑", "fine-dining": "파인다이닝", "brauhaus": "브라우하우스", "streetfood": "간편식·임비스",
         "cafe": "카페", "bakery": "베이커리", "dessert": "디저트", "cocktail-bar": "칵테일바",
-        "wine-bar": "와인바", "beer-bar": "맥주바", "bar": "바·펍", "wine-shop": "와인숍",
+        "wine-bar": "와인바", "beer-bar": "맥주바", "kneipe": "동네 펍(크나이페)", "bar": "바·펍", "wine-shop": "와인숍",
         "landmark": "랜드마크", "church": "성당·교회", "museum": "박물관·미술관",
         "viewpoint": "전망·포토스팟", "park-nature": "공원·자연", "experience-tour": "체험·투어",
         "shopping": "쇼핑", "market-event": "시즌 이벤트·마켓", "nightlife-area": "나이트라이프 지역",
@@ -275,6 +275,14 @@ def haversine_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
 def walk_minutes(km: float) -> int:
     """Straight-line km -> rough walking minutes (x1.3 detour, 4.8 km/h)."""
     return max(1, round(km * 1.3 / 4.8 * 60))
+
+
+def in_cologne(address: str | None, area: str | None) -> bool:
+    """City-only guide: drop day trips and anything with a postcode outside Köln (50667-51149)."""
+    if area == "day-trip":
+        return False
+    m = re.search(r"\b(\d{5})\b", address or "")
+    return not m or 50667 <= int(m.group(1)) <= 51149
 
 
 def is_area_wide(address: str | None) -> bool:

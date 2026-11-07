@@ -9,6 +9,7 @@ Examples
     python3 scripts/filter.py --dish ramen --dish noodles --meal late-night
     python3 scripts/filter.py --occasion business --near messe --max-km 1.5 --sort distance
     python3 scripts/filter.py --kind bar --category cocktail-bar --drink cocktails
+    python3 scripts/filter.py --kind beer --max-beer 2.6 --sort beer        # cheap Kölsch first
     python3 scripts/filter.py --kind sight --tag free --tag rainy-day
     python3 scripts/filter.py --feature terrace --format md > /tmp/terrace.md
 
@@ -30,6 +31,7 @@ from schema import (  # noqa: E402
 )
 
 KINDS = {"food": ["restaurants"], "bar": ["bars"], "shop": ["shops"], "sight": ["attractions"],
+         "beer": ["restaurants", "bars"],
          "fnb": ["restaurants", "bars", "shops"], "all": ["restaurants", "bars", "shops", "attractions"]}
 FACET_ARGS = [  # (option, field, allowed values)
     ("dish", "dishes", DISHES), ("diet", "diet", DIET), ("meal", "meals", MEALS),
@@ -61,6 +63,7 @@ def main() -> int:
         ap.add_argument(f"--{opt}", action="append", choices=list(allowed))
     ap.add_argument("--price", help="price level or range, e.g. 2 or 1-2")
     ap.add_argument("--max-pp", type=int, help="max EUR per person (uses price_pp, else the price level's upper bound)")
+    ap.add_argument("--max-beer", type=float, help="max EUR for a 0.2 l Kölsch / cheapest draft")
     ap.add_argument("--min-rating", type=float)
     ap.add_argument("--min-reviews", type=int)
     ap.add_argument("--walk-in", action="store_true", help="no reservation needed")
@@ -68,7 +71,7 @@ def main() -> int:
     ap.add_argument("--tag", action="append", help="attraction tags; all given tags must match")
     ap.add_argument("--near", help="anchor id (dom, hbf, messe, deutz, belgisches) or lat,lng")
     ap.add_argument("--max-km", type=float)
-    ap.add_argument("--sort", choices=["rating", "reviews", "distance", "price", "name"], default="rating")
+    ap.add_argument("--sort", choices=["rating", "reviews", "distance", "price", "beer", "name"], default="rating")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--format", choices=["table", "md", "json"], default="table")
     args = ap.parse_args()
@@ -94,6 +97,10 @@ def main() -> int:
     for kind in KINDS[args.kind]:
         for it in data[kind]:
             if kind != "attractions" and not meets_criteria(it):
+                continue
+            if args.kind == "beer" and it.get("category") not in ("brauhaus", "kneipe", "beer-bar"):
+                continue
+            if args.max_beer and not (it.get("beer_price_eur") and it["beer_price_eur"] <= args.max_beer):
                 continue
             if args.area and it.get("area") not in args.area:
                 continue
@@ -134,6 +141,7 @@ def main() -> int:
         "reviews": lambda r: -(r.get("google_reviews") or 0),
         "distance": lambda r: (r["_km"] is None, r["_km"] or 0),
         "price": lambda r: (r.get("price_level") or 9, -(r.get("google_rating") or 0)),
+        "beer": lambda r: (r.get("beer_price_eur") or 99, -(r.get("google_rating") or 0)),
         "name": lambda r: r["name"].lower(),
     }[args.sort]
     rows.sort(key=keyf)
