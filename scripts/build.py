@@ -365,8 +365,9 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
                  f"{bv_km(i):.1f} km" if bv_km(i) is not None else "–", i.get("summary_ko")] for i in rows]
 
     allp = food + bars
-    german = [i for i in allp if near_bv(i, 1.3) and ("DE" in (i.get("cuisine_country") or []) or i["category"] in ("brauhaus", "kneipe"))]
     wine = [i for i in allp if near_bv(i, 1.3) and (i.get("style") == "wine-bar" or i["category"] == "wine-bar")]
+    german = [i for i in allp if near_bv(i, 1.3) and i not in wine
+              and ("DE" in (i.get("cuisine_country") or []) or i["category"] in ("brauhaus", "kneipe"))]
     barl = [i for i in bars if near_bv(i, 1.0) and i not in wine and i not in german]
     rest = [i for i in food if i["area"] == "belgisches-viertel" and i not in german and i not in wine]
     hdr = ["이름(지도)", "스타일", "분위기", "가격", "구글", "브뤼셀러 플라츠에서", "한 줄 소개"]

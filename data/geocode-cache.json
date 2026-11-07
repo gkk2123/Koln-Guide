@@ -1602,5 +1602,54 @@
     "display_name": "31-35, Pfeilstraße, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
     "provider": "nominatim",
     "date": "2026-11-07"
+  },
+  "Breite Straße 114, 50667 Köln": {
+    "lat": 50.9388896,
+    "lng": 6.9461822,
+    "display_name": "Bier-Esel, 114, Breite Straße, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 12, 50672 Köln": {
+    "lat": 50.9415705,
+    "lng": 6.9372124,
+    "display_name": "12, Venloer Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Straße 54, 50674 Köln": {
+    "lat": 50.9371128,
+    "lng": 6.9347966,
+    "display_name": "54, Brüsseler Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Hahnenstraße 22, 50667 Köln": {
+    "lat": 50.9363157,
+    "lng": 6.9410482,
+    "display_name": "22, Hahnenstraße, Mauritiusviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Hahnenstraße 24, 50667 Köln": {
+    "lat": 50.9363587,
+    "lng": 6.9409489,
+    "display_name": "24, Hahnenstraße, Mauritiusviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Roonstraße 33, 50674 Köln": {
+    "lat": 50.9306512,
+    "lng": 6.9383749,
+    "display_name": "Roonburg, 33, Roonstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Straße 236, 50823 Köln": {
+    "lat": 50.9472885,
+    "lng": 6.9231909,
+    "display_name": "236, Venloer Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50823, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
   }
 }

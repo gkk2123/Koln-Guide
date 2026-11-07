@@ -362,7 +362,8 @@ function kgStart() {
     food: { title: "맛집", items: G.restaurants || [] },
     beer: { title: "맥주 펍", items: (G.restaurants || []).filter(function (i) { return i.category === "brauhaus"; })
       .concat((G.bars || []).filter(function (i) { return i.category === "kneipe" || i.category === "beer-bar"; })) },
-    bars: { title: "칵테일·바", items: (G.bars || []).filter(function (i) { return i.category !== "kneipe" && i.category !== "beer-bar"; }).concat(G.shops || []) },
+    bars: { title: "바·와인바", items: (G.bars || []).filter(function (i) { return i.category !== "kneipe" && i.category !== "beer-bar"; })
+      .concat((G.restaurants || []).filter(function (i) { return i.style === "wine-bar"; })).concat(G.shops || []) },  // wine-bar restaurants show here too
     sights: { title: "관광지", items: G.attractions || [] },
     run: { title: "러닝 코스", items: [] },
     wine: { title: "독일 화이트와인", items: [] }

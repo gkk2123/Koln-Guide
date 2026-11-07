@@ -7,7 +7,7 @@
 쾰시는 0.2 l 잔(Stange) 기준이고, 맥주 가격은 출처가 있는 곳만 적었습니다. 현금만 받는 곳이 많으니 현금을 챙기세요.
 
 
-## 맥주 싼 순 — 9곳
+## 맥주 싼 순 — 11곳
 
 | 이름(지도) | 지역 | 유형 | 맥주 가격 | 구글 | 맥주 |
 |---|---|---|---|---|---|
@@ -16,7 +16,9 @@
 | [Kunst Kaschämm](https://www.google.com/maps/search/?api=1&query=Kunst%20Kasch%C3%A4mm%20Alter%20Markt%202%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 동네 펍 | €1.70 | ★4.6 (1,125) | Reissdorf Kölsch |
 | [Gaststätte Trierer Eck](https://www.google.com/maps/search/?api=1&query=Gastst%C3%A4tte%20Trierer%20Eck%20Trierer%20Stra%C3%9Fe%2021A%2C%2050676%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 동네 펍 | €1.80 | ★4.5 (403) | Reissdorf Kölsch |
 | [Die Oper](https://www.google.com/maps/search/?api=1&query=Die%20Oper%20H%C3%A4ndelstra%C3%9Fe%2014%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 동네 펍 | €1.90 | ★4.8 (122) | Gaffel Kölsch |
+| [Reissdorf am Hahnentor](https://www.google.com/maps/search/?api=1&query=Reissdorf%20am%20Hahnentor%20Hahnenstra%C3%9Fe%2024%2C%2050667%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 브라우하우스 | €2.30 | ★4.4 (1,257) | Reissdorf Kölsch |
 | [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €2.30 | ★4.2 (8,850) | Peters Kölsch |
+| [Hellers Brauhaus](https://www.google.com/maps/search/?api=1&query=Hellers%20Brauhaus%20Roonstra%C3%9Fe%2033%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 브라우하우스 | €2.30 | ★4.2 (1,413) | Kölsch, Wiess (unfiltered Kölsch) |
 | [Brauerei zur Malzmühle](https://www.google.com/maps/search/?api=1&query=Brauerei%20zur%20Malzm%C3%BChle%20Heumarkt%206%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €2.40 | ★4.2 (2,584) | Mühlen Kölsch |
 | [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €2.50 | ★4.3 (22,460) | Früh Kölsch |
 | [Craftbeer Corner Coeln (CCC)](https://www.google.com/maps/search/?api=1&query=Craftbeer%20Corner%20Coeln%20%28CCC%29%20Martinstra%C3%9Fe%2032%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 맥주바 | €4.00 | ★4.7 (1,722) | Veedels Wiess (Kölsch-style house beer), 15 rotating craft taps |
@@ -42,14 +44,16 @@
 | [Zum Knobelbecher](https://www.google.com/maps/search/?api=1&query=Zum%20Knobelbecher%20Br%C3%BCsseler%20Stra%C3%9Fe%2047%2C%2050674%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.4 (567) | 현금만 |  | 벨기에 지구 브뤼셀러 거리의 쾰시·스포츠 크나이페로, 싼 맥주와 케겔반(볼링 레인)으로 사랑받는다. 젊은 손님이 많아 활기차고, 축구 중계를 보며 현지인들과 어울리기 좋다. |
 | [Zum Goldenen Schuss](https://www.google.com/maps/search/?api=1&query=Zum%20Goldenen%20Schuss%20Antwerpener%20Stra%C3%9Fe%2038%2C%2050672%20K%C3%B6ln) | 동네 펍 |  | – | ★4.3 (780) |  | 일요일 영업 | 앤트워프 거리(Antwerpener Straße)의 스포츠 크나이페로, 대형 스크린 3대로 축구와 이 동네에선 드문 핸드볼 경기를 틀어 준다. 새벽 3–4시까지 열어서 벨기에 지구에서 늦게까지 북적이는 술자리를 찾을 때 좋다. |
 
-## 프리젠 지구·에렌슈트라세 — 2곳
+## 프리젠 지구·에렌슈트라세 — 4곳
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
+| [Peters am Hahnentor](https://www.google.com/maps/search/?api=1&query=Peters%20am%20Hahnentor%20Hahnenstra%C3%9Fe%2022%2C%2050667%20K%C3%B6ln) | 브라우하우스 | Peters Kölsch | – | ★4.7 (425) |  | 테라스, 일요일 영업 | 구시가의 Peters Brauhaus가 루돌프플라츠 하넨토어 옆 Hahnenstraße에 낸 180석 규모의 브라우하우스로, 페터스 쾰시와 학센·힘멜 운 애드 같은 쾰른 향토 요리를 낸다. 구글 4.7로 이 일대 브라우하우스 중 평점이 가장 높고, '구시가 밖에서 가장 좋은 페터스 브라우하우스'라는 트립어드바이저 후기도 있다. |
 | [Weißer Holunder](https://www.google.com/maps/search/?api=1&query=Wei%C3%9Fer%20Holunder%20Gladbacher%20Stra%C3%9Fe%2048%2C%2050672%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.6 (417) |  | 라이브 음악, 일요일 영업 | 쾰른 관광청이 '살아 있는 쾰른 역사의 한 조각'이라고 소개하는 크나이페로, 일요일마다 열리는 쾰른 노래 떼창(싱어롱) 콘서트가 명물이다. 쾰시와 쾰른 노래 문화를 함께 맛보고 싶은 사람에게 좋다. |
+| [Reissdorf am Hahnentor](https://www.google.com/maps/search/?api=1&query=Reissdorf%20am%20Hahnentor%20Hahnenstra%C3%9Fe%2024%2C%2050667%20K%C3%B6ln) | 브라우하우스 | Reissdorf Kölsch | €2.30 | ★4.4 (1,257) |  |  | 루돌프플라츠의 중세 성문 하넨토어(Hahnentor) 바로 옆에서 라이스도르프 쾰시를 내는 브라우하우스로, 자우어브라텐·슈니첼·블루트부르스트(선지 소시지) 같은 라인란트 향토 요리를 푸짐하게 낸다. 브뤼셀러 플라츠에서 걸어서 10분 남짓이고 구글 리뷰 1,200여 건에 4.4라, 벨기에 지구에 묵으면서 정통 쾰른 브라우하우스 저녁을 먹기에 가장 무난한 곳이다. |
 | [FRÜH "Em Jan von Werth"](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20%22Em%20Jan%20von%20Werth%22%20Christophstra%C3%9Fe%2044%2C%2050670%20K%C3%B6ln) | 브라우하우스 | Früh Kölsch | – | ★4.4 (1,119) |  |  | 알터 마르크트가 아니라 크리스토프슈트라세(Christophstraße) 44번지에 있는 프뤼(Früh) 쾰시 브라우하우스다. 쾰시와 쾰른 향토 요리, 활기찬 분위기가 호평받고 저녁에는 금방 자리가 찬다. |
 
-## 크바르티어 라텡(쥘피허 지구) — 4곳
+## 크바르티어 라텡(쥘피허 지구) — 5곳
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
@@ -57,6 +61,7 @@
 | [Der Stiefel](https://www.google.com/maps/search/?api=1&query=Der%20Stiefel%20Z%C3%BClpicher%20Stra%C3%9Fe%2018%2C%2050674%20K%C3%B6ln) | 동네 펍 |  | – | ★4.5 (1,362) |  |  | 대학가 쥘피허 거리(Zülpicher Straße) 18번지의 펍으로, Wanderlog '쾰른 베스트 펍 50'과 다이브 바 목록에 함께 오른 곳이다. 구글 리뷰 1,300여 건에 4.5점으로, 쥘피허 거리에서 학생·현지인 틈에 섞여 한잔하기 좋다. |
 | [Brauhaus Pütz](https://www.google.com/maps/search/?api=1&query=Brauhaus%20P%C3%BCtz%20Engelbertstra%C3%9Fe%2067%2C%2050674%20K%C3%B6ln) | 브라우하우스 | Mühlen Kölsch | – | ★4.5 (739) |  | 일요일 영업 | 쥘피허 지구(Kwartier Latäng) 엥겔베르트슈트라세의 동네 브라우하우스로, 직접 양조하지 않고 말츠뮐레 양조장의 뮐렌 쾰시(Mühlen Kölsch)를 낸다. 가게 한가운데 술통 앞 자리 '슈베메(Schwemme)'에 앉아 쾰시를 마시는 전통적인 분위기, 친절한 직원과 신선한 쾰시가 호평받는다. |
 | [Gaststätte Trierer Eck](https://www.google.com/maps/search/?api=1&query=Gastst%C3%A4tte%20Trierer%20Eck%20Trierer%20Stra%C3%9Fe%2021A%2C%2050676%20K%C3%B6ln) | 동네 펍 | Reissdorf Kölsch | €1.80 | ★4.5 (403) | 현금만 | 테라스 | 바르바로사 광장(Barbarossaplatz) 근처 트리어러 거리 모퉁이의 옛날식 크나이페로, 2024년 여름에도 라이스도르프 쾰시가 €1.80이라 쾰른에서 가장 싼 축으로 꼽혔다. 친절한 서비스와 아늑한 분위기에 테라스에서 쾰른식 안주도 먹을 수 있어, '진짜 쾰른 동네 술집'을 찾는 사람에게 맞다. |
+| [Hellers Brauhaus](https://www.google.com/maps/search/?api=1&query=Hellers%20Brauhaus%20Roonstra%C3%9Fe%2033%2C%2050674%20K%C3%B6ln) | 브라우하우스 | Kölsch, Wiess (unfiltered Kölsch) | €2.30 | ★4.2 (1,413) |  |  | 쥘피허 지구 로온슈트라세의 옛 하우스 양조장 브라우하우스로, 2024년 여름 이후 자체 양조는 그만뒀지만 쾰시와 여과하지 않은 비스(Wiess)를 계속 내며 학생·동네 손님에게 인기가 많다. 쾰른 관광청 블로그가 쾰시 한 잔과 힘멜 운 애드를 먹기 좋은 전통적인 곳으로 꼽는다. |
 
 ## 에렌펠트 — 1곳
 

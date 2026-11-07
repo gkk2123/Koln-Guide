@@ -113,3 +113,20 @@ Wanderlog처럼 한 페이지에 여러 곳의 구글 평점·리뷰 수·주소
 - 이제 157곳 중 131곳에 가격대가 있고, 그중 55곳은 유형 기준 추정이거나 근거가 약한 값입니다.
 - 지도 아래 목록·지도 카드·목록 카드에 가격대, 나라, 스타일, 대표 메뉴(조사된 `must_try`의 한국어 이름, 없으면 요리 분류)를 보여 주고,
   "스타일" 필터와 검색(예: "타파스", "와인바")을 추가했습니다.
+
+## 7차: 벨기에 지구 집중 — 독일·쾰른 요리, 와인바, 바·라운지 (2026-11-07)
+
+세 묶음(독일·쾰른 요리 / 와인바 / 활기찬 바·라운지)으로 나눠 웹 검색 134회로 조사했습니다. 기준은 같습니다(구글 ★4.2+ · 리뷰 50+,
+wanderlog 장소 페이지·restaurantguru의 Google 항목 등 구글 수치를 보여 주는 출처만). 범위는 벨기에 지구(50672·50674)와 브뤼셀러
+플라츠에서 걸어서 갈 만한 주변(약 1–1.3 km).
+
+- 독일·쾰른 요리 7곳 추가: Belgischer Hof, Reissdorf am Hahnentor, Peters am Hahnentor, Hellers Brauhaus, Haus Scholzen, Mayer's Imbiss,
+  Bier-Esel. 앞의 다섯은 이전 후보가 이번에 기준을 넘은 곳. Päffgen은 여전히 기준 미달, Sorgenfrei는 2020년 폐업.
+- 와인바 6곳 추가: Die Bredouille, Lütticher, Bar Rix, Frohnatur Bar, HENNE.Weinbar, Weinstube Bacchus. 출처(리뷰·매체)에 근거해 조용한
+  곳(`vibe: quiet`)과 활기찬 곳(`lively`)을 표시하고, 독일 와인 비중이 높은 곳은 `drinks: german-wine`.
+- 바·라운지 6곳 추가: Low Budget, Grünfeld, Zum Goldenen Schuss, Pegel, Lorbass Bar & Lounge(라운지), ROSA. die wohngemeinschaft는
+  구글 리스팅이 호스텔과 공유돼(리뷰 대부분이 숙박 후기) 후보로 내렸습니다.
+- 브뤼셀러 플라츠는 2026-04-01부터 매일 21–06시 공공장소 음주·술 소지가 금지돼(쾰른시 조례) 표에 안내를 넣었습니다.
+- 표: `guides/tables/belgisches-viertel.md`(자동 생성). 뷰어: "독일·쾰른 요리", "벨기에 지구", "와인바", "조용한 곳", "활기찬 곳",
+  "라운지" 빠른 선택. 와인바 성격의 레스토랑(Lütticher, Weinstube Bacchus)은 바 탭에도 함께 보입니다.
+- 좌표 조회 중 Nominatim이 HTTP 429(요청 과다)를 돌려줘 `geocode.py`에 대기 후 재시도를 넣었습니다.

@@ -4,7 +4,7 @@
 > 기준: 구글 평점 4.2+ · 리뷰 50+ · 빌드 2026-11-07. 거리는 직선거리(km)이며 좌표가 없는 곳은 '–'로 표시됩니다.
 
 
-직선거리 1km 이내 32곳. 도보 시간은 우회 1.3배·시속 4.8km로 어림한 값.
+직선거리 1km 이내 33곳. 도보 시간은 우회 1.3배·시속 4.8km로 어림한 값.
 
 | 이름(지도) | 유형 | 음식 | 가격 | 구글 | 거리 | 도보 |
 |---|---|---|---|---|---|---|
@@ -35,6 +35,7 @@
 | [Gangnamstyle Korean BBQ • Bulgogi • Bar](https://www.google.com/maps/search/?api=1&query=Gangnamstyle%20Korean%20BBQ%20%E2%80%A2%20Bulgogi%20%E2%80%A2%20Bar%20Thurnmarkt%207%2C%2050676%20K%C3%B6ln) | 그릴·바비큐 | Korean BBQ and bar (tabletop grill, QR ordering) | €€ | ★4.7 (2,088) | 0.80km | 13분 |
 | [Damla](https://www.google.com/maps/search/?api=1&query=Damla%20Weidengasse%2047%2C%2050668%20K%C3%B6ln) | 디저트 | Turkish baklava and sweets shop | € | ★4.2 (538) | 0.80km | 13분 |
 | [Thai Imbiss](https://www.google.com/maps/search/?api=1&query=Thai%20Imbiss%20Eigelstein%20114%2C%2050668%20K%C3%B6ln) | 스트리트 푸드·임비스 | Thai snack bar (Imbiss) | € | ★4.5 (1,535) | 0.87km | 14분 |
+| [Bier-Esel](https://www.google.com/maps/search/?api=1&query=Bier-Esel%20Breite%20Stra%C3%9Fe%20114%2C%2050667%20K%C3%B6ln) | 가스트하우스(향토 식당) | Traditional Cologne Gasthaus — Rhenish mussels, schnitzel and Kölsch | €€ | ★4.5 (2,712) | 0.89km | 14분 |
 | [Thai Ja-Röen Imbiss](https://www.google.com/maps/search/?api=1&query=Thai%20Ja-R%C3%B6en%20Imbiss%20Th%C3%BCrmchenswall%2064%2C%2050668%20K%C3%B6ln) | 스트리트 푸드·임비스 | Thai snack bar (Imbiss) | € | ★4.9 (157) | 0.91km | 15분 |
 | [Max Stark](https://www.google.com/maps/search/?api=1&query=Max%20Stark%20Unter%20Kahlenhausen%2047%2C%2050668%20K%C3%B6ln) | 브라우하우스 | Traditional Kölsch Gaststätte (Päffgen), Rhineland food | €€ | ★4.6 (3,953) | 0.91km | 15분 |
 | [THE COFFICE DEUTZ](https://www.google.com/maps/search/?api=1&query=THE%20COFFICE%20DEUTZ%20Charles-de-Gaulle-Platz%201d%2C%2050679%20K%C3%B6ln) | 카페 | Coffee bar at Köln Messe/Deutz station | € | ★4.8 (245) | 0.95km | 15분 |

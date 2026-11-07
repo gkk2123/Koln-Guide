@@ -197,21 +197,27 @@
 | [La Société](https://www.google.com/maps/search/?api=1&query=La%20Soci%C3%A9t%C3%A9%20Kyffh%C3%A4userstra%C3%9Fe%2053%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 파인다이닝 | €€€€ | ★4.7 (454) | 코스 요리 |  |
 | [Capricorn [i] Aries Brasserie](https://www.google.com/maps/search/?api=1&query=Capricorn%20%5Bi%5D%20Aries%20Brasserie%20Alteburger%20Str.%2031%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 브라세리 | €€€ | ★4.6 (277) |  | Coq au Vin (코코뱅 — 레드와인에 졸인 닭고기), Barschfilet (퍼치 필레 — 민물농어 요리), Risotto mit Austernpilzen (느타리버섯 리소토) |
 
-## 독일·중부유럽 — 16곳
+## 독일·중부유럽 — 23곳
 
 
-### 독일 (15)
+### 독일 (22)
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
+| [Mayer's Imbiss (M. u. M. Mayer)](https://www.google.com/maps/search/?api=1&query=Mayer%27s%20Imbiss%20%28M.%20u.%20M.%20Mayer%29%20Venloer%20Stra%C3%9Fe%2012%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 스트리트 푸드·임비스 | € | ★4.8 (231) | 슈니첼, 샌드위치 | Mittagstisch (매일 바뀌는 점심 메뉴), Schnitzel (슈니첼 — Wanderlog 목록이 목요일 메뉴로 추천), Eintopf (아인토프 — 독일식 걸쭉한 수프·스튜) |
 | [Bei Oma Kleinmann](https://www.google.com/maps/search/?api=1&query=Bei%20Oma%20Kleinmann%20Z%C3%BClpicher%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 동네 펍 | €€ | ★4.7 (4,677) | 슈니첼 | Riesen-Schnitzel (대형 슈니첼 — 이 집의 대표 메뉴) |
+| [Haus Scholzen](https://www.google.com/maps/search/?api=1&query=Haus%20Scholzen%20Venloer%20Stra%C3%9Fe%20236%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 가스트하우스(향토 식당) | €€ | ★4.7 (2,169) | 쾰른 향토 요리 | Ehrenfelder Senfrostbraten (에렌펠더 젠프로스트브라텐 — 겨자를 발라 구운 소고기 스테이크, 이 집의 명물), Gänsebraten mit Kartoffelkloß und Rotkohl (거위 |
+| [Peters am Hahnentor](https://www.google.com/maps/search/?api=1&query=Peters%20am%20Hahnentor%20Hahnenstra%C3%9Fe%2022%2C%2050667%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 브라우하우스 | €€ | ★4.7 (425) | 쾰른 향토 요리 | Schweinshaxe mit Sauerkraut und Kartoffelpüree (슈바인스학센 — 자우어크라우트·으깬 감자를 곁들인 돼지 정강이 요리), Himmel un Ääd (힘멜 운 애드 — 구운 블루트부 |
 | [Lommerzheim](https://www.google.com/maps/search/?api=1&query=Lommerzheim%20Siegesstra%C3%9Fe%2018%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 브라우하우스 | €€ | ★4.6 (4,362) | 쾰른 향토 요리 | Päffgen Kölsch (파프겐 쾰시 — 이 집에서 따라 주는 쾰른 전통 생맥주) |
 | [Max Stark](https://www.google.com/maps/search/?api=1&query=Max%20Stark%20Unter%20Kahlenhausen%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 브라우하우스 | €€ | ★4.6 (3,953) | 쾰른 향토 요리, 슈니첼 | Päffgen Kölsch (패프겐 쾰시), Schnitzel (슈니첼), Sauerbraten (자우어브라텐 — 식초에 재워 졸인 라인란트식 소고기찜) |
+| [Belgischer Hof](https://www.google.com/maps/search/?api=1&query=Belgischer%20Hof%20Br%C3%BCsseler%20Stra%C3%9Fe%2054%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 브라세리 | €€€ | ★4.6 (1,357) | 플람쿠헨 | Flammkuchen (플람쿠헨 — 얇은 반죽에 크림·양파·베이컨을 얹어 구운 알자스·남서독일식 요리), Linsensalat (렌틸 샐러드 — 나눠 먹는 전채로 추천), Kalb mit Möhren (당근을 곁들인 |
 | [Früh em Veedel](https://www.google.com/maps/search/?api=1&query=Fr%C3%BCh%20em%20Veedel%20Chlodwigplatz%2028%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 브라우하우스 | €€ | ★4.6 (1,327) | 쾰른 향토 요리 | Früh Kölsch (프뤼 쾰시) |
 | [Braustelle](https://www.google.com/maps/search/?api=1&query=Braustelle%20Christianstra%C3%9Fe%202%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 브라우하우스 | €€ | ★4.6 (342) | 슈니첼, 쾰른 향토 요리 | Helios Kölsch (헬리오스 — 직접 양조한 쾰시 스타일 하우스 맥주, 인근 19세기 전기회사 '헬리오스'에서 딴 이름), Ehrenfelder Alt (에렌펠더 알트 — 하우스 알트비어), Ehrenfeld |
 | [Weinstube Bacchus](https://www.google.com/maps/search/?api=1&query=Weinstube%20Bacchus%20Rathenauplatz%2017%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 와인바 | €€€ | ★4.6 (209) |  | Gänsebraten (제철 거위 구이), Apfeltarte (사과 타르트) |
 | [Sünner im Walfisch](https://www.google.com/maps/search/?api=1&query=S%C3%BCnner%20im%20Walfisch%20Salzgasse%2013%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.5 (3,646) | 쾰른 향토 요리 | Sünner Kölsch (쥐너 쾰시 — 이 집 양조장의 쾰시) |
+| [Bier-Esel](https://www.google.com/maps/search/?api=1&query=Bier-Esel%20Breite%20Stra%C3%9Fe%20114%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 가스트하우스(향토 식당) | €€ | ★4.5 (2,712) | 해산물, 슈니첼, 쾰른 향토 요리 | Muscheln rheinische Art (라인식 홍합찜 — 채소·와인 육수에 찐 홍합, 겨울 제철 요리), Wiener Schnitzel vom Kalb (송아지 비너 슈니첼), Kölsch vom Fass (생 |
 | [Brauhaus Pütz](https://www.google.com/maps/search/?api=1&query=Brauhaus%20P%C3%BCtz%20Engelbertstra%C3%9Fe%2067%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 브라우하우스 | €€ | ★4.5 (739) | 쾰른 향토 요리, 슈니첼 | Mühlen Kölsch (뮐렌 쾰시 — 말츠뮐레 양조장의 쾰시), Rumpsteak (럼프스테이크 — 리뷰에서 칭찬받은 메뉴), Schnitzel (슈니첼) |
+| [Reissdorf am Hahnentor](https://www.google.com/maps/search/?api=1&query=Reissdorf%20am%20Hahnentor%20Hahnenstra%C3%9Fe%2024%2C%2050667%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 브라우하우스 | €€ | ★4.4 (1,257) | 쾰른 향토 요리, 슈니첼 | Rheinischer Sauerbraten (라인식 자우어브라텐 — 식초에 재운 소고기를 달콤새콤한 소스로 낸 쾰른 대표 요리), Schnitzel mit Pilzen (버섯 소스 슈니첼 — 리뷰 추천), Reiss |
 | [FRÜH "Em Jan von Werth"](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20%22Em%20Jan%20von%20Werth%22%20Christophstra%C3%9Fe%2044%2C%2050670%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 브라우하우스 | €€ | ★4.4 (1,119) | 쾰른 향토 요리 | Früh Kölsch (프뤼 쾰시) |
 | [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.3 (22,460) | 쾰른 향토 요리 | Früh Kölsch (프뤼 쾰시 — 이 집의 쾰시 맥주) |
 | [Gilden im Zims](https://www.google.com/maps/search/?api=1&query=Gilden%20im%20Zims%20Heumarkt%2077%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.3 (9,988) | 쾰른 향토 요리 | Gilden Kölsch (길덴 쾰시 — 갓 따라 온도가 딱 맞다는 후기), Sonntagsbrunch (일요일 브런치) |
@@ -219,6 +225,7 @@
 | [Brauhaus ohne Namen (b.o.n.)](https://www.google.com/maps/search/?api=1&query=Brauhaus%20ohne%20Namen%20%28b.o.n.%29%20Mathildenstra%C3%9Fe%2042%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 브라우하우스 | €€ | ★4.3 (1,740) | 쾰른 향토 요리 | Braumeister Kotelett (브라우마이스터 코텔레트 — 350g짜리 뼈 붙은 돼지 폭찹), Kölsch (쾰시) |
 | [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.2 (8,850) | 쾰른 향토 요리 | Peters Kölsch (페터스 쾰시 — 이 집에서 내는 쾰시 맥주) |
 | [Brauerei zur Malzmühle](https://www.google.com/maps/search/?api=1&query=Brauerei%20zur%20Malzm%C3%BChle%20Heumarkt%206%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.2 (2,584) | 쾰른 향토 요리 | Mühlen Kölsch (뮐렌 쾰시 — 이 양조장의 쾰시) |
+| [Hellers Brauhaus](https://www.google.com/maps/search/?api=1&query=Hellers%20Brauhaus%20Roonstra%C3%9Fe%2033%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 브라우하우스 | €€ | ★4.2 (1,413) | 쾰른 향토 요리, 슈니첼 | Wiess (비스 — 여과하지 않은 탁한 쾰시), Himmel un Ääd (힘멜 운 애드 — 블루트부르스트·으깬 감자·사과), Schnitzel (슈니첼 — 리뷰 추천) |
 
 ### 오스트리아 (1)
 

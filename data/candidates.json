@@ -30,10 +30,11 @@
       "r6-price-b.json",
       "r6-price-c.json",
       "r7-bv-bars.json",
+      "r7-bv-german.json",
       "r7-bv-wine.json",
       "wine-places.json"
     ],
-    "count": 226
+    "count": 224
   },
   "items": [
     {
@@ -259,21 +260,6 @@
       "found": "없음",
       "sources": [],
       "research": "fnb-dom-altstadt-eigelstein"
-    },
-    {
-      "name": "Haus Scholzen",
-      "area": "ehrenfeld",
-      "address": "Venloer Straße 236, 50823 Köln",
-      "reason": "google-numbers-not-found: searched (koeln.de, speisekarte, restaurantguru, wanderlog snippets) but no Google rating/count surfaced",
-      "found": "Traditional German restaurant since 1907 (koeln.de); known for Ehrenfelder Senfrostbraten, also roast goose and potato pancakes; restaurantguru ~€20–30 per person; hours Wed–Sun 11:30–15 & 17–23 (koeln.de/wanderlog); speisekarte.de 5.0 (1 review); Airbnb 55 local recommendations. Listed in Mit Vergnügen 2026 Ehrenfeld list. Note: speisekarte.de page title shows PLZ 50667, koeln.de shows 50823 (50823 is the Ehrenfeld PLZ).",
-      "sources": [
-        "https://www.koeln.de/leben/ll/beliebte-restaurants-in-koeln-ehrenfeld/haus-scholzen",
-        "https://restaurantguru.com/Haus-Scholzen-Cologne",
-        "https://wanderlog.com/place/details/2371198/haus-scholzen",
-        "https://www.speisekarte.de/k%C3%B6ln/restaurant/haus_scholzen1",
-        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
-      ],
-      "research": "fnb-ehrenfeld-lateng"
     },
     {
       "name": "Herbrand's",
@@ -1542,22 +1528,6 @@
       "research": "r2-europe-americas"
     },
     {
-      "name": "Belgischer Hof",
-      "area": "belgisches-viertel",
-      "address": "Brüsseler Straße (Hausnummer 미확인), Köln",
-      "category": "restaurant",
-      "cuisine_country": [
-        "FR",
-        "DE"
-      ],
-      "reason": "google-numbers-missing",
-      "found": "이번 라운드 Wanderlog 검색(프랑스 목록 포함)에 나오지 않음. 1차 조사: 독일·프랑스 요리, 안뜰, 큰 와인 리스트.",
-      "sources": [
-        "https://extensionembed.wanderlog.com/place/details/3077332"
-      ],
-      "research": "r2-europe-americas"
-    },
-    {
       "name": "Ouzeria",
       "area": "belgisches-viertel",
       "address": null,
@@ -2609,19 +2579,6 @@
       "research": "r3-beer-pubs"
     },
     {
-      "name": "Reissdorf am Hahnentor",
-      "area": "friesenviertel-ehrenstrasse",
-      "address": null,
-      "category": "kneipe",
-      "cuisine_country": [],
-      "reason": "address-and-google-numbers-not-found",
-      "found": "veedelcgn(2026): 11.11.2026 시즌 개막일에 쾰시(Stange)를 €2.30에 팔 예정 — 보도된 가격 중 가장 쌈(운영 책임자 Schlüter). 라이스도르프 계열 가게라 브라우하우스 범위일 수도 있음. 주소·구글 수치 미확보.",
-      "sources": [
-        "https://veedelcgn.com/news/11-11-in-koeln-koelsch-bis-3-euro-und-was-zum-sessionsstart-feststeht"
-      ],
-      "research": "r3-beer-pubs"
-    },
-    {
       "name": "Kuen pub & Bar",
       "area": "other",
       "address": null,
@@ -2888,25 +2845,6 @@
       "research": "r3-brauhaus"
     },
     {
-      "name": "Hellers Brauhaus",
-      "area": "kwartier-lateng",
-      "address": "Roonstraße 33, 50674 Köln",
-      "category": "brauhaus",
-      "cuisine_country": [
-        "DE"
-      ],
-      "reason": "google-numbers-approximate",
-      "found": "r3: Wanderlog '약 4.2, 약 1,400건'(검색 요약이 근사치로만 제시), restaurantguru 3.9 (600; 약 706일 전 페이지, 귀속 불명), Yelp 3.5 (58; 2026-05/06 갱신, 월 17:00–02:00 → 영업 중), OpenTable 4.8 (6). 오래된 Yelp 리뷰에 현금만 받는다는 불만. colognecitybreaks 2026 가이드: Kölsch 0.2 l 약 €2.30 (2025년 가을 기준). r1: 2024년 여름 이후 맥주 양조는 중단(leinetal24)됐지만 브라우하우스는 영업, 학생들에게 인기.",
-      "sources": [
-        "https://wanderlog.com/place/details/1784413/hellers-brauhaus",
-        "https://restaurantguru.com/Hellers-Brauhaus-Cologne",
-        "https://www.yelp.com/biz/hellers-brauhaus-k%C3%B6ln",
-        "https://www.opentable.com/r/hellers-brauhaus-koln",
-        "https://www.colognecitybreaks.com/de/city/cologne/articles/the-system-in-the-glass-inside-cologne-s-kolsch-ritual"
-      ],
-      "research": "r3-brauhaus"
-    },
-    {
       "name": "Brauhaus Johann Schäfer",
       "area": "suedstadt-rheinauhafen",
       "address": "Elsaßstraße 6, 50677 Köln",
@@ -2975,19 +2913,6 @@
       "sources": [
         "https://www.speisekarte.de/k%C3%B6ln/restaurant/brauhaus_zum_prinzen"
       ],
-      "research": "r3-brauhaus"
-    },
-    {
-      "name": "Peters am Hahnentor",
-      "area": "friesenviertel-ehrenstrasse",
-      "address": null,
-      "category": "brauhaus",
-      "cuisine_country": [
-        "DE"
-      ],
-      "reason": "not-verified",
-      "found": "r3: 검색 예산이 바닥나 조회하지 못했다. 업소가 있는지, 정확한 주소가 무엇인지 모두 미확인(과제 목록에 'Rudolfplatz'로만 적힘).",
-      "sources": [],
       "research": "r3-brauhaus"
     },
     {
@@ -3124,6 +3049,48 @@
         "https://www.viamichelin.at/karten-stadtplan/hotels/poi/koln-50674-cwa0rd4f"
       ],
       "research": "r7-bv-bars"
+    },
+    {
+      "name": "Wackes",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Benesisstraße 59, 50672 Köln",
+      "category": "restaurant",
+      "reason": "closure-signal + google-numbers-missing (Alsatian/French rather than German)",
+      "found": "쾰른 관광청: 에렌슈트라세·프리젠 지구 근처의 알자스·프랑스 가정식, 플람쿠헨으로 유명('엘자스 밖 최고의 플람쿠헨?'이라는 후기). speisekarte.menu는 '영구 폐업(dauerhaft geschlossen)' 표시(3.8/2,187, 구글 아님), OpenTable은 화–토 12–14:30·17:30–23시 영업으로 표시(4.6/34, 날짜 불명), reviewhero 2개 포털 합산 4.36(273). 구글 단독 수치 없음 → 영업 여부부터 확인 필요.",
+      "sources": [
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/wackes",
+        "https://speisekarte.menu/restaurants/koeln/dr-wackes",
+        "https://opentable.ae/r/wackes-weinstube-koln",
+        "https://www.reviewhero.io/wackes-0674"
+      ],
+      "research": "r7-bv-german"
+    },
+    {
+      "name": "Noa (restaurant [noa])",
+      "area": "belgisches-viertel",
+      "address": "Maastrichter Straße 3, 50672 Köln",
+      "category": "restaurant",
+      "reason": "out-of-topic: modern European / Mediterranean, not German (meets the bar: Wanderlog Google 4.6/1,413 per search summary — re-check) → hand to a general/European round",
+      "found": "Mit Vergnügen 2025 '11 Orte für Flammkuchen'에 포함(주말 아침, 지중해 음식, 예약 권장). koeln.de: 월–금 17–24, 토 10–24, 일 11–24시, 테이크아웃 가능. 리뷰 추천: 염소치즈·호박 샐러드, 참치 스테이크, 만티, 스테이크, 디저트; '꽤 비싸다'는 평도. Restaurant Guru 4.8/2,079는 자체 점수(약 800일 전 페이지), Tripadvisor 4.5/260.",
+      "sources": [
+        "https://wanderlog.com/place/details/521199/restaurant-noa",
+        "https://restaurantguru.com/Noa-Cologne",
+        "https://www.koeln.de/leben/ll/beliebte-restaurants-im-belgischen-viertel/noa",
+        "https://koeln.mitvergnuegen.com/2025/flammkuchen"
+      ],
+      "research": "r7-bv-german"
+    },
+    {
+      "name": "Haus Töller",
+      "area": "kwartier-lateng",
+      "address": "Weyerstraße 96, 50676 Köln",
+      "category": "brauhaus",
+      "reason": "not-verified: outside this round's ~1 km radius (near Barbarossaplatz, roughly 1.2–1.4 km from Brüsseler Platz); Google numbers not searched",
+      "found": "Mit Vergnügen 2026 '21 urige Brauhäuser in Köln'에 포함, 1343년 첫 기록이 있는 오래된 브라우하우스. 가이드 본 목록에 없으므로 전체 브라우하우스 라운드에서 구글 수치를 확인할 만한 리드.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/urige-brauhaeuser/"
+      ],
+      "research": "r7-bv-german"
     },
     {
       "name": "Wein Bistro L'escalier",
