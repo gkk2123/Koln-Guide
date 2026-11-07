@@ -138,6 +138,7 @@ STYLES = {
     "lounge": "라운지", "cafe": "카페", "bakery": "베이커리", "ice-cream": "젤라토·아이스크림", "dessert": "디저트", "bar": "바",
 }
 STYLE_RULES = [  # first match wins; matched against the English/German cuisine text and the name
+    ("hotel-restaurant", r"hotel restaurant"),
     ("izakaya", r"izakaya"),
     ("tapas", r"\btapas\b|sharing plates?|small plates?"),
     ("mezze", r"\bmezz?e\b"),
@@ -165,7 +166,6 @@ STYLE_RULES = [  # first match wins; matched against the English/German cuisine 
     ("bakery", r"bakery|bäckerei|backhaus|patisserie|pâtisserie"),
     ("brunch", r"brunch|breakfast|frühstück"),
     ("lounge", r"lounge"),
-    ("hotel-restaurant", r"hotel restaurant"),
     ("seafood", r"seafood|fish restaurant|fischrestaurant"),
     ("beer-garden", r"beer garden|biergarten"),
     ("modern", r"market cuisine|marktküche|modern european"),

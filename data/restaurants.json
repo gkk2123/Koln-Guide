@@ -13886,7 +13886,7 @@
       "research": "r8-muelheim",
       "checked": "2026-11-07",
       "coord_source": "nominatim",
-      "style": "steakhouse"
+      "style": "gasthaus"
     },
     {
       "id": "st-louis-cafe-deutz",
@@ -14292,7 +14292,7 @@
       "research": "r8-muelheim",
       "checked": "2026-11-07",
       "coord_source": "nominatim",
-      "style": "brunch"
+      "style": "hotel-restaurant"
     },
     {
       "id": "kwb-im-stadtpalais",

@@ -91,6 +91,11 @@
       "id": "fink-restaurant-cafe",
       "style": "bistro",
       "why": "작은 제철 레스토랑 겸 카페, 짧은 메뉴(리조토·토끼 요리·오늘의 요리)"
+    },
+    {
+      "id": "haus-zeyen",
+      "style": "gasthaus",
+      "why": "소박한 독일 식당(슈니첼·굴라시·쾰시) — 스테이크 전문점이 아님"
     }
   ]
 }
