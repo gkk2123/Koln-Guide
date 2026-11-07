@@ -198,18 +198,24 @@
 | [La Société](https://www.google.com/maps/search/?api=1&query=La%20Soci%C3%A9t%C3%A9%20Kyffh%C3%A4userstra%C3%9Fe%2053%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 파인다이닝 | €€€€ | ★4.7 (454) | 코스 요리 |  |
 | [Capricorn [i] Aries Brasserie](https://www.google.com/maps/search/?api=1&query=Capricorn%20%5Bi%5D%20Aries%20Brasserie%20Alteburger%20Str.%2031%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 레스토랑 | – | ★4.6 (277) |  |  |
 
-## 독일·중부유럽 — 9곳
+## 독일·중부유럽 — 15곳
 
 
-### 독일 (8)
+### 독일 (14)
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
 | [Bei Oma Kleinmann](https://www.google.com/maps/search/?api=1&query=Bei%20Oma%20Kleinmann%20Z%C3%BClpicher%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.7 (4,677) | 슈니첼 | Riesen-Schnitzel (대형 슈니첼 — 이 집의 대표 메뉴) |
 | [Lommerzheim](https://www.google.com/maps/search/?api=1&query=Lommerzheim%20Siegesstra%C3%9Fe%2018%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 브라우하우스 | €€ | ★4.6 (4,362) | 쾰른 향토 요리 | Päffgen Kölsch (파프겐 쾰시 — 이 집에서 따라 주는 쾰른 전통 생맥주) |
-| [Braustelle](https://www.google.com/maps/search/?api=1&query=Braustelle%20Christianstra%C3%9Fe%202%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 브라우하우스 | €€ | ★4.6 (342) | 슈니첼 | Helios Kölsch (헬리오스 — 직접 양조한 쾰시 스타일 하우스 맥주, 인근 19세기 전기회사 '헬리오스'에서 딴 이름), Ehrenfelder Alt (에렌펠더 알트 — 하우스 알트비어), Ehrenfeld |
+| [Max Stark](https://www.google.com/maps/search/?api=1&query=Max%20Stark%20Unter%20Kahlenhausen%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 브라우하우스 | €€ | ★4.6 (3,953) | 쾰른 향토 요리, 슈니첼 | Päffgen Kölsch (패프겐 쾰시), Schnitzel (슈니첼), Sauerbraten (자우어브라텐 — 식초에 재워 졸인 라인란트식 소고기찜) |
+| [Früh em Veedel](https://www.google.com/maps/search/?api=1&query=Fr%C3%BCh%20em%20Veedel%20Chlodwigplatz%2028%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 브라우하우스 | €€ | ★4.6 (1,327) | 쾰른 향토 요리 | Früh Kölsch (프뤼 쾰시) |
+| [Braustelle](https://www.google.com/maps/search/?api=1&query=Braustelle%20Christianstra%C3%9Fe%202%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 브라우하우스 | €€ | ★4.6 (342) | 슈니첼, 쾰른 향토 요리 | Helios Kölsch (헬리오스 — 직접 양조한 쾰시 스타일 하우스 맥주, 인근 19세기 전기회사 '헬리오스'에서 딴 이름), Ehrenfelder Alt (에렌펠더 알트 — 하우스 알트비어), Ehrenfeld |
+| [Sünner im Walfisch](https://www.google.com/maps/search/?api=1&query=S%C3%BCnner%20im%20Walfisch%20Salzgasse%2013%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.5 (3,540) | 쾰른 향토 요리 | Sünner Kölsch (쥐너 쾰시 — 이 집 양조장의 쾰시) |
+| [Brauhaus Pütz](https://www.google.com/maps/search/?api=1&query=Brauhaus%20P%C3%BCtz%20Engelbertstra%C3%9Fe%2067%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 브라우하우스 | €€ | ★4.5 (739) | 쾰른 향토 요리, 슈니첼 | Mühlen Kölsch (뮐렌 쾰시 — 말츠뮐레 양조장의 쾰시), Rumpsteak (럼프스테이크 — 리뷰에서 칭찬받은 메뉴), Schnitzel (슈니첼) |
 | [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.4 (8,395) | 쾰른 향토 요리 | Peters Kölsch (페터스 쾰시 — 이 집에서 내는 쾰시 맥주) |
+| [FRÜH "Em Jan von Werth"](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20%22Em%20Jan%20von%20Werth%22%20Christophstra%C3%9Fe%2044%2C%2050670%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 브라우하우스 | €€ | ★4.4 (1,090) | 쾰른 향토 요리 | Früh Kölsch (프뤼 쾰시) |
 | [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.3 (19,851) | 쾰른 향토 요리 | Früh Kölsch (프뤼 쾰시 — 이 집의 쾰시 맥주) |
+| [Gilden im Zims](https://www.google.com/maps/search/?api=1&query=Gilden%20im%20Zims%20Heumarkt%2077%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.3 (9,551) | 쾰른 향토 요리 | Gilden Kölsch (길덴 쾰시 — 갓 따라 온도가 딱 맞다는 후기), Sonntagsbrunch (일요일 브런치) |
 | [Deutzer Brauhaus](https://www.google.com/maps/search/?api=1&query=Deutzer%20Brauhaus%20Ottoplatz%207%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 브라우하우스 | €€ | ★4.3 (9,240) | 쾰른 향토 요리 | frisch gezapftes Kölsch (갓 따른 생 쾰시) |
 | [Brauhaus ohne Namen (b.o.n.)](https://www.google.com/maps/search/?api=1&query=Brauhaus%20ohne%20Namen%20%28b.o.n.%29%20Mathildenstra%C3%9Fe%2042%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 브라우하우스 | €€ | ★4.3 (1,397) | 쾰른 향토 요리 | Braumeister Kotelett (브라우마이스터 코텔레트 — 350g짜리 뼈 붙은 돼지 폭찹), Kölsch (쾰시) |
 | [Brauerei zur Malzmühle](https://www.google.com/maps/search/?api=1&query=Brauerei%20zur%20Malzm%C3%BChle%20Heumarkt%206%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.2 (2,584) | 쾰른 향토 요리 | Mühlen Kölsch (뮐렌 쾰시 — 이 양조장의 쾰시) |

@@ -893,6 +893,68 @@ window.KOLN_GUIDE = {
    }
   },
   {
+   "id": "suenner-im-walfisch",
+   "name": "Sünner im Walfisch",
+   "category": "brauhaus",
+   "area": "dom-altstadt",
+   "address": "Salzgasse 13, 50667 Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Rhineland / Kölsch brauhaus (Sünner)",
+   "cuisine_country": [
+    "DE"
+   ],
+   "cuisine_region": "central-europe",
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 2,
+   "price_estimated": true,
+   "price_pp": null,
+   "price_note": "음식 가격 미확인 (이번 조사에서 메뉴 출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Sünner Kölsch"
+   ],
+   "google_rating": 4.5,
+   "google_reviews": 3540,
+   "google_as_of": null,
+   "rating_source": "11880.com (google.de)",
+   "summary_ko": "구시가 알터 마르크트 인근 잘츠가세(Salzgasse)에 있는 쥐너(Sünner) 쾰시의 브라우하우스로, 구글 평점 4.5(약 3,500건)로 알트슈타트 브라우하우스 가운데 평점이 가장 높은 축에 든다. 친절하고 잘 도와주는 직원을 칭찬하는 후기가 많아 첫 브라우하우스 체험에도 무난하다.",
+   "must_try": [
+    "Sünner Kölsch (쥐너 쾰시 — 이 집 양조장의 쾰시)"
+   ],
+   "tips_ko": "구글 수치는 출처마다 4.4–4.5로 일관된다(11880 google.de 4.5/3,540, restaurantguru Google 4.5/3,424, Wanderlog 4.5/3,646, tripexpert Google 4.4/2,615). 쾰시 가격·음식 가격·현금 여부는 이번 조사에서 확인하지 못했다.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://www.11880.com/branchenbuch/koeln/071364408B26906597/brauhaus-suenner-im-walfisch-brauhaus.html",
+    "https://restaurantguru.com/Sunner-im-Walfisch-Cologne",
+    "https://wanderlog.com/place/details/1438570",
+    "https://www.tripexpert.com/cologne/restaurants/brauhaus-sunner-im-walfisch",
+    "https://allaboutbeer.com/article/where-to-enjoy-kolsch",
+    "https://www.dasoertliche.de/Themen/Brauhaus-S%C3%BCnner-im-Walfisch-K%C3%B6ln-Altstadt-Nord-Salzgasse"
+   ],
+   "confidence": "high",
+   "research": "r3-brauhaus",
+   "checked": "2026-11-07"
+  },
+  {
    "id": "el-chango",
    "name": "El Chango",
    "category": "restaurant",
@@ -978,7 +1040,8 @@ window.KOLN_GUIDE = {
     "koelsch"
    ],
    "vibe": [
-    "touristy"
+    "touristy",
+    "traditional"
    ],
    "reservation": "unknown",
    "payment": "unknown",
@@ -987,9 +1050,11 @@ window.KOLN_GUIDE = {
    "price_estimated": true,
    "price_pp": null,
    "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
-   "beer_price_eur": null,
-   "beer_price_note": null,
-   "beers": [],
+   "beer_price_eur": 2.3,
+   "beer_price_note": "Kölsch 0.2 l 약 €2.30 (2025년 가을 기준, colognecitybreaks.com 'Kölner Kölsch-Brauhaus-Guide 2026')",
+   "beers": [
+    "Peters Kölsch"
+   ],
    "google_rating": 4.4,
    "google_reviews": 8395,
    "google_as_of": "2026-05",
@@ -1006,10 +1071,11 @@ window.KOLN_GUIDE = {
     "https://www.werkenntdenbesten.de/e/28017932/brauerei/koeln/peters-brauhaus-bruno-haumann-gf-bewertungen.html",
     "https://spinach.guide/venues/peters-brauhaus-23831/",
     "https://theeuropeanbarguide.com/peters-brauhaus-cologne",
-    "https://www.speisekarte.de/k%C3%B6ln/restaurant/peters_brauhaus"
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/peters_brauhaus",
+    "https://www.colognecitybreaks.com/de/city/cologne/articles/the-system-in-the-glass-inside-cologne-s-kolsch-ritual"
    ],
    "confidence": "high",
-   "research": "fnb-dom-altstadt-eigelstein",
+   "research": "fnb-dom-altstadt-eigelstein, r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
    "dist": {
@@ -1221,7 +1287,8 @@ window.KOLN_GUIDE = {
     "koelsch"
    ],
    "vibe": [
-    "touristy"
+    "touristy",
+    "traditional"
    ],
    "reservation": "unknown",
    "payment": "unknown",
@@ -1232,9 +1299,11 @@ window.KOLN_GUIDE = {
    "price_estimated": true,
    "price_pp": null,
    "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
-   "beer_price_eur": null,
-   "beer_price_note": null,
-   "beers": [],
+   "beer_price_eur": 2.5,
+   "beer_price_note": "FRÜH Kölsch vom Fass 0.2 l €2.50 (공식 메뉴 PDF, 'Oktober 2026' 표기, frueh-am-dom.de)",
+   "beers": [
+    "Früh Kölsch"
+   ],
    "google_rating": 4.3,
    "google_reviews": 19851,
    "google_as_of": null,
@@ -1244,7 +1313,7 @@ window.KOLN_GUIDE = {
     "Früh Kölsch (프뤼 쾰시 — 이 집의 쾰시 맥주)"
    ],
    "tips_ko": "2026년 9월까지의 트립어드바이저 후기가 극명하게 갈린다: 테라스에서 마시는 쾰시는 호평이지만, 불친절한 서비스와 위생 문제(식당 안에서 쥐를 봤다는 후기)를 지적하는 글도 있다. 대성당·중앙역에서 걸어서 몇 분 거리라 관광 동선 중 한 잔 하기엔 가장 편하다. 메뉴·가격은 이번 조사에서 미확인.",
-   "website": null,
+   "website": "https://www.frueh-am-dom.de/",
    "awards": [],
    "award_flags": [],
    "sources": [
@@ -1253,10 +1322,11 @@ window.KOLN_GUIDE = {
     "https://www.tripadvisor.com/Restaurant_Review-g187371-d7235024-Reviews-Fruh_am_Dom-Cologne_North_Rhine_Westphalia.html",
     "https://www.tripexpert.com/cologne/restaurants/fruh-am-dom",
     "https://sa.trip.com/travel-guide/cologne-388-restaurant/Frueh%20am%20Dom-17190129",
-    "https://www.beeradvocate.com/beer/profile/1450/6356/"
+    "https://www.beeradvocate.com/beer/profile/1450/6356/",
+    "https://www.frueh-am-dom.de/fileadmin/menus/Brauhaus/SpeisekarteBrauhaus.pdf"
    ],
    "confidence": "medium",
-   "research": "fnb-dom-altstadt-eigelstein",
+   "research": "fnb-dom-altstadt-eigelstein, r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
    "dist": {
@@ -1266,6 +1336,73 @@ window.KOLN_GUIDE = {
     "deutz": 1.17,
     "belgisches": 1.67
    }
+  },
+  {
+   "id": "gilden-im-zims",
+   "name": "Gilden im Zims",
+   "category": "brauhaus",
+   "area": "dom-altstadt",
+   "address": "Heumarkt 77, 50667 Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Rhineland / Kölsch brauhaus (Gilden)",
+   "cuisine_country": [
+    "DE"
+   ],
+   "cuisine_region": "central-europe",
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [
+    "brunch"
+   ],
+   "occasions": [],
+   "features": [
+    "open-sunday"
+   ],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "lively"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 2,
+   "price_estimated": true,
+   "price_pp": null,
+   "price_note": "음식 가격 미확인 (이번 조사에서 메뉴 출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Gilden Kölsch"
+   ],
+   "google_rating": 4.3,
+   "google_reviews": 9551,
+   "google_as_of": null,
+   "rating_source": "yably.de",
+   "summary_ko": "호이마르크트(Heumarkt)에 있는 길덴 쾰시(Gilden Kölsch)의 브라우하우스 'Gilden im Zims – Heimat kölscher Helden'으로, 오픈테이블 후기에서 '가 본 곳 중 가장 친절한 브라우하우스'로 꼽힐 만큼 서비스 평이 좋다. 식사 뒤 지하 아치형 저장고(Gewölbekeller)에서 춤을 출 수 있을 만큼 흥겹고, 일요일 브런치도 있다.",
+   "must_try": [
+    "Gilden Kölsch (길덴 쾰시 — 갓 따라 온도가 딱 맞다는 후기)",
+    "Sonntagsbrunch (일요일 브런치)"
+   ],
+   "tips_ko": "구글 4.3(9,551건)은 yably.de(날짜 미표시) 기준이다. 트립어드바이저 4.1(1,506건, 쾰른 2,281곳 중 15위), 오픈테이블 4.4(1,660건). 음악이 시끄럽다, 가격이 높다는 지적도 있다.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://yably.de/bewertungen/koeln/gilden-im-zims-heimat-koelscher-helden-heumarkt-77",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d1805991-Reviews-Gilden_im_Zims-Cologne_North_Rhine_Westphalia.html",
+    "https://www.opentable.com/gilden-im-zims-heimat-kolscher-helden",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/gilden_im_zims_heimat_koelscher_helden",
+    "https://koeln.stadtbranchenbuch.com/5196045.html"
+   ],
+   "confidence": "medium",
+   "research": "r3-brauhaus",
+   "checked": "2026-11-07"
   },
   {
    "id": "beirut-restaurant",
@@ -1352,7 +1489,9 @@ window.KOLN_GUIDE = {
    "drinks": [
     "koelsch"
    ],
-   "vibe": [],
+   "vibe": [
+    "traditional"
+   ],
    "reservation": "unknown",
    "payment": "unknown",
    "location": [],
@@ -1360,9 +1499,11 @@ window.KOLN_GUIDE = {
    "price_estimated": true,
    "price_pp": null,
    "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
-   "beer_price_eur": null,
-   "beer_price_note": null,
-   "beers": [],
+   "beer_price_eur": 2.4,
+   "beer_price_note": "Mühlen Kölsch 0.2 l 약 €2.40 (2025년 가을 기준, colognecitybreaks.com 'Kölner Kölsch-Brauhaus-Guide 2026')",
+   "beers": [
+    "Mühlen Kölsch"
+   ],
    "google_rating": 4.2,
    "google_reviews": 2584,
    "google_as_of": null,
@@ -1385,10 +1526,12 @@ window.KOLN_GUIDE = {
     "https://beertasting.com/en/beers/muhlen-kolsch",
     "https://www.tripadvisor.com/Restaurant_Review-g187371-d1908458-Reviews-Brauerei_Zur_Malzmuhle-Cologne_North_Rhine_Westphalia.html",
     "https://verliebtinkoeln.com/beste-brauhaus-koeln/",
-    "https://www.22places.com/cologne-breweries/"
+    "https://www.22places.com/cologne-breweries/",
+    "https://www.colognecitybreaks.com/de/city/cologne/articles/the-system-in-the-glass-inside-cologne-s-kolsch-ritual",
+    "https://www.werkenntdenbesten.de/e/26510826/restaurant/koeln/brauerei-zur-malzmuehle-brauerei-bewertungen.html"
    ],
    "confidence": "medium",
-   "research": "fnb-dom-altstadt-eigelstein",
+   "research": "fnb-dom-altstadt-eigelstein, r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
    "dist": {
@@ -3029,6 +3172,74 @@ window.KOLN_GUIDE = {
    }
   },
   {
+   "id": "frueh-em-jan-von-werth",
+   "name": "FRÜH \"Em Jan von Werth\"",
+   "category": "brauhaus",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Christophstraße 44, 50670 Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Rhineland / Kölsch brauhaus (Früh)",
+   "cuisine_country": [
+    "DE"
+   ],
+   "cuisine_region": "central-europe",
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "business"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "lively"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 2,
+   "price_estimated": true,
+   "price_pp": null,
+   "price_note": "음식 가격 미확인 (이번 조사에서 메뉴 출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Früh Kölsch"
+   ],
+   "google_rating": 4.4,
+   "google_reviews": 1090,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com",
+   "summary_ko": "알터 마르크트가 아니라 크리스토프슈트라세(Christophstraße) 44번지에 있는 프뤼(Früh) 쾰시 브라우하우스다. 쾰시와 쾰른 향토 요리, 활기찬 분위기가 호평받고 저녁에는 금방 자리가 찬다.",
+   "must_try": [
+    "Früh Kölsch (프뤼 쾰시)"
+   ],
+   "tips_ko": "월요일 휴무, 화–금 11:45–15:00 비즈니스 런치(online-tischreservierung 기준, 바뀌었을 수 있음). 전화 0221 133513. 구글 수치는 Wanderlog 4.4(1,090건)와 r1의 restaurantguru Google 4.4(1,163건)가 일치한다. t-online 기사(작성일 미확인)에서 0.2 l €1.90로 소개된 적이 있지만 지금은 더 비쌀 수 있다. 바쁠 때 서비스가 느리다는 후기가 있다.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/place/details/4059500/fr%C3%BCh-em-jan-von-werth",
+    "https://www.online-tischreservierung.de/restaurant/index/hamburg/K%C3%B6ln/Deutsch/64uuv30u1y/Fr%C3%BCh+Em+Jan+von+Werth",
+    "https://ca.trip.com/travel-guide/cologne-388-restaurant/Jan%20von%20werth-516953/",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d1957084-Reviews-Fruh_Em_Jan_von_Werth-Cologne_North_Rhine_Westphalia.html",
+    "https://www.koeln.de/branchen/eintrag/45121/wirtshaeuser/frueh-em-jan-von-werth",
+    "https://koeln.t-online.de/region/koeln/id_100209048/koeln-koelsch-preise-hier-kostet-ein-bier-noch-unter-2-euro.html"
+   ],
+   "confidence": "medium",
+   "research": "r3-brauhaus",
+   "checked": "2026-11-07"
+  },
+  {
    "id": "thai-food-friesenwall",
    "name": "Thai Food",
    "category": "restaurant",
@@ -4287,6 +4498,74 @@ window.KOLN_GUIDE = {
    }
   },
   {
+   "id": "brauhaus-puetz",
+   "name": "Brauhaus Pütz",
+   "category": "brauhaus",
+   "area": "kwartier-lateng",
+   "address": "Engelbertstraße 67, 50674 Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Rhineland / Kölsch brauhaus (Mühlen Kölsch)",
+   "cuisine_country": [
+    "DE"
+   ],
+   "cuisine_region": "central-europe",
+   "dishes": [
+    "rhineland-classics",
+    "schnitzel"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [
+    "open-sunday"
+   ],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 2,
+   "price_estimated": true,
+   "price_pp": null,
+   "price_note": "음식 가격 미확인 (이번 조사에서 메뉴 출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Mühlen Kölsch"
+   ],
+   "google_rating": 4.5,
+   "google_reviews": 739,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com",
+   "summary_ko": "쥘피허 지구(Kwartier Latäng) 엥겔베르트슈트라세의 동네 브라우하우스로, 직접 양조하지 않고 말츠뮐레 양조장의 뮐렌 쾰시(Mühlen Kölsch)를 낸다. 가게 한가운데 술통 앞 자리 '슈베메(Schwemme)'에 앉아 쾰시를 마시는 전통적인 분위기, 친절한 직원과 신선한 쾰시가 호평받는다.",
+   "must_try": [
+    "Mühlen Kölsch (뮐렌 쾰시 — 말츠뮐레 양조장의 쾰시)",
+    "Rumpsteak (럼프스테이크 — 리뷰에서 칭찬받은 메뉴)",
+    "Schnitzel (슈니첼)"
+   ],
+   "tips_ko": "구글 4.5(739건)는 약 4년 전 restaurantguru 페이지 기준이라 현재 값과 다를 수 있다(golocal 4.5/608건, 트립어드바이저 4.2/474건). r1 조사 기준 영업시간은 월–금 16–24시, 토 15–24시, 일 15–23시. 청결·양·예약 처리를 지적하는 후기도 있다.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://restaurantguru.com/Brauhaus-Putz-Cologne",
+    "https://www.golocal.de/koeln/sonstige-gewerbe/brauhaus-puetz-7IICG/",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d782141-Reviews-Brauhaus_Putz-Cologne_North_Rhine_Westphalia.html",
+    "https://www.opentable.com/r/brauhaus-putz-cologne",
+    "https://speisekarte.menu/restaurants/koeln/brauhaus-putz"
+   ],
+   "confidence": "medium",
+   "research": "r3-brauhaus",
+   "checked": "2026-11-07"
+  },
+  {
    "id": "ginti-indian-restaurant",
    "name": "Ginti Indian Restaurant",
    "category": "restaurant",
@@ -5479,7 +5758,8 @@ window.KOLN_GUIDE = {
    ],
    "cuisine_region": "central-europe",
    "dishes": [
-    "schnitzel"
+    "schnitzel",
+    "rhineland-classics"
    ],
    "diet": [],
    "meals": [],
@@ -5500,7 +5780,10 @@ window.KOLN_GUIDE = {
    "price_note": "가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함)",
    "beer_price_eur": null,
    "beer_price_note": null,
-   "beers": [],
+   "beers": [
+    "Helios (Braustelle 하우스 맥주)",
+    "Ehrenfelder Alt"
+   ],
    "google_rating": 4.6,
    "google_reviews": 342,
    "google_as_of": null,
@@ -5524,7 +5807,7 @@ window.KOLN_GUIDE = {
     "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
    ],
    "confidence": "medium",
-   "research": "fnb-ehrenfeld-lateng",
+   "research": "fnb-ehrenfeld-lateng, r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
    "dist": {
@@ -6174,6 +6457,67 @@ window.KOLN_GUIDE = {
    }
   },
   {
+   "id": "frueh-em-veedel",
+   "name": "Früh em Veedel",
+   "category": "brauhaus",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Chlodwigplatz 28, 50678 Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Rhineland / Kölsch brauhaus (Früh)",
+   "cuisine_country": [
+    "DE"
+   ],
+   "cuisine_region": "central-europe",
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 2,
+   "price_estimated": true,
+   "price_pp": null,
+   "price_note": "음식 가격 미확인 (이번 조사에서 메뉴 출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Früh Kölsch"
+   ],
+   "google_rating": 4.6,
+   "google_reviews": 1327,
+   "google_as_of": null,
+   "rating_source": "yably.de",
+   "summary_ko": "쥐트슈타트 클로드비히플라츠(Chlodwigplatz)에 있는 프뤼(Früh) 쾰시의 동네 지점 'Em Veedel(동네에서)'로, 리뷰에서 '작은 Früh'라고 불린다. 구글 4.6(1,327건)으로 대성당 옆 Früh am Dom(4.3)보다 평점이 높아, 관광객 인파를 피해 프뤼 쾰시를 마시고 싶은 사람에게 맞다.",
+   "must_try": [
+    "Früh Kölsch (프뤼 쾰시)"
+   ],
+   "tips_ko": "구글 수치는 yably.de의 출처별 내역(Google 4.60/1,327건, 날짜 미표시) 기준이다. 트립어드바이저 4.1(345건), Yelp 4.0(63건). 이 지점의 쾰시 가격은 확인하지 못했다(참고: Früh am Dom은 2026년 10월 메뉴 기준 0.2 l €2.50).",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://yably.de/bewertungen/koeln/frueh-em-veedel-chlodwigplatz-28",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d6023688-Reviews-Fruh_Em_Veedel-Cologne_North_Rhine_Westphalia.html",
+    "https://www.tripadvisor.de/ShowUserReviews-g187371-d6023688-r552391897-Fruh_Em_Veedel-Cologne_North_Rhine_Westphalia.html",
+    "https://www.koeln.de/branchen/eintrag/5174/restaurants/frueh-em-veedel",
+    "https://www.yelp.com/biz/fr%C3%BCh-em-veedel-k%C3%B6ln"
+   ],
+   "confidence": "medium",
+   "research": "r3-brauhaus",
+   "checked": "2026-11-07"
+  },
+  {
    "id": "hayati",
    "name": "Hayati",
    "category": "streetfood",
@@ -6810,6 +7154,71 @@ window.KOLN_GUIDE = {
    }
   },
   {
+   "id": "max-stark",
+   "name": "Max Stark",
+   "category": "brauhaus",
+   "area": "agnesviertel-eigelstein",
+   "address": "Unter Kahlenhausen 47, 50668 Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Traditional Kölsch Gaststätte (Päffgen), Rhineland food",
+   "cuisine_country": [
+    "DE"
+   ],
+   "cuisine_region": "central-europe",
+   "dishes": [
+    "rhineland-classics",
+    "schnitzel"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "lively"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 2,
+   "price_estimated": true,
+   "price_pp": null,
+   "price_note": "음식 가격 미확인 (이번 조사에서 메뉴 출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Päffgen Kölsch"
+   ],
+   "google_rating": 4.6,
+   "google_reviews": 3953,
+   "google_as_of": null,
+   "rating_source": "yably.de",
+   "summary_ko": "중앙역 북쪽 운터 칼렌하우젠(Unter Kahlenhausen)에 있는 전통 쾰시 술집 겸 식당으로, 패프겐 쾰시(Päffgen Kölsch)와 슈니첼·자우어브라텐 같은 향토 요리가 호평받는다. 구글 4.6(3,953건)으로 평점이 높지만 시끄럽고 서비스가 느리다는 평도 있어, 북적이는 분위기를 즐기는 사람에게 맞는다.",
+   "must_try": [
+    "Päffgen Kölsch (패프겐 쾰시)",
+    "Schnitzel (슈니첼)",
+    "Sauerbraten (자우어브라텐 — 식초에 재워 졸인 라인란트식 소고기찜)"
+   ],
+   "tips_ko": "구글 수치는 yably.de(날짜 미표시) 단일 출처다. 트립어드바이저 4.3(818건), speisekarte.menu 4.3(13,739건), coolibri 7.8/10(300건). 서비스가 느리거나 불친절하다, 너무 시끄럽다는 후기가 있다.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://yably.de/bewertungen/koeln/max-stark-unter-kahlenhausen-47",
+    "https://www.gastroguide.de/restaurant/5434/max-stark/koeln/",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d1866174-Reviews-Max_Stark-Cologne_North_Rhine_Westphalia.html",
+    "https://coolibri.de/restaurant/max-stark-koeln/",
+    "https://speisekarte.menu/restaurants/koeln/max-stark"
+   ],
+   "confidence": "medium",
+   "research": "r3-brauhaus",
+   "checked": "2026-11-07"
+  },
+  {
    "id": "thai-imbiss-eigelstein",
    "name": "Thai Imbiss",
    "category": "streetfood",
@@ -7315,9 +7724,10 @@ window.KOLN_GUIDE = {
     "koelsch"
    ],
    "vibe": [
-    "local-favorite"
+    "local-favorite",
+    "traditional"
    ],
-   "reservation": "unknown",
+   "reservation": "walk-in",
    "payment": "unknown",
    "location": [
     "near-messe"
@@ -7328,7 +7738,9 @@ window.KOLN_GUIDE = {
    "price_note": "가격 정보 미확인(이번 조사에서 메뉴 가격 출처를 찾지 못함)",
    "beer_price_eur": null,
    "beer_price_note": null,
-   "beers": [],
+   "beers": [
+    "Päffgen Kölsch"
+   ],
    "google_rating": 4.6,
    "google_reviews": 4362,
    "google_as_of": null,
@@ -7347,10 +7759,11 @@ window.KOLN_GUIDE = {
     "https://koeln.mitvergnuegen.com/koelnhaktnach/lommerzheim-bill-clinton/",
     "https://koeln.mitvergnuegen.com/2025/deutz",
     "https://cologne-tourism.com/delight-diversity/gastronomy/detail/lommerzheim",
-    "https://www.koeln.de/branchen/eintrag/21594/brauhaeuser/lommerzheim"
+    "https://www.koeln.de/branchen/eintrag/21594/brauhaeuser/lommerzheim",
+    "https://www.colognecitybreaks.com/de/city/cologne/articles/the-system-in-the-glass-inside-cologne-s-kolsch-ritual"
    ],
    "confidence": "high",
-   "research": "fnb-deutz-messe",
+   "research": "fnb-deutz-messe, r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
    "dist": {
@@ -7491,10 +7904,11 @@ window.KOLN_GUIDE = {
     "https://speisekarte.menu/restaurants/koeln/deutzer-bahnhof",
     "https://www.bahnhof.de/koeln-messe-deutz/einkaufen-und-essen/deutzer-brauhaus",
     "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/",
-    "https://opentable.co.uk/neighborhood/n/raum-koln/koln/deutz-restaurants"
+    "https://opentable.co.uk/neighborhood/n/raum-koln/koln/deutz-restaurants",
+    "https://wanderlog.com/place/details/1140669/deutzer-brauhaus"
    ],
    "confidence": "medium",
-   "research": "fnb-deutz-messe",
+   "research": "fnb-deutz-messe, r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
    "dist": {
@@ -7693,7 +8107,7 @@ window.KOLN_GUIDE = {
     "https://www.golocal.de/koeln-deutz/restaurants-gaststaetten/"
    ],
    "confidence": "medium",
-   "research": "fnb-deutz-messe",
+   "research": "fnb-deutz-messe, r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
    "dist": {

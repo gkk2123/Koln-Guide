@@ -30,7 +30,7 @@ from schema import (  # noqa: E402
 TODAY = dt.date.today().isoformat()
 
 CATEGORY_SYNONYMS = {
-    "pub": "bar", "kneipe": "bar", "brewpub": "brauhaus", "brewery": "brauhaus",
+    "pub": "kneipe", "brewpub": "brauhaus", "brewery": "brauhaus",
     "ice-cream": "dessert", "icecream": "dessert", "coffee": "cafe", "coffee-shop": "cafe",
     "imbiss": "streetfood", "fast-food": "streetfood", "wine-store": "wine-shop",
     "cocktail": "cocktail-bar", "cocktailbar": "cocktail-bar", "winebar": "wine-bar",
@@ -292,7 +292,7 @@ def is_attraction(p: dict) -> bool:
 
 def merge_into(primary: dict, other: dict) -> dict:
     for k, v in other.items():
-        if primary.get(k) in (None, "", []) and v not in (None, "", []):
+        if primary.get(k) in (None, "", [], "unknown") and v not in (None, "", [], "unknown"):
             primary[k] = v
     for k in ("awards", "award_flags", "sources", "must_try", "cuisine_country", "location", "beers", *FACETS):
         seen = list(primary.get(k) or [])
