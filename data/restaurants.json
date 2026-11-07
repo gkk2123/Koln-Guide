@@ -20,6 +20,7 @@
       "r2-europe-americas.json",
       "r2-middle-east-africa.json",
       "r2-se-south-asia.json",
+      "r3-beer-pubs.json",
       "r3-brauhaus.json",
       "wine-places.json"
     ],
@@ -479,8 +480,8 @@
       "category": "brauhaus",
       "area": "dom-altstadt",
       "address": "Salzgasse 13, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.937733,
+      "lng": 6.961903,
       "cuisine": "Rhineland / Kölsch brauhaus (Sünner)",
       "cuisine_country": [
         "DE"
@@ -533,7 +534,8 @@
       ],
       "confidence": "high",
       "research": "r3-brauhaus",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "el-chango",
@@ -882,8 +884,8 @@
       "category": "brauhaus",
       "area": "dom-altstadt",
       "address": "Heumarkt 77, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.937264,
+      "lng": 6.96003,
       "cuisine": "Rhineland / Kölsch brauhaus (Gilden)",
       "cuisine_country": [
         "DE"
@@ -941,7 +943,8 @@
       ],
       "confidence": "medium",
       "research": "r3-brauhaus",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "beirut-restaurant",
@@ -2520,8 +2523,8 @@
       "category": "brauhaus",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Christophstraße 44, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.944409,
+      "lng": 6.943679,
       "cuisine": "Rhineland / Kölsch brauhaus (Früh)",
       "cuisine_country": [
         "DE"
@@ -2580,7 +2583,8 @@
       ],
       "confidence": "medium",
       "research": "r3-brauhaus",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "thai-food-friesenwall",
@@ -3706,8 +3710,8 @@
       "category": "brauhaus",
       "area": "kwartier-lateng",
       "address": "Engelbertstraße 67, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.935111,
+      "lng": 6.937725,
       "cuisine": "Rhineland / Kölsch brauhaus (Mühlen Kölsch)",
       "cuisine_country": [
         "DE"
@@ -3766,7 +3770,8 @@
       ],
       "confidence": "medium",
       "research": "r3-brauhaus",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "ginti-indian-restaurant",
@@ -5462,8 +5467,8 @@
       "category": "brauhaus",
       "area": "suedstadt-rheinauhafen",
       "address": "Chlodwigplatz 28, 50678 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.922027,
+      "lng": 6.959673,
       "cuisine": "Rhineland / Kölsch brauhaus (Früh)",
       "cuisine_country": [
         "DE"
@@ -5515,7 +5520,8 @@
       ],
       "confidence": "medium",
       "research": "r3-brauhaus",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "hayati",
@@ -6089,8 +6095,8 @@
       "category": "brauhaus",
       "area": "agnesviertel-eigelstein",
       "address": "Unter Kahlenhausen 47, 50668 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.949165,
+      "lng": 6.961695,
       "cuisine": "Traditional Kölsch Gaststätte (Päffgen), Rhineland food",
       "cuisine_country": [
         "DE"
@@ -6146,7 +6152,8 @@
       ],
       "confidence": "medium",
       "research": "r3-brauhaus",
-      "checked": "2026-11-07"
+      "checked": "2026-11-07",
+      "coord_source": "nominatim"
     },
     {
       "id": "thai-imbiss-eigelstein",

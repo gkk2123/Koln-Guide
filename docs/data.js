@@ -898,8 +898,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "dom-altstadt",
    "address": "Salzgasse 13, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.937733,
+   "lng": 6.961903,
    "cuisine": "Rhineland / Kölsch brauhaus (Sünner)",
    "cuisine_country": [
     "DE"
@@ -952,7 +952,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "high",
    "research": "r3-brauhaus",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.47,
+    "hbf": 0.59,
+    "messe": 1.66,
+    "deutz": 0.98,
+    "belgisches": 1.91
+   }
   },
   {
    "id": "el-chango",
@@ -1343,8 +1351,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "dom-altstadt",
    "address": "Heumarkt 77, 50667 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.937264,
+   "lng": 6.96003,
    "cuisine": "Rhineland / Kölsch brauhaus (Gilden)",
    "cuisine_country": [
     "DE"
@@ -1402,7 +1410,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r3-brauhaus",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.46,
+    "hbf": 0.6,
+    "messe": 1.8,
+    "deutz": 1.12,
+    "belgisches": 1.78
+   }
   },
   {
    "id": "beirut-restaurant",
@@ -3177,8 +3193,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "friesenviertel-ehrenstrasse",
    "address": "Christophstraße 44, 50670 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.944409,
+   "lng": 6.943679,
    "cuisine": "Rhineland / Kölsch brauhaus (Früh)",
    "cuisine_country": [
     "DE"
@@ -3237,7 +3253,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r3-brauhaus",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.08,
+    "hbf": 1.03,
+    "messe": 2.64,
+    "deutz": 2.23,
+    "belgisches": 0.92
+   }
   },
   {
    "id": "thai-food-friesenwall",
@@ -4503,8 +4527,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "kwartier-lateng",
    "address": "Engelbertstraße 67, 50674 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.935111,
+   "lng": 6.937725,
    "cuisine": "Rhineland / Kölsch brauhaus (Mühlen Kölsch)",
    "cuisine_country": [
     "DE"
@@ -4563,7 +4587,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r3-brauhaus",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.6,
+    "hbf": 1.64,
+    "messe": 3.3,
+    "deutz": 2.69,
+    "belgisches": 0.42
+   }
   },
   {
    "id": "ginti-indian-restaurant",
@@ -6462,8 +6494,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "suedstadt-rheinauhafen",
    "address": "Chlodwigplatz 28, 50678 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.922027,
+   "lng": 6.959673,
    "cuisine": "Rhineland / Kölsch brauhaus (Früh)",
    "cuisine_country": [
     "DE"
@@ -6515,7 +6547,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r3-brauhaus",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.14,
+    "hbf": 2.28,
+    "messe": 3.1,
+    "deutz": 2.35,
+    "belgisches": 2.52
+   }
   },
   {
    "id": "hayati",
@@ -7159,8 +7199,8 @@ window.KOLN_GUIDE = {
    "category": "brauhaus",
    "area": "agnesviertel-eigelstein",
    "address": "Unter Kahlenhausen 47, 50668 Köln",
-   "lat": null,
-   "lng": null,
+   "lat": 50.949165,
+   "lng": 6.961695,
    "cuisine": "Traditional Kölsch Gaststätte (Päffgen), Rhineland food",
    "cuisine_country": [
     "DE"
@@ -7216,7 +7256,15 @@ window.KOLN_GUIDE = {
    ],
    "confidence": "medium",
    "research": "r3-brauhaus",
-   "checked": "2026-11-07"
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.91,
+    "hbf": 0.78,
+    "messe": 1.4,
+    "deutz": 1.31,
+    "belgisches": 2.24
+   }
   },
   {
    "id": "thai-imbiss-eigelstein",
@@ -8776,20 +8824,24 @@ window.KOLN_GUIDE = {
    "reservation": "recommended",
    "payment": "unknown",
    "location": [],
-   "price_level": null,
+   "price_level": 1,
    "price_estimated": false,
    "price_pp": null,
    "price_note": "맥주 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
-   "beer_price_eur": null,
-   "beer_price_note": null,
-   "beers": [],
+   "beer_price_eur": 4.0,
+   "beer_price_note": "House beers incl. Kölsch-style Veedels Wiess 0.3 l €4.00 / 0.5 l €6.00; other craft 0.3 l €6–9 (NeoTaste 등 메뉴 목록, 날짜 미표시). 0.1 l×5 tasting set €10–12.50 (older reviews)",
+   "beers": [
+    "Veedels Wiess (Kölsch-style house beer)",
+    "15 rotating craft taps"
+   ],
    "google_rating": 4.7,
    "google_reviews": 1722,
    "google_as_of": null,
    "rating_source": "wanderlog.com",
    "summary_ko": "2016년 문을 연 쾰른 최초의 탭룸 겸 크래프트 맥주 바로, 매일 바뀌는 15개 탭 맥주를 구시가 한복판(Martinstraße)에서 마신다. 맥주를 잘 아는 직원과 루프탑 자리가 호평이라, 쾰시 말고 다른 맥주를 맛보고 싶은 맥주 애호가에게 1순위다.",
    "must_try": [
-    "Rotating craft beers on tap (매일 바뀌는 15개 탭의 크래프트 맥주)"
+    "Rotating craft beers on tap (매일 바뀌는 15개 탭의 크래프트 맥주)",
+    "Veedels Wiess (쾰시 스타일 하우스 맥주)"
    ],
    "tips_ko": "저녁엔 붐벼서 앉고 싶으면 예약하라는 후기와 '일주일에 며칠 밤만 연다'는 후기가 있으니 영업일을 꼭 확인할 것. 루프탑은 후기 기준이라 계절별 운영 여부도 확인. Wanderlog 목록 페이지에는 1,780–1,791건으로 더 많이 잡혀 있다.",
    "website": null,
@@ -8798,10 +8850,15 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/1784407/craftbeer-corner",
     "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer",
-    "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne"
+    "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
+    "https://neotaste.com/de/restaurants/cologne/craftbeer-corner-coeln",
+    "https://www.holland-hoch2.de/staedte/koeln/craftbeer-corner-coeln.html",
+    "https://untappd.com/v/craftbeer-corner/5540016",
+    "https://www.tripadvisor.de/ShowUserReviews-g187371-d16883341-r639061108-Craftbeer_Corner_Coeln-Cologne_North_Rhine_Westphalia.html",
+    "https://tipsymonk.de/wissen/craft-beer-koeln-guide"
    ],
    "confidence": "medium",
-   "research": "r2-bars",
+   "research": "r2-bars, r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
    "dist": {
@@ -8879,6 +8936,147 @@ window.KOLN_GUIDE = {
    }
   },
   {
+   "id": "kunst-kaschaemm",
+   "name": "Kunst Kaschämm",
+   "category": "kneipe",
+   "area": "dom-altstadt",
+   "address": "Alter Markt 2, 50667 Köln",
+   "lat": 50.937733,
+   "lng": 6.959619,
+   "cuisine": "Small old-town pub with cheap draught Reissdorf and a long cocktail list",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "late-night"
+   ],
+   "occasions": [],
+   "features": [
+    "open-sunday"
+   ],
+   "drinks": [
+    "koelsch",
+    "cocktails"
+   ],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 1,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "생 라이스도르프 €1.70 (verliebtinkoeln 기사, 게시일 미확인)",
+   "beer_price_eur": 1.7,
+   "beer_price_note": "Reissdorf vom Fass €1.70 (verliebtinkoeln 'Kunst Kaschämm in der Altstadt' 기사, 게시일 미확인 — 2021–2024년 자료로 보임)",
+   "beers": [
+    "Reissdorf Kölsch"
+   ],
+   "google_rating": 4.6,
+   "google_reviews": 1088,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google)",
+   "summary_ko": "관광객으로 붐비는 알터 마르크트(Alter Markt)에 있으면서도 생 라이스도르프 쾰시를 €1.70에 판다고 소개된 작은 술집으로, 칵테일 메뉴도 많다. 주방은 없지만 금·토 새벽 3시까지 열어, 구시가에서 싸게 늦게까지 마시기 좋다.",
+   "must_try": [
+    "Reissdorf Kölsch vom Fass (생 라이스도르프 쾰시)"
+   ],
+   "tips_ko": "현금만 받는다는 리뷰와 카드 가능 표시(Restaurant Guru)가 엇갈리니 현금을 챙길 것. 주방 없음. 일요일 15–24시. €1.70은 기사 시점 가격이라 지금은 더 비쌀 수 있다. top-rated.online 4.6(약 1,100건). 리스팅 이름은 'Kunstkaschaemm'.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://verliebtinkoeln.com/kunstkaschaemm-koeln/",
+    "https://restaurantguru.com/Kunstkaschaemm-Cologne",
+    "https://www.top-rated.online/cities/Cologne/place/p/1237702/Kunstkaschaemm+-+K%C3%B6ln",
+    "https://verliebtinkoeln.com/koelsch-preis/"
+   ],
+   "confidence": "high",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.41,
+    "hbf": 0.54,
+    "messe": 1.79,
+    "deutz": 1.13,
+    "belgisches": 1.75
+   }
+  },
+  {
+   "id": "tipsy-monk",
+   "name": "Tipsy Monk",
+   "category": "beer-bar",
+   "area": "dom-altstadt",
+   "address": "Salzgasse 2-4, 50667 Köln",
+   "lat": 50.937603,
+   "lng": 6.961506,
+   "cuisine": "Belgian and international craft beer bar (formerly Délirium Café Köln), 30 taps, board games",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "late-night"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [
+    "open-sunday"
+   ],
+   "drinks": [
+    "craft-beer"
+   ],
+   "vibe": [
+    "lively"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "맥주 가격 미확인 (출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "30 taps: Belgian classics and international craft",
+    "100+ bottled beers"
+   ],
+   "google_rating": 4.6,
+   "google_reviews": 699,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com",
+   "summary_ko": "구시가 잘츠가세의 벨기에·인터내셔널 크래프트 맥주 바로, 예전 '델리리움 카페 쾰른(Délirium Café Köln)'이 이름을 바꾼 곳이다. 생맥주 탭 30개와 병맥주 100종 이상, 보드게임 50여 개가 있어 쾰시 대신 벨기에 맥주를 마시며 놀기 좋다.",
+   "must_try": [
+    "Belgian classics on tap (벨기에 클래식 생맥주)"
+   ],
+   "tips_ko": "영업 금 17–02시, 토 15–02시, 일 15–22시(rausgegangen, 공식 사이트와 조금 다름 → 확인). 맥주 가격 출처 없음. 구글 리스팅은 예전 이름(Délirium Café Cologne)으로 올라 있다. Restaurant Guru Google 4.6(629건).",
+   "website": "https://tipsymonk.de/",
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/place/details/83526/d%C3%A9lirium-caf%C3%A9-cologne",
+    "https://restaurantguru.com/Delirium-Cafe-Koln-Cologne",
+    "https://www.top-rated.online/cities/K%C3%B6ln/place/p/4164770/D%C3%A9lirium+Caf%C3%A9+Cologne",
+    "https://tipsymonk.de/en/beer-bar-cologne",
+    "https://tipsymonk.de/en/belgian-craft-beer-bar-cologne",
+    "https://rausgegangen.de/en/locations/tipsy-monk-bier-bar-koln/",
+    "https://brewver.com/venues/1007/Tipsy-Monk-Bier-Bar-formerly-Delirium-Caf%C3%A9-K%C3%B6ln"
+   ],
+   "confidence": "high",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 0.47,
+    "hbf": 0.6,
+    "messe": 1.69,
+    "deutz": 1.01,
+    "belgisches": 1.88
+   }
+  },
+  {
    "id": "papa-joes-biersalon",
    "name": "Papa Joe's Biersalon",
    "category": "beer-bar",
@@ -8896,7 +9094,9 @@ window.KOLN_GUIDE = {
    ],
    "occasions": [],
    "features": [],
-   "drinks": [],
+   "drinks": [
+    "koelsch"
+   ],
    "vibe": [],
    "reservation": "unknown",
    "payment": "unknown",
@@ -8906,7 +9106,7 @@ window.KOLN_GUIDE = {
    "price_pp": null,
    "price_note": "맥주 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
    "beer_price_eur": null,
-   "beer_price_note": null,
+   "beer_price_note": "현재가 출처 없음 — 날짜 없는 리뷰 'Kölsch 0.2 l €1.80', 트립어드바이저 리뷰 '0.3 l €5.50'(맥주 종류 불명)만 있어 beer_price_eur는 비움",
    "beers": [],
    "google_rating": 4.5,
    "google_reviews": 3427,
@@ -8921,10 +9121,13 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/1289014/papa-joes-biersalon",
     "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
-    "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne"
+    "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/gaststaette_klimperkasten_papa_joes_biersalon/speisekarte",
+    "https://restaurantguru.com/Papa-Joes-Biersalon-Cologne",
+    "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d7009269-Reviews-Papa_Joe_s-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
-   "research": "r2-bars",
+   "research": "r2-bars, r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
    "dist": {
@@ -9065,6 +9268,134 @@ window.KOLN_GUIDE = {
    }
   },
   {
+   "id": "zum-knobelbecher",
+   "name": "Zum Knobelbecher",
+   "category": "kneipe",
+   "area": "belgisches-viertel",
+   "address": "Brüsseler Straße 47, 50674 Köln",
+   "lat": 50.936798,
+   "lng": 6.934355,
+   "cuisine": "Kölsch and sports pub with a skittle alley",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "lively",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "cash-only",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "'싼 맥주' 호평뿐, 가격 숫자 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 495,
+   "google_as_of": null,
+   "rating_source": "top-rated.online",
+   "summary_ko": "벨기에 지구 브뤼셀러 거리의 쾰시·스포츠 크나이페로, 싼 맥주와 케겔반(볼링 레인)으로 사랑받는다. 젊은 손님이 많아 활기차고, 축구 중계를 보며 현지인들과 어울리기 좋다.",
+   "must_try": [],
+   "tips_ko": "현금만 받는다는 안내가 있다(2015년 리뷰엔 '€20 이상 카드 가능'). Restaurant Guru에 같은 주소로 'Grünfeld'라는 바가 올라 있어 혼동될 수 있으니 확인할 것. 나이 든 손님에겐 서비스가 소홀했다는 리뷰도 있다. Restaurant Guru 자체 점수 4.4(463건), 예전 Google 점수 4.2.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://top-rated.online/cities/K%C3%B6ln/place/p/8015291/Zum+Knobelbecher",
+    "https://restaurantguru.com/Knobelbecher-Cologne",
+    "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/",
+    "https://www.werkenntdenbesten.de/e/48915188/kegelbahn/koeln/gaststaette-zum-knobelbecher-bewertungen.html"
+   ],
+   "confidence": "medium",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.75,
+    "hbf": 1.78,
+    "messe": 3.45,
+    "deutz": 2.88,
+    "belgisches": 0.17
+   }
+  },
+  {
+   "id": "weisser-holunder",
+   "name": "Weißer Holunder",
+   "category": "kneipe",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Gladbacher Straße 48, 50672 Köln",
+   "lat": 50.946497,
+   "lng": 6.938516,
+   "cuisine": "Historic Kölsch Kneipe with Sunday sing-along concerts",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [
+    "live-music",
+    "open-sunday"
+   ],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "맥주 가격 미확인 (출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 417,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google)",
+   "summary_ko": "쾰른 관광청이 '살아 있는 쾰른 역사의 한 조각'이라고 소개하는 크나이페로, 일요일마다 열리는 쾰른 노래 떼창(싱어롱) 콘서트가 명물이다. 쾰시와 쾰른 노래 문화를 함께 맛보고 싶은 사람에게 좋다.",
+   "must_try": [],
+   "tips_ko": "일요일 싱어롱 콘서트는 인기가 많으니 일찍 갈 것(일정은 공식 채널 확인). 맥주 가격 출처 없음. Yelp 4.1(25건), speisekarte.menu 4.4(3,403건, 여러 포털 합산)처럼 플랫폼마다 점수가 다르다.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://restaurantguru.com/Weisser-Holunder-Cologne",
+    "https://www.cologne-tourism.com/food-drink/gastronomy/weisser-holunder",
+    "https://rausgegangen.de/en/pages/weisser-holunder/",
+    "https://www.yelp.com/biz/wei%C3%9Fer-holunder-k%C3%B6ln",
+    "https://speisekarte.menu/restaurants/cologne/weisser-holunder"
+   ],
+   "confidence": "medium",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.5,
+    "hbf": 1.44,
+    "messe": 2.99,
+    "deutz": 2.63,
+    "belgisches": 0.95
+   }
+  },
+  {
    "id": "monkey-bar",
    "name": "Monkey Bar (25hours Hotel The Circle)",
    "category": "bar",
@@ -9119,6 +9450,68 @@ window.KOLN_GUIDE = {
     "messe": 2.72,
     "deutz": 2.24,
     "belgisches": 0.72
+   }
+  },
+  {
+   "id": "die-oper-kneipe",
+   "name": "Die Oper",
+   "category": "kneipe",
+   "area": "kwartier-lateng",
+   "address": "Händelstraße 14, 50674 Köln",
+   "lat": 50.934732,
+   "lng": 6.936604,
+   "cuisine": "Small neighbourhood Kölsch pub (Gaffel)",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 1,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "가펠 쾰시 €1.90 (Google 리뷰, 날짜 미상)",
+   "beer_price_eur": 1.9,
+   "beer_price_note": "Gaffel Kölsch €1.90 (Wanderlog에 인용된 Google 리뷰, 날짜·잔 크기 표기 없음)",
+   "beers": [
+    "Gaffel Kölsch"
+   ],
+   "google_rating": 4.8,
+   "google_reviews": 122,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com",
+   "summary_ko": "링(Ring) 서쪽 주택가 헨델 거리(Händelstraße)의 작은 동네 크나이페(Wanderlog 표기 'Kneipe Die Oper')로, 가펠(Gaffel) 쾰시를 €1.90에 마셨다는 리뷰가 있을 만큼 싸다. 리뷰는 122건뿐이지만 4.8점으로, 친절한 직원과 편안한 분위기에서 현지인처럼 한잔하고 싶은 사람에게 맞다.",
+   "must_try": [
+    "Gaffel Kölsch (가펠 쾰시)"
+   ],
+   "tips_ko": "작은 가게라 영업일·시간을 미리 확인할 것. €1.90은 날짜 없는 리뷰 가격이라 지금은 더 비쌀 수 있다(2026년 11.11 기준 크나이페 쾰시 0.2 l 예상가 €2.50–3.00 (IG Kölner Gastro, veedelcgn)).",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1655928/kneipe--die-oper",
+    "https://veedelcgn.com/news/11-11-in-koeln-koelsch-bis-3-euro-und-was-zum-sessionsstart-feststeht"
+   ],
+   "confidence": "medium",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.68,
+    "hbf": 1.73,
+    "messe": 3.39,
+    "deutz": 2.77,
+    "belgisches": 0.42
    }
   },
   {
@@ -9292,6 +9685,61 @@ window.KOLN_GUIDE = {
    }
   },
   {
+   "id": "der-stiefel",
+   "name": "Der Stiefel",
+   "category": "kneipe",
+   "area": "kwartier-lateng",
+   "address": "Zülpicher Straße 18, 50674 Köln",
+   "lat": 50.92995,
+   "lng": 6.938322,
+   "cuisine": "Pub on Zülpicher Straße (student quarter)",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "맥주 가격 미확인 (출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 1362,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com",
+   "summary_ko": "대학가 쥘피허 거리(Zülpicher Straße) 18번지의 펍으로, Wanderlog '쾰른 베스트 펍 50'과 다이브 바 목록에 함께 오른 곳이다. 구글 리뷰 1,300여 건에 4.5점으로, 쥘피허 거리에서 학생·현지인 틈에 섞여 한잔하기 좋다.",
+   "must_try": [],
+   "tips_ko": "11월 11일(카니발 시즌 개막일)엔 쥘피허 거리 일대가 인파로 통제되니 이날은 피하거나 아주 일찍 갈 것. 맥주 가격·결제 정보는 확인하지 못했다.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/place/details/8643812/der-stiefel",
+    "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
+    "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City"
+   ],
+   "confidence": "medium",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.88,
+    "hbf": 1.96,
+    "messe": 3.52,
+    "deutz": 2.84,
+    "belgisches": 0.97
+   }
+  },
+  {
    "id": "rosebud-bar",
    "name": "Rosebud Bar",
    "category": "cocktail-bar",
@@ -9345,6 +9793,75 @@ window.KOLN_GUIDE = {
     "messe": 3.53,
     "deutz": 2.85,
     "belgisches": 0.94
+   }
+  },
+  {
+   "id": "trierer-eck",
+   "name": "Gaststätte Trierer Eck",
+   "category": "kneipe",
+   "area": "kwartier-lateng",
+   "address": "Trierer Straße 21A, 50676 Köln",
+   "lat": 50.927645,
+   "lng": 6.945257,
+   "cuisine": "Old-school Kölsch corner pub (Reissdorf) with simple Kölsch food",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite",
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "cash-only",
+   "location": [],
+   "price_level": 1,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "쾰시 0.2 l €1.80 (2024 여름, verliebtinkoeln)",
+   "beer_price_eur": 1.8,
+   "beer_price_note": "Reissdorf Kölsch 0.2 l €1.80 (2024 여름, verliebtinkoeln '쾰시 최대 €2' 목록; 리뷰: 10월 1일부터 €1.70→€1.80)",
+   "beers": [
+    "Reissdorf Kölsch"
+   ],
+   "google_rating": 4.5,
+   "google_reviews": 403,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google)",
+   "summary_ko": "바르바로사 광장(Barbarossaplatz) 근처 트리어러 거리 모퉁이의 옛날식 크나이페로, 2024년 여름에도 라이스도르프 쾰시가 €1.80이라 쾰른에서 가장 싼 축으로 꼽혔다. 친절한 서비스와 아늑한 분위기에 테라스에서 쾰른식 안주도 먹을 수 있어, '진짜 쾰른 동네 술집'을 찾는 사람에게 맞다.",
+   "must_try": [
+    "Reissdorf Kölsch (라이스도르프 쾰시)"
+   ],
+   "tips_ko": "현금만 받는다는 후기가 반복된다. 축구 중계 날엔 붐빈다. 가격은 2024년 기준이라 지금은 더 올랐을 수 있다. Wanderlog는 4.5(380건).",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://restaurantguru.com/Trierer-Eck-Cologne",
+    "https://wanderlog.com/place/details/3638747/gastst%C3%A4tte-trierer-eck",
+    "https://verliebtinkoeln.com/koelner-lokale-in-denen-das-koelsch-noch-unter-2-euro-kostet/",
+    "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/"
+   ],
+   "confidence": "high",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.77,
+    "hbf": 1.88,
+    "messe": 3.27,
+    "deutz": 2.55,
+    "belgisches": 1.4
    }
   },
   {
@@ -9404,6 +9921,260 @@ window.KOLN_GUIDE = {
    }
   },
   {
+   "id": "sonic-ballroom",
+   "name": "Sonic Ballroom",
+   "category": "bar",
+   "area": "ehrenfeld",
+   "address": "Oskar-Jäger-Straße 190, 50825 Köln",
+   "lat": 50.948694,
+   "lng": 6.907635,
+   "cuisine": "Punk and rockabilly bar with live acts",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [
+    "live-music"
+   ],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "lively"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "맥주 가격 미확인 (여행 정보 사이트의 '쾰시 €3–4'는 미검증)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 1049,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com",
+   "summary_ko": "에렌펠트의 펑크·로커빌리 바로, 작은 무대에서 일주일에 네 번 라이브 공연이 열리고 실내는 로큰롤 장식으로 가득하다. '독일 최고의 펑크 클럽 중 하나'라는 평과 함께 쾰시가 맛있다는 리뷰도 있어, 음악과 맥주를 함께 즐기려는 사람에게 맞다.",
+   "must_try": [],
+   "tips_ko": "음식은 없을 수 있다. 무대가 아주 작고 음향이 아쉽다는 리뷰도 있다. 공연 일정은 Songkick 등에서 확인(2026년 9·10월 공연 등록). 쾰시 €3–4라는 말은 미검증이라 가격 칸은 비웠다. Restaurant Guru 자체 점수 4.6(1,084건).",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1820760/sonic-ballroom-k%C3%B6ln",
+    "https://wanderlog.com/list/geoCategory/817531/best-bars-with-live-music-in-cologne",
+    "https://restaurantguru.com/Sonic-Ballroom-Cologne",
+    "https://last.fm/zh/event/4767328+TV+CULT+at+Sonic+Ballroom+on+26+October+2023",
+    "https://www.songkick.com/concerts/43110438-crimson-ghosts-at-sonic-ballroom"
+   ],
+   "confidence": "medium",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 3.64,
+    "hbf": 3.6,
+    "messe": 5.16,
+    "deutz": 4.8,
+    "belgisches": 2.22
+   }
+  },
+  {
+   "id": "torburg",
+   "name": "Torburg",
+   "category": "kneipe",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Kartäuserwall 1, 50678 Köln",
+   "lat": 50.921753,
+   "lng": 6.958923,
+   "cuisine": "Südstadt Kneipe with live music and a large terrace (since 2000)",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [
+    "live-music",
+    "terrace",
+    "open-sunday"
+   ],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "맥주 가격 미확인 (출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 745,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google)",
+   "summary_ko": "쥐트슈타트 클로트비히 광장 근처에 2000년 문을 연 크나이페로, 라이브 음악과 큰 테라스가 특징이다. 매일 오후 3시부터 열고 '쾰시 한잔하기 좋은 동네 술집'이라는 리뷰가 있다.",
+   "must_try": [],
+   "tips_ko": "매일 15시부터 영업(Mit Vergnügen 2026). 11월엔 테라스보다 실내 위주로 생각할 것. 맥주 가격 출처 없음. Restaurant Guru 자체 점수 4.7(1,057건).",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://restaurantguru.com/Torburg-Cologne",
+    "https://www.koelntourismus.de/essen-trinken/gastronomie/torburg",
+    "https://www.cologne-tourism.com/food-drink/gastronomy/torburg",
+    "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/",
+    "https://koeln.mitvergnuegen.com/2026/bars-kneipen-suedstadt/",
+    "https://koeln.mitvergnuegen.com/2025/kneipen-karneval/"
+   ],
+   "confidence": "medium",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.17,
+    "hbf": 2.31,
+    "messe": 3.16,
+    "deutz": 2.4,
+    "belgisches": 2.5
+   }
+  },
+  {
+   "id": "ubier-schaenke",
+   "name": "Ubier-Schänke",
+   "category": "kneipe",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Ubierring 19, 50678 Köln",
+   "lat": 50.921735,
+   "lng": 6.962046,
+   "cuisine": "Traditional Kölsch pub, bread and small warm snacks only",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "맥주 가격 미확인 (출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 739,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google)",
+   "summary_ko": "쥐트슈타트 우비어링(Ubierring)의 전통 쾰시 크나이페로, '관광객 없는 진짜 쾰른 술집'이라는 리뷰가 많다. 음식은 빵과 간단한 따뜻한 안주 정도라, 저녁 식사 후 쾰시 몇 잔 하러 가기 좋다.",
+   "must_try": [],
+   "tips_ko": "식사보다 술 위주. 맥주 가격·결제 정보는 출처를 찾지 못했다. Wanderlog는 Google 4.5(685건).",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://restaurantguru.com/Ubierschaenke-Cologne",
+    "https://wanderlog.com/place/details/10546174/ubier-sch%C3%A4nke",
+    "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/"
+   ],
+   "confidence": "high",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.19,
+    "hbf": 2.33,
+    "messe": 3.05,
+    "deutz": 2.31,
+    "belgisches": 2.66
+   }
+  },
+  {
+   "id": "chlodwig-eck",
+   "name": "Chlodwig-Eck",
+   "category": "kneipe",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Annostraße 1-3, 50678 Köln",
+   "lat": 50.92328,
+   "lng": 6.961577,
+   "cuisine": "Südstadt corner pub since 1979, DJs and live music at weekends",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [
+    "live-music"
+   ],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite",
+    "lively"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "맥주 가격 미확인 (출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 568,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com",
+   "summary_ko": "클로트비히 광장 옆에서 1979년부터 영업해 온 쥐트슈타트의 모퉁이 크나이페로, BAP의 볼프강 니데켄이 초창기 공연을 한 곳으로 알려져 있다. 주말엔 DJ 파티나 라이브 음악이 열리고, 주방이 없어 음식을 가져와도 된다.",
+   "must_try": [],
+   "tips_ko": "주방이 없으니 식사 후 2차로 가거나 음식을 챙겨 갈 것. 주말엔 DJ·라이브로 붐빈다. 맥주 가격·결제 정보는 찾지 못했다. top-rated.online 4.4(579건), Restaurant Guru의 Google 점수도 4.4.",
+   "website": "https://chlodwig-eck.de/",
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/place/details/8515879/chlodwig-eck",
+    "https://wanderlog.com/list/geoCategory/817531/best-bars-with-live-music-in-cologne",
+    "https://www.top-rated.online/cities/Cologne/place/p/1237696/Chlodwig-Eck+-+K%C3%B6ln",
+    "https://restaurantguru.com/Chlodwig-Eck-Cologne",
+    "https://chlodwig-eck.de/",
+    "https://www.meinesuedstadt.de/branchenverzeichnis/chlodwig-eck/"
+   ],
+   "confidence": "high",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.01,
+    "hbf": 2.15,
+    "messe": 2.92,
+    "deutz": 2.17,
+    "belgisches": 2.52
+   }
+  },
+  {
    "id": "bar-botanik",
    "name": "Bar Botanik (Hotel im Wasserturm)",
    "category": "bar",
@@ -9457,6 +10228,69 @@ window.KOLN_GUIDE = {
     "messe": 2.65,
     "deutz": 1.93,
     "belgisches": 1.4
+   }
+  },
+  {
+   "id": "schnoerres",
+   "name": "Schnörres",
+   "category": "kneipe",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Dreikönigenstraße 2, 50678 Köln",
+   "lat": 50.924337,
+   "lng": 6.96012,
+   "cuisine": "Small Südstadt Kneipe-bar with a dance floor",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "late-night"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "koelsch",
+    "cocktails"
+   ],
+   "vibe": [
+    "lively",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "맥주 가격 미확인 (출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.2,
+   "google_reviews": 387,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com",
+   "summary_ko": "쥐트슈타트에서 가장 인기 있는 술집 중 하나로 꼽히는 아담한 크나이페 겸 바로, 쾰시 외에 롱드링크·칵테일도 있고 작은 댄스 플로어가 활기차다. 주말엔 새벽 3시 반까지 열어 2·3차로 좋다.",
+   "must_try": [],
+   "tips_ko": "영업 월–목 18–01시, 금·토 18–03:30(Mit Vergnügen 2026). 평점 4.2로 선정 기준선이다. 맥주 가격 출처 없음.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/1543979/de-b%C3%A4sta-pubarna-i-k%C3%B6ln",
+    "https://koeln.mitvergnuegen.com/2026/bars-kneipen-suedstadt/",
+    "https://koeln.mitvergnuegen.com/2025/kneipen-karneval/"
+   ],
+   "confidence": "medium",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.89,
+    "hbf": 2.02,
+    "messe": 2.86,
+    "deutz": 2.11,
+    "belgisches": 2.36
    }
   },
   {
@@ -9577,6 +10411,282 @@ window.KOLN_GUIDE = {
     "messe": 1.97,
     "deutz": 1.87,
     "belgisches": 1.99
+   }
+  },
+  {
+   "id": "zum-goldenen-kegel",
+   "name": "Zum Goldenen Kegel",
+   "category": "kneipe",
+   "area": "agnesviertel-eigelstein",
+   "address": "Balthasarstraße 53, 50670 Köln",
+   "lat": 50.952986,
+   "lng": 6.956389,
+   "cuisine": "Neighbourhood Kölsch pub (Reissdorf) with a skittle alley",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "hidden-gem",
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 1,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "쾰시 €1.70 (2024 여름, verliebtinkoeln)",
+   "beer_price_eur": 1.7,
+   "beer_price_note": "Reissdorf Kölsch €1.70 (2024 여름, verliebtinkoeln '쾰시 최대 €2' 목록)",
+   "beers": [
+    "Reissdorf Kölsch"
+   ],
+   "google_rating": 4.7,
+   "google_reviews": 212,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google)",
+   "summary_ko": "아그네스 지구 주택가의 케겔반(9핀 볼링)이 있는 동네 크나이페로, 갓 따른 라이스도르프 쾰시가 2024년 여름 €1.70으로 쾰른에서 가장 싼 축이었다. '전통과 현대가 섞인 숨은 보석'이라는 평이 있어 친구들과 볼링을 치며 싸게 마시기 좋다.",
+   "must_try": [
+    "Reissdorf Kölsch (라이스도르프 쾰시)"
+   ],
+   "tips_ko": "음식 메뉴가 거의 없다는 평이 있다(werkenntdenbesten 요약). 케겔반은 미리 문의하는 편이 안전하다. 가격은 2024년 기준. Wanderlog는 Google 4.7(168건).",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://restaurantguru.com/Zum-Goldenen-Kegel-Cologne",
+    "https://wanderlog.com/place/details/10873175/goldener-kegel",
+    "https://verliebtinkoeln.com/koelner-lokale-in-denen-das-koelsch-noch-unter-2-euro-kostet/",
+    "https://rausgegangen.de/en/locations/goldener-kegel/",
+    "https://www.werkenntdenbesten.de/e/53273391/kneipe/koeln/zum-goldenen-kegel-bewertungen.html"
+   ],
+   "confidence": "high",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.31,
+    "hbf": 1.17,
+    "messe": 1.89,
+    "deutz": 1.88,
+    "belgisches": 2.23
+   }
+  },
+  {
+   "id": "em-bierstueffge",
+   "name": "Em Bierstüffge",
+   "category": "kneipe",
+   "area": "deutz-messe",
+   "address": "Graf-Geßler-Straße 1, 50679 Köln",
+   "lat": 50.936998,
+   "lng": 6.976469,
+   "cuisine": "Neighbourhood Kölsch pub (Reissdorf) with skittle alley",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [
+    "open-sunday",
+    "terrace"
+   ],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite",
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "cash-only",
+   "location": [],
+   "price_level": 1,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "쾰시 0.2 l €2.20(공식 음료 메뉴, 오래된 페이지)·€2.00(손님 리뷰, 날짜 미상) — 현재가 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": "Reissdorf Kölsch 0.2 l €2.20 (em-bierstueffge.de 음료 메뉴, 약 8년 전 페이지라 현재가로 쓰지 않고 beer_price_eur는 비움)",
+   "beers": [
+    "Reissdorf Kölsch"
+   ],
+   "google_rating": 4.3,
+   "google_reviews": 862,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com",
+   "summary_ko": "도이츠 메쎄·LANXESS 아레나에서 가까운 골목의 동네 술집(가스트슈테테)으로, 공식 사이트가 '갓 따른, 알맞은 온도의 라이스도르프(Reissdorf) 쾰시'를 내세운다. 케겔반(볼링 레인)이 있고 FC 쾰른·쾰른 하이에 경기를 중계해, 메쎄 일정 뒤 현지인 틈에서 한잔하기 좋다.",
+   "must_try": [
+    "Reissdorf Kölsch vom Fass (생 라이스도르프 쾰시)"
+   ],
+   "tips_ko": "카드 결제 불가(공식 사이트 'Kartenzahlung ist nicht möglich!', 1차 조사 koeln.de도 같음 — 둘 다 오래된 페이지) → 현금 필수. 영업(1차 조사, koeln.de): 월·화 15시~, 수–토 11시~, 일 14시~, 일요일은 주방 휴무. 독일어를 못 하는 손님에게 불친절했다는 리뷰도 있다.",
+   "website": "https://www.em-bierstueffge.de/",
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/place/details/2659026/restaurant-em-bierstffge-kln",
+    "https://www.em-bierstueffge.de/",
+    "https://www.em-bierstueffge.de/index.php/getraenke",
+    "https://www.gastroguide.de/restaurant/128496/em-bierstueffge/koeln/?order=visited",
+    "https://www.koeln-deutz.de/gewerbe/In-Deutz-Em-Bierst%C3%BCffge_3_18_809.html",
+    "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/em-bierstueffge"
+   ],
+   "confidence": "medium",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 1.36,
+    "hbf": 1.43,
+    "messe": 1.1,
+    "deutz": 0.44,
+    "belgisches": 2.93
+   }
+  },
+  {
+   "id": "limes-muelheim",
+   "name": "Limes",
+   "category": "kneipe",
+   "area": "other",
+   "address": "Mülheimer Freiheit 150, 51063 Köln",
+   "lat": 50.967227,
+   "lng": 7.002317,
+   "cuisine": "Punk-rock pub with live concerts (Mülheim)",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [
+    "live-music"
+   ],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "lively"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 1,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "쾰시 €1.60·아스트라 €2.60 (2024, Mit Vergnügen)",
+   "beer_price_eur": 1.6,
+   "beer_price_note": "Kölsch €1.60, Astra €2.60 (2024, Mit Vergnügen '11 günstige Bars und Kneipen'; Wanderlog 리뷰도 €1.60) — 잔 크기 표기 없음",
+   "beers": [
+    "Kölsch",
+    "Astra"
+   ],
+   "google_rating": 4.7,
+   "google_reviews": 473,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com",
+   "summary_ko": "강 건너 뮐하임(Mülheim)의 펑크록 성향 크나이페로, 시끄러운 라이브 공연과 쾰른에서 가장 싼 축의 쾰시(2024년 €1.60)로 알려져 있다. 관광지에서 떨어져 있지만 싸게 마시며 동네 록 공연을 보고 싶은 사람에게 맞다.",
+   "must_try": [
+    "Kölsch (쾰시, 2024년 €1.60)"
+   ],
+   "tips_ko": "이웃 민원 때문에 음악은 22시에 끝나야 한다는 리뷰가 있다. 시내 중심에서 떨어진 뮐하이머 프라이하이트(Mülheimer Freiheit)라 오가는 시간을 고려할 것. 가격은 2024년 기준(2026년 11.11 기준 크나이페 쾰시 0.2 l 예상가 €2.50–3.00 (IG Kölner Gastro, veedelcgn)).",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/817531/best-bars-with-live-music-in-cologne",
+    "https://koeln.mitvergnuegen.com/2024/guenstige-bars-kneipen/",
+    "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City"
+   ],
+   "confidence": "medium",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 4.22,
+    "hbf": 4.14,
+    "messe": 2.75,
+    "deutz": 3.5,
+    "belgisches": 5.72
+   }
+  },
+  {
+   "id": "osters-rudi",
+   "name": "Osters Rudi",
+   "category": "kneipe",
+   "area": "other",
+   "address": "Hartwichstraße 26-28, 50733 Köln",
+   "lat": 50.958716,
+   "lng": 6.94761,
+   "cuisine": "Nippes neighbourhood and football pub with billiards, darts and skittles",
+   "cuisine_country": [],
+   "cuisine_region": null,
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner",
+    "late-night"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "맥주 가격 미확인 (출처 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 327,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google)",
+   "summary_ko": "닙페스(Nippes)의 동네·축구 크나이페로, 당구·다트·케겔(볼링)을 즐길 수 있고 쾰른식 안주 할버 한(Halver Hahn)을 낸다. 관광지를 벗어나 현지인 동네 술집 분위기를 느끼고 싶은 사람에게 맞다.",
+   "must_try": [
+    "Halver Hahn (호밀빵에 고다 치즈·양파·겨자를 곁들인 쾰른식 안주)"
+   ],
+   "tips_ko": "2022년 리뷰에 청결 문제와 주인 교체 이야기가 있으니 최근 리뷰를 확인할 것. 영업 월–목 16–24시, 금·토 ~02시(Restaurant Guru, 오래된 정보). 맥주 가격 출처 없음. top-rated.online은 4.3(236건).",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://restaurantguru.com/Osters-Rudi-Cologne",
+    "https://www.top-rated.online/cities/Nippes/place/p/8242315/Osters+Rudi",
+    "https://koeln.mitvergnuegen.com/2025/kegeln-kegelbahn-koeln/"
+   ],
+   "confidence": "medium",
+   "research": "r3-beer-pubs",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "dist": {
+    "dom": 2.08,
+    "hbf": 1.95,
+    "messe": 2.72,
+    "deutz": 2.76,
+    "belgisches": 2.44
    }
   }
  ],

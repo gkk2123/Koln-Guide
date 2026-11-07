@@ -1321,5 +1321,159 @@
     "display_name": "Burgplatz, Altstadt, Stadtbezirk 1, Düsseldorf, Nordrhein-Westfalen, 40213, Deutschland",
     "provider": "nominatim",
     "date": "2026-11-07"
+  },
+  "Salzgasse 13, 50667 Köln": {
+    "lat": 50.9377326,
+    "lng": 6.9619034,
+    "display_name": "13, Salzgasse, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Heumarkt 77, 50667 Köln": {
+    "lat": 50.937264,
+    "lng": 6.9600302,
+    "display_name": "Gilden im Zims, 77, Heumarkt, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Christophstraße 44, 50670 Köln": {
+    "lat": 50.9444091,
+    "lng": 6.9436786,
+    "display_name": "44, Christophstraße, Gereonsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50670, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Engelbertstraße 67, 50674 Köln": {
+    "lat": 50.9351113,
+    "lng": 6.9377248,
+    "display_name": "67, Engelbertstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Chlodwigplatz 28, 50678 Köln": {
+    "lat": 50.9220267,
+    "lng": 6.9596732,
+    "display_name": "FRÜH „Em Veedel“, 28, Chlodwigplatz, Severinsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Unter Kahlenhausen 47, 50668 Köln": {
+    "lat": 50.9491654,
+    "lng": 6.9616948,
+    "display_name": "47, Unter Kahlenhausen, Kunibertsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50668, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Alter Markt 2, 50667 Köln": {
+    "lat": 50.9377334,
+    "lng": 6.9596191,
+    "display_name": "2, Alter Markt, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Salzgasse 2-4, 50667 Köln": {
+    "lat": 50.9376027,
+    "lng": 6.9615065,
+    "display_name": "Salzgasse, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Straße 47, 50674 Köln": {
+    "lat": 50.9367979,
+    "lng": 6.9343545,
+    "display_name": "Grünfeld, 47, Brüsseler Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Gladbacher Straße 48, 50672 Köln": {
+    "lat": 50.946497,
+    "lng": 6.9385162,
+    "display_name": "48, Gladbacher Straße, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Händelstraße 14, 50674 Köln": {
+    "lat": 50.9347317,
+    "lng": 6.9366045,
+    "display_name": "14, Händelstraße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Zülpicher Straße 18, 50674 Köln": {
+    "lat": 50.9299504,
+    "lng": 6.9383224,
+    "display_name": "18, Zülpicher Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Trierer Straße 21A, 50676 Köln": {
+    "lat": 50.9276455,
+    "lng": 6.9452571,
+    "display_name": "21a, Trierer Straße, Griechenmarktviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50676, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Oskar-Jäger-Straße 190, 50825 Köln": {
+    "lat": 50.948694,
+    "lng": 6.9076346,
+    "display_name": "Sonic Ballroom, 190, Oskar-Jäger-Straße, Ehrenfeld, Köln, Nordrhein-Westfalen, 50825, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Kartäuserwall 1, 50678 Köln": {
+    "lat": 50.9217528,
+    "lng": 6.9589231,
+    "display_name": "1, Kartäuserwall, Severinsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Ubierring 19, 50678 Köln": {
+    "lat": 50.9217352,
+    "lng": 6.9620456,
+    "display_name": "19, Ubierring, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Annostraße 1-3, 50678 Köln": {
+    "lat": 50.9232803,
+    "lng": 6.961577,
+    "display_name": "Annostraße, Severinsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Dreikönigenstraße 2, 50678 Köln": {
+    "lat": 50.9243368,
+    "lng": 6.9601199,
+    "display_name": "2, Dreikönigenstraße, Severinsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Balthasarstraße 53, 50670 Köln": {
+    "lat": 50.9529863,
+    "lng": 6.9563889,
+    "display_name": "53, Balthasarstraße, Agnesviertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50670, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Graf-Geßler-Straße 1, 50679 Köln": {
+    "lat": 50.9369981,
+    "lng": 6.9764691,
+    "display_name": "1, Graf-Geßler-Straße, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Mülheimer Freiheit 150, 51063 Köln": {
+    "lat": 50.9672267,
+    "lng": 7.002317,
+    "display_name": "150, Mülheimer Freiheit, Alt-Mülheim, Mülheim, Köln, Nordrhein-Westfalen, 51063, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Hartwichstraße 26-28, 50733 Köln": {
+    "lat": 50.9587161,
+    "lng": 6.9476096,
+    "display_name": "Osters Rudi, 26-28, Hartwichstraße, Sechzigviertel, Nippes, Köln, Nordrhein-Westfalen, 50733, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
   }
 }

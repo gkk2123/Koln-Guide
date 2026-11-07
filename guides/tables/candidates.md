@@ -9,7 +9,6 @@
 | 이름 | 지역 | 사유 | 확인된 정보 |
 |---|---|---|---|
 | Historisches Rathaus Köln | 대성당·구시가 | unverified-2026 | 외관은 무료로 상시 관람 가능. 내부 관람·투어 가능 여부와 시간은 미확인. MiQua 공사장과 인접 |
-| Flora und Botanischer Garten Köln | 기타 시내 | unverified-2026 | 이번 세션 출처 없음. (일반 지식·미검증: 입장 무료) 운영 시간·온실 개방 미확인 |
 | Melaten-Friedhof | 기타 시내 | unverified-2026 | 이번 세션 출처 없음. (일반 지식·미검증: 무료) 개방 시간 미확인 |
 | KD Köln-Düsseldorfer – Panoramafahrt | 대성당·구시가 | unverified-2026 | 2026 겨울 운항 여부·요금 미확인(검색 한도 소진) |
 | Kölner Zoo & Aquarium | 기타 시내 | unverified-2026 | 2026 입장료·겨울 운영 시간 미확인 |
@@ -22,8 +21,6 @@
 | Compleat Köln Belgisches Viertel | 벨기에 지구 | google-numbers-missing | HappyCow 등록: 건강식(Gesundes Essen) & 케이터링. 평점 미확인. |
 | Restaurant Acht | 벨기에 지구 | google-numbers-missing; area boundary unclear | Hotels.com: 옛 창고 단지 Spichernhöfe의 인더스트리얼 디자인 레스토랑. |
 | Glashaus Restaurant & Bar (Hyatt Regency Köln) | 도이츠·메쎄(강 건너) | google-numbers-missing | No Google numbers found for the restaurant. OpenTable 4.6–4.7 from about 470–490 reviews (varies by country site); OpenTable calls it the best-reviewed restaurant in Deutz, price 'very upscale'. Mit Vergnügen 2023: 'Fine Dining mit Domblick'. Hotel dining page: view of the Rhine, Hohenzollernbrücke and Dom. Sunday brunch. One review: reflective windows make the Altstadt view poor after dark. speisekarte.de 5.0 from 2 reviews. The hotel itself (not the restaurant) shows Google 4.5 (4,100) on enprimeurclub.com. HIGH PRIORITY for follow-up: the only Dom-view / business-dinner option in this area. |
-| Rheinterrassen (Restaurant & Biergarten) | 도이츠·메쎄(강 건너) | google-numbers-missing | No Google numbers. OpenTable 4.0 from 96 reviews (food 3.9, service 3.9, ambience 4.3, value 3.4); speisekarte.de 3.7 from 7 reviews (some from 2013). Pullman POI hours: Mo–Sa 18–01, Sun/holidays 12–17 (another source differs). Event location (KölnKongress); seasonal 'Biergarten an den Rheinterrassen'; Falstaff has a listing. Non-Google scores suggest it may fall below the bar. |
-| Em Bierstüffge | 도이츠·메쎄(강 건너) | google-numbers-missing | No rating numbers found. koeln.de: no card payment (cash only), skittle alley (Kegelbahn), outdoor seating, shows 1. FC Köln and Kölner Haie matches; Mon–Tue from 15:00, Wed–Sat from 11:00, Sun from 14:00; no kitchen on Sunday. A neighbourhood Kölsch pub; possible after-work option if its Google numbers check out. |
 | Paparazzi Lounge Bar & Restaurant | 도이츠·메쎄(강 건너) | google-numbers-missing; address unverified | Only seen as a name in golocal's Köln-Deutz restaurant list. Nothing else verified (it may be a hotel lounge near the Messe). |
 | Sion am Bahnhof (Bistro Sion am Bahnhof) | 대성당·구시가 | below-criteria: Google 4.1 (255) | restaurantguru Google 4.1 (255), restaurantguru 종합 3.7 (4,649). 최근 후기 중 서비스·음주 강요에 대한 강한 불만. |
 | Café-Lounge Alter Markt 55 | 대성당·구시가 | google-numbers-incomplete: 리뷰 수 미표시. | restaurantguru Google 4.5 (리뷰 수 없음). |
@@ -185,6 +182,33 @@
 | Momo Empire | 대성당·구시가 | google-numbers-not-found; 네팔 음식점인지 불명확 | En Primeur Club 레스토랑 가이드에 이 주소로 올라 있음. 모모(히말라야식 만두) 가게로 보이지만, 출처상 네팔 음식점인지는 확실하지 않음. |
 | Tibet Momo | 벨기에 지구 | google-numbers-not-found; 티베트 음식(스키마에 해당 국가 코드 없음) | En Primeur Club: 소박한 티베트 식당이고 모모가 맛있다는 평. 구글 수치는 확인 못 함. |
 | Daur Lang | 기타 시내 | google-numbers-not-found + address-missing | top-rated.online에 범아시아 비스트로로 분류됨. 리뷰에서 정통 인도네시아 음식, 매주 바뀌는 작은 메뉴, 비건·채식 옵션, 플라스틱 없는 포장이 칭찬받음. |
+| Lotta | 쥐트슈타트·라인아우하펜 | google-numbers-not-found | Mit Vergnügen 2026 쥐트슈타트 목록: 키커(테이블 축구)와 쾰시로 유명한 대안 크나이페, 주말 축구 중계 땐 킥오프 30분 전 오픈. 영업 일–화 19–01시, 수·목 19–02시, 금·토 19–03시. 2024 '11 günstige Bars und Kneipen'에도 실림 — 한 검색 요약은 '쾰시 50센트'를 Lotta로, 다른 요약은 Schmelztiegel로 전해 귀속 불명(이벤트 가격으로 보임, 미검증). Restaurant Guru·Wanderlog·top-rated.online에서 구글 수치를 찾지 못함. |
+| Durst | 아그네스 지구·아이겔슈타인 | google-numbers-not-found | Mit Vergnügen 2026 '11 richtig kölsche Kneipen'(20시 오픈), Wheree 다이브 바 목록. Yelp 4.1(27건) — 구글 수치 아님. |
+| Gaststätte Berg Krug | 에렌펠트 | google-numbers-not-found | Mit Vergnügen 2026: 에렌펠트의 쾰시 크나이페, 차분하고 손님 연령대가 높은 편. Restaurant Guru 자체 점수 4.6(262건) — 구글 수치 아님. kneipen.de에 쾰시 €1.20(오래된 정보). |
+| Barbarossa Schänke | 크바르티어 라텡(쥘피허 지구) | below-criteria-or-unclear (top-rated.online 4.1) | top-rated.online 4.10(143건) — 구글 수치라면 기준(4.2) 미달. Mit Vergnügen 2026: 쾰시와 Flimm, 주말엔 사실상 24시간 영업. 주소는 Weyerstraße 74(Mit Vergnügen)와 73(top-rated.online)으로 엇갈림. |
+| Im Kleinen Finanzamt |  | google-numbers-not-found | Mit Vergnügen 2026 '11 richtig kölsche Kneipen': 가정식(bürgerliche Küche)과 케겔반. 구글 수치 검색 결과 없음. |
+| Alt Neppes | 기타 시내 | not-verified | Mit Vergnügen 2024 '11 günstige Bars und Kneipen'·2026 '11 richtig kölsche Kneipen'에 나오는 닙페스 크나이페. 주소·구글 수치 미확보. |
+| Café Storch | 벨기에 지구 | status-unclear (Wanderlog 'Temporarily Closed' flag) | Wanderlog '쾰른 베스트 펍 50' 4.6(259건). 한 Wanderlog 리스팅엔 'Temporarily Closed', Restaurant Guru엔 '18–02시 영업' — 상태가 엇갈림. 시 낭독회·다양한 차. 웹사이트 cafe-storch.de. 영업이 확인되면 places로 올릴 것. |
+| Restaurant & Kneipe Köln / Kölsche Art |  | address-missing | Wanderlog 4.5(440건), 음식·서비스 호평(가끔 무례하다는 평). 주소를 확보하지 못함. |
+| Haus Unkelbach | 기타 시내 | address-postcode-missing; brauhaus/restaurant scope | Wanderlog 4.3(2,500건), Restaurant Guru Google 4.3(자체 4.2, 3,895건). 쥘츠·클레텐베르크 사이의 레스토랑 겸 브라우하우스형 가게(슈바인스학세 호평, 실내·야외석, 예약 권장, 영어 가능 직원). 우편번호가 출처에 없고 성격상 브라우하우스·레스토랑이라 후보로 둠. |
+| Em Drügge Pitter | 에렌펠트 | google-attribution-unclear | 제3자 순위 사이트(top-rated.online 계열로 보임) 4.50(428건) — 구글 수치인지 확인 못 함. 다트·핀볼이 있는 편한 펍. 주소는 Wheree 다이브 바 목록. |
+| Zum Köbes | 아그네스 지구·아이겔슈타인 | google-numbers-not-found | Yelp 4.6(23건), 쿠니베르츠피어텔(Kunibertsviertel). 구글 수치·주소 미확보. |
+| Low Budget | 벨기에 지구 | google-numbers-not-found | Yelp 4.3(23건), 벨기에 지구. 구글 수치·주소 미확보. |
+| Einstein | 대성당·구시가 | google-numbers-not-found | Yelp 4.8(11건), 마르틴스피어텔(구시가). 구글 수치·주소 미확보. |
+| Klein Köln | 프리젠 지구·에렌슈트라세 | google-numbers-not-found | coolibri 종합 5.7/10, '1인 €35'(coolibri). 구글 수치·번지 미확보. |
+| Papa Rudis | 쥐트슈타트·라인아우하펜 | google-numbers-not-found | Wheree 다이브 바 목록에만 나옴. 구글 수치 미확보. |
+| Reissdorf am Hahnentor | 프리젠 지구·에렌슈트라세 | address-and-google-numbers-not-found | veedelcgn(2026): 11.11.2026 시즌 개막일에 쾰시(Stange)를 €2.30에 팔 예정 — 보도된 가격 중 가장 쌈(운영 책임자 Schlüter). 라이스도르프 계열 가게라 브라우하우스 범위일 수도 있음. 주소·구글 수치 미확보. |
+| Kuen pub & Bar | 기타 시내 | google-review-count-missing | Restaurant Guru Google 4.6(리뷰 수 미표시). Mit Vergnügen 2025 닙페스 목록: 쾰시·와인·롱드링크. 주소 미확보. |
+| Flora 6 | 기타 시내 | google-numbers-not-found | Mit Vergnügen 2025 닙페스 목록: 긴 밤으로 유명, 쾰시와 독주. 주소·구글 수치 미확보. |
+| Point One | 에렌펠트 | google-numbers-not-found | Mit Vergnügen 2025 '축구 보기 좋은 크나이페': 축구 팬 모임 장소, 쾰시가 쌈(지역은 검색 요약 기준 에렌펠트). 주소·구글 수치 미확보. |
+| Wicleff | 에렌펠트 | google-numbers-not-found | Mit Vergnügen 2025 '축구 보기 좋은 크나이페': 쾰시와 축구의 동네 크나이페(지역은 검색 요약 기준). 주소·구글 수치 미확보. |
+| Schmelztiegel | 크바르티어 라텡(쥘피허 지구) | google-numbers-not-found | Mit Vergnügen 2024 '11 günstige Bars und Kneipen': Luxemburger Straße, 목요일 비어퐁 나이트(우승 팀에 €50 쾰시 쿠폰). 번지·구글 수치 미확보. |
+| KRAUTIs | 쥐트슈타트·라인아우하펜 | google-numbers-not-found | Mit Vergnügen 2026 쥐트슈타트 목록: 군더더기 없는 쾰시와 축구. 주소·구글 수치 미확보. |
+| Zum Goldenen Schuss |  | google-review-count-missing | Restaurant Guru Google 4.3(오래된 데이터, 리뷰 수 미표시), 축구 보며 마시기 좋은 곳이라는 평. 주소 미확보. |
+| Birreria Düxer Botschaft | 쥐트슈타트·라인아우하펜 | permanently-closed | Wanderlog에 'Permanently Closed' 표시. 가이드에서 제외. |
+| Biergarten am Rathenauplatz | 크바르티어 라텡(쥘피허 지구) | seasonal-closed-november | 공식 사이트: 날씨 좋을 때 4월 초–9월 말만 영업 → 11월엔 닫힘. |
+| Rheinterrassen (Biergarten) | 도이츠·메쎄(강 건너) | winter-status-unknown | 공식 사이트: 2026 시즌 개장 공지와 '날씨 좋을 때'만 있고 겨울 영업 정보 없음. |
+| Brauwelt Köln (Kalk) | 기타 시내 | beer-garden-weather-dependent; google-numbers-not-searched | 공식 사이트: 비어가르텐은 날씨에 따라, 브라우하우스는 수–일 연중 영업 → 11월엔 실내 브라우하우스로. 구글 수치는 검색하지 않음. |
 | Brauerei Päffgen | 프리젠 지구·에렌슈트라세 | below-criteria: Google 3.8–3.9 | r3: restaurantguru Google 3.9 (1,987건, 약 2년 전 페이지), 11880.com google.de 3.8 (2,272건). TripAligner 3.9 (1,159), Airial 3.9 (2,082)도 비슷해 구글 기준선 4.2에 못 미친다. verliebtinkoeln 기사: 소란을 제지당한 파티 손님들이 낮은 평점을 남겼다고 보도. colognecitybreaks 2026 가이드: 현금을 선호·기대하는 옛 술집으로 분류. 하우스 양조장의 Päffgen Kölsch(Bierhaxe 호평, 주말엔 매우 붐빈다는 Wanderlog 리뷰). 주소 Friesenstr. 64–66(TripAligner), 50670(gastroguide). r1: speisekarte.de 3.9 (25건), tablejourney 자체 점수 4.5, '시내 마지막 독립 하우스 양조장'. 근처 바 'Päff'와 혼동 금지. |
 | Gaffel am Dom (Bahnhofsvorplatz) | 대성당·구시가 | google-numbers-not-found | r3: 구글 수치를 찾지 못했다. r1의 '3.5 vs 4.3' 충돌에서 3.5는 spinach.guide 자체 점수(3.5)와 Yelp 3.5 (227건)로, 구글 값이 아니다. 4.3의 출처도 확인하지 못했다. 트립어드바이저 4.0 (약 2,420건, 쾰른 2,255곳 중 59위), OpenTable 4.7 (902건), BeerAdvocate 3.89 (4건). 주소 Bahnhofsvorplatz 1, 50667 Köln 확인, 전화 +49 221 9139260 (Yelp 2026-10 갱신 → 영업 중). Gaffel Kölsch. tageskarte: 연간 100만 명이 찾는 브라우하우스. |
 | Brauhaus Sion (Unter Taschenmacher) | 대성당·구시가 | below-criteria: Google 4.0 (7,644) | r3: werkenntdenbesten google.de 4,00 (7,644건), Stand 2026-05-30. TripAligner 3.6 (1,389), speisekarte.de 3.9 (16). 주소 Unter Taschenmacher 5–7, 50667 Köln (쾰른 관광 사이트). 1318년 창업으로 소개됨. Sion Kölsch. 옛 가격: 0.2 l €2.20 (verliebtinkoeln, 2022년 10월 — 오래된 값). |

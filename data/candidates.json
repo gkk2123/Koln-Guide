@@ -20,10 +20,11 @@
       "r2-europe-americas.json",
       "r2-middle-east-africa.json",
       "r2-se-south-asia.json",
+      "r3-beer-pubs.json",
       "r3-brauhaus.json",
       "wine-places.json"
     ],
-    "count": 196
+    "count": 220
   },
   "items": [
     {
@@ -35,18 +36,6 @@
       "summary_ko": "독일에서 가장 오래된 시청 중 하나. 르네상스 회랑(Laube)과 인물 조각이 빼곡한 시청탑 외관이 볼거리.",
       "reason": "unverified-2026",
       "found": "외관은 무료로 상시 관람 가능. 내부 관람·투어 가능 여부와 시간은 미확인. MiQua 공사장과 인접",
-      "sources": [],
-      "research": "attractions"
-    },
-    {
-      "name": "Flora und Botanischer Garten Köln",
-      "name_ko": "플로라·식물원",
-      "category": "park-nature",
-      "area": "other",
-      "address": "Am Botanischen Garten 1a, 50735 Köln",
-      "summary_ko": "동물원 옆, 19세기 플로라 궁전과 온실이 있는 시립 식물원.",
-      "reason": "unverified-2026",
-      "found": "이번 세션 출처 없음. (일반 지식·미검증: 입장 무료) 운영 시간·온실 개방 미확인",
       "sources": [],
       "research": "attractions"
     },
@@ -198,35 +187,6 @@
         "https://www.hyattrestaurants.com/fr/dining/germany/cologne/glashaus-restaurant/events/sunday-brunch-in-rhine-riverbanks-hyatt-regency-cologne-p7zx",
         "https://www.speisekarte.de/k%C3%B6ln/restaurant/glashaus2",
         "https://www.enprimeurclub.com/hotels/hyatt-regency-koln-cologne-hotel"
-      ],
-      "research": "fnb-deutz-messe"
-    },
-    {
-      "name": "Rheinterrassen (Restaurant & Biergarten)",
-      "area": "deutz-messe",
-      "address": "Rheinparkweg 1, 50679 Köln",
-      "reason": "google-numbers-missing",
-      "found": "No Google numbers. OpenTable 4.0 from 96 reviews (food 3.9, service 3.9, ambience 4.3, value 3.4); speisekarte.de 3.7 from 7 reviews (some from 2013). Pullman POI hours: Mo–Sa 18–01, Sun/holidays 12–17 (another source differs). Event location (KölnKongress); seasonal 'Biergarten an den Rheinterrassen'; Falstaff has a listing. Non-Google scores suggest it may fall below the bar.",
-      "sources": [
-        "https://www.opentable.com/restaurant-rheinterrassen",
-        "https://koelncongress.de/en/locations/rheinterrassen-koeln/",
-        "https://pullman.accor.com/gb/destinations/poi/rheinterrassen-cologne.shtml",
-        "https://www.speisekarte.de/k%C3%B6ln/restaurant/biergarten_an_den_rheinterrassen",
-        "https://www.koeln.de/freizeit/ll/schoene-biergaerten-in-koeln/biergarten-rheinterrassen/",
-        "https://www.falstaff.com/en/restaurants/rheinterrassen-koeln"
-      ],
-      "research": "fnb-deutz-messe"
-    },
-    {
-      "name": "Em Bierstüffge",
-      "area": "deutz-messe",
-      "address": "Graf-Geßler-Straße 1, 50679 Köln",
-      "reason": "google-numbers-missing",
-      "found": "No rating numbers found. koeln.de: no card payment (cash only), skittle alley (Kegelbahn), outdoor seating, shows 1. FC Köln and Kölner Haie matches; Mon–Tue from 15:00, Wed–Sat from 11:00, Sun from 14:00; no kitchen on Sunday. A neighbourhood Kölsch pub; possible after-work option if its Google numbers check out.",
-      "sources": [
-        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/em-bierstueffge",
-        "https://www.koeln.de/branchen/eintrag/43476/brauhaeuser/em-bierstueffge",
-        "https://speisekarte.menu/restaurants/koeln/em-bierstuffge"
       ],
       "research": "fnb-deutz-messe"
     },
@@ -2573,6 +2533,373 @@
         "https://www.top-rated.online/cities/Cologne/place/p/8158896/Daur+Lang"
       ],
       "research": "r2-se-south-asia"
+    },
+    {
+      "name": "Lotta",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Kartäuserwall 12, 50678 Köln",
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Mit Vergnügen 2026 쥐트슈타트 목록: 키커(테이블 축구)와 쾰시로 유명한 대안 크나이페, 주말 축구 중계 땐 킥오프 30분 전 오픈. 영업 일–화 19–01시, 수·목 19–02시, 금·토 19–03시. 2024 '11 günstige Bars und Kneipen'에도 실림 — 한 검색 요약은 '쾰시 50센트'를 Lotta로, 다른 요약은 Schmelztiegel로 전해 귀속 불명(이벤트 가격으로 보임, 미검증). Restaurant Guru·Wanderlog·top-rated.online에서 구글 수치를 찾지 못함.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/bars-kneipen-suedstadt/",
+        "https://koeln.mitvergnuegen.com/2024/guenstige-bars-kneipen/",
+        "https://onlinestreet.de/poi/MG53TkJ5VUlxWlFlcVo1ZlZtbCs5Zz09"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Durst",
+      "area": "agnesviertel-eigelstein",
+      "address": "Weidengasse 87, 50668 Köln",
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Mit Vergnügen 2026 '11 richtig kölsche Kneipen'(20시 오픈), Wheree 다이브 바 목록. Yelp 4.1(27건) — 구글 수치 아님.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/",
+        "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City",
+        "https://www.yelp.com/search?find_desc=Kneipe&find_loc=Eigelstein%2C+50668+K%C3%B6ln"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Gaststätte Berg Krug",
+      "area": "ehrenfeld",
+      "address": "Sömmeringstraße 28, 50823 Köln",
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Mit Vergnügen 2026: 에렌펠트의 쾰시 크나이페, 차분하고 손님 연령대가 높은 편. Restaurant Guru 자체 점수 4.6(262건) — 구글 수치 아님. kneipen.de에 쾰시 €1.20(오래된 정보).",
+      "sources": [
+        "https://restaurantguru.com/Berg-Krug-Cologne",
+        "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/",
+        "https://kneipen.de/koeln"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Barbarossa Schänke",
+      "area": "kwartier-lateng",
+      "address": "Weyerstraße 74, 50676 Köln",
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "below-criteria-or-unclear (top-rated.online 4.1)",
+      "found": "top-rated.online 4.10(143건) — 구글 수치라면 기준(4.2) 미달. Mit Vergnügen 2026: 쾰시와 Flimm, 주말엔 사실상 24시간 영업. 주소는 Weyerstraße 74(Mit Vergnügen)와 73(top-rated.online)으로 엇갈림.",
+      "sources": [
+        "https://www.top-rated.online/cities/Cologne/place/p/7813469/Barbarossa+Sch%C3%A4nke",
+        "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Im Kleinen Finanzamt",
+      "area": null,
+      "address": "Friedrichstraße 2, 50676 Köln",
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Mit Vergnügen 2026 '11 richtig kölsche Kneipen': 가정식(bürgerliche Küche)과 케겔반. 구글 수치 검색 결과 없음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Alt Neppes",
+      "area": "other",
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "not-verified",
+      "found": "Mit Vergnügen 2024 '11 günstige Bars und Kneipen'·2026 '11 richtig kölsche Kneipen'에 나오는 닙페스 크나이페. 주소·구글 수치 미확보.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/guenstige-bars-kneipen/",
+        "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Café Storch",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 17, 50674 Köln",
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "status-unclear (Wanderlog 'Temporarily Closed' flag)",
+      "found": "Wanderlog '쾰른 베스트 펍 50' 4.6(259건). 한 Wanderlog 리스팅엔 'Temporarily Closed', Restaurant Guru엔 '18–02시 영업' — 상태가 엇갈림. 시 낭독회·다양한 차. 웹사이트 cafe-storch.de. 영업이 확인되면 places로 올릴 것.",
+      "sources": [
+        "https://wanderlog.com/place/details/1508528/caf%C3%A9-storch",
+        "https://restaurantguru.com/Cafe-Storch-Cologne",
+        "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Restaurant & Kneipe Köln | Kölsche Art",
+      "area": null,
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "address-missing",
+      "found": "Wanderlog 4.5(440건), 음식·서비스 호평(가끔 무례하다는 평). 주소를 확보하지 못함.",
+      "sources": [
+        "https://wanderlog.com/place/details/9523096/restaurant--kneipe-k%C3%B6ln--k%C3%B6lsche-art",
+        "https://restaurantguru.com/Kolsche-Art-Cologne",
+        "https://coolibri.de/restaurant/restaurant-kneipe-koelsche-art-koeln/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Haus Unkelbach",
+      "area": "other",
+      "address": "Luxemburger Straße 260, Köln",
+      "category": "brauhaus",
+      "cuisine_country": [],
+      "reason": "address-postcode-missing; brauhaus/restaurant scope",
+      "found": "Wanderlog 4.3(2,500건), Restaurant Guru Google 4.3(자체 4.2, 3,895건). 쥘츠·클레텐베르크 사이의 레스토랑 겸 브라우하우스형 가게(슈바인스학세 호평, 실내·야외석, 예약 권장, 영어 가능 직원). 우편번호가 출처에 없고 성격상 브라우하우스·레스토랑이라 후보로 둠.",
+      "sources": [
+        "https://wanderlog.com/place/details/1484903/haus-unkelbach",
+        "https://restaurantguru.com/Haus-Unkelbach-Cologne"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Em Drügge Pitter",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 416, 50825 Köln",
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-attribution-unclear",
+      "found": "제3자 순위 사이트(top-rated.online 계열로 보임) 4.50(428건) — 구글 수치인지 확인 못 함. 다트·핀볼이 있는 편한 펍. 주소는 Wheree 다이브 바 목록.",
+      "sources": [
+        "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City",
+        "https://www.top-rated.online/cities/Bilderstoeckchen/Night+Clubs"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Zum Köbes",
+      "area": "agnesviertel-eigelstein",
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Yelp 4.6(23건), 쿠니베르츠피어텔(Kunibertsviertel). 구글 수치·주소 미확보.",
+      "sources": [
+        "https://www.yelp.com/search?find_desc=Dive+Bars&find_loc=Cologne,+Nordrhein-Westfalen"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Low Budget",
+      "area": "belgisches-viertel",
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Yelp 4.3(23건), 벨기에 지구. 구글 수치·주소 미확보.",
+      "sources": [
+        "https://www.yelp.com/search?find_desc=Dive+Bars&find_loc=Cologne,+Nordrhein-Westfalen"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Einstein",
+      "area": "dom-altstadt",
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Yelp 4.8(11건), 마르틴스피어텔(구시가). 구글 수치·주소 미확보.",
+      "sources": [
+        "https://www.yelp.com/search?find_desc=Dive+Bars&find_loc=Cologne,+Nordrhein-Westfalen"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Klein Köln",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "coolibri 종합 5.7/10, '1인 €35'(coolibri). 구글 수치·번지 미확보.",
+      "sources": [
+        "https://coolibri.de/restaurant/weisser-holunder-koeln/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Papa Rudis",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Waidmarkt 2, 50676 Köln",
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Wheree 다이브 바 목록에만 나옴. 구글 수치 미확보.",
+      "sources": [
+        "https://www.wheree.com/Dive_Bars-c140-g258167-Koln_City",
+        "https://restaurantguru.com/Papa-Rudis-Cologne"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Reissdorf am Hahnentor",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "address-and-google-numbers-not-found",
+      "found": "veedelcgn(2026): 11.11.2026 시즌 개막일에 쾰시(Stange)를 €2.30에 팔 예정 — 보도된 가격 중 가장 쌈(운영 책임자 Schlüter). 라이스도르프 계열 가게라 브라우하우스 범위일 수도 있음. 주소·구글 수치 미확보.",
+      "sources": [
+        "https://veedelcgn.com/news/11-11-in-koeln-koelsch-bis-3-euro-und-was-zum-sessionsstart-feststeht"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Kuen pub & Bar",
+      "area": "other",
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-review-count-missing",
+      "found": "Restaurant Guru Google 4.6(리뷰 수 미표시). Mit Vergnügen 2025 닙페스 목록: 쾰시·와인·롱드링크. 주소 미확보.",
+      "sources": [
+        "https://restaurantguru.com/Kuen-Cologne",
+        "https://koeln.mitvergnuegen.com/2025/bars-kneipen-nippes/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Flora 6",
+      "area": "other",
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Mit Vergnügen 2025 닙페스 목록: 긴 밤으로 유명, 쾰시와 독주. 주소·구글 수치 미확보.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/bars-kneipen-nippes/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Point One",
+      "area": "ehrenfeld",
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Mit Vergnügen 2025 '축구 보기 좋은 크나이페': 축구 팬 모임 장소, 쾰시가 쌈(지역은 검색 요약 기준 에렌펠트). 주소·구글 수치 미확보.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/kneipen-fussball-gucken/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Wicleff",
+      "area": "ehrenfeld",
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Mit Vergnügen 2025 '축구 보기 좋은 크나이페': 쾰시와 축구의 동네 크나이페(지역은 검색 요약 기준). 주소·구글 수치 미확보.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/kneipen-fussball-gucken/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Schmelztiegel",
+      "area": "kwartier-lateng",
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Mit Vergnügen 2024 '11 günstige Bars und Kneipen': Luxemburger Straße, 목요일 비어퐁 나이트(우승 팀에 €50 쾰시 쿠폰). 번지·구글 수치 미확보.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/guenstige-bars-kneipen/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "KRAUTIs",
+      "area": "suedstadt-rheinauhafen",
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-numbers-not-found",
+      "found": "Mit Vergnügen 2026 쥐트슈타트 목록: 군더더기 없는 쾰시와 축구. 주소·구글 수치 미확보.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/bars-kneipen-suedstadt/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Zum Goldenen Schuss",
+      "area": null,
+      "address": null,
+      "category": "kneipe",
+      "cuisine_country": [],
+      "reason": "google-review-count-missing",
+      "found": "Restaurant Guru Google 4.3(오래된 데이터, 리뷰 수 미표시), 축구 보며 마시기 좋은 곳이라는 평. 주소 미확보.",
+      "sources": [
+        "https://restaurantguru.com/Zum-Goldenen-Schuss-Cologne"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Birreria Düxer Botschaft",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Am Weidenbach 24, 50676 Köln",
+      "category": "beer-bar",
+      "cuisine_country": [],
+      "reason": "permanently-closed",
+      "found": "Wanderlog에 'Permanently Closed' 표시. 가이드에서 제외.",
+      "sources": [
+        "https://wanderlog.com/place/details/5194369/birreria-duexer-botschaft"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Biergarten am Rathenauplatz",
+      "area": "kwartier-lateng",
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "seasonal-closed-november",
+      "found": "공식 사이트: 날씨 좋을 때 4월 초–9월 말만 영업 → 11월엔 닫힘.",
+      "sources": [
+        "https://rathenauplatz.koeln/biergarten"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Rheinterrassen (Biergarten)",
+      "area": "deutz-messe",
+      "address": null,
+      "category": "bar",
+      "cuisine_country": [],
+      "reason": "winter-status-unknown",
+      "found": "공식 사이트: 2026 시즌 개장 공지와 '날씨 좋을 때'만 있고 겨울 영업 정보 없음.",
+      "sources": [
+        "https://www.rheinterrassen.eu/biergarten/"
+      ],
+      "research": "r3-beer-pubs"
+    },
+    {
+      "name": "Brauwelt Köln (Kalk)",
+      "area": "other",
+      "address": null,
+      "category": "brauhaus",
+      "cuisine_country": [],
+      "reason": "beer-garden-weather-dependent; google-numbers-not-searched",
+      "found": "공식 사이트: 비어가르텐은 날씨에 따라, 브라우하우스는 수–일 연중 영업 → 11월엔 실내 브라우하우스로. 구글 수치는 검색하지 않음.",
+      "sources": [
+        "https://www.brauwelt-koeln.de/en/pages/brauhaus-biergarten"
+      ],
+      "research": "r3-beer-pubs"
     },
     {
       "name": "Brauerei Päffgen",

@@ -386,7 +386,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       if (fc.more) more += g; else main += g;
       if (fc.key === "drink" && tab === "beer") {
         var priced = items.filter(function (i) { return i.beer_price_eur; }).length;
-        main += group("맥주 가격", "쾰시 0.2 l · 가격 확인된 " + priced + "곳 기준", '<div class="seg" role="group" aria-label="맥주 가격">' + BEER_STEPS.map(function (b) {
+        main += group("맥주 가격", "쾰시 0.2 l · 가격 확인된 " + priced + "곳 · 출처 시점 가격(일부 2024년)", '<div class="seg" role="group" aria-label="맥주 가격">' + BEER_STEPS.map(function (b) {
           return '<button type="button" data-beer="' + b + '" aria-pressed="' + (f.maxBeer === b) + '">' + (b ? "€" + b.toFixed(2) + " 이하" : "전체") + "</button>";
         }).join("") + "</div>");
         main += group("구글 평점", "", '<div class="seg" role="group" aria-label="최소 평점">' + MIN_RATINGS.map(function (r) {

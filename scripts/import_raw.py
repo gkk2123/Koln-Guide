@@ -291,8 +291,11 @@ def is_attraction(p: dict) -> bool:
 
 
 def merge_into(primary: dict, other: dict) -> dict:
+    def empty(x) -> bool:
+        return x in (None, "", [], "unknown") or (isinstance(x, str) and len(x) < 20 and ("미확인" in x or "unknown" in x.lower()))
+
     for k, v in other.items():
-        if primary.get(k) in (None, "", [], "unknown") and v not in (None, "", [], "unknown"):
+        if empty(primary.get(k)) and not empty(v):
             primary[k] = v
     for k in ("awards", "award_flags", "sources", "must_try", "cuisine_country", "location", "beers", *FACETS):
         seen = list(primary.get(k) or [])
