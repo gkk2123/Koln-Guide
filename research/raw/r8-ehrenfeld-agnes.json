@@ -46,7 +46,7 @@
    "summary_ko": "아그네스 지구 노이서 슈트라세에 있는 1920년 무렵부터 이어온 브라우하우스풍 쾰시 술집 겸 식당으로, 옛 사진이 걸린 실내가 정겹다. 버섯 소스 슈니첼, 메츠거브라트부르스트(정육점식 소시지)와 감자, 힘멜 운 애드(사과·감자 퓌레와 선지 소시지) 같은 라인란트 향토 요리를 푸짐하게 내 관광지 브라우하우스보다 동네 분위기를 느끼기 좋다.",
    "must_try": [
     "Schnitzel mit Champignonrahmsoße (버섯 크림소스 슈니첼)",
-    "Metzgerbratwurst mit Bratkartoffeln (정육점식 소시지와 감자구이)",
+    "Metzgerbratwurst mit Kartoffeln (정육점식 소시지와 감자)",
     "Himmel un Ääd (힘멜 운 애드 — 사과·감자 퓌레와 블루트부르스트)"
    ],
    "tips_ko": "에버트플라츠(Ebertplatz) 역에서 북쪽으로 걸어서 몇 분 거리. 저녁엔 동네 손님으로 붐비니 여럿이면 전화(+49 221 27075858)로 자리를 확인할 것. 직원이 불친절했다는 후기도 한 건 있음. 영업시간은 이번 조사에서 미확인.",
@@ -939,7 +939,7 @@
    "must_try": [
     "Rheinische Hausmannskost (라인란트 가정식 — 비건 버전 가능)"
    ],
-   "tips_ko": "바로 맞은편 4번지가 조지아 식당 Maspinzelo(가이드 수록). 작은 동네 식당이라 저녁엔 예약하는 편이 안전하다. 영업시간·메뉴는 방문 전 확인.",
+   "tips_ko": "바로 맞은편 4번지가 조지아 식당 Maspinzelo(가이드 수록). 영업시간·메뉴·예약 방법은 이번 조사에서 미확인 — 방문 전 확인.",
    "website": null,
    "awards": [],
    "sources": [
@@ -959,8 +959,7 @@
     "DE"
    ],
    "dishes": [
-    "rhineland-classics",
-    "schnitzel"
+    "rhineland-classics"
    ],
    "diet": [],
    "meals": [
@@ -978,7 +977,7 @@
     "traditional",
     "local-favorite"
    ],
-   "reservation": "recommended",
+   "reservation": "unknown",
    "payment": "unknown",
    "price_level": null,
    "price_pp": null,
@@ -991,11 +990,8 @@
    "google_as_of": null,
    "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 487; 별도 4.5 / 35는 다른 포털)",
    "summary_ko": "노이에렌펠트 란트만슈트라세의 전통 독일 식당으로, 볼프강 푀트겐(Wolfgang Pöttgen)이 4대째 이어 운영하는 동네 노포다. 소박하지만 푸짐한 독일 가정식을 내 관광지 밖에서 쾰른 사람들의 단골집 분위기를 느끼기 좋다.",
-   "must_try": [
-    "Schnitzel (슈니첼)",
-    "Kölsch (쾰시)"
-   ],
-   "tips_ko": "같은 거리 3번지 Moselstübchen, 4번지 Maspinzelo와 함께 란트만슈트라세 맛집 골목을 이룬다. 동네 단골이 많아 저녁엔 예약 권장. 영업시간은 방문 전 확인.",
+   "must_try": [],
+   "tips_ko": "같은 거리 3번지 Moselstübchen, 4번지 Maspinzelo(가이드 수록)와 함께 란트만슈트라세 맛집 골목을 이룬다. 영업시간·예약 방법은 이번 조사에서 미확인 — 방문 전 확인.",
    "website": null,
    "awards": [],
    "sources": [
@@ -1029,7 +1025,7 @@
    "vibe": [
     "local-favorite"
    ],
-   "reservation": "recommended",
+   "reservation": "unknown",
    "payment": "unknown",
    "price_level": null,
    "price_pp": null,
@@ -1043,7 +1039,7 @@
    "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 151)",
    "summary_ko": "노이에렌펠트 시마르플라츠(Simarplatz)의 레스토랑 겸 와인바로, 동네 인기집이던 Maifeld가 문을 닫은 자리에 들어섰다. 와인과 함께 저녁을 즐기기 좋은 곳이라 데이트나 조용한 저녁 식사에 어울린다.",
    "must_try": [],
-   "tips_ko": "테라스는 따뜻한 계절용. 메뉴·영업시간은 이번 조사에서 미확인 — 방문 전 확인하고 저녁엔 예약 권장.",
+   "tips_ko": "테라스는 따뜻한 계절용. 메뉴·영업시간·예약 방법은 이번 조사에서 미확인 — 방문 전 확인.",
    "website": null,
    "awards": [],
    "sources": [
@@ -1235,7 +1231,7 @@
     "local-favorite",
     "lively"
    ],
-   "reservation": "recommended",
+   "reservation": "unknown",
    "payment": "unknown",
    "price_level": null,
    "price_pp": null,
@@ -1288,7 +1284,7 @@
    "vibe": [
     "local-favorite"
    ],
-   "reservation": "recommended",
+   "reservation": "unknown",
    "payment": "unknown",
    "price_level": null,
    "price_pp": null,
@@ -1304,7 +1300,7 @@
    "must_try": [
     "Tapas (타파스 모둠)"
    ],
-   "tips_ko": "Mit Vergnügen(2025) 기준 수–일 18:00–24:00 영업(옛 정보라 방문 전 확인). 같은 거리 53번지가 가이드 수록 크나이페 Zum Goldenen Kegel. 저녁엔 예약 권장.",
+   "tips_ko": "Mit Vergnügen(2025) 기준 수–일 18:00–24:00 영업(옛 정보라 방문 전 확인). 같은 거리 53번지가 가이드 수록 크나이페 Zum Goldenen Kegel. 인기 있는 작은 타파스 집이라 저녁엔 미리 자리를 확인하는 편이 안전하다.",
    "website": null,
    "awards": [],
    "sources": [
@@ -1342,7 +1338,7 @@
     "local-favorite",
     "lively"
    ],
-   "reservation": "recommended",
+   "reservation": "unknown",
    "payment": "unknown",
    "price_level": null,
    "price_pp": null,
@@ -1593,7 +1589,7 @@
    "vibe": [
     "local-favorite"
    ],
-   "reservation": "recommended",
+   "reservation": "unknown",
    "payment": "unknown",
    "price_level": null,
    "price_pp": null,
@@ -1641,8 +1637,7 @@
     "dinner"
    ],
    "occasions": [
-    "date",
-    "business"
+    "date"
    ],
    "features": [],
    "drinks": [
@@ -1668,7 +1663,7 @@
    "rating_source": "wanderlog.com 목록 스냅숏 (Google 5.0 / 223); 장소 페이지 5.0 / 182; OpenTable 4.8은 구글 아님",
    "summary_ko": "에렌펠트 서쪽 끝 벤로어 슈트라세의 레스토랑으로, 제철 지역 식재료로 만든 파인다이닝급 메제·셰어링 플레이트를 두 오너가 낸다. 구글 리뷰 200건 이상이 만점(5.0)에 가까워, 특별한 저녁을 조용한 동네에서 보내고 싶을 때 좋다.",
    "must_try": [
-    "Sharing plates / Mezze (셰어링 메제 코스)"
+    "Sharing plates / Mezze (셰어링 메제 플레이트)"
    ],
    "tips_ko": "Wanderlog 장소 페이지 영업시간에 '영구 폐업'이 표시돼 있지만, OpenTable에 2026-08-09자 리뷰가 있고 예약이 열려 있으며 Mit Vergnügen 2026 에렌펠트 맛집 목록에도 올라 있어 표시 오류로 보인다 — 그래도 방문 전 OpenTable·전화로 영업 여부를 꼭 확인할 것. 작은 접시를 나눠 먹는 방식이라 취향이 갈린다는 후기도 있다. 이전 라운드 후보에서 상태 확인 후 올림.",
    "website": null,
@@ -2286,5 +2281,5 @@
    ]
   }
  ],
- "notes_ko": ""
+ "notes_ko": "범위: 에렌펠트(벤로어 슈트라세·노이에렌펠트 란트만슈트라세/주벨라터 슈트라세·헬리오스 일대, 50823/50825)와 아그네스 지구·아이겔슈타인(바이덴가세·아이겔슈타인·노이서 슈트라세 남쪽·에버트플라츠·크레펠더 슈트라세, 50668/50670). WebSearch 32회(한도 전부) 사용, WebFetch 없음. 방법: Mit Vergnügen 2024–2026 동네 목록(https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/ , https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/ , https://koeln.mitvergnuegen.com/2026/agnesviertel/ , https://koeln.mitvergnuegen.com/2025/restaurants-agnesviertel , https://koeln.mitvergnuegen.com/2024/bars-kneipen-agnesviertel/ , https://koeln.mitvergnuegen.com/2024/cafes-agenesviertel/)과 Wanderlog 검색으로 이름·주소를 찾고, Wanderlog 장소·목록 페이지(구글 평점·리뷰 수를 보여 줌)로 수치를 확인했다. Wanderlog 페이지의 두 번째 작은 수치(예: 4.0/33)는 다른 포털(주로 Tripadvisor) 값이라 쓰지 않았다. 스냅숏마다 수치가 다르면 리뷰 수가 더 많은(더 최근으로 보이는) 값을 기재하고 다른 값은 rating_source에 남겼다 — 예외: Lost Monk는 4.4/1,199와 4.6/673이 엇갈려 낮은 평점 쪽을 기재. Restaurant Guru의 자체 점수는 구글이 아니라서 수치로 쓰지 않았다(Chicken Land, Pizzeria Piccola Ehrenfeld, Damla Baklava Ehrenfeld, Thai Street Food는 그래서 후보). 주소 메모: Kumpir Haus(벤로어 378)·Ain Café(374)의 우편번호 50825는 출처에 직접 나오지 않아 바로 옆 380번지(nominatim 50825, data/geocode-cache.json)를 기준으로 적었다. 바이덴가세 주소의 50668은 같은 거리 기존 항목(Damla 47, Öz Harran 28–34)과 같다. 이전 라운드 후보에서 올린 곳: Weinhaus Vogel(4.3/1,539), Herbrand's(4.2/3,466), Bumann & SOHN(4.2/1,604), Die Mehlwerkstatt(옛 Zeit für Brot 주소, 4.5/1,939), Pizzeria Made In Napoli(우편번호 50825 확인, 4.7/1,844 — 수치는 이전 라운드 Wanderlog 값이며 이번에 리뷰 1,844건 표시 재확인), Restaurant Fabian(5.0/223 — Wanderlog의 '영구 폐업' 표시와 달리 OpenTable 2026-08-09 리뷰·예약 가능·Mit Vergnügen 2026 수록이라 표시 오류로 판단, 팁에 방문 전 확인 명시), Le Moissonnier Bistro(같은 주소 Wanderlog 'Le Moissonnier' 4.7/705; 2026 미쉐린 1스타는 1차 자료 기준이며 이번엔 재확인 못 해 awards는 비움), Sternhagel(4.4/370). 계속 후보로 둔 곳: Qing Tian(Wanderlog 최신 스냅숏 '임시 휴업'), Försterstube(평점 4.6만 보이고 리뷰 수 없음), Miyu(구글 리뷰 757건·5점 616건이지만 평균이 안 보임 — 추정하지 않음), 1992 Vietnamese Fusion & Sushi(주소 미확인), Sion an der Agneskirche(주소 Neusser Str. 57 확인, 수치 없음), The Coffee Gang 아그네스 지점(Wanderlog 4.8/1,290–1,368이 어느 지점인지 불분명), Cafe Extrablatt Eigelstein(체인, 4.3/1,806, 번지 미확인). 폐업으로 제외: Pak Firini(Weidengasse 42–44), Oskar Jäger deli(Oskar-Jäger-Str. 173), Mangal Burger(Weidengasse 61). 기준 미달: Mangal Döner x Lukas Podolski 3.6/1,379, Mangal Döner 3.1/274. 다른 담당에게 넘길 내 구역 밖 발견: Ngon Ngon 1970s(Hohenstaufenring 15, 50674, 구글 4.4/742, kwartier-lateng), Viet Village(Hohenstaufenring 14, 50674, 4.4/1,221, kwartier-lateng), Café Rotkehlchen Südstadt(4.5/364, 주소 미확인), Café Wohnraum(Neusser Str. 314, 50733, 니페스, 수치 없음), Brauhaus Sion 4.0/7,647·Sion Bräues Traditionsbrauhaus 4.1/509(기준 미달). 대부분 메뉴 가격과 영업시간은 이번 검색으로 확인하지 못해 price_level은 근거가 있을 때만 적었다(빈 값은 import 단계의 카테고리 추정에 맡김)."
 }
