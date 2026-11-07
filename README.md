@@ -14,7 +14,7 @@
 | World's 50 Best Bars & 쾰른 칵테일바 | [`guides/bars-and-worlds-50-best.md`](guides/bars-and-worlds-50-best.md) |
 | 미쉐린 2026 쾰른 | [`guides/fine-dining-michelin-2026.md`](guides/fine-dining-michelin-2026.md) |
 | 독일 화이트와인 가이드 | [`guides/german-white-wine.md`](guides/german-white-wine.md) |
-| 러닝 코스 (프리젠플라츠 출발·도착, 11.3 km / 7.4 km) | [`guides/running-route.md`](guides/running-route.md) · 구글 마이맵 [`routes/koln-running.kml`](routes/koln-running.kml) · GPX [`main`](routes/koln-running-main.gpx) / [`short`](routes/koln-running-short.gpx) |
+| 러닝 코스 6개 + 현지인 인기 스폿 (프리젠플라츠 출발·도착, 5.3–13.3 km) | [`guides/running-route.md`](guides/running-route.md) · 구글 마이맵 [`routes/koln-running.kml`](routes/koln-running.kml) · GPX 코스별 `routes/koln-running-*.gpx` |
 | 표: 지역별 · 나라·문화권별 · 요리별 · 가격대별 · 바 · 관광지 · 메쎄 근처 · 대성당 근처 · 후보 | [`guides/tables/`](guides/tables/) |
 
 터미널에서도 바로 필터링할 수 있습니다. 한 옵션 안의 값은 OR, 옵션끼리는 AND입니다.

@@ -118,7 +118,9 @@ def main() -> int:
     OUT.mkdir(exist_ok=True)
     viewer, features, kml_folders = [], [], []
     for rt in spec["routes"]:
-        seq = [dict(stops[k], id=k) for k in rt["order"]]
+        seq = []
+        for k in rt["order"]:  # a [lat, lng] entry is a hidden via point that only shapes the path
+            seq.append({"id": None, "lat": k[0], "lng": k[1], "hidden": True} if isinstance(k, list) else dict(stops[k], id=k))
         r = fetch([(s["lat"], s["lng"]) for s in seq])
         time.sleep(1.5)
         geom = [[c[1], c[0]] for c in r["geometry"]["coordinates"]]  # -> [lat, lng]
@@ -137,12 +139,16 @@ def main() -> int:
         for leg in r["legs"]:
             km += leg["distance"]
             legs.append(round(km / 1000, 2))
-        route_stops = []
-        for n, s in enumerate(seq):
-            route_stops.append({"n": n, "id": s["id"], "name_ko": s["name_ko"], "name": s["name"], "type": s["type"],
+        route_stops, n_vis = [], 0
+        for i, s in enumerate(seq):
+            if s.get("hidden"):
+                continue
+            route_stops.append({"n": n_vis, "id": s["id"], "name_ko": s["name_ko"], "name": s["name"], "type": s["type"],
                                 "desc_ko": s["desc_ko"], "attraction_id": s.get("attraction_id"),
-                                "lat": s["lat"], "lng": s["lng"], "km": 0.0 if n == 0 else legs[n - 1]})
+                                "lat": s["lat"], "lng": s["lng"], "km": 0.0 if i == 0 else legs[i - 1]})
+            n_vis += 1
         viewer.append({"id": rt["id"], "name_ko": rt["name_ko"], "color": rt["color"],
+                       **{k: rt.get(k) for k in ("label_ko", "token", "tags", "surface_ko", "best_ko", "local_ko", "sources")},
                        "distance_km": round(total / 1000, 2), "router_km": round(r["distance"] / 1000, 2),
                        "stops": route_stops, "km_markers": markers,
                        "path": [[round(p[0], 6), round(p[1], 6)] for p in simplify(geom)],
@@ -209,7 +215,8 @@ def main() -> int:
     save_json(DATA / "routes.json", {"meta": {"source": "OpenStreetMap foot routing (routing.openstreetmap.de)",
                                               "attribution": "© OpenStreetMap contributors (ODbL)",
                                               "sun": "NOAA approximation for Köln (CET)"},
-                                     "rhine": spec.get("rhine", []), "sun": sun, "routes": viewer})
+                                     "rhine": spec.get("rhine", []), "sun": sun, "routes": viewer,
+                                     "local_spots": spec.get("local_spots", [])})
     return 0
 
 

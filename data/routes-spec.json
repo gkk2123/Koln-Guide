@@ -146,6 +146,123 @@
    "attraction_id": "st-aposteln",
    "lat": 50.936606,
    "lng": 6.944993
+  },
+  "aachener-weiher": {
+   "name_ko": "아헨 바이어",
+   "name": "Aachener Weiher",
+   "type": "공원·호수",
+   "desc_ko": "약 200×200m 인공 호수와 잔디밭. 매주 토요일 9시 무료 parkrun(5km)이 여기서 열려요(사전 등록 필요).",
+   "attraction_id": null,
+   "lat": 50.935256,
+   "lng": 6.927625
+  },
+  "herkulesberg": {
+   "name_ko": "헤르쿨레스베르크",
+   "name": "Herkulesberg",
+   "type": "언덕",
+   "desc_ko": "이너 그린벨트 북쪽의 작은 언덕. 코스의 유일한 오르막이에요.",
+   "attraction_id": null,
+   "lat": 50.950369,
+   "lng": 6.939849
+  },
+  "stadtgarten": {
+   "name_ko": "슈타트가르텐",
+   "name": "Stadtgarten",
+   "type": "공원",
+   "desc_ko": "벨기에 지구 북쪽 공원. 여기서 출발점까지 금방이에요.",
+   "attraction_id": null,
+   "lat": 50.944497,
+   "lng": 6.936937
+  },
+  "clarenbachkanal": {
+   "name_ko": "클라렌바흐 운하",
+   "name": "Clarenbachkanal",
+   "type": "운하 산책로",
+   "desc_ko": "아헨 바이어 서쪽으로 이어지는 가로수 운하 길.",
+   "attraction_id": null,
+   "lat": 50.935261,
+   "lng": 6.920736
+  },
+  "rautenstrauchkanal": {
+   "name_ko": "라우텐슈트라우흐 운하",
+   "name": "Rautenstrauchkanal",
+   "type": "운하 산책로",
+   "desc_ko": "린덴탈 주택가 사이 운하. 이 길 끝이 시립 숲 스타트발트예요.",
+   "attraction_id": null,
+   "lat": 50.93344,
+   "lng": 6.914308
+  },
+  "kahnweiher": {
+   "name_ko": "칸바이어",
+   "name": "Kahnweiher (Stadtwald)",
+   "type": "숲·호수",
+   "desc_ko": "스타트발트 안의 호수. 숲길이 사방으로 이어져요.",
+   "attraction_id": null,
+   "lat": 50.929646,
+   "lng": 6.903105
+  },
+  "adenauerweiher": {
+   "name_ko": "아데나워 바이어",
+   "name": "Adenauerweiher",
+   "type": "숲·호수",
+   "desc_ko": "스타트발트 서쪽 호수. 여기서 숲 남쪽 길로 돌아와요.",
+   "attraction_id": null,
+   "lat": 50.929137,
+   "lng": 6.879013
+  },
+  "tanzbrunnen": {
+   "name_ko": "라인파크 (탄츠브루넨)",
+   "name": "Rheinpark / Tanzbrunnen",
+   "type": "강변 공원",
+   "desc_ko": "대성당이 보이는 넓은 강변 공원. 북쪽으로 강변길이 이어져요.",
+   "attraction_id": null,
+   "lat": 50.946413,
+   "lng": 6.971834
+  },
+  "muelheimer-bruecke": {
+   "name_ko": "뮐하임 다리",
+   "name": "Mülheimer Brücke",
+   "type": "다리",
+   "desc_ko": "북쪽 반환점. 다리 보행로로 강 서쪽으로 건너요.",
+   "attraction_id": null,
+   "lat": 50.964784,
+   "lng": 6.993835
+  },
+  "skulpturenpark": {
+   "name_ko": "조각공원 옆 강변길",
+   "name": "Skulpturenpark Köln",
+   "type": "강변 산책로",
+   "desc_ko": "동물원 다리(Zoobrücke) 옆. 왼쪽 강변길을 따라 대성당 쪽으로 내려와요.",
+   "attraction_id": null,
+   "lat": 50.955524,
+   "lng": 6.970928
+  },
+  "bayenturm": {
+   "name_ko": "바이엔 탑",
+   "name": "Bayenturm",
+   "type": "중세 성탑",
+   "desc_ko": "라인아우하펜 남쪽 끝의 중세 성곽 탑.",
+   "attraction_id": null,
+   "lat": 50.923743,
+   "lng": 6.96701
+  },
+  "suedbruecke": {
+   "name_ko": "쥐트 다리",
+   "name": "Südbrücke",
+   "type": "다리",
+   "desc_ko": "철교 옆 보행로로 강을 건너 폴러 비젠으로 가요(돌아올 때도 이 다리).",
+   "attraction_id": null,
+   "lat": 50.917999,
+   "lng": 6.976813
+  },
+  "poller-wiesen": {
+   "name_ko": "폴러 비젠 (반환점)",
+   "name": "Poller Wiesen",
+   "type": "강변 초원",
+   "desc_ko": "넓은 강변 초원 사이 포장 강변길. 가끔 양이 풀을 뜯어요. 여기서 되돌아가요.",
+   "attraction_id": null,
+   "lat": 50.9085,
+   "lng": 6.9865
   }
  },
  "routes": [
@@ -170,7 +287,18 @@
     "hahnentorburg",
     "friesenplatz"
    ],
-   "color": "C30F2B"
+   "color": "C30F2B",
+   "label_ko": "도심 관광",
+   "token": "accent",
+   "tags": [
+    "관광지 14곳",
+    "다리 2개",
+    "포장길"
+   ],
+   "surface_ko": "포장길, 구시가 일부 돌길",
+   "best_ko": "이른 아침(다리·대성당 앞이 한산)",
+   "local_ko": "처음 온 사람용 관광 루프예요. 현지인이 즐겨 뛰는 구간(라인강 산책로·라인아우하펜)이 절반쯤 들어 있어요.",
+   "sources": []
   },
   {
    "id": "short",
@@ -188,7 +316,184 @@
     "st-aposteln",
     "friesenplatz"
    ],
-   "color": "1F6FB2"
+   "color": "1F6FB2",
+   "label_ko": "짧은 도심",
+   "token": "route2",
+   "tags": [
+    "관광지 9곳",
+    "다리 2개"
+   ],
+   "surface_ko": "포장길, 구시가 일부 돌길",
+   "best_ko": "이른 아침",
+   "local_ko": "메인 코스의 대성당·라인강 다리 구간만 짧게.",
+   "sources": []
+  },
+  {
+   "id": "greenbelt",
+   "name_ko": "그린벨트 이지런 — 아헨 바이어·이너 그린벨트·헤르쿨레스베르크",
+   "label_ko": "그린벨트",
+   "token": "c-sight",
+   "color": "1F7A4D",
+   "tags": [
+    "현지인 인기",
+    "공원",
+    "토요일 parkrun"
+   ],
+   "surface_ko": "공원 흙·포장 길",
+   "best_ko": "토요일 9시 parkrun에 맞춰 가거나 회복 런",
+   "local_ko": "이너 그린벨트는 라인강에서 룩셈부르크 거리까지 약 7km 이어지는 공원 띠이고, 아헨 바이어는 현지 매체가 꼽는 대표 러닝 스폿이에요. 매주 토요일 9시 아헨 바이어 parkrun(5km, 무료, 사전 등록)이 열려요.",
+   "sources": [
+    "https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/parks/innerer-gruenguertel",
+    "https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/parks/aachener-weiher",
+    "https://koeln.mitvergnuegen.com/2024/laufstrecken/",
+    "https://rausgegangen.de/en/events/aachener-weiher-parkrun-71/"
+   ],
+   "order": [
+    "friesenplatz",
+    "aachener-weiher",
+    "herkulesberg",
+    "stadtgarten",
+    "friesenplatz"
+   ]
+  },
+  {
+   "id": "stadtwald",
+   "name_ko": "운하·숲 루프 — 클라렌바흐 운하·스타트발트·아데나워 바이어",
+   "label_ko": "운하·숲",
+   "token": "c-cafe",
+   "color": "8A5A2B",
+   "tags": [
+    "현지인 인기",
+    "숲길",
+    "그늘"
+   ],
+   "surface_ko": "운하 산책로·숲길(흙), 짧은 도로 구간",
+   "best_ko": "주말 롱런, 맑은 오후",
+   "local_ko": "코무트 기준 NRW에서 가장 많이 뛰는 러닝 루트가 대성당–클라렌바흐 운하 코스(19.8km)이고, 스타트발트(칸바이어–라우텐슈트라우흐 운하, 9.8km)도 인기 코스예요. 이 코스는 둘을 프리젠플라츠 기준으로 묶었어요.",
+   "sources": [
+    "https://www.komoot.com/guide/91237/running-trails-in-cologne",
+    "https://koeln.mitvergnuegen.com/2021/11-schattige-laufstrecken/",
+    "https://koeln.mitvergnuegen.com/2024/laufstrecken/"
+   ],
+   "order": [
+    "friesenplatz",
+    "aachener-weiher",
+    "clarenbachkanal",
+    "rautenstrauchkanal",
+    [
+     50.9334,
+     6.91
+    ],
+    "kahnweiher",
+    [
+     50.9335,
+     6.895
+    ],
+    "adenauerweiher",
+    [
+     50.9258,
+     6.8925
+    ],
+    [
+     50.929646,
+     6.903105
+    ],
+    [
+     50.9334,
+     6.91
+    ],
+    [
+     50.93344,
+     6.914308
+    ],
+    [
+     50.935261,
+     6.920736
+    ],
+    [
+     50.935256,
+     6.927625
+    ],
+    "friesenplatz"
+   ]
+  },
+  {
+   "id": "rhine-north",
+   "name_ko": "라인 북쪽 다리 루프 — 호엔촐레른 다리·라인파크·뮐하임 다리",
+   "label_ko": "북쪽 다리",
+   "token": "c-bar",
+   "color": "6B3FA0",
+   "tags": [
+    "현지인 클래식",
+    "강변",
+    "다리 2개"
+   ],
+   "surface_ko": "강변 포장길",
+   "best_ko": "해 질 녘(대성당 쪽 강변 풍경)",
+   "local_ko": "현지 매체가 소개하는 뮐하임 다리–호엔촐레른 다리 약 9km 강변 루프에 프리젠플라츠 왕복을 더했어요. 라인파크 강변길이 핵심이에요.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/laufstrecken/",
+    "https://www.komoot.com/guide/91237/running-trails-in-cologne"
+   ],
+   "order": [
+    "friesenplatz",
+    "dom",
+    "hohenzollern",
+    "tanzbrunnen",
+    [
+     50.953492,
+     6.983249
+    ],
+    "muelheimer-bruecke",
+    [
+     50.957094,
+     6.975687
+    ],
+    "skulpturenpark",
+    [
+     50.949695,
+     6.966062
+    ],
+    [
+     50.941303,
+     6.958138
+    ],
+    "friesenplatz"
+   ]
+  },
+  {
+   "id": "rhine-south",
+   "name_ko": "쥐트 다리·폴러 비젠 — 바이엔 탑·폴러 비젠·라인아우하펜",
+   "label_ko": "폴러 비젠",
+   "token": "c-beer",
+   "color": "B07A00",
+   "tags": [
+    "강변",
+    "초원",
+    "다리"
+   ],
+   "surface_ko": "강변 포장길, 초원 사이 포장로",
+   "best_ko": "바람 없는 날, 아침",
+   "local_ko": "오른쪽 강변의 폴러 비젠은 넓은 초원 사이로 포장된 강변길이 이어져 거리를 자유롭게 늘리기 좋은 곳이에요. 돌아오는 길은 라인아우하펜 산책로예요.",
+   "sources": [
+    "https://willkommen.koelntourismus.de/en/poi/poller-wiesen",
+    "https://www.stadt-koeln.de/artikel/05216/index.html",
+    "https://greatruns.com/?p=16016"
+   ],
+   "order": [
+    "friesenplatz",
+    "severinstorburg",
+    "bayenturm",
+    "suedbruecke",
+    "poller-wiesen",
+    [
+     50.917999,
+     6.976813
+    ],
+    "kranhaeuser",
+    "schokoladenmuseum",
+    "friesenplatz"
+   ]
   }
  ],
  "rhine": [
@@ -220,5 +525,38 @@
    50.899807,
    6.990679
   ]
+ ],
+ "local_spots": [
+  {
+   "name_ko": "데크슈타이너 바이어",
+   "name": "Decksteiner Weiher",
+   "note_ko": "길쭉한 호수와 숲길. 현지 러너들의 단골 장소로, 출발 지점에 따라 5.7–9.8km 루프가 소개돼요. 트램·택시로 가서 호수 둘레를 도는 걸 추천해요(이번 코스 파일에는 넣지 않았어요).",
+   "lat": 50.911145,
+   "lng": 6.891465,
+   "sources": [
+    "https://www.komoot.com/guide/193079/running-trails-around-decksteiner-weiher",
+    "https://koeln.mitvergnuegen.com/2024/laufstrecken/"
+   ]
+  },
+  {
+   "name_ko": "라인강 남쪽 큰 루프",
+   "name": "Deutzer Brücke – Rodenkirchener Brücke",
+   "note_ko": "도이츠 다리에서 왼쪽 강변을 따라 로덴키르헨 다리까지 내려가 건너고, 오른쪽 강변으로 돌아오는 약 11.5km 루프.",
+   "lat": 50.8998,
+   "lng": 6.9907,
+   "sources": [
+    "https://greatruns.com/?p=16016"
+   ]
+  },
+  {
+   "name_ko": "아헨 바이어 parkrun",
+   "name": "Aachener Weiher parkrun",
+   "note_ko": "매주 토요일 9:00, 5km, 무료. parkrun.de에서 한 번 등록하고 바코드를 가져가요.",
+   "lat": 50.935256,
+   "lng": 6.927625,
+   "sources": [
+    "https://rausgegangen.de/en/events/aachener-weiher-parkrun-71/"
+   ]
+  }
  ]
 }

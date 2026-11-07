@@ -1,16 +1,40 @@
-# 쾰른 러닝 코스 — 프리젠플라츠 출발·도착
+# 쾰른 러닝 코스 — 현지인 인기 스폿 + 코스 6개
 
-> 경로는 OpenStreetMap 보행 경로(routing.openstreetmap.de)로 계산한 실제 길입니다. 데이터 © OpenStreetMap 기여자(ODbL).
-> 웹 뷰어의 **러닝** 탭에서 지도와 함께 볼 수 있어요. 출발·도착은 U-Bahn 프리젠플라츠역 앞 광장입니다.
+> 모든 코스는 U-Bahn 프리젠플라츠역 앞 광장에서 출발·도착합니다. 경로는 OpenStreetMap 보행 경로(routing.openstreetmap.de)로 계산한 실제 길이에요. 데이터 © OpenStreetMap 기여자(ODbL).
+> 웹 뷰어 **러닝** 탭에서 지도로 비교해 볼 수 있어요. 조사일 2026-11-07.
 
-## 코스 한눈에
+## 쾰른 현지인들이 뛰는 곳 (조사 요약)
 
-| 코스 | 거리 | 경유 관광지 | 5분30초/km | 6분30초/km |
-|---|---|---|---|---|
-| 메인 루프 — 대성당·라인강 양안·라인아우하펜·쥐트슈타트 | **11.3 km** | 14곳 | 1시간 2분 | 1시간 14분 |
-| 짧은 루프 — 대성당·라인강 다리 두 개·구시가 | **7.4 km** | 9곳 | 41분 | 48분 |
+| 스폿 | 왜 인기인가 | 출처 |
+|---|---|---|
+| 라인강 다리 루프 | 강 양쪽 산책로를 다리로 잇는 클래식 코스. 뮐하임 다리–호엔촐레른 다리 약 9km 루프, 도이츠 다리–로덴키르헨 다리 약 11.5km 남쪽 루프 등 | [Mit Vergnügen](https://koeln.mitvergnuegen.com/2024/laufstrecken/) · [greatruns](https://greatruns.com/?p=16016) |
+| 이너 그린벨트·아헨 바이어 | 라인강에서 룩셈부르크 거리까지 약 7km 이어지는 공원 띠. 아헨 바이어(약 200×200m 호수)는 대표 출발점이고, 매주 토요일 9시 무료 parkrun(5km)이 열려요 | [Stadt Köln](https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/parks/innerer-gruenguertel) · [parkrun 일정](https://rausgegangen.de/en/events/aachener-weiher-parkrun-71/) |
+| 운하·스타트발트 | 코무트 기준 NRW에서 가장 많이 뛰는 러닝 루트가 대성당–클라렌바흐 운하 코스(19.8km). 스타트발트(칸바이어–라우텐슈트라우흐 운하, 9.8km)도 인기, 여름엔 그늘 코스로 추천 | [Komoot](https://www.komoot.com/guide/91237/running-trails-in-cologne) · [Mit Vergnügen 그늘 코스](https://koeln.mitvergnuegen.com/2021/11-schattige-laufstrecken/) |
+| 데크슈타이너 바이어 | 길쭉한 호수와 숲길, 출발 지점에 따라 5.7–9.8km 루프 | [Komoot](https://www.komoot.com/guide/193079/running-trails-around-decksteiner-weiher) |
+| 폴러 비젠 | 오른쪽 강변의 넓은 초원과 포장 강변길, 갈림길이 많아 거리 조절이 쉬움. 가끔 양이 풀을 뜯어요 | [Köln Tourismus](https://willkommen.koelntourismus.de/en/poi/poller-wiesen) · [Stadt Köln](https://www.stadt-koeln.de/artikel/05216/index.html) |
+| 라인파크 | 도이츠의 넓은 강변 공원, 대성당 전망 | [Mit Vergnügen](https://koeln.mitvergnuegen.com/2024/laufstrecken/) |
 
-## 메인 루프 — 대성당·라인강 양안·라인아우하펜·쥐트슈타트 — 11.3 km
+참고: 도이츠 항구의 회전 다리(Deutzer Drehbrücke)는 보수 후 보행자 통행이 가능하다고 시가 밝혔지만, 경로 데이터에서는 연결이 확인되지 않아 이번 코스에서는 지나지 않게 짰어요. [Stadt Köln](https://www.stadt-koeln.de/politik-und-verwaltung/presseservice/deutzer-drehbruecke)
+
+## 코스 6개 한눈에
+
+| 코스 | 거리 | 성격 | 노면 | 5분30초/km | 6분30초/km |
+|---|---|---|---|---|---|
+| **도심 관광** | 11.3 km | 관광지 14곳 · 다리 2개 · 포장길 | 포장길, 구시가 일부 돌길 | 1시간 2분 | 1시간 14분 |
+| **짧은 도심** | 7.4 km | 관광지 9곳 · 다리 2개 | 포장길, 구시가 일부 돌길 | 41분 | 48분 |
+| **그린벨트** | 5.3 km | 현지인 인기 · 공원 · 토요일 parkrun | 공원 흙·포장 길 | 29분 | 34분 |
+| **운하·숲** | 13.0 km | 현지인 인기 · 숲길 · 그늘 | 운하 산책로·숲길(흙), 짧은 도로 구간 | 1시간 12분 | 1시간 25분 |
+| **북쪽 다리** | 13.3 km | 현지인 클래식 · 강변 · 다리 2개 | 강변 포장길 | 1시간 13분 | 1시간 27분 |
+| **폴러 비젠** | 13.3 km | 강변 · 초원 · 다리 | 강변 포장길, 초원 사이 포장로 | 1시간 13분 | 1시간 27분 |
+
+고르는 법: 회복·짧게 → **그린벨트**(5.3km) · 관광 겸 → **도심 관광**(11.3km)·**짧은 도심**(7.4km) · 현지인처럼 강변 → **북쪽 다리**(13.3km)·**폴러 비젠**(13.3km) · 숲·그늘 롱런 → **운하·숲**(13.0km)
+
+## 도심 관광 — 11.3 km
+
+메인 루프 — 대성당·라인강 양안·라인아우하펜·쥐트슈타트.
+
+**현지인 이야기** — 처음 온 사람용 관광 루프예요. 현지인이 즐겨 뛰는 구간(라인강 산책로·라인아우하펜)이 절반쯤 들어 있어요.
+**노면** 포장길, 구시가 일부 돌길 · **추천 시간** 이른 아침(다리·대성당 앞이 한산)
 
 | # | km | 장소 | 종류 | 메모 |
 |---|---|---|---|---|
@@ -31,10 +55,14 @@
 | 14 | 10.8 | 하넨 성문 (Hahnentorburg) | 중세 성문 | 루돌프 광장의 중세 성문. 여기서 링을 따라 출발점으로 돌아가요. |
 | S | 11.3 | 프리젠플라츠 (Friesenplatz) | 도착 | |
 
-**구글 지도 길찾기(도보)**: [구간 1: 프리젠플라츠 → 초콜릿 박물관](https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=50.940569,6.939968&destination=50.931983,6.964436&waypoints=50.942741,6.946121%7C50.941303,6.958138%7C50.940966,6.960888%7C50.941318,6.965704%7C50.940385,6.971802%7C50.9386,6.9682%7C50.936406,6.966189%7C50.939183,6.960041%7C50.93831,6.961369) · [구간 2: 초콜릿 박물관 → 프리젠플라츠](https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=50.931983,6.964436&destination=50.940569,6.939968&waypoints=50.926309,6.965745%7C50.921706,6.959647%7C50.920035,6.953636%7C50.936269,6.94006)
-구글 지도 길찾기 링크는 경유지가 9곳까지라 두 구간으로 나눴어요. 구글이 고르는 길은 이 코스와 조금 다를 수 있어요.
+**구글 지도 길찾기(도보)**: [구간 1](https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=50.940569,6.939968&destination=50.931983,6.964436&waypoints=50.942741,6.946121%7C50.941303,6.958138%7C50.940966,6.960888%7C50.941318,6.965704%7C50.940385,6.971802%7C50.9386,6.9682%7C50.936406,6.966189%7C50.939183,6.960041%7C50.93831,6.961369) · [구간 2](https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=50.931983,6.964436&destination=50.940569,6.939968&waypoints=50.926309,6.965745%7C50.921706,6.959647%7C50.920035,6.953636%7C50.936269,6.94006) — 구글이 고르는 길은 코스와 조금 다를 수 있어요.
 
-## 짧은 루프 — 대성당·라인강 다리 두 개·구시가 — 7.4 km
+## 짧은 도심 — 7.4 km
+
+짧은 루프 — 대성당·라인강 다리 두 개·구시가.
+
+**현지인 이야기** — 메인 코스의 대성당·라인강 다리 구간만 짧게.
+**노면** 포장길, 구시가 일부 돌길 · **추천 시간** 이른 아침
 
 | # | km | 장소 | 종류 | 메모 |
 |---|---|---|---|---|
@@ -50,24 +78,102 @@
 | 9 | 6.5 | 장크트 아포스텔른 성당 (St. Aposteln) | 로마네스크 성당 | 노이마르크트 광장 서쪽 끝의 로마네스크 성당. |
 | S | 7.4 | 프리젠플라츠 (Friesenplatz) | 도착 | |
 
-**구글 지도 길찾기(도보)**: [전체: 프리젠플라츠 → 프리젠플라츠](https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=50.940569,6.939968&destination=50.940569,6.939968&waypoints=50.942741,6.946121%7C50.941303,6.958138%7C50.941318,6.965704%7C50.940385,6.971802%7C50.9386,6.9682%7C50.936406,6.966189%7C50.93831,6.961369%7C50.939183,6.960041%7C50.936606,6.944993)
+**구글 지도 길찾기(도보)**: [열기](https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=50.940569,6.939968&destination=50.940569,6.939968&waypoints=50.942741,6.946121%7C50.941303,6.958138%7C50.941318,6.965704%7C50.940385,6.971802%7C50.9386,6.9682%7C50.936406,6.966189%7C50.93831,6.961369%7C50.939183,6.960041%7C50.936606,6.944993) — 구글이 고르는 길은 코스와 조금 다를 수 있어요.
+
+## 그린벨트 — 5.3 km
+
+그린벨트 이지런 — 아헨 바이어·이너 그린벨트·헤르쿨레스베르크.
+
+**현지인 이야기** — 이너 그린벨트는 라인강에서 룩셈부르크 거리까지 약 7km 이어지는 공원 띠이고, 아헨 바이어는 현지 매체가 꼽는 대표 러닝 스폿이에요. 매주 토요일 9시 아헨 바이어 parkrun(5km, 무료, 사전 등록)이 열려요. [출처1](https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/parks/innerer-gruenguertel) · [출처2](https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/parks/aachener-weiher) · [출처3](https://koeln.mitvergnuegen.com/2024/laufstrecken/) · [출처4](https://rausgegangen.de/en/events/aachener-weiher-parkrun-71/)
+**노면** 공원 흙·포장 길 · **추천 시간** 토요일 9시 parkrun에 맞춰 가거나 회복 런
+
+| # | km | 장소 | 종류 | 메모 |
+|---|---|---|---|---|
+| S | 0.0 | 프리젠플라츠 (Friesenplatz) | 출발 | U-Bahn 프리젠플라츠역 앞 광장. 링(Ring) 북쪽 구간의 교차로라 찾기 쉬워요. |
+| 1 | 1.4 | 아헨 바이어 (Aachener Weiher) | 공원·호수 | 약 200×200m 인공 호수와 잔디밭. 매주 토요일 9시 무료 parkrun(5km)이 여기서 열려요(사전 등록 필요). |
+| 2 | 3.7 | 헤르쿨레스베르크 (Herkulesberg) | 언덕 | 이너 그린벨트 북쪽의 작은 언덕. 코스의 유일한 오르막이에요. |
+| 3 | 4.6 | 슈타트가르텐 (Stadtgarten) | 공원 | 벨기에 지구 북쪽 공원. 여기서 출발점까지 금방이에요. |
+| S | 5.3 | 프리젠플라츠 (Friesenplatz) | 도착 | |
+
+**구글 지도 길찾기(도보)**: [열기](https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=50.940569,6.939968&destination=50.940569,6.939968&waypoints=50.935256,6.927625%7C50.950369,6.939849%7C50.944497,6.936937) — 구글이 고르는 길은 코스와 조금 다를 수 있어요.
+
+## 운하·숲 — 13.0 km
+
+운하·숲 루프 — 클라렌바흐 운하·스타트발트·아데나워 바이어.
+
+**현지인 이야기** — 코무트 기준 NRW에서 가장 많이 뛰는 러닝 루트가 대성당–클라렌바흐 운하 코스(19.8km)이고, 스타트발트(칸바이어–라우텐슈트라우흐 운하, 9.8km)도 인기 코스예요. 이 코스는 둘을 프리젠플라츠 기준으로 묶었어요. [출처1](https://www.komoot.com/guide/91237/running-trails-in-cologne) · [출처2](https://koeln.mitvergnuegen.com/2021/11-schattige-laufstrecken/) · [출처3](https://koeln.mitvergnuegen.com/2024/laufstrecken/)
+**노면** 운하 산책로·숲길(흙), 짧은 도로 구간 · **추천 시간** 주말 롱런, 맑은 오후
+
+| # | km | 장소 | 종류 | 메모 |
+|---|---|---|---|---|
+| S | 0.0 | 프리젠플라츠 (Friesenplatz) | 출발 | U-Bahn 프리젠플라츠역 앞 광장. 링(Ring) 북쪽 구간의 교차로라 찾기 쉬워요. |
+| 1 | 1.4 | 아헨 바이어 (Aachener Weiher) | 공원·호수 | 약 200×200m 인공 호수와 잔디밭. 매주 토요일 9시 무료 parkrun(5km)이 여기서 열려요(사전 등록 필요). |
+| 2 | 2.2 | 클라렌바흐 운하 (Clarenbachkanal) | 운하 산책로 | 아헨 바이어 서쪽으로 이어지는 가로수 운하 길. |
+| 3 | 2.8 | 라우텐슈트라우흐 운하 (Rautenstrauchkanal) | 운하 산책로 | 린덴탈 주택가 사이 운하. 이 길 끝이 시립 숲 스타트발트예요. |
+| 4 | 4.0 | 칸바이어 (Kahnweiher (Stadtwald)) | 숲·호수 | 스타트발트 안의 호수. 숲길이 사방으로 이어져요. |
+| 5 | 6.4 | 아데나워 바이어 (Adenauerweiher) | 숲·호수 | 스타트발트 서쪽 호수. 여기서 숲 남쪽 길로 돌아와요. |
+| S | 13.0 | 프리젠플라츠 (Friesenplatz) | 도착 | |
+
+**구글 지도 길찾기(도보)**: [열기](https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=50.940569,6.939968&destination=50.940569,6.939968&waypoints=50.935256,6.927625%7C50.935261,6.920736%7C50.93344,6.914308%7C50.929646,6.903105%7C50.929137,6.879013) — 구글이 고르는 길은 코스와 조금 다를 수 있어요.
+
+## 북쪽 다리 — 13.3 km
+
+라인 북쪽 다리 루프 — 호엔촐레른 다리·라인파크·뮐하임 다리.
+
+**현지인 이야기** — 현지 매체가 소개하는 뮐하임 다리–호엔촐레른 다리 약 9km 강변 루프에 프리젠플라츠 왕복을 더했어요. 라인파크 강변길이 핵심이에요. [출처1](https://koeln.mitvergnuegen.com/2024/laufstrecken/) · [출처2](https://www.komoot.com/guide/91237/running-trails-in-cologne)
+**노면** 강변 포장길 · **추천 시간** 해 질 녘(대성당 쪽 강변 풍경)
+
+| # | km | 장소 | 종류 | 메모 |
+|---|---|---|---|---|
+| S | 0.0 | 프리젠플라츠 (Friesenplatz) | 출발 | U-Bahn 프리젠플라츠역 앞 광장. 링(Ring) 북쪽 구간의 교차로라 찾기 쉬워요. |
+| 1 | 1.5 | 쾰른 대성당 (Kölner Dom) | 랜드마크·유네스코 | 대성당 앞 광장(Domplatte)을 지나요. 11/16부터는 남쪽 로마 광장에 크리스마스 마켓이 서요(11시 개장). |
+| 2 | 2.1 | 호엔촐레른 다리 (Hohenzollernbrücke) | 다리·포토스팟 | 사랑의 자물쇠가 걸린 철교 보행로로 라인강을 건너요. 낮엔 붐비니 아침이 편해요. |
+| 3 | 3.1 | 라인파크 (탄츠브루넨) (Rheinpark / Tanzbrunnen) | 강변 공원 | 대성당이 보이는 넓은 강변 공원. 북쪽으로 강변길이 이어져요. |
+| 4 | 7.4 | 뮐하임 다리 (Mülheimer Brücke) | 다리 | 북쪽 반환점. 다리 보행로로 강 서쪽으로 건너요. |
+| 5 | 9.7 | 조각공원 옆 강변길 (Skulpturenpark Köln) | 강변 산책로 | 동물원 다리(Zoobrücke) 옆. 왼쪽 강변길을 따라 대성당 쪽으로 내려와요. |
+| S | 13.3 | 프리젠플라츠 (Friesenplatz) | 도착 | |
+
+**구글 지도 길찾기(도보)**: [열기](https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=50.940569,6.939968&destination=50.940569,6.939968&waypoints=50.941303,6.958138%7C50.941318,6.965704%7C50.946413,6.971834%7C50.964784,6.993835%7C50.955524,6.970928) — 구글이 고르는 길은 코스와 조금 다를 수 있어요.
+
+## 폴러 비젠 — 13.3 km
+
+쥐트 다리·폴러 비젠 — 바이엔 탑·폴러 비젠·라인아우하펜.
+
+**현지인 이야기** — 오른쪽 강변의 폴러 비젠은 넓은 초원 사이로 포장된 강변길이 이어져 거리를 자유롭게 늘리기 좋은 곳이에요. 돌아오는 길은 라인아우하펜 산책로예요. [출처1](https://willkommen.koelntourismus.de/en/poi/poller-wiesen) · [출처2](https://www.stadt-koeln.de/artikel/05216/index.html) · [출처3](https://greatruns.com/?p=16016)
+**노면** 강변 포장길, 초원 사이 포장로 · **추천 시간** 바람 없는 날, 아침
+
+| # | km | 장소 | 종류 | 메모 |
+|---|---|---|---|---|
+| S | 0.0 | 프리젠플라츠 (Friesenplatz) | 출발 | U-Bahn 프리젠플라츠역 앞 광장. 링(Ring) 북쪽 구간의 교차로라 찾기 쉬워요. |
+| 1 | 2.9 | 세버린 성문 (Severinstorburg) | 중세 성문 | 쥐트슈타트 클로트비히 광장의 중세 성문. |
+| 2 | 3.8 | 바이엔 탑 (Bayenturm) | 중세 성탑 | 라인아우하펜 남쪽 끝의 중세 성곽 탑. |
+| 3 | 5.2 | 쥐트 다리 (Südbrücke) | 다리 | 철교 옆 보행로로 강을 건너 폴러 비젠으로 가요(돌아올 때도 이 다리). |
+| 4 | 6.6 | 폴러 비젠 (반환점) (Poller Wiesen) | 강변 초원 | 넓은 강변 초원 사이 포장 강변길. 가끔 양이 풀을 뜯어요. 여기서 되돌아가요. |
+| 5 | 9.8 | 크란하우스 (Kranhäuser) | 현대 건축 | 옛 항구 크레인 모양의 거꾸로 L자 빌딩 세 동. 차 없는 강변길이 이어져요. |
+| 6 | 10.5 | 초콜릿 박물관 (Schokoladenmuseum) | 박물관(외관) | 라인아우하펜 끝의 유리 건물. 박물관은 10시에 열어요. |
+| S | 13.3 | 프리젠플라츠 (Friesenplatz) | 도착 | |
+
+**구글 지도 길찾기(도보)**: [열기](https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=50.940569,6.939968&destination=50.940569,6.939968&waypoints=50.921706,6.959647%7C50.923743,6.96701%7C50.917999,6.976813%7C50.9085,6.9865%7C50.926309,6.965745%7C50.931983,6.964436) — 구글이 고르는 길은 코스와 조금 다를 수 있어요.
+
+## 코스 밖 추천
+
+- **데크슈타이너 바이어** (Decksteiner Weiher) — 길쭉한 호수와 숲길. 현지 러너들의 단골 장소로, 출발 지점에 따라 5.7–9.8km 루프가 소개돼요. 트램·택시로 가서 호수 둘레를 도는 걸 추천해요(이번 코스 파일에는 넣지 않았어요). [출처](https://www.komoot.com/guide/193079/running-trails-around-decksteiner-weiher) · [출처](https://koeln.mitvergnuegen.com/2024/laufstrecken/)
+- **라인강 남쪽 큰 루프** (Deutzer Brücke – Rodenkirchener Brücke) — 도이츠 다리에서 왼쪽 강변을 따라 로덴키르헨 다리까지 내려가 건너고, 오른쪽 강변으로 돌아오는 약 11.5km 루프. [출처](https://greatruns.com/?p=16016)
+- **아헨 바이어 parkrun** (Aachener Weiher parkrun) — 매주 토요일 9:00, 5km, 무료. parkrun.de에서 한 번 등록하고 바코드를 가져가요. [출처](https://rausgegangen.de/en/events/aachener-weiher-parkrun-71/)
 
 ## 파일
 
 | 파일 | 용도 |
 |---|---|
-| [`routes/koln-running.kml`](../routes/koln-running.kml) | 구글 마이맵: [mymaps.google.com](https://mymaps.google.com) → 새 지도 만들기 → 가져오기 → 이 파일. 두 코스가 레이어로 들어가고, 휴대폰 구글 지도 앱의 "저장됨 → 지도"에서도 보여요 |
-| [`routes/koln-running-main.gpx`](../routes/koln-running-main.gpx) · [`-short.gpx`](../routes/koln-running-short.gpx) | Strava·Garmin Connect·Komoot 등에서 "경로 가져오기"로 넣고 시계 내비게이션에 사용 |
-| [`routes/koln-running.geojson`](../routes/koln-running.geojson) | 원본 경로(지도 도구용) |
+| [`routes/koln-running.kml`](../routes/koln-running.kml) | 구글 마이맵: [mymaps.google.com](https://mymaps.google.com) → 새 지도 만들기 → 가져오기 → 이 파일. 코스 6개가 레이어로 들어가고 휴대폰 구글 지도 앱의 "저장됨 → 지도"에서도 보여요 |
+| `routes/koln-running-<코스>.gpx` (main · short · greenbelt · stadtwald · rhine-north · rhine-south) | Strava·Garmin Connect·Komoot에서 "경로 가져오기" → 시계 내비게이션 |
+| [`routes/koln-running.geojson`](../routes/koln-running.geojson) | 원본 경로 |
 
 ## 달리기 전에
 
-- 11월엔 해가 늦게 뜨고 일찍 져요. 어두울 땐 밝은 옷이나 라이트를 챙기세요.
-- 호엔촐레른 다리 보행로와 대성당 앞은 낮에 관광객이 많아요. 이른 아침이 가장 편해요.
-- 11/16부터 대성당 남쪽 로마 광장(Roncalliplatz)에 크리스마스 마켓이 서요(11시 개장). 아침엔 지나가기 괜찮아요.
-- 구시가(알터 마르크트·그로스 장크트 마르틴 주변)는 돌길이에요. 발목 조심하세요.
-- 라인강 산책로와 라인아우하펜은 차 없는 평지라 페이스 내기 좋아요. 링(Ring) 구간은 신호등이 많아요.
-- 쾰른트라이앵글 전망대(11–20시)와 초콜릿 박물관(10시 개관)은 아침 러닝 땐 외관만 보게 돼요.
+- 11월엔 해가 늦게 뜨고 일찍 져요. 숲·초원 코스는 해 있을 때, 어두울 땐 밝은 옷이나 라이트를 챙기세요.
+- 호엔촐레른 다리 보행로와 대성당 앞은 낮에 붐벼요. 이른 아침이 가장 편해요. 11/16부터 대성당 옆 로마 광장에 크리스마스 마켓(11시 개장).
+- 구시가는 돌길이라 발목 조심. 라인강 산책로·라인아우하펜·폴러 비젠은 차 없는 평지예요. 링(Ring)과 도로 구간은 신호등이 많아요.
 
 ### 일출·일몰 (쾰른, NOAA 근사식)
 
@@ -84,4 +190,4 @@
 
 ## 다시 만들기
 
-`data/routes-spec.json`에서 경유지를 바꾸고 `python3 scripts/build_routes.py` → `python3 scripts/build.py`를 실행하면 경로·파일·뷰어가 함께 갱신됩니다.
+`data/routes-spec.json`에서 경유지를 바꾸고(숨은 경유점은 `[위도, 경도]`) `python3 scripts/build_routes.py` → `python3 scripts/build.py`.
