@@ -1,0 +1,714 @@
+{
+ "agent": "r4-verify-g1-dom-eigelstein",
+ "generated": "2026-11-07",
+ "verifications": [
+  {
+   "id": "artistanbul-meze",
+   "name": "Artistanbul Meze",
+   "status": "unknown",
+   "google_rating": null,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": null,
+   "price_pp": null,
+   "price_note": "OpenTable 가격대 €31–50 (구글 아님, 같은 업소 페이지인지 불확실)",
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "이번 검색에서 구글 평점·리뷰 수·최근 리뷰를 찾지 못해 영업 여부 미확인(폐업 신호도 못 봄). 11880에 'Artistanbul Meze'(Komödienstraße 52, Altstadt-Nord, 전화 0162 3662942) 등록은 있으나 영업시간 없음. OpenTable 'Artistanbul Restaurant'(같은 주소) 4.7/9표, 다른 OpenTable 페이지는 Porz 지점으로 연결돼 지점 혼동 가능. 방문 전 구글 지도 확인 권장.",
+   "sources": [
+    "https://www.11880.com/suche/mezze/koeln",
+    "https://www.opentable.co.uk/r/artistanbul-restaurant-koln",
+    "https://www.opentable.ae/r/artistanbul-restaurant-koln"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "nainai-bao",
+   "name": "NaiNai Bao",
+   "status": "open",
+   "google_rating": null,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": null,
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 수치는 이번 검색에서 확인 못 함(Spinach 4.5는 구글 아님). Wolt 배달 페이지가 활성 상태로 매일 11:30–21:30 영업 표기 — 간접적 영업 신호. 주소 Josef-Haubrich-Hof 3, 50676 일치, 웹사이트 nainaibao.de. HappyCow 리뷰에서 바오·비앙비앙면 호평.",
+   "sources": [
+    "https://wolt.com/de/deu/cologne/restaurant/nainai-bao",
+    "https://spinach.guide/venues/nainai-bao-34731/",
+    "https://happycow.net/reviews/nainai-bao-cologne-434712"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "gangnamstyle-korean-bbq",
+   "name": "Gangnamstyle Korean BBQ • Bulgogi • Bar",
+   "status": "unknown",
+   "google_rating": null,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": null,
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 수치·최근 리뷰를 찾지 못해 현재 영업 여부 미확인(폐업 신호도 없음). 주소 Thurnmarkt 7, 50676은 Mit Vergnügen 2023 기사와 일치, 같은 매체의 2024·2025년판 '쾰른 한식' 목록이 함께 검색됨. 2023 기사 영업시간: 월–목 17–22:30, 금 17–23, 토 12–23, 일 12–22:30(변경 가능). speisekarte.de는 리뷰 0건.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2023/gangnamstyle",
+    "https://koeln.mitvergnuegen.com/2025/koreanisch-essen",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/gangnamstyle_korean_bbq_bulgogi_bar"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "coco-ramen-sushi",
+   "name": "COCO Ramen – Sushi – Asian kitchen",
+   "status": "open",
+   "google_rating": null,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": null,
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 수치는 확인 못 함(Spinach 4.1은 구글 아님). Wolt·Lieferando 배달 페이지 활성 — 간접 영업 신호. Wolt 영업시간 월–토 12:00–21:30, 일 14:00–19:30(PlantsPack은 월–토 ~22시, 일 ~20시). 주소는 WDR 아케이드 Breite Str. 26, 50667로 일치(Lieferando·koeln.de는 'Breite Straße 6-26', Wolt의 우편번호 50739는 오기로 보임).",
+   "sources": [
+    "https://wolt.com/de/deu/cologne/restaurant/coco-ramen",
+    "https://www.lieferando.de/en/menu/coco-ramen",
+    "https://www.koeln.de/branchen/eintrag/47375/sushi-bars/coco-ramen",
+    "https://plantspack.com/place/coco-ramen-koln"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "oma-janssen-colonialwarenhandel",
+   "name": "Oma Janßen Colonialwarenhandel",
+   "status": "unknown",
+   "google_rating": null,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": null,
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 평점·영업시간·최근 리뷰 모두 찾지 못해 영업 여부 미확인(폐업 신호도 없음). koeln.de 업체 목록에 Alter Markt 56, 50667 · 전화 0221 2408844로 등록(리뷰 0건). Öffnungszeitenbuch의 'Janßen' 영업시간은 Breite Straße의 다른 가게 것이라 무관.",
+   "sources": [
+    "https://www.koeln.de/branchen/eintrag/62827/cafes/oma-janssen-colonialwarenhandel",
+    "https://www.oeffnungszeitenbuch.de/filiale/Koeln-Janssen-11640T.html"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "cafe-1980-banh-mi",
+   "name": "1980 – Cafe und Bánh Mì",
+   "status": "open",
+   "google_rating": 4.7,
+   "google_reviews": 1077,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.7 / 약 1,077); wanderlog.com 목록 (4.7 / 1,077, 다른 목록 1,031)",
+   "price_pp": null,
+   "price_note": "리뷰 기준 메인 요리 €10 이하, 현금만 가능",
+   "latest_review": "2025",
+   "address": null,
+   "notes_ko": "구글 리뷰 수 541 → 약 1,077로 갱신(기존 top-rated.online 값은 오래된 스냅샷으로 보임). 반미·쌀국수·고구마튀김·베트남 커피 호평, 붐비면 서비스가 느리다는 평. 현금 결제만 된다는 리뷰 다수. 확인된 리뷰는 2019–2025년. 폐업 신호 없음.",
+   "sources": [
+    "https://restaurantguru.com/1980-Cologne",
+    "https://wanderlog.com/place/details/1210457/1980--cafe-und-b%C3%A1nh-m%C3%AC-k%C3%B6ln",
+    "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "lint-no-7",
+   "name": "Lint No 7",
+   "status": "open",
+   "google_rating": 4.7,
+   "google_reviews": 582,
+   "google_as_of": "2026-07",
+   "rating_source": "restaurantguru.com (Google 4.7 / 약 582, 2026년 7월 말 갱신); wanderlog.com 4.6 / 527(이전 스냅샷)",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "2026년 7월 갱신 페이지에서 구글 4.7/582 확인 → 영업 중으로 판단. 트립어드바이저상 같은 주소의 구 'Volker's Café & Bistro'가 'LINT No7 by Lisa & Roberto'로 상호 변경(옛 리뷰는 구 상호). 같은 주소의 Lint Hotel과 혼동 주의. 아침·커피·친절한 주인 호평, 요거트볼·음료가 다소 비싸다는 평도.",
+   "sources": [
+    "https://de.restaurantguru.com/Volkers-Cafe-and-Bistro-Cologne",
+    "https://wanderlog.com/place/details/3391351/lint-no-7",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d23637191-Reviews-Volker_s_Cafe_Bistro-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "thai-viet-street-food-imbiss",
+   "name": "Thai-Viet Street Food Imbiss",
+   "status": "open",
+   "google_rating": 4.6,
+   "google_reviews": 2571,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.6 / 약 2,571); wanderlog.com 4.6 / 2,234 · 1,902(스냅샷별)",
+   "price_pp": null,
+   "price_note": "리뷰 기준 요리 대부분 약 €10 (음료 포함 1인 약 €10 사례)",
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "기존 2,400(2.4K 반올림) → Restaurant Guru 구글 2,571로 갱신. 팟타이·똠얌·쌀국수·파파야샐러드 호평. 현금만 받거나 손님마다 카드 허용이 다르다는 리뷰 다수, 서비스 편차 지적. 같은 주소에 'Thai Imbiss'(트립어드바이저·top-rated) 항목이 따로 있음 — 옛 상호일 가능성, 혼동 주의. 폐업 신호 없음.",
+   "sources": [
+    "https://restaurantguru.com/Thai-imbiss-Cologne-4",
+    "https://wanderlog.com/place/details/1392638/thai-viet-street-food-imbiss",
+    "https://www.top-rated.online/cities/Cologne/place/p/1238041/Thai-Viet+Street+Food+Imbiss"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "suenner-im-walfisch",
+   "name": "Sünner im Walfisch",
+   "status": "open",
+   "google_rating": 4.5,
+   "google_reviews": 3646,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.5 / 3,646); 11880.com google.de 4.5 / 3,540; restaurantguru.com Google 4.5 / 3,424",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": "2026-02",
+   "address": null,
+   "notes_ko": "Wanderlog에서 2026년 2월 구글 리뷰까지 확인 → 영업 중. 리뷰 수 3,540 → 3,646 갱신. 맥주·학세·브라트부르스트 호평, 서비스 비판 일부. golocal의 낮은 점수(약 2.75–3.0)는 리뷰 4–5건 기준으로 구글과 무관. 트립어드바이저 약 4.2.",
+   "sources": [
+    "https://wanderlog.com/place/details/1438570",
+    "https://restaurantguru.com/Sunner-im-Walfisch-Cologne",
+    "https://www.11880.com/branchenbuch/koeln/071364408B26906597/brauhaus-suenner-im-walfisch-brauhaus.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "el-chango",
+   "name": "El Chango",
+   "status": "open",
+   "google_rating": 4.5,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.5 / 1,841); 11880.com google.de 4.5 / 1,906; restaurantguru.com Google 4.5",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": "2026",
+   "address": null,
+   "notes_ko": "구글 4.5 재확인. 이번 조회 리뷰 수(1,841–1,906)가 기존 1,929보다 적어 기존 값 유지(스냅샷 차이). 2026년 트립어드바이저 리뷰에서 메뉴 변경 언급 → 영업 중. 숯불 스테이크·새우/버섯 아히요 호평, 서비스 속도 불만 일부. 트립어드바이저 약 4.2/628.",
+   "sources": [
+    "https://restaurantguru.com/El-Chango-Cologne",
+    "https://wanderlog.com/place/details/3077329/el-chango",
+    "https://www.11880.com/branchenbuch/koeln/071364395B27993131/el-chango-argentinisches-restaurant.html",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d2317301-Reviews-El_Chango-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "peters-brauhaus",
+   "name": "Peters Brauhaus",
+   "status": "open",
+   "google_rating": 4.2,
+   "google_reviews": 8850,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (4.2 / 8,850, 첫 점수=Google로 판단; 4.0/2,291은 트립어드바이저 추정); yably.de Google 4.20 / 8,454",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "평점 하향 필요: 기존 4.4(werkenntdenbesten)는 여러 포털 합산치였을 가능성 — 구글 단독은 Yably·Wanderlog 모두 4.2. 리뷰 수 8,395 → 8,850. Restaurant Guru 4.1/11,419는 자체 합산. 트립어드바이저 3.9/2,359. 분위기·쾰시 호평, 느리거나 불친절한 서비스·관광객 많음 비판. 단체는 예약 권장.",
+   "sources": [
+    "https://yably.de/bewertungen/koeln/peters-brauhaus-muehlengasse-1",
+    "https://wanderlog.com/place/details/490862/peters-brauhaus",
+    "https://restaurantguru.com/Peters-Brauhaus-Cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "krua-thai-heumarkt",
+   "name": "Krua Thai am Heumarkt",
+   "status": "open",
+   "google_rating": 4.4,
+   "google_reviews": 948,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.4 / 948); restaurantguru.com Google 4.4",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "리뷰 수 748 → 948 갱신(활동 신호). 정통 태국 맛·양 많고 가격 합리적이라는 평. 셀프서비스·일회용 컵, 카드 결제 수수료 불만, 팟타이 실망 리뷰 일부. top-rated.online 상호는 'Krua Thai 2 – Heumarkt'. Restaurant Guru 4.8은 자체 합산 점수.",
+   "sources": [
+    "https://wanderlog.com/place/details/3690494/krua-thai-am-heumarkt",
+    "https://restaurantguru.com/Krua-Thai-Cologne-2",
+    "https://www.top-rated.online/cities/Koeln/place/p/2223278/Krua+Thai+2+-+Heumarkt"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "buddhas-eye",
+   "name": "Buddha's Eye",
+   "status": "open",
+   "google_rating": 4.4,
+   "google_reviews": 833,
+   "google_as_of": null,
+   "rating_source": "yably.de (Google 4.40 / 833, 갱신일 미표시)",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "리뷰 수 664(reviewhero) → 833(Yably 구글)로 갱신. Yably 상호 'Buddha's Eye Nepal Tibet Restaurant', 주소 Mariengartengasse 5 일치. 정통 네팔 음식·모모·가성비 호평, 혼잡 시 서비스·예약 처리 비판. 트립어드바이저 4.3/156. 폐업 신호 없음.",
+   "sources": [
+    "https://yably.de/bewertungen/koeln/buddhas-eye-nepal-tibet-restaurant-mariengartengasse-5",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d6429306-Reviews-Buddha_s_Eye-Cologne_North_Rhine_Westphalia.html",
+    "https://wanderlog.com/list/geoCategory/2875/best-asian-food-in-cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "louis-cafe-am-dom",
+   "name": "LOUIS Cafe am Dom",
+   "status": "open",
+   "google_rating": 4.5,
+   "google_reviews": 297,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (4.5 / 297); 예전 Wanderlog 목록 4.4 / 407(약 678일 전); restaurantguru.com 자체 4.5 / 235",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "수치 불일치 주의: 장소 페이지(4.5/297)가 예전 목록(4.4/407)보다 리뷰 수가 적음 — 구글 항목 재생성 또는 리뷰 삭제 가능성, 확인 필요. 흑당 버블티·넓은 좌석 호평, 케이크 품절·냉동 케이크 불만. €10 미만은 카드 결제가 안 된다는 리뷰. 트립어드바이저의 'ST. LOUIS Café'(도이츠)는 다른 곳.",
+   "sources": [
+    "https://wanderlog.com/place/details/7852705/louis-cafe-am-dom",
+    "https://restaurantguru.com/LOUIS-Cafe-am-Dom-Cologne",
+    "https://wanderlog.com/list/geoCategory/1815570/best-spots-for-afternoon-tea-in-cologne"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "frueh-am-dom",
+   "name": "FRÜH am Dom",
+   "status": "open",
+   "google_rating": 4.3,
+   "google_reviews": 22460,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.3 / 22,460); restaurantguru.com Google 4.3 / 19,851",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": "2026-08",
+   "address": null,
+   "notes_ko": "리뷰 수 19,851 → 22,460 갱신. 2026년 8월 트립어드바이저 리뷰(서두르는 서빙·불명확한 계산서 불만) 확인 → 영업 중. 돔 옆 위치·쾰시·옛 분위기 호평, 음식은 평범하고 혼잡 시 서비스 불만. 트립어드바이저 3.9/약 5,300.",
+   "sources": [
+    "https://wanderlog.com/place/details/1188726/brauhaus-fr%C3%BCh-am-dom",
+    "https://restaurantguru.com/Fruh-am-Dom-Cologne-2",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d7235024-Reviews-Fruh_am_Dom-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gilden-im-zims",
+   "name": "Gilden im Zims",
+   "status": "open",
+   "google_rating": 4.3,
+   "google_reviews": 9988,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.3 / 9,988); yably.de Google 4.30 / 9,551",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": "2026-10",
+   "address": null,
+   "notes_ko": "리뷰 수 9,551 → 9,988 갱신. 2026년 10월 트립어드바이저 리뷰(서비스·음식 호평) 확인 → 영업 중. 예전 리뷰엔 느린 서비스·퍽퍽한 고기 불만. Yably 공휴일 영업 11:00–23:00.",
+   "sources": [
+    "https://wanderlog.com/place/details/763590/gilden-im-zims-heimat-k%C3%B6lscher-helden",
+    "https://yably.de/bewertungen/koeln/gilden-im-zims-heimat-koelscher-helden-heumarkt-77",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d1805991-Reviews-Gilden_im_Zims-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "beirut-restaurant",
+   "name": "Beirut Restaurant",
+   "status": "open",
+   "google_rating": 4.2,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": "yably.de (Google 4.20 / 3,656); wanderlog.com (Google 4.2 / 3,670)",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 4.2 재확인. 이번 조회 리뷰 수가 기존 3,692보다 적어 기존 값 유지(스냅샷 차이). 매일 12:00–23:00(Yably, 공휴일 ~24시). 11880의 '수요일 12시까지 닫힘' 표시는 오래된 스냅샷으로 보임. 메제 플레이트·믹스 그릴 추천, 좁다는 평, 예약 권장.",
+   "sources": [
+    "https://yably.de/bewertungen/koeln/beirut-restaurant-buttermarkt-3",
+    "https://wanderlog.com/place/details/763650/beirut-restaurant",
+    "https://restaurantguru.com/Beirut-Cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "brauerei-zur-malzmuehle",
+   "name": "Brauerei zur Malzmühle",
+   "status": "open",
+   "google_rating": 4.3,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.3 / 약 2,237); restaurantguru.com 4.3 / 6,345(자체 합산 가능성)",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 평점은 Wanderlog·Restaurant Guru 모두 4.3(기존 4.2는 spinach.guide 기준이라 구글 수치가 아닐 수 있음). 리뷰 수는 2,237(Wanderlog)·2,584(기존)·6,345(Restaurant Guru)로 크게 엇갈려 미확정 — 확인 필요. 영업 월–목·일 ~23시, 금·토 ~24시(트립어드바이저·Wanderlog; 11880은 11:30–23, 일 ~22). 트립어드바이저 4.0/1,355. 폐업 신호 없음.",
+   "sources": [
+    "https://wanderlog.com/place/details/378578/brauerei-zur-malzm%C3%BChle",
+    "https://de.restaurantguru.com/Brauerei-zur-Malzmuhle-Cologne",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d1908458-Reviews-Brauerei_Zur_Malzmuhle-Cologne_North_Rhine_Westphalia.html",
+    "https://www.11880.com/branchenbuch/koeln/071364395B26510826/brauerei-zur-malzmuehle-brauerei.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "thai-ja-roen-imbiss",
+   "name": "Thai Ja-Röen Imbiss",
+   "status": "open",
+   "google_rating": 4.9,
+   "google_reviews": 157,
+   "google_as_of": null,
+   "rating_source": "top-rated.online (Google 미러 4.90 / 157, 페이지 약 50일 전 스냅샷); werkenntdenbesten.de google.de 4.90 / 142",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 4.9/157 재확인. 같은 주소(Thürmchenswall 64)에 'Thai Imbiss Chaokoh / Chao Koh Thai Imbiss'(Yably 4.2/747) 별도 항목이 있음 — 이전 상호일 가능성, 지도 검색 시 혼동 주의. 영업 11:30–16:00·17:00–21:30, 목요일 휴무 표기(top-rated.online, 출처 간 불일치). 짧은 영업시간·매운 맛 지적, 맛·친절·가성비 호평. 전화 0221 29795981.",
+   "sources": [
+    "https://www.top-rated.online/cities/Cologne/place/p/13815343/Thai+Ja-+R%C3%B6en+Imbiss",
+    "https://www.werkenntdenbesten.de/e/113453146/asiatisches-restaurant/koeln/thai-ja-roeen-imbiss-bewertungen.html",
+    "https://www.11880.com/branchenbuch/koeln/071364400B113453146/thai-ja-roeen-imbiss.html",
+    "https://yably.de/bewertungen/koeln/thai-imbiss-chaokoh-thuermchenswall-64"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "caruso-pastabar",
+   "name": "CARUSO Pastabar",
+   "status": "open",
+   "google_rating": 4.6,
+   "google_reviews": 994,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (첫 점수=Google 4.6 / 994; 4.5/686은 트립어드바이저로 추정); restaurantguru.com Google 4.7 / 975(이전 스냅샷)",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "평점 4.7 → 4.6 소폭 하락(리뷰 957 → 994). 영업 월–토 18:00–23:00(Wanderlog는 17:30~), 일요일 휴무. 파스타·서비스 호평. 트립어드바이저 4.6/690. 전화 +49 221 9386311, caruso-pastabar.de.",
+   "sources": [
+    "https://wanderlog.com/place/details/884741/caruso-pastabar",
+    "https://restaurantguru.com/Pasta-Bar-Cologne-2",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d718264-Reviews-or30-Caruso_Pastabar-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "tang-wang-koeln",
+   "name": "Tang Wang Köln",
+   "status": "open",
+   "google_rating": 4.7,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.7 / 671); restaurantguru.com 자체 4.8 / 792",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "새 구글 수치 없음(기존 Restaurant Guru 구글 4.7/685 유지 권장). Wanderlog 영업: 점심·저녁, 토 11:30–22:30, 일 11:30–15:00·17:30–22:30. 11880은 11–15·17–23시와 '닫힘' 표시가 있으나 오래된 스냅샷으로 보임. 정통 중식(마파두부·궁보계정) 호평. 전화 +49 221 82956288.",
+   "sources": [
+    "https://wanderlog.com/place/details/1525287/tang-wang-k%C3%B6ln",
+    "https://restaurantguru.com/Tang-Wang-Cologne",
+    "https://www.11880.com/branchenbuch/koeln/071364406B54135957/resturant-tang-wang-restaurant.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "max-stark",
+   "name": "Max Stark",
+   "status": "open",
+   "google_rating": 4.6,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.6 / 3,889); wanderlog.com (Google 4.6 / 3,633); top-rated.online 4.60 / 3.9K",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 4.6 재확인. 이번 조회 리뷰 수가 기존 3,953(yably)보다 적어 기존 값 유지. 대부분 매일 약 11:00–24:00(월–토만 적은 곳도 있음). 주소 Unter Kahlenhausen 47, 50668 일치. 전화 +49 221 2005633. 폐업 신호 없음.",
+   "sources": [
+    "https://restaurantguru.com/Max-Stark-Cologne",
+    "https://wanderlog.com/place/details/1188728/max-stark",
+    "https://www.top-rated.online/cities/Cologne/place/p/1237955/Max+Stark"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "thai-imbiss-eigelstein",
+   "name": "Thai Imbiss",
+   "status": "open",
+   "google_rating": 4.5,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.5); top-rated.online 4.50 / 1.5K",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 4.5, 약 1.5K 리뷰로 기존 값(4.5/1,535)과 일치. 영업 대략 11:00–22:00(일 12:00~), 출처마다 차이(트립어드바이저 한 곳은 11:30–23:30). 현금만 가능하다는 리뷰 다수(근처 ATM 있음). 양 많고 저렴·빠른 서비스 호평, 최근 리뷰에 싱거움·가격 분쟁·불친절 불만도. 트립어드바이저 4.4/155.",
+   "sources": [
+    "https://restaurantguru.com/Thai-Imbiss-Cologne-2",
+    "https://www.top-rated.online/cities/Cologne/place/p/1237961/Thai+Imbiss",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d7322743-Reviews-Thai_Imbiss_Eigelstein_Koln-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "oez-harran-doy-doy",
+   "name": "Öz Harran Doy Doy",
+   "status": "open",
+   "google_rating": 4.4,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.4 / 2,304); yably.de Google 4.4 / 약 2,250; restaurantguru.com Google 4.4",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 4.4 재확인. 이번 조회 리뷰 수가 기존 2,404보다 적어 기존 값 유지. 심야 영업: 트립어드바이저 월–금 ~05:00, 토 ~07:00(11880의 9–24시는 오래된 정보로 보임). Restaurant Guru 페이지는 약 759일 전 스냅샷. 전화 +49 221 1307394.",
+   "sources": [
+    "https://wanderlog.com/place/details/1160462/%C3%B6z-harran-doy-doy",
+    "https://yably.de/bewertungen/koeln/oez-harran-doy-doy-weidengasse-28-34",
+    "https://restaurantguru.com/Oez-Harran-Cologne",
+    "https://www.tripadvisor.de/Restaurant_Review-g187371-d4114963-Reviews-Oz_Harran_Doy_Doy-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "gogi-matcha-koeln",
+   "name": "Gogi Matcha Korean Restaurant",
+   "status": "open",
+   "google_rating": 4.4,
+   "google_reviews": 1388,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.4 / 약 1,388)",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 4.4/1,388 재확인. 트립어드바이저 리뷰가 82 → 90건으로 늘어 활동 지속(평점 4.0). 토 17:00–00:30 영업 표기. 작고 인기 많아 예약 권장, 포장 가능. 해물파전·김치전 호평, 일부 메인이 달거나 평범하다는 평. 전화 +49 221 72024255.",
+   "sources": [
+    "https://wanderlog.com/place/details/3690465/gogi-matcha-korean-restaurant",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d10032364-Reviews-Gogi_Matcha_Korean_Restaurant-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "restaurant-diogenis",
+   "name": "Restaurant Diogenis",
+   "status": "closed-temporarily",
+   "google_rating": 4.4,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": "yably.de (Google 4.40 / 607); restaurantguru.com Google 4.4",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": "2025",
+   "address": null,
+   "notes_ko": "휴업 의심: Wanderlog(구글 데이터) 장소 페이지에 'Temporarily Closed(임시 휴업)' 표시(날짜 미상), speisekarte.de는 전 요일 '닫힘', 11880도 '닫힘' 표기. 반면 Yably엔 월–금 12–24, 토 17–24, 일 12–24 영업시간 게재. 확인된 최신 리뷰는 2025년(2026년 리뷰 없음), 공식 휴업 공지는 못 찾음(추가 검색 1회 사용). 가이드에 '방문 전 확인' 표시 또는 보류 권장. 전화 0221 729231.",
+   "sources": [
+    "https://wanderlog.com/place/details/10137134/restaurant-diogenis",
+    "https://yably.de/bewertungen/koeln/restaurant-diogenis-sudermanplatz-7",
+    "https://restaurantguru.com/Diogenis-Cologne",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/diogenis",
+    "https://www.11880.com/branchenbuch/koeln/071364412B29529516/restaurant-diogenis.html"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "damla-weidengasse",
+   "name": "Damla",
+   "status": "open",
+   "google_rating": 4.2,
+   "google_reviews": 538,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.2 / 538); restaurantguru.com Google 4.2 / 503",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 4.2/538 재확인. 트립어드바이저 주소 표기는 Weidengasse 47-49. 매일 09:00–24:00(트립어드바이저·Restaurant Guru). 바클라바 호평, 아침 식사가 비싸다는 평. Keupstraße·Ehrenfeld의 다른 Damla 지점과 혼동 주의. 전화 +49 221 16826576.",
+   "sources": [
+    "https://wanderlog.com/place/details/2637260/damla",
+    "https://restaurantguru.com/Damla-Cologne",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d10547912-Reviews-Damla-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "craftbeer-corner-coeln",
+   "name": "Craftbeer Corner Coeln (CCC)",
+   "status": "open",
+   "google_rating": 4.7,
+   "google_reviews": 1722,
+   "google_as_of": null,
+   "rating_source": "Google 미러(Wanderlog 형식 표기) 4.7 / 1,722",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 4.7/1,722 재확인. 트립어드바이저 4.8/133, Restaurant Guru 자체 4.8/263. 영업 월–목 18–24시, 금·토 17–24시, 일요일 휴무(리뷰 기준, 변경 가능). 맥주 종류·친절한 직원 호평, 매우 붐벼 일찍 가거나 예약 권장.",
+   "sources": [
+    "https://wanderlog.com/place/details/1784407/craftbeer-corner",
+    "https://restaurantguru.com/Craftbeer-Corner-Coeln-Cologne",
+    "https://www.tripadvisor.com/Attraction_Review-g187371-d16883341-Reviews-Craftbeer_Corner_Coeln-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papa-joes-jazzlokal",
+   "name": "Papa Joe's Jazzlokal",
+   "status": "open",
+   "google_rating": 4.6,
+   "google_reviews": 2693,
+   "google_as_of": null,
+   "rating_source": "top-rated.online (Google 미러, 'Papa Joe's Jazz Bar' 4.60 / 2,693); wanderlog.com 4.6 / 2,634",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "리뷰 수 2,634 → 2,693 갱신. 구글 상호는 'Papa Joe's Jazz Bar'. 저녁 19/20시~심야 영업(월–목 20–03, 금–일 19–02 등 출처 상이), papajoes.de. 현금만 가능하다는 리뷰 다수. 라이브 재즈·하우스 쾰시 호평, 음료가 비싸다·관광객용이라는 평 일부. 트립어드바이저 'Jazz Lokal' 4.3/324.",
+   "sources": [
+    "https://www.top-rated.online/cities/K%C3%B6ln/place/p/4163142/Papa+Joe's+Jazz+Bar",
+    "https://wanderlog.com/place/details/1289016/papa-joes-jazz-bar",
+    "https://www.tripadvisor.com/Attraction_Review-g187371-d6686795-Reviews-Papa_Joe_s_Jazz_Lokal-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "kunst-kaschaemm",
+   "name": "Kunst Kaschämm",
+   "status": "open",
+   "google_rating": 4.6,
+   "google_reviews": 1125,
+   "google_as_of": null,
+   "rating_source": "top-rated.online (Google 미러 4.60 / 1,125); restaurantguru.com 4.6 / 1,578(자체 합산 추정)",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "리뷰 수 1,088 → 1,125 갱신. 영업 월–목 15–24시, 금 15–03시, 토 14–03시, 일 15–24시(출처 간 상이, 토 13시~ 표기도). 약 1년 전 구글 리뷰에 현금만 받았다는 언급(디렉터리는 카드 가능 표기) — 현금 준비 권장. 트립어드바이저 3.6/25(불친절 서비스 불만 일부).",
+   "sources": [
+    "https://www.top-rated.online/cities/Cologne/place/p/1237702/Kunstkaschaemm+-+K%C3%B6ln",
+    "https://restaurantguru.com/Kunstkaschaemm-Cologne",
+    "https://www.tripadvisor.com/Attraction_Review-g187371-d5954338-Reviews-KunstKaschaemm-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "tipsy-monk",
+   "name": "Tipsy Monk",
+   "status": "open",
+   "google_rating": null,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": null,
+   "price_pp": null,
+   "price_note": "스코틀랜드 사워 맥주 0.25L €6 (2026년 3월 방문 블로그)",
+   "latest_review": "2026-03",
+   "address": null,
+   "notes_ko": "상호 변경: 같은 주소(Salzgasse 2-4)의 옛 'Delirium Café Köln'이 'Tipsy Monk'로 이름을 바꾸고 국제 크래프트 맥주 중심으로 운영(rausgegangen.de 소개문). 2026년 3월 방문 블로그(retiredmartin.com) 확인 → 영업 중. 리뷰 사이트엔 아직 구 상호로 남은 곳이 있음(Yably 구 상호 항목: 구글 4.60/690, 17:00–01:00·금·토 더 늦게). 새 상호 기준 구글 수치는 확인 못 함(추가 검색 1회 사용).",
+   "sources": [
+    "https://rausgegangen.de/en/locations/tipsy-monk-bier-bar-koln",
+    "https://retiredmartin.com/2026/03/25/a-murky-interlude-in-kolschland/",
+    "https://yably.de/bewertungen/koeln/delirium-cafe-koeln-salzgasse-2-4",
+    "https://restaurantguru.com/Delirium-Cafe-Koln-Cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papa-joes-biersalon",
+   "name": "Papa Joe's Biersalon",
+   "status": "open",
+   "google_rating": 4.5,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.5 / 약 3,300); restaurantguru.com은 'Google 4.1'로 표기(불일치)",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "Wanderlog 구글 4.5 재확인(리뷰 약 3,300으로 기존 3,427보다 적어 기존 값 유지). Restaurant Guru의 구글 4.1 표기는 불일치 — 오래된 수치 가능성. 일부 사이트 상호 'Klimperkasten Papa Joe's Biersalon'. 영업 대략 매일 11:00–03:00(11880·golocal; Restaurant Guru는 평일 일부 ~01시). 자동 연주 악기 분위기 호평, 최근 리뷰에 느린 서비스·샐러드 불만.",
+   "sources": [
+    "https://wanderlog.com/place/details/1289014/papa-joes-biersalon",
+    "https://restaurantguru.com/Papa-Joes-Biersalon-Cologne",
+    "https://www.11880.com/branchenbuch/koeln/071364395B27132537/klimperkasten-papa-joe-s-biersalon.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "toddy-tapper",
+   "name": "Toddy Tapper",
+   "status": "open",
+   "google_rating": 4.8,
+   "google_reviews": 879,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.8 / 879); yably.de Google 4.90 / 814(이전 스냅샷)",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 4.8/879 재확인. 영업 화–목 18:00~24/01시, 금·토 ~02시, 일요일 휴무; 월요일은 출처 상이(Restaurant Guru 18시~, top-rated.online 휴무). 전화 0221 44707408, toddytapper.de. 폐업 신호 없음.",
+   "sources": [
+    "https://wanderlog.com/place/details/4000468/toddy-tapper-k%C3%B6ln",
+    "https://yably.de/bewertungen/koeln/toddy-tapper-schillingstr-27",
+    "https://restaurantguru.com/Toddy-Tapper-Cologne",
+    "https://www.top-rated.online/cities/Cologne/place/p/6194517/Toddy+Tapper?r"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "suderman",
+   "name": "Suderman",
+   "status": "open",
+   "google_rating": 4.7,
+   "google_reviews": 613,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.7 / 613)",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "구글 4.7/613 재확인(다른 출처의 631건 언급은 출처 불명확). Yably 여러 출처 합산 4.67/864, 트립어드바이저 4.2/18. 영업 화–토 저녁(Yably 19시~, 화–목 ~02시, 금·토 ~03시; Wanderlog는 18시~01/02시), 일·월 휴무. 일부 페이지는 675–929일 전 스냅샷. sudermanbar.de.",
+   "sources": [
+    "https://wanderlog.com/place/details/6296434/suderman",
+    "https://yably.de/bewertungen/koeln/suderman-sudermanpl-3",
+    "https://restaurantguru.com/Suderman-Cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "zum-goldenen-kegel",
+   "name": "Zum Goldenen Kegel",
+   "status": "open",
+   "google_rating": 4.7,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": "Wanderlog/Restaurant Guru 계열 4.7 / 168(출처 표기 불명확); werkenntdenbesten.de google.de 4.30 / 172(구 항목 가능성); restaurantguru.com 자체 4.8 / 216",
+   "price_pp": null,
+   "price_note": null,
+   "latest_review": null,
+   "address": null,
+   "notes_ko": "수치 불일치: werkenntdenbesten의 google.de 4.3/172는 11880에 같은 이름 항목이 2개인 점으로 보아 구 항목일 가능성 — 기존 4.7/212(Restaurant Guru 구글) 유지 권장. 영업 월–목 16시~, 금–일 15시~(토 14시~ 표기도, 출처 상이). 음악·칵테일 호평. 주소 Balthasarstraße 53, 50670 일치, 전화 0221 16943399.",
+   "sources": [
+    "https://www.werkenntdenbesten.de/e/53273391/kneipe/koeln/zum-goldenen-kegel-bewertungen.html",
+    "https://wanderlog.com/place/details/10873175/goldener-kegel",
+    "https://restaurantguru.com/Zum-Goldenen-Kegel-Cologne",
+    "https://www.11880.com/branchenbuch/koeln/071363030B53273391/zum-goldenen-kegel.html"
+   ],
+   "confidence": "medium"
+  }
+ ]
+}

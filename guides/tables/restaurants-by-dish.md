@@ -22,8 +22,8 @@
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
 | [Gusto Antico](https://www.google.com/maps/search/?api=1&query=Gusto%20Antico%20Vogelsanger%20Str.%20216%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | – | ★4.9 (773) |
-| [CARUSO Pastabar](https://www.google.com/maps/search/?api=1&query=CARUSO%20Pastabar%20Kasparstra%C3%9Fe%2019%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 이탈리아 | – | ★4.7 (957) |
 | [Ristorante Etrusca](https://www.google.com/maps/search/?api=1&query=Ristorante%20Etrusca%20Z%C3%BClpicher%20Str.%2027%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 이탈리아 | – | ★4.7 (459) |
+| [CARUSO Pastabar](https://www.google.com/maps/search/?api=1&query=CARUSO%20Pastabar%20Kasparstra%C3%9Fe%2019%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 이탈리아 | – | ★4.6 (994) |
 
 ## 라멘 — 5곳
 
@@ -104,15 +104,15 @@
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
 | [Nam](https://www.google.com/maps/search/?api=1&query=Nam%20Engelbertstra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 베트남 | € | ★4.9 (676) |
+| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 베트남 | € | ★4.7 (1,077) |
 | [Lúa by Danny](https://www.google.com/maps/search/?api=1&query=L%C3%BAa%20by%20Danny%20Brabanter%20Str.%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 베트남 | – | ★4.7 (585) |
-| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 베트남 | € | ★4.7 (541) |
 | [Chum Chay](https://www.google.com/maps/search/?api=1&query=Chum%20Chay%20Friesenwall%2029%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 베트남 | €€ | ★4.6 (1,987) |
 
 ## 반미 — 1곳
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
-| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 베트남 | € | ★4.7 (541) |
+| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 베트남 | € | ★4.7 (1,077) |
 
 ## 케밥·되너 — 8곳
 
@@ -224,14 +224,14 @@
 | [Max Stark](https://www.google.com/maps/search/?api=1&query=Max%20Stark%20Unter%20Kahlenhausen%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 독일 | €€ | ★4.6 (3,953) |
 | [Früh em Veedel](https://www.google.com/maps/search/?api=1&query=Fr%C3%BCh%20em%20Veedel%20Chlodwigplatz%2028%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 독일 | €€ | ★4.6 (1,327) |
 | [Braustelle](https://www.google.com/maps/search/?api=1&query=Braustelle%20Christianstra%C3%9Fe%202%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 독일 | €€ | ★4.6 (342) |
-| [Sünner im Walfisch](https://www.google.com/maps/search/?api=1&query=S%C3%BCnner%20im%20Walfisch%20Salzgasse%2013%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | €€ | ★4.5 (3,540) |
+| [Sünner im Walfisch](https://www.google.com/maps/search/?api=1&query=S%C3%BCnner%20im%20Walfisch%20Salzgasse%2013%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | €€ | ★4.5 (3,646) |
 | [Brauhaus Pütz](https://www.google.com/maps/search/?api=1&query=Brauhaus%20P%C3%BCtz%20Engelbertstra%C3%9Fe%2067%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 독일 | €€ | ★4.5 (739) |
-| [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | €€ | ★4.4 (8,395) |
 | [FRÜH "Em Jan von Werth"](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20%22Em%20Jan%20von%20Werth%22%20Christophstra%C3%9Fe%2044%2C%2050670%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 독일 | €€ | ★4.4 (1,119) |
-| [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | €€ | ★4.3 (19,851) |
-| [Gilden im Zims](https://www.google.com/maps/search/?api=1&query=Gilden%20im%20Zims%20Heumarkt%2077%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | €€ | ★4.3 (9,551) |
+| [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | €€ | ★4.3 (22,460) |
+| [Gilden im Zims](https://www.google.com/maps/search/?api=1&query=Gilden%20im%20Zims%20Heumarkt%2077%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | €€ | ★4.3 (9,988) |
 | [Deutzer Brauhaus](https://www.google.com/maps/search/?api=1&query=Deutzer%20Brauhaus%20Ottoplatz%207%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 독일 | €€ | ★4.3 (9,240) |
 | [Brauhaus ohne Namen (b.o.n.)](https://www.google.com/maps/search/?api=1&query=Brauhaus%20ohne%20Namen%20%28b.o.n.%29%20Mathildenstra%C3%9Fe%2042%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 독일 | €€ | ★4.3 (1,397) |
+| [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | €€ | ★4.2 (8,850) |
 | [Brauerei zur Malzmühle](https://www.google.com/maps/search/?api=1&query=Brauerei%20zur%20Malzm%C3%BChle%20Heumarkt%206%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | €€ | ★4.2 (2,584) |
 
 ## 코스 요리 — 4곳
@@ -248,7 +248,7 @@
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
 | [Hempies](https://www.google.com/maps/search/?api=1&query=Hempies%20H%C3%A4ndelstra%C3%9Fe%2055%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | € | ★4.8 (535) |
-| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 베트남 | € | ★4.7 (541) |
+| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 베트남 | € | ★4.7 (1,077) |
 | [Lebanon Vitamin](https://www.google.com/maps/search/?api=1&query=Lebanon%20Vitamin%20Z%C3%BClpicher%20Stra%C3%9Fe%2038%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레바논 | € | ★4.4 (757) |
 
 ## 브런치 — 8곳
@@ -305,7 +305,7 @@
 | [Café Buur](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Buur%20Richard-Wagner-Stra%C3%9Fe%2028%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | €€ | ★4.7 (3,517) |
 | [ST. LOUIS Café-Köln](https://www.google.com/maps/search/?api=1&query=ST.%20LOUIS%20Caf%C3%A9-K%C3%B6ln%20Deutzer%20Freiheit%2089%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) |  | € | ★4.7 (957) |
 | [Oma Janßen Colonialwarenhandel](https://www.google.com/maps/search/?api=1&query=Oma%20Jan%C3%9Fen%20Colonialwarenhandel%20Alter%20Markt%2056%2C%2050667%20K%C3%B6ln) | 대성당·구시가 |  | €€ | ★4.7 (694) |
-| [Lint No 7](https://www.google.com/maps/search/?api=1&query=Lint%20No%207%20Lintgasse%207%2C%2050667%20K%C3%B6ln) | 대성당·구시가 |  | € | ★4.7 (499) |
+| [Lint No 7](https://www.google.com/maps/search/?api=1&query=Lint%20No%207%20Lintgasse%207%2C%2050667%20K%C3%B6ln) | 대성당·구시가 |  | € | ★4.7 (582) |
 | [Ehrenfeld Café](https://www.google.com/maps/search/?api=1&query=Ehrenfeld%20Caf%C3%A9%20Venloer%20Stra%C3%9Fe%20176%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 터키 | € | ★4.7 (131) |
 | [Van Dyck Espressobar](https://www.google.com/maps/search/?api=1&query=Van%20Dyck%20Espressobar%20K%C3%B6rnerstra%C3%9Fe%2043%2C%2050823%20K%C3%B6ln) | 에렌펠트 |  | € | ★4.6 (451) |
 | [Törtchen Törtchen – Studio Apostelnstraße](https://www.google.com/maps/search/?api=1&query=T%C3%B6rtchen%20T%C3%B6rtchen%20%E2%80%93%20Studio%20Apostelnstra%C3%9Fe%20Apostelnstra%C3%9Fe%2019%2C%2050667%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 |  | € | ★4.5 (1,374) |

@@ -24,7 +24,7 @@
       "r3-brauhaus.json",
       "wine-places.json"
     ],
-    "count": 223
+    "count": 224
   },
   "items": [
     {
@@ -3232,6 +3232,22 @@
         "https://www.reviewhero.io/de/eisdiele/koeln"
       ],
       "research": "r4-verify-g5-ehrenfeld"
+    },
+    {
+      "name": "Restaurant Diogenis",
+      "area": "agnesviertel-eigelstein",
+      "address": "Sudermanplatz 7, 50670 Köln",
+      "category": "restaurant",
+      "reason": "closed-temporarily (확인 2026-11-07)",
+      "found": "휴업 의심: Wanderlog(구글 데이터) 장소 페이지에 'Temporarily Closed(임시 휴업)' 표시(날짜 미상), speisekarte.de는 전 요일 '닫힘', 11880도 '닫힘' 표기. 반면 Yably엔 월–금 12–24, 토 17–24, 일 12–24 영업시간 게재. 확인된 최신 리뷰는 2025년(2026년 리뷰 없음), 공식 휴업 공지는 못 찾음(추가 검색 1회 사용). 가이드에 '방문 전 확인' 표시 또는 보류 권장. 전화 0221 729231.",
+      "sources": [
+        "https://wanderlog.com/place/details/10137134/restaurant-diogenis",
+        "https://yably.de/bewertungen/koeln/restaurant-diogenis-sudermanplatz-7",
+        "https://restaurantguru.com/Diogenis-Cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/diogenis",
+        "https://www.11880.com/branchenbuch/koeln/071364412B29529516/restaurant-diogenis.html"
+      ],
+      "research": "r4-verify-g1-dom-eigelstein"
     },
     {
       "name": "Monkey Bar (25hours Hotel The Circle)",

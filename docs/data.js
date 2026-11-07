@@ -437,12 +437,19 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
-    "https://wanderlog.com/list/geoCategory/29648/best-restaurants-to-have-dinner-in-cologne"
+    "https://wanderlog.com/list/geoCategory/29648/best-restaurants-to-have-dinner-in-cologne",
+    "https://www.11880.com/suche/mezze/koeln",
+    "https://www.opentable.co.uk/r/artistanbul-restaurant-koln",
+    "https://www.opentable.ae/r/artistanbul-restaurant-koln"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "unknown",
+   "verification_note": "이번 검색에서 구글 평점·리뷰 수·최근 리뷰를 찾지 못해 영업 여부 미확인(폐업 신호도 못 봄). 11880에 'Artistanbul Meze'(Komödienstraße 52, Altstadt-Nord, 전화 0162 3662942) 등록은 있으나 영업시간 없음. OpenTable 'Artistanbul Restaurant'(같은 주소) 4.7/9표, 다른 OpenTable 페이지는 Porz 지점으로 연결돼 지점 혼동 가능. 방문 전 구글 지도 확인 권장.",
+   "latest_review": null,
    "dist": {
     "dom": 0.48,
     "hbf": 0.47,
@@ -503,12 +510,19 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/12066841/nainai-bao",
-    "https://restaurantguru.com/NaiNai-Bao-Cologne"
+    "https://restaurantguru.com/NaiNai-Bao-Cologne",
+    "https://wolt.com/de/deu/cologne/restaurant/nainai-bao",
+    "https://spinach.guide/venues/nainai-bao-34731/",
+    "https://happycow.net/reviews/nainai-bao-cologne-434712"
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 수치는 이번 검색에서 확인 못 함(Spinach 4.5는 구글 아님). Wolt 배달 페이지가 활성 상태로 매일 11:30–21:30 영업 표기 — 간접적 영업 신호. 주소 Josef-Haubrich-Hof 3, 50676 일치, 웹사이트 nainaibao.de. HappyCow 리뷰에서 바오·비앙비앙면 호평.",
+   "latest_review": null,
    "dist": {
     "dom": 0.96,
     "hbf": 1.06,
@@ -567,18 +581,100 @@ window.KOLN_GUIDE = {
    "awards": [],
    "award_flags": [],
    "sources": [
-    "https://wanderlog.com/place/details/7033962/gangnamstyle-korean-bbq--bulgogi--bar"
+    "https://wanderlog.com/place/details/7033962/gangnamstyle-korean-bbq--bulgogi--bar",
+    "https://koeln.mitvergnuegen.com/2023/gangnamstyle",
+    "https://koeln.mitvergnuegen.com/2025/koreanisch-essen",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/gangnamstyle_korean_bbq_bulgogi_bar"
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "unknown",
+   "verification_note": "구글 수치·최근 리뷰를 찾지 못해 현재 영업 여부 미확인(폐업 신호도 없음). 주소 Thurnmarkt 7, 50676은 Mit Vergnügen 2023 기사와 일치, 같은 매체의 2024·2025년판 '쾰른 한식' 목록이 함께 검색됨. 2023 기사 영업시간: 월–목 17–22:30, 금 17–23, 토 12–23, 일 12–22:30(변경 가능). speisekarte.de는 리뷰 0건.",
+   "latest_review": null,
    "dist": {
     "dom": 0.8,
     "hbf": 0.93,
     "messe": 1.85,
     "deutz": 1.11,
     "belgisches": 2.0
+   }
+  },
+  {
+   "id": "cafe-1980-banh-mi",
+   "name": "1980 – Cafe und Bánh Mì",
+   "category": "streetfood",
+   "area": "dom-altstadt",
+   "address": "Bobstraße 28, 50676 Köln",
+   "lat": 50.933731,
+   "lng": 6.94604,
+   "cuisine": "Vietnamese café — bánh mì & pho",
+   "cuisine_country": [
+    "VN"
+   ],
+   "cuisine_region": "southeast-asia",
+   "dishes": [
+    "banh-mi",
+    "pho",
+    "sandwiches"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [],
+   "occasions": [
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 1,
+   "price_estimated": true,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 1077,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.7 / 약 1,077); wanderlog.com 목록 (4.7 / 1,077, 다른 목록 1,031)",
+   "summary_ko": "노이마르크트 남쪽 구시가 골목(Bobstraße)에 있는 베트남 카페입니다. 반미와 쌀국수로 알려져 쾰른 관광청 블로그의 '쾰른 베트남 식당 베스트 5'에 올랐습니다(4.7, 리뷰 541개). 채식 쌀국수도 있어서 노이마르크트·쉴더가세 쇼핑가 근처에서 가볍게 점심을 먹기 좋습니다.",
+   "must_try": [
+    "Bánh mì (반미 — 베트남식 바게트 샌드위치)",
+    "Phở (퍼 — 쌀국수, 채식 버전도 있음)"
+   ],
+   "tips_ko": "웹사이트는 cafe-1980.de입니다. 카페 겸 반미 가게라 간단한 식사에 맞습니다.",
+   "website": "https://cafe-1980.de",
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://www.top-rated.online/cities/K%C3%B6ln/place/p/4164063/1980+%E2%80%93+Cafe+und+B%C3%A0nh+M%C3%AC",
+    "https://blog.koelntourismus.de/en/culinary-finds/the-five-best-vietnamese-restaurants-in-cologne/",
+    "https://restaurantguru.com/1980-Cologne",
+    "https://wanderlog.com/place/details/1210457/1980--cafe-und-b%C3%A1nh-m%C3%AC-k%C3%B6ln",
+    "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "research": "r2-se-south-asia",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 리뷰 수 541 → 약 1,077로 갱신(기존 top-rated.online 값은 오래된 스냅샷으로 보임). 반미·쌀국수·고구마튀김·베트남 커피 호평, 붐비면 서비스가 느리다는 평. 현금 결제만 된다는 리뷰 다수. 확인된 리뷰는 2019–2025년. 폐업 신호 없음.",
+   "latest_review": "2025",
+   "google_previous": "4.7 (541)",
+   "dist": {
+    "dom": 1.2,
+    "hbf": 1.29,
+    "messe": 2.84,
+    "deutz": 2.18,
+    "belgisches": 0.94
    }
   },
   {
@@ -627,12 +723,20 @@ window.KOLN_GUIDE = {
    "awards": [],
    "award_flags": [],
    "sources": [
-    "https://app.wanderlog.com/place/details/3573324/coco-ramen-sushi-asian-kitchen"
+    "https://app.wanderlog.com/place/details/3573324/coco-ramen-sushi-asian-kitchen",
+    "https://wolt.com/de/deu/cologne/restaurant/coco-ramen",
+    "https://www.lieferando.de/en/menu/coco-ramen",
+    "https://www.koeln.de/branchen/eintrag/47375/sushi-bars/coco-ramen",
+    "https://plantspack.com/place/coco-ramen-koln"
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 수치는 확인 못 함(Spinach 4.1은 구글 아님). Wolt·Lieferando 배달 페이지 활성 — 간접 영업 신호. Wolt 영업시간 월–토 12:00–21:30, 일 14:00–19:30(PlantsPack은 월–토 ~22시, 일 ~20시). 주소는 WDR 아케이드 Breite Str. 26, 50667로 일치(Lieferando·koeln.de는 'Breite Straße 6-26', Wolt의 우편번호 50739는 오기로 보임).",
+   "latest_review": null,
    "dist": {
     "dom": 0.47,
     "hbf": 0.54,
@@ -694,85 +798,24 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/1935778/oma-jan%C3%9Fen-colonialwarenhandel",
-    "https://wanderlog.com/list/geoCategory/10013/best-breakfast-and-brunch-in-cologne"
+    "https://wanderlog.com/list/geoCategory/10013/best-breakfast-and-brunch-in-cologne",
+    "https://www.koeln.de/branchen/eintrag/62827/cafes/oma-janssen-colonialwarenhandel",
+    "https://www.oeffnungszeitenbuch.de/filiale/Koeln-Janssen-11640T.html"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "unknown",
+   "verification_note": "구글 평점·영업시간·최근 리뷰 모두 찾지 못해 영업 여부 미확인(폐업 신호도 없음). koeln.de 업체 목록에 Alter Markt 56, 50667 · 전화 0221 2408844로 등록(리뷰 0건). Öffnungszeitenbuch의 'Janßen' 영업시간은 Breite Straße의 다른 가게 것이라 무관.",
+   "latest_review": null,
    "dist": {
     "dom": 0.3,
     "hbf": 0.43,
     "messe": 1.68,
     "deutz": 1.04,
     "belgisches": 1.8
-   }
-  },
-  {
-   "id": "cafe-1980-banh-mi",
-   "name": "1980 – Cafe und Bánh Mì",
-   "category": "streetfood",
-   "area": "dom-altstadt",
-   "address": "Bobstraße 28, 50676 Köln",
-   "lat": 50.933731,
-   "lng": 6.94604,
-   "cuisine": "Vietnamese café — bánh mì & pho",
-   "cuisine_country": [
-    "VN"
-   ],
-   "cuisine_region": "southeast-asia",
-   "dishes": [
-    "banh-mi",
-    "pho",
-    "sandwiches"
-   ],
-   "diet": [
-    "vegetarian"
-   ],
-   "meals": [],
-   "occasions": [
-    "quick"
-   ],
-   "features": [],
-   "drinks": [],
-   "vibe": [],
-   "reservation": "unknown",
-   "payment": "unknown",
-   "location": [],
-   "price_level": 1,
-   "price_estimated": true,
-   "price_pp": null,
-   "price_note": "가격 정보 미확인",
-   "beer_price_eur": null,
-   "beer_price_note": null,
-   "beers": [],
-   "google_rating": 4.7,
-   "google_reviews": 541,
-   "google_as_of": null,
-   "rating_source": "top-rated.online (Google Maps 데이터 미러, 기준 시점 미표시)",
-   "summary_ko": "노이마르크트 남쪽 구시가 골목(Bobstraße)에 있는 베트남 카페입니다. 반미와 쌀국수로 알려져 쾰른 관광청 블로그의 '쾰른 베트남 식당 베스트 5'에 올랐습니다(4.7, 리뷰 541개). 채식 쌀국수도 있어서 노이마르크트·쉴더가세 쇼핑가 근처에서 가볍게 점심을 먹기 좋습니다.",
-   "must_try": [
-    "Bánh mì (반미 — 베트남식 바게트 샌드위치)",
-    "Phở (퍼 — 쌀국수, 채식 버전도 있음)"
-   ],
-   "tips_ko": "웹사이트는 cafe-1980.de입니다. 카페 겸 반미 가게라 간단한 식사에 맞습니다.",
-   "website": "https://cafe-1980.de",
-   "awards": [],
-   "award_flags": [],
-   "sources": [
-    "https://www.top-rated.online/cities/K%C3%B6ln/place/p/4164063/1980+%E2%80%93+Cafe+und+B%C3%A0nh+M%C3%AC",
-    "https://blog.koelntourismus.de/en/culinary-finds/the-five-best-vietnamese-restaurants-in-cologne/"
-   ],
-   "confidence": "medium",
-   "research": "r2-se-south-asia",
-   "checked": "2026-11-07",
-   "coord_source": "nominatim",
-   "dist": {
-    "dom": 1.2,
-    "hbf": 1.29,
-    "messe": 2.84,
-    "deutz": 2.18,
-    "belgisches": 0.94
    }
   },
   {
@@ -808,9 +851,9 @@ window.KOLN_GUIDE = {
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.7,
-   "google_reviews": 499,
-   "google_as_of": null,
-   "rating_source": "wanderlog.com",
+   "google_reviews": 582,
+   "google_as_of": "2026-07",
+   "rating_source": "restaurantguru.com (Google 4.7 / 약 582, 2026년 7월 말 갱신); wanderlog.com 4.6 / 527(이전 스냅샷)",
    "summary_ko": "구시가 골목 린트가세(Lintgasse)의 작은 아침 카페로, 오전에만 문을 연다. Wanderlog 쾰른 아침·브런치 리스트에 오른 곳으로 구글 평점 4.7(약 500건)이라, 구시가 관광을 시작하기 전 아침을 먹기 좋다.",
    "must_try": [],
    "tips_ko": "월요일 휴무, 다른 요일도 오전 위주로만 영업한다(Wanderlog 영업시간 기준). 메뉴 정보는 이번 조사에서 확보하지 못했다.",
@@ -819,12 +862,19 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/3391351/lint-no-7",
-    "https://wanderlog.com/list/geoCategory/10013/breakfast-and-brunch"
+    "https://wanderlog.com/list/geoCategory/10013/breakfast-and-brunch",
+    "https://de.restaurantguru.com/Volkers-Cafe-and-Bistro-Cologne",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d23637191-Reviews-Volker_s_Cafe_Bistro-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "2026년 7월 갱신 페이지에서 구글 4.7/582 확인 → 영업 중으로 판단. 트립어드바이저상 같은 주소의 구 'Volker's Café & Bistro'가 'LINT No7 by Lisa & Roberto'로 상호 변경(옛 리뷰는 구 상호). 같은 주소의 Lint Hotel과 혼동 주의. 아침·커피·친절한 주인 호평, 요거트볼·음료가 다소 비싸다는 평도.",
+   "latest_review": null,
+   "google_previous": "4.7 (499)",
    "dist": {
     "dom": 0.39,
     "hbf": 0.52,
@@ -867,9 +917,9 @@ window.KOLN_GUIDE = {
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.6,
-   "google_reviews": 2400,
+   "google_reviews": 2571,
    "google_as_of": null,
-   "rating_source": "top-rated.online (Google Maps 미러, 표시값 '2.4K'를 반올림한 수; 예전 스냅샷은 4.6/318). werkenntdenbesten 검색 요약은 4.5/3166 (여러 포털 합산일 수 있음)",
+   "rating_source": "restaurantguru.com (Google 4.6 / 약 2,571); wanderlog.com 4.6 / 2,234 · 1,902(스냅샷별)",
    "summary_ko": "대성당과 시청 사이 구시가 골목(Kleine Budengasse)에 있는 태국·베트남 길거리 음식 임비스입니다. 리뷰 2천여 개에 평점 4.6을 유지하는 인기 간이식당입니다. 대성당 관광 동선에서 빠르게 아시아 음식 한 그릇을 먹고 싶을 때 맞습니다.",
    "must_try": [],
    "tips_ko": "리뷰에 따르면 현금만 받습니다. 꽤 붐벼서 미리 예약하라는 리뷰도 있습니다. 리뷰 수는 집계 시점에 따라 318개에서 2.4K까지 차이가 큽니다.",
@@ -878,12 +928,19 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://www.top-rated.online/cities/Cologne/place/p/1238041/Thai-Viet+Street+Food+Imbiss",
-    "https://www.werkenntdenbesten.de/asia-imbiss/koeln"
+    "https://www.werkenntdenbesten.de/asia-imbiss/koeln",
+    "https://restaurantguru.com/Thai-imbiss-Cologne-4",
+    "https://wanderlog.com/place/details/1392638/thai-viet-street-food-imbiss"
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "기존 2,400(2.4K 반올림) → Restaurant Guru 구글 2,571로 갱신. 팟타이·똠얌·쌀국수·파파야샐러드 호평. 현금만 받거나 손님마다 카드 허용이 다르다는 리뷰 다수, 서비스 편차 지적. 같은 주소에 'Thai Imbiss'(트립어드바이저·top-rated) 항목이 따로 있음 — 옛 상호일 가능성, 혼동 주의. 폐업 신호 없음.",
+   "latest_review": null,
+   "google_previous": "4.6 (2400)",
    "dist": {
     "dom": 0.23,
     "hbf": 0.37,
@@ -931,9 +988,9 @@ window.KOLN_GUIDE = {
     "Sünner Kölsch"
    ],
    "google_rating": 4.5,
-   "google_reviews": 3540,
+   "google_reviews": 3646,
    "google_as_of": null,
-   "rating_source": "11880.com (google.de)",
+   "rating_source": "wanderlog.com (Google 4.5 / 3,646); 11880.com google.de 4.5 / 3,540; restaurantguru.com Google 4.5 / 3,424",
    "summary_ko": "구시가 알터 마르크트 인근 잘츠가세(Salzgasse)에 있는 쥐너(Sünner) 쾰시의 브라우하우스로, 구글 평점 4.5(약 3,500건)로 알트슈타트 브라우하우스 가운데 평점이 가장 높은 축에 든다. 친절하고 잘 도와주는 직원을 칭찬하는 후기가 많아 첫 브라우하우스 체험에도 무난하다.",
    "must_try": [
     "Sünner Kölsch (쥐너 쾰시 — 이 집 양조장의 쾰시)"
@@ -954,6 +1011,11 @@ window.KOLN_GUIDE = {
    "research": "r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "Wanderlog에서 2026년 2월 구글 리뷰까지 확인 → 영업 중. 리뷰 수 3,540 → 3,646 갱신. 맥주·학세·브라트부르스트 호평, 서비스 비판 일부. golocal의 낮은 점수(약 2.75–3.0)는 리뷰 4–5건 기준으로 구글과 무관. 트립어드바이저 약 4.2.",
+   "latest_review": "2026-02",
+   "google_previous": "4.5 (3540)",
    "dist": {
     "dom": 0.47,
     "hbf": 0.59,
@@ -1010,88 +1072,24 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/3077329/el-chango",
     "https://restaurantguru.com/El-Chango-Cologne",
-    "https://wanderlog.com/list/geoCategory/1503221/best-steaks-in-cologne"
+    "https://wanderlog.com/list/geoCategory/1503221/best-steaks-in-cologne",
+    "https://www.11880.com/branchenbuch/koeln/071364395B27993131/el-chango-argentinisches-restaurant.html",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d2317301-Reviews-El_Chango-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.5 재확인. 이번 조회 리뷰 수(1,841–1,906)가 기존 1,929보다 적어 기존 값 유지(스냅샷 차이). 2026년 트립어드바이저 리뷰에서 메뉴 변경 언급 → 영업 중. 숯불 스테이크·새우/버섯 아히요 호평, 서비스 속도 불만 일부. 트립어드바이저 약 4.2/628.",
+   "latest_review": "2026",
    "dist": {
     "dom": 0.52,
     "hbf": 0.66,
     "messe": 1.85,
     "deutz": 1.16,
     "belgisches": 1.77
-   }
-  },
-  {
-   "id": "peters-brauhaus",
-   "name": "Peters Brauhaus",
-   "category": "brauhaus",
-   "area": "dom-altstadt",
-   "address": "Mühlengasse 1, 50667 Köln",
-   "lat": 50.939245,
-   "lng": 6.960283,
-   "cuisine": "Rhineland / Kölsch brauhaus",
-   "cuisine_country": [
-    "DE"
-   ],
-   "cuisine_region": "central-europe",
-   "dishes": [
-    "rhineland-classics"
-   ],
-   "diet": [],
-   "meals": [],
-   "occasions": [],
-   "features": [],
-   "drinks": [
-    "koelsch"
-   ],
-   "vibe": [
-    "touristy",
-    "traditional"
-   ],
-   "reservation": "unknown",
-   "payment": "unknown",
-   "location": [],
-   "price_level": 2,
-   "price_estimated": true,
-   "price_pp": null,
-   "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
-   "beer_price_eur": 2.3,
-   "beer_price_note": "Kölsch 0.2 l 약 €2.30 (2025년 가을 기준, colognecitybreaks.com 'Kölner Kölsch-Brauhaus-Guide 2026')",
-   "beers": [
-    "Peters Kölsch"
-   ],
-   "google_rating": 4.4,
-   "google_reviews": 8395,
-   "google_as_of": "2026-05",
-   "rating_source": "werkenntdenbesten.de",
-   "summary_ko": "구시가 알터 마르크트(Alter Markt) 인근 Mühlengasse의 대형 전통 브라우하우스로, Peters Kölsch와 쾨베스(Köbes, 브라우하우스 웨이터)의 서빙 자체가 '경험의 일부'라는 후기가 많다. 관광객 비중이 높지만 구글 리뷰 8천여 건에 4.4로 구시가 브라우하우스 중 평점이 높은 편이라 첫 브라우하우스로 무난하다.",
-   "must_try": [
-    "Peters Kölsch (페터스 쾰시 — 이 집에서 내는 쾰시 맥주)"
-   ],
-   "tips_ko": "후기에 관광객이 많다는 언급이 잦다. 트립어드바이저(3.9, 2,338건)는 구글(4.4)보다 낮게 나온다. 음식 메뉴·가격은 이번 조사에서 확인하지 못했으니 방문 전 공식 메뉴를 확인할 것.",
-   "website": null,
-   "awards": [],
-   "award_flags": [],
-   "sources": [
-    "https://www.werkenntdenbesten.de/e/28017932/brauerei/koeln/peters-brauhaus-bruno-haumann-gf-bewertungen.html",
-    "https://spinach.guide/venues/peters-brauhaus-23831/",
-    "https://theeuropeanbarguide.com/peters-brauhaus-cologne",
-    "https://www.speisekarte.de/k%C3%B6ln/restaurant/peters_brauhaus",
-    "https://www.colognecitybreaks.com/de/city/cologne/articles/the-system-in-the-glass-inside-cologne-s-kolsch-ritual"
-   ],
-   "confidence": "high",
-   "research": "fnb-dom-altstadt-eigelstein, r3-brauhaus",
-   "checked": "2026-11-07",
-   "coord_source": "nominatim",
-   "dist": {
-    "dom": 0.27,
-    "hbf": 0.39,
-    "messe": 1.67,
-    "deutz": 1.05,
-    "belgisches": 1.79
    }
   },
   {
@@ -1125,9 +1123,9 @@ window.KOLN_GUIDE = {
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.4,
-   "google_reviews": 748,
+   "google_reviews": 948,
    "google_as_of": null,
-   "rating_source": "top-rated.online (Google 리뷰 수치로 표기, 기준 시점 미표시)",
+   "rating_source": "wanderlog.com (Google 4.4 / 948); restaurantguru.com Google 4.4",
    "summary_ko": "구시가 호이마르크트(Heumarkt) 광장, 같은 이름의 정류장 가까이에 있는 태국 레스토랑입니다(4.4, 리뷰 748개). 벨기에 지구 1호점에 이은 2호점입니다. 대성당과 라인강변을 둘러본 뒤 앉아서 태국 음식을 먹기 편한 위치입니다.",
    "must_try": [],
    "tips_ko": "벨기에 지구 지점(Brüsseler Str. 40-42)은 평점이 4.2로 조금 낮습니다.",
@@ -1135,12 +1133,19 @@ window.KOLN_GUIDE = {
    "awards": [],
    "award_flags": [],
    "sources": [
-    "https://www.top-rated.online/cities/Koeln/place/p/2223278/Krua+Thai+2+-+Heumarkt"
+    "https://www.top-rated.online/cities/Koeln/place/p/2223278/Krua+Thai+2+-+Heumarkt",
+    "https://wanderlog.com/place/details/3690494/krua-thai-am-heumarkt",
+    "https://restaurantguru.com/Krua-Thai-Cologne-2"
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "리뷰 수 748 → 948 갱신(활동 신호). 정통 태국 맛·양 많고 가격 합리적이라는 평. 셀프서비스·일회용 컵, 카드 결제 수수료 불만, 팟타이 실망 리뷰 일부. top-rated.online 상호는 'Krua Thai 2 – Heumarkt'. Restaurant Guru 4.8은 자체 합산 점수.",
+   "latest_review": null,
+   "google_previous": "4.4 (748)",
    "dist": {
     "dom": 0.66,
     "hbf": 0.8,
@@ -1182,9 +1187,9 @@ window.KOLN_GUIDE = {
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.4,
-   "google_reviews": 664,
+   "google_reviews": 833,
    "google_as_of": null,
-   "rating_source": "reviewhero.io (출처 1곳 = Google; 업소명 없이 주소 Mariengartengasse 5로 대조). TripAligner는 4.3/156",
+   "rating_source": "yably.de (Google 4.40 / 833, 갱신일 미표시)",
    "summary_ko": "대성당 근처 마리엔가르텐가세(Mariengartengasse)에 있는 네팔·티베트 음식점으로, 시내 중심에서는 드문 히말라야 요리 선택지입니다(4.4, 리뷰 664개). 비건 메뉴가 있고 가격대가 중간 수준이라, 대성당을 본 뒤 색다른 음식을 맛보고 싶은 사람에게 맞습니다.",
    "must_try": [],
    "tips_ko": "구글 수치는 업소명 없이 주소로만 맞춰 본 값이라, 방문 전 Google 지도에서 이름과 영업 여부를 확인하세요. TripAligner에 따르면 배달도 됩니다.",
@@ -1193,12 +1198,20 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://www.reviewhero.io/de/nepalesisches-restaurant/koeln",
-    "https://tripaligner.com/countries/germany-22/destinations/koln-8618/places/buddha-s-eye-6429306"
+    "https://tripaligner.com/countries/germany-22/destinations/koln-8618/places/buddha-s-eye-6429306",
+    "https://yably.de/bewertungen/koeln/buddhas-eye-nepal-tibet-restaurant-mariengartengasse-5",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d6429306-Reviews-Buddha_s_Eye-Cologne_North_Rhine_Westphalia.html",
+    "https://wanderlog.com/list/geoCategory/2875/best-asian-food-in-cologne"
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "리뷰 수 664(reviewhero) → 833(Yably 구글)로 갱신. Yably 상호 'Buddha's Eye Nepal Tibet Restaurant', 주소 Mariengartengasse 5 일치. 정통 네팔 음식·모모·가성비 호평, 혼잡 시 서비스·예약 처리 비판. 트립어드바이저 4.3/156. 폐업 신호 없음.",
+   "latest_review": null,
+   "google_previous": "4.4 (664)",
    "dist": {
     "dom": 0.35,
     "hbf": 0.36,
@@ -1255,12 +1268,17 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/7852705/louis-cafe-am-dom",
-    "https://restaurantguru.com/LOUIS-Cafe-am-Dom-Cologne"
+    "https://restaurantguru.com/LOUIS-Cafe-am-Dom-Cologne",
+    "https://wanderlog.com/list/geoCategory/1815570/best-spots-for-afternoon-tea-in-cologne"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "수치 불일치 주의: 장소 페이지(4.5/297)가 예전 목록(4.4/407)보다 리뷰 수가 적음 — 구글 항목 재생성 또는 리뷰 삭제 가능성, 확인 필요. 흑당 버블티·넓은 좌석 호평, 케이크 품절·냉동 케이크 불만. €10 미만은 카드 결제가 안 된다는 리뷰. 트립어드바이저의 'ST. LOUIS Café'(도이츠)는 다른 곳.",
+   "latest_review": null,
    "dist": {
     "dom": 0.23,
     "hbf": 0.36,
@@ -1313,9 +1331,9 @@ window.KOLN_GUIDE = {
     "Früh Kölsch"
    ],
    "google_rating": 4.3,
-   "google_reviews": 19851,
+   "google_reviews": 22460,
    "google_as_of": null,
-   "rating_source": "restaurantguru.com",
+   "rating_source": "wanderlog.com (Google 4.3 / 22,460); restaurantguru.com Google 4.3 / 19,851",
    "summary_ko": "대성당 바로 남쪽 Am Hof에 있는 Früh Kölsch의 대표 브라우하우스로, Fodor's가 '대성당 그늘 아래의 유서 깊은 옛 양조장'으로 소개한 쾰른 관광 1번지 맥주홀이다. 구글 리뷰 약 2만 건(4.3)으로 규모·인지도는 최고지만 서비스 평은 크게 엇갈린다.",
    "must_try": [
     "Früh Kölsch (프뤼 쾰시 — 이 집의 쾰시 맥주)"
@@ -1331,12 +1349,18 @@ window.KOLN_GUIDE = {
     "https://www.tripexpert.com/cologne/restaurants/fruh-am-dom",
     "https://sa.trip.com/travel-guide/cologne-388-restaurant/Frueh%20am%20Dom-17190129",
     "https://www.beeradvocate.com/beer/profile/1450/6356/",
-    "https://www.frueh-am-dom.de/fileadmin/menus/Brauhaus/SpeisekarteBrauhaus.pdf"
+    "https://www.frueh-am-dom.de/fileadmin/menus/Brauhaus/SpeisekarteBrauhaus.pdf",
+    "https://wanderlog.com/place/details/1188726/brauhaus-fr%C3%BCh-am-dom"
    ],
    "confidence": "medium",
    "research": "fnb-dom-altstadt-eigelstein, r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "리뷰 수 19,851 → 22,460 갱신. 2026년 8월 트립어드바이저 리뷰(서두르는 서빙·불명확한 계산서 불만) 확인 → 영업 중. 돔 옆 위치·쾰시·옛 분위기 호평, 음식은 평범하고 혼잡 시 서비스 불만. 트립어드바이저 3.9/약 5,300.",
+   "latest_review": "2026-08",
+   "google_previous": "4.3 (19851)",
    "dist": {
     "dom": 0.15,
     "hbf": 0.29,
@@ -1389,9 +1413,9 @@ window.KOLN_GUIDE = {
     "Gilden Kölsch"
    ],
    "google_rating": 4.3,
-   "google_reviews": 9551,
+   "google_reviews": 9988,
    "google_as_of": null,
-   "rating_source": "yably.de",
+   "rating_source": "wanderlog.com (Google 4.3 / 9,988); yably.de Google 4.30 / 9,551",
    "summary_ko": "호이마르크트(Heumarkt)에 있는 길덴 쾰시(Gilden Kölsch)의 브라우하우스 'Gilden im Zims – Heimat kölscher Helden'으로, 오픈테이블 후기에서 '가 본 곳 중 가장 친절한 브라우하우스'로 꼽힐 만큼 서비스 평이 좋다. 식사 뒤 지하 아치형 저장고(Gewölbekeller)에서 춤을 출 수 있을 만큼 흥겹고, 일요일 브런치도 있다.",
    "must_try": [
     "Gilden Kölsch (길덴 쾰시 — 갓 따라 온도가 딱 맞다는 후기)",
@@ -1406,18 +1430,102 @@ window.KOLN_GUIDE = {
     "https://www.tripadvisor.com/Restaurant_Review-g187371-d1805991-Reviews-Gilden_im_Zims-Cologne_North_Rhine_Westphalia.html",
     "https://www.opentable.com/gilden-im-zims-heimat-kolscher-helden",
     "https://www.speisekarte.de/k%C3%B6ln/restaurant/gilden_im_zims_heimat_koelscher_helden",
-    "https://koeln.stadtbranchenbuch.com/5196045.html"
+    "https://koeln.stadtbranchenbuch.com/5196045.html",
+    "https://wanderlog.com/place/details/763590/gilden-im-zims-heimat-k%C3%B6lscher-helden"
    ],
    "confidence": "medium",
    "research": "r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "리뷰 수 9,551 → 9,988 갱신. 2026년 10월 트립어드바이저 리뷰(서비스·음식 호평) 확인 → 영업 중. 예전 리뷰엔 느린 서비스·퍽퍽한 고기 불만. Yably 공휴일 영업 11:00–23:00.",
+   "latest_review": "2026-10",
+   "google_previous": "4.3 (9551)",
    "dist": {
     "dom": 0.46,
     "hbf": 0.6,
     "messe": 1.8,
     "deutz": 1.12,
     "belgisches": 1.78
+   }
+  },
+  {
+   "id": "peters-brauhaus",
+   "name": "Peters Brauhaus",
+   "category": "brauhaus",
+   "area": "dom-altstadt",
+   "address": "Mühlengasse 1, 50667 Köln",
+   "lat": 50.939245,
+   "lng": 6.960283,
+   "cuisine": "Rhineland / Kölsch brauhaus",
+   "cuisine_country": [
+    "DE"
+   ],
+   "cuisine_region": "central-europe",
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "touristy",
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": 2,
+   "price_estimated": true,
+   "price_pp": null,
+   "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
+   "beer_price_eur": 2.3,
+   "beer_price_note": "Kölsch 0.2 l 약 €2.30 (2025년 가을 기준, colognecitybreaks.com 'Kölner Kölsch-Brauhaus-Guide 2026')",
+   "beers": [
+    "Peters Kölsch"
+   ],
+   "google_rating": 4.2,
+   "google_reviews": 8850,
+   "google_as_of": "2026-05",
+   "rating_source": "wanderlog.com 장소 페이지 (4.2 / 8,850, 첫 점수=Google로 판단; 4.0/2,291은 트립어드바이저 추정); yably.de Google 4.20 / 8,454",
+   "summary_ko": "구시가 알터 마르크트(Alter Markt) 인근 Mühlengasse의 대형 전통 브라우하우스로, Peters Kölsch와 쾨베스(Köbes, 브라우하우스 웨이터)의 서빙 자체가 '경험의 일부'라는 후기가 많다. 관광객 비중이 높지만 구글 리뷰 8천여 건에 4.4로 구시가 브라우하우스 중 평점이 높은 편이라 첫 브라우하우스로 무난하다.",
+   "must_try": [
+    "Peters Kölsch (페터스 쾰시 — 이 집에서 내는 쾰시 맥주)"
+   ],
+   "tips_ko": "후기에 관광객이 많다는 언급이 잦다. 트립어드바이저(3.9, 2,338건)는 구글(4.4)보다 낮게 나온다. 음식 메뉴·가격은 이번 조사에서 확인하지 못했으니 방문 전 공식 메뉴를 확인할 것.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://www.werkenntdenbesten.de/e/28017932/brauerei/koeln/peters-brauhaus-bruno-haumann-gf-bewertungen.html",
+    "https://spinach.guide/venues/peters-brauhaus-23831/",
+    "https://theeuropeanbarguide.com/peters-brauhaus-cologne",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/peters_brauhaus",
+    "https://www.colognecitybreaks.com/de/city/cologne/articles/the-system-in-the-glass-inside-cologne-s-kolsch-ritual",
+    "https://yably.de/bewertungen/koeln/peters-brauhaus-muehlengasse-1",
+    "https://wanderlog.com/place/details/490862/peters-brauhaus",
+    "https://restaurantguru.com/Peters-Brauhaus-Cologne"
+   ],
+   "confidence": "high",
+   "research": "fnb-dom-altstadt-eigelstein, r3-brauhaus",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "평점 하향 필요: 기존 4.4(werkenntdenbesten)는 여러 포털 합산치였을 가능성 — 구글 단독은 Yably·Wanderlog 모두 4.2. 리뷰 수 8,395 → 8,850. Restaurant Guru 4.1/11,419는 자체 합산. 트립어드바이저 3.9/2,359. 분위기·쾰시 호평, 느리거나 불친절한 서비스·관광객 많음 비판. 단체는 예약 권장.",
+   "latest_review": null,
+   "google_previous": "4.4 (8395)",
+   "dist": {
+    "dom": 0.27,
+    "hbf": 0.39,
+    "messe": 1.67,
+    "deutz": 1.05,
+    "belgisches": 1.79
    }
   },
   {
@@ -1468,12 +1576,18 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/763650/beirut-restaurant",
-    "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+    "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
+    "https://yably.de/bewertungen/koeln/beirut-restaurant-buttermarkt-3",
+    "https://restaurantguru.com/Beirut-Cologne"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.2 재확인. 이번 조회 리뷰 수가 기존 3,692보다 적어 기존 값 유지(스냅샷 차이). 매일 12:00–23:00(Yably, 공휴일 ~24시). 11880의 '수요일 12시까지 닫힘' 표시는 오래된 스냅샷으로 보임. 메제 플레이트·믹스 그릴 추천, 좁다는 평, 예약 권장.",
+   "latest_review": null,
    "dist": {
     "dom": 0.56,
     "hbf": 0.69,
@@ -1544,12 +1658,18 @@ window.KOLN_GUIDE = {
     "https://verliebtinkoeln.com/beste-brauhaus-koeln/",
     "https://www.22places.com/cologne-breweries/",
     "https://www.colognecitybreaks.com/de/city/cologne/articles/the-system-in-the-glass-inside-cologne-s-kolsch-ritual",
-    "https://www.werkenntdenbesten.de/e/26510826/restaurant/koeln/brauerei-zur-malzmuehle-brauerei-bewertungen.html"
+    "https://www.werkenntdenbesten.de/e/26510826/restaurant/koeln/brauerei-zur-malzmuehle-brauerei-bewertungen.html",
+    "https://wanderlog.com/place/details/378578/brauerei-zur-malzm%C3%BChle",
+    "https://www.11880.com/branchenbuch/koeln/071364395B26510826/brauerei-zur-malzmuehle-brauerei.html"
    ],
    "confidence": "medium",
    "research": "fnb-dom-altstadt-eigelstein, r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 평점은 Wanderlog·Restaurant Guru 모두 4.3(기존 4.2는 spinach.guide 기준이라 구글 수치가 아닐 수 있음). 리뷰 수는 2,237(Wanderlog)·2,584(기존)·6,345(Restaurant Guru)로 크게 엇갈려 미확정 — 확인 필요. 영업 월–목·일 ~23시, 금·토 ~24시(트립어드바이저·Wanderlog; 11880은 11:30–23, 일 ~22). 트립어드바이저 4.0/1,355. 폐업 신호 없음.",
+   "latest_review": null,
    "dist": {
     "dom": 0.76,
     "hbf": 0.89,
@@ -7474,7 +7594,7 @@ window.KOLN_GUIDE = {
    "google_rating": 4.9,
    "google_reviews": 157,
    "google_as_of": null,
-   "rating_source": "top-rated.online (Google Maps 데이터 미러, 기준 시점 미표시)",
+   "rating_source": "top-rated.online (Google 미러 4.90 / 157, 페이지 약 50일 전 스냅샷); werkenntdenbesten.de google.de 4.90 / 142",
    "summary_ko": "중앙역 북쪽 쿠니베르츠 지구, 라인강 쪽 튀름헨스발(Thürmchenswall)에 있는 작은 태국 임비스(간이식당)입니다. Google 기반 집계에서 쾰른 태국 식당 1위(4.9)에 올라 있습니다. 리뷰는 157개로 적지만 평이 아주 좋아서, 대성당·중앙역 북쪽에서 동네 맛집을 찾는 사람에게 맞습니다.",
    "must_try": [],
    "tips_ko": "리뷰 수가 아직 적어 평점이 바뀔 수 있습니다. 메뉴와 영업시간은 방문 전 Google 지도에서 확인하세요.",
@@ -7482,79 +7602,25 @@ window.KOLN_GUIDE = {
    "awards": [],
    "award_flags": [],
    "sources": [
-    "https://www.top-rated.online/cities/Cologne/place/p/13815343/Thai+Ja-+R%C3%B6en+Imbiss"
+    "https://www.top-rated.online/cities/Cologne/place/p/13815343/Thai+Ja-+R%C3%B6en+Imbiss",
+    "https://www.werkenntdenbesten.de/e/113453146/asiatisches-restaurant/koeln/thai-ja-roeen-imbiss-bewertungen.html",
+    "https://www.11880.com/branchenbuch/koeln/071364400B113453146/thai-ja-roeen-imbiss.html",
+    "https://yably.de/bewertungen/koeln/thai-imbiss-chaokoh-thuermchenswall-64"
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.9/157 재확인. 같은 주소(Thürmchenswall 64)에 'Thai Imbiss Chaokoh / Chao Koh Thai Imbiss'(Yably 4.2/747) 별도 항목이 있음 — 이전 상호일 가능성, 지도 검색 시 혼동 주의. 영업 11:30–16:00·17:00–21:30, 목요일 휴무 표기(top-rated.online, 출처 간 불일치). 짧은 영업시간·매운 맛 지적, 맛·친절·가성비 호평. 전화 0221 29795981.",
+   "latest_review": null,
    "dist": {
     "dom": 0.91,
     "hbf": 0.78,
     "messe": 1.42,
     "deutz": 1.32,
     "belgisches": 2.23
-   }
-  },
-  {
-   "id": "caruso-pastabar",
-   "name": "CARUSO Pastabar",
-   "category": "restaurant",
-   "area": "agnesviertel-eigelstein",
-   "address": "Kasparstraße 19, 50670 Köln",
-   "lat": 50.952534,
-   "lng": 6.953559,
-   "cuisine": "Italian pasta bar",
-   "cuisine_country": [
-    "IT"
-   ],
-   "cuisine_region": "southern-europe",
-   "dishes": [
-    "pasta"
-   ],
-   "diet": [],
-   "meals": [],
-   "occasions": [],
-   "features": [],
-   "drinks": [],
-   "vibe": [],
-   "reservation": "unknown",
-   "payment": "unknown",
-   "location": [],
-   "price_level": null,
-   "price_estimated": false,
-   "price_pp": null,
-   "price_note": "가격 정보 미확인",
-   "beer_price_eur": null,
-   "beer_price_note": null,
-   "beers": [],
-   "google_rating": 4.7,
-   "google_reviews": 957,
-   "google_as_of": null,
-   "rating_source": "wanderlog.com (place page; first score shown = Google, second 4.5/686 is another platform)",
-   "summary_ko": "아그네스 지구의 작은 파스타 바로, '파스타가 주인공'이라는 평처럼 맛과 테크닉을 칭찬하는 리뷰가 많다. 2023년 미쉐린 빕 구르망에 올랐던 곳이라 파스타 한 접시에 진심인 사람에게 맞다.",
-   "must_try": [
-    "Pasta (파스타 — 리뷰에서 맛·테크닉 호평)"
-   ],
-   "tips_ko": "가게가 작고 테이블 간격이 좁습니다. 2023년 빕 구르망(hogapage 보도) 이후 2026년 미쉐린 표시는 확인하지 못했습니다. 가격 미확인.",
-   "website": null,
-   "awards": [],
-   "award_flags": [],
-   "sources": [
-    "https://wanderlog.com/place/details/884741",
-    "https://wanderlog.com/list/geoCategory/1799196/best-places-for-pasta-in-cologne",
-    "https://www.hogapage.de/nachrichten/wirtschaft/gastronomie/guide-michelin-2023-sterne-rekord-für-deutsche-spitzengastronomen/?page=6"
-   ],
-   "confidence": "medium",
-   "research": "r2-europe-americas",
-   "checked": "2026-11-07",
-   "coord_source": "nominatim",
-   "dist": {
-    "dom": 1.29,
-    "hbf": 1.16,
-    "messe": 2.05,
-    "deutz": 1.99,
-    "belgisches": 2.06
    }
   },
   {
@@ -7608,12 +7674,17 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://restaurantguru.com/Tang-Wang-Cologne",
     "https://wanderlog.com/place/details/1525287/tang-wang-k%C3%B6ln",
-    "https://wanderlog.com/list/geoCategory/22508/best-chinese-food-in-cologne"
+    "https://wanderlog.com/list/geoCategory/22508/best-chinese-food-in-cologne",
+    "https://www.11880.com/branchenbuch/koeln/071364406B54135957/resturant-tang-wang-restaurant.html"
    ],
    "confidence": "high",
    "research": "r2-east-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "새 구글 수치 없음(기존 Restaurant Guru 구글 4.7/685 유지 권장). Wanderlog 영업: 점심·저녁, 토 11:30–22:30, 일 11:30–15:00·17:30–22:30. 11880은 11–15·17–23시와 '닫힘' 표시가 있으나 오래된 스냅샷으로 보임. 정통 중식(마파두부·궁보계정) 호평. 전화 +49 221 82956288.",
+   "latest_review": null,
    "dist": {
     "dom": 0.43,
     "hbf": 0.3,
@@ -7681,18 +7752,94 @@ window.KOLN_GUIDE = {
     "https://www.gastroguide.de/restaurant/5434/max-stark/koeln/",
     "https://www.tripadvisor.com/Restaurant_Review-g187371-d1866174-Reviews-Max_Stark-Cologne_North_Rhine_Westphalia.html",
     "https://coolibri.de/restaurant/max-stark-koeln/",
-    "https://speisekarte.menu/restaurants/koeln/max-stark"
+    "https://speisekarte.menu/restaurants/koeln/max-stark",
+    "https://restaurantguru.com/Max-Stark-Cologne",
+    "https://wanderlog.com/place/details/1188728/max-stark",
+    "https://www.top-rated.online/cities/Cologne/place/p/1237955/Max+Stark"
    ],
    "confidence": "medium",
    "research": "r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.6 재확인. 이번 조회 리뷰 수가 기존 3,953(yably)보다 적어 기존 값 유지. 대부분 매일 약 11:00–24:00(월–토만 적은 곳도 있음). 주소 Unter Kahlenhausen 47, 50668 일치. 전화 +49 221 2005633. 폐업 신호 없음.",
+   "latest_review": null,
    "dist": {
     "dom": 0.91,
     "hbf": 0.78,
     "messe": 1.4,
     "deutz": 1.31,
     "belgisches": 2.24
+   }
+  },
+  {
+   "id": "caruso-pastabar",
+   "name": "CARUSO Pastabar",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Kasparstraße 19, 50670 Köln",
+   "lat": 50.952534,
+   "lng": 6.953559,
+   "cuisine": "Italian pasta bar",
+   "cuisine_country": [
+    "IT"
+   ],
+   "cuisine_region": "southern-europe",
+   "dishes": [
+    "pasta"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 994,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (첫 점수=Google 4.6 / 994; 4.5/686은 트립어드바이저로 추정); restaurantguru.com Google 4.7 / 975(이전 스냅샷)",
+   "summary_ko": "아그네스 지구의 작은 파스타 바로, '파스타가 주인공'이라는 평처럼 맛과 테크닉을 칭찬하는 리뷰가 많다. 2023년 미쉐린 빕 구르망에 올랐던 곳이라 파스타 한 접시에 진심인 사람에게 맞다.",
+   "must_try": [
+    "Pasta (파스타 — 리뷰에서 맛·테크닉 호평)"
+   ],
+   "tips_ko": "가게가 작고 테이블 간격이 좁습니다. 2023년 빕 구르망(hogapage 보도) 이후 2026년 미쉐린 표시는 확인하지 못했습니다. 가격 미확인.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/place/details/884741",
+    "https://wanderlog.com/list/geoCategory/1799196/best-places-for-pasta-in-cologne",
+    "https://www.hogapage.de/nachrichten/wirtschaft/gastronomie/guide-michelin-2023-sterne-rekord-für-deutsche-spitzengastronomen/?page=6",
+    "https://wanderlog.com/place/details/884741/caruso-pastabar",
+    "https://restaurantguru.com/Pasta-Bar-Cologne-2",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d718264-Reviews-or30-Caruso_Pastabar-Cologne_North_Rhine_Westphalia.html"
+   ],
+   "confidence": "medium",
+   "research": "r2-europe-americas",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "평점 4.7 → 4.6 소폭 하락(리뷰 957 → 994). 영업 월–토 18:00–23:00(Wanderlog는 17:30~), 일요일 휴무. 파스타·서비스 호평. 트립어드바이저 4.6/690. 전화 +49 221 9386311, caruso-pastabar.de.",
+   "latest_review": null,
+   "google_previous": "4.7 (957)",
+   "dist": {
+    "dom": 1.29,
+    "hbf": 1.16,
+    "messe": 2.05,
+    "deutz": 1.99,
+    "belgisches": 2.06
    }
   },
   {
@@ -7738,12 +7885,18 @@ window.KOLN_GUIDE = {
    "awards": [],
    "award_flags": [],
    "sources": [
-    "https://www.top-rated.online/cities/Cologne/place/p/1237961/Thai+Imbiss"
+    "https://www.top-rated.online/cities/Cologne/place/p/1237961/Thai+Imbiss",
+    "https://restaurantguru.com/Thai-Imbiss-Cologne-2",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d7322743-Reviews-Thai_Imbiss_Eigelstein_Koln-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-se-south-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.5, 약 1.5K 리뷰로 기존 값(4.5/1,535)과 일치. 영업 대략 11:00–22:00(일 12:00~), 출처마다 차이(트립어드바이저 한 곳은 11:30–23:30). 현금만 가능하다는 리뷰 다수(근처 ATM 있음). 양 많고 저렴·빠른 서비스 호평, 최근 리뷰에 싱거움·가격 분쟁·불친절 불만도. 트립어드바이저 4.4/155.",
+   "latest_review": null,
    "dist": {
     "dom": 0.87,
     "hbf": 0.73,
@@ -7794,12 +7947,20 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/list/geoCategory/20723/best-cheap-eats-in-cologne",
-    "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+    "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
+    "https://wanderlog.com/place/details/1160462/%C3%B6z-harran-doy-doy",
+    "https://yably.de/bewertungen/koeln/oez-harran-doy-doy-weidengasse-28-34",
+    "https://restaurantguru.com/Oez-Harran-Cologne",
+    "https://www.tripadvisor.de/Restaurant_Review-g187371-d4114963-Reviews-Oz_Harran_Doy_Doy-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.4 재확인. 이번 조회 리뷰 수가 기존 2,404보다 적어 기존 값 유지. 심야 영업: 트립어드바이저 월–금 ~05:00, 토 ~07:00(11880의 9–24시는 오래된 정보로 보임). Restaurant Guru 페이지는 약 759일 전 스냅샷. 전화 +49 221 1307394.",
+   "latest_review": null,
    "dist": {
     "dom": 0.79,
     "hbf": 0.65,
@@ -7846,7 +8007,7 @@ window.KOLN_GUIDE = {
    "google_rating": 4.4,
    "google_reviews": 1388,
    "google_as_of": null,
-   "rating_source": "wanderlog.com (Google; Tripadvisor 4.0 / 82 shown separately)",
+   "rating_source": "wanderlog.com (Google 4.4 / 약 1,388)",
    "summary_ko": "중앙역 북쪽 요하니스 거리에 있는 한식당으로 부대찌개와 치즈불닭이 대표 메뉴다. Mit Vergnügen이 2019년 '쾰른 최고의 한식당일지도'라고 소개했고 지금도 늘 붐벼서, 역 근처에서 얼큰한 한식이 당길 때 좋다.",
    "must_try": [
     "Budae Jjigae (부대찌개)",
@@ -7860,73 +8021,23 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/3690465/gogi-matcha-korean-restaurant",
     "https://koeln.mitvergnuegen.com/2019/gogi-matcha-das-vielleicht-beste-koreanische-restaurant-koelns/",
-    "https://www.reviewhero.io/gogi-matcha-dusseldorf-efb0"
+    "https://www.reviewhero.io/gogi-matcha-dusseldorf-efb0",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d10032364-Reviews-Gogi_Matcha_Korean_Restaurant-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.4/1,388 재확인. 트립어드바이저 리뷰가 82 → 90건으로 늘어 활동 지속(평점 4.0). 토 17:00–00:30 영업 표기. 작고 인기 많아 예약 권장, 포장 가능. 해물파전·김치전 호평, 일부 메인이 달거나 평범하다는 평. 전화 +49 221 72024255.",
+   "latest_review": null,
    "dist": {
     "dom": 0.36,
     "hbf": 0.26,
     "messe": 1.48,
     "deutz": 1.09,
     "belgisches": 1.92
-   }
-  },
-  {
-   "id": "restaurant-diogenis",
-   "name": "Restaurant Diogenis",
-   "category": "restaurant",
-   "area": "agnesviertel-eigelstein",
-   "address": "Sudermanplatz 7, 50670 Köln",
-   "lat": 50.951574,
-   "lng": 6.954613,
-   "cuisine": "Greek restaurant",
-   "cuisine_country": [
-    "GR"
-   ],
-   "cuisine_region": "southern-europe",
-   "dishes": [],
-   "diet": [],
-   "meals": [],
-   "occasions": [],
-   "features": [],
-   "drinks": [],
-   "vibe": [],
-   "reservation": "unknown",
-   "payment": "unknown",
-   "location": [],
-   "price_level": null,
-   "price_estimated": false,
-   "price_pp": null,
-   "price_note": "가격 정보 미확인",
-   "beer_price_eur": null,
-   "beer_price_note": null,
-   "beers": [],
-   "google_rating": 4.4,
-   "google_reviews": 619,
-   "google_as_of": null,
-   "rating_source": "wanderlog.com (Greek restaurants list)",
-   "summary_ko": "아그네스 지구 주더만플라츠(Sudermanplatz)의 그리스 레스토랑으로, 구글 리뷰 600개 이상에 4.4점이다. 관광지에서 벗어나 동네 그리스 식당에서 편하게 저녁을 먹고 싶을 때 좋다.",
-   "must_try": [],
-   "tips_ko": "메뉴·가격은 이번 조사에서 확인하지 못했습니다.",
-   "website": null,
-   "awards": [],
-   "award_flags": [],
-   "sources": [
-    "https://wanderlog.com/list/geoCategory/786948/best-greek-foods-and-restaurants-in-cologne"
-   ],
-   "confidence": "medium",
-   "research": "r2-europe-americas",
-   "checked": "2026-11-07",
-   "coord_source": "nominatim",
-   "dist": {
-    "dom": 1.17,
-    "hbf": 1.04,
-    "messe": 1.95,
-    "deutz": 1.86,
-    "belgisches": 2.03
    }
   },
   {
@@ -7964,7 +8075,7 @@ window.KOLN_GUIDE = {
    "google_rating": 4.2,
    "google_reviews": 538,
    "google_as_of": null,
-   "rating_source": "wanderlog.com",
+   "rating_source": "wanderlog.com (Google 4.2 / 538); restaurantguru.com Google 4.2 / 503",
    "summary_ko": "아이겔슈타인 지구 바이덴가세(Weidengasse)의 터키식 바클라바 가게로, 시럽이 과하지 않고 피스타치오를 듬뿍 넣은 바클라바가 칭찬받는다. 중앙역 북쪽에서 터키식 디저트를 맛보고 싶은 사람에게 맞다.",
    "must_try": [
     "Fıstıklı Baklava (피스타치오 바클라바)"
@@ -7974,12 +8085,18 @@ window.KOLN_GUIDE = {
    "awards": [],
    "award_flags": [],
    "sources": [
-    "https://wanderlog.com/place/details/2637260/damla"
+    "https://wanderlog.com/place/details/2637260/damla",
+    "https://restaurantguru.com/Damla-Cologne",
+    "https://www.tripadvisor.com/Restaurant_Review-g187371-d10547912-Reviews-Damla-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.2/538 재확인. 트립어드바이저 주소 표기는 Weidengasse 47-49. 매일 09:00–24:00(트립어드바이저·Restaurant Guru). 바클라바 호평, 아침 식사가 비싸다는 평. Keupstraße·Ehrenfeld의 다른 Damla 지점과 혼동 주의. 전화 +49 221 16826576.",
+   "latest_review": null,
    "dist": {
     "dom": 0.8,
     "hbf": 0.66,
@@ -9266,7 +9383,7 @@ window.KOLN_GUIDE = {
    "google_rating": 4.7,
    "google_reviews": 1722,
    "google_as_of": null,
-   "rating_source": "wanderlog.com",
+   "rating_source": "Google 미러(Wanderlog 형식 표기) 4.7 / 1,722",
    "summary_ko": "2016년 문을 연 쾰른 최초의 탭룸 겸 크래프트 맥주 바로, 매일 바뀌는 15개 탭 맥주를 구시가 한복판(Martinstraße)에서 마신다. 맥주를 잘 아는 직원과 루프탑 자리가 호평이라, 쾰시 말고 다른 맥주를 맛보고 싶은 맥주 애호가에게 1순위다.",
    "must_try": [
     "Rotating craft beers on tap (매일 바뀌는 15개 탭의 크래프트 맥주)",
@@ -9284,12 +9401,18 @@ window.KOLN_GUIDE = {
     "https://www.holland-hoch2.de/staedte/koeln/craftbeer-corner-coeln.html",
     "https://untappd.com/v/craftbeer-corner/5540016",
     "https://www.tripadvisor.de/ShowUserReviews-g187371-d16883341-r639061108-Craftbeer_Corner_Coeln-Cologne_North_Rhine_Westphalia.html",
-    "https://tipsymonk.de/wissen/craft-beer-koeln-guide"
+    "https://tipsymonk.de/wissen/craft-beer-koeln-guide",
+    "https://restaurantguru.com/Craftbeer-Corner-Coeln-Cologne",
+    "https://www.tripadvisor.com/Attraction_Review-g187371-d16883341-Reviews-Craftbeer_Corner_Coeln-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-bars, r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.7/1,722 재확인. 트립어드바이저 4.8/133, Restaurant Guru 자체 4.8/263. 영업 월–목 18–24시, 금·토 17–24시, 일요일 휴무(리뷰 기준, 변경 가능). 맥주 종류·친절한 직원 호평, 매우 붐벼 일찍 가거나 예약 권장.",
+   "latest_review": null,
    "dist": {
     "dom": 0.45,
     "hbf": 0.59,
@@ -9331,9 +9454,9 @@ window.KOLN_GUIDE = {
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.6,
-   "google_reviews": 2634,
+   "google_reviews": 2693,
    "google_as_of": null,
-   "rating_source": "wanderlog.com",
+   "rating_source": "top-rated.online (Google 미러, 'Papa Joe's Jazz Bar' 4.60 / 2,693); wanderlog.com 4.6 / 2,634",
    "summary_ko": "1974년부터 쾰른 재즈 씬을 지켜 온 구시가의 작은 재즈 펍('Streckstrump')으로, 연주자의 손놀림이 보일 만큼 가까이에서 라이브 재즈를 듣는다. 18개 병으로 60여 가지 칵테일을 섞는 기계 'Cocktail Joe'도 명물이라, 라이브 음악과 함께 편하게 한잔하고 싶은 사람에게 맞다.",
    "must_try": [
     "Cocktail Joe (칵테일 조 — 18개 병으로 60여 가지 칵테일을 섞어 주는 자동 칵테일 기계)"
@@ -9350,12 +9473,19 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/1289016/papa-joes-jazz-bar",
     "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
     "https://www.werkenntdenbesten.de/cityguide/koeln/koeln-ausgehen",
-    "https://www.travelbook.de/orte/auch-eine-deutsche-dabei-die-besten-bars-in-europa"
+    "https://www.travelbook.de/orte/auch-eine-deutsche-dabei-die-besten-bars-in-europa",
+    "https://www.top-rated.online/cities/K%C3%B6ln/place/p/4163142/Papa+Joe's+Jazz+Bar",
+    "https://www.tripadvisor.com/Attraction_Review-g187371-d6686795-Reviews-Papa_Joe_s_Jazz_Lokal-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "medium",
    "research": "r2-bars",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "리뷰 수 2,634 → 2,693 갱신. 구글 상호는 'Papa Joe's Jazz Bar'. 저녁 19/20시~심야 영업(월–목 20–03, 금–일 19–02 등 출처 상이), papajoes.de. 현금만 가능하다는 리뷰 다수. 라이브 재즈·하우스 쾰시 호평, 음료가 비싸다·관광객용이라는 평 일부. 트립어드바이저 'Jazz Lokal' 4.3/324.",
+   "latest_review": null,
+   "google_previous": "4.6 (2634)",
    "dist": {
     "dom": 0.47,
     "hbf": 0.59,
@@ -9402,9 +9532,9 @@ window.KOLN_GUIDE = {
     "Reissdorf Kölsch"
    ],
    "google_rating": 4.6,
-   "google_reviews": 1088,
+   "google_reviews": 1125,
    "google_as_of": null,
-   "rating_source": "restaurantguru.com (Google)",
+   "rating_source": "top-rated.online (Google 미러 4.60 / 1,125); restaurantguru.com 4.6 / 1,578(자체 합산 추정)",
    "summary_ko": "관광객으로 붐비는 알터 마르크트(Alter Markt)에 있으면서도 생 라이스도르프 쾰시를 €1.70에 판다고 소개된 작은 술집으로, 칵테일 메뉴도 많다. 주방은 없지만 금·토 새벽 3시까지 열어, 구시가에서 싸게 늦게까지 마시기 좋다.",
    "must_try": [
     "Reissdorf Kölsch vom Fass (생 라이스도르프 쾰시)"
@@ -9417,12 +9547,18 @@ window.KOLN_GUIDE = {
     "https://verliebtinkoeln.com/kunstkaschaemm-koeln/",
     "https://restaurantguru.com/Kunstkaschaemm-Cologne",
     "https://www.top-rated.online/cities/Cologne/place/p/1237702/Kunstkaschaemm+-+K%C3%B6ln",
-    "https://verliebtinkoeln.com/koelsch-preis/"
+    "https://verliebtinkoeln.com/koelsch-preis/",
+    "https://www.tripadvisor.com/Attraction_Review-g187371-d5954338-Reviews-KunstKaschaemm-Cologne_North_Rhine_Westphalia.html"
    ],
    "confidence": "high",
    "research": "r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "리뷰 수 1,088 → 1,125 갱신. 영업 월–목 15–24시, 금 15–03시, 토 14–03시, 일 15–24시(출처 간 상이, 토 13시~ 표기도). 약 1년 전 구글 리뷰에 현금만 받았다는 언급(디렉터리는 카드 가능 표기) — 현금 준비 권장. 트립어드바이저 3.6/25(불친절 서비스 불만 일부).",
+   "latest_review": null,
+   "google_previous": "4.6 (1088)",
    "dist": {
     "dom": 0.41,
     "hbf": 0.54,
@@ -9491,12 +9627,19 @@ window.KOLN_GUIDE = {
     "https://tipsymonk.de/en/beer-bar-cologne",
     "https://tipsymonk.de/en/belgian-craft-beer-bar-cologne",
     "https://rausgegangen.de/en/locations/tipsy-monk-bier-bar-koln/",
-    "https://brewver.com/venues/1007/Tipsy-Monk-Bier-Bar-formerly-Delirium-Caf%C3%A9-K%C3%B6ln"
+    "https://brewver.com/venues/1007/Tipsy-Monk-Bier-Bar-formerly-Delirium-Caf%C3%A9-K%C3%B6ln",
+    "https://rausgegangen.de/en/locations/tipsy-monk-bier-bar-koln",
+    "https://retiredmartin.com/2026/03/25/a-murky-interlude-in-kolschland/",
+    "https://yably.de/bewertungen/koeln/delirium-cafe-koeln-salzgasse-2-4"
    ],
    "confidence": "high",
    "research": "r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "상호 변경: 같은 주소(Salzgasse 2-4)의 옛 'Delirium Café Köln'이 'Tipsy Monk'로 이름을 바꾸고 국제 크래프트 맥주 중심으로 운영(rausgegangen.de 소개문). 2026년 3월 방문 블로그(retiredmartin.com) 확인 → 영업 중. 리뷰 사이트엔 아직 구 상호로 남은 곳이 있음(Yably 구 상호 항목: 구글 4.60/690, 17:00–01:00·금·토 더 늦게). 새 상호 기준 구글 수치는 확인 못 함(추가 검색 1회 사용).",
+   "latest_review": "2026-03",
    "dist": {
     "dom": 0.47,
     "hbf": 0.6,
@@ -9553,12 +9696,17 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne",
     "https://www.speisekarte.de/k%C3%B6ln/restaurant/gaststaette_klimperkasten_papa_joes_biersalon/speisekarte",
     "https://restaurantguru.com/Papa-Joes-Biersalon-Cologne",
-    "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d7009269-Reviews-Papa_Joe_s-Cologne_North_Rhine_Westphalia.html"
+    "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d7009269-Reviews-Papa_Joe_s-Cologne_North_Rhine_Westphalia.html",
+    "https://www.11880.com/branchenbuch/koeln/071364395B27132537/klimperkasten-papa-joe-s-biersalon.html"
    ],
    "confidence": "medium",
    "research": "r2-bars, r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "Wanderlog 구글 4.5 재확인(리뷰 약 3,300으로 기존 3,427보다 적어 기존 값 유지). Restaurant Guru의 구글 4.1 표기는 불일치 — 오래된 수치 가능성. 일부 사이트 상호 'Klimperkasten Papa Joe's Biersalon'. 영업 대략 매일 11:00–03:00(11880·golocal; Restaurant Guru는 평일 일부 ~01시). 자동 연주 악기 분위기 호평, 최근 리뷰에 느린 서비스·샐러드 불만.",
+   "latest_review": null,
    "dist": {
     "dom": 0.31,
     "hbf": 0.44,
@@ -10788,7 +10936,7 @@ window.KOLN_GUIDE = {
    "google_rating": 4.8,
    "google_reviews": 879,
    "google_as_of": null,
-   "rating_source": "wanderlog.com",
+   "rating_source": "wanderlog.com (Google 4.8 / 879); yably.de Google 4.90 / 814(이전 스냅샷)",
    "summary_ko": "스리랑카 출신 바텐더 Indika Silva가 운영하는 아그네스 지구의 칵테일 바로, 이름(야자 수액 채취꾼)처럼 야자 증류주 아락(arrack)을 메뉴 전반에 쓴다. 독특한 재료로 만든 섬세한 칵테일과 서비스·플레이팅 칭찬이 많아 색다른 칵테일을 찾는 사람에게 맞다.",
    "must_try": [
     "Arrack cocktails (아락 칵테일 — 스리랑카 야자 증류주 베이스의 시그니처 칵테일)"
@@ -10805,12 +10953,19 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/4000468/toddy-tapper-k%C3%B6ln",
     "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
     "https://www.theworlds50best.com/discovery/Establishments/Germany/Cologne/Toddy-Tapper.html",
-    "https://tablejourney.com/germany/cologne/cuisine/cocktail-bar/"
+    "https://tablejourney.com/germany/cologne/cuisine/cocktail-bar/",
+    "https://yably.de/bewertungen/koeln/toddy-tapper-schillingstr-27",
+    "https://restaurantguru.com/Toddy-Tapper-Cologne",
+    "https://www.top-rated.online/cities/Cologne/place/p/6194517/Toddy+Tapper?r"
    ],
    "confidence": "medium",
    "research": "r2-bars",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.8/879 재확인. 영업 화–목 18:00~24/01시, 금·토 ~02시, 일요일 휴무; 월요일은 출처 상이(Restaurant Guru 18시~, top-rated.online 휴무). 전화 0221 44707408, toddytapper.de. 폐업 신호 없음.",
+   "latest_review": null,
    "dist": {
     "dom": 1.21,
     "hbf": 1.07,
@@ -10852,7 +11007,7 @@ window.KOLN_GUIDE = {
    "google_rating": 4.7,
    "google_reviews": 613,
    "google_as_of": null,
-   "rating_source": "wanderlog.com",
+   "rating_source": "wanderlog.com (Google 4.7 / 613)",
    "summary_ko": "아그네스 지구 주더만플라츠(Sudermanplatz)의 칵테일 바로, 칵테일을 내면서도 동네 펍처럼 아늑한 분위기가 특징이다. 구글 기반 평점 4.7(600여 건)로, 아그네스 지구에서 저녁 한잔하기 좋은 곳이다.",
    "must_try": [],
    "tips_ko": "메뉴·가격·영업시간은 이번 조사에서 확보하지 못했다.",
@@ -10861,12 +11016,18 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/6296434/suderman",
-    "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne"
+    "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
+    "https://yably.de/bewertungen/koeln/suderman-sudermanpl-3",
+    "https://restaurantguru.com/Suderman-Cologne"
    ],
    "confidence": "medium",
    "research": "r2-bars",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "구글 4.7/613 재확인(다른 출처의 631건 언급은 출처 불명확). Yably 여러 출처 합산 4.67/864, 트립어드바이저 4.2/18. 영업 화–토 저녁(Yably 19시~, 화–목 ~02시, 금·토 ~03시; Wanderlog는 18시~01/02시), 일·월 휴무. 일부 페이지는 675–929일 전 스냅샷. sudermanbar.de.",
+   "latest_review": null,
    "dist": {
     "dom": 1.15,
     "hbf": 1.02,
@@ -10929,12 +11090,17 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/10873175/goldener-kegel",
     "https://verliebtinkoeln.com/koelner-lokale-in-denen-das-koelsch-noch-unter-2-euro-kostet/",
     "https://rausgegangen.de/en/locations/goldener-kegel/",
-    "https://www.werkenntdenbesten.de/e/53273391/kneipe/koeln/zum-goldenen-kegel-bewertungen.html"
+    "https://www.werkenntdenbesten.de/e/53273391/kneipe/koeln/zum-goldenen-kegel-bewertungen.html",
+    "https://www.11880.com/branchenbuch/koeln/071363030B53273391/zum-goldenen-kegel.html"
    ],
    "confidence": "high",
    "research": "r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "수치 불일치: werkenntdenbesten의 google.de 4.3/172는 11880에 같은 이름 항목이 2개인 점으로 보아 구 항목일 가능성 — 기존 4.7/212(Restaurant Guru 구글) 유지 권장. 영업 월–목 16시~, 금–일 15시~(토 14시~ 표기도, 출처 상이). 음악·칵테일 호평. 주소 Balthasarstraße 53, 50670 일치, 전화 0221 16943399.",
+   "latest_review": null,
    "dist": {
     "dom": 1.31,
     "hbf": 1.17,

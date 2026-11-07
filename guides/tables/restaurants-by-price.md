@@ -20,12 +20,12 @@
 | [Der Eismacher](https://www.google.com/maps/search/?api=1&query=Der%20Eismacher%20Severinstra%C3%9Fe%2053%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 |  | ★4.8 (181) | 가격 정보 미확인 |
 | [Kebapland](https://www.google.com/maps/search/?api=1&query=Kebapland%20Venloer%20Stra%C3%9Fe%20385%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 터키 | ★4.7 (12,444) | tablejourney '저예산(budget)' 맛집으로 분류 — 메뉴 가격은 미확인 |
 | [Il Gelato di Ferigo](https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20di%20Ferigo%20Goltsteinstra%C3%9Fe%2032%2C%2050968%20K%C3%B6ln) | 기타 시내 | 이탈리아 | ★4.7 (1,617) | 가격 정보 미확인 |
+| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 베트남 | ★4.7 (1,077) | 가격 정보 미확인 |
 | [ST. LOUIS Café-Köln](https://www.google.com/maps/search/?api=1&query=ST.%20LOUIS%20Caf%C3%A9-K%C3%B6ln%20Deutzer%20Freiheit%2089%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) |  | ★4.7 (957) | 가격 정보 미확인 |
-| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 베트남 | ★4.7 (541) | 가격 정보 미확인 |
-| [Lint No 7](https://www.google.com/maps/search/?api=1&query=Lint%20No%207%20Lintgasse%207%2C%2050667%20K%C3%B6ln) | 대성당·구시가 |  | ★4.7 (499) | 가격 정보 미확인 |
+| [Lint No 7](https://www.google.com/maps/search/?api=1&query=Lint%20No%207%20Lintgasse%207%2C%2050667%20K%C3%B6ln) | 대성당·구시가 |  | ★4.7 (582) | 가격 정보 미확인 |
 | [Popeye Falafel](https://www.google.com/maps/search/?api=1&query=Popeye%20Falafel%20Venloer%20Stra%C3%9Fe%20468%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 시리아 | ★4.7 (237) | 가격 정보 미확인 |
 | [Ehrenfeld Café](https://www.google.com/maps/search/?api=1&query=Ehrenfeld%20Caf%C3%A9%20Venloer%20Stra%C3%9Fe%20176%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 터키 | ★4.7 (131) | 가격 정보 미확인 |
-| [Thai-Viet Street Food Imbiss](https://www.google.com/maps/search/?api=1&query=Thai-Viet%20Street%20Food%20Imbiss%20Kleine%20Budengasse%2011a%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 태국 · 베트남 | ★4.6 (2,400) | 가격 정보 미확인 |
+| [Thai-Viet Street Food Imbiss](https://www.google.com/maps/search/?api=1&query=Thai-Viet%20Street%20Food%20Imbiss%20Kleine%20Budengasse%2011a%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 태국 · 베트남 | ★4.6 (2,571) | 가격 정보 미확인 |
 | [Oruç Kebap](https://www.google.com/maps/search/?api=1&query=Oru%C3%A7%20Kebap%20Heinsbergstra%C3%9Fe%201%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 터키 | ★4.6 (2,120) | 가격 정보 미확인 |
 | [Eat Kumpir](https://www.google.com/maps/search/?api=1&query=Eat%20Kumpir%20Venloer%20Stra%C3%9Fe%20274%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 터키 | ★4.6 (1,153) | 가격 정보 미확인 |
 | [Hayati](https://www.google.com/maps/search/?api=1&query=Hayati%20Severinstra%C3%9Fe%2052C%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 레바논 | ★4.6 (939) | 싸고 푸짐한 접시(리뷰 기준) — 메뉴 가격은 미확인 |
@@ -60,23 +60,23 @@
 | [Chum Chay](https://www.google.com/maps/search/?api=1&query=Chum%20Chay%20Friesenwall%2029%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 베트남 | ★4.6 (1,987) | restaurantguru 1인 €10–20, 리뷰: 수제 음료 €5.5·식사 €12–14 |
 | [Früh em Veedel](https://www.google.com/maps/search/?api=1&query=Fr%C3%BCh%20em%20Veedel%20Chlodwigplatz%2028%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 독일 | ★4.6 (1,327) | 음식 가격 미확인 (이번 조사에서 메뉴 출처 없음) |
 | [Braustelle](https://www.google.com/maps/search/?api=1&query=Braustelle%20Christianstra%C3%9Fe%202%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 독일 | ★4.6 (342) | 가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함) |
-| [Sünner im Walfisch](https://www.google.com/maps/search/?api=1&query=S%C3%BCnner%20im%20Walfisch%20Salzgasse%2013%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | ★4.5 (3,540) | 음식 가격 미확인 (이번 조사에서 메뉴 출처 없음) |
+| [Sünner im Walfisch](https://www.google.com/maps/search/?api=1&query=S%C3%BCnner%20im%20Walfisch%20Salzgasse%2013%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | ★4.5 (3,646) | 음식 가격 미확인 (이번 조사에서 메뉴 출처 없음) |
 | [Bai Lu Noodles](https://www.google.com/maps/search/?api=1&query=Bai%20Lu%20Noodles%20Palmstra%C3%9Fe%2041%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 중국 | ★4.5 (1,352) | 리뷰 기준 1인 €10–20, Wanderlog '저렴' 표기 |
 | [Hankki Köln](https://www.google.com/maps/search/?api=1&query=Hankki%20K%C3%B6ln%20Brabanter%20Stra%C3%9Fe%2042%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 한국 | ★4.5 (1,077) | restaurantguru 1인 €20–30 (개별 리뷰는 €10–20부터 €40–50까지) |
 | [Thai Food](https://www.google.com/maps/search/?api=1&query=Thai%20Food%20Friesenwall%2024B%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 태국 | ★4.5 (862) | restaurantguru 1인 €10–20 |
 | [Brauhaus Pütz](https://www.google.com/maps/search/?api=1&query=Brauhaus%20P%C3%BCtz%20Engelbertstra%C3%9Fe%2067%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 독일 | ★4.5 (739) | 음식 가격 미확인 (이번 조사에서 메뉴 출처 없음) |
 | [Café Belgique](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Belgique%20Br%C3%BCsseler%20Platz%2016%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | ★4.5 (409) | restaurantguru 리뷰 1건 기준 1인 €10–20, '합리적 가격' 평 |
-| [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | ★4.4 (8,395) | 가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함) |
 | [Café Sehnsucht](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sehnsucht%20K%C3%B6rnerstra%C3%9Fe%2067%2C%2050823%20K%C3%B6ln) | 에렌펠트 |  | ★4.4 (1,689) | 가격 정보 미확인 |
 | [FRÜH "Em Jan von Werth"](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20%22Em%20Jan%20von%20Werth%22%20Christophstra%C3%9Fe%2044%2C%2050670%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 독일 | ★4.4 (1,119) | 구글 리뷰에 1인 €10–20 / €20–30 언급, restaurantguru '보통 가격' |
 | [Kouzina Greekstreetfood & Wine](https://www.google.com/maps/search/?api=1&query=Kouzina%20Greekstreetfood%20%26%20Wine%20Aachener%20Str.%2010%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 그리스 | ★4.4 (917) | restaurantguru 리뷰 기준 1인 €20–30 ('양은 많지만 비싼 편' 평) |
-| [Buddha's Eye](https://www.google.com/maps/search/?api=1&query=Buddha%27s%20Eye%20Mariengartengasse%205%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 네팔 | ★4.4 (664) | TripAligner 기준 중간 가격대 (금액은 확인 못 함) |
-| [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | ★4.3 (19,851) | 가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함) |
-| [Gilden im Zims](https://www.google.com/maps/search/?api=1&query=Gilden%20im%20Zims%20Heumarkt%2077%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | ★4.3 (9,551) | 음식 가격 미확인 (이번 조사에서 메뉴 출처 없음) |
+| [Buddha's Eye](https://www.google.com/maps/search/?api=1&query=Buddha%27s%20Eye%20Mariengartengasse%205%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 네팔 | ★4.4 (833) | TripAligner 기준 중간 가격대 (금액은 확인 못 함) |
+| [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | ★4.3 (22,460) | 가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함) |
+| [Gilden im Zims](https://www.google.com/maps/search/?api=1&query=Gilden%20im%20Zims%20Heumarkt%2077%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | ★4.3 (9,988) | 음식 가격 미확인 (이번 조사에서 메뉴 출처 없음) |
 | [Deutzer Brauhaus](https://www.google.com/maps/search/?api=1&query=Deutzer%20Brauhaus%20Ottoplatz%207%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 독일 | ★4.3 (9,240) | OpenTable 가격대 '보통(moderate)' |
 | [Grissini Restaurant & Terrasse](https://www.google.com/maps/search/?api=1&query=Grissini%20Restaurant%20%26%20Terrasse%20Kennedy-Ufer%202a%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 이탈리아 | ★4.3 (1,694) | OpenTable 가격대 'moderate'(1차 조사) — 정확한 메뉴 가격 미확인 |
 | [Brauhaus ohne Namen (b.o.n.)](https://www.google.com/maps/search/?api=1&query=Brauhaus%20ohne%20Namen%20%28b.o.n.%29%20Mathildenstra%C3%9Fe%2042%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 독일 | ★4.3 (1,397) | 가격 정보 미확인 |
 | [Café Heimisch (Heimisch Kaffee & Regionales)](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Heimisch%20%28Heimisch%20Kaffee%20%26%20Regionales%29%20Deutzer%20Freiheit%2072%E2%80%9374%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) |  | ★4.3 (1,375) | 가격 정보 미확인 |
+| [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | ★4.2 (8,850) | 가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함) |
 | [Brauerei zur Malzmühle](https://www.google.com/maps/search/?api=1&query=Brauerei%20zur%20Malzm%C3%BChle%20Heumarkt%206%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | ★4.2 (2,584) | 가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함) |
 | [Hallmackenreuther](https://www.google.com/maps/search/?api=1&query=Hallmackenreuther%20Br%C3%BCsseler%20Platz%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | ★4.2 (996) | restaurantguru 1인 €10–20, 리뷰: 아침 메뉴+커피 €9 |
 | [Krua Thai – Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20%E2%80%93%20Belgisches%20Viertel%20Br%C3%BCsseler%20Str.%2040-42%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 태국 | ★4.2 (918) | restaurantguru 1인 €10–20, 리뷰: 요리 약 €6–10 |

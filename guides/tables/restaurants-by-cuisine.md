@@ -55,10 +55,10 @@
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
 | [Thai Ja-Röen Imbiss](https://www.google.com/maps/search/?api=1&query=Thai%20Ja-R%C3%B6en%20Imbiss%20Th%C3%BCrmchenswall%2064%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 간편식·임비스 | € | ★4.9 (157) |  |  |
-| [Thai-Viet Street Food Imbiss](https://www.google.com/maps/search/?api=1&query=Thai-Viet%20Street%20Food%20Imbiss%20Kleine%20Budengasse%2011a%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 간편식·임비스 | € | ★4.6 (2,400) |  |  |
+| [Thai-Viet Street Food Imbiss](https://www.google.com/maps/search/?api=1&query=Thai-Viet%20Street%20Food%20Imbiss%20Kleine%20Budengasse%2011a%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 간편식·임비스 | € | ★4.6 (2,571) |  |  |
 | [Thai Imbiss](https://www.google.com/maps/search/?api=1&query=Thai%20Imbiss%20Eigelstein%20114%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 간편식·임비스 | € | ★4.5 (1,535) |  |  |
 | [Thai Food](https://www.google.com/maps/search/?api=1&query=Thai%20Food%20Friesenwall%2024B%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 레스토랑 | €€ | ★4.5 (862) |  |  |
-| [Krua Thai am Heumarkt](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20am%20Heumarkt%20Heumarkt%2025%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레스토랑 | – | ★4.4 (748) |  |  |
+| [Krua Thai am Heumarkt](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20am%20Heumarkt%20Heumarkt%2025%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레스토랑 | – | ★4.4 (948) |  |  |
 | [Thai Gourmet](https://www.google.com/maps/search/?api=1&query=Thai%20Gourmet%20Neusser%20Str.%20311%2C%2050733%20K%C3%B6ln) | 기타 시내 | 레스토랑 | – | ★4.4 (540) |  |  |
 | [Krua Thai – Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20%E2%80%93%20Belgisches%20Viertel%20Br%C3%BCsseler%20Str.%2040-42%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | €€ | ★4.2 (918) |  |  |
 
@@ -67,8 +67,8 @@
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
 | [Nam](https://www.google.com/maps/search/?api=1&query=Nam%20Engelbertstra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | € | ★4.9 (676) | 쌀국수, 면 요리 | Phở (퍼 — 베트남 쌀국수, 리뷰에서 가장 많이 언급되는 대표 메뉴) |
+| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 간편식·임비스 | € | ★4.7 (1,077) | 반미, 쌀국수, 샌드위치 | Bánh mì (반미 — 베트남식 바게트 샌드위치), Phở (퍼 — 쌀국수, 채식 버전도 있음) |
 | [Lúa by Danny](https://www.google.com/maps/search/?api=1&query=L%C3%BAa%20by%20Danny%20Brabanter%20Str.%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | – | ★4.7 (585) | 쌀국수 | Phở (퍼 — 베트남 쌀국수, 리뷰에서 자주 칭찬) |
-| [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 간편식·임비스 | € | ★4.7 (541) | 반미, 쌀국수, 샌드위치 | Bánh mì (반미 — 베트남식 바게트 샌드위치), Phở (퍼 — 쌀국수, 채식 버전도 있음) |
 | [Chum Chay](https://www.google.com/maps/search/?api=1&query=Chum%20Chay%20Friesenwall%2029%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 레스토랑 | €€ | ★4.6 (1,987) | 쌀국수 | Phở (채식 쌀국수 — Wanderlog 쾰른 쌀국수 목록의 추천 업소) |
 
 ### 인도네시아 (1)
@@ -91,7 +91,7 @@
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
-| [Buddha's Eye](https://www.google.com/maps/search/?api=1&query=Buddha%27s%20Eye%20Mariengartengasse%205%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레스토랑 | €€ | ★4.4 (664) |  |  |
+| [Buddha's Eye](https://www.google.com/maps/search/?api=1&query=Buddha%27s%20Eye%20Mariengartengasse%205%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레스토랑 | €€ | ★4.4 (833) |  |  |
 
 ## 중동·터키·북아프리카 — 24곳
 
@@ -150,7 +150,7 @@
 |---|---|---|---|---|---|---|
 | [Popeye Falafel](https://www.google.com/maps/search/?api=1&query=Popeye%20Falafel%20Venloer%20Stra%C3%9Fe%20468%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 간편식·임비스 | € | ★4.7 (237) | 팔라펠 | Falafel (팔라펠 — 시리아식 병아리콩 완자 튀김) |
 
-## 남유럽 — 14곳
+## 남유럽 — 13곳
 
 
 ### 이탈리아 (9)
@@ -162,18 +162,17 @@
 | [Virtuous Pie – Vegane Pizza](https://www.google.com/maps/search/?api=1&query=Virtuous%20Pie%20%E2%80%93%20Vegane%20Pizza%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 레스토랑 | – | ★4.8 (988) | 피자 | Vegane Pizza (비건 피자 — 직접 만든 비건 치즈·소스) |
 | [Pizzeria Spaccanapoli](https://www.google.com/maps/search/?api=1&query=Pizzeria%20Spaccanapoli%20Venloer%20Str.%20502%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 레스토랑 | – | ★4.8 (681) | 피자 | Pizza napoletana (나폴리 피자 — 가볍고 쫄깃한 도우) |
 | [Il Gelato di Ferigo](https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20di%20Ferigo%20Goltsteinstra%C3%9Fe%2032%2C%2050968%20K%C3%B6ln) | 기타 시내 | 디저트 | € | ★4.7 (1,617) | 아이스크림 |  |
-| [CARUSO Pastabar](https://www.google.com/maps/search/?api=1&query=CARUSO%20Pastabar%20Kasparstra%C3%9Fe%2019%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 레스토랑 | – | ★4.7 (957) | 파스타 | Pasta (파스타 — 리뷰에서 맛·테크닉 호평) |
 | [SORELLINA di Nuvola Napoli (Belgisches Viertel)](https://www.google.com/maps/search/?api=1&query=SORELLINA%20di%20Nuvola%20Napoli%20%28Belgisches%20Viertel%29%20Br%C3%BCsseler%20Str.%2073%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | – | ★4.7 (542) | 피자 | Pizza napoletana (나폴리 피자), Vegan pizza (비건 피자) |
 | [Ristorante Etrusca](https://www.google.com/maps/search/?api=1&query=Ristorante%20Etrusca%20Z%C3%BClpicher%20Str.%2027%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.7 (459) | 파스타 |  |
+| [CARUSO Pastabar](https://www.google.com/maps/search/?api=1&query=CARUSO%20Pastabar%20Kasparstra%C3%9Fe%2019%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 레스토랑 | – | ★4.6 (994) | 파스타 | Pasta (파스타 — 리뷰에서 맛·테크닉 호평) |
 | [Grissini Restaurant & Terrasse](https://www.google.com/maps/search/?api=1&query=Grissini%20Restaurant%20%26%20Terrasse%20Kennedy-Ufer%202a%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 레스토랑 | €€ | ★4.3 (1,694) |  |  |
 
-### 그리스 (3)
+### 그리스 (2)
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
 | [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 기타 시내 | 레스토랑 | – | ★4.5 (426) | 타파스·작은 접시, 메제 | Griechische Tapas / Mezedes (그리스식 타파스) |
 | [Kouzina Greekstreetfood & Wine](https://www.google.com/maps/search/?api=1&query=Kouzina%20Greekstreetfood%20%26%20Wine%20Aachener%20Str.%2010%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | €€ | ★4.4 (917) |  |  |
-| [Restaurant Diogenis](https://www.google.com/maps/search/?api=1&query=Restaurant%20Diogenis%20Sudermanplatz%207%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 레스토랑 | – | ★4.4 (619) |  |  |
 
 ### 스페인 (1)
 
@@ -210,14 +209,14 @@
 | [Max Stark](https://www.google.com/maps/search/?api=1&query=Max%20Stark%20Unter%20Kahlenhausen%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 브라우하우스 | €€ | ★4.6 (3,953) | 쾰른 향토 요리, 슈니첼 | Päffgen Kölsch (패프겐 쾰시), Schnitzel (슈니첼), Sauerbraten (자우어브라텐 — 식초에 재워 졸인 라인란트식 소고기찜) |
 | [Früh em Veedel](https://www.google.com/maps/search/?api=1&query=Fr%C3%BCh%20em%20Veedel%20Chlodwigplatz%2028%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 브라우하우스 | €€ | ★4.6 (1,327) | 쾰른 향토 요리 | Früh Kölsch (프뤼 쾰시) |
 | [Braustelle](https://www.google.com/maps/search/?api=1&query=Braustelle%20Christianstra%C3%9Fe%202%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 브라우하우스 | €€ | ★4.6 (342) | 슈니첼, 쾰른 향토 요리 | Helios Kölsch (헬리오스 — 직접 양조한 쾰시 스타일 하우스 맥주, 인근 19세기 전기회사 '헬리오스'에서 딴 이름), Ehrenfelder Alt (에렌펠더 알트 — 하우스 알트비어), Ehrenfeld |
-| [Sünner im Walfisch](https://www.google.com/maps/search/?api=1&query=S%C3%BCnner%20im%20Walfisch%20Salzgasse%2013%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.5 (3,540) | 쾰른 향토 요리 | Sünner Kölsch (쥐너 쾰시 — 이 집 양조장의 쾰시) |
+| [Sünner im Walfisch](https://www.google.com/maps/search/?api=1&query=S%C3%BCnner%20im%20Walfisch%20Salzgasse%2013%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.5 (3,646) | 쾰른 향토 요리 | Sünner Kölsch (쥐너 쾰시 — 이 집 양조장의 쾰시) |
 | [Brauhaus Pütz](https://www.google.com/maps/search/?api=1&query=Brauhaus%20P%C3%BCtz%20Engelbertstra%C3%9Fe%2067%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 브라우하우스 | €€ | ★4.5 (739) | 쾰른 향토 요리, 슈니첼 | Mühlen Kölsch (뮐렌 쾰시 — 말츠뮐레 양조장의 쾰시), Rumpsteak (럼프스테이크 — 리뷰에서 칭찬받은 메뉴), Schnitzel (슈니첼) |
-| [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.4 (8,395) | 쾰른 향토 요리 | Peters Kölsch (페터스 쾰시 — 이 집에서 내는 쾰시 맥주) |
 | [FRÜH "Em Jan von Werth"](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20%22Em%20Jan%20von%20Werth%22%20Christophstra%C3%9Fe%2044%2C%2050670%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 브라우하우스 | €€ | ★4.4 (1,119) | 쾰른 향토 요리 | Früh Kölsch (프뤼 쾰시) |
-| [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.3 (19,851) | 쾰른 향토 요리 | Früh Kölsch (프뤼 쾰시 — 이 집의 쾰시 맥주) |
-| [Gilden im Zims](https://www.google.com/maps/search/?api=1&query=Gilden%20im%20Zims%20Heumarkt%2077%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.3 (9,551) | 쾰른 향토 요리 | Gilden Kölsch (길덴 쾰시 — 갓 따라 온도가 딱 맞다는 후기), Sonntagsbrunch (일요일 브런치) |
+| [FRÜH am Dom](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20am%20Dom%20Am%20Hof%2012-18%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.3 (22,460) | 쾰른 향토 요리 | Früh Kölsch (프뤼 쾰시 — 이 집의 쾰시 맥주) |
+| [Gilden im Zims](https://www.google.com/maps/search/?api=1&query=Gilden%20im%20Zims%20Heumarkt%2077%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.3 (9,988) | 쾰른 향토 요리 | Gilden Kölsch (길덴 쾰시 — 갓 따라 온도가 딱 맞다는 후기), Sonntagsbrunch (일요일 브런치) |
 | [Deutzer Brauhaus](https://www.google.com/maps/search/?api=1&query=Deutzer%20Brauhaus%20Ottoplatz%207%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 브라우하우스 | €€ | ★4.3 (9,240) | 쾰른 향토 요리 | frisch gezapftes Kölsch (갓 따른 생 쾰시) |
 | [Brauhaus ohne Namen (b.o.n.)](https://www.google.com/maps/search/?api=1&query=Brauhaus%20ohne%20Namen%20%28b.o.n.%29%20Mathildenstra%C3%9Fe%2042%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 브라우하우스 | €€ | ★4.3 (1,397) | 쾰른 향토 요리 | Braumeister Kotelett (브라우마이스터 코텔레트 — 350g짜리 뼈 붙은 돼지 폭찹), Kölsch (쾰시) |
+| [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.2 (8,850) | 쾰른 향토 요리 | Peters Kölsch (페터스 쾰시 — 이 집에서 내는 쾰시 맥주) |
 | [Brauerei zur Malzmühle](https://www.google.com/maps/search/?api=1&query=Brauerei%20zur%20Malzm%C3%BChle%20Heumarkt%206%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 브라우하우스 | €€ | ★4.2 (2,584) | 쾰른 향토 요리 | Mühlen Kölsch (뮐렌 쾰시 — 이 양조장의 쾰시) |
 
 ### 오스트리아 (1)

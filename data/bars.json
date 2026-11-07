@@ -67,7 +67,7 @@
       "google_rating": 4.7,
       "google_reviews": 1722,
       "google_as_of": null,
-      "rating_source": "wanderlog.com",
+      "rating_source": "Google 미러(Wanderlog 형식 표기) 4.7 / 1,722",
       "summary_ko": "2016년 문을 연 쾰른 최초의 탭룸 겸 크래프트 맥주 바로, 매일 바뀌는 15개 탭 맥주를 구시가 한복판(Martinstraße)에서 마신다. 맥주를 잘 아는 직원과 루프탑 자리가 호평이라, 쾰시 말고 다른 맥주를 맛보고 싶은 맥주 애호가에게 1순위다.",
       "must_try": [
         "Rotating craft beers on tap (매일 바뀌는 15개 탭의 크래프트 맥주)",
@@ -85,12 +85,18 @@
         "https://www.holland-hoch2.de/staedte/koeln/craftbeer-corner-coeln.html",
         "https://untappd.com/v/craftbeer-corner/5540016",
         "https://www.tripadvisor.de/ShowUserReviews-g187371-d16883341-r639061108-Craftbeer_Corner_Coeln-Cologne_North_Rhine_Westphalia.html",
-        "https://tipsymonk.de/wissen/craft-beer-koeln-guide"
+        "https://tipsymonk.de/wissen/craft-beer-koeln-guide",
+        "https://restaurantguru.com/Craftbeer-Corner-Coeln-Cologne",
+        "https://www.tripadvisor.com/Attraction_Review-g187371-d16883341-Reviews-Craftbeer_Corner_Coeln-Cologne_North_Rhine_Westphalia.html"
       ],
       "confidence": "medium",
       "research": "r2-bars, r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "구글 4.7/1,722 재확인. 트립어드바이저 4.8/133, Restaurant Guru 자체 4.8/263. 영업 월–목 18–24시, 금·토 17–24시, 일요일 휴무(리뷰 기준, 변경 가능). 맥주 종류·친절한 직원 호평, 매우 붐벼 일찍 가거나 예약 권장.",
+      "latest_review": null
     },
     {
       "id": "papa-joes-jazzlokal",
@@ -125,9 +131,9 @@
       "beer_price_note": null,
       "beers": [],
       "google_rating": 4.6,
-      "google_reviews": 2634,
+      "google_reviews": 2693,
       "google_as_of": null,
-      "rating_source": "wanderlog.com",
+      "rating_source": "top-rated.online (Google 미러, 'Papa Joe's Jazz Bar' 4.60 / 2,693); wanderlog.com 4.6 / 2,634",
       "summary_ko": "1974년부터 쾰른 재즈 씬을 지켜 온 구시가의 작은 재즈 펍('Streckstrump')으로, 연주자의 손놀림이 보일 만큼 가까이에서 라이브 재즈를 듣는다. 18개 병으로 60여 가지 칵테일을 섞는 기계 'Cocktail Joe'도 명물이라, 라이브 음악과 함께 편하게 한잔하고 싶은 사람에게 맞다.",
       "must_try": [
         "Cocktail Joe (칵테일 조 — 18개 병으로 60여 가지 칵테일을 섞어 주는 자동 칵테일 기계)"
@@ -144,12 +150,19 @@
         "https://wanderlog.com/place/details/1289016/papa-joes-jazz-bar",
         "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
         "https://www.werkenntdenbesten.de/cityguide/koeln/koeln-ausgehen",
-        "https://www.travelbook.de/orte/auch-eine-deutsche-dabei-die-besten-bars-in-europa"
+        "https://www.travelbook.de/orte/auch-eine-deutsche-dabei-die-besten-bars-in-europa",
+        "https://www.top-rated.online/cities/K%C3%B6ln/place/p/4163142/Papa+Joe's+Jazz+Bar",
+        "https://www.tripadvisor.com/Attraction_Review-g187371-d6686795-Reviews-Papa_Joe_s_Jazz_Lokal-Cologne_North_Rhine_Westphalia.html"
       ],
       "confidence": "medium",
       "research": "r2-bars",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "리뷰 수 2,634 → 2,693 갱신. 구글 상호는 'Papa Joe's Jazz Bar'. 저녁 19/20시~심야 영업(월–목 20–03, 금–일 19–02 등 출처 상이), papajoes.de. 현금만 가능하다는 리뷰 다수. 라이브 재즈·하우스 쾰시 호평, 음료가 비싸다·관광객용이라는 평 일부. 트립어드바이저 'Jazz Lokal' 4.3/324.",
+      "latest_review": null,
+      "google_previous": "4.6 (2634)"
     },
     {
       "id": "kunst-kaschaemm",
@@ -189,9 +202,9 @@
         "Reissdorf Kölsch"
       ],
       "google_rating": 4.6,
-      "google_reviews": 1088,
+      "google_reviews": 1125,
       "google_as_of": null,
-      "rating_source": "restaurantguru.com (Google)",
+      "rating_source": "top-rated.online (Google 미러 4.60 / 1,125); restaurantguru.com 4.6 / 1,578(자체 합산 추정)",
       "summary_ko": "관광객으로 붐비는 알터 마르크트(Alter Markt)에 있으면서도 생 라이스도르프 쾰시를 €1.70에 판다고 소개된 작은 술집으로, 칵테일 메뉴도 많다. 주방은 없지만 금·토 새벽 3시까지 열어, 구시가에서 싸게 늦게까지 마시기 좋다.",
       "must_try": [
         "Reissdorf Kölsch vom Fass (생 라이스도르프 쾰시)"
@@ -204,12 +217,18 @@
         "https://verliebtinkoeln.com/kunstkaschaemm-koeln/",
         "https://restaurantguru.com/Kunstkaschaemm-Cologne",
         "https://www.top-rated.online/cities/Cologne/place/p/1237702/Kunstkaschaemm+-+K%C3%B6ln",
-        "https://verliebtinkoeln.com/koelsch-preis/"
+        "https://verliebtinkoeln.com/koelsch-preis/",
+        "https://www.tripadvisor.com/Attraction_Review-g187371-d5954338-Reviews-KunstKaschaemm-Cologne_North_Rhine_Westphalia.html"
       ],
       "confidence": "high",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "리뷰 수 1,088 → 1,125 갱신. 영업 월–목 15–24시, 금 15–03시, 토 14–03시, 일 15–24시(출처 간 상이, 토 13시~ 표기도). 약 1년 전 구글 리뷰에 현금만 받았다는 언급(디렉터리는 카드 가능 표기) — 현금 준비 권장. 트립어드바이저 3.6/25(불친절 서비스 불만 일부).",
+      "latest_review": null,
+      "google_previous": "4.6 (1088)"
     },
     {
       "id": "tipsy-monk",
@@ -271,12 +290,19 @@
         "https://tipsymonk.de/en/beer-bar-cologne",
         "https://tipsymonk.de/en/belgian-craft-beer-bar-cologne",
         "https://rausgegangen.de/en/locations/tipsy-monk-bier-bar-koln/",
-        "https://brewver.com/venues/1007/Tipsy-Monk-Bier-Bar-formerly-Delirium-Caf%C3%A9-K%C3%B6ln"
+        "https://brewver.com/venues/1007/Tipsy-Monk-Bier-Bar-formerly-Delirium-Caf%C3%A9-K%C3%B6ln",
+        "https://rausgegangen.de/en/locations/tipsy-monk-bier-bar-koln",
+        "https://retiredmartin.com/2026/03/25/a-murky-interlude-in-kolschland/",
+        "https://yably.de/bewertungen/koeln/delirium-cafe-koeln-salzgasse-2-4"
       ],
       "confidence": "high",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "상호 변경: 같은 주소(Salzgasse 2-4)의 옛 'Delirium Café Köln'이 'Tipsy Monk'로 이름을 바꾸고 국제 크래프트 맥주 중심으로 운영(rausgegangen.de 소개문). 2026년 3월 방문 블로그(retiredmartin.com) 확인 → 영업 중. 리뷰 사이트엔 아직 구 상호로 남은 곳이 있음(Yably 구 상호 항목: 구글 4.60/690, 17:00–01:00·금·토 더 늦게). 새 상호 기준 구글 수치는 확인 못 함(추가 검색 1회 사용).",
+      "latest_review": "2026-03"
     },
     {
       "id": "papa-joes-biersalon",
@@ -326,12 +352,17 @@
         "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne",
         "https://www.speisekarte.de/k%C3%B6ln/restaurant/gaststaette_klimperkasten_papa_joes_biersalon/speisekarte",
         "https://restaurantguru.com/Papa-Joes-Biersalon-Cologne",
-        "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d7009269-Reviews-Papa_Joe_s-Cologne_North_Rhine_Westphalia.html"
+        "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d7009269-Reviews-Papa_Joe_s-Cologne_North_Rhine_Westphalia.html",
+        "https://www.11880.com/branchenbuch/koeln/071364395B27132537/klimperkasten-papa-joe-s-biersalon.html"
       ],
       "confidence": "medium",
       "research": "r2-bars, r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "Wanderlog 구글 4.5 재확인(리뷰 약 3,300으로 기존 3,427보다 적어 기존 값 유지). Restaurant Guru의 구글 4.1 표기는 불일치 — 오래된 수치 가능성. 일부 사이트 상호 'Klimperkasten Papa Joe's Biersalon'. 영업 대략 매일 11:00–03:00(11880·golocal; Restaurant Guru는 평일 일부 ~01시). 자동 연주 악기 분위기 호평, 최근 리뷰에 느린 서비스·샐러드 불만.",
+      "latest_review": null
     },
     {
       "id": "barito",
@@ -1428,7 +1459,7 @@
       "google_rating": 4.8,
       "google_reviews": 879,
       "google_as_of": null,
-      "rating_source": "wanderlog.com",
+      "rating_source": "wanderlog.com (Google 4.8 / 879); yably.de Google 4.90 / 814(이전 스냅샷)",
       "summary_ko": "스리랑카 출신 바텐더 Indika Silva가 운영하는 아그네스 지구의 칵테일 바로, 이름(야자 수액 채취꾼)처럼 야자 증류주 아락(arrack)을 메뉴 전반에 쓴다. 독특한 재료로 만든 섬세한 칵테일과 서비스·플레이팅 칭찬이 많아 색다른 칵테일을 찾는 사람에게 맞다.",
       "must_try": [
         "Arrack cocktails (아락 칵테일 — 스리랑카 야자 증류주 베이스의 시그니처 칵테일)"
@@ -1445,12 +1476,19 @@
         "https://wanderlog.com/place/details/4000468/toddy-tapper-k%C3%B6ln",
         "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
         "https://www.theworlds50best.com/discovery/Establishments/Germany/Cologne/Toddy-Tapper.html",
-        "https://tablejourney.com/germany/cologne/cuisine/cocktail-bar/"
+        "https://tablejourney.com/germany/cologne/cuisine/cocktail-bar/",
+        "https://yably.de/bewertungen/koeln/toddy-tapper-schillingstr-27",
+        "https://restaurantguru.com/Toddy-Tapper-Cologne",
+        "https://www.top-rated.online/cities/Cologne/place/p/6194517/Toddy+Tapper?r"
       ],
       "confidence": "medium",
       "research": "r2-bars",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "구글 4.8/879 재확인. 영업 화–목 18:00~24/01시, 금·토 ~02시, 일요일 휴무; 월요일은 출처 상이(Restaurant Guru 18시~, top-rated.online 휴무). 전화 0221 44707408, toddytapper.de. 폐업 신호 없음.",
+      "latest_review": null
     },
     {
       "id": "suderman",
@@ -1485,7 +1523,7 @@
       "google_rating": 4.7,
       "google_reviews": 613,
       "google_as_of": null,
-      "rating_source": "wanderlog.com",
+      "rating_source": "wanderlog.com (Google 4.7 / 613)",
       "summary_ko": "아그네스 지구 주더만플라츠(Sudermanplatz)의 칵테일 바로, 칵테일을 내면서도 동네 펍처럼 아늑한 분위기가 특징이다. 구글 기반 평점 4.7(600여 건)로, 아그네스 지구에서 저녁 한잔하기 좋은 곳이다.",
       "must_try": [],
       "tips_ko": "메뉴·가격·영업시간은 이번 조사에서 확보하지 못했다.",
@@ -1494,12 +1532,18 @@
       "award_flags": [],
       "sources": [
         "https://wanderlog.com/place/details/6296434/suderman",
-        "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne"
+        "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
+        "https://yably.de/bewertungen/koeln/suderman-sudermanpl-3",
+        "https://restaurantguru.com/Suderman-Cologne"
       ],
       "confidence": "medium",
       "research": "r2-bars",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "구글 4.7/613 재확인(다른 출처의 631건 언급은 출처 불명확). Yably 여러 출처 합산 4.67/864, 트립어드바이저 4.2/18. 영업 화–토 저녁(Yably 19시~, 화–목 ~02시, 금·토 ~03시; Wanderlog는 18시~01/02시), 일·월 휴무. 일부 페이지는 675–929일 전 스냅샷. sudermanbar.de.",
+      "latest_review": null
     },
     {
       "id": "zum-goldenen-kegel",
@@ -1555,12 +1599,17 @@
         "https://wanderlog.com/place/details/10873175/goldener-kegel",
         "https://verliebtinkoeln.com/koelner-lokale-in-denen-das-koelsch-noch-unter-2-euro-kostet/",
         "https://rausgegangen.de/en/locations/goldener-kegel/",
-        "https://www.werkenntdenbesten.de/e/53273391/kneipe/koeln/zum-goldenen-kegel-bewertungen.html"
+        "https://www.werkenntdenbesten.de/e/53273391/kneipe/koeln/zum-goldenen-kegel-bewertungen.html",
+        "https://www.11880.com/branchenbuch/koeln/071363030B53273391/zum-goldenen-kegel.html"
       ],
       "confidence": "high",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "수치 불일치: werkenntdenbesten의 google.de 4.3/172는 11880에 같은 이름 항목이 2개인 점으로 보아 구 항목일 가능성 — 기존 4.7/212(Restaurant Guru 구글) 유지 권장. 영업 월–목 16시~, 금–일 15시~(토 14시~ 표기도, 출처 상이). 음악·칵테일 호평. 주소 Balthasarstraße 53, 50670 일치, 전화 0221 16943399.",
+      "latest_review": null
     },
     {
       "id": "em-bierstueffge",
