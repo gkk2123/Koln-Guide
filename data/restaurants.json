@@ -15,12 +15,69 @@
       "fnb-suedstadt-other-korean.json",
       "r2-attractions.json",
       "r2-bars.json",
+      "r2-cafes-dessert.json",
       "r2-se-south-asia.json",
       "wine-places.json"
     ],
-    "count": 27
+    "count": 51
   },
   "items": [
+    {
+      "id": "oma-janssen-colonialwarenhandel",
+      "name": "Oma Janßen Colonialwarenhandel",
+      "category": "cafe",
+      "area": "dom-altstadt",
+      "address": "Alter Markt 56, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Small grocery-café serving German breakfast",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "brunch-plates",
+        "bread-pastry",
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast"
+      ],
+      "occasions": [
+        "quick",
+        "solo"
+      ],
+      "features": [
+        "takeaway"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 694,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "구시가 알터 마르크트 광장의 작은 식료품점 겸 아침 카페로, 스크램블드에그와 독일식 아침 빵(브뢰트헨)으로 차리는 아침이 칭찬받는다. 대성당·구시가 관광 전에 제대로 된 독일식 아침을 먹고 싶은 사람에게 맞다.",
+      "must_try": [
+        "Rührei (스크램블드에그)",
+        "Brötchen-Frühstück (독일식 아침 빵 세트)"
+      ],
+      "tips_ko": "실내가 작고 좌석이 적어 이른 시간에 가거나 포장해 가는 것이 좋다는 리뷰가 많다. 붐비는 시간에는 기다릴 각오를 할 것.",
+      "website": "https://oma-janssen.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1935778/oma-jan%C3%9Fen-colonialwarenhandel",
+        "https://wanderlog.com/list/geoCategory/10013/best-breakfast-and-brunch-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
     {
       "id": "cafe-1980-banh-mi",
       "name": "1980 – Cafe und Bánh Mì",
@@ -74,6 +131,52 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "lint-no-7",
+      "name": "Lint No 7",
+      "category": "cafe",
+      "area": "dom-altstadt",
+      "address": "Lintgasse 7, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Small breakfast café in the Altstadt (mornings only)",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 499,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "구시가 골목 린트가세(Lintgasse)의 작은 아침 카페로, 오전에만 문을 연다. Wanderlog 쾰른 아침·브런치 리스트에 오른 곳으로 구글 평점 4.7(약 500건)이라, 구시가 관광을 시작하기 전 아침을 먹기 좋다.",
+      "must_try": [],
+      "tips_ko": "월요일 휴무, 다른 요일도 오전 위주로만 영업한다(Wanderlog 영업시간 기준). 메뉴 정보는 이번 조사에서 확보하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3391351/lint-no-7",
+        "https://wanderlog.com/list/geoCategory/10013/breakfast-and-brunch"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
       "checked": "2026-11-07"
     },
     {
@@ -267,6 +370,56 @@
       "checked": "2026-11-07"
     },
     {
+      "id": "louis-cafe-am-dom",
+      "name": "LOUIS Cafe am Dom",
+      "category": "cafe",
+      "area": "dom-altstadt",
+      "address": "Kleine Budengasse 1-3, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Café – bubble tea, cakes, coffee",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "cake",
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "tea"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "card",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 407,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "대성당과 시청 사이 클라이네 부덴가세의 넓은 카페로, 버블티와 케이크, 친절한 서비스가 리뷰에서 자주 칭찬받는다. 대성당 주변을 둘러본 뒤 달콤한 것과 함께 쉬어 가기 좋다.",
+      "must_try": [
+        "Bubble Tea (버블티)",
+        "Kuchen (케이크)"
+      ],
+      "tips_ko": "€10 미만은 카드 결제가 안 된다는 리뷰가 있어 소액은 현금을 준비할 것. 대략 평일 12–19시, 토요일 ~20시 영업(Wanderlog)이라 아침 식사 장소는 아니다. 냉동 상태 케이크가 나왔다는 불만도 하나 있었다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/7852705/louis-cafe-am-dom",
+        "https://restaurantguru.com/LOUIS-Cafe-am-Dom-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
       "id": "frueh-am-dom",
       "name": "FRÜH am Dom",
       "category": "brauhaus",
@@ -385,6 +538,109 @@
       "checked": "2026-11-07"
     },
     {
+      "id": "hempies",
+      "name": "Hempies",
+      "category": "bakery",
+      "area": "belgisches-viertel",
+      "address": "Händelstraße 55, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Vegan bakery and bistro",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "bread-pastry",
+        "sandwiches",
+        "coffee"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "리뷰상 '조금 비싼 편' (구체적 가격 미확인)",
+      "google_rating": 4.8,
+      "google_reviews": 535,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "동물성 재료를 쓰지 않는 비건 베이커리 겸 비스트로로, 비건 크루아상과 샌드위치가 특히 칭찬받고 직원도 친절하다는 평이 많다. 비건·채식 여행자나 버터 없이 만든 페이스트리가 궁금한 사람에게 맞다.",
+      "must_try": [
+        "Veganes Croissant (비건 크루아상)",
+        "Vegane Sandwiches (비건 샌드위치)"
+      ],
+      "tips_ko": "Händelstraße는 벨기에 지구 남쪽 끝(쿼르티어 라텡과의 경계)이라 지오코딩 후 지역 분류를 확인할 것.",
+      "website": "https://www.hempies-vegan.de/",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/6228819/hempies-veganes-bistro",
+        "https://www.hempies-vegan.de/",
+        "https://koeln.mitvergnuegen.com/2026/cafes-belgisches-viertel/"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "cafe-buur",
+      "name": "Café Buur",
+      "category": "cafe",
+      "area": "belgisches-viertel",
+      "address": "Richard-Wagner-Straße 28, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Brunch café",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "brunch-plates",
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "brunch"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "trendy"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 3517,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "벨기에 지구의 인기 브런치 카페로, 맛있고 보기 좋게 담아내는 브런치 접시로 이름났다. 구글 리뷰가 3,500건을 넘는, 쾰른에서 손꼽히는 브런치 명소라 트렌디한 브런치를 원하는 사람에게 맞다.",
+      "must_try": [],
+      "tips_ko": "줄이 길다는 리뷰가 많아 주말 피크 시간을 피해 평일이나 이른 시간에 가는 것이 좋다. 1차 조사의 'Maastrichter Straße' 주소는 오류로 보이며, 구글 연동 주소는 Richard-Wagner-Str. 28이다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1326778/caf%C3%A9-buur",
+        "https://www.meininger-hotels.com/blog/en/cafes_cologne/",
+        "https://tablejourney.com/germany/cologne/brunch/cafe-buur-brunch/"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
       "id": "lua-by-danny",
       "name": "Lúa by Danny",
       "category": "restaurant",
@@ -429,6 +685,118 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "cafe-belgique",
+      "name": "Café Belgique",
+      "category": "cafe",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Platz 16, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Neighbourhood street café – coffee, cake, light dishes",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee",
+        "cake"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "terrace",
+        "open-sunday"
+      ],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "리뷰상 합리적인 가격 (구체적 메뉴 가격 미확인)",
+      "google_rating": 4.5,
+      "google_reviews": 358,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "벨기에 지구의 중심 광장 브뤼셀러 플라츠에 면한 작은 거리 카페로, 날 좋은 오후면 주민과 쾰른 팬들이 바깥 자리에 나란히 앉아 커피와 케이크를 즐긴다. 아늑한 분위기, 친절한 주인, 합리적인 가격이 리뷰에서 자주 언급된다.",
+      "must_try": [
+        "Linsensuppe (렌틸콩 수프)",
+        "Weiße Schokolade mit Espresso-Shot (에스프레소 샷을 추가한 화이트 초콜릿)"
+      ],
+      "tips_ko": "정오(12시)에 문을 열어 아침 식사 장소는 아니다. koeln.de 기준 일–목 12–19시, 금·토 12–23시. 메뉴가 단출하고 서비스가 매끄럽지 않을 때가 있다는 평도 있다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1830565/cafe-belgique",
+        "https://www.koeln.de/leben/ll/beliebte-koelner-strassencafes/cafe-belgique/"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "balthasar",
+      "name": "Balthasar",
+      "category": "cafe",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 18, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Café-bistro – all-day brunch, cakes, steaks, cocktails",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "brunch-plates",
+        "cake",
+        "steak"
+      ],
+      "diet": [
+        "vegetarian",
+        "vegan"
+      ],
+      "meals": [
+        "brunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [
+        "lively"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 1476,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "아헨 거리(Aachener Straße) 초입의 노출 벽돌 인테리어 카페 겸 비스트로로, 종일 브런치와 케이크부터 스테이크·칵테일까지 낸다. 활기찬 분위기라 친구들과 늦은 브런치나 가벼운 저녁을 하기 좋다.",
+      "must_try": [],
+      "tips_ko": "메인 요리가 오래 걸린다는 리뷰가 여럿 있다. Euskirchener Straße에 2호점이 있다. Wanderlog에는 'Café Balthasar'(4.3, 904건) 중복 페이지도 있어, 수치는 주소가 표시된 Aachener Str. 18 페이지 기준이다. 채식·비건 메뉴가 있다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1960190/balthasar",
+        "https://wanderlog.com/place/details/1612388/caf%C3%A9-balthasar",
+        "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
       "checked": "2026-11-07"
     },
     {
@@ -576,6 +944,54 @@
       "checked": "2026-11-07"
     },
     {
+      "id": "eisliebe-kettengasse",
+      "name": "schmelz&BOHNE – Eisliebe in der Kettengasse",
+      "category": "dessert",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Kettengasse 4, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Ice cream shop with vegan options",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "ice-cream"
+      ],
+      "diet": [
+        "vegan"
+      ],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "open-sunday"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.9,
+      "google_reviews": 501,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "쾰른 도심 케텐가세(Kettengasse)의 작은 아이스크림 가게로, 아이스크림 품질과 비건 메뉴가 꾸준히 칭찬받아 구글 평점 4.9를 기록했다. 날 좋은 일요일엔 7분쯤 줄을 섰다는 후기가 있을 만큼 인기다.",
+      "must_try": [],
+      "tips_ko": "겨울철(11월) 영업 여부는 확인하지 못했다. 지역은 우편번호(50672)와 거리 이름으로 프리젠 지구·에렌슈트라세 쪽으로 분류했으니 지오코딩 후 확인할 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/49283/places-to-have-best-gelato-in-cologne",
+        "https://wanderlog.com/list/geoCategory/51068/best-ice-cream-shops-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
       "id": "chum-chay",
       "name": "Chum Chay",
       "category": "restaurant",
@@ -628,6 +1044,53 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "toertchen-toertchen-apostelnstrasse",
+      "name": "Törtchen Törtchen – Studio Apostelnstraße",
+      "category": "dessert",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Apostelnstraße 19, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Patisserie – small cakes (Törtchen) and coffee",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "cake",
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "리뷰상 크기 대비 비싼 편 (구체적 가격 미확인)",
+      "google_rating": 4.5,
+      "google_reviews": 1374,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "디저트와 커피 명소로 꼽히는 쾰른의 파티스리로, 보기에도 예쁜 작은 케이크(퇴르트헨)가 간판이고 케이크마다 재료를 적은 카드가 놓여 있다. 노이마르크트 근처 아포스텔른 거리의 스튜디오 매장에서 커피와 함께 맛볼 수 있어 디저트 좋아하는 사람에게 맞다.",
+      "must_try": [
+        "Törtchen (모양과 맛을 함께 칭찬받는 작은 케이크)"
+      ],
+      "tips_ko": "크기에 비해 비싸다, 맛이 겉모습만 못하다는 평도 일부 있다. 재료 카드가 있어 알레르기나 재료를 확인하기 쉽다.",
+      "website": "https://www.toertchentoertchen.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2022330/t%C3%B6rtchen-t%C3%B6rtchen-apostelnstra%C3%9Fe",
+        "https://wanderlog.com/list/geoCategory/68918/best-pastries-and-patisseries-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
       "checked": "2026-11-07"
     },
     {
@@ -730,6 +1193,56 @@
       "checked": "2026-11-07"
     },
     {
+      "id": "the-coffee-gang",
+      "name": "The Coffee Gang",
+      "category": "cafe",
+      "area": "kwartier-lateng",
+      "address": "Hohenstaufenring 19, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Specialty coffee bar (guest-roaster filter and espresso)",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "specialty-coffee"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 1378,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "구글 평점 4.8(리뷰 1,300건 이상)을 받은 스페셜티 커피 바로, 게스트 로스터 원두로 내리는 필터 커피와 에스프레소가 강점이다. 쥘피허 플라츠 옆 링 도로(Hohenstaufenring)에 있어 대학가나 벨기에 지구를 걷다가 제대로 된 커피 한 잔이 필요할 때 좋다.",
+      "must_try": [
+        "Filterkaffee (게스트 로스터 원두의 필터 커피)",
+        "Espresso (에스프레소)"
+      ],
+      "tips_ko": "주말 오후엔 붐비고 노트북 사용 금지 안내가 있다는 리뷰가 있다. 작업보다는 커피 자체를 즐기러 가는 곳이다. 1차 조사의 'Maastrichter Straße' 주소는 확인되지 않았고, 구글 연동 주소는 Hohenstaufenring 19(쿼르티어 라텡 쪽)이다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1508522/the-coffee-gang",
+        "https://wanderlog.com/list/geoCategory/17153/best-coffee-shops-and-best-cafes-in-cologne",
+        "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
       "id": "bei-oma-kleinmann",
       "name": "Bei Oma Kleinmann",
       "category": "restaurant",
@@ -781,6 +1294,54 @@
       ],
       "confidence": "high",
       "research": "fnb-ehrenfeld-lateng",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "st-louis-breakfast",
+      "name": "ST. LOUIS Breakfast",
+      "category": "cafe",
+      "area": "kwartier-lateng",
+      "address": "Meister-Gerhard-Straße 30, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Breakfast café",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "brunch-plates",
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "brunch"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 3462,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "이름 그대로 아침 전문 카페로, 구글 리뷰 3,400건 이상에 평점 4.7을 받아 쾰른 아침·브런치 리스트 상위권에 든다. 쥘피허 지구(대학가) 쪽에 있어 그 일대 산책과 묶기 좋다.",
+      "must_try": [],
+      "tips_ko": "도이츠 Deutzer Freiheit 89의 'ST. LOUIS Café-Köln'과 이름이 같다(같은 브랜드인지는 출처로 확인하지 못함). 메뉴 정보는 이번 조사에서 확보하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/534788/st-louis-breakfast",
+        "https://wanderlog.com/list/geoCategory/10013/breakfast-and-brunch"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
       "checked": "2026-11-07"
     },
     {
@@ -883,6 +1444,161 @@
       "checked": "2026-11-07"
     },
     {
+      "id": "cafe-feynsinn",
+      "name": "Café Feynsinn",
+      "category": "cafe",
+      "area": "kwartier-lateng",
+      "address": "Rathenauplatz 7, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Café-restaurant – breakfast, light lunch, cakes",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "brunch-plates",
+        "cake",
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "occasions": [],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "리뷰상 다소 비싼 편 (구체적 가격 미확인)",
+      "google_rating": 4.2,
+      "google_reviews": 724,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com; gelbeseiten.de",
+      "summary_ko": "나무가 많은 라테나우 광장에 면한 카페 겸 레스토랑으로, 아침·가벼운 점심·케이크를 테라스에서 즐길 수 있다. 분위기와 제철 아스파라거스 요리는 칭찬받지만 음식과 서비스에 대한 평은 엇갈린다.",
+      "must_try": [
+        "Frühstück (아침 메뉴)",
+        "Spargel (제철 아스파라거스 요리, 봄 시즌)"
+      ],
+      "tips_ko": "구글 평점이 기준선(4.2)에 걸쳐 있다. Wanderlog 스냅샷은 모두 약 4.2(리뷰 674–758건)이고, 리뷰 수는 정확한 값이 있는 gelbeseiten.de 수치(724)를 썼다. 1차 조사에서는 좌석이 적어 저녁·단체는 예약을 권했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/490866/restaurant-caf%C3%A9-feynsinn",
+        "https://www.gelbeseiten.de/gsbiz/c575c5e8-cb41-43be-935a-0d9f8bef67d6"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "cafe-caprista",
+      "name": "Café Caprista",
+      "category": "cafe",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 380, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Brunch café – pancakes, egg dishes, cakes",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "brunch-plates",
+        "cake",
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "brunch"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 1043,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "에렌펠트 벤로어 거리의 브런치 카페로, 팬케이크와 아보카도 에그 토스트가 대표 메뉴다. 푸짐한 브런치 접시와 오후 케이크로 알려져 있어 늦은 아침을 든든하게 먹고 싶은 사람에게 맞다.",
+      "must_try": [
+        "Pancakes (팬케이크)",
+        "Avocado-Egg-Toast (아보카도 달걀 토스트)"
+      ],
+      "tips_ko": "1차 조사에서는 벨기에 지구 Flandrische Str. 15 지점(tablejourney)으로 소개됐지만, 구글 수치(4.8/1,043)는 Venloer Str. 380 지점 페이지 기준이다. Flandrische Str. 지점의 현재 영업 여부는 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/6334047/caf%C3%A9-caprista",
+        "https://tablejourney.com/germany/cologne/cafes/"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "van-dyck-espressobar",
+      "name": "Van Dyck Espressobar",
+      "category": "cafe",
+      "area": "ehrenfeld",
+      "address": "Körnerstraße 43, 50823 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Espresso bar of a Cologne coffee roaster",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "specialty-coffee"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 451,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "옛 이발소 자리를 개조한 에렌펠트 쾨르너 거리의 에스프레소 바로, 쾰른 로스터리 반다이크가 공정무역·유기농 원두를 직접 볶아 낸다. 진하게 볶은 커피를 좋아하는 커피 애호가에게 맞다.",
+      "must_try": [
+        "Espresso (직접 로스팅한 원두의 에스프레소)"
+      ],
+      "tips_ko": "다크 로스팅 쪽이라 산미 있는 커피를 좋아하면 참고. 플랫화이트는 우유 맛이 강하다는 평이 있다. 로스터리 겸 카페는 뮐하임(Schanzenstraße 36, 51063 Köln)에 따로 있고, 리스트에 보이는 4.8(265–272건)은 그쪽 수치일 수 있어 이 항목은 Körnerstraße 43 페이지 수치(4.6/451)를 썼다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1508526/van-dyck-espressobar",
+        "https://wanderlog.com/list/geoCategory/1861715/best-coffee-roasters-in-cologne",
+        "https://koeln.mitvergnuegen.com/2026/cafes-in-ehrenfeld/",
+        "https://rausgegangen.de/en/blog/places-secret-tips-ehrenfeld-koeln/"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
       "id": "braustelle",
       "name": "Braustelle",
       "category": "brauhaus",
@@ -938,6 +1654,207 @@
       ],
       "confidence": "medium",
       "research": "fnb-ehrenfeld-lateng",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "pufu",
+      "name": "PUFU",
+      "category": "dessert",
+      "area": "ehrenfeld",
+      "address": "Vogelsanger Straße 197b, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Japanese soufflé pancakes",
+      "cuisine_country": [
+        "JP"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "cake"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_pp": null,
+      "price_note": "기본 수플레 팬케이크(슈가파우더·꿀) €6.50, 토핑 1개당 +€1",
+      "google_rating": 4.5,
+      "google_reviews": 522,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "에렌펠트의 작은 일본식 수플레 팬케이크 전문점으로, 폭신한 팬케이크와 오레오 팬케이크가 인기다. 일본식 디저트를 찾는 사람에게 맞지만 대기가 길고 음료는 약하다는 평도 있다.",
+      "must_try": [
+        "Soufflé-Pancake mit Puderzucker und Honig (슈가파우더·꿀 수플레 팬케이크)",
+        "Oreo-Pancake (오레오 팬케이크)"
+      ],
+      "tips_ko": "대기가 길다는 리뷰가 많으니 시간 여유를 두고 갈 것. 카푸치노·핫초코는 약하다는 평이 있다. 팬케이크가 덜 폭신했다는 불만도 일부 있다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/12124492/pufu",
+        "https://wanderlog.com/list/geoCategory/67133/best-pancakes-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "cafe-sehnsucht",
+      "name": "Café Sehnsucht",
+      "category": "cafe",
+      "area": "ehrenfeld",
+      "address": "Körnerstraße 67, 50823 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Organic breakfast and brunch café",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "brunch-plates",
+        "cake",
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "brunch"
+      ],
+      "occasions": [],
+      "features": [
+        "open-sunday"
+      ],
+      "drinks": [],
+      "vibe": [
+        "lively"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 1689,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "에렌펠트 쾨르너 거리의 브런치 카페로, 제철 과일·동네 빵·자체 로스팅 커피로 차리는 유기농 아침과 바나나브레드가 인기다. 늘 붐벼서 자리 잡으려면 운이 필요하다는 말이 나올 만큼 현지 브런치 수요가 많은 곳이다.",
+      "must_try": [
+        "Bananenbrot (바나나브레드)",
+        "Bio-Frühstück (제철 과일·동네 빵을 곁들인 유기농 아침)"
+      ],
+      "tips_ko": "일요일엔 특히 붐비고 서비스가 느리다는 리뷰가 많다. 평일 오전이나 이른 시간에 가는 것이 좋다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1188694/caf%C3%A9-sehnsucht",
+        "https://wanderlog.com/list/geoCategory/17153/best-coffee-shops-and-best-cafes-in-cologne",
+        "https://koeln.mitvergnuegen.com/2026/cafes-in-ehrenfeld/"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "die-eisdielerin",
+      "name": "Die Eisdielerin",
+      "category": "dessert",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 402, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Ice cream shop with many vegan flavours and backyard seating",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "ice-cream"
+      ],
+      "diet": [
+        "vegan"
+      ],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 550,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "에렌펠트 벤로어 거리의 아이스크림 가게로, 비건 아이스크림 선택지가 많고 뒤뜰(Hinterhof) 좌석에서 먹을 수 있다. 에렌펠트 산책 중 들르기 좋다.",
+      "must_try": [],
+      "tips_ko": "보통 13–20시, 월요일 휴무(Wanderlog). 한 리스트에 '임시 휴업' 표시가 있어 겨울 휴업일 수 있으니 방문 전 확인할 것. 수치는 Wanderlog 페이지마다 약 4.4–4.5, 약 550–630건이라 낮은 쪽 값을 적었다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2741363/die-eisdielerin",
+        "https://wanderlog.com/list/geoCategory/49283/places-to-have-best-gelato-in-cologne",
+        "https://wanderlog.com/list/geoCategory/51068/best-ice-cream-shops-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "der-eismacher",
+      "name": "Der Eismacher",
+      "category": "dessert",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Severinstraße 53, 50678 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Organic ice cream parlour with rotating flavours",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "ice-cream"
+      ],
+      "diet": [
+        "vegan"
+      ],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 181,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "쥐트슈타트 세베린 거리의 유기농 아이스크림 가게로, 최대 100가지 맛을 돌려 가며 내고 비건 아이스크림도 있다. 친절한 직원과 자주 바뀌는 맛이 칭찬받아 쥐트슈타트를 걷다 들르기 좋다.",
+      "must_try": [],
+      "tips_ko": "맛 구성이 자주 바뀐다. 최근 맛이 아쉬웠다는 오랜 단골의 평도 있다. 겨울철(11월) 영업 여부는 출처로 확인하지 못했으니 방문 전 확인할 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1517702/der-eismacher",
+        "https://wanderlog.com/list/geoCategory/51068/best-ice-cream-shops-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
       "checked": "2026-11-07"
     },
     {
@@ -1031,6 +1948,53 @@
       "checked": "2026-11-07"
     },
     {
+      "id": "damla-weidengasse",
+      "name": "Damla",
+      "category": "dessert",
+      "area": "agnesviertel-eigelstein",
+      "address": "Weidengasse 47, 50668 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish baklava and sweets shop",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "bread-pastry"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.2,
+      "google_reviews": 538,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "아이겔슈타인 지구 바이덴가세(Weidengasse)의 터키식 바클라바 가게로, 시럽이 과하지 않고 피스타치오를 듬뿍 넣은 바클라바가 칭찬받는다. 중앙역 북쪽에서 터키식 디저트를 맛보고 싶은 사람에게 맞다.",
+      "must_try": [
+        "Fıstıklı Baklava (피스타치오 바클라바)"
+      ],
+      "tips_ko": "실내가 낡았다는 평이 있어 포장해 가는 것도 방법이다. 구글 평점이 기준선(4.2)에 걸쳐 있다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2637260/damla"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
       "id": "nuvola-napoli",
       "name": "Nuvola Napoli",
       "category": "restaurant",
@@ -1087,6 +2051,98 @@
       ],
       "confidence": "high",
       "research": "fnb-deutz-messe",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "the-coffice-deutz",
+      "name": "THE COFFICE DEUTZ",
+      "category": "cafe",
+      "area": "deutz-messe",
+      "address": "Charles-de-Gaulle-Platz 1d, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Coffee bar at Köln Messe/Deutz station",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast"
+      ],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 245,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "쾰른 메쎄/도이츠역 앞 샤를드골 광장의 커피 바로, 커피와 오버나이트 오트밀, 친절한 직원이 칭찬받는다. 평일 낮에만 열어 메쎄 출장이나 기차 타기 전에 아침 커피를 마시기 알맞다.",
+      "must_try": [
+        "Overnight Oats (오버나이트 오트밀)"
+      ],
+      "tips_ko": "평일 오후 4시 무렵 닫고 주말은 휴무다(Wanderlog). 자매점 'THE COFFICE HARBOUR'도 있다(위치·수치 미확인).",
+      "website": "https://thecoffice.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1508525/the-coffice-deutz"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "st-louis-cafe-deutz",
+      "name": "ST. LOUIS Café-Köln",
+      "category": "cafe",
+      "area": "deutz-messe",
+      "address": "Deutzer Freiheit 89, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Café on Deutzer Freiheit",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 957,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "도이츠의 먹자 거리 Deutzer Freiheit에 있는 카페로, 구글 평점 4.7(957건)을 받았다. 메쎄나 라인강 동쪽에 묵는다면 커피 한 잔 할 곳으로 후보가 될 만하다.",
+      "must_try": [],
+      "tips_ko": "쥘피허 지구의 아침 카페 'ST. LOUIS Breakfast'와 이름이 같다(같은 브랜드인지는 확인하지 못함). 메뉴·영업시간은 공식 사이트에서 확인할 것.",
+      "website": "https://st-louis-cafe.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2853014/st-louis-caf%C3%A9-k%C3%B6ln"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
       "checked": "2026-11-07"
     },
     {
@@ -1324,6 +2380,60 @@
       "checked": "2026-11-07"
     },
     {
+      "id": "cafe-heimisch",
+      "name": "Café Heimisch (Heimisch Kaffee & Regionales)",
+      "category": "cafe",
+      "area": "deutz-messe",
+      "address": "Deutzer Freiheit 72–74, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Café with regional products – breakfast, coffee, light lunch",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "coffee",
+        "brunch-plates"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "occasions": [
+        "solo"
+      ],
+      "features": [
+        "terrace",
+        "open-sunday"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.3,
+      "google_reviews": 1375,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "도이츠의 먹자 거리 Deutzer Freiheit에서 2016년부터 지역 식재료로 아침과 커피를 내는 카페로, 식물성 우유 선택지가 많다. 위층이 비교적 조용해 메쎄 방문 전후의 아침이나 가벼운 점심, 혼자 쉬어 가기에 좋다.",
+      "must_try": [],
+      "tips_ko": "서비스가 느릴 수 있다는 리뷰가 있다. 영업시간은 출처마다 다르다(Wanderlog·koeln.de 매일 9–18시, Rausgegangen 평일 8:00–18:30·주말 9–18시). 방문 전 확인할 것. 지붕 있는 테라스가 있다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2852120/caf%C3%A9-heimisch",
+        "https://www.koeln.de/?p=56664",
+        "https://rausgegangen.de/blog/best-restaurants-koeln-deutz/"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
       "id": "cafe-especial",
       "name": "Café Especial",
       "category": "restaurant",
@@ -1379,6 +2489,98 @@
       ],
       "confidence": "medium",
       "research": "fnb-deutz-messe",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "il-gelato-di-ferigo",
+      "name": "Il Gelato di Ferigo",
+      "category": "dessert",
+      "area": "other",
+      "address": "Goltsteinstraße 32, 50968 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Italian gelateria (30–40 flavours)",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "ice-cream"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 1617,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "남쪽 주거지 바이엔탈(Bayenthal) 골트슈타인 거리의 젤라테리아로, 언제 가도 30–40가지 맛을 갖추고 있어 Wanderlog 쾰른 아이스크림 리스트 상위에 오른다. 이탈리아식 젤라토를 제대로 맛보고 싶은 사람에게 맞다.",
+      "must_try": [],
+      "tips_ko": "도심에서 떨어진 남쪽 주거 지역이라 쥐트슈타트에서 트램이나 버스로 이동해야 한다. 겨울철 영업 여부는 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1422887/il-gelato-di-ferigo",
+        "https://wanderlog.com/list/geoCategory/51068/best-ice-cream-shops-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "darwish-konditorei",
+      "name": "Darwish Konditorei",
+      "category": "dessert",
+      "area": "other",
+      "address": "Zülpicher Straße 273, 50937 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Middle Eastern pastry shop (baklava, kunafa)",
+      "cuisine_country": [],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "bread-pastry"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 940,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com",
+      "summary_ko": "쥘츠(Sülz) 쪽 쥘피허 거리의 중동식 과자점으로, 호두 바클라바와 쿠나파가 특히 칭찬받고 직원이 친절하다는 평이 많다. 바클라바·쿠나파 같은 중동 디저트를 맛보고 싶은 사람에게 맞다.",
+      "must_try": [
+        "Walnuss-Baklava (호두 바클라바)",
+        "Kunafa (쿠나파 — 가는 반죽과 치즈에 시럽을 끼얹은 중동 디저트)"
+      ],
+      "tips_ko": "쥘피허 거리 273번지는 대학가(쿼르티어 라텡)에서 서쪽으로 더 가야 하는 쥘츠 쪽이다. 어느 나라 스타일인지는 출처에 없어 나라 코드는 비우고 문화권만 '중동'으로 적었다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1656868/darwish-konditorei"
+      ],
+      "confidence": "medium",
+      "research": "r2-cafes-dessert",
       "checked": "2026-11-07"
     },
     {

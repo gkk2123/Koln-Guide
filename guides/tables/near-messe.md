@@ -9,8 +9,11 @@
 | 이름(지도) | 유형 | 음식 | 가격 | 구글 |
 |---|---|---|---|---|
 | [Nuvola Napoli](https://www.google.com/maps/search/?api=1&query=Nuvola%20Napoli%20Deutzer%20Freiheit%2066a%2C%2050679%20K%C3%B6ln) | 레스토랑 | Neapolitan pizza | – | ★4.8 (1,172) |
+| [THE COFFICE DEUTZ](https://www.google.com/maps/search/?api=1&query=THE%20COFFICE%20DEUTZ%20Charles-de-Gaulle-Platz%201d%2C%2050679%20K%C3%B6ln) | 카페 | Coffee bar at Köln Messe/Deutz station | – | ★4.8 (245) |
+| [ST. LOUIS Café-Köln](https://www.google.com/maps/search/?api=1&query=ST.%20LOUIS%20Caf%C3%A9-K%C3%B6ln%20Deutzer%20Freiheit%2089%2C%2050679%20K%C3%B6ln) | 카페 | Café on Deutzer Freiheit | – | ★4.7 (957) |
 | [Lommerzheim](https://www.google.com/maps/search/?api=1&query=Lommerzheim%20Siegesstra%C3%9Fe%2018%2C%2050679%20K%C3%B6ln) | 브라우하우스 | Traditional Kölsch pub (Päffgen), Rhineland pub food | – | ★4.6 (4,362) |
 | [Deutzer Brauhaus](https://www.google.com/maps/search/?api=1&query=Deutzer%20Brauhaus%20Ottoplatz%207%2C%2050679%20K%C3%B6ln) | 브라우하우스 | Brauhaus — Kölsch and Rhineland dishes | €€ | ★4.3 (9,240) |
 | [Mongo's Köln](https://www.google.com/maps/search/?api=1&query=Mongo%27s%20K%C3%B6ln%20Ottoplatz%201%2C%2050679%20K%C3%B6ln) | 레스토랑 | Mongolian grill — all-you-can-eat wok buffet (chain) | €€€ | ★4.3 (3,074) |
 | [Brauhaus ohne Namen (b.o.n.)](https://www.google.com/maps/search/?api=1&query=Brauhaus%20ohne%20Namen%20%28b.o.n.%29%20Mathildenstra%C3%9Fe%2042%2C%2050679%20K%C3%B6ln) | 브라우하우스 | Brauhaus — Rhineland / regional dishes | – | ★4.3 (1,397) |
+| [Café Heimisch (Heimisch Kaffee & Regionales)](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Heimisch%20%28Heimisch%20Kaffee%20%26%20Regionales%29%20Deutzer%20Freiheit%2072%E2%80%9374%2C%2050679%20K%C3%B6ln) | 카페 | Café with regional products – breakfast, coffee, light lunch | – | ★4.3 (1,375) |
 | [Café Especial](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Especial%20Neuh%C3%B6fferstra%C3%9Fe%2032%2C%2050679%20K%C3%B6ln) | 레스토랑 | Mexican cantina & tequila bar | – | ★4.2 (3,473) |

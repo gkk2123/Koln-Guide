@@ -7,6 +7,15 @@
 문화권 → 나라 순서. 카페·디저트처럼 나라 구분이 없는 곳은 [요리 종류별 표](restaurants-by-dish.md)에 있습니다.
 
 
+## 동아시아 — 1곳
+
+
+### 일본 (1)
+
+| 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
+|---|---|---|---|---|---|---|
+| [PUFU](https://www.google.com/maps/search/?api=1&query=PUFU%20Vogelsanger%20Stra%C3%9Fe%20197b%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 디저트 | € | ★4.5 (522) | 케이크 | Soufflé-Pancake mit Puderzucker und Honig (슈가파우더·꿀 수플레 팬케이크), Oreo-Pancake (오레오 팬케이크) |
+
 ## 동남아시아 — 12곳
 
 
@@ -53,14 +62,30 @@
 |---|---|---|---|---|---|---|
 | [Buddha's Eye](https://www.google.com/maps/search/?api=1&query=Buddha%27s%20Eye%20Mariengartengasse%205%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레스토랑 | €€ | ★4.4 (664) |  |  |
 
-## 남유럽 — 1곳
+## 중동·터키·북아프리카 — 2곳
 
 
-### 이탈리아 (1)
+### 터키 (1)
+
+| 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
+|---|---|---|---|---|---|---|
+| [Damla](https://www.google.com/maps/search/?api=1&query=Damla%20Weidengasse%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 디저트 | – | ★4.2 (538) | 빵·페이스트리 | Fıstıklı Baklava (피스타치오 바클라바) |
+
+### 기타 (1)
+
+| 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
+|---|---|---|---|---|---|---|
+| [Darwish Konditorei](https://www.google.com/maps/search/?api=1&query=Darwish%20Konditorei%20Z%C3%BClpicher%20Stra%C3%9Fe%20273%2C%2050937%20K%C3%B6ln) | 기타 시내 | 디저트 | – | ★4.5 (940) | 빵·페이스트리 | Walnuss-Baklava (호두 바클라바), Kunafa (쿠나파 — 가는 반죽과 치즈에 시럽을 끼얹은 중동 디저트) |
+
+## 남유럽 — 2곳
+
+
+### 이탈리아 (2)
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
 | [Nuvola Napoli](https://www.google.com/maps/search/?api=1&query=Nuvola%20Napoli%20Deutzer%20Freiheit%2066a%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 레스토랑 | – | ★4.8 (1,172) | 피자 | Pizza napoletana (나폴리식 피자 — 가장자리가 부풀고 쫄깃한 도우) |
+| [Il Gelato di Ferigo](https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20di%20Ferigo%20Goltsteinstra%C3%9Fe%2032%2C%2050968%20K%C3%B6ln) | 기타 시내 | 디저트 | – | ★4.7 (1,617) | 아이스크림 |  |
 
 ## 독일·중부유럽 — 8곳
 

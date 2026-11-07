@@ -381,15 +381,20 @@ def main() -> int:
         buckets[kind] = items
         report.append(f"{kind:12s} {len(items):4d}")
 
-    # candidates: drop the ones that ended up in the main lists, dedupe by name
-    main_names = {norm_name(i["name"]) for k in DATA_FILES for i in buckets[k]}
-    seen, cands = set(), []
-    for c in candidates:
+    # candidates: drop the ones that ended up in the main lists, dedupe by name.
+    # Later research files win (r2-* after round 1), and "Seiberts" matches "Seiberts Classic Bar".
+    def same(a: str, b: str) -> bool:
+        return a == b or (min(len(a), len(b)) >= 6 and (a.startswith(b) or b.startswith(a)))
+
+    main_names = [norm_name(i["name"]) for k in DATA_FILES for i in buckets[k]]
+    seen, cands = [], []
+    for c in reversed(candidates):
         key = norm_name(c.get("name", ""))
-        if not key or key in main_names or key in seen:
+        if not key or any(same(key, m) for m in main_names) or any(same(key, x) for x in seen):
             continue
-        seen.add(key)
+        seen.append(key)
         cands.append(c)
+    cands.reverse()
     report.append(f"{'candidates':12s} {len(cands):4d}")
 
     meta = {"generated": TODAY, "criteria": {"min_google_rating": 4.2, "min_google_reviews": 50},
