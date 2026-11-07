@@ -132,9 +132,7 @@
    "dishes": [
     "curry"
    ],
-   "diet": [
-    "vegetarian"
-   ],
+   "diet": [],
    "meals": [
     "lunch",
     "dinner"
@@ -290,9 +288,7 @@
     "kebab",
     "grill"
    ],
-   "diet": [
-    "halal"
-   ],
+   "diet": [],
    "meals": [
     "lunch",
     "dinner",
@@ -510,18 +506,13 @@
    "address": "Ehrenstraße 77, 50672 Köln",
    "lat": null,
    "lng": null,
-   "cuisine": "Café-bar on Ehrenstraße (breakfast, light meals, drinks)",
+   "cuisine": "Café-bar on Ehrenstraße",
    "cuisine_country": [],
    "dishes": [
-    "brunch-plates",
     "coffee"
    ],
    "diet": [],
-   "meals": [
-    "breakfast",
-    "brunch",
-    "lunch"
-   ],
+   "meals": [],
    "occasions": [
     "solo",
     "group"
@@ -675,8 +666,7 @@
    "cuisine_country": [],
    "dishes": [
     "brunch-plates",
-    "coffee",
-    "cake"
+    "coffee"
    ],
    "diet": [
     "vegetarian"
@@ -1026,8 +1016,7 @@
     "DE"
    ],
    "dishes": [
-    "rhineland-classics",
-    "schnitzel"
+    "rhineland-classics"
    ],
    "diet": [],
    "meals": [
@@ -1142,9 +1131,7 @@
    "cuisine_country": [
     "ES"
    ],
-   "dishes": [
-    "tapas"
-   ],
+   "dishes": [],
    "diet": [
     "vegetarian"
    ],
@@ -1156,9 +1143,7 @@
     "group"
    ],
    "features": [],
-   "drinks": [
-    "wine-list"
-   ],
+   "drinks": [],
    "vibe": [
     "trendy"
    ],
@@ -1177,7 +1162,7 @@
    "google_reviews": 684,
    "google_as_of": null,
    "rating_source": "restaurantguru.com (Google 4.7 / 684)",
-   "summary_ko": "노이마르크트 남쪽 마우리티우스슈타인베크의 스페인식 베르무트 바(Vermuteria)로, 스페인 음식과 채식 메뉴를 함께 낸다. 구글 680여 건에 4.7로, 베르무트 한잔과 작은 접시로 저녁을 즐기기 좋다.",
+   "summary_ko": "노이마르크트 남쪽 마우리티우스슈타인베크의 스페인식 베르무트 바(Vermuteria)로, 스페인 음식과 채식 메뉴를 함께 낸다. 구글 680여 건에 4.7로, 베르무트 한잔과 스페인 음식으로 저녁을 즐기기 좋다.",
    "must_try": [
     "Vermut (스페인식 베르무트)"
    ],
@@ -1457,7 +1442,7 @@
    "must_try": [
     "Frühstücks-Bagel (아침 베이글)"
    ],
-   "tips_ko": "도이츠의 THE COFFICE DEUTZ와 같은 계열로 보인다(이름 기준). 메뉴·영업시간은 구글 지도에서 확인할 것. 초콜릿 박물관(Schokoladenmuseum)에서 강을 따라 걸어서 약 10분.",
+   "tips_ko": "도이츠의 THE COFFICE DEUTZ와 같은 계열로 보인다(이름 기준). 메뉴·영업시간은 구글 지도에서 확인할 것. 초콜릿 박물관(Schokoladenmuseum)에서 강을 따라 걸어서 10–15분 정도.",
    "website": null,
    "awards": [],
    "sources": [
@@ -1487,8 +1472,7 @@
    ],
    "meals": [
     "lunch",
-    "dinner",
-    "brunch"
+    "dinner"
    ],
    "occasions": [
     "group",
@@ -1521,7 +1505,7 @@
    "must_try": [
     "Hausgebrautes Kölsch (직접 양조한 쾰시)"
    ],
-   "tips_ko": "이전 조사 기준 평일 12–22시, 주말 10–22시(주말 오전 브런치 가능), 전화 0221 16860975, 테라스 있음. 음식이 들쭉날쭉하고 단맛이 강하다는 후기도 있다. 라인강변의 'Biergarten am Rheinauhafen Johann Schäfer'는 같은 계열의 계절 비어가든(별개 업소).",
+   "tips_ko": "이전 조사 기준 평일 12–22시, 주말 10–22시, 전화 0221 16860975, 테라스 있음. 음식이 들쭉날쭉하고 단맛이 강하다는 후기도 있다. 라인강변의 'Biergarten am Rheinauhafen Johann Schäfer'는 같은 계열의 계절 비어가든(별개 업소).",
    "website": null,
    "awards": [
     "Falstaff 84/100",
@@ -1579,7 +1563,7 @@
    "google_reviews": 456,
    "google_as_of": null,
    "rating_source": "wanderlog.com (Google 4.4 / 456); Restaurant Guru 자체 4.4 / 502는 구글 아님",
-   "summary_ko": "1841년 세베린 지구에서 시작한 쾰른 커피 로스터 '뢰벤 카페(Löwen Kaffee)'가 2019년 세베린슈트라세로 돌아와 연 카페다(Mit Vergnügen). 180년 역사의 동네 로스터 커피를 성 세베린 성당 근처에서 마셔 볼 수 있다.",
+   "summary_ko": "1841년 세베린 지구에서 시작한 쾰른 커피 로스터 '뢰벤 카페(Löwen Kaffee)'가 2019년 세베린슈트라세로 돌아와 연 카페다(Mit Vergnügen). 1841년 창업한 동네 로스터의 커피를 성 세베린 성당 근처에서 마셔 볼 수 있다.",
    "must_try": [
     "Hausröstung Filterkaffee / Espresso (자가 로스팅 커피)"
    ],
@@ -1924,9 +1908,7 @@
    "cuisine_country": [
     "DE"
    ],
-   "dishes": [
-    "schnitzel"
-   ],
+   "dishes": [],
    "diet": [],
    "meals": [
     "lunch",
@@ -1976,14 +1958,11 @@
    "address": "Marzellenstraße 66, 50668 Köln",
    "lat": null,
    "lng": null,
-   "cuisine": "Italian trattoria-style restaurant",
+   "cuisine": "Italian restaurant",
    "cuisine_country": [
     "IT"
    ],
-   "dishes": [
-    "pasta",
-    "pizza"
-   ],
+   "dishes": [],
    "diet": [],
    "meals": [
     "lunch",
@@ -2018,8 +1997,7 @@
    "sources": [
     "https://restaurantguru.com/Da-Damiano-Cologne"
    ],
-   "confidence": "medium",
-   "style_hint": "trattoria"
+   "confidence": "medium"
   },
   {
    "id": "luciano-il-ristorante-dal-1969",
@@ -2029,7 +2007,7 @@
    "address": "Marzellenstraße 68-70, 50668 Köln",
    "lat": null,
    "lng": null,
-   "cuisine": "Family-run Italian ristorante since 1969",
+   "cuisine": "Italian ristorante (since 1969)",
    "cuisine_country": [
     "IT"
    ],
@@ -2142,9 +2120,7 @@
    "dishes": [
     "burger"
    ],
-   "diet": [
-    "vegetarian"
-   ],
+   "diet": [],
    "meals": [
     "lunch",
     "dinner"
@@ -2172,7 +2148,7 @@
    "rating_source": "restaurantguru.com (Google 4.4 / 6,598; Restaurant Guru 자체 4.9 / 7,945는 구글 아님); 주소·업종 wanderlog.com 장소 페이지",
    "summary_ko": "프리젠플라츠와 루돌프플라츠 사이 링(Hohenzollernring)에 있는 독일 버거 체인 '한스 임 글뤽'의 쾰른 지점이다. 구글 리뷰 6,500건 넘게 4.4라, 링 주변 바 거리에서 놀기 전 무난하게 버거로 저녁을 먹기 좋다.",
    "must_try": [],
-   "tips_ko": "체인이라 특별한 현지 경험은 아니지만 채식 버거 선택지가 많은 편으로 알려져 있다(메뉴 미확인). 금·토 저녁엔 붐빈다.",
+   "tips_ko": "체인이라 특별한 현지 경험은 아니지만 빠르고 무난하다. 메뉴·가격은 출처에서 확인하지 못했다.",
    "website": null,
    "awards": [],
    "sources": [
@@ -2197,9 +2173,7 @@
    "dishes": [
     "curry"
    ],
-   "diet": [
-    "vegetarian"
-   ],
+   "diet": [],
    "meals": [
     "lunch",
     "dinner"
@@ -2604,17 +2578,6 @@
    ]
   },
   {
-   "name": "NOODLE FAN",
-   "area": "friesenviertel-ehrenstrasse",
-   "address": "Rudolfplatz/Neumarkt 지점 — 번지 미확인",
-   "category": "restaurant",
-   "reason": "address-missing: 'NOODLE FAN Rudolfplatz/Neumarkt' Google 4.4 / 499 (Restaurant Guru)로 수치는 기준 충족",
-   "found": "중식 면 요리점, Wanderlog에 지점 2곳(루돌프플라츠/노이마르크트, 대성당).",
-   "sources": [
-    "https://restaurantguru.com/NOODLE-FAN-RudolfplatzNeumarkt-Cologne"
-   ]
-  },
-  {
    "name": "Caffettiamo",
    "area": "friesenviertel-ehrenstrasse",
    "address": "주소 미확인",
@@ -2792,17 +2755,6 @@
    "found": "스시가 신선하다는 후기, 신용카드 불가 불만.",
    "sources": [
     "https://wanderlog.com/place/details/3490326/sweet-sushi-k%C3%B6ln-s%C3%BCdstadt"
-   ]
-  },
-  {
-   "name": "Phaedra",
-   "area": "suedstadt-rheinauhafen",
-   "address": "Elsaßstraße 30, 50677 Köln",
-   "category": "fine-dining",
-   "reason": "google-numbers-missing: Restaurant Guru 자체 4.8 / 946만 확인(구글 아님)",
-   "found": "Restaurant Guru: 지중해 요리, 1인 €100+ 표기. 주소 Elsaßstraße 30 확인.",
-   "sources": [
-    "https://restaurantguru.com/phaedra-Cologne"
    ]
   },
   {
@@ -3027,5 +2979,5 @@
    ]
   }
  ],
- "notes_ko": "8차 center-south 조사(2026-11-07, WebSearch 32회 사용 — 상한 32회). 방법: Restaurant Guru를 거리 단위로 검색(Severinstraße, Bonner Straße, Ehrenstraße, Friesenstraße, Mittelstraße·Pfeilstraße·Benesisstraße, Komödienstraße·Marzellenstraße, Heumarkt, Mauritiussteinweg·Waidmarkt, Hohenzollernring·Kaiser-Wilhelm-Ring 등) — 페이지 본문의 'Google (x/5) 투표 수'만 구글 수치로 채택했고, Restaurant Guru 헤더·구조화 데이터 점수(자체 합산)는 쓰지 않았다. 업종·후기 내용과 일부 수치는 Wanderlog 장소 페이지(From Google)로 보강했다. 주의: Restaurant Guru 수치는 페이지마다 수개월~수년 전 스냅숏이라 최신 구글 값과 다를 수 있다(예: https://restaurantguru.com/Pizza-andamp-Pasta-Traditionale-Cologne 약 1년 전). 기존 후보에서 places로 올린 곳(같은 이름 사용): Ahlan Imbiss(Severinstraße 189), Mangal Doner Restaurant(Bonner Straße 1), Brauhaus Johann Schäfer(https://wanderlog.com/place/details/2181727/johann-sch%C3%A4fer-brauhaus 4.4/1,728), Bun Pho, Alfredo, Kuchi Mami, Restaurant Great Wall Köln, The Coffice Harbour, Gaffel am Dom (Bahnhofsvorplatz)(Google 4.3/8,716, https://restaurantguru.com/Gaffel-am-Dom-Cologne), Black Angus XL Steakhouse, Steakhouse Ponchos. 후보 갱신: Haxenhaus zum Rheingarten(Google 4.1 — 미달), Nimet Grill(폐업), Eiscafé Breda(수치는 4.4/1,167로 정확해졌지만 편집 판단 필요 사유 유지), Gaffel Haus(Wanderlog 4.4, 리뷰 수 미확인), Einstein(Lintgasse 4, Google 4.6, 리뷰 수 미확인). 지역 판단: 마르첼렌슈트라세(중앙역 북서쪽, 50668)의 Da Damiano·Luciano는 Schreckenskammer와 같은 agnesviertel-eigelstein, 아포스텔른슈트라세·링(Hohenzollernring/Kaiser-Wilhelm-Ring)·루돌프플라츠는 friesenviertel-ehrenstrasse, 바이트마르크트는 suedstadt-rheinauhafen, 마우리티우스슈타인베크·플라이시멩거가세는 dom-altstadt(구시가 남쪽)로 두었다. Goltsteinstraße 일대(50968 바이엔탈)는 other. 우편번호를 출처에서 확인하지 못한 곳(Cloud Kitchen, eatDOORI, Café Romeo Romeo, Espressito)은 주소에 우편번호를 넣지 않았다. 같은 체인 두 지점(Sattgrün 콜룸바·노이마르크트)은 리뷰가 많은 콜룸바(Ludwigstraße 11)만 places에 넣었다. 남은 확인 과제: Rex Am Ring·Pier 124(수치 충족, 업종 미확인), NOODLE FAN·XIAO Köln·Café Bo·Caffettiamo·Mangal Döner Heumarkt·Sweet Sushi Südstadt(수치 충족, 주소 미확인), Haus des Döners(지점 대응 미확인), 쥐트슈타트 크나이페(Lotta·KRAUTIs·Fiffibar 등)는 여전히 구글 수치를 찾지 못함. Restaurant Guru 거리 검색은 아무 출처에도 구글 수치가 없는 곳(Phaedra, Hase, Bei Bepi, EPI, Bastian's 등)이 많아 후보로만 남겼다."
+ "notes_ko": "8차 center-south 조사(2026-11-07, WebSearch 32회 사용 — 상한 32회). 방법: Restaurant Guru를 거리 단위로 검색(Severinstraße, Bonner Straße, Ehrenstraße, Friesenstraße, Mittelstraße·Pfeilstraße·Benesisstraße, Komödienstraße·Marzellenstraße, Heumarkt, Mauritiussteinweg·Waidmarkt, Hohenzollernring·Kaiser-Wilhelm-Ring 등) — 페이지 본문의 'Google (x/5) 투표 수'만 구글 수치로 채택했고, Restaurant Guru 헤더·구조화 데이터 점수(자체 합산)는 쓰지 않았다. 업종·후기 내용과 일부 수치는 Wanderlog 장소 페이지(From Google)로 보강했다. 주의: Restaurant Guru 수치는 페이지마다 수개월~수년 전 스냅숏이라 최신 구글 값과 다를 수 있다(예: https://restaurantguru.com/Pizza-andamp-Pasta-Traditionale-Cologne 약 1년 전). 기존 후보에서 places로 올린 곳(같은 이름 사용): Ahlan Imbiss(Severinstraße 189), Mangal Doner Restaurant(Bonner Straße 1), Brauhaus Johann Schäfer(https://wanderlog.com/place/details/2181727/johann-sch%C3%A4fer-brauhaus 4.4/1,728), Bun Pho, Alfredo, Kuchi Mami, Restaurant Great Wall Köln, The Coffice Harbour, Gaffel am Dom (Bahnhofsvorplatz)(Google 4.3/8,716, https://restaurantguru.com/Gaffel-am-Dom-Cologne), Black Angus XL Steakhouse, Steakhouse Ponchos. 후보 갱신: Haxenhaus zum Rheingarten(Google 4.1 — 미달), Nimet Grill(폐업), Eiscafé Breda(수치는 4.4/1,167로 정확해졌지만 편집 판단 필요 사유 유지), Gaffel Haus(Wanderlog 4.4, 리뷰 수 미확인), Einstein(Lintgasse 4, Google 4.6, 리뷰 수 미확인). 지역 판단: 마르첼렌슈트라세(중앙역 북서쪽, 50668)의 Da Damiano·Luciano는 Schreckenskammer와 같은 agnesviertel-eigelstein, 아포스텔른슈트라세·링(Hohenzollernring/Kaiser-Wilhelm-Ring)·루돌프플라츠는 friesenviertel-ehrenstrasse, 바이트마르크트는 suedstadt-rheinauhafen, 마우리티우스슈타인베크·플라이시멩거가세는 dom-altstadt(구시가 남쪽)로 두었다. Goltsteinstraße 일대(50968 바이엔탈)는 other. 우편번호를 출처에서 확인하지 못한 곳(Cloud Kitchen, eatDOORI, Café Romeo Romeo, Espressito)은 주소에 우편번호를 넣지 않았다. 같은 체인 두 지점(Sattgrün 콜룸바·노이마르크트)은 리뷰가 많은 콜룸바(Ludwigstraße 11)만 places에 넣었다. 남은 확인 과제: Rex Am Ring·Pier 124(수치 충족, 업종 미확인), XIAO Köln·Café Bo·Caffettiamo·Mangal Döner Heumarkt·Sweet Sushi Südstadt(수치 충족, 주소 미확인), Haus des Döners(지점 대응 미확인), 쥐트슈타트 크나이페(Lotta·KRAUTIs·Fiffibar 등)는 여전히 구글 수치를 찾지 못함. Restaurant Guru 거리 검색은 구글 수치가 없는 곳(Hase, Bei Bepi, EPI, Bastian's 등)이 많아 후보로만 남겼다. 같은 라운드의 r8-candidates가 Phaedra·NOODLE FAN·La Esquina·Yame·Sahila 등 이 지역 기존 후보를 따로 재확인했으므로 여기서는 중복으로 넣지 않았다."
 }
