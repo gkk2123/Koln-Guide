@@ -49,8 +49,8 @@
       "category": "bakery",
       "area": "dom-altstadt",
       "address": "Mauritiussteinweg 85, 50676 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.935027,
+      "lng": 6.944762,
       "cuisine": "Bakery-café",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -102,7 +102,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "bakery"
+      "style": "bakery",
+      "coord_source": "nominatim"
     },
     {
       "id": "kuchi-mami",
@@ -110,8 +111,8 @@
       "category": "restaurant",
       "area": "dom-altstadt",
       "address": "Komödienstraße 43, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.941413,
+      "lng": 6.95402,
       "cuisine": "Pan-Asian restaurant — sushi (nigiri, sashimi) plus Japanese, Thai and Vietnamese dishes (duck, pho)",
       "cuisine_country": [
         "JP",
@@ -169,7 +170,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "asian-kitchen"
+      "style": "asian-kitchen",
+      "coord_source": "nominatim"
     },
     {
       "id": "rievkoochebud",
@@ -177,8 +179,8 @@
       "category": "streetfood",
       "area": "dom-altstadt",
       "address": "Salzgasse 6, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.937545,
+      "lng": 6.961645,
       "cuisine": "Reibekuchen (Rhineland potato pancake) takeaway stand",
       "cuisine_country": [
         "DE"
@@ -237,7 +239,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "artistanbul-meze",
@@ -380,8 +383,8 @@
       "category": "fine-dining",
       "area": "dom-altstadt",
       "address": "Kämmergasse 18, 50676 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.932982,
+      "lng": 6.952785,
       "cuisine": "Chef Julia Komp's tasting-menu restaurant — travel-inspired fusion of Oriental and Asian flavours (Sahila – The Restaurant)",
       "cuisine_country": [
         "INT"
@@ -431,7 +434,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "fine-dining"
+      "style": "fine-dining",
+      "coord_source": "nominatim"
     },
     {
       "id": "black-angus-xl-steakhouse",
@@ -439,8 +443,8 @@
       "category": "restaurant",
       "area": "dom-altstadt",
       "address": "An Groß St. Martin 2, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.939042,
+      "lng": 6.961804,
       "cuisine": "Argentinian-style steakhouse (rib-eye, rump steak, burgers)",
       "cuisine_country": [
         "AR"
@@ -496,7 +500,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "steakhouse"
+      "style": "steakhouse",
+      "coord_source": "nominatim"
     },
     {
       "id": "gangnamstyle-korean-bbq",
@@ -776,8 +781,8 @@
       "category": "restaurant",
       "area": "dom-altstadt",
       "address": "Mauritiussteinweg 74, 50676 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.933299,
+      "lng": 6.945442,
       "cuisine": "Spanish vermuteria — vermouth bar with Spanish food, vegetarian-friendly",
       "cuisine_country": [
         "ES"
@@ -835,7 +840,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "tapas"
+      "style": "tapas",
+      "coord_source": "nominatim"
     },
     {
       "id": "lint-no-7",
@@ -962,8 +968,8 @@
       "category": "restaurant",
       "area": "dom-altstadt",
       "address": "Am Frankenturm 1-3, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.94017,
+      "lng": 6.961661,
       "cuisine": "Traditional German/Rhineland restaurant by the Rhine promenade",
       "cuisine_country": [
         "DE"
@@ -1021,7 +1027,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "traditional"
+      "style": "traditional",
+      "coord_source": "nominatim"
     },
     {
       "id": "gelateria-luissimo",
@@ -1029,8 +1036,8 @@
       "category": "dessert",
       "area": "dom-altstadt",
       "address": "Fischmarkt 5, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.938388,
+      "lng": 6.962075,
       "cuisine": "Gelato and soft-serve ice cream shop on the Altstadt Fischmarkt by the Rhine",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -1076,7 +1083,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "ice-cream"
+      "style": "ice-cream",
+      "coord_source": "nominatim"
     },
     {
       "id": "suenner-im-walfisch",
@@ -1291,8 +1299,8 @@
       "category": "restaurant",
       "area": "dom-altstadt",
       "address": "Salzgasse 11, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.937723,
+      "lng": 6.961787,
       "cuisine": "Argentinian steakhouse in an old-town vaulted cellar",
       "cuisine_country": [
         "AR"
@@ -1347,7 +1355,8 @@
       "confidence": "medium",
       "research": "r8-candidates, r8-center-south",
       "checked": "2026-11-07",
-      "style": "steakhouse"
+      "style": "steakhouse",
+      "coord_source": "nominatim"
     },
     {
       "id": "caffe-gelato-marco-polo",
@@ -1355,8 +1364,8 @@
       "category": "dessert",
       "area": "dom-altstadt",
       "address": "Alter Markt 44, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.938647,
+      "lng": 6.960472,
       "cuisine": "Italian ice-cream café on the Alter Markt — Spaghettieis, waffles and lattes",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -1405,7 +1414,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "ice-cream"
+      "style": "ice-cream",
+      "coord_source": "nominatim"
     },
     {
       "id": "krua-thai-heumarkt",
@@ -1751,8 +1761,8 @@
       "category": "brauhaus",
       "area": "dom-altstadt",
       "address": "Bahnhofsvorplatz 1, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.942161,
+      "lng": 6.956819,
       "cuisine": "Brauhaus of the Gaffel brewery — Gaffel Kölsch with Rhineland classics and schnitzel, opposite the Hauptbahnhof",
       "cuisine_country": [
         "DE"
@@ -1817,7 +1827,8 @@
       "confidence": "medium",
       "research": "r8-candidates, r8-center-south",
       "checked": "2026-11-07",
-      "style": "brauhaus"
+      "style": "brauhaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "peters-brauhaus",
@@ -2564,8 +2575,8 @@
       "category": "restaurant",
       "area": "belgisches-viertel",
       "address": "Maastrichter Straße 3, 50672 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.938159,
+      "lng": 6.938571,
       "cuisine": "Modern Mediterranean bistro-restaurant — steaks, baked potatoes, salads, Flammkuchen; weekend breakfast",
       "cuisine_country": [
         "INT"
@@ -2622,7 +2633,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "modern"
+      "style": "modern",
+      "coord_source": "nominatim"
     },
     {
       "id": "belgischer-hof",
@@ -2900,8 +2912,8 @@
       "category": "restaurant",
       "area": "belgisches-viertel",
       "address": "Flandrische Straße 18, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.937139,
+      "lng": 6.937826,
       "cuisine": "Steakhouse with charcoal-grilled steaks (filet, Chateaubriand)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -2948,7 +2960,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "steakhouse"
+      "style": "steakhouse",
+      "coord_source": "nominatim"
     },
     {
       "id": "hankki-koeln",
@@ -3435,8 +3448,8 @@
       "category": "restaurant",
       "area": "belgisches-viertel",
       "address": "Limburger Straße 23, 50672 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.939686,
+      "lng": 6.938436,
       "cuisine": "Neapolitan pizzeria",
       "cuisine_country": [
         "IT"
@@ -3486,7 +3499,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "pizzeria"
+      "style": "pizzeria",
+      "coord_source": "nominatim"
     },
     {
       "id": "bali-restaurant",
@@ -3694,8 +3708,8 @@
       "category": "restaurant",
       "area": "belgisches-viertel",
       "address": "Brabanter Straße 5, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.936907,
+      "lng": 6.937212,
       "cuisine": "Indonesian-Balinese restaurant with a courtyard garden, many vegetarian dishes",
       "cuisine_country": [
         "ID"
@@ -3747,7 +3761,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": null
+      "style": null,
+      "coord_source": "nominatim"
     },
     {
       "id": "krua-thai-belgisches-viertel",
@@ -3814,8 +3829,8 @@
       "category": "cafe",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Pfeilstraße 2-4, 50672 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.936382,
+      "lng": 6.940848,
       "cuisine": "Italian-style espresso café",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -3865,7 +3880,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "zadem",
@@ -3991,8 +4007,8 @@
       "category": "restaurant",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Friesenstraße 58-60, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.940793,
+      "lng": 6.942077,
       "cuisine": "Restaurant-bar that turns into a party bar late in the evening",
       "cuisine_country": [
         "INT"
@@ -4042,7 +4058,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "modern"
+      "style": "modern",
+      "coord_source": "nominatim"
     },
     {
       "id": "peters-am-hahnentor",
@@ -4126,8 +4143,8 @@
       "category": "restaurant",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Apostelnstraße 2, 50667 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.936954,
+      "lng": 6.945459,
       "cuisine": "Vegetarian-vegan restaurant (chain branch at Neumarkt)",
       "cuisine_country": [
         "INT"
@@ -4177,7 +4194,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "veggie"
+      "style": "veggie",
+      "coord_source": "nominatim"
     },
     {
       "id": "chum-chay",
@@ -4256,8 +4274,8 @@
       "category": "cafe",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Benesisstraße 61, 50672 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.938053,
+      "lng": 6.942116,
       "cuisine": "Parisian-style café-bistro known for breakfast, with vintage interior and terrace",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -4311,7 +4329,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brunch"
+      "style": "brunch",
+      "coord_source": "nominatim"
     },
     {
       "id": "hommage-cafe",
@@ -4319,8 +4338,8 @@
       "category": "cafe",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Friesenstraße 73, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.940584,
+      "lng": 6.941891,
       "cuisine": "Parisian-style brunch café with crêpes and pancakes",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -4377,7 +4396,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brunch"
+      "style": "brunch",
+      "coord_source": "nominatim"
     },
     {
       "id": "toertchen-toertchen-apostelnstrasse",
@@ -4567,8 +4587,8 @@
       "category": "streetfood",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Ehrenstraße 94, 50672 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.938362,
+      "lng": 6.940626,
       "cuisine": "Fries and poutine fast-casual shop (chain)",
       "cuisine_country": [
         "INT"
@@ -4621,7 +4641,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "reissdorf-am-hahnentor",
@@ -4705,8 +4726,8 @@
       "category": "cafe",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Mittelstraße 31-33, 50672 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.93674,
+      "lng": 6.941224,
       "cuisine": "Café-bar on Mittelstraße — breakfast (farmer's breakfast, waffles) and crafted drinks",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -4761,7 +4782,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brunch"
+      "style": "brunch",
+      "coord_source": "nominatim"
     },
     {
       "id": "frueh-em-jan-von-werth",
@@ -4919,8 +4941,8 @@
       "category": "cafe",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Ehrenstraße 77, 50672 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.938185,
+      "lng": 6.940301,
       "cuisine": "Café-bar on Ehrenstraße (breakfast, light meals, drinks)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -4969,7 +4991,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "nam-vietnamese",
@@ -5850,8 +5873,8 @@
       "category": "cafe",
       "area": "kwartier-lateng",
       "address": "Hohenstaufenring 64, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.933836,
+      "lng": 6.939959,
       "cuisine": "Traditional Café-Konditorei with 1950s interior — coffee and cake (Kaffee und Kuchen)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -5898,7 +5921,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "il-bagutta",
@@ -5906,8 +5930,8 @@
       "category": "restaurant",
       "area": "kwartier-lateng",
       "address": "Heinsbergstraße 20a, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.930036,
+      "lng": 6.938111,
       "cuisine": "Italian restaurant with a rustic-modern backyard garden",
       "cuisine_country": [
         "IT"
@@ -5952,7 +5976,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": null
+      "style": null,
+      "coord_source": "nominatim"
     },
     {
       "id": "fasika",
@@ -6022,8 +6047,8 @@
       "category": "restaurant",
       "area": "kwartier-lateng",
       "address": "Engelbertstraße 9, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.931122,
+      "lng": 6.938928,
       "cuisine": "Indian home-style curry house with vegetarian thali plates",
       "cuisine_country": [
         "IN"
@@ -6073,7 +6098,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "curry-house"
+      "style": "curry-house",
+      "coord_source": "nominatim"
     },
     {
       "id": "weinstube-bacchus",
@@ -6283,8 +6309,8 @@
       "category": "restaurant",
       "area": "kwartier-lateng",
       "address": "Hohenstaufenring 29-37, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.931667,
+      "lng": 6.939991,
       "cuisine": "Argentinian steakhouse with an open grill in the dining room",
       "cuisine_country": [
         "AR"
@@ -6334,7 +6360,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "steakhouse"
+      "style": "steakhouse",
+      "coord_source": "nominatim"
     },
     {
       "id": "zarathustra",
@@ -6696,8 +6723,8 @@
       "category": "restaurant",
       "area": "kwartier-lateng",
       "address": "Mozartstraße 9, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.932887,
+      "lng": 6.937588,
       "cuisine": "Spanish tapas bar with outdoor seating",
       "cuisine_country": [
         "ES"
@@ -6745,7 +6772,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "tapas"
+      "style": "tapas",
+      "coord_source": "nominatim"
     },
     {
       "id": "lebanon-vitamin",
@@ -6820,8 +6848,8 @@
       "category": "restaurant",
       "area": "kwartier-lateng",
       "address": "Zülpicher Straße 58D, 50674 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.928019,
+      "lng": 6.935136,
       "cuisine": "Casual Vietnamese noodle-soup restaurant (pho, bún bò Huế) near the university",
       "cuisine_country": [
         "VN"
@@ -6871,7 +6899,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "noodle-bar"
+      "style": "noodle-bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "hellers-brauhaus",
@@ -7091,8 +7120,8 @@
       "category": "restaurant",
       "area": "ehrenfeld",
       "address": "Venloer Str. 393a, 50825 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.95551,
+      "lng": 6.906684,
       "cuisine": "Small fish bistro — grilled fish, fish sandwiches, fish soup, monkfish risotto, with wine",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -7149,7 +7178,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "bistro"
+      "style": "bistro",
+      "coord_source": "nominatim"
     },
     {
       "id": "soliana",
@@ -7502,8 +7532,8 @@
       "category": "streetfood",
       "area": "ehrenfeld",
       "address": "Venloer Straße 378, 50825 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.952114,
+      "lng": 6.91406,
       "cuisine": "Turkish kumpir (stuffed baked potato) street food, run by women, with vegetarian and vegan options",
       "cuisine_country": [
         "TR"
@@ -7561,7 +7591,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "kebapland",
@@ -7788,8 +7819,8 @@
       "category": "restaurant",
       "area": "ehrenfeld",
       "address": "Landmannstraße 3, 50825 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.955065,
+      "lng": 6.91794,
       "cuisine": "Traditional Cologne Gaststätte — home-style Rhineland cooking, most dishes also available vegan at no extra charge",
       "cuisine_country": [
         "DE"
@@ -7846,7 +7877,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "gasthaus"
+      "style": "gasthaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "bethlehem-oriental-kitchen",
@@ -7922,8 +7954,8 @@
       "category": "cafe",
       "area": "ehrenfeld",
       "address": "Venloer Straße 374, 50825 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.952019,
+      "lng": 6.914214,
       "cuisine": "Café",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -7968,7 +8000,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "popeye-falafel",
@@ -8107,8 +8140,8 @@
       "category": "restaurant",
       "area": "ehrenfeld",
       "address": "Subbelrather Straße 295, 50825 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.955396,
+      "lng": 6.915649,
       "cuisine": "Café-restaurant-bar — lunch, afternoon cakes, evening mezze; oriental-European fusion with Polish touches, many vegetarian/vegan dishes",
       "cuisine_country": [
         "INT",
@@ -8168,7 +8201,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "sharing"
+      "style": "sharing",
+      "coord_source": "nominatim"
     },
     {
       "id": "eat-kumpir",
@@ -8241,8 +8275,8 @@
       "category": "cafe",
       "area": "ehrenfeld",
       "address": "Venloer Str. 400, 50825 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.952627,
+      "lng": 6.913257,
       "cuisine": "Neighbourhood café and brunch spot (Ehrenfeld branch; a second branch in the Südstadt)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -8294,7 +8328,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "van-dyck-espressobar",
@@ -8569,8 +8604,8 @@
       "category": "bakery",
       "area": "ehrenfeld",
       "address": "Venloer Straße 202, 50823 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.946436,
+      "lng": 6.925271,
       "cuisine": "Bakery-café (coffee shop, bakery and café)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -8625,7 +8660,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "bakery"
+      "style": "bakery",
+      "coord_source": "nominatim"
     },
     {
       "id": "sushi-ninja-ehrenfeld",
@@ -8633,8 +8669,8 @@
       "category": "restaurant",
       "area": "ehrenfeld",
       "address": "Venloer Str. 241-245, 50823 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.946605,
+      "lng": 6.92289,
       "cuisine": "Sushi bar (Ehrenfeld branch of a two-branch local brand)",
       "cuisine_country": [
         "JP"
@@ -8763,8 +8799,8 @@
       "category": "restaurant",
       "area": "ehrenfeld",
       "address": "Landmannstraße 19, 50825 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.956057,
+      "lng": 6.918635,
       "cuisine": "Traditional German Gasthaus — rustic home cooking, family-run in its fourth generation",
       "cuisine_country": [
         "DE"
@@ -8820,7 +8856,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "gasthaus"
+      "style": "gasthaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "stickel-restaurant",
@@ -8828,8 +8865,8 @@
       "category": "restaurant",
       "area": "ehrenfeld",
       "address": "Simarplatz 10, 50825 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.956059,
+      "lng": 6.917424,
       "cuisine": "Neighbourhood restaurant and wine bar with terrace (successor of the former Maifeld)",
       "cuisine_country": [
         "INT"
@@ -8879,7 +8916,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "wine-bar"
+      "style": "wine-bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "cafe-sehnsucht",
@@ -8955,8 +8993,8 @@
       "category": "cafe",
       "area": "ehrenfeld",
       "address": "Venloer Str. 206, 50823 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.946525,
+      "lng": 6.925019,
       "cuisine": "Breakfast and brunch café",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -9006,7 +9044,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "brunch"
+      "style": "brunch",
+      "coord_source": "nominatim"
     },
     {
       "id": "essers-gasthaus",
@@ -9153,8 +9192,8 @@
       "category": "restaurant",
       "area": "ehrenfeld",
       "address": "Herbrandstraße 21, 50825 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.95135,
+      "lng": 6.910303,
       "cuisine": "Restaurant with large beer garden, club and event hall in a former wagon factory",
       "cuisine_country": [
         "DE"
@@ -9207,7 +9246,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": null
+      "style": null,
+      "coord_source": "nominatim"
     },
     {
       "id": "pizza-pasta-traditionale",
@@ -9215,8 +9255,8 @@
       "category": "restaurant",
       "area": "suedstadt-rheinauhafen",
       "address": "Severinstraße 108, 50678 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.926352,
+      "lng": 6.958233,
       "cuisine": "Small Italian pizzeria with pasta",
       "cuisine_country": [
         "IT"
@@ -9265,7 +9305,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "pizzeria"
+      "style": "pizzeria",
+      "coord_source": "nominatim"
     },
     {
       "id": "der-eismacher",
@@ -9333,8 +9374,8 @@
       "category": "restaurant",
       "area": "suedstadt-rheinauhafen",
       "address": "Severinstraße 162a, 50678 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.928397,
+      "lng": 6.957613,
       "cuisine": "Korean urban comfort food (fried chicken, bulgogi, bibimbap, pancakes, dumplings, corn dogs)",
       "cuisine_country": [
         "KR"
@@ -9405,8 +9446,8 @@
       "category": "streetfood",
       "area": "suedstadt-rheinauhafen",
       "address": "Bonner Straße 33, 50677 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.918898,
+      "lng": 6.960555,
       "cuisine": "Vietnamese street food — pho and rice/noodle bowls",
       "cuisine_country": [
         "VN"
@@ -9463,7 +9504,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "phaedra",
@@ -9471,8 +9513,8 @@
       "category": "restaurant",
       "area": "suedstadt-rheinauhafen",
       "address": "Elsaßstraße 30, 50677 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.92049,
+      "lng": 6.958115,
       "cuisine": "Upscale Greek-Mediterranean restaurant with a four-course menu and a strong wine list",
       "cuisine_country": [
         "GR"
@@ -9520,7 +9562,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "modern"
+      "style": "modern",
+      "coord_source": "nominatim"
     },
     {
       "id": "pottkind",
@@ -9598,8 +9641,8 @@
       "category": "restaurant",
       "area": "suedstadt-rheinauhafen",
       "address": "Chlodwigplatz 6, 50678 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.92093,
+      "lng": 6.9601,
       "cuisine": "Soup bar (Suppen) that also serves ramen",
       "cuisine_country": [
         "JP"
@@ -9650,7 +9693,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "noodle-bar"
+      "style": "noodle-bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "frueh-em-veedel",
@@ -9866,8 +9910,8 @@
       "category": "cafe",
       "area": "suedstadt-rheinauhafen",
       "address": "Im Zollhafen 24, 50678 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.925945,
+      "lng": 6.966886,
       "cuisine": "Café with breakfast bagels and sandwiches in the Rheinauhafen (sister of The Coffice Deutz)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -9921,7 +9965,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "capricorn-i-aries-brasserie",
@@ -10002,8 +10047,8 @@
       "category": "cafe",
       "area": "suedstadt-rheinauhafen",
       "address": "Waidmarkt 10-12, 50676 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.932184,
+      "lng": 6.956685,
       "cuisine": "Neighbourhood café at Waidmarkt",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -10050,7 +10095,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "casita-mexicana-suedstadt",
@@ -10193,8 +10239,8 @@
       "category": "brauhaus",
       "area": "suedstadt-rheinauhafen",
       "address": "Severinstraße 28, 50678 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.923051,
+      "lng": 6.959184,
       "cuisine": "Brauhaus-style Kölsch pub on two floors with German food and terrace",
       "cuisine_country": [
         "DE"
@@ -10248,7 +10294,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brauhaus"
+      "style": "brauhaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "ahlan-imbiss",
@@ -10256,8 +10303,8 @@
       "category": "streetfood",
       "area": "suedstadt-rheinauhafen",
       "address": "Severinstraße 189, 50678 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.928744,
+      "lng": 6.957259,
       "cuisine": "Middle Eastern Imbiss — falafel and shawarma, takeaway and dine-in",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -10315,7 +10362,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "da-nino",
@@ -10323,8 +10371,8 @@
       "category": "restaurant",
       "area": "suedstadt-rheinauhafen",
       "address": "Bonner Straße 27, 50677 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.919161,
+      "lng": 6.960522,
       "cuisine": "Neighbourhood Italian pizzeria",
       "cuisine_country": [
         "IT"
@@ -10373,7 +10421,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "pizzeria"
+      "style": "pizzeria",
+      "coord_source": "nominatim"
     },
     {
       "id": "tapavinho",
@@ -10517,8 +10566,8 @@
       "category": "brauhaus",
       "area": "suedstadt-rheinauhafen",
       "address": "Kleiner Griechenmarkt 40, 50676 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.931254,
+      "lng": 6.947828,
       "cuisine": "Brauhaus of the Reissdorf brewery — Reissdorf Kölsch, schnitzel, currywurst and Rhineland classics",
       "cuisine_country": [
         "DE"
@@ -10578,7 +10627,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "brauhaus"
+      "style": "brauhaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "zum-alten-brauhaus",
@@ -10586,8 +10636,8 @@
       "category": "brauhaus",
       "area": "suedstadt-rheinauhafen",
       "address": "Severinstraße 51, 50678 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.923886,
+      "lng": 6.958595,
       "cuisine": "Traditional Kölsch Brauhaus-style Gaststätte with hearty German food",
       "cuisine_country": [
         "DE"
@@ -10644,7 +10694,8 @@
       "confidence": "high",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "brauhaus"
+      "style": "brauhaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "brauhaus-johann-schafer",
@@ -10652,8 +10703,8 @@
       "category": "brauhaus",
       "area": "suedstadt-rheinauhafen",
       "address": "Elsaßstraße 6, 50677 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.920028,
+      "lng": 6.959336,
       "cuisine": "Modern Südstadt Brauhaus — Kölsch and Pils with seasonal Rhineland dishes and vegetarian options",
       "cuisine_country": [
         "DE"
@@ -10707,7 +10758,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "brauhaus"
+      "style": "brauhaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "pasta-werkstatt",
@@ -10715,8 +10767,8 @@
       "category": "restaurant",
       "area": "suedstadt-rheinauhafen",
       "address": "Bonner Straße 46, 50677 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.918609,
+      "lng": 6.960123,
       "cuisine": "Fresh pasta bar",
       "cuisine_country": [
         "IT"
@@ -10763,7 +10815,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "pasta-bar"
+      "style": "pasta-bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "485grad",
@@ -10771,8 +10824,8 @@
       "category": "restaurant",
       "area": "suedstadt-rheinauhafen",
       "address": "Bonner Straße 34, 50677 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.919086,
+      "lng": 6.959954,
       "cuisine": "Neapolitan-style pizzeria (wood-fired, named after its 485 °C oven)",
       "cuisine_country": [
         "IT"
@@ -10822,7 +10875,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "pizzeria"
+      "style": "pizzeria",
+      "coord_source": "nominatim"
     },
     {
       "id": "la-esquina",
@@ -10830,8 +10884,8 @@
       "category": "restaurant",
       "area": "suedstadt-rheinauhafen",
       "address": "Severinstraße 41, 50678 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.923543,
+      "lng": 6.958642,
       "cuisine": "Spanish tapas bar",
       "cuisine_country": [
         "ES"
@@ -10884,7 +10938,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "tapas"
+      "style": "tapas",
+      "coord_source": "nominatim"
     },
     {
       "id": "mangal-doner-restaurant",
@@ -10892,8 +10947,8 @@
       "category": "streetfood",
       "area": "suedstadt-rheinauhafen",
       "address": "Bonner Straße 1, 50677 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.920713,
+      "lng": 6.959958,
       "cuisine": "Turkish döner and grill restaurant (Imbiss style)",
       "cuisine_country": [
         "TR"
@@ -10951,7 +11006,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "kebab"
+      "style": "kebab",
+      "coord_source": "nominatim"
     },
     {
       "id": "indian-curry-basmati-house",
@@ -11018,8 +11074,8 @@
       "category": "streetfood",
       "area": "suedstadt-rheinauhafen",
       "address": "Severinstraße 68, 50678 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.925358,
+      "lng": 6.958485,
       "cuisine": "Korean-style corn dog (hot dog) street food",
       "cuisine_country": [
         "KR"
@@ -11071,7 +11127,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "thai-ja-roen-imbiss",
@@ -11137,8 +11194,8 @@
       "category": "cafe",
       "area": "agnesviertel-eigelstein",
       "address": "Weißenburgstraße 50, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.953846,
+      "lng": 6.959802,
       "cuisine": "Neighbourhood café",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -11185,7 +11242,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "reefhouse",
@@ -11193,8 +11251,8 @@
       "category": "restaurant",
       "area": "agnesviertel-eigelstein",
       "address": "Eigelstein 72, 50668 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.947929,
+      "lng": 6.956898,
       "cuisine": "Seafood restaurant — fish and seafood, unpretentious",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -11241,7 +11299,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": null
+      "style": null,
+      "coord_source": "nominatim"
     },
     {
       "id": "pizzeria-toto-e-peppino-2-0",
@@ -11249,8 +11308,8 @@
       "category": "restaurant",
       "area": "agnesviertel-eigelstein",
       "address": "Hansaring 119, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.949673,
+      "lng": 6.953538,
       "cuisine": "Neapolitan-style pizzeria with wood-fired oven",
       "cuisine_country": [
         "IT"
@@ -11306,7 +11365,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "pizzeria"
+      "style": "pizzeria",
+      "coord_source": "nominatim"
     },
     {
       "id": "tang-wang-koeln",
@@ -11381,8 +11441,8 @@
       "category": "restaurant",
       "area": "agnesviertel-eigelstein",
       "address": "Balthasarstraße 1, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.952331,
+      "lng": 6.952199,
       "cuisine": "Spanish tapas restaurant",
       "cuisine_country": [
         "ES"
@@ -11439,7 +11499,8 @@
       "confidence": "medium",
       "research": "r8-candidates, r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "tapas"
+      "style": "tapas",
+      "coord_source": "nominatim"
     },
     {
       "id": "max-stark",
@@ -11590,8 +11651,8 @@
       "category": "restaurant",
       "area": "agnesviertel-eigelstein",
       "address": "Aquinostraße 1a, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.951355,
+      "lng": 6.953865,
       "cuisine": "Italian trattoria and bar — generous pasta portions, outdoor seating",
       "cuisine_country": [
         "IT"
@@ -11651,7 +11712,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "trattoria"
+      "style": "trattoria",
+      "coord_source": "nominatim"
     },
     {
       "id": "thai-imbiss-eigelstein",
@@ -11716,8 +11778,8 @@
       "category": "brauhaus",
       "area": "agnesviertel-eigelstein",
       "address": "Neusser Str. 47, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.953067,
+      "lng": 6.956917,
       "cuisine": "Traditional Brauhaus-style Kölsch pub-restaurant (since 1920) with Rhineland classics — schnitzel, Himmel un Ääd, Metzgerbratwurst",
       "cuisine_country": [
         "DE"
@@ -11773,7 +11835,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "brauhaus"
+      "style": "brauhaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "hoai-viet",
@@ -11781,8 +11844,8 @@
       "category": "restaurant",
       "area": "agnesviertel-eigelstein",
       "address": "Weidengasse 68, 50668 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.948749,
+      "lng": 6.953873,
       "cuisine": "Vietnamese restaurant — noodle soups and rice dishes, casual",
       "cuisine_country": [
         "VN"
@@ -11832,7 +11895,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": null
+      "style": null,
+      "coord_source": "nominatim"
     },
     {
       "id": "oez-harran-doy-doy",
@@ -11971,8 +12035,8 @@
       "category": "restaurant",
       "area": "agnesviertel-eigelstein",
       "address": "Maybachstraße 152, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.950469,
+      "lng": 6.953685,
       "cuisine": "Vietnamese restaurant — generous portions, many vegan dishes (vegan prawns)",
       "cuisine_country": [
         "VN"
@@ -12026,7 +12090,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": null
+      "style": null,
+      "coord_source": "nominatim"
     },
     {
       "id": "haus-des-doners",
@@ -12034,8 +12099,8 @@
       "category": "streetfood",
       "area": "agnesviertel-eigelstein",
       "address": "Weidengasse 35, 50668 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.947921,
+      "lng": 6.955112,
       "cuisine": "Döner kebab Imbiss with seating",
       "cuisine_country": [
         "TR"
@@ -12089,7 +12154,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "kebab"
+      "style": "kebab",
+      "coord_source": "nominatim"
     },
     {
       "id": "mangal-restaurant",
@@ -12097,8 +12163,8 @@
       "category": "restaurant",
       "area": "agnesviertel-eigelstein",
       "address": "Weidengasse 62, 50668 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.948518,
+      "lng": 6.954191,
       "cuisine": "Turkish grill restaurant — grilled meat and chicken skewers (kebab)",
       "cuisine_country": [
         "TR"
@@ -12153,7 +12219,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "grill"
+      "style": "grill",
+      "coord_source": "nominatim"
     },
     {
       "id": "reispapier",
@@ -12161,8 +12228,8 @@
       "category": "restaurant",
       "area": "agnesviertel-eigelstein",
       "address": "Neusser Str. 24, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.952313,
+      "lng": 6.957432,
       "cuisine": "Vietnamese restaurant run by two sisters from Hanoi — pho, summer rolls, banh mi, bun bo nam bo",
       "cuisine_country": [
         "VN"
@@ -12220,7 +12287,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "noodle-bar"
+      "style": "noodle-bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "adana-et-restaurant",
@@ -12228,8 +12296,8 @@
       "category": "restaurant",
       "area": "agnesviertel-eigelstein",
       "address": "Weidengasse 42-44, 50668 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.948331,
+      "lng": 6.954763,
       "cuisine": "Turkish grill restaurant — Adana kebab and grilled meat, open late",
       "cuisine_country": [
         "TR"
@@ -12281,7 +12349,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "grill"
+      "style": "grill",
+      "coord_source": "nominatim"
     },
     {
       "id": "damla-weidengasse",
@@ -12480,8 +12549,8 @@
       "category": "restaurant",
       "area": "deutz-messe",
       "address": "Neuhöfferstraße 27-29, 50679 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.938198,
+      "lng": 6.975007,
       "cuisine": "Rustic German restaurant — steaks, schnitzel, goulash and Kölsch",
       "cuisine_country": [
         "DE"
@@ -12542,7 +12611,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "steakhouse"
+      "style": "steakhouse",
+      "coord_source": "nominatim"
     },
     {
       "id": "st-louis-cafe-deutz",
@@ -12755,8 +12825,8 @@
       "category": "cafe",
       "area": "deutz-messe",
       "address": "Mathildenstraße 27, 50679 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.935718,
+      "lng": 6.974526,
       "cuisine": "Cosy café with homemade cakes and Sunday breakfast",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -12812,7 +12882,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "meiwei-deutz",
@@ -12893,8 +12964,8 @@
       "category": "restaurant",
       "area": "deutz-messe",
       "address": "Deutzer Freiheit 72, 50679 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.936664,
+      "lng": 6.974006,
       "cuisine": "Italian restaurant on Deutzer Freiheit",
       "cuisine_country": [
         "IT"
@@ -12942,7 +13013,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": null
+      "style": null,
+      "coord_source": "nominatim"
     },
     {
       "id": "glashaus-restaurant-bar-hyatt-regency-koln",
@@ -13020,8 +13092,8 @@
       "category": "restaurant",
       "area": "deutz-messe",
       "address": "Deutz-Kalker Straße 52, 50679 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.937039,
+      "lng": 6.983451,
       "cuisine": "Modern international restaurant with seasonal, regional cooking in the restored Kaiser-Wilhelm-Bad (Hotel Stadtpalais)",
       "cuisine_country": [
         "INT"
@@ -13073,7 +13145,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "modern"
+      "style": "modern",
+      "coord_source": "nominatim"
     },
     {
       "id": "deutzer-brauhaus",
@@ -13426,8 +13499,8 @@
       "category": "cafe",
       "area": "nippes",
       "address": "Kempener Straße 34, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.962426,
+      "lng": 6.951275,
       "cuisine": "Small family-friendly neighbourhood café — homemade cakes, coffee and breakfast",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -13481,7 +13554,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "restaurant-schlemmergarten-kleingartenverein-koln-riehl",
@@ -13489,8 +13563,8 @@
       "category": "restaurant",
       "area": "nippes",
       "address": "Boltensternstraße 90, 50735 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.969662,
+      "lng": 6.979507,
       "cuisine": "Allotment-garden club restaurant (Vereinsgaststätte) with garden terrace",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -13539,7 +13613,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "gasthaus"
+      "style": "gasthaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "cafe-goldjunge-nippes",
@@ -13547,8 +13622,8 @@
       "category": "cafe",
       "area": "nippes",
       "address": "Neusser Straße 291, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.96485,
+      "lng": 6.953324,
       "cuisine": "Breakfast and brunch café (Cologne mini-chain, Nippes branch)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -13602,7 +13677,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "brunch"
+      "style": "brunch",
+      "coord_source": "nominatim"
     },
     {
       "id": "gaziantep-altntepsi",
@@ -13610,8 +13686,8 @@
       "category": "restaurant",
       "area": "nippes",
       "address": "Auguststraße 35, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.96293,
+      "lng": 6.951653,
       "cuisine": "Turkish (Gaziantep-style) pide and lahmacun bakery-restaurant",
       "cuisine_country": [
         "TR"
@@ -13665,7 +13741,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "bakery"
+      "style": "bakery",
+      "coord_source": "nominatim"
     },
     {
       "id": "riehler-hof",
@@ -13673,8 +13750,8 @@
       "category": "restaurant",
       "area": "nippes",
       "address": "Stammheimer Straße 133, 50735 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.966433,
+      "lng": 6.977648,
       "cuisine": "German Gaststätte in Riehl known for schnitzel",
       "cuisine_country": [
         "DE"
@@ -13729,7 +13806,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "gasthaus"
+      "style": "gasthaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "adolph-s-backerei-filiale-nippes",
@@ -13737,8 +13815,8 @@
       "category": "bakery",
       "area": "nippes",
       "address": "Sechzigstraße 21, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.959746,
+      "lng": 6.948596,
       "cuisine": "Bakery branch with café seating (bread, rolls, pastries)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -13784,7 +13862,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "bakery"
+      "style": "bakery",
+      "coord_source": "nominatim"
     },
     {
       "id": "jamas-griechische-taverne",
@@ -13857,8 +13936,8 @@
       "category": "restaurant",
       "area": "nippes",
       "address": "Scharnhorststraße 8, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.965554,
+      "lng": 6.954529,
       "cuisine": "Italian tapas restaurant (small plates, 'Speiselokal')",
       "cuisine_country": [
         "IT"
@@ -13911,7 +13990,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "tapas"
+      "style": "tapas",
+      "coord_source": "nominatim"
     },
     {
       "id": "potpourri-koln",
@@ -13919,8 +13999,8 @@
       "category": "cafe",
       "area": "nippes",
       "address": "Mauenheimer Straße 92, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.968737,
+      "lng": 6.948815,
       "cuisine": "Healthy brunch café with many vegan options (pancakes, bowls; weekend brunch with bottomless sparkling wine)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -13976,7 +14056,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "brunch"
+      "style": "brunch",
+      "coord_source": "nominatim"
     },
     {
       "id": "shibuya-neusser-strasse",
@@ -13984,8 +14065,8 @@
       "category": "restaurant",
       "area": "nippes",
       "address": "Neusser Straße 332, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.967082,
+      "lng": 6.953496,
       "cuisine": "Japanese restaurant — sushi and ramen (Wanderlog also lists it as Daikan)",
       "cuisine_country": [
         "JP"
@@ -14038,7 +14119,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "sushi-bar"
+      "style": "sushi-bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "thai-gourmet-nippes",
@@ -14106,8 +14188,8 @@
       "category": "restaurant",
       "area": "nippes",
       "address": "Neusser Straße 171, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.959648,
+      "lng": 6.95428,
       "cuisine": "Traditional German Gaststätte (pub-restaurant) with hearty, generous portions",
       "cuisine_country": [
         "DE"
@@ -14163,7 +14245,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "gasthaus"
+      "style": "gasthaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "cafe-pause",
@@ -14171,8 +14254,8 @@
       "category": "cafe",
       "area": "nippes",
       "address": "Neusser Straße 287, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.964737,
+      "lng": 6.953422,
       "cuisine": "Neighbourhood café — coffee, grilled panini, focaccia, crêpes and toast",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -14229,7 +14312,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "down-to-earth-noodles",
@@ -14237,8 +14321,8 @@
       "category": "restaurant",
       "area": "suelz-lindenthal",
       "address": "Berrenrather Straße 175, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.920147,
+      "lng": 6.9278,
       "cuisine": "Tibetan-inspired noodle bar — homemade noodles and momo dumplings (Asian fusion)",
       "cuisine_country": [
         "INT"
@@ -14284,7 +14368,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "noodle-bar"
+      "style": "noodle-bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "stube",
@@ -14292,8 +14377,8 @@
       "category": "cafe",
       "area": "suelz-lindenthal",
       "address": "Berrenrather Straße 205, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.91854,
+      "lng": 6.925759,
       "cuisine": "Specialty coffee café",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -14335,7 +14420,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "cafe-goldjunge-sulz",
@@ -14343,8 +14429,8 @@
       "category": "cafe",
       "area": "suelz-lindenthal",
       "address": "Zülpicher Straße 282, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.922759,
+      "lng": 6.922587,
       "cuisine": "Brunch café (local mini-chain) — all-day breakfast, many vegetarian specials, chai latte",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -14395,7 +14481,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "brunch"
+      "style": "brunch",
+      "coord_source": "nominatim"
     },
     {
       "id": "zen-japanese-restaurant",
@@ -14479,8 +14566,8 @@
       "category": "restaurant",
       "area": "suelz-lindenthal",
       "address": "Luxemburger Straße 289, 50939 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.913912,
+      "lng": 6.925961,
       "cuisine": "Greek restaurant — mezze small plates to share, lamb and seafood (modern, not a touristy taverna)",
       "cuisine_country": [
         "GR"
@@ -14530,7 +14617,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "mezze"
+      "style": "mezze",
+      "coord_source": "nominatim"
     },
     {
       "id": "landmann-in-lindenthal",
@@ -14538,8 +14626,8 @@
       "category": "brauhaus",
       "area": "suelz-lindenthal",
       "address": "Dürener Straße 143, 50931 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.93143,
+      "lng": 6.917757,
       "cuisine": "Brauhaus-style Gaststätte — traditional Rhineland/German cooking (Himmel un Ääd, schnitzel, crispy fries)",
       "cuisine_country": [
         "DE"
@@ -14593,7 +14681,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "brauhaus"
+      "style": "brauhaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "holm-kaffeerosterei-cafe",
@@ -14601,8 +14690,8 @@
       "category": "cafe",
       "area": "suelz-lindenthal",
       "address": "Lindenthalgürtel 61, 50935 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.92492,
+      "lng": 6.910947,
       "cuisine": "Specialty coffee roastery café (opened 2022 in a former butcher's shop) with cakes and pastries",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -14649,7 +14738,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "cafe-bo",
@@ -14657,8 +14747,8 @@
       "category": "cafe",
       "area": "suelz-lindenthal",
       "address": "Luxemburger Straße 315, 50939 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.912554,
+      "lng": 6.924573,
       "cuisine": "Breakfast & brunch café — pancakes, generous breakfast plates, served late",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -14707,7 +14797,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "brunch"
+      "style": "brunch",
+      "coord_source": "nominatim"
     },
     {
       "id": "bisu-sulz",
@@ -14715,8 +14806,8 @@
       "category": "restaurant",
       "area": "suelz-lindenthal",
       "address": "Weyertal 41, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.923484,
+      "lng": 6.927197,
       "cuisine": "Italian tapas — small plates to share (Italian Speiselokal), many vegetarian/vegan options, open late",
       "cuisine_country": [
         "IT"
@@ -14771,7 +14862,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "tapas"
+      "style": "tapas",
+      "coord_source": "nominatim"
     },
     {
       "id": "sakura",
@@ -14779,8 +14871,8 @@
       "category": "restaurant",
       "area": "suelz-lindenthal",
       "address": "Berrenrather Straße 266, 50939 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.917824,
+      "lng": 6.924283,
       "cuisine": "Japanese restaurant (since 2010) — all-you-can-eat sushi and warm Asian dishes ordered by tablet",
       "cuisine_country": [
         "JP"
@@ -14828,7 +14920,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "sushi-bar"
+      "style": "sushi-bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "restaurant-kuschari-konig",
@@ -14836,8 +14929,8 @@
       "category": "streetfood",
       "area": "suelz-lindenthal",
       "address": "Berrenrather Straße 242, 50939 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.91852,
+      "lng": 6.925226,
       "cuisine": "Egyptian street food — koshari (Kuschari) in small/medium/large, samosas; many vegan dishes",
       "cuisine_country": [
         "EG"
@@ -14884,7 +14977,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "darwish-konditorei",
@@ -14951,8 +15045,8 @@
       "category": "restaurant",
       "area": "suelz-lindenthal",
       "address": "Luxemburger Straße 256, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.915521,
+      "lng": 6.926853,
       "cuisine": "Austrian Gasthaus — Wiener schnitzel, Tafelspitz, Austrian white wines",
       "cuisine_country": [
         "AT"
@@ -15003,7 +15097,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "gasthaus"
+      "style": "gasthaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "sulzer-kebab",
@@ -15011,8 +15106,8 @@
       "category": "streetfood",
       "area": "suelz-lindenthal",
       "address": "Sülzburgstraße 201, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.920546,
+      "lng": 6.919931,
       "cuisine": "Turkish döner kebab Imbiss with homemade bread",
       "cuisine_country": [
         "TR"
@@ -15058,7 +15153,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "kebab"
+      "style": "kebab",
+      "coord_source": "nominatim"
     },
     {
       "id": "el-habab",
@@ -15066,8 +15162,8 @@
       "category": "streetfood",
       "area": "suelz-lindenthal",
       "address": "Luxemburger Straße 246, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.916164,
+      "lng": 6.927549,
       "cuisine": "Lebanese-style falafel & shawarma Imbiss (homemade coconut cake)",
       "cuisine_country": [
         "LB"
@@ -15118,7 +15214,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "ristorante-faro",
@@ -15126,8 +15223,8 @@
       "category": "restaurant",
       "area": "suelz-lindenthal",
       "address": "Dürener Straße 94, 50931 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.932019,
+      "lng": 6.920592,
       "cuisine": "Italian ristorante — pizza and pasta",
       "cuisine_country": [
         "IT"
@@ -15173,7 +15270,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "ristorante"
+      "style": "ristorante",
+      "coord_source": "nominatim"
     },
     {
       "id": "pizzeria-trattoria-siciliana",
@@ -15181,8 +15279,8 @@
       "category": "restaurant",
       "area": "suelz-lindenthal",
       "address": "Sülzburgstraße 90, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.917802,
+      "lng": 6.923846,
       "cuisine": "Sicilian pizzeria-trattoria",
       "cuisine_country": [
         "IT"
@@ -15225,7 +15323,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "pizzeria"
+      "style": "pizzeria",
+      "coord_source": "nominatim"
     },
     {
       "id": "haus-unkelbach",
@@ -15233,8 +15332,8 @@
       "category": "brauhaus",
       "area": "suelz-lindenthal",
       "address": "Luxemburger Straße 260, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.915258,
+      "lng": 6.926633,
       "cuisine": "Traditional Kölsch Brauhaus-restaurant (since 1930) — Schweinshaxe and classic German dishes, indoor and outdoor seating",
       "cuisine_country": [
         "DE"
@@ -15291,7 +15390,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "brauhaus"
+      "style": "brauhaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "deli-sulz",
@@ -15299,8 +15399,8 @@
       "category": "restaurant",
       "area": "suelz-lindenthal",
       "address": "Berrenrather Straße 221, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.917715,
+      "lng": 6.924692,
       "cuisine": "All-day deli bistro (opened 2020) — breakfast, lunch and dinner, meat plus vegetarian/vegan dishes",
       "cuisine_country": [
         "INT"
@@ -15356,7 +15456,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "bistro"
+      "style": "bistro",
+      "coord_source": "nominatim"
     },
     {
       "id": "falafel-shawarma-sulz",
@@ -15364,8 +15465,8 @@
       "category": "streetfood",
       "area": "suelz-lindenthal",
       "address": "Berrenrather Straße 219, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.917783,
+      "lng": 6.924959,
       "cuisine": "Falafel & shawarma Imbiss (takeaway and delivery)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -15414,7 +15515,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "heilandt-cafe-sulz",
@@ -15422,8 +15524,8 @@
       "category": "cafe",
       "area": "suelz-lindenthal",
       "address": "Sülzburgstraße 1, 50937 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.916039,
+      "lng": 6.927345,
       "cuisine": "Specialty coffee café of Cologne roaster Heilandt",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -15467,7 +15569,8 @@
       "confidence": "medium",
       "research": "r8-suelz",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "afghanisches-persisches-mari-restaurant",
@@ -15475,8 +15578,8 @@
       "category": "restaurant",
       "area": "suelz-lindenthal",
       "address": "Luxemburger Straße 183, 50939 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.920278,
+      "lng": 6.932652,
       "cuisine": "Family-run Afghan and Persian (Iranian) restaurant — kebabs, Kabuli palau, weekend all-you-can-eat buffet",
       "cuisine_country": [
         "AF",
@@ -15530,7 +15633,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "buffet"
+      "style": "buffet",
+      "coord_source": "nominatim"
     },
     {
       "id": "enat-aethiopisches-restaurant",
@@ -15603,8 +15707,8 @@
       "category": "cafe",
       "area": "muelheim-kalk",
       "address": "Deutz-Mülheimer Str. 183, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.957704,
+      "lng": 6.994195,
       "cuisine": "Specialty coffee and natural wine bar with a plant-based menu",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -15666,7 +15770,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "haldispoon",
@@ -15674,8 +15779,8 @@
       "category": "streetfood",
       "area": "muelheim-kalk",
       "address": "Dünnwalder Str. 49, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.969247,
+      "lng": 7.006211,
       "cuisine": "Indian street food — Naanizza (naan pizza) and roti rolls",
       "cuisine_country": [
         "IN"
@@ -15729,7 +15834,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "nobiko",
@@ -15737,8 +15843,8 @@
       "category": "restaurant",
       "area": "muelheim-kalk",
       "address": "Josephskirchstraße 25, 51103 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.93947,
+      "lng": 7.003457,
       "cuisine": "Vegan Japanese noodle bar — homemade udon and Japanese rice dishes",
       "cuisine_country": [
         "JP"
@@ -15795,7 +15901,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "noodle-bar"
+      "style": "noodle-bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "villa-kalka",
@@ -15803,8 +15910,8 @@
       "category": "cafe",
       "area": "muelheim-kalk",
       "address": "Kalk-Mülheimer Str. 58, 51103 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.939814,
+      "lng": 7.001496,
       "cuisine": "Multicultural café with Japanese-French patisserie; breakfast, French-Japanese dishes in the evening",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -15863,7 +15970,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "van-dyck-mulheim",
@@ -15871,8 +15979,8 @@
       "category": "cafe",
       "area": "muelheim-kalk",
       "address": "Schanzenstraße 36, Gebäude 31b, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.96824,
+      "lng": 7.014888,
       "cuisine": "Coffee roastery café (Van Dyck Kaffeerösterei, Mülheim roastery site)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -15920,7 +16028,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "bhasin",
@@ -15928,8 +16037,8 @@
       "category": "restaurant",
       "area": "muelheim-kalk",
       "address": "Thumbstraße 1, 51103 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.940584,
+      "lng": 7.006834,
       "cuisine": "Indian curry restaurant in Kalk (since 1986)",
       "cuisine_country": [
         "IN"
@@ -15984,7 +16093,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "curry-house"
+      "style": "curry-house",
+      "coord_source": "nominatim"
     },
     {
       "id": "tomoki-restaurant",
@@ -15992,8 +16102,8 @@
       "category": "restaurant",
       "area": "muelheim-kalk",
       "address": "Formesstraße 2, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.959653,
+      "lng": 6.996536,
       "cuisine": "Vietnamese and sushi restaurant (Asian kitchen)",
       "cuisine_country": [
         "VN",
@@ -16046,7 +16156,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "asian-kitchen"
+      "style": "asian-kitchen",
+      "coord_source": "nominatim"
     },
     {
       "id": "ristorante-d-amore",
@@ -16054,8 +16165,8 @@
       "category": "restaurant",
       "area": "muelheim-kalk",
       "address": "Deutz-Mülheimer Str. 326, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.961314,
+      "lng": 6.997205,
       "cuisine": "Neapolitan-style pizzeria / Italian restaurant (in the former Brückeneck)",
       "cuisine_country": [
         "IT"
@@ -16108,7 +16219,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "pizzeria"
+      "style": "pizzeria",
+      "coord_source": "nominatim"
     },
     {
       "id": "gilden-brauhaus",
@@ -16116,8 +16228,8 @@
       "category": "brauhaus",
       "area": "muelheim-kalk",
       "address": "Clevischer Ring 121, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.97146,
+      "lng": 7.006213,
       "cuisine": "Brauhaus with Kölsch cuisine and Kölsch on tap",
       "cuisine_country": [
         "DE"
@@ -16173,7 +16285,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "brauhaus"
+      "style": "brauhaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "trash-chic",
@@ -16181,8 +16294,8 @@
       "category": "restaurant",
       "area": "muelheim-kalk",
       "address": "Wiersbergstraße 31, 51103 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.937013,
+      "lng": 7.009029,
       "cuisine": "Vegetarian Eckkneipe (corner pub) with soy gyros, burgers and döner-style wraps",
       "cuisine_country": [
         "INT"
@@ -16240,7 +16353,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "kneipe"
+      "style": "kneipe",
+      "coord_source": "nominatim"
     },
     {
       "id": "cigkoftem-keupstrasse",
@@ -16248,8 +16362,8 @@
       "category": "streetfood",
       "area": "muelheim-kalk",
       "address": "Keupstraße 80, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.964608,
+      "lng": 7.010472,
       "cuisine": "Turkish çiğ köfte Imbiss (vegan bulgur köfte wraps)",
       "cuisine_country": [
         "TR"
@@ -16303,7 +16417,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "streetfood"
+      "style": "streetfood",
+      "coord_source": "nominatim"
     },
     {
       "id": "scampino",
@@ -16311,8 +16426,8 @@
       "category": "restaurant",
       "area": "muelheim-kalk",
       "address": "Deutz-Mülheimer Str. 199, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.959458,
+      "lng": 6.995401,
       "cuisine": "Mediterranean fish and seafood restaurant with a Rhine-side terrace",
       "cuisine_country": [
         "INT"
@@ -16368,7 +16483,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": null
+      "style": null,
+      "coord_source": "nominatim"
     },
     {
       "id": "cafe-vreiheit",
@@ -16376,8 +16492,8 @@
       "category": "cafe",
       "area": "muelheim-kalk",
       "address": "Wallstraße 91, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.9642,
+      "lng": 7.001028,
       "cuisine": "Breakfast and brunch café with vegetarian and international dishes and pasta",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -16432,7 +16548,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "brunch"
+      "style": "brunch",
+      "coord_source": "nominatim"
     },
     {
       "id": "konditorei-kluppelberg",
@@ -16440,8 +16557,8 @@
       "category": "dessert",
       "area": "muelheim-kalk",
       "address": "Olpener Straße 262, 51103 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.940109,
+      "lng": 7.030387,
       "cuisine": "Traditional Konditorei (cake shop) known for mini tarts (Törtchen) with marzipan",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -16488,7 +16605,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "dessert"
+      "style": "dessert",
+      "coord_source": "nominatim"
     },
     {
       "id": "kunefem-damla",
@@ -16496,8 +16614,8 @@
       "category": "dessert",
       "area": "muelheim-kalk",
       "address": "Keupstraße 92, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.964264,
+      "lng": 7.010937,
       "cuisine": "Turkish dessert shop specialising in künefe (hot cheese pastry in syrup)",
       "cuisine_country": [
         "TR"
@@ -16548,7 +16666,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "dessert"
+      "style": "dessert",
+      "coord_source": "nominatim"
     },
     {
       "id": "blauer-konig",
@@ -16556,8 +16675,8 @@
       "category": "restaurant",
       "area": "muelheim-kalk",
       "address": "Markt 24, 51103 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.940359,
+      "lng": 7.006449,
       "cuisine": "German home cooking (gutbürgerlich) with Mediterranean touches",
       "cuisine_country": [
         "DE"
@@ -16604,7 +16723,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "home-cooking"
+      "style": "home-cooking",
+      "coord_source": "nominatim"
     },
     {
       "id": "buyuk-harran-doy-doy",
@@ -16612,8 +16732,8 @@
       "category": "restaurant",
       "area": "muelheim-kalk",
       "address": "Keupstraße 40, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.965686,
+      "lng": 7.009021,
       "cuisine": "Large Turkish restaurant on Keupstraße (southeastern Harran-style cooking)",
       "cuisine_country": [
         "TR"
@@ -16662,7 +16782,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": null
+      "style": null,
+      "coord_source": "nominatim"
     },
     {
       "id": "cafe-jakubowski",
@@ -16670,8 +16791,8 @@
       "category": "cafe",
       "area": "muelheim-kalk",
       "address": "Mülheimer Freiheit 54, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.96443,
+      "lng": 6.999815,
       "cuisine": "Neighbourhood café on Mülheimer Freiheit",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -16719,7 +16840,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "cafe"
+      "style": "cafe",
+      "coord_source": "nominatim"
     },
     {
       "id": "kilim-restaurant",
@@ -16791,8 +16913,8 @@
       "category": "brauhaus",
       "area": "muelheim-kalk",
       "address": "Kalker Hauptstraße 260, 51103 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.939008,
+      "lng": 7.011079,
       "cuisine": "Brewery tap and Brauhaus in the former Sünner brewery (Kölsch and distillery)",
       "cuisine_country": [
         "DE"
@@ -16853,7 +16975,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "brauhaus"
+      "style": "brauhaus",
+      "coord_source": "nominatim"
     },
     {
       "id": "localino",
@@ -16861,8 +16984,8 @@
       "category": "restaurant",
       "area": "muelheim-kalk",
       "address": "Deutz-Mülheimer Str. 203, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.959875,
+      "lng": 6.996027,
       "cuisine": "Italian restaurant — pizza and pasta with many vegan options",
       "cuisine_country": [
         "IT"
@@ -16918,7 +17041,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "pizzeria"
+      "style": "pizzeria",
+      "coord_source": "nominatim"
     },
     {
       "id": "damla-keupstrasse",
@@ -16926,8 +17050,8 @@
       "category": "dessert",
       "area": "muelheim-kalk",
       "address": "Keupstraße 82, 51063 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.964526,
+      "lng": 7.010581,
       "cuisine": "Turkish baklava and künefe shop on Keupstraße",
       "cuisine_country": [
         "TR"
@@ -16977,7 +17101,8 @@
       "confidence": "medium",
       "research": "r8-muelheim",
       "checked": "2026-11-07",
-      "style": "dessert"
+      "style": "dessert",
+      "coord_source": "nominatim"
     },
     {
       "id": "bulgogi-haus",
@@ -17054,8 +17179,8 @@
       "category": "dessert",
       "area": "other",
       "address": "Bergisch Gladbacher Straße 981, 51069 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.978733,
+      "lng": 7.070206,
       "cuisine": "Family-run traditional Italian ice-cream parlour (Eiscafé) in Dellbrück",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -17101,7 +17226,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "ice-cream"
+      "style": "ice-cream",
+      "coord_source": "nominatim"
     },
     {
       "id": "il-gelato-di-ferigo",

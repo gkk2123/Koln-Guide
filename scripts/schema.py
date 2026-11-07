@@ -134,7 +134,7 @@ STYLES = {
     "buffet": "뷔페", "gasthaus": "가스트하우스(향토 식당)", "cantina": "칸티나(멕시칸 바)", "streetfood": "스트리트 푸드·임비스", "brunch": "아침·브런치 카페",
     "home-cooking": "가정식", "casual": "캐주얼 식당", "curry-house": "커리 하우스", "sharing": "셰어 플래터",
     "asian-kitchen": "아시안 키친", "veggie": "채식·비건", "modern": "모던 다이닝", "ristorante": "리스토란테",
-    "traditional": "정통 식당", "hotel-restaurant": "호텔 레스토랑",
+    "traditional": "정통 식당", "hotel-restaurant": "호텔 레스토랑", "seafood": "해산물 레스토랑", "beer-garden": "비어가든",
     "lounge": "라운지", "cafe": "카페", "bakery": "베이커리", "ice-cream": "젤라토·아이스크림", "dessert": "디저트", "bar": "바",
 }
 STYLE_RULES = [  # first match wins; matched against the English/German cuisine text and the name
@@ -165,10 +165,12 @@ STYLE_RULES = [  # first match wins; matched against the English/German cuisine 
     ("brunch", r"brunch|breakfast|frühstück"),
     ("lounge", r"lounge"),
     ("hotel-restaurant", r"hotel restaurant"),
+    ("seafood", r"seafood|fish restaurant|fischrestaurant"),
+    ("beer-garden", r"beer garden|biergarten"),
     ("modern", r"market cuisine|marktküche|modern european"),
     ("veggie", r"^vegan|vegetarian & vegan|100% vegan|vegetarian restaurant"),
     ("home-cooking", r"home cooking|home-style|hausmannskost"),
-    ("casual", r"comfort food"),
+    ("casual", r"comfort food|\bcasual\b|unpretentious|\bwarung\b"),
     ("asian-kitchen", r"pan-asian"),
     ("curry-house", r"curr(y|ies)"),
     ("sharing", r"ethiopian|eritrean"),
@@ -196,6 +198,8 @@ def infer_style(it: dict) -> str | None:
         for dish, style in DISH_STYLE:
             if dish in (it.get("dishes") or []):
                 return style
+        if (it.get("cuisine_country") or [None])[0] == "IT":
+            return "ristorante"  # a sit-down Italian restaurant without a more specific format
     return FALLBACK_STYLE.get(cat)
 
 

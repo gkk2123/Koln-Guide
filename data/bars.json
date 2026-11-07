@@ -1044,8 +1044,8 @@
       "category": "cocktail-bar",
       "area": "friesenviertel-ehrenstrasse",
       "address": "Friesenstraße 41, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.940672,
+      "lng": 6.943632,
       "cuisine": "Cocktail bar that becomes a small club with DJ on weekends",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -1095,7 +1095,8 @@
       "confidence": "medium",
       "research": "r8-center-south",
       "checked": "2026-11-07",
-      "style": "cocktail-bar"
+      "style": "cocktail-bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "frohnatur-bistrooo-bar-bar-bar",
@@ -1953,8 +1954,8 @@
       "category": "bar",
       "area": "ehrenfeld",
       "address": "Bartholomäus-Schink-Straße 2, 50825 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.952128,
+      "lng": 6.917987,
       "cuisine": "Bar and beer garden — craft cocktails, German beers, DJ nights and live music on weekends",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -2004,7 +2005,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "bar"
+      "style": "bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "torburg",
@@ -2541,8 +2543,8 @@
       "category": "kneipe",
       "area": "agnesviertel-eigelstein",
       "address": "Weißenburgstraße 8A, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.954009,
+      "lng": 6.954602,
       "cuisine": "Neighbourhood Kölsch Kneipe with pinball",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -2592,7 +2594,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "kneipe"
+      "style": "kneipe",
+      "coord_source": "nominatim"
     },
     {
       "id": "king-georg",
@@ -2600,8 +2603,8 @@
       "category": "bar",
       "area": "agnesviertel-eigelstein",
       "address": "Sudermanstraße 2, 50670 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.951017,
+      "lng": 6.95641,
       "cuisine": "Long-running dance bar / club bar — readings and jazz concerts on weekdays, DJ sets on Saturdays",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -2650,7 +2653,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "bar"
+      "style": "bar",
+      "coord_source": "nominatim"
     },
     {
       "id": "lapidarium",
@@ -2658,8 +2662,8 @@
       "category": "kneipe",
       "area": "agnesviertel-eigelstein",
       "address": "Eigelstein 118, 50668 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.949143,
+      "lng": 6.957168,
       "cuisine": "Café-bar-Kneipe with German food and local beers",
       "cuisine_country": [
         "DE"
@@ -2708,7 +2712,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "kneipe"
+      "style": "kneipe",
+      "coord_source": "nominatim"
     },
     {
       "id": "weinhaus-vogel",
@@ -2716,8 +2721,8 @@
       "category": "kneipe",
       "area": "agnesviertel-eigelstein",
       "address": "Eigelstein 74, 50668 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.947999,
+      "lng": 6.956907,
       "cuisine": "Traditional Kölsch Kneipe / gastropub with hearty German food",
       "cuisine_country": [
         "DE"
@@ -2770,7 +2775,8 @@
       "confidence": "medium",
       "research": "r8-ehrenfeld-agnes",
       "checked": "2026-11-07",
-      "style": "kneipe"
+      "style": "kneipe",
+      "coord_source": "nominatim"
     },
     {
       "id": "em-bierstueffge",
@@ -2855,8 +2861,8 @@
       "category": "kneipe",
       "area": "nippes",
       "address": "Neusser Straße 301, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.965493,
+      "lng": 6.953322,
       "cuisine": "Old-school Nippes Kölsch pub (Kneipe) with home-style food",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -2907,7 +2913,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "kneipe"
+      "style": "kneipe",
+      "coord_source": "nominatim"
     },
     {
       "id": "neppeser-gaffel-stube",
@@ -2915,8 +2922,8 @@
       "category": "kneipe",
       "area": "nippes",
       "address": "Neusser Straße 340, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.967466,
+      "lng": 6.953403,
       "cuisine": "Gaffel Kölsch pub and restaurant (Kneipe, formerly 'Restauration Pet Wirtz')",
       "cuisine_country": [
         "DE"
@@ -2968,7 +2975,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "kneipe"
+      "style": "kneipe",
+      "coord_source": "nominatim"
     },
     {
       "id": "flora-6",
@@ -2976,8 +2984,8 @@
       "category": "kneipe",
       "area": "nippes",
       "address": "Florastraße 6, 50733 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.964677,
+      "lng": 6.954349,
       "cuisine": "Nippes neighbourhood Kölsch pub (Kneipe)",
       "cuisine_country": [],
       "cuisine_region": null,
@@ -3025,7 +3033,8 @@
       "confidence": "medium",
       "research": "r8-nippes",
       "checked": "2026-11-07",
-      "style": "kneipe"
+      "style": "kneipe",
+      "coord_source": "nominatim"
     },
     {
       "id": "osters-rudi",
@@ -3167,8 +3176,8 @@
       "category": "kneipe",
       "area": "other",
       "address": "Aachener Straße 607, 50933 Köln",
-      "lat": null,
-      "lng": null,
+      "lat": 50.937049,
+      "lng": 6.892932,
       "cuisine": "Neighbourhood Kölsch pub with German home cooking (Restaurant & Kneipe) in Braunsfeld",
       "cuisine_country": [
         "DE"
@@ -3218,7 +3227,8 @@
       "confidence": "medium",
       "research": "r8-candidates",
       "checked": "2026-11-07",
-      "style": "kneipe"
+      "style": "kneipe",
+      "coord_source": "nominatim"
     }
   ]
 }

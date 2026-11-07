@@ -76,6 +76,16 @@
       "sources": [
         "https://speisekarte.menu/restaurants/cologne/buddhas-eye"
       ]
+    },
+    {
+      "id": "buyuk-harran-doy-doy",
+      "style": "grill",
+      "why": "코이프슈트라세의 대형 터키(하란식) 레스토랑 — 하란 요리는 꼬치구이(케밥) 중심"
+    },
+    {
+      "id": "restaurant-ngon-ngon",
+      "style": "casual",
+      "why": "양 많은 캐주얼 베트남 식당(리뷰)"
     }
   ]
 }

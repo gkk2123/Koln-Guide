@@ -2072,6 +2072,265 @@
    ],
    "confidence": "medium",
    "style_hint": "ristorante"
+  },
+  {
+   "id": "cloud-kitchen",
+   "name": "Cloud Kitchen",
+   "category": "cafe",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Rudolfplatz 4, Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Brunch café at Rudolfplatz (eggs Benedict, bread plates), order via app",
+   "cuisine_country": [],
+   "dishes": [
+    "brunch-plates",
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "brunch"
+   ],
+   "occasions": [
+    "date",
+    "solo"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "trendy"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note": "브런치 — 정확한 가격 미확인, 1인 €15 안팎으로 보고 2",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 704,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.7 / 704; 구조화 데이터 4.9는 자체 점수); wanderlog.com 4.6 / 571 (이전 스냅숏)",
+   "summary_ko": "루돌프플라츠(Rudolfplatz) 광장의 브런치 카페로, 에그 베네딕트와 넉넉한 빵 구성이 칭찬받는다. 구글 700여 건에 4.7이라 루돌프플라츠·미텔슈트라세 쇼핑 전 아침을 먹기 좋다.",
+   "must_try": [
+    "Eggs Benedict (에그 베네딕트)"
+   ],
+   "tips_ko": "앱으로 주문하는 방식이라 주문이 꼬였다는 후기, 대기가 길고 품절 메뉴가 있다는 후기가 있다. 주말 오전엔 일찍 갈 것. 우편번호는 출처에서 확인하지 못해 주소에 넣지 않았다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Cloud-Kitchen-Cologne",
+    "https://wanderlog.com/place/details/6971186/cloud-kitchen"
+   ],
+   "confidence": "high",
+   "style_hint": "brunch"
+  },
+  {
+   "id": "hans-im-gluck-koln-am-ring",
+   "name": "HANS IM GLÜCK - KÖLN Am Ring",
+   "category": "restaurant",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Hohenzollernring 38-40, 50672 Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Burger restaurant (German burger-grill chain)",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "burger"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "lively"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note": "버거 체인 — 정확한 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 6598,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.4 / 6,598; Restaurant Guru 자체 4.9 / 7,945는 구글 아님); 주소·업종 wanderlog.com 장소 페이지",
+   "summary_ko": "프리젠플라츠와 루돌프플라츠 사이 링(Hohenzollernring)에 있는 독일 버거 체인 '한스 임 글뤽'의 쾰른 지점이다. 구글 리뷰 6,500건 넘게 4.4라, 링 주변 바 거리에서 놀기 전 무난하게 버거로 저녁을 먹기 좋다.",
+   "must_try": [],
+   "tips_ko": "체인이라 특별한 현지 경험은 아니지만 채식 버거 선택지가 많은 편으로 알려져 있다(메뉴 미확인). 금·토 저녁엔 붐빈다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Hans-Im-Gluck-Cologne-3",
+    "https://wanderlog.com/place/details/2616850/hans-im-gl%C3%BCck-k%C3%B6ln-am-ring"
+   ],
+   "confidence": "medium",
+   "style_hint": "burger"
+  },
+  {
+   "id": "eatdoori-indisches-restaurant-koln",
+   "name": "eatDOORI - Indisches Restaurant Köln",
+   "category": "restaurant",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Hohenzollernring 19, Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Indian restaurant on the Ring",
+   "cuisine_country": [
+    "IN"
+   ],
+   "dishes": [
+    "curry"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "date"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 1321,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.6 / 1,321; 헤더의 1,901은 자체 투표)",
+   "summary_ko": "호엔촐레른링(Hohenzollernring)의 인도 레스토랑이다. 구글 1,300여 건에 4.6으로, 링·에렌슈트라세 일대에서 커리를 먹기에 평이 가장 좋은 곳 중 하나다.",
+   "must_try": [],
+   "tips_ko": "메뉴·가격은 출처에서 확인하지 못했다. 우편번호는 출처에서 확인하지 못해 주소에 넣지 않았다. 매운 정도는 주문 때 조절을 부탁할 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/eatDOORI-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "curry-house"
+  },
+  {
+   "id": "cafe-romeo-romeo",
+   "name": "Café Romeo Romeo",
+   "category": "cafe",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Kaiser-Wilhelm-Ring 10, Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Café on the Kaiser-Wilhelm-Ring",
+   "cuisine_country": [],
+   "dishes": [
+    "coffee",
+    "cake"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "lunch"
+   ],
+   "occasions": [
+    "solo",
+    "date"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 2433,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.8 / 2,433)",
+   "summary_ko": "카이저빌헬름링(Kaiser-Wilhelm-Ring)의 카페로, 구글 2,400건 넘게 4.8이라 링 일대 카페 가운데 평가가 가장 높은 편이다. 프리젠플라츠·메디아파크 쪽을 오갈 때 커피와 간단한 식사로 쉬어 가기 좋다.",
+   "must_try": [],
+   "tips_ko": "어떤 메뉴가 유명한지는 출처에서 확인하지 못했다. 바로 옆 6–8번지가 중동 레스토랑 Zadem. 우편번호는 출처에서 확인하지 못해 주소에 넣지 않았다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Romeo-Romeo-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  },
+  {
+   "id": "espressito-cafe-bar",
+   "name": "Espressito Café Bar",
+   "category": "cafe",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Kaiser-Wilhelm-Ring 42, Köln",
+   "lat": null,
+   "lng": null,
+   "cuisine": "Espresso café-bar on the Ring",
+   "cuisine_country": [],
+   "dishes": [
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast"
+   ],
+   "occasions": [
+    "solo",
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note": "카페 — 정확한 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 188,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.3 / 188; 헤더 217은 자체 투표)",
+   "summary_ko": "카이저빌헬름링 42번지의 작은 에스프레소 카페 바다. 구글 188건에 4.3으로, 링을 따라 걷다 잠깐 커피 한 잔 하기 좋다.",
+   "must_try": [],
+   "tips_ko": "메뉴·영업시간은 출처에서 확인하지 못했다. 우편번호는 출처에서 확인하지 못해 주소에 넣지 않았다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Espressito-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
   }
  ],
  "candidates": [
@@ -2369,10 +2628,10 @@
   {
    "name": "Café Colonius",
    "area": "other",
-   "address": "주소 미확인",
+   "address": "Subbelrather Straße 19, Köln",
    "category": "cafe",
-   "reason": "address-missing: Google 4.6 / 115 (Restaurant Guru)",
-   "found": "",
+   "reason": "conflicting-counts: Restaurant Guru Google 4.6 — 115건/140건으로 스냅숏마다 다름; 지역(에렌펠트/노이슈타트노르트 경계) 확인 필요",
+   "found": "주소는 Restaurant Guru 검색 요약 기준.",
    "sources": [
     "https://restaurantguru.com/Cafe-Colonius-Cologne"
    ]
@@ -2589,7 +2848,184 @@
    "sources": [
     "https://de.restaurantguru.com/Woyton-An-der-Schildergasse-Cologne"
    ]
+  },
+  {
+   "name": "Rex Am Ring",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Hohenzollernring 60, Köln",
+   "category": "restaurant",
+   "reason": "content-missing: Google 4.4 / 3,319 (Restaurant Guru)로 수치는 기준 충족, 업종·메뉴 미확인",
+   "found": "Wanderlog에는 이름만 나옴.",
+   "sources": [
+    "https://restaurantguru.com/Rex-Am-Ring-Cologne"
+   ]
+  },
+  {
+   "name": "Pier 124",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Friesenwall 124, Köln",
+   "category": "bar",
+   "reason": "content-missing: Google 4.8 / 221 (Restaurant Guru)로 수치는 기준 충족, 업종 미확인",
+   "found": "",
+   "sources": [
+    "https://restaurantguru.com/Pier-124-Cologne"
+   ]
+  },
+  {
+   "name": "Supasalad Friesenwall",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Friesenwall (번지 미확인), Köln",
+   "category": "restaurant",
+   "reason": "address-incomplete: Google 4.4 / 271 (Restaurant Guru)",
+   "found": "샐러드 체인. 바이트마르크트 지점(Waidmarkt 11)은 Restaurant Guru 자체 3.2 (34).",
+   "sources": [
+    "https://restaurantguru.com/Supasalad-Cologne",
+    "https://restaurantguru.com/Supasalad-Cologne-6"
+   ]
+  },
+  {
+   "name": "MAULVOLL Weinbar",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Im Ferkulum 30, 50678 Köln",
+   "category": "wine-bar",
+   "reason": "count-attribution-unclear: Google 4.7, '277'이 구글 리뷰 수인지 불명 (Restaurant Guru, URL Weinladen-Sudstadt)",
+   "found": "성 세베린 성당 뒤 Im Ferkulum의 와인바(와인 가게 겸).",
+   "sources": [
+    "https://restaurantguru.com/Weinladen-Sudstadt-Cologne"
+   ]
+  },
+  {
+   "name": "Coellner Bar",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Ubierring 22, 50678 Köln",
+   "category": "cocktail-bar",
+   "reason": "below-criteria: Google 4.1 (Restaurant Guru)",
+   "found": "칵테일 바, 1인 €10–20 표기.",
+   "sources": [
+    "https://restaurantguru.com/Coellner-Cologne"
+   ]
+  },
+  {
+   "name": "Fiffibar",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Severinswall 35, 50678 Köln",
+   "category": "cocktail-bar",
+   "reason": "google-numbers-missing",
+   "found": "쥐트슈타트 칵테일 바로 추천하는 후기.",
+   "sources": [
+    "https://restaurantguru.com/Fiffi-Bar-Cologne"
+   ]
+  },
+  {
+   "name": "WIEWALDI coffee roasters",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Kleiner Griechenmarkt 33, 50676 Köln",
+   "category": "cafe",
+   "reason": "google-review-count-missing: Restaurant Guru Google 4.9 (리뷰 수 없음), Restaurant Guru 쾰른 커피하우스 1위",
+   "found": "커피 로스터(URL은 이전 상호 Giovanna Kaffee).",
+   "sources": [
+    "https://restaurantguru.com/Giovanna-Kaffee-Guter-Kaffee-aus-Koln-Cologne"
+   ]
+  },
+  {
+   "name": "Pettirosso",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Kleiner Griechenmarkt 49, 50676 Köln",
+   "category": "restaurant",
+   "reason": "google-numbers-missing",
+   "found": "이탈리아 음식.",
+   "sources": [
+    "https://de.restaurantguru.com/Pettirosso-Cologne"
+   ]
+  },
+  {
+   "name": "Ansgar's - Restaurant Bar Kegelbahn",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Kleiner Griechenmarkt 73, 50676 Köln",
+   "category": "kneipe",
+   "reason": "google-numbers-missing",
+   "found": "레스토랑·바·케겔반(볼링 비슷한 독일식 놀이).",
+   "sources": [
+    "https://restaurantguru.com/Ansgars-Cologne"
+   ]
+  },
+  {
+   "name": "EPI Boulangerie Patisserie",
+   "area": "dom-altstadt",
+   "address": "Breite Straße 29, 50667 Köln",
+   "category": "bakery",
+   "reason": "google-numbers-missing: Restaurant Guru 자체 4.8 / 1,190만 확인",
+   "found": "",
+   "sources": [
+    "https://restaurantguru.com/Grand-Epi-Cologne"
+   ]
+  },
+  {
+   "name": "Bei Bepi",
+   "area": "dom-altstadt",
+   "address": "Breite Straße 85, 50667 Köln",
+   "category": "restaurant",
+   "reason": "google-numbers-missing: Restaurant Guru 자체 4.7 / 1,460만 확인",
+   "found": "",
+   "sources": [
+    "https://restaurantguru.com/Bei-Bepi-Cologne"
+   ]
+  },
+  {
+   "name": "Hase Restaurant",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "St.-Apern-Straße 17, 50667 Köln",
+   "category": "restaurant",
+   "reason": "google-numbers-missing: Restaurant Guru 자체 4.8 / 1,337만 확인",
+   "found": "",
+   "sources": [
+    "https://restaurantguru.com/Hase-Cologne"
+   ]
+  },
+  {
+   "name": "Bastian's",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Auf dem Berlich 3-5, 50667 Köln",
+   "category": "bakery",
+   "reason": "google-review-count-missing: 리뷰 발췌에 Google 4.4 언급만, Restaurant Guru 자체 4.3 / 4,586",
+   "found": "",
+   "sources": [
+    "https://restaurantguru.com/Bastians-Cologne"
+   ]
+  },
+  {
+   "name": "Café Rotkehlchen (Bayenthal)",
+   "area": "other",
+   "address": "Goltsteinstraße 51a, 50968 Köln",
+   "category": "cafe",
+   "reason": "google-numbers-missing: Restaurant Guru 자체 4.6 / 310만 확인",
+   "found": "",
+   "sources": [
+    "https://restaurantguru.com/Cafe-Rotkehlchen-Bayenthal-Cologne"
+   ]
+  },
+  {
+   "name": "Café Konditorei Hirsch",
+   "area": "other",
+   "address": "Goltsteinstraße 55-57, 50968 Köln",
+   "category": "cafe",
+   "reason": "google-numbers-missing",
+   "found": "바이엔탈 콘디토라이.",
+   "sources": [
+    "https://restaurantguru.com/Cafe-Hirsch-Cologne-2"
+   ]
+  },
+  {
+   "name": "Omagerichte",
+   "area": "other",
+   "address": "Alteburger Straße 299, Köln",
+   "category": "restaurant",
+   "reason": "google-review-count-missing: Restaurant Guru 'Google users 4.9', 자체 4.9 / 70",
+   "found": "이름('할머니 요리')상 가정식으로 보임. 쥐트슈타트보다 남쪽.",
+   "sources": [
+    "https://restaurantguru.com/Omagerichte-Cologne"
+   ]
   }
  ],
- "notes_ko": "작업 중"
+ "notes_ko": "8차 center-south 조사(2026-11-07, WebSearch 32회 사용 — 상한 32회). 방법: Restaurant Guru를 거리 단위로 검색(Severinstraße, Bonner Straße, Ehrenstraße, Friesenstraße, Mittelstraße·Pfeilstraße·Benesisstraße, Komödienstraße·Marzellenstraße, Heumarkt, Mauritiussteinweg·Waidmarkt, Hohenzollernring·Kaiser-Wilhelm-Ring 등) — 페이지 본문의 'Google (x/5) 투표 수'만 구글 수치로 채택했고, Restaurant Guru 헤더·구조화 데이터 점수(자체 합산)는 쓰지 않았다. 업종·후기 내용과 일부 수치는 Wanderlog 장소 페이지(From Google)로 보강했다. 주의: Restaurant Guru 수치는 페이지마다 수개월~수년 전 스냅숏이라 최신 구글 값과 다를 수 있다(예: https://restaurantguru.com/Pizza-andamp-Pasta-Traditionale-Cologne 약 1년 전). 기존 후보에서 places로 올린 곳(같은 이름 사용): Ahlan Imbiss(Severinstraße 189), Mangal Doner Restaurant(Bonner Straße 1), Brauhaus Johann Schäfer(https://wanderlog.com/place/details/2181727/johann-sch%C3%A4fer-brauhaus 4.4/1,728), Bun Pho, Alfredo, Kuchi Mami, Restaurant Great Wall Köln, The Coffice Harbour, Gaffel am Dom (Bahnhofsvorplatz)(Google 4.3/8,716, https://restaurantguru.com/Gaffel-am-Dom-Cologne), Black Angus XL Steakhouse, Steakhouse Ponchos. 후보 갱신: Haxenhaus zum Rheingarten(Google 4.1 — 미달), Nimet Grill(폐업), Eiscafé Breda(수치는 4.4/1,167로 정확해졌지만 편집 판단 필요 사유 유지), Gaffel Haus(Wanderlog 4.4, 리뷰 수 미확인), Einstein(Lintgasse 4, Google 4.6, 리뷰 수 미확인). 지역 판단: 마르첼렌슈트라세(중앙역 북서쪽, 50668)의 Da Damiano·Luciano는 Schreckenskammer와 같은 agnesviertel-eigelstein, 아포스텔른슈트라세·링(Hohenzollernring/Kaiser-Wilhelm-Ring)·루돌프플라츠는 friesenviertel-ehrenstrasse, 바이트마르크트는 suedstadt-rheinauhafen, 마우리티우스슈타인베크·플라이시멩거가세는 dom-altstadt(구시가 남쪽)로 두었다. Goltsteinstraße 일대(50968 바이엔탈)는 other. 우편번호를 출처에서 확인하지 못한 곳(Cloud Kitchen, eatDOORI, Café Romeo Romeo, Espressito)은 주소에 우편번호를 넣지 않았다. 같은 체인 두 지점(Sattgrün 콜룸바·노이마르크트)은 리뷰가 많은 콜룸바(Ludwigstraße 11)만 places에 넣었다. 남은 확인 과제: Rex Am Ring·Pier 124(수치 충족, 업종 미확인), NOODLE FAN·XIAO Köln·Café Bo·Caffettiamo·Mangal Döner Heumarkt·Sweet Sushi Südstadt(수치 충족, 주소 미확인), Haus des Döners(지점 대응 미확인), 쥐트슈타트 크나이페(Lotta·KRAUTIs·Fiffibar 등)는 여전히 구글 수치를 찾지 못함. Restaurant Guru 거리 검색은 아무 출처에도 구글 수치가 없는 곳(Phaedra, Hase, Bei Bepi, EPI, Bastian's 등)이 많아 후보로만 남겼다."
 }
