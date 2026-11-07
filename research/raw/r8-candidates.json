@@ -1,0 +1,1725 @@
+{
+ "agent": "r8-candidates",
+ "generated": "2026-11-07",
+ "schema": "v2",
+ "scope": "Round 8 re-check of data/candidates.json leads that were held back only for missing/uncertain Google numbers, missing addresses or unclear attribution (food first, guide's main areas); places that now meet the bar are written under the candidate's name",
+ "places": [
+  {
+   "name": "Il Bagutta",
+   "category": "restaurant",
+   "area": "kwartier-lateng",
+   "address": "Heinsbergstraße 20a, 50674 Köln",
+   "cuisine": "Italian restaurant with a rustic-modern backyard garden",
+   "cuisine_country": [
+    "IT"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(이번 조사에서 메뉴판 미확인)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 1050,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com ('best Italian restaurants in Cologne' 목록 1위, Google 4.6 / 1,050, 2차 조사 스냅숏)",
+   "summary_ko": "쥘피허 플라츠·라테나우플라츠 근처 하인스베르크 거리의 이탈리안 레스토랑으로, Wanderlog '쾰른 최고의 이탈리안' 목록 1위(구글 4.6, 1,050건)에 오른 곳이다. 소박하면서 모던한 뒷마당이 있어 분위기 있는 저녁 식사에 어울린다.",
+   "must_try": [],
+   "tips_ko": "OpenTable에 예약 페이지가 있으니 저녁엔 미리 예약해 두면 안전하다. 뒷마당 좌석은 여름용이라 11–12월엔 실내 식사가 기본이다. 바로 옆 20번지 Rosebud Bar(칵테일)와 이어서 가기 좋다. 영업시간·메뉴는 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/52853/best-italian-restaurants-in-cologne",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/bagutta",
+    "https://www.opentable.ie/r/il-bagutta-koln"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Salera Tapas y mas",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Balthasarstraße 1, 50670 Köln",
+   "cuisine": "Spanish tapas bar",
+   "cuisine_country": [
+    "ES"
+   ],
+   "dishes": [
+    "tapas"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(이번 조사에서 메뉴판 미확인)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 571,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (장소 페이지 Google 4.7 / 571, 2차 조사 스냅숏)",
+   "summary_ko": "아그네스 지구 발타자르 거리 초입의 스페인 타파스 집으로, 구글 4.7(571건)의 동네 인기 가게다. 크리미한 치킨 타파스와 디저트가 리뷰에서 칭찬받아, 여러 접시를 나눠 먹는 가벼운 저녁에 좋다.",
+   "must_try": [
+    "Creamy chicken tapas (크리미 치킨 타파스 — 리뷰 추천)"
+   ],
+   "tips_ko": "주소는 koeln.de 업소 등록 기준(Balthasarstraße 1). 같은 거리 53번지 크나이페 Zum Goldenen Kegel과 가깝다. 영업시간·예약 방식은 미확인이라 방문 전 확인할 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3590204/salera-tapas-y-mas",
+    "https://www.koeln.de/branchen/eintrag/45662/restaurants-spanisch/salera-tapas-y-mas",
+    "https://www.airbnb.com/things-to-do/places/691355"
+   ],
+   "confidence": "medium",
+   "style_hint": "tapas"
+  },
+  {
+   "name": "Konditorei Klüppelberg",
+   "category": "dessert",
+   "area": "muelheim-kalk",
+   "address": "Olpener Straße 262, 51103 Köln",
+   "cuisine": "Traditional Konditorei (cake shop) known for mini tarts (Törtchen) with marzipan",
+   "cuisine_country": [],
+   "dishes": [
+    "cake",
+    "bread-pastry"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [
+    "takeaway"
+   ],
+   "drinks": [],
+   "vibe": [
+    "hidden-gem"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(케이크·토르트헨 가게)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 1194,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.5 / 1,194 + 다른 플랫폼 4.0 / 21, 케이크 가게 목록, 2차 조사 스냅숏)",
+   "summary_ko": "칼크 동쪽 회엔베르크의 오래된 동네 콘디토라이로, 마지판을 채운 작고 귀여운 토르트헨(미니 타르트)으로 알려져 구글 리뷰가 1,100건을 넘는다(4.5). 관광지는 아니지만 쾰른 사람들이 생일·모임용 케이크를 사러 가는 집이라 '현지 디저트'를 맛보기 좋다.",
+   "must_try": [
+    "Törtchen (토르트헨 — 마지판을 넣은 미니 타르트)"
+   ],
+   "tips_ko": "주소 Olpener Str. 262, 전화 0221 878779(koeln.de). 시내 중심에서 트램·버스로 가야 하는 칼크 동쪽 주거지역이라 칼크·도이츠 쪽 일정과 묶을 것. 영업시간·카페 좌석 여부는 미확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://app.wanderlog.com/place/details/2637153",
+    "https://www.koeln.de/branchen/eintrag/52754/konditoreien/konditorei-klueppelberg"
+   ],
+   "confidence": "medium",
+   "style_hint": "dessert"
+  },
+  {
+   "name": "Gaffel am Dom (Bahnhofsvorplatz)",
+   "category": "brauhaus",
+   "area": "dom-altstadt",
+   "address": "Bahnhofsvorplatz 1, 50667 Köln",
+   "cuisine": "Brauhaus of the Gaffel brewery — Gaffel Kölsch with Rhineland classics and schnitzel, opposite the Hauptbahnhof",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "schnitzel",
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "touristy",
+    "lively",
+    "traditional"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(리뷰에 '비싼 편'이라는 평이 있음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Gaffel Kölsch"
+   ],
+   "google_rating": 4.3,
+   "google_reviews": 9576,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.3 / 9,576; Tripadvisor 4.0 / 2,336). Restaurant Guru 4.3 / 14,828은 RG 자체 집계",
+   "summary_ko": "중앙역 광장(Bahnhofsvorplatz) 바로 앞, 대성당 옆에 있는 가펠(Gaffel) 양조장의 대형 브라우하우스로 구글 리뷰가 9,500건이 넘는다(4.3). 슈니첼과 생 가펠 쾰시를 활기찬 맥주홀 분위기에서 즐길 수 있어, 도착 첫날이나 기차 타기 전 한 끼로 가장 편한 위치다.",
+   "must_try": [
+    "Gaffel Kölsch vom Fass (생 가펠 쾰시)",
+    "Schnitzel (슈니첼 — 리뷰 추천)"
+   ],
+   "tips_ko": "저녁엔 예약을 권한다(Wanderlog 요약). 붐비는 시간엔 서비스가 느리고 시끄럽다는 후기가 많고, 가격이 높다는 평도 있다. 중앙역 바로 앞이라 짐을 들고 들르기 쉽다. 2026-11-11(카니발 시즌 개막일)과 크리스마스 마켓 기간 주말엔 매우 붐빈다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1188764/gaffel-am-dom-brauhaus",
+    "https://restaurantguru.com/Gaffel-am-Dom-Cologne",
+    "https://wanderlog.com/list/geoCategory/1572657/best-brauhaus-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "brauhaus"
+  },
+  {
+   "name": "Brauhaus Johann Schäfer",
+   "category": "brauhaus",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Elsaßstraße 6, 50677 Köln",
+   "cuisine": "Modern Südstadt Brauhaus — Kölsch and Pils with seasonal Rhineland dishes and vegetarian options",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(리뷰에 '양에 비해 비싸다'는 평이 있음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 1728,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.4 / 1,728; Tripadvisor 4.0 / 134). Restaurant Guru 4.8 / 2,417은 RG 자체 점수(약 1,280일 전 페이지)",
+   "summary_ko": "쥐트슈타트 엘자스 거리의 현대식 브라우하우스로, 인테리어와 친절한 직원이 칭찬받고 구글 4.4(1,700여 건)를 받았다. 이전 조사에서 Falstaff 84점·Der Feinschmecker 등재가 확인된 곳이라, 관광객 많은 구시가 브라우하우스보다 요리에 더 신경 쓴 쾰른 음식을 원할 때 좋다.",
+   "must_try": [
+    "Kölsch vom Fass (생 쾰시)",
+    "Saisonale rheinische Gerichte (제철 라인란트 요리)"
+   ],
+   "tips_ko": "리뷰 평이 엇갈린다 — 맛이 달다, 채식 메뉴가 아쉽다, 양에 비해 비싸다는 후기도 있다(반면 golocal 리뷰는 채식·비건 메뉴를 칭찬). 라인아우하펜 쪽 'Biergarten am Rheinauhafen Johann Schäfer'는 별개 업소(여름 비어가든)다. 영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/2181727/johann-sch%C3%A4fer-brauhaus",
+    "https://restaurantguru.com/Johann-Schaefer-Cologne",
+    "https://wanderlog.com/list/geoCategory/1572657/best-brauhaus-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "brauhaus"
+  },
+  {
+   "name": "Brauhaus Reissdorf am Griechenmarkt",
+   "category": "brauhaus",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Kleiner Griechenmarkt 40, 50676 Köln",
+   "cuisine": "Brauhaus of the Reissdorf brewery — Reissdorf Kölsch, schnitzel, currywurst and Rhineland classics",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "schnitzel",
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite",
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(리뷰에 '가격은 평범한 수준'이라는 평)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Reissdorf Kölsch"
+   ],
+   "google_rating": 4.4,
+   "google_reviews": 2229,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 'Brauhaus Reissdorf' (Google 4.4 / 2,229; Tripadvisor 4.0 / 129). Restaurant Guru 4.8 / 2,774는 RG 자체 점수",
+   "summary_ko": "판탈레온 지구 클라이너 그리헨마르크트의 라이스도르프 양조장 직영 브라우하우스로, 관광객보다 현지인이 많이 찾는 집이다(구글 4.4, 2,200여 건). 생 라이스도르프 쾰시와 슈니첼·커리부어스트가 리뷰에서 자주 칭찬받는다.",
+   "must_try": [
+    "Reissdorf Kölsch vom Fass (생 라이스도르프 쾰시)",
+    "Schnitzel (슈니첼)",
+    "Currywurst (커리부어스트)"
+   ],
+   "tips_ko": "만석일 때 서비스가 느리다는 불만이 가장 흔하다. 계산서에 10% 팁이 미리 붙어 있었다는 후기가 있으니 영수증을 확인할 것. 노이마르크트·바르바로사플라츠에서 걸어서 10분 안팎.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/766707/brauhaus-reissdorf",
+    "https://restaurantguru.com/Brauhaus-Reissdorf-Cologne",
+    "https://wanderlog.com/list/geoCategory/1572657/best-brauhaus-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "brauhaus"
+  },
+  {
+   "name": "Steakhouse Ponchos",
+   "category": "restaurant",
+   "area": "dom-altstadt",
+   "address": "Salzgasse 11, 50667 Köln",
+   "cuisine": "Argentinian steakhouse in an old-town vaulted cellar",
+   "cuisine_country": [
+    "AR"
+   ],
+   "dishes": [
+    "steak",
+    "grill"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(리뷰에 '맛있지만 비싸다'는 평)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 882,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 882; Tripadvisor 4.0 / 546); restaurantguru.com Google 4.5 / 863",
+   "summary_ko": "구시가 잘츠가세의 지하 셀러에 자리한 아르헨티나식 스테이크하우스로, 구글 4.5(880여 건)를 받았다. 라인강변 브라우하우스 골목 한가운데라 대성당·구시가 관광 뒤 스테이크 저녁을 먹기 좋은 위치다.",
+   "must_try": [
+    "Argentinian steak (아르헨티나식 스테이크)"
+   ],
+   "tips_ko": "한 리뷰에서 직원이 말없이 계산서에 €30를 더하고 현금 팁을 요구했다고 하니 계산서를 꼼꼼히 확인할 것. 박람회(Messe) 기간엔 서비스가 바쁘다는 후기가 있다. 영업시간·예약은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3077322/steakhouse-ponchos",
+    "https://restaurantguru.com/Ponchos-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "steakhouse"
+  },
+  {
+   "name": "El Gaucho – Original argentinisches Restaurant & Steakhaus",
+   "category": "restaurant",
+   "area": "kwartier-lateng",
+   "address": "Hohenstaufenring 29-37, 50674 Köln",
+   "cuisine": "Argentinian steakhouse with an open grill in the dining room",
+   "cuisine_country": [
+    "AR"
+   ],
+   "dishes": [
+    "steak",
+    "grill"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 1204,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 1,204; Tripadvisor 4.0 / 424); restaurantguru.com Google 약 4.5 / 1,197(약 765일 전 페이지)",
+   "summary_ko": "링(Hohenstaufenring)에 있는 아르헨티나 스테이크하우스로, 독일에서 가장 오래된 아르헨티나 레스토랑이라고 스스로 소개하며 홀 안의 오픈 그릴에서 스테이크를 굽는다. Wanderlog '쾰른 스테이크' 목록 맨 앞에 오르고 구글 4.5(1,200여 건)를 받았다.",
+   "must_try": [
+    "Argentinisches Steak vom offenen Grill (오픈 그릴 아르헨티나 스테이크)"
+   ],
+   "tips_ko": "음료와 스테이크가 나오기까지 30분을 기다렸다거나 굽기 정도가 주문과 달랐다는 최근 후기가 있으니, 굽기를 분명히 말하고 시간 여유를 둘 것. 직원 친절(이름이 거론되는 서버도 있음)은 자주 칭찬받는다. 쥘피허 플라츠에서 걸어서 몇 분.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1438573/el-gaucho-original-argentinisches-restaurant--steakhaus",
+    "https://restaurantguru.com/El-Gaucho-Cologne",
+    "https://wanderlog.com/list/geoCategory/1503221/best-places-for-steak-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "steakhouse"
+  },
+  {
+   "name": "Restaurant & Kneipe Köln | Kölsche Art",
+   "category": "kneipe",
+   "area": "other",
+   "address": "Aachener Straße 607, 50933 Köln",
+   "cuisine": "Neighbourhood Kölsch pub with German home cooking (Restaurant & Kneipe) in Braunsfeld",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 440,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 440, 3차 조사 스냅숏)",
+   "summary_ko": "브라운스펠트 아헨 거리(Aachener Str. 607)의 동네 쾰시 크나이페 겸 식당으로, 음식과 서비스가 호평받아 구글 4.5(440건)를 받았다. 관광지와 떨어진 주거지역이라 쾰른 사람들의 평범한 단골 술집 분위기를 보고 싶을 때 갈 만하다.",
+   "must_try": [
+    "Kölsch vom Fass (생 쾰시)"
+   ],
+   "tips_ko": "영업시간 정보가 출처마다 크게 다르다(한 곳은 월 16–19시·화–토 16:30–20시·일 휴무, 다른 곳은 평일 12–24시) — 꼭 확인하고 갈 것. 가끔 무례하다는 후기도 있다. 시내 중심에서 아헨 거리를 따라 서쪽으로 트램을 타고 가는 주거지역(브라운스펠트)이다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/9523096/restaurant--kneipe-k%C3%B6ln--k%C3%B6lsche-art",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/restauraut_kneipe_koeln_koelsche_art",
+    "https://www.nochoffen.de/braunsfeld-restauraut-kneipe-koeln-koelsche",
+    "https://speisekarte.menu/restaurants/koeln/koelsche-art"
+   ],
+   "confidence": "medium",
+   "style_hint": "kneipe"
+  },
+  {
+   "name": "Antica Pizzeria Nennillo – Belgisches Viertel",
+   "category": "restaurant",
+   "area": "belgisches-viertel",
+   "address": "Limburger Straße 23, 50672 Köln",
+   "cuisine": "Neapolitan pizzeria",
+   "cuisine_country": [
+    "IT"
+   ],
+   "dishes": [
+    "pizza"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [
+    "open-sunday"
+   ],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 859,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.3 / 859, 2차 조사 스냅숏)",
+   "summary_ko": "벨기에 지구 북쪽 림부르거 거리의 나폴리 피자 전문점 Nennillo 지점으로, 정통 나폴리 피자가 호평받아 구글 4.3(859건)을 받았다. 점심부터 밤까지 매일 열어 벨기에 지구 산책 중 부담 없이 들르기 좋다.",
+   "must_try": [
+    "Neapolitan pizza (나폴리 피자)"
+   ],
+   "tips_ko": "한 가이드는 월–일 11–23시 영업으로 적었다(방문 전 확인). 서비스·분위기는 아쉽다는 후기도 있다. Severinswall 22(쥐트슈타트)에도 Nennillo 지점이 있으니 주소를 헷갈리지 말 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/7710110/antica-pizzeria-nennillo-belgisches-viertel",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/antica_pizzeria_nennillo_belgisches_viertel",
+    "https://www.enprimeurclub.com/restaurants/antica-pizzeria-nennillo-cologne-restaurant"
+   ],
+   "confidence": "medium",
+   "style_hint": "pizzeria"
+  },
+  {
+   "name": "Manuela Tapas Bar",
+   "category": "restaurant",
+   "area": "kwartier-lateng",
+   "address": "Mozartstraße 9, 50674 Köln",
+   "cuisine": "Spanish tapas bar with outdoor seating",
+   "cuisine_country": [
+    "ES"
+   ],
+   "dishes": [
+    "tapas"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(한 가이드는 '정해진 가격의 타파스'로 소개)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 851,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.4 / 851, 2차 조사 스냅숏)",
+   "summary_ko": "노이슈타트쥐트 모차르트 거리의 스페인 타파스 바로, 음식과 야외석이 호평받아 구글 4.4(851건)를 받았다. 쥘피허 거리·라테나우플라츠와 가까워 대학가에서 가볍게 타파스와 와인을 즐기기 좋다.",
+   "must_try": [],
+   "tips_ko": "주소는 Wolt의 'Manuela Tapas Restaurant' 기준(Mozartstr. 9). Wolt 배달은 모든 요일 '닫힘'으로 나오는데, 배달만 쉬는 것인지는 확인하지 못했다 — 방문 전 구글 지도에서 영업 여부를 꼭 확인할 것. 야외석은 겨울엔 쓰기 어렵다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3975556/manuela-tapas-bar",
+    "https://wolt.com/de/deu/cologne/restaurant/manuela-tapas-restaurant"
+   ],
+   "confidence": "medium",
+   "style_hint": "tapas"
+  },
+  {
+   "name": "Noa (restaurant [noa])",
+   "category": "restaurant",
+   "area": "belgisches-viertel",
+   "address": "Maastrichter Straße 3, 50672 Köln",
+   "cuisine": "Modern Mediterranean bistro-restaurant — steaks, baked potatoes, salads, Flammkuchen; weekend breakfast",
+   "cuisine_country": [
+    "INT"
+   ],
+   "dishes": [
+    "steak",
+    "flammkuchen"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [
+    "open-sunday",
+    "takeaway"
+   ],
+   "drinks": [],
+   "vibe": [
+    "lively"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(리뷰에 '꽤 비싸다'는 평)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 1455,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com Google 4.6 / 1,455; wanderlog.com 장소 페이지 Google 4.6 / 1,413 (Tripadvisor 4.5 / 260). RG 자체 4.8 / 2,079는 구글 아님",
+   "summary_ko": "벨기에 지구 마스트리히터 거리 초입의 지중해풍 모던 레스토랑으로, 스테이크·구운 감자·샐러드·플람쿠헨을 내고 주말엔 아침 식사도 한다. 구글 리뷰 1,400여 건에 4.6이라 벨기에 지구에서 분위기 있는 저녁을 먹기 좋은 인기 집이다.",
+   "must_try": [
+    "Steak (스테이크)",
+    "Ofenkartoffel (오븐 구운 감자 — 리뷰 추천)",
+    "Ziegenkäse-Kürbis-Salat (염소치즈·호박 샐러드)"
+   ],
+   "tips_ko": "인기가 많아 예약을 권한다(리뷰·Mit Vergnügen). 피크 시간엔 시끄러워 대화가 어렵다는 후기가 있다. koeln.de 기준 영업 월–금 17–24시, 토 10–24시, 일 11–24시(주말 아침 가능, 방문 전 확인). 테이크아웃 가능.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Noa-Cologne",
+    "https://wanderlog.com/place/details/521199/restaurant-noa",
+    "https://www.koeln.de/leben/ll/beliebte-restaurants-im-belgischen-viertel/noa",
+    "https://koeln.mitvergnuegen.com/2025/flammkuchen"
+   ],
+   "confidence": "medium",
+   "style_hint": "modern"
+  },
+  {
+   "name": "Sahila",
+   "category": "fine-dining",
+   "area": "dom-altstadt",
+   "address": "Kämmergasse 18, 50676 Köln",
+   "cuisine": "Chef Julia Komp's tasting-menu restaurant — travel-inspired fusion of Oriental and Asian flavours (Sahila – The Restaurant)",
+   "cuisine_country": [
+    "INT"
+   ],
+   "dishes": [
+    "tasting-menu"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "date"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "테이스팅 메뉴 레스토랑 — 이번 조사에서 코스 가격을 확인하지 못함",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 280,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com Google 4.8 / 280; wanderlog.com 장소 페이지 4.8 / 262 (Tripadvisor 4.5 / 44). RG 자체 4.9 / 345는 구글 아님",
+   "summary_ko": "셰프 율리아 콤프(Julia Komp)가 여행에서 얻은 중동·아시아의 맛을 코스로 풀어내는 파인다이닝으로, 구글 4.8(280건)을 받았다. Wanderlog의 '퓨전 레스토랑'과 '로맨틱 레스토랑' 목록에 모두 올라 특별한 날 저녁에 어울린다.",
+   "must_try": [
+    "Tasting menu (테이스팅 코스)"
+   ],
+   "tips_ko": "같은 주소(Kämmergasse 18)에 같은 주방의 캐주얼 메제 바 'Yu*lia Mezze Bar'가 있다 — 코스가 부담스러우면 그쪽을 고려(다만 구글 수치는 미확인). 노이마르크트 남쪽, 쥐트슈타트 경계쯤이다. 예약·가격·영업일은 공식 채널로 확인할 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Sahila-The-Restaurant-Cologne",
+    "https://wanderlog.com/place/details/3599860/sahila-the-restaurant",
+    "https://wanderlog.com/list/geoCategory/783350/best-fusion-and-asian-fusion-restaurants-in-cologne",
+    "https://wanderlog.com/list/geoCategory/77842/best-romantic-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "fine-dining"
+  },
+  {
+   "name": "La Esquina",
+   "category": "restaurant",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Severinstraße 41, 50678 Köln",
+   "cuisine": "Spanish tapas bar",
+   "cuisine_country": [
+    "ES"
+   ],
+   "dishes": [
+    "tapas"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 2,
+   "price_pp": {
+    "min": 20,
+    "max": 30
+   },
+   "price_note": "1인 약 €20–30(검색 요약, Restaurant Guru 가격대로 보임)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 859,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 Google 4.3 / 859 (Tripadvisor 3.5 / 81); restaurantguru.com Google 4.3 / 848",
+   "summary_ko": "쥐트슈타트 세베린 거리의 정통 스페인 타파스 집으로, 타파스·토르티야·상그리아와 친절한 직원이 칭찬받아 구글 4.3(850여 건)을 받았다. 세베린 지구 산책이나 크리스마스 마켓 구경 뒤 여럿이 나눠 먹는 저녁에 좋다.",
+   "must_try": [
+    "Tortilla española (스페인식 감자 오믈렛)",
+    "Sangria (상그리아)"
+   ],
+   "tips_ko": "오징어 요리가 덜 익었다, 감자 요리가 빠졌다는 등 사소한 실수를 지적한 후기도 있다. 영업시간·예약 방식은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/4060075/la-esquina",
+    "https://restaurantguru.com/La-Esquina-Cologne",
+    "https://wanderlog.com/list/geoCategory/804938/best-spanish-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "tapas"
+  },
+  {
+   "name": "Phaedra",
+   "category": "restaurant",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Elsaßstraße 30, 50677 Köln",
+   "cuisine": "Upscale Greek-Mediterranean restaurant with a four-course menu and a strong wine list",
+   "cuisine_country": [
+    "GR"
+   ],
+   "dishes": [
+    "tasting-menu"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "wine-list"
+   ],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 4,
+   "price_pp": null,
+   "price_note": "Restaurant Guru 기준 1인 약 €100(검색 요약) — 4코스 메뉴",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 391,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com Google 4.7 / 391; wanderlog.com 4.7 / 388 (Tripadvisor 4.0 / 81). RG 자체 4.8 / 946은 구글 아님",
+   "summary_ko": "쥐트슈타트 엘자스 거리의 고급 그리스·지중해 레스토랑으로, 4코스 메뉴와 와인 리스트가 칭찬받아 구글 4.7(390건)을 받았다. 격식 있는 분위기라 기념일 저녁이나 와인을 곁들인 코스 식사에 맞다.",
+   "must_try": [
+    "Four-course menu (4코스 메뉴)"
+   ],
+   "tips_ko": "1인 약 €100 수준이라 '가격에 비해 과하다·격식이 딱딱하다'는 비판도 있다. 주소는 1차 조사 기준(Elsaßstr. 30)이며 이번 검색 요약도 같은 주소였다 — 예약할 때 확인할 것. 같은 거리 6번지 Brauhaus Johann Schäfer와 가깝다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/phaedra-Cologne",
+    "https://wanderlog.com/list/geoCategory/786948/best-greek-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "modern"
+  },
+  {
+   "name": "Yame – Vietnamese Streetfood",
+   "category": "streetfood",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Bonner Straße 33, 50677 Köln",
+   "cuisine": "Vietnamese street food — pho and rice/noodle bowls",
+   "cuisine_country": [
+    "VN"
+   ],
+   "dishes": [
+    "pho",
+    "bowls"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 1,
+   "price_pp": {
+    "min": 13,
+    "max": 15
+   },
+   "price_note": "요리 한 접시 €13–15(리뷰)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 427,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com Google 4.7 / 427; wanderlog.com 장소 페이지 Google 4.7 / 336",
+   "summary_ko": "쥐트슈타트 본너 거리의 베트남 스트리트 푸드 가게로, 쌀국수(퍼)와 볼이 리뷰에서 추천되고 구글 4.7(400여 건)을 받았다. 음식·직원·분위기 모두 호평이라 클로트비히플라츠 근처에서 혼자 빠르게 먹기 좋다.",
+   "must_try": [
+    "Phở (베트남 쌀국수)",
+    "Bowl (라이스·누들 볼)"
+   ],
+   "tips_ko": "한 접시 €13–15인데 양이 적다는 후기가 있다. 전화 +49 221 26138439(2차 조사). 영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Yame-Vietnamese-Streetfood-Cologne",
+    "https://wanderlog.com/place/details/3980457/yame-vietnamese-streetfood",
+    "https://wanderlog.com/list/geoCategory/1820358/best-spots-for-pho-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "streetfood"
+  },
+  {
+   "name": "Corndawgs",
+   "category": "streetfood",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Severinstraße 68, 50678 Köln",
+   "cuisine": "Korean-style corn dog (hot dog) street food",
+   "cuisine_country": [
+    "KR"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "quick"
+   ],
+   "features": [
+    "takeaway"
+   ],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(리뷰에 '비싸다'는 평)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.2,
+   "google_reviews": 625,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (From Google 4.2 / 625, 5★403·1★51). Restaurant Guru 2.9 / 694는 다른 집계(구글 아님), 이전 RG 스냅숏 4.3 / 684",
+   "summary_ko": "쥐트슈타트 세베린 거리의 한국식 콘도그(핫도그) 가게로, 소고기 소시지·모차렐라·반반에 판코·콘플레이크·라면 부스러기 튀김옷을 고를 수 있다. 구글 4.2(625건)로 기준선에 걸리지만, 쾰른에서 한국 길거리 간식을 맛볼 수 있는 드문 곳이다.",
+   "must_try": [
+    "Half & half corn dog (소시지·모차렐라 반반 콘도그)",
+    "Ramen-crumb corn dog (라면 부스러기 튀김옷 콘도그)"
+   ],
+   "tips_ko": "평이 엇갈린다 — 친절하다는 평과 함께 기대보다 별로다·비싸다·덜 정통적이라는 후기도 있다. 기다리는 동안 할 수 있는 팩맨 게임기가 있다(2차 조사). 소스 종류가 많다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/9698748/corndawgs",
+    "https://restaurantguru.com/corn-dogs-Cologne-m8268"
+   ],
+   "confidence": "medium",
+   "style_hint": "streetfood"
+  },
+  {
+   "name": "Ramen Eppus Soup Suppen",
+   "category": "restaurant",
+   "area": "suedstadt-rheinauhafen",
+   "address": "Chlodwigplatz 6, 50678 Köln",
+   "cuisine": "Soup bar (Suppen) that also serves ramen",
+   "cuisine_country": [],
+   "dishes": [
+    "ramen",
+    "noodles"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 264,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.7 / 264, 2차 조사 스냅숏; Wanderlog '쾰른 라멘' 목록 등재)",
+   "summary_ko": "클로트비히플라츠의 수프 전문점(Eppus)으로 라멘도 내며, Wanderlog '쾰른 라멘' 목록에 올라 구글 4.7(264건)을 받았다. 추운 11–12월 쥐트슈타트 산책 중 따뜻한 국물로 빠르게 한 끼 하기 좋다.",
+   "must_try": [
+    "Ramen (라멘)",
+    "Suppe des Tages (오늘의 수프)"
+   ],
+   "tips_ko": "정통 일본 라멘집이라기보다 수프 가게라 메뉴 구성을 미리 확인할 것(eppus.de, 전화 +49 221 92366999 — 2차 조사). 영업시간 미확인.",
+   "website": "https://eppus.de",
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/9949624/ramen-eppus-soup-suppen",
+    "https://wanderlog.com/list/geoCategory/1507873/best-ramen-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "noodle-bar"
+  },
+  {
+   "name": "Com Pho",
+   "category": "restaurant",
+   "area": "kwartier-lateng",
+   "address": "Zülpicher Straße 58D, 50674 Köln",
+   "cuisine": "Casual Vietnamese noodle-soup restaurant (pho, bún bò Huế) near the university",
+   "cuisine_country": [
+    "VN"
+   ],
+   "dishes": [
+    "pho",
+    "noodles"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "cash-only",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "정확한 가격 출처 없음(리뷰에 '가격이 적당하다'는 평)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 424,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 'COM PHO Restaurant' (From Google 4.3 / 424; 다른 스냅숏 410·431). Restaurant Guru 4.9 / 517은 RG 자체 점수",
+   "summary_ko": "쥘피허 거리 서쪽 끝, 대학 멘자(학생식당) 근처의 베트남 쌀국수 집으로, 친절한 직원과 적당한 가격이 칭찬받아 구글 4.3(420여 건)을 받았다. 분보후에(매콤한 후에식 소고기 쌀국수)와 팟타이가 리뷰에서 자주 언급돼 대학가에서 간단히 국물 요리를 먹기 좋다.",
+   "must_try": [
+    "Bún bò Huế (분보후에 — 매콤한 소고기 쌀국수)",
+    "Phở (쌀국수)"
+   ],
+   "tips_ko": "2차 조사 리뷰상 주로 현금만 받는다고 하니 현금을 챙길 것. 소고기 쌀국수가 다른 나라에서 먹던 맛과 다르다거나 비건 메뉴가 더 있었으면 한다는 후기도 있다. 쥘피허 플라츠에서 걸어서 10분쯤.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3638752/com-pho-restaurant",
+    "https://wanderlog.com/list/geoCategory/1820358/best-spots-for-pho-in-cologne",
+    "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "noodle-bar"
+  },
+  {
+   "name": "Café Konditorei Wahlen",
+   "category": "cafe",
+   "area": "kwartier-lateng",
+   "address": "Hohenstaufenring 64, 50674 Köln",
+   "cuisine": "Traditional Café-Konditorei with 1950s interior — coffee and cake (Kaffee und Kuchen)",
+   "cuisine_country": [],
+   "dishes": [
+    "cake",
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 1261,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (From Google 4.6 — 장소 페이지 1,098건, 목록 스냅숏 1,233·1,261건); restaurantguru.com Google 4.6 / 1,144 (약 706일 전 페이지)",
+   "summary_ko": "링(Hohenstaufenring)의 전통 카페 겸 콘디토라이로, 샹들리에와 카펫이 남은 1950년대 인테리어 속에서 케이크를 먹는 '옛날 쾰른 카페' 분위기가 매력이다. 케이크·페이스트리 종류가 많고 슈바르츠벨더(블랙포레스트)·과일 케이크가 칭찬받아 구글 4.6(1,100–1,200여 건)을 받았다.",
+   "must_try": [
+    "Schwarzwälder Kirschtorte (블랙포레스트 체리 케이크)",
+    "Obstkuchen (과일 케이크)"
+   ],
+   "tips_ko": "현금을 챙길 것 — 리뷰에 현금만 받는다는 말과 €20 이상만 카드가 된다는 말이 함께 있다. 케이크는 좋지만 커피는 분위기만 못하다는 평이 있다. 공식 사이트 cafe-wahlen.de(2차 조사). 대성당 근처가 아니라 쥘피허 플라츠 북쪽 링 길가다.",
+   "website": "https://cafe-wahlen.de",
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1210475/caf%C3%A9-konditorei-wahlen",
+    "https://restaurantguru.com/Cafe-Wahlen-Cologne",
+    "https://wanderlog.com/list/geoCategory/18938/best-cake-shops-and-cake-bakeries-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  },
+  {
+   "name": "Warung Bayu",
+   "category": "restaurant",
+   "area": "belgisches-viertel",
+   "address": "Brabanter Straße 5, 50674 Köln",
+   "cuisine": "Indonesian-Balinese restaurant with a courtyard garden, many vegetarian dishes",
+   "cuisine_country": [
+    "ID"
+   ],
+   "dishes": [],
+   "diet": [
+    "vegetarian",
+    "vegan"
+   ],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.2,
+   "google_reviews": 922,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com Google 4.2 / 922; wanderlog.com 장소 페이지 From Google 4.3 / 840 (Tripadvisor 3.5 / 148). RG 자체 4.8 / 1,259는 구글 아님",
+   "summary_ko": "벨기에 지구 브라반터 거리의 인도네시아·발리 음식점으로, 안뜰 정원과 친절한 직원, 발리식 오리 요리 베벡 벵길이 칭찬받는다(구글 4.2–4.3, 840–920여 건). 채식·비건 메뉴가 많아 채식 동행이 있을 때 고르기 좋다.",
+   "must_try": [
+    "Bebek Bengil (베벡 벵길 — 발리식 바삭한 오리 요리)"
+   ],
+   "tips_ko": "평이 엇갈린다 — 맵다, 정통성이 이름만 못하다, 서비스가 불친절했다는 후기도 있고, 채식 주문에서 돼지고기가 나왔다는 리뷰가 있으니 채식이면 주문 때 분명히 말할 것. koeln.de 기준 매일 18–23시, 전화 0221 5894366(2차 조사, 방문 전 확인). 안뜰 정원은 여름용.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Warung-Bayu-Cologne",
+    "https://wanderlog.com/place/details/1282829/warung-bayu",
+    "https://wanderlog.com/list/geoCategory/806737/best-indonesian-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Colina Steakhaus Restaurant",
+   "category": "restaurant",
+   "area": "belgisches-viertel",
+   "address": "Flandrische Straße 18, 50674 Köln",
+   "cuisine": "Steakhouse with charcoal-grilled steaks (filet, Chateaubriand)",
+   "cuisine_country": [],
+   "dishes": [
+    "steak",
+    "grill"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 1303,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (From Google 4.5 / 1,303; 다른 스냅숏 4.4 / 1,179); restaurantguru.com Google 평균 4.5",
+   "summary_ko": "벨기에 지구 남쪽 플란드리셰 거리의 스테이크하우스로, 숯불에 구운 스테이크와 필레·샤토브리앙이 칭찬받아 구글 4.5(1,300건)를 받았다. 직원이 친절하고 세심하다는 평이 많아 고기 위주의 저녁 식사에 좋다.",
+   "must_try": [
+    "Chateaubriand (샤토브리앙 — 리뷰 추천)",
+    "Filetsteak (필레 스테이크)"
+   ],
+   "tips_ko": "주방이 느리다, 소스가 빠졌다, 스테이크가 짰다는 후기도 있으니 시간 여유를 두고 간을 미리 말해 둘 것. 영업시간·예약은 방문 전 확인. 같은 거리 2번지에 2026년 5월 문을 연 수타면집 Wen Cheng이 있다(구글 수치 미확인).",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1552635/colina-steakhaus-restaurant",
+    "https://restaurantguru.com/Colina-Steakhaus-Cologne",
+    "https://wanderlog.com/list/geoCategory/1503221/best-steaks-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "steakhouse"
+  },
+  {
+   "name": "Gelateria Luissimo",
+   "category": "dessert",
+   "area": "dom-altstadt",
+   "address": "Fischmarkt 5, 50667 Köln",
+   "cuisine": "Gelato and soft-serve ice cream shop on the Altstadt Fischmarkt by the Rhine",
+   "cuisine_country": [],
+   "dishes": [
+    "ice-cream"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [
+    "quick"
+   ],
+   "features": [
+    "takeaway"
+   ],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "walk-in",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 419,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 'Ice cream shop Gelateria Luissimo' (Google 4.6 / 419)",
+   "summary_ko": "구시가 피쉬마르크트(라인강변 그로스 장크트 마르틴 성당 앞 광장)의 젤라토 가게로, 구글 4.6(419건)을 받았다. 딸기 소프트아이스크림이 특히 추천돼, 라인강변 산책 중 잠깐 들르기 좋다.",
+   "must_try": [
+    "Erdbeer-Softeis (딸기 소프트아이스크림 — 리뷰 추천)"
+   ],
+   "tips_ko": "평이 엇갈린다 — 질감과 품질을 칭찬하는 후기와 인공적인 맛이 난다는 후기, 직원이 친절하다는 후기와 불친절하다는 후기가 함께 있다. 11–12월엔 겨울 휴업하는 아이스크림 가게가 많으니 영업 여부를 꼭 확인할 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/7002551/ice-cream-shop-gelateria-luissimo",
+    "https://wanderlog.com/list/geoCategory/49283/places-to-have-best-gelato-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "ice-cream"
+  },
+  {
+   "name": "Eiscafé Panciera",
+   "category": "dessert",
+   "area": "other",
+   "address": "Bergisch Gladbacher Straße 981, 51069 Köln",
+   "cuisine": "Family-run traditional Italian ice-cream parlour (Eiscafé) in Dellbrück",
+   "cuisine_country": [],
+   "dishes": [
+    "ice-cream"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [
+    "quick"
+   ],
+   "features": [
+    "takeaway"
+   ],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "walk-in",
+   "payment": "unknown",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note": "리뷰에 '가격이 싸다'는 평(구체적 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 590,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 젤라토 목록·장소 정보 'Eis Panciera' Dellbrück 지점 (Google 4.8 / 590; 2차 조사 4.8 / 584–590 + 다른 플랫폼 5.0 / 54). 레버쿠젠의 같은 이름 가게와 혼동 주의",
+   "summary_ko": "쾰른 동쪽 델브뤽의 가족 운영 이탈리아식 아이스크림 가게로, 친절한 서비스와 맛으로 구글 4.8(590건)을 받은 동네 명소다. 플뢰르 드 셀 캐러멜과 쿠키 맛이 자주 추천되고 가격이 싸다는 평이다.",
+   "must_try": [
+    "Caramel mit Fleur de Sel (소금 캐러멜)",
+    "Cookies (쿠키 맛)"
+   ],
+   "tips_ko": "시내에서 멀리 떨어진 델브뤽(Bergisch Gladbacher Str. 981, 전화 +49 221 67112900)이라 일부러 찾아갈 곳은 아니다. 줄이 길면 느리고 스쿱이 작아졌다는 후기도 있다. 11–12월엔 겨울 휴업하는 아이스크림 가게가 많으니 영업 여부를 꼭 확인할 것. 브뤽 지점(Olpener Str. 894, 4.8/833)은 2차 조사 때 임시 휴업 표시가 있었다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/49283/places-to-have-best-gelato-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "ice-cream"
+  },
+  {
+   "name": "Caffe & Gelato Marco Polo",
+   "category": "dessert",
+   "area": "dom-altstadt",
+   "address": "Alter Markt 44, 50667 Köln",
+   "cuisine": "Italian ice-cream café on the Alter Markt — Spaghettieis, waffles and lattes",
+   "cuisine_country": [],
+   "dishes": [
+    "ice-cream",
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "lively"
+   ],
+   "reservation": "walk-in",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 526,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (첫 점수 4.5 / 526 = Google, 둘째 점수 3.0 / 148). Restaurant Guru 4.1 / 580은 RG 자체 집계",
+   "summary_ko": "구시가 알터 마르크트 광장의 이탈리아식 아이스크림 카페로, 스파게티아이스(면 모양으로 짠 바닐라 아이스크림에 딸기 소스)와 라테, 갓 구운 와플로 구글 4.5(526건)를 받았다. 80–90년대 음악이 흐르는 활기찬 분위기라 구시가 관광 중 쉬어 가기 좋다.",
+   "must_try": [
+    "Spaghettieis (스파게티아이스 — 독일식 국수 모양 아이스크림)",
+    "Waffel (와플)"
+   ],
+   "tips_ko": "아이스크림·와플 콘이 별로였다, 서비스가 늦었다는 후기도 있다. Restaurant Guru의 Krebsgasse 1 'Marco Polo' 항목은 폐업 표시이니 주소를 헷갈리지 말 것(전화 +49 221 2573709). 11–12월엔 알터 마르크트에 크리스마스 마켓이 서서 붐비고, 겨울 영업 여부는 확인 필요.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3535235/caffe--gelato-marco-polo",
+    "https://restaurantguru.com/Marco-Polo-Cologne",
+    "https://wanderlog.com/list/geoCategory/49283/places-to-have-best-gelato-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "ice-cream"
+  },
+  {
+   "name": "Kuchi Mami",
+   "category": "restaurant",
+   "area": "dom-altstadt",
+   "address": "Komödienstraße 43, 50667 Köln",
+   "cuisine": "Pan-Asian restaurant — sushi (nigiri, sashimi) plus Japanese, Thai and Vietnamese dishes (duck, pho)",
+   "cuisine_country": [
+    "JP",
+    "VN",
+    "TH"
+   ],
+   "dishes": [
+    "sushi",
+    "pho"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": 2,
+   "price_pp": {
+    "min": 20,
+    "max": 30
+   },
+   "price_note": "Restaurant Guru 방문자 리뷰 기준 1인 €20–30, Wanderlog 가격대 'affordable'",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 1734,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com Google 4.8 / 1,734; wanderlog.com 장소 페이지 From Google 4.8 / 1,647. RG 스시 순위 4.9 / 2,368은 RG 자체 점수",
+   "summary_ko": "대성당 서쪽 코뫼디엔 거리의 범아시아 식당으로, 니기리·사시미 같은 스시와 오리 요리, 베트남 쌀국수·태국 요리를 함께 낸다. 구글 리뷰 1,700여 건에 4.8이라 대성당 근처에서 가성비 좋은 아시아 음식을 찾을 때 믿을 만하다.",
+   "must_try": [
+    "Sushi (스시 — 니기리·사시미)",
+    "Ente (오리 요리 — 리뷰 추천)",
+    "Phở Hanoi (하노이식 쌀국수)"
+   ],
+   "tips_ko": "주말엔 예약이 사실상 필수이고 금방 자리가 찬다는 후기가 있다. 대성당·중앙역에서 걸어서 5–10분. 영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Kuchi-Mami-Cologne",
+    "https://wanderlog.com/place/details/1473276/kuchi-mami",
+    "https://restaurantguru.com/sushi-Cologne-m27"
+   ],
+   "confidence": "medium",
+   "style_hint": "asian-kitchen"
+  },
+  {
+   "name": "Thali – Indisches Essen Restaurant Köln",
+   "category": "restaurant",
+   "area": "kwartier-lateng",
+   "address": "Engelbertstraße 9, 50674 Köln",
+   "cuisine": "Indian home-style curry house with vegetarian thali plates",
+   "cuisine_country": [
+    "IN"
+   ],
+   "dishes": [
+    "curry"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "cash-only",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 454,
+   "google_as_of": null,
+   "rating_source": "top-rated.online 4.6 / 454 (2차 조사) — 이번 검색에서 wanderlog.com 장소 페이지의 Google 값도 4.6 / 약 430–460건으로 일치. Restaurant Guru 4.5 / 532는 RG 자체 점수",
+   "summary_ko": "쥘피허 지구 엥겔베르트 거리의 인도 가정식 식당으로, 채식 탈리(여러 커리를 한 쟁반에 담은 정식)가 특히 칭찬받아 구글 4.6(450건 안팎)을 받았다. 채식 메뉴가 많아 채식 동행과 함께 가기 좋다.",
+   "must_try": [
+    "Vegetarian Thali (채식 탈리 — 커리 정식 쟁반)"
+   ],
+   "tips_ko": "현금만 받는다는 리뷰가 있으니 현금을 챙길 것. 서비스가 느리다는 후기도 있다. 공식 사이트 thalikoeln.de. 같은 지역 Händelstraße의 Ganesha·Ginti(가이드 등재)와 비교해 고를 수 있다.",
+   "website": "https://www.thalikoeln.de/",
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3638774/thali-indisches-essen-restaurant-k%C3%B6ln",
+    "https://restaurantguru.com/Thali-Cologne",
+    "https://wanderlog.com/list/geoCategory/761762/best-indian-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "curry-house"
+  },
+  {
+   "name": "Afghanisches & Persisches Mari Restaurant",
+   "category": "restaurant",
+   "area": "suelz-lindenthal",
+   "address": "Luxemburger Straße 183, 50939 Köln",
+   "cuisine": "Family-run Afghan and Persian (Iranian) restaurant — kebabs, Kabuli palau, weekend all-you-can-eat buffet",
+   "cuisine_country": [
+    "AF",
+    "IR"
+   ],
+   "dishes": [
+    "kebab"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(주말 뷔페 가격 미확인)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.2,
+   "google_reviews": 372,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (Google 4.2 / 372, 2차 조사; 이번 검색 요약 4.2 / 약 391건) — Restaurant Guru 4.2 / 370. 기준선(4.2)에 딱 걸림",
+   "summary_ko": "룩셈부르거 거리(클레텐베르크·린덴탈 쪽)의 가족 운영 아프가니스탄·이란 식당으로, 케밥과 아프간식 볶음밥 카불리 팔라우가 칭찬받는다(구글 4.2, 370–390건). 주말엔 이란·아프간 요리를 함께 내는 무제한 뷔페가 있어 쾰른에서 드문 아프간 음식을 맛보기 좋다.",
+   "must_try": [
+    "Kabuli Palau (카불리 팔라우 — 건포도·당근을 올린 아프간식 쌀 요리)",
+    "Kebab (케밥)"
+   ],
+   "tips_ko": "구글 평점이 기준선(4.2)에 걸려 있다. 바쁠 때 붐비고, 젊은 직원 응대에 대한 불만 리뷰가 하나 있다. 공식 사이트 mari-restaurant-koln.de(검색 요약 기준) — 뷔페 요일·가격·영업시간을 미리 확인할 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Restaurant-Mari-Cologne",
+    "https://wanderlog.com/de/place/details/4081882/afghanisches--persisches-mari-restaurant",
+    "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "buffet"
+  },
+  {
+   "name": "Tanica",
+   "category": "restaurant",
+   "area": "kwartier-lateng",
+   "address": "Engelbertstraße 31a, 50674 Köln",
+   "cuisine": "Italian restaurant with a good wine list (since 2017)",
+   "cuisine_country": [
+    "IT"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [
+    "wine-list"
+   ],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 1002,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (첫 점수 Google 4.4 / 1,002; Tripadvisor 4.0 / 139). Restaurant Guru 4.4 / 1,738은 RG 자체 집계",
+   "summary_ko": "쥘피허 지구 엥겔베르트 거리의 이탈리안 레스토랑으로, 2017년부터 영업하며 와인 셀렉션이 좋다는 평과 함께 구글 4.4(1,000여 건)를 받았다. 링 안쪽 대학가에서 와인을 곁들인 이탈리아식 저녁을 먹기 좋다.",
+   "must_try": [],
+   "tips_ko": "이전 조사(tablejourney)는 '내추럴 와인 바·보틀숍'으로 적었지만 Wanderlog 기준으로는 와인 리스트가 있는 이탈리안 식당이다. 야외석에 벌레가 많았다·서비스가 나빴다는 후기도 있다. 같은 거리 63번지 Spirits Bar, 67번지 Brauhaus Pütz와 가깝다. 메뉴·영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/4087239/tanica",
+    "https://restaurantguru.com/Tanica-Cologne",
+    "https://wanderlog.com/list/geoCategory/785149/best-wine-bars-and-tasting-rooms-in-cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "NOODLE FAN Rudolfplatz/Neumarkt",
+   "category": "restaurant",
+   "area": "dom-altstadt",
+   "address": "Am Rinkenpfuhl 46, 50676 Köln",
+   "cuisine": "Chinese hand-pulled noodle bar — biang biang noodles, noodle soups, bao",
+   "cuisine_country": [
+    "CN"
+   ],
+   "dishes": [
+    "noodles",
+    "dumplings"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음(리뷰에 '양에 비해 비싸다'는 평)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 408,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 'NOODLE FAN Rudolfplatz/Neumarkt' (4.4 / 408)",
+   "summary_ko": "노이마르크트 남쪽 암 링켄푸울의 중국 수타면 집으로, 면을 직접 뽑는 비앙비앙면과 국수 요리가 칭찬받아 구글 4.4(408건)를 받았다. 쇼핑가(슈일더가세·노이마르크트) 근처에서 따뜻한 국수로 빠르게 한 끼 하기 좋다.",
+   "must_try": [
+    "Biang Biang Nudeln (비앙비앙면 — 넓적한 수타면)",
+    "Handgezogene Nudelsuppe (수타면 국수)"
+   ],
+   "tips_ko": "직원이 여러 언어를 한다는 평이 있다. 양에 비해 가격이 높다는 후기도 있다. 대성당 쪽 지점(NOODLE FAN – Dom, Komödienstraße 13)도 있지만 그쪽은 구글 수치가 출처마다 엇갈려(4.2/688 vs 4.8/881) 이번엔 넣지 않았다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/8759978/noodle-fan-rudolfplatzneumarkt",
+    "https://restaurantguru.com/NOODLE-FAN-RudolfplatzNeumarkt-Cologne",
+    "https://wanderlog.com/list/geoCategory/22508/a-melhor-comida-chinesa-em-col%C3%B3nia"
+   ],
+   "confidence": "medium",
+   "style_hint": "noodle-bar"
+  },
+  {
+   "name": "Bun Pho",
+   "category": "restaurant",
+   "area": "dom-altstadt",
+   "address": "Fleischmengergasse 59, Köln",
+   "cuisine": "Vietnamese restaurant (Bun Pho – Vietnamese Cuisine) — pho, bún noodle dishes, large vegetarian selection",
+   "cuisine_country": [
+    "VN"
+   ],
+   "dishes": [
+    "pho",
+    "noodles"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 1156,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com Google 4.5 / 1,156; wanderlog.com 장소 페이지 'Bun Pho - Vietnamese Cuisine' 4.5 / 1,109",
+   "summary_ko": "노이마르크트 남쪽 플라이슈멩거가세의 베트남 식당으로, 정통적인 맛과 넓은 채식 메뉴가 칭찬받아 구글 4.5(1,100여 건)를 받았다. 매장이 넓고 음식이 빨리 나와 쇼핑가 근처에서 쌀국수 한 그릇 하기 좋다.",
+   "must_try": [
+    "Phở (베트남 쌀국수)",
+    "Bún (분 — 비빔 쌀국수)"
+   ],
+   "tips_ko": "모든 요리가 바로 조리되진 않는다, 짜다는 후기도 있다. 우편번호는 출처에서 확인하지 못했다(노이마르크트 남쪽 Altstadt-Süd). koeln.de에도 업소 항목이 있다(2차 조사). 영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Bun-Pho-vietnamesische-Kuche-Cologne",
+    "https://wanderlog.com/place/details/2627293/bun-pho-vietnamese-cuisine",
+    "https://wanderlog.com/list/geoCategory/1820358/best-spots-for-pho-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "noodle-bar"
+  },
+  {
+   "name": "Xing Wang • Lecker asiatisch essen",
+   "category": "restaurant",
+   "area": "friesenviertel-ehrenstrasse",
+   "address": "Palmstraße 47, 50672 Köln",
+   "cuisine": "Casual Chinese-Asian restaurant — duck dishes, generous cheap portions",
+   "cuisine_country": [
+    "CN"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note": "리뷰에 '양이 많고 싸다'는 평(구체적 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.2,
+   "google_reviews": 276,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.2 / 276; Tripadvisor 3.0 / 8). Restaurant Guru 4.1 / 293은 RG 자체 집계 — 기준선(4.2)에 딱 걸림",
+   "summary_ko": "에렌슈트라세 북쪽 팜 거리의 소박한 중국·아시아 식당으로, 양 많고 싼 음식과 친절한 주인 부부, 오리 요리로 구글 4.2(276건)를 받았다. 가게 안에 어항이 있는 동네 중국집 분위기라 에렌슈트라세 쇼핑 중 저렴하게 한 끼 하기 좋다.",
+   "must_try": [
+    "Ente (오리 요리 — 리뷰에서 가장 자주 언급)"
+   ],
+   "tips_ko": "간이 싱겁다는 후기가 있다. 구글 평점이 기준선(4.2)에 걸려 있다. 같은 거리 41번지 Bai Lu Noodles(가이드 등재)와 가깝다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/4502380/xing-wang--lecker-asiatisch-essen",
+    "https://restaurantguru.com/Xing-Wang-Cologne",
+    "https://wanderlog.com/list/geoCategory/22508/best-chinese-food-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "asian-kitchen"
+  },
+  {
+   "name": "Café Storch",
+   "category": "bar",
+   "area": "belgisches-viertel",
+   "address": "Aachener Straße 17, 50674 Köln",
+   "cuisine": "Candlelit café-bar with jazz and quirky decor — beer, fresh Apfelschorle, crêpes",
+   "cuisine_country": [],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "late-night"
+   ],
+   "occasions": [
+    "date"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "quiet"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 259,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (4.6 / 259, 5★207·1★12); restaurantguru.com Google 4.6. RG 자체 2.9 / 351은 구글 아님",
+   "summary_ko": "벨기에 지구 아헨 거리 초입의 촛불 켠 카페 겸 바로, 하루 종일 재즈가 흐르고 엉뚱한 그림과 삐뚤어진 의자가 있는 아늑한 공간이다(구글 4.6, 259건). 시끄러운 클럽형 바 대신 맥주나 사과 쇼를레 한 잔 놓고 조용히 이야기하고 싶을 때 좋다.",
+   "must_try": [
+    "Frisch gepresste Apfelschorle (생사과 쇼를레)",
+    "Crêpes (크레프)"
+   ],
+   "tips_ko": "영업 여부를 꼭 확인할 것 — 예전 Wanderlog 목록에 '임시 휴업' 표시가 있었고 '지난주 두 번 갔는데 두 번 다 닫혀 있었다'는 리뷰도 있다. 반면 Mit Vergnügen 2026 '아늑한 바' 기사는 일–목 17–1시, 금·토 17–2시 영업으로 소개했다(7차 조사). 직원 친절이 자주 칭찬받는다. 웹사이트 cafe-storch.de.",
+   "website": "https://cafe-storch.de",
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1508528/caf%C3%A9-storch",
+    "https://restaurantguru.com/Cafe-Storch-Cologne",
+    "https://koeln.mitvergnuegen.com/2026/gemuetliche-bars-koeln/"
+   ],
+   "confidence": "medium",
+   "style_hint": "bar"
+  },
+  {
+   "name": "Plomari",
+   "category": "restaurant",
+   "area": "suelz-lindenthal",
+   "address": "Luxemburger Straße 319, Köln",
+   "cuisine": "Greek taverna — grilled octopus, ouzo on the house",
+   "cuisine_country": [
+    "GR"
+   ],
+   "dishes": [
+    "seafood",
+    "grill"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 출처 없음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 577,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com Google 4.7 / 577; wanderlog.com 장소 페이지 Google 4.7 / 552 (Tripadvisor 4.5 / 556)",
+   "summary_ko": "쥘츠·클레텐베르크 경계(쥘츠귀르텔과 룩셈부르거 거리 교차로 근처)의 그리스 타베르나로, 정통 그리스 음식과 문어구이, 주인이 내주는 우조로 구글 4.7(550–580건)을 받았다. 늘 자리가 차는 동네 인기 그리스 식당이라 여럿이 저녁을 먹기 좋다.",
+   "must_try": [
+    "Gegrillter Oktopus (문어구이)",
+    "Ouzo (우조 — 주인이 서비스로 내주는 경우가 많다는 리뷰)"
+   ],
+   "tips_ko": "자리가 금방 차서 예약을 권한다(리뷰). 주소는 Wanderlog·Restaurant Guru 기준 Luxemburger Str. 319이고, Wolt·freizeitmonster는 'Sülzgürtel 96, 50937 Köln'으로 적는다(모퉁이 건물로 보이나 미확인). 2017년 리뷰엔 주인이 바뀐 뒤 양이 줄고 가격이 올랐다는 평도 있다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Plomari-Cologne",
+    "https://wanderlog.com/place/details/1188798/plomari",
+    "https://wanderlog.com/list/geoCategory/786948/best-greek-foods-and-restaurants-in-cologne",
+    "https://wolt.com/de/deu/cologne/restaurant/plomari-koeln/items/meeresfruchte-9",
+    "https://freizeitmonster.de/blog/gyros-essen-koeln"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "candidates": [],
+ "notes_ko": "작업 중 (중간 저장)"
+}

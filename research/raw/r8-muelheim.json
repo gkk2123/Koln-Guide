@@ -1,0 +1,1708 @@
+{
+  "agent": "r8-muelheim",
+  "generated": "2026-11-07",
+  "schema": "v2",
+  "scope": "Round 8 — new area muelheim-kalk (Mülheim incl. Keupstraße, Frankfurter Straße, Wiener Platz; Kalk incl. Kalker Hauptstraße, Kalk-Post) plus additional deutz-messe places",
+  "places": [
+    {
+      "name": "Büyük Harran Doy Doy",
+      "category": "restaurant",
+      "area": "muelheim-kalk",
+      "address": "Keupstraße 40, 51063 Köln",
+      "cuisine": "Large Turkish restaurant on Keupstraße (southeastern Harran-style cooking)",
+      "cuisine_country": [
+        "TR"
+      ],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "family"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite",
+        "lively"
+      ],
+      "reservation": "unknown",
+      "payment": "card",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "리뷰상 '가격이 좋고 양이 넉넉하다' — 메뉴 가격은 이번 조사에서 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 6142,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Turkish list #16, Google 4.4 / 6,142; place page shows other snapshots)",
+      "summary_ko": "뮐하임 코이프슈트라세(Keupstraße) 한복판의 대형 터키 레스토랑으로, 구글 리뷰가 6,000건이 넘을 만큼 쾰른 터키 음식점 가운데 손꼽히게 붐비는 곳이다. 넓은 홀, 친절한 서비스, 넉넉한 양과 좋은 가격이 리뷰에서 반복해서 칭찬받아 단체·가족 식사에 맞다.",
+      "must_try": [],
+      "tips_ko": "이름이 비슷한 아이겔슈타인의 'Öz Harran Doy Doy'(Weidengasse 28-34)와는 다른 가게다. 리뷰에 카드 결제가 된다고 나온다. 바클라바는 없는 듯하다는 후기가 있으니 디저트는 같은 거리의 Künefem Damla·Kilim 등에서. 대성당에서 강 건너 북동쪽이라 KVB 전차로 이동 시간을 잡을 것.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/779752/best-turkish-foods-and-restaurants-in-cologne",
+        "https://wanderlog.com/place/details/2520899/b%C3%BCy%C3%BCk-harran-doy-doy-restaurant-gmbh"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Künefem Damla",
+      "category": "dessert",
+      "area": "muelheim-kalk",
+      "address": "Keupstraße 92, 51063 Köln",
+      "cuisine": "Turkish dessert shop specialising in künefe (hot cheese pastry in syrup)",
+      "cuisine_country": [
+        "TR"
+      ],
+      "dishes": [
+        "bread-pastry"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note": "디저트 가게 — 가격은 이번 조사에서 미확인(디저트 1인분 기준 €15 이하로 추정해 1로 둠)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 624,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.5 / 624)",
+      "summary_ko": "코이프슈트라세 끝자락의 퀴네페(künefe) 전문 디저트 가게로, 가는 면 반죽 사이에 치즈를 넣어 구운 뒤 시럽을 끼얹은 터키 남부식 디저트를 갓 구워 낸다. Mit Vergnügen도 코이프슈트라세 추천 장소로 꼽았고, 터키 디저트를 한 가지만 먹는다면 이곳이다.",
+      "must_try": [
+        "Künefe (퀴네페 — 치즈를 넣고 구워 시럽을 끼얹은 뜨거운 디저트)"
+      ],
+      "tips_ko": "퀴네페는 뜨거울 때 바로 먹는 디저트라 매장에서 먹는 편이 낫다. 너무 달다는 후기도 있으니 차(çay)를 곁들일 것. 같은 거리 82번지의 바클라바 가게 'Damla'와 이름이 비슷하지만 다른 가게다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/10133813/k%C3%BCnefem-damla",
+        "https://wanderlog.com/list/geoCategory/779752/best-turkish-foods-and-restaurants-in-cologne",
+        "https://koeln.mitvergnuegen.com/2021/keupstrasse/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Cigköftem (Keupstraße)",
+      "category": "streetfood",
+      "area": "muelheim-kalk",
+      "address": "Keupstraße 80, 51063 Köln",
+      "cuisine": "Turkish çiğ köfte Imbiss (vegan bulgur köfte wraps)",
+      "cuisine_country": [
+        "TR"
+      ],
+      "dishes": [
+        "sandwiches"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "quick",
+        "solo"
+      ],
+      "features": [
+        "takeaway"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note": "간이식당(랩·접시) — 가격은 이번 조사에서 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.6,
+      "google_reviews": 333,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.6 / 333)",
+      "summary_ko": "코이프슈트라세의 치쾨프테(çiğ köfte) 간이식당으로, 불구르(빻은 밀)에 고추 페이스트와 향신료를 치대 만든 매콤한 비건 쾨프테를 상추와 함께 랩이나 접시로 낸다. 고기 없는 터키 길거리 음식을 가볍게 맛보기 좋다.",
+      "must_try": [
+        "Çiğ Köfte Dürüm (치쾨프테 랩 — 매콤한 불구르 쾨프테를 얇은 빵에 만 것)"
+      ],
+      "tips_ko": "독일 곳곳에 있는 치쾨프테 체인 이름이라 다른 지점과 헷갈리지 않게 코이프슈트라세 80번지로 찾을 것. 매운 정도를 고를 수 있는지 주문할 때 물어보면 좋다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4086171/cigk%C3%B6ftem"
+      ],
+      "confidence": "medium",
+      "style_hint": "streetfood"
+    },
+    {
+      "name": "Villa Kalka",
+      "category": "cafe",
+      "area": "muelheim-kalk",
+      "address": "Kalk-Mülheimer Str. 58, 51103 Köln",
+      "cuisine": "Multicultural café with Japanese-French patisserie; breakfast, French-Japanese dishes in the evening",
+      "cuisine_country": [],
+      "dishes": [
+        "cake",
+        "bread-pastry",
+        "brunch-plates",
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "date",
+        "solo"
+      ],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [],
+      "vibe": [
+        "hidden-gem",
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.8,
+      "google_reviews": 582,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.8 / 582; other snapshots 4.8 / 520–622)",
+      "summary_ko": "칼크 시민회관(Bürgerhaus Kalk) 건물 안의 다문화 카페로, 일본·프랑스식 파티스리와 아침 식사를 내고 저녁에는 프랑스·일본풍 요리도 낸다. 구글 4.8로 강 건너 동쪽에서 가장 평이 좋은 카페 가운데 하나라, 칼크에 간다면 들를 만하다.",
+      "must_try": [
+        "Japanisch-französische Patisserie (일본·프랑스식 케이크·페이스트리)"
+      ],
+      "tips_ko": "Mit Vergnügen 2026 아침 식사 목록에 평일·주말 아침 메뉴가 있다고 나온다. 뒷마당 테라스가 있지만 11–12월엔 실내석 위주. 영업시간·저녁 영업 요일은 이번 조사에서 확인하지 못했으니 방문 전 확인할 것.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3263090/villa-kalka",
+        "https://koeln.mitvergnuegen.com/2026/fruehstueck/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-schael-sick/",
+        "https://wanderlog.com/place/details/10431053/b%C3%BCrgerhaus-kalk"
+      ],
+      "confidence": "medium",
+      "style_hint": "cafe"
+    },
+    {
+      "name": "Nobiko",
+      "category": "restaurant",
+      "area": "muelheim-kalk",
+      "address": "Josephskirchstraße 25, 51103 Köln",
+      "cuisine": "Vegan Japanese noodle bar — homemade udon and Japanese rice dishes",
+      "cuisine_country": [
+        "JP"
+      ],
+      "dishes": [
+        "noodles",
+        "bowls"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "solo",
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "hidden-gem"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.8,
+      "google_reviews": 825,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.8 / 825; other snapshots 4.8 / 789–910)",
+      "summary_ko": "칼크의 작은 비건 일본식 누들 바로, 직접 뽑은 우동 면과 일본식 밥 요리를 동물성 재료 없이 낸다. 구글 4.8(800건 이상)로 평이 매우 높아 비건이 아니어도 쫄깃한 수제 우동을 먹으러 찾아갈 만하다.",
+      "must_try": [
+        "Hausgemachte Udon (수제 우동)"
+      ],
+      "tips_ko": "작은 가게라 저녁에는 붐빌 수 있다. 영업일·예약 방법은 이번 조사에서 확인하지 못했으니 방문 전 확인할 것. 칼크 우체국(Kalk Post) 정류장에서 걸어갈 수 있는 거리다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1455635/nobiko",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-kalk/",
+        "https://wanderlog.com/list/geoCategory/92121/best-vegan-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "style_hint": "noodle-bar"
+    },
+    {
+      "name": "Trash-Chic",
+      "category": "restaurant",
+      "area": "muelheim-kalk",
+      "address": "Wiersbergstraße 31, 51103 Köln",
+      "cuisine": "Vegetarian Eckkneipe (corner pub) with soy gyros, burgers and döner-style wraps",
+      "cuisine_country": [
+        "INT"
+      ],
+      "dishes": [
+        "burger",
+        "kebab"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "solo"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite",
+        "lively"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note": "Mit Vergnügen 2025: 버거·되너 랩이 €11 미만",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.6,
+      "google_reviews": 1329,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.6 / 1,329; other snapshots 4.6–4.7 / 1,299–1,432)",
+      "summary_ko": "칼크의 채식 동네 술집(Eckkneipe)으로, 거실 같은 분위기에서 콩고기 기로스(Soja-Gyros), 버거, 되너식 랩을 싸게 낸다. 구글 리뷰 1,300건 이상에 4.6이라, 현지인 틈에서 맥주 한잔과 저렴한 채식 안주를 즐기기 좋다.",
+      "must_try": [
+        "Soja-Gyros (콩고기 기로스 — 이 집의 대표 메뉴)",
+        "Veggie Burger (채식 버거)"
+      ],
+      "tips_ko": "술집이 기본이라 저녁에 가는 곳이다. 테이블 축구(Kicker)가 있고 비건 메뉴도 있다고 소개된다(Mit Vergnügen 2025 샬 지크 바·크나이페 목록). 영업 요일·시간과 현금 결제 여부는 이번 조사에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1484922/trash-chic",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-kalk/",
+        "https://koeln.mitvergnuegen.com/2025/bars-kneipen-schael-sick/",
+        "https://wanderlog.com/list/geoCategory/93906/best-vegetarian-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "style_hint": "kneipe"
+    },
+    {
+      "name": "Blauer König",
+      "category": "restaurant",
+      "area": "muelheim-kalk",
+      "address": "Markt 24, 51103 Köln",
+      "cuisine": "German home cooking (gutbürgerlich) with Mediterranean touches",
+      "cuisine_country": [
+        "DE"
+      ],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "Mit Vergnügen 2025: '가격 대비 만족도가 좋다' — 메뉴 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 474,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.5 / 474; a second score 4.0 / 33 on the page is not Google)",
+      "summary_ko": "칼크의 독일 가정식(gutbürgerlich) 식당으로, 지중해풍을 더한 메뉴를 합리적인 가격에 낸다는 평이다. 관광객 없는 동네 식당에서 독일식 저녁을 먹고 싶을 때 맞다.",
+      "must_try": [],
+      "tips_ko": "대표 메뉴·영업시간은 이번 조사에서 확인하지 못했으니 방문 전 메뉴판을 확인할 것. 주소 'Markt 24'는 칼크 시장 광장 쪽으로, 지오코딩 때 위치를 확인할 것.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4065488/blauer-k%C3%B6nig",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-schael-sick/"
+      ],
+      "confidence": "medium",
+      "style_hint": "home-cooking"
+    },
+    {
+      "name": "Ristorante D'Amore",
+      "category": "restaurant",
+      "area": "muelheim-kalk",
+      "address": "Deutz-Mülheimer Str. 326, 51063 Köln",
+      "cuisine": "Neapolitan-style pizzeria / Italian restaurant (in the former Brückeneck)",
+      "cuisine_country": [
+        "IT"
+      ],
+      "dishes": [
+        "pizza"
+      ],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "date"
+      ],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 425,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.7 / 425; second score 4.5 / 23 is not Google)",
+      "summary_ko": "뮐하임 다리 근처, 예전 'Brückeneck' 자리에 들어선 이탈리안 레스토랑으로 나폴리식 피자를 낸다(Mit Vergnügen 2025 '샬 지크 맛집 21곳'). 구글 4.7로 평이 높고 리뷰에서 피자와 칵테일이 칭찬받는다.",
+      "must_try": [
+        "Pizza napoletana (나폴리식 피자)"
+      ],
+      "tips_ko": "영업시간·예약 방법은 이번 조사에서 확인하지 못했다. 뮐하임 다리(Mülheimer Brücke) 동쪽 끝 근처라 Wiener Platz에서 걸어갈 수 있다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/9340788/ristorante-damore",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-schael-sick/"
+      ],
+      "confidence": "medium",
+      "style_hint": "pizzeria"
+    },
+    {
+      "name": "Café Jakubowski",
+      "category": "cafe",
+      "area": "muelheim-kalk",
+      "address": "Mülheimer Freiheit 54, 51063 Köln",
+      "cuisine": "Neighbourhood café on Mülheimer Freiheit",
+      "cuisine_country": [],
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "solo",
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 1217,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.4 / 1,217; Tripadvisor 4.0 / 59)",
+      "summary_ko": "뮐하임 라인강변 쪽 뮐하이머 프라이하이트(Mülheimer Freiheit)의 동네 카페로, Mit Vergnügen의 샬 지크(강 동쪽) 추천 목록에 오르는 곳이다. 구글 리뷰 1,200건 이상에 4.4라 뮐하임 산책 중 커피 한잔 하기 좋다.",
+      "must_try": [],
+      "tips_ko": "월요일 휴무로 나온다(Wanderlog 영업시간). 메뉴·가격은 이번 조사에서 확인하지 못했다. 같은 거리 150번지 쾰시 선술집 Limes와 묶어 다니기 좋다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2150969/caf%C3%A9-jakubowski",
+        "https://www.koeln.de/?p=108244",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-schael-sick/",
+        "https://koeln.mitvergnuegen.com/2019/das-jakubowski-wo-muelheimer-ihren-kaffee-trinken/",
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ],
+      "confidence": "medium",
+      "style_hint": "cafe"
+    },
+    {
+      "name": "Café Vreiheit",
+      "category": "cafe",
+      "area": "muelheim-kalk",
+      "address": "Wallstraße 91, 51063 Köln",
+      "cuisine": "Breakfast and brunch café with vegetarian and international dishes and pasta",
+      "cuisine_country": [],
+      "dishes": [
+        "brunch-plates",
+        "pasta",
+        "coffee"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [
+        "breakfast",
+        "brunch",
+        "lunch"
+      ],
+      "occasions": [
+        "solo",
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 1350,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.5 / 1,350; Tripadvisor 4.0 / 71); speisekarte.de 4.3 is not Google",
+      "summary_ko": "뮐하임 중심가 발슈트라세(Wallstraße)의 아침·브런치 카페로, 채식·인터내셔널 메뉴와 파스타를 낸다. 구글 리뷰 1,300건 이상에 4.5로 뮐하임에서 가장 많이 찾는 카페 가운데 하나다.",
+      "must_try": [],
+      "tips_ko": "koeln.de가 '아침·브런치(Frühstück & Brunch)' 업소로 분류한다. 주말 오전엔 자리가 빨리 찰 수 있다. 영업시간은 이번 조사에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3263166/caf%C3%A9-vreiheit",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/cafe_vreiheit",
+        "https://www.koeln.de/branchen/eintrag/7201/fruehstueck-brunch/cafe-vreiheit",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-schael-sick/"
+      ],
+      "confidence": "medium",
+      "style_hint": "brunch"
+    },
+    {
+      "name": "Localino",
+      "category": "restaurant",
+      "area": "muelheim-kalk",
+      "address": "Deutz-Mülheimer Str. 203, 51063 Köln",
+      "cuisine": "Italian restaurant — pizza and pasta with many vegan options",
+      "cuisine_country": [
+        "IT"
+      ],
+      "dishes": [
+        "pizza",
+        "pasta"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.3,
+      "google_reviews": 917,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.3 / 917; Tripadvisor 4.0 / 53)",
+      "summary_ko": "뮐하임 남쪽 도이츠-뮐하이머 슈트라세의 이탈리안 레스토랑으로, 고기 메뉴와 함께 비건 피자·파스타를 폭넓게 갖췄다. 구글 리뷰 900건 이상에 4.3으로, 일행 중 비건이 있을 때 고르기 좋은 동네 이탈리안이다.",
+      "must_try": [
+        "Vegane Pizza (비건 피자)"
+      ],
+      "tips_ko": "주소는 출처 한 곳(spinach.guide)에서 확인했다. 칼크·도이츠·뮐하임 중간쯤이라 메쎄에서도 전차로 가깝다. 영업시간은 이번 조사에서 미확인.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/9800132/localino",
+        "https://spinach.guide/venues/localino-29261",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-schael-sick/"
+      ],
+      "confidence": "medium",
+      "style_hint": "pizzeria"
+    },
+    {
+      "name": "Haus Zeyen",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Neuhöfferstraße 27-29, 50679 Köln",
+      "cuisine": "Rustic German restaurant — steaks, schnitzel, goulash and Kölsch",
+      "cuisine_country": [
+        "DE"
+      ],
+      "dishes": [
+        "steak",
+        "schnitzel"
+      ],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "business"
+      ],
+      "features": [],
+      "drinks": [
+        "koelsch"
+      ],
+      "vibe": [
+        "traditional",
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [
+        "Sion Kölsch"
+      ],
+      "google_rating": 4.7,
+      "google_reviews": 1124,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.7 / 1,124; second score 4.5 / 93 is not Google)",
+      "summary_ko": "도이처 프라이하이트 바로 옆 노이회퍼슈트라세의 소박한 독일식 식당으로, 스테이크와 쾰시로 알려져 있다(Mit Vergnügen 2025). 구글 1,100건 이상에 4.7로 도이츠에서 평이 가장 높은 독일 식당 가운데 하나라, 메쎄 일정 뒤 저녁 식사로 좋다.",
+      "must_try": [
+        "Bauernschnitzel (농부식 슈니첼 — 리뷰 추천)",
+        "Steak (스테이크)",
+        "Sion Kölsch vom Fass (생 지온 쾰시)"
+      ],
+      "tips_ko": "메쎄·도이츠역에서 걸어갈 수 있다. 인기 있는 작은 식당이라 저녁엔 예약하는 편이 안전하다(예약 방법은 미확인). 영업 요일·시간은 이번 조사에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1438569/haus-zeyen",
+        "https://wanderlog.com/list/geoCategory/795943/best-central-european-foods-and-restaurants-in-cologne",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-schael-sick/",
+        "https://koeln.mitvergnuegen.com/2025/bars-kneipen-schael-sick/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Damla Keupstraße",
+      "category": "dessert",
+      "area": "muelheim-kalk",
+      "address": "Keupstraße 82, 51063 Köln",
+      "cuisine": "Turkish baklava and künefe shop on Keupstraße",
+      "cuisine_country": [
+        "TR"
+      ],
+      "dishes": [
+        "bread-pastry"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [
+        "takeaway"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note": "디저트 가게 — 가격 미확인(디저트 1인분 €15 이하로 보고 1)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.3,
+      "google_reviews": 801,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.3 / 801)",
+      "summary_ko": "코이프슈트라세 82번지의 터키 디저트 가게로, 리뷰에서는 퀴네페(künefe)·쿠나파가 특히 칭찬받는다. 같은 거리의 Künefem Damla(92번지)와 함께 코이프슈트라세 디저트 순례 코스로 묶기 좋다.",
+      "must_try": [
+        "Künefe (퀴네페 — 치즈를 넣고 구운 뜨거운 시럽 디저트)",
+        "Baklava (바클라바)"
+      ],
+      "tips_ko": "아이겔슈타인 Weidengasse의 'Damla'(본 목록 등재)와 이름이 같은 다른 지점·가게다. 바클라바는 평범하다는 후기도 있어 퀴네페를 먼저 고르는 편이 낫다. 서비스 속도는 후기가 엇갈린다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/11619080/damla"
+      ],
+      "confidence": "medium",
+      "style_hint": "dessert"
+    },
+    {
+      "name": "Bhasin",
+      "category": "restaurant",
+      "area": "muelheim-kalk",
+      "address": "Thumbstraße 1, 51103 Köln",
+      "cuisine": "Indian curry restaurant in Kalk (since 1986)",
+      "cuisine_country": [
+        "IN"
+      ],
+      "dishes": [
+        "curry"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "family"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 837,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.7 / 837; second score 5.0 / 22 is not Google)",
+      "summary_ko": "1986년부터 영업한 칼크의 인도 레스토랑으로, 리뷰에서 '쾰른 최고의 인도 식당 중 하나'라는 평을 받는다. Mit Vergnügen은 채식 정식 접시(vegetarischer Menüteller)를 추천했다.",
+      "must_try": [
+        "Vegetarischer Menüteller (채식 정식 접시 — Mit Vergnügen 추천)"
+      ],
+      "tips_ko": "전화 +49 221 56094331(Wanderlog). 버터 치킨은 아쉬웠다는 후기도 있다. 영업시간은 이번 조사에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4110122/bhasin-kalk--indian-cuisine-since-1986",
+        "https://koeln.mitvergnuegen.com/2025/kalk/",
+        "https://wanderlog.com/list/geoCategory/761762/best-indian-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "style_hint": "curry-house"
+    },
+    {
+      "name": "Radix & Anima",
+      "category": "cafe",
+      "area": "muelheim-kalk",
+      "address": "Deutz-Mülheimer Str. 183, 51063 Köln",
+      "cuisine": "Specialty coffee and natural wine bar with a plant-based menu",
+      "cuisine_country": [],
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [
+        "brunch",
+        "lunch"
+      ],
+      "occasions": [
+        "date",
+        "solo"
+      ],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [
+        "specialty-coffee",
+        "natural-wine"
+      ],
+      "vibe": [
+        "hidden-gem",
+        "trendy"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.9,
+      "google_reviews": 185,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (4.9 / 185, Google)",
+      "summary_ko": "뮐하임 남쪽 도이츠-뮐하이머 슈트라세, 옛 공장 경비실(Pförtnerhäuschen)을 고친 작은 스페셜티 커피 겸 내추럴 와인 바로, 메뉴는 전부 식물성이다. 구글 4.9로 강 동쪽에서 가장 평이 높은 커피집 가운데 하나라, 커피나 내추럴 와인을 좋아하면 일부러 찾아갈 만하다.",
+      "must_try": [
+        "Specialty Coffee (스페셜티 커피 — 우유는 귀리 우유만)",
+        "Naturwein (내추럴 와인 한 잔)"
+      ],
+      "tips_ko": "월–수 휴무, 목·금·토는 저녁까지, 일요일 11–19시로 나온다(Wanderlog). 우유는 귀리 우유만 있고 메뉴가 전부 식물성이라 아쉽다는 후기도 있다. 실내가 작고 바깥 자리가 있다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/9195093/radix--anima",
+        "https://koeln.mitvergnuegen.com/2024/radix-anima-muelheim/",
+        "https://wanderlog.com/list/geoCategory/1861715/best-coffee-roasters-in-cologne",
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ],
+      "confidence": "medium",
+      "style_hint": "cafe"
+    },
+    {
+      "name": "Van Dyck Mülheim",
+      "category": "cafe",
+      "area": "muelheim-kalk",
+      "address": "Schanzenstraße 36, Gebäude 31b, 51063 Köln",
+      "cuisine": "Coffee roastery café (Van Dyck Kaffeerösterei, Mülheim roastery site)",
+      "cuisine_country": [],
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "solo"
+      ],
+      "features": [],
+      "drinks": [
+        "specialty-coffee"
+      ],
+      "vibe": [
+        "hidden-gem"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.8,
+      "google_reviews": 265,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.8 / 265–274 across Wanderlog pages; lower count used)",
+      "summary_ko": "쾰른 로스터리 반 다이크(Van Dyck)의 뮐하임 로스팅 공장 겸 카페로, 옛 공장 단지 샨첸슈트라세(Schanzenstraße)에 있다. 커피와 공간 분위기가 칭찬받아 커피 애호가라면 에렌펠트 지점과 비교해 볼 만하다.",
+      "must_try": [
+        "Espresso / Filterkaffee aus eigener Röstung (직접 볶은 원두의 에스프레소·필터 커피)"
+      ],
+      "tips_ko": "에렌펠트의 'Van Dyck Espressobar'(Körnerstraße 43, 본 목록 등재)와 같은 회사의 다른 장소다. 공장 단지 안 31b동이라 입구를 찾기 어려울 수 있다. 영업시간은 이번 조사에서 확인하지 못했다(로스터리라 평일 위주일 수 있으니 확인할 것).",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/1861715/best-coffee-roasters-in-cologne",
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ],
+      "confidence": "medium",
+      "style_hint": "cafe"
+    },
+    {
+      "name": "Brauwelt Köln (Kalk)",
+      "category": "brauhaus",
+      "area": "muelheim-kalk",
+      "address": "Kalker Hauptstraße 260, 51103 Köln",
+      "cuisine": "Brewery tap and Brauhaus in the former Sünner brewery (Kölsch and distillery)",
+      "cuisine_country": [
+        "DE"
+      ],
+      "dishes": [
+        "rhineland-classics"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [
+        "beer-garden"
+      ],
+      "drinks": [
+        "koelsch"
+      ],
+      "vibe": [
+        "traditional"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [
+        "Sünner Kölsch",
+        "Mühlen Kölsch"
+      ],
+      "google_rating": 4.3,
+      "google_reviews": 2423,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.3 / 2,423; another snapshot 2,616; second score 3.5 / 118 is not Google)",
+      "summary_ko": "칼크의 옛 쥔너(Sünner) 양조장 건물을 브라우하우스·비어가르텐으로 바꾼 곳으로, 세계에서 가장 오래된 쾰시 양조장이자 쾰른 유일의 증류소라고 소개된다. 쥔너 쾰시와 뮐렌 쾰시를 마시며 맥주·진 시음 세트를 즐길 수 있고 실내외 공간이 넓어 단체에 좋다.",
+      "must_try": [
+        "Sünner Kölsch (쥔너 쾰시)",
+        "Bier- und Gin-Tasting (맥주·진 시음 세트 — 리뷰 추천)"
+      ],
+      "tips_ko": "비어가르텐은 날씨에 따라 열고 실내 브라우하우스는 수–일 연중 영업이라 11–12월엔 실내로 가면 된다(공식 사이트, r3 조사). 채식 메뉴가 적다는 후기가 있다. 'Brauhaus Sünner im Walfisch'(구시가)와는 다른 곳이다. 번지는 Wanderlog 표기 'Kalker Hauptstraße 260/262'.",
+      "website": "https://www.brauwelt-koeln.de/",
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1561787/brauwelt-k%C3%B6ln",
+        "https://koeln.mitvergnuegen.com/2025/bars-kneipen-schael-sick/",
+        "https://www.brauwelt-koeln.de/en/pages/brauhaus-biergarten",
+        "https://wanderlog.com/list/geoCategory/1572657/best-brauhaus-in-cologne"
+      ],
+      "confidence": "medium",
+      "style_hint": "brauhaus"
+    },
+    {
+      "name": "Glashaus Restaurant & Bar (Hyatt Regency Köln)",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Kennedy-Ufer 2a, 50679 Köln",
+      "cuisine": "Upscale hotel restaurant with Rhine and Dom views (modern European, Sunday brunch)",
+      "cuisine_country": [
+        "INT"
+      ],
+      "dishes": [
+        "brunch-plates"
+      ],
+      "diet": [],
+      "meals": [
+        "dinner",
+        "brunch"
+      ],
+      "occasions": [
+        "business",
+        "date"
+      ],
+      "features": [
+        "dom-view",
+        "rhine-view",
+        "open-sunday"
+      ],
+      "drinks": [
+        "wine-list"
+      ],
+      "vibe": [
+        "quiet"
+      ],
+      "reservation": "recommended",
+      "payment": "card",
+      "price_level": 4,
+      "price_pp": null,
+      "price_note": "OpenTable 가격대 '매우 고급(very upscale)' — 메뉴 가격은 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 384,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (4.4 / 375–384 shown as Google on the place page; second score 4.0 / 209); OpenTable 4.6–4.7 (~480) is not Google",
+      "summary_ko": "도이츠 강변 하얏트 리젠시 호텔 안의 고급 레스토랑으로, 통유리 너머로 라인강·호엔촐레른 다리·대성당이 정면으로 보인다. 도이츠에서 대성당 전망을 보며 비즈니스 디너나 기념일 식사를 하기에 사실상 유일한 선택지다.",
+      "must_try": [
+        "Sunday Brunch (일요일 브런치 — 호텔 공식 행사)"
+      ],
+      "tips_ko": "해가 진 뒤에는 유리 반사 때문에 구시가 전망이 잘 안 보인다는 후기가 있어, 전망이 목적이면 해 질 무렵 일찍 예약할 것. 가격이 높다는 평. 메쎄·도이츠역에서 걸어갈 수 있다.",
+      "website": "https://www.hyatt.com/de-DE/hotel/germany/hyatt-regency-cologne/colog/dining",
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/29648/best-restaurants-to-have-dinner-in-cologne",
+        "https://www.opentable.co.uk/glashaus-restaurant",
+        "https://koeln.mitvergnuegen.com/2023/glashaus-restaurant/",
+        "https://www.hyatt.com/de-DE/hotel/germany/hyatt-regency-cologne/colog/dining"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Villa Mathilde",
+      "category": "cafe",
+      "area": "deutz-messe",
+      "address": "Mathildenstraße 27, 50679 Köln",
+      "cuisine": "Cosy café with homemade cakes and Sunday breakfast",
+      "cuisine_country": [],
+      "dishes": [
+        "cake",
+        "coffee",
+        "brunch-plates"
+      ],
+      "diet": [],
+      "meals": [
+        "breakfast",
+        "brunch"
+      ],
+      "occasions": [
+        "date",
+        "solo"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "quiet",
+        "hidden-gem"
+      ],
+      "reservation": "unknown",
+      "payment": "cash-only",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.6,
+      "google_reviews": 620,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google ~4.6 / ~620 as summarised; second score 4.0 / 53)",
+      "summary_ko": "도이츠 주택가 마틸덴슈트라세의 아늑한 카페로, 앤티크한 실내 장식과 조용한 분위기, 직접 만든 케이크가 칭찬받는다. Mit Vergnügen '쾰른의 아늑한 카페 11곳'에 여러 해 꼽혔고, 메쎄에서 걸어갈 수 있는 쉼터다.",
+      "must_try": [
+        "Hausgemachter Kuchen (수제 케이크)"
+      ],
+      "tips_ko": "현금만 받는다는 후기가 있다. 한 목록에는 수–토 10:30–18:00 영업으로 나오니 월·화와 일요일 영업 여부를 확인할 것(일요일 아침 식사를 언급한 후기도 있음). 주인에 대한 평이 엇갈린다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://extensionembed.wanderlog.com/place/details/3263154",
+        "https://koeln.mitvergnuegen.com/2019/gemuetlich-abschalten-in-der-villa-mathilde-in-deutz/",
+        "https://koeln.mitvergnuegen.com/2026/gemuetliche-cafes/",
+        "https://spinach.guide/venues/villa-mathilde-30000/",
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ],
+      "confidence": "low",
+      "style_hint": "cafe",
+      "confidence_note": "구글 수치가 근삿값(~)으로만 확인돼 가이드 기준(추정치 금지)에 따라 후보로 분류 — 2026-11-07 메인 세션에서 변경."
+    },
+    {
+      "name": "Gilden Brauhaus",
+      "category": "brauhaus",
+      "area": "muelheim-kalk",
+      "address": "Clevischer Ring 121, 51063 Köln",
+      "cuisine": "Brauhaus with Kölsch cuisine and Kölsch on tap",
+      "cuisine_country": [
+        "DE"
+      ],
+      "dishes": [
+        "rhineland-classics"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "family"
+      ],
+      "features": [],
+      "drinks": [
+        "koelsch"
+      ],
+      "vibe": [
+        "traditional",
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인 — 리뷰상 양이 많다",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.6,
+      "google_reviews": 3939,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.6 / 3,939)",
+      "summary_ko": "뮐하임 클레비셔 링(Clevischer Ring)의 브라우하우스로, 쾰른 향토 요리와 생 쾰시를 낸다(Mit Vergnügen 2026 '뮐하임 맛집 11곳'). 구글 리뷰 3,900건 이상에 4.6으로, 양이 많고 서비스가 빠르고 친절하다는 평이 많다.",
+      "must_try": [
+        "Kölsch vom Fass (생 쾰시)"
+      ],
+      "tips_ko": "큰길(고속도로 진입로) 옆이라 차로 오는 손님이 많다. 이름처럼 길덴(Gilden) 쾰시를 내는지는 이번 조사에서 확인하지 못했다. 시내 구시가 브라우하우스보다 관광객이 훨씬 적다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2687019/gilden-brauhaus",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/",
+        "https://wanderlog.com/list/geoCategory/1572657/best-brauhaus-in-cologne"
+      ],
+      "confidence": "medium",
+      "style_hint": "brauhaus"
+    },
+    {
+      "name": "Scampino",
+      "category": "restaurant",
+      "area": "muelheim-kalk",
+      "address": "Deutz-Mülheimer Str. 199, 51063 Köln",
+      "cuisine": "Mediterranean fish and seafood restaurant with a Rhine-side terrace",
+      "cuisine_country": [
+        "INT"
+      ],
+      "dishes": [
+        "seafood"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "date",
+        "group"
+      ],
+      "features": [
+        "terrace",
+        "rhine-view"
+      ],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 1369,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.5 / 1,369; earlier snapshot 1,230)",
+      "summary_ko": "뮐하임 남쪽 라인강변의 지중해식 생선·해산물 레스토랑으로, 그늘진 강변 테라스가 있다. 구글 리뷰 1,300건 이상에 4.5로, 도심 구시가가 아닌 곳에서 생선 요리를 제대로 먹고 싶을 때 맞다.",
+      "must_try": [
+        "Fisch und Meeresfrüchte des Tages (그날의 생선·해산물 요리)"
+      ],
+      "tips_ko": "겨울(11–12월)엔 테라스보다 실내석 위주. 영업시간·예약 방법은 이번 조사에서 확인하지 못했으니 저녁엔 예약을 권한다. 이웃한 Localino(203번지)·Radix & Anima(183번지)와 같은 거리다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1140632/scampino",
+        "https://wanderlog.com/list/geoCategory/81411/best-seafood-restaurants-in-cologne",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "HaldiSpoon",
+      "category": "streetfood",
+      "area": "muelheim-kalk",
+      "address": "Dünnwalder Str. 49, 51063 Köln",
+      "cuisine": "Indian street food — Naanizza (naan pizza) and roti rolls",
+      "cuisine_country": [
+        "IN"
+      ],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "quick",
+        "solo"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "hidden-gem"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note": "인도식 길거리 음식 — 가격은 이번 조사에서 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.8,
+      "google_reviews": 893,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.8 / 893; another snapshot 4.9 / 816)",
+      "summary_ko": "뮐하임의 인도식 길거리 음식점으로, 난 위에 인도식 토핑을 올린 '난니자(Naanizza)'와 로티 롤로 알려져 있다. 구글 4.8(약 900건)로 평이 매우 높아 뮐하임에서 가볍게 한 끼 하기 좋다.",
+      "must_try": [
+        "Naanizza (난니자 — 난 반죽으로 만든 인도식 피자)",
+        "Roti Roll (로티 롤)"
+      ],
+      "tips_ko": "음식이 늦게 나온다는 후기가 있다. 채식 메뉴 여부·영업시간·포장 가능 여부는 이번 조사에서 확인하지 못했다. 뮐하임 중심(Wiener Platz) 근처 뒤나발더 슈트라세에 있다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4510307/haldispoon",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/",
+        "https://koeln.mitvergnuegen.com/2021/haldi-spoon-muelheim/"
+      ],
+      "confidence": "medium",
+      "style_hint": "streetfood"
+    },
+    {
+      "name": "Tomoki Restaurant",
+      "category": "restaurant",
+      "area": "muelheim-kalk",
+      "address": "Formesstraße 2, 51063 Köln",
+      "cuisine": "Vietnamese and sushi restaurant (Asian kitchen)",
+      "cuisine_country": [
+        "VN",
+        "JP"
+      ],
+      "dishes": [
+        "sushi"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.7,
+      "google_reviews": 510,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google ~4.7 / 510)",
+      "summary_ko": "뮐하임의 베트남·스시 레스토랑으로, 베트남 클래식 요리와 스시를 함께 낸다(Mit Vergnügen 2026). 리뷰에서 신선한 재료와 서비스가 자주 칭찬받는다.",
+      "must_try": [
+        "Sushi (스시)"
+      ],
+      "tips_ko": "영업시간은 이번 조사에서 확인하지 못했다. 뮐하임 중심가에서 가깝다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/9830897/tomoki-restaurant",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/"
+      ],
+      "confidence": "low",
+      "style_hint": "asian-kitchen",
+      "confidence_note": "구글 수치가 근삿값(~)으로만 확인돼 가이드 기준(추정치 금지)에 따라 후보로 분류 — 2026-11-07 메인 세션에서 변경."
+    },
+    {
+      "name": "KWB im Stadtpalais",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Deutz-Kalker Straße 52, 50679 Köln",
+      "cuisine": "Modern international restaurant with seasonal, regional cooking in the restored Kaiser-Wilhelm-Bad (Hotel Stadtpalais)",
+      "cuisine_country": [
+        "INT"
+      ],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [
+        "date",
+        "business"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "quiet"
+      ],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 157,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (4.4 / 157 shown as Google; second score 4.5 / 31)",
+      "summary_ko": "도이츠의 옛 카이저 빌헬름 목욕탕(Kaiser-Wilhelm-Bad) 건물을 문화재 보존 방식으로 고쳐 2019년 가을 문을 연 호텔 Stadtpalais의 레스토랑으로, 옛 수영장 공간에서 제철·지역 재료 요리를 낸다. 특별한 공간에서 조용한 저녁을 원할 때 메쎄에서 가깝게 갈 수 있는 곳이다.",
+      "must_try": [],
+      "tips_ko": "저녁 영업만 하는 것으로 나오며 출처마다 다르다(화–토 18:00–21:30 / 일요일 휴무 등) — 방문 전 전화(0221 880424300, speisekarte.de)로 확인하고 예약할 것. 메쎄·도이츠역에서 도이츠-칼커 슈트라세를 따라 동쪽으로 간다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4105672/kwb-im-stadtpalais",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/kwb_im_stadtpalais",
+        "https://location.koelntourismus.de/en/a-kwb-im-stadtpalais",
+        "https://location.cologne-tourism.com/event-venue/hotel-stadtpalais",
+        "https://www.koeln.de/gastro/eintrag/46220/restaurants/restaurant-kwb-im-stadtpalais",
+        "https://www.tagungshotel.net/en/venue/hotel-stadtpalais",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-schael-sick/"
+      ],
+      "confidence": "medium",
+      "style_hint": "modern"
+    },
+    {
+      "name": "Restaurant Diana",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Deutzer Freiheit 72, 50679 Köln",
+      "cuisine": "Italian restaurant on Deutzer Freiheit",
+      "cuisine_country": [
+        "IT"
+      ],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "group",
+        "family"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 905,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.4 / 905, page about 681 days old ≈ late 2024; second score 4.0 / 84)",
+      "summary_ko": "도이츠 먹자 거리 도이처 프라이하이트의 이탈리안 레스토랑으로, Mit Vergnügen 2025 '샬 지크 이탈리안 11곳'에 꼽혔다. 구글 리뷰 900건 이상에 4.4로, 메쎄 근처에서 무난한 이탈리안 저녁을 먹기 좋다.",
+      "must_try": [],
+      "tips_ko": "구글 수치는 2024년 말쯤의 Wanderlog 스냅숏이다. 같은 건물(72–74번지)에 Café Heimisch가 있다. 메뉴·영업시간은 이번 조사에서 확인하지 못했다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/52853/best-italian-restaurants-in-cologne",
+        "https://koeln.mitvergnuegen.com/2025/italienisch-schael-sick/"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Mevlana Restaurant",
+      "area": "muelheim-kalk",
+      "address": "Keupstraße 47-49, 51063 Köln",
+      "category": "restaurant",
+      "reason": "below-criteria: Google 3.8 (5,070) via wanderlog.com",
+      "found": "코이프슈트라세의 대형 터키 레스토랑(숯불 그릴, 팬 요리, 타스 케밥). Mit Vergnügen 2026 되너 목록: 매일 6–2시 영업. Wanderlog 다른 점수 3.5(113). 최근 리뷰에 음식·서비스 질이 떨어졌다는 평.",
+      "sources": [
+        "https://wanderlog.com/place/details/1160441/mevlana-restaurant",
+        "https://koeln.mitvergnuegen.com/2026/doener-essen/",
+        "https://www.koeln.de/branchen/eintrag/21244/restaurants-tuerkisch/mevlana-restaurant"
+      ]
+    },
+    {
+      "name": "Feinkonditorei Hasan Özdag",
+      "area": "muelheim-kalk",
+      "address": "Keupstraße 84, 51063 Köln",
+      "category": "bakery",
+      "reason": "below-criteria: Google 4.0 (806) via wanderlog.com",
+      "found": "코이프슈트라세의 터키 제과점(케이크 위주). 케이크 칭찬과 주문 실수 불만이 섞임.",
+      "sources": [
+        "https://wanderlog.com/place/details/1326723/feinkonditorei-hasan-%C3%B6zdag-keupstra%C3%9Fe"
+      ]
+    },
+    {
+      "name": "Asmali Konak Deluxe",
+      "area": "muelheim-kalk",
+      "address": "Keupstraße 44-46, 51063 Köln",
+      "category": "restaurant",
+      "reason": "temporarily-closed: Wanderlog Google 4.5 (2,410) but the place page is marked 'Temporarily closed'",
+      "found": "이번 조사에서 주소 확인(Keupstraße 44-46, speisekarte.de). Wanderlog 다른 점수 4.0(74)은 구글 아님. 재개업 여부 확인 시 승격 가능.",
+      "sources": [
+        "https://wanderlog.com/place/details/4081423/asmali-konak-deluxe-restaurant-t%C3%BCrkisches-restaurant-in-k%C3%B6ln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/asmali_konak"
+      ]
+    },
+    {
+      "name": "Sion Bräues (Antik Brauhaus Sion-Bräues)",
+      "area": "deutz-messe",
+      "address": "Deutzer Freiheit 85–87, 50679 Köln",
+      "category": "brauhaus",
+      "reason": "below-criteria: Google 4.1 (509) via wanderlog.com ('Sion Bräues Traditionsbrauhaus')",
+      "found": "r8: Wanderlog 'Sion Bräues Traditionsbrauhaus' 4.1(509). 2022년 10월 옛 Antikbrauhaus 자리에서 새로 문을 열었고 도이처 프라이하이트에 있다고 소개. 서비스·가격 불만과 음식 칭찬이 섞임. 구시가 Brauhaus Sion(Unter Taschenmacher, 4.0/7,600)과는 다른 곳.",
+      "sources": [
+        "https://wanderlog.com/place/details/5202273/sion-br%C3%A4ues-traditionsbrauhaus"
+      ]
+    },
+    {
+      "name": "Nimet Grill",
+      "area": "muelheim-kalk",
+      "address": "Kalker Hauptstraße 82-84, 51105 Köln",
+      "category": "restaurant",
+      "reason": "below-criteria: Google 4.1 (739) via wanderlog.com Turkish list",
+      "found": "r8: 주소를 이번 조사에서 확인(Wanderlog 장소 페이지: Kalker Hauptstraße 82-84, 51105 Köln-Kalk). 수치는 기준 미달 그대로.",
+      "sources": [
+        "https://wanderlog.com/place/details/10857378/nimet-grill",
+        "https://wanderlog.com/list/geoCategory/779752/best-turkish-foods-and-restaurants-in-cologne"
+      ]
+    },
+    {
+      "name": "bona'me Köln-Deutz",
+      "area": "deutz-messe",
+      "address": null,
+      "category": "restaurant",
+      "reason": "below-criteria: Google 4.1 (3,251) via wanderlog.com",
+      "found": "터키·쿠르드 레스토랑 체인(라인아우하펜·도이츠 지점). 주소는 이번 조사에서 확인하지 못함.",
+      "sources": [
+        "https://wanderlog.com/place/details/1160437/boname-k%C3%B6ln-deutz"
+      ]
+    },
+    {
+      "name": "PURiNO Köln Mülheim",
+      "area": "muelheim-kalk",
+      "address": "Schanzenstraße 6-20, 51063 Köln",
+      "category": "restaurant",
+      "reason": "below-criteria: Google 4.1 (1,667) via wanderlog.com",
+      "found": "피자·파스타 체인의 뮐하임 지점(Mit Vergnügen 2025 '샬 지크 이탈리안 11곳'에 포함).",
+      "sources": [
+        "https://wanderlog.com/place/details/5182541/purino-k%C3%B6ln-m%C3%BClheim",
+        "https://koeln.mitvergnuegen.com/2025/italienisch-schael-sick/"
+      ]
+    },
+    {
+      "name": "Minsu Restaurant Köln",
+      "area": "deutz-messe",
+      "address": "Mindener Straße 2, 50679 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing (re-checked in r8: still no Google numbers found)",
+      "found": "Mit Vergnügen 2025 '샬 지크 아시안 11곳'에 'Minsu Fusion Kitchen'으로 포함. r8 Wanderlog 검색에서도 수치를 찾지 못함.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/asiatisch-schael-sick/",
+        "https://wanderlog.com/place/details/9521473/minsu-restaurant-k%C3%B6ln"
+      ]
+    },
+    {
+      "name": "Banlao",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "restaurant",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "뮐하임의 과일·채소 가게 안에서 라오스 요리(팟타이 등)를 내는 곳(Mit Vergnügen 2022 기사, 2025 아시안 목록, 2026 뮐하임 맛집 11곳). r8 Wanderlog 검색에서 수치·주소를 찾지 못함.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2022/banlao-muelheim/",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/"
+      ]
+    },
+    {
+      "name": "Frizzantino",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "restaurant",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "뮐하임의 이탈리안, 메뉴가 자주 바뀜(Mit Vergnügen 2026 뮐하임 맛집 11곳, 2025 샬 지크 이탈리안).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/",
+        "https://koeln.mitvergnuegen.com/2025/italienisch-schael-sick/"
+      ]
+    },
+    {
+      "name": "Hanedan",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "restaurant",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "뮐하임의 숯불 그릴, 할랄·유기농 고기(Mit Vergnügen 2026 뮐하임 맛집 11곳).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/"
+      ]
+    },
+    {
+      "name": "An Banh Mi",
+      "area": "muelheim-kalk",
+      "address": "Schanzenstraße (번지 미확인), 51063 Köln",
+      "category": "streetfood",
+      "reason": "google-numbers-not-found",
+      "found": "샨첸슈트라세의 베트남 반미 샌드위치 가게(Mit Vergnügen 2026 뮐하임 맛집 11곳).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/"
+      ]
+    },
+    {
+      "name": "Offenbach (Carlswerk)",
+      "area": "muelheim-kalk",
+      "address": "Carlswerk-Gelände, Schanzenstraße, 51063 Köln (번지 미확인)",
+      "category": "restaurant",
+      "reason": "google-numbers-not-found",
+      "found": "카를스베르크(Carlswerk) 공장 단지 안의 지역 요리 레스토랑(Mit Vergnügen 2026 뮐하임 맛집 11곳).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/"
+      ]
+    },
+    {
+      "name": "Sticky Fingers Restaurant & Terrasse",
+      "area": "deutz-messe",
+      "address": "Kennedy-Ufer 2a, 50679 Köln",
+      "category": "restaurant",
+      "reason": "possible-duplicate: Wanderlog Google 4.2 (1,694–1,733) at the Hyatt address — same review count (1,694) as 'Grissini Restaurant & Terrasse' already in the main list, so probably the same Google listing (renamed?)",
+      "found": "Mit Vergnügen 2025 '도이츠 맛집 11곳': 하얏트의 유리 파빌리온 두 곳 'Grissini와 Sticky Fingers'(라인강변). 기준선(4.2) 턱걸이. 본 목록 Grissini 항목의 이름·수치를 다음 검증 때 확인할 것.",
+      "sources": [
+        "https://wanderlog.com/place/details/1191513/sticky-fingers-restaurant--terrasse",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/"
+      ]
+    },
+    {
+      "name": "Saana Restaurant",
+      "area": "muelheim-kalk",
+      "address": "Kalker Hauptstraße 105, 51103 Köln",
+      "category": "restaurant",
+      "reason": "cuisine-unclear (re-checked in r8): Google 4.2 (2,711) from the earlier Wanderlog Middle Eastern list meets the bar, but no source names the cuisine",
+      "found": "r8: 웹사이트 saana.restaurant와 영업시간(foodle.pro)만 확인. 요리 종류는 여전히 미확인 → 확인되면 승격.",
+      "sources": [
+        "https://foodle.pro/restaurants/cologne/saana-restaurant",
+        "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+      ]
+    },
+    {
+      "name": "Fischwerk",
+      "area": "deutz-messe",
+      "address": null,
+      "category": "restaurant",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "Mit Vergnügen 2025 '도이츠 맛집 11곳'의 생선 전문점. Wanderlog에는 노르데르나이(Norderney)의 동명 폐업 업소만 나옴.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/"
+      ]
+    },
+    {
+      "name": "Wasabifan",
+      "area": "deutz-messe",
+      "address": null,
+      "category": "restaurant",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "Mit Vergnügen 2025 '샬 지크 아시안 11곳'의 도이츠 업소(이름으로 보아 일식). r8 검색에서 수치·주소 못 찾음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/asiatisch-schael-sick/"
+      ]
+    },
+    {
+      "name": "Das Humboldt",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "restaurant",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "칼크의 레스토랑·바·크나이페·카페 겸업 공간, 테라스. 케이크, 샐러드, 플람쿠헨, 슈니첼, 버거(Mit Vergnügen 2023 기사, 2025 샬 지크 맛집·바·카페 목록). Wanderlog 검색 3회에서 나오지 않음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2023/humboldt/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-schael-sick/",
+        "https://koeln.mitvergnuegen.com/2025/bars-kneipen-schael-sick/"
+      ]
+    },
+    {
+      "name": "Petek Pastanesi",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "bakery",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "칼크의 터키 제과점, €10 미만 무제한 터키식 브런치 뷔페(Mit Vergnügen '칼크 비 오는 날').",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/regen/kalk-schlechtes-wetter/"
+      ]
+    },
+    {
+      "name": "Viet - Thai Cuisine (Kalk)",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "restaurant",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "칼크의 베트남·태국 식당(Mit Vergnügen 팁 페이지, 2025 샬 지크 아시안 목록). Wanderlog 쾰른 길거리 음식 목록의 'Thai-Viet Street Food Imbiss'(4.6/약 2,500)와 같은 곳인지는 미확인.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/tipps/asiatisch-essen-bei-viet-thai-cuisine-in-kalk/",
+        "https://wanderlog.com/list/geoCategory/83196/best-street-food-in-cologne"
+      ]
+    },
+    {
+      "name": "Xin Chao 24",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "restaurant",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "칼크의 베트남 식당(Mit Vergnügen 2025 샬 지크 아시안 목록).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/asiatisch-schael-sick/"
+      ]
+    },
+    {
+      "name": "Yee Doy",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "streetfood",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "칼크의 되너·그릴 임비스, '칼크 최고의 되너'라는 평(Mit Vergnügen 2024 '샬 지크 €11 이하').",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/essen-unter-11-euro-schael-sick/"
+      ]
+    },
+    {
+      "name": "MiCafecito",
+      "area": "muelheim-kalk",
+      "address": "Kalker Hauptstraße 252, 51103 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-not-found",
+      "found": "저렴한 아침 식사, 흰색 인테리어(Wanderlog 리뷰 요약, 주소도 Wanderlog). Mit Vergnügen 2025 '도이츠·칼크·뮐하임 카페 21곳'. 구글 수치는 검색 결과에 없었음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ]
+    },
+    {
+      "name": "Helvaci Ali (Keupstraße)",
+      "area": "muelheim-kalk",
+      "address": "Keupstraße (번지 미확인), 51063 Köln",
+      "category": "dessert",
+      "reason": "google-numbers-not-found",
+      "found": "버터를 듬뿍 쓴 세몰리나 디저트 헬바(helva) 전문, 피스타치오 등 여러 맛(Mit Vergnügen 2025 '세계 디저트').",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/um-die-welt-naschen/"
+      ]
+    },
+    {
+      "name": "Mosaik Patisserie",
+      "area": "muelheim-kalk",
+      "address": "Keupstraße (번지 미확인), 51063 Köln",
+      "category": "bakery",
+      "reason": "google-numbers-not-found (2021 tip only)",
+      "found": "코이프슈트라세의 케이크·바클라바 제과점(Mit Vergnügen 2021 코이프슈트라세 목록). 현재 영업 여부 미확인.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2021/keupstrasse/"
+      ]
+    },
+    {
+      "name": "Café Rotkehlchen Kalk",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "cafe",
+      "reason": "google-numbers-not-attributable + address-unclear",
+      "found": "Mit Vergnügen 2025 '도이츠·칼크·뮐하임 카페 21곳'. spinach.guide 검색 요약에 칼크 지점 4.8(출처 불명)과 주소 'Wilhelmsplatz 1a'가 나왔지만 확인 안 됨. Wanderlog에는 에렌펠트·쥐트슈타트·바이엔탈 지점만 나옴.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/",
+        "https://spinach.guide/venues/der-kaffeekiosk-33683/"
+      ]
+    },
+    {
+      "name": "Ayni x Schanze",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "cafe",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "Mit Vergnügen 2025 카페 목록(뮐하임). Wanderlog에는 'AYNI em Stüverhoff'라는 이름만(수치 없음).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ]
+    },
+    {
+      "name": "Café Rheinspaziert",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "cafe",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "Mit Vergnügen 2025 카페 목록(뮐하임). r8 Wanderlog 검색에서 나오지 않음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ]
+    },
+    {
+      "name": "Oya Mülheim",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "bar",
+      "reason": "google-numbers-not-found + address-missing",
+      "found": "타파스를 곁들이는 바에 가까운 곳(Mit Vergnügen 2025 카페 목록, 뮐하임).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ]
+    },
+    {
+      "name": "Sakleti Bar",
+      "area": "muelheim-kalk",
+      "address": null,
+      "category": "cocktail-bar",
+      "reason": "google-numbers-not-found + address-missing (2021 tip only)",
+      "found": "Mit Vergnügen 2021: 뮐하임에서 드문 칵테일 바. 현재 영업 여부 미확인.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2021/11-restaurants-bars-auf-der-schael-sick-zum-draussen-trinken/"
+      ]
+    }
+  ],
+  "notes_ko": "[범위] 새 지역 muelheim-kalk(뮐하임: 코이프슈트라세·뮐하이머 프라이하이트·도이츠-뮐하이머 슈트라세·Wiener Platz 주변, 칼크: 칼커 하웁트슈트라세·칼크 우체국 주변)과 deutz-messe 보강. WebSearch 32회(한도 전부 사용), WebFetch 없음. 구글 수치는 모두 wanderlog.com 장소·목록 페이지(검색 결과 요약)에서 가져왔고, 같은 페이지의 두 번째 점수(대개 트립어드바이저)는 쓰지 않았다. google_as_of는 스냅숏 날짜가 없어 모두 null.\n\n[결과] 기준 충족 25곳 — muelheim-kalk 20곳, deutz-messe 5곳.\n- 코이프슈트라세(터키 거리): Büyük Harran Doy Doy(40번지, 4.4/6,142 — 기존 후보였는데 주소가 밝혀져 승격, 아이겔슈타인으로 잘못 적혀 있던 지역을 muelheim-kalk로 바로잡음), Künefem Damla(92, 퀴네페 4.5/624), Damla Keupstraße(82, 4.3/801), Cigköftem(80, 비건 치쾨프테 4.6/333). 기존 본 목록의 Kilim Restaurant(69)과 함께 '코이프슈트라세 한 바퀴' 동선이 된다.\n- 뮐하임: Gilden Brauhaus(4.6/3,939), Scampino(라인강변 해산물 4.5/1,369), Café Vreiheit(4.5/1,350), Café Jakubowski(4.4/1,217), Localino(비건 피자 4.3/917), HaldiSpoon(인도 길거리 음식 4.8/893), Tomoki(베트남·스시 4.7/510), Ristorante D'Amore(나폴리 피자 4.7/425), Van Dyck Mülheim(로스터리 4.8/265), Radix & Anima(커피·내추럴 와인 4.9/185).\n- 칼크: Brauwelt Köln (Kalk)(옛 쥔너 양조장 4.3/2,423 — 기존 후보 승격), Trash-Chic(채식 크나이페 4.6/1,329), Bhasin(인도 4.7/837), Nobiko(비건 우동 4.8/825), Villa Kalka(카페 4.8/582), Blauer König(독일 가정식 4.5/474).\n- 도이츠: Haus Zeyen(4.7/1,124), Restaurant Diana(이탈리안 4.4/905, 2024년 말 스냅숏), Villa Mathilde(카페 약 4.6/약 620 — 요약에 근삿값만 나옴), Glashaus Restaurant & Bar (Hyatt Regency Köln)(대성당 뷰 4.4/384 — 기존 후보 승격, 첫 번째 점수를 구글로 봄), KWB im Stadtpalais(옛 목욕탕 4.4/157).\n\n[후보] 기준 미달: Mevlana(3.8/5,070), Feinkonditorei Hasan Özdag(4.0/806), Sion Bräues(4.1/509, 기존 후보 갱신), Nimet Grill(4.1/739, 주소 Kalker Hauptstraße 82-84 확인), bona'me Köln-Deutz(4.1/3,251), PURiNO Köln Mülheim(4.1/1,667). 일시 휴업: Asmali Konak Deluxe(4.5/2,410, 주소 Keupstraße 44-46 확인). 중복 의심: Sticky Fingers Restaurant & Terrasse(하얏트, 4.2/1,694 — 본 목록 Grissini와 리뷰 수가 똑같아 같은 구글 장소일 가능성, 다음 검증 때 Grissini 항목 확인 필요). 그 밖에 Mit Vergnügen에만 나오고 구글 수치를 못 찾은 곳(Banlao, Frizzantino, Hanedan, An Banh Mi, Offenbach, Das Humboldt, Petek Pastanesi 등)은 다음 조사용 리드로 남김. Saana(4.2/2,711)는 요리 종류가 여전히 불명.\n\n[리드에게] (1) 본 목록의 Kilim Restaurant(Keupstraße 69), Enat Äthiopisches Restaurant(Remscheider Straße 45), Limes(Mülheimer Freiheit 150)는 이미 muelheim-kalk로 바뀐 것을 확인했다(다른 에이전트 r8 파일과 겹치는 장소 없음; Konditorei Klüppelberg는 r8-candidates 담당). (2) 'Mülheim'으로 검색하면 restaurantguru가 뮐하임 안 데어 루어(다른 도시) 업소를 섞어 내므로 주의. (3) 코이프슈트라세의 바클라바·라마준 빵집(Kilim Bäckerei, Mosaik, Helvaci Ali)과 칼크 카페(Bambule, Music Store Café, Rotkehlchen Kalk)는 Wanderlog에서 수치를 못 찾았다.\n\n[주요 출처] https://wanderlog.com/list/geoCategory/779752/best-turkish-foods-and-restaurants-in-cologne · https://koeln.mitvergnuegen.com/2025/restaurants-schael-sick/ · https://koeln.mitvergnuegen.com/2026/restaurants-muelheim/ · https://koeln.mitvergnuegen.com/2025/restaurants-kalk/ · https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/ · https://koeln.mitvergnuegen.com/2025/bars-kneipen-schael-sick/ · https://koeln.mitvergnuegen.com/2025/restaurants-deutz/ · https://koeln.mitvergnuegen.com/2025/italienisch-schael-sick/ · https://koeln.mitvergnuegen.com/2025/asiatisch-schael-sick/ · https://koeln.mitvergnuegen.com/2021/keupstrasse/"
+}

@@ -1,0 +1,1704 @@
+{
+ "agent": "r8-ehrenfeld-agnes",
+ "generated": "2026-11-07",
+ "schema": "v2",
+ "scope": "Round 8 — more places in Ehrenfeld (Venloer Str., Körnerstr., Neuehrenfeld, Helios) and Agnesviertel-Eigelstein (Neusser Str. south, Eigelstein, Ebertplatz, Weidengasse, Neustadt-Nord); re-check of earlier candidates in both areas",
+ "places": [
+  {
+   "name": "Brauhaus Stüsser",
+   "category": "brauhaus",
+   "area": "agnesviertel-eigelstein",
+   "address": "Neusser Str. 47, 50670 Köln",
+   "cuisine": "Traditional Brauhaus-style Kölsch pub-restaurant (since 1920) with Rhineland classics — schnitzel, Himmel un Ääd, Metzgerbratwurst",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "rhineland-classics",
+    "schnitzel"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "이번 조사에서 메뉴 가격 미확인 — 리뷰에는 '양이 푸짐하다'는 평이 많음",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 863,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (From Google 4.5 / 863); Tripadvisor 4.0 / 53은 별도",
+   "summary_ko": "아그네스 지구 노이서 슈트라세에 있는 1920년 무렵부터 이어온 브라우하우스풍 쾰시 술집 겸 식당으로, 옛 사진이 걸린 실내가 정겹다. 버섯 소스 슈니첼, 메츠거브라트부르스트(정육점식 소시지)와 감자, 힘멜 운 애드(사과·감자 퓌레와 선지 소시지) 같은 라인란트 향토 요리를 푸짐하게 내 관광지 브라우하우스보다 동네 분위기를 느끼기 좋다.",
+   "must_try": [
+    "Schnitzel mit Champignonrahmsoße (버섯 크림소스 슈니첼)",
+    "Metzgerbratwurst mit Bratkartoffeln (정육점식 소시지와 감자구이)",
+    "Himmel un Ääd (힘멜 운 애드 — 사과·감자 퓌레와 블루트부르스트)"
+   ],
+   "tips_ko": "에버트플라츠(Ebertplatz) 역에서 북쪽으로 걸어서 몇 분 거리. 저녁엔 동네 손님으로 붐비니 여럿이면 전화(+49 221 27075858)로 자리를 확인할 것. 직원이 불친절했다는 후기도 한 건 있음. 영업시간은 이번 조사에서 미확인.",
+   "website": "https://brauhaus-stuesser-koeln.de/",
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1537088/brauhaus-st%C3%BCsser",
+    "https://wanderlog.com/list/geoCategory/1572657/les-meilleures-brasseries-%C3%A0-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "brauhaus"
+  },
+  {
+   "name": "Mangal Restaurant",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Weidengasse 62, 50668 Köln",
+   "cuisine": "Turkish grill restaurant — grilled meat and chicken skewers (kebab)",
+   "cuisine_country": [
+    "TR"
+   ],
+   "dishes": [
+    "grill",
+    "kebab"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "family"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite",
+    "lively"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인 — 리뷰에 '가격이 조금 비싸지만 음식 질과 서비스가 그만한 값을 한다'는 평",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 3899,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.3 / 3,899); Wanderlog 'best Turkish' 목록 스냅숏은 4,014건",
+   "summary_ko": "'쾰른의 리틀 이스탄불'로 불리는 바이덴가세(Weidengasse)의 대표 터키식 그릴 레스토랑으로, 구글 리뷰가 4,000건 가까이 쌓인 동네 간판집이다. 숯불 향 나는 고기 요리, 특히 닭꼬치(타북 시시)가 호평이라 중앙역 북쪽에서 든든한 터키식 저녁을 먹기 좋다.",
+   "must_try": [
+    "Tavuk Şiş (닭고기 꼬치구이 — 리뷰 추천)",
+    "Karışık Izgara (모둠 그릴)"
+   ],
+   "tips_ko": "중앙역 북쪽 출구에서 아이겔슈타인 방향으로 걸어서 약 10분. 같은 거리의 Mangal Döner(x Lukas Podolski, 구글 3.6)·Mangal Burger(폐업)와는 다른 가게이니 이름을 확인할 것. 가격은 주변 임비스보다 조금 높다는 후기.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3077331/mangal-restaurant",
+    "https://wanderlog.com/list/geoCategory/779752/best-turkish-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "grill"
+  },
+  {
+   "name": "Adana Et Restaurant",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Weidengasse 42-44, 50668 Köln",
+   "cuisine": "Turkish grill restaurant — Adana kebab and grilled meat, open late",
+   "cuisine_country": [
+    "TR"
+   ],
+   "dishes": [
+    "grill",
+    "kebab"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner",
+    "late-night"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.2,
+   "google_reviews": 1592,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.2 / 1,592)",
+   "summary_ko": "바이덴가세의 터키식 고기구이 레스토랑으로, 이름 그대로 아다나 케밥(매콤한 다진 고기 꼬치)과 그릴 고기를 내세운다. Wanderlog의 쾰른 터키 음식 목록에 오른 곳이고 늦게까지 문을 열어 늦은 저녁 식사에 쓸모가 있다.",
+   "must_try": [
+    "Adana Kebap (아다나 케밥 — 매콤한 다진 양·소고기 꼬치구이)"
+   ],
+   "tips_ko": "구글 4.2로 이 가이드 기준선에 딱 걸리는 곳이니 바로 옆 Mangal Restaurant(4.3)·Öz Harran Doy Doy와 비교해 고를 것. 같은 42–44번지의 터키 빵집 Pak Firini는 Wanderlog에 폐업으로 표시됨.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3978752/adana-et-restaurant",
+    "https://wanderlog.com/list/geoCategory/779752/best-turkish-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "grill"
+  },
+  {
+   "name": "Haus des Döners",
+   "category": "streetfood",
+   "area": "agnesviertel-eigelstein",
+   "address": "Weidengasse 35, 50668 Köln",
+   "cuisine": "Döner kebab Imbiss with seating",
+   "cuisine_country": [
+    "TR"
+   ],
+   "dishes": [
+    "kebab"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "quick",
+    "solo"
+   ],
+   "features": [
+    "takeaway"
+   ],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "walk-in",
+   "payment": "unknown",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note": "되너 임비스 — 구체 가격은 미확인(일반적인 쾰른 되너 가격대로 추정, 메뉴판 미확인)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 675,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.4 / 675)",
+   "summary_ko": "바이덴가세의 되너 케밥 전문 임비스로, 음식과 직원 모두 칭찬받고 가게가 깨끗하며 안에 앉을 자리도 넉넉하다는 후기가 많다. 중앙역·아이겔슈타인 근처에서 빠르고 싸게 한 끼를 해결하기 좋다.",
+   "must_try": [
+    "Döner im Brot (빵에 넣은 되너 케밥)",
+    "Dürüm (얇은 빵에 만 되너 롤)"
+   ],
+   "tips_ko": "포장도 되고 매장에서 먹을 수도 있다. 영업시간·결제 방식은 이번 조사에서 미확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/10108202/haus-des-d%C3%B6ners"
+   ],
+   "confidence": "medium",
+   "style_hint": "kebab"
+  },
+  {
+   "name": "Hoai Viet",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Weidengasse 68, 50668 Köln",
+   "cuisine": "Vietnamese restaurant — noodle soups and rice dishes, casual",
+   "cuisine_country": [
+    "VN"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "quick",
+    "solo"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인 — 리뷰상 '신선하고 저렴하다'",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 416,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 416)",
+   "summary_ko": "터키 식당이 늘어선 바이덴가세 한쪽의 베트남 식당으로, 음식이 신선하고 값이 싸다는 평이 많다. 메뉴 표기가 분명하고 영어 번역도 있어 처음 가도 주문하기 쉽다.",
+   "must_try": [
+    "Phở (쌀국수)"
+   ],
+   "tips_ko": "중앙역 북쪽에서 걸어서 약 10분. 세부 메뉴·영업시간은 이번 조사에서 미확인 — 방문 전 구글 지도 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://extensionembed.wanderlog.com/place/details/3638952/hoai-viet",
+    "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Kumpir Haus Ehrenfeld",
+   "category": "streetfood",
+   "area": "ehrenfeld",
+   "address": "Venloer Straße 378, 50825 Köln",
+   "cuisine": "Turkish kumpir (stuffed baked potato) street food, run by women, with vegetarian and vegan options",
+   "cuisine_country": [
+    "TR"
+   ],
+   "dishes": [],
+   "diet": [
+    "vegetarian",
+    "vegan"
+   ],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "quick",
+    "solo"
+   ],
+   "features": [
+    "takeaway"
+   ],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "walk-in",
+   "payment": "unknown",
+   "price_level": 1,
+   "price_pp": {
+    "min": 10,
+    "max": 20
+   },
+   "price_note": "Restaurant Guru 1인 €10–20 표기(쿰피르 1개 기준이면 €15 이하일 가능성) — 메뉴판 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 588,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.8 / 588); Restaurant Guru 자체 점수 4.6 / 644는 구글 아님",
+   "summary_ko": "에렌펠트 역 근처 벤로어 슈트라세의 쿰피르(속을 채운 통감자구이) 전문점으로, 여성들이 운영하며 직접 만든 토핑을 듬뿍 얹은 전통식 쿰피르를 낸다. 채식·비건 선택지가 있고 구글 4.8의 높은 평점이라 에렌펠트 산책 중 가볍고 든든한 한 끼로 좋다.",
+   "must_try": [
+    "Kumpir (쿰피르 — 버터·치즈로 으깬 통감자에 토핑을 골라 얹는 터키식 감자구이)"
+   ],
+   "tips_ko": "같은 거리 274번지의 Eat Kumpir(가이드 수록)와는 다른 가게다. 포장 가능. 우편번호는 바로 옆 380번지(50825) 기준.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/10116148/kumpir-haus-ehrenfeld",
+    "https://restaurantguru.com/Kumpir-Haus-Ehrenfeld-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "streetfood"
+  },
+  {
+   "name": "cafecafe",
+   "category": "cafe",
+   "area": "ehrenfeld",
+   "address": "Venloer Str. 206, 50823 Köln",
+   "cuisine": "Breakfast and brunch café",
+   "cuisine_country": [],
+   "dishes": [
+    "brunch-plates",
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "brunch"
+   ],
+   "occasions": [
+    "solo"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 642,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.4 / 642; 별도 4.5 / 23은 다른 포털)",
+   "summary_ko": "에렌펠트 초입 벤로어 슈트라세의 아침·브런치 카페로, 구글 리뷰 600건 이상에 4.4를 받는 동네 브런치 집이다. 에렌펠트 거리 구경을 시작하기 전 아침을 먹기 좋은 위치다.",
+   "must_try": [
+    "Frühstück / Brunch (아침·브런치 메뉴)"
+   ],
+   "tips_ko": "서비스는 들쭉날쭉하다는 후기가 있다. 주말 브런치 시간엔 붐빌 수 있음. 바로 옆 202번지에 빵집 겸 카페 Die Mehlwerkstatt가 있다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3263109/cafecafe-ehrenfeld-k%C3%B6ln",
+    "https://wanderlog.com/list/geoCategory/10013/best-breakfast-and-brunch-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "brunch"
+  },
+  {
+   "name": "Café Rotkehlchen",
+   "category": "cafe",
+   "area": "ehrenfeld",
+   "address": "Venloer Str. 400, 50825 Köln",
+   "cuisine": "Neighbourhood café and brunch spot (Ehrenfeld branch; a second branch in the Südstadt)",
+   "cuisine_country": [],
+   "dishes": [
+    "brunch-plates",
+    "coffee",
+    "cake"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "brunch"
+   ],
+   "occasions": [
+    "solo",
+    "date"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 1026,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.6 / 1,026); Wanderlog 목록 스냅숏 4.7 / 963",
+   "summary_ko": "에렌펠트 역 근처 벤로어 슈트라세의 동네 카페로, 구글 리뷰 1,000건이 넘는데도 4.6을 지키는 에렌펠트 대표 브런치 카페다. 아침·브런치와 커피, 케이크로 하루를 시작하기 좋다.",
+   "must_try": [
+    "Frühstück / Brunch (아침·브런치 메뉴)"
+   ],
+   "tips_ko": "쥐트슈타트에도 같은 이름의 지점(Café Rotkehlchen Südstadt, 구글 4.5)이 있으니 헷갈리지 말 것. 주말 오전엔 자리가 빨리 찬다. 세부 메뉴·영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1164946/caf%C3%A9-rotkehlchen",
+    "https://wanderlog.com/list/geoCategory/17153/best-coffee-shops-and-best-cafes-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  },
+  {
+   "name": "Die Mehlwerkstatt",
+   "category": "bakery",
+   "area": "ehrenfeld",
+   "address": "Venloer Straße 202, 50823 Köln",
+   "cuisine": "Bakery-café (coffee shop, bakery and café)",
+   "cuisine_country": [],
+   "dishes": [
+    "bread-pastry",
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "brunch"
+   ],
+   "occasions": [
+    "quick",
+    "solo"
+   ],
+   "features": [
+    "takeaway"
+   ],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "walk-in",
+   "payment": "unknown",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note": "빵집 겸 카페 — 구체 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 1939,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 목록 스냅숏 (Google 4.5 / 1,939); 장소 페이지 4.7 / 1,869 (별도 4.0 / 50은 다른 포털)",
+   "summary_ko": "에렌펠트 초입 벤로어 슈트라세 202번지의 빵집 겸 카페로, 구글 리뷰가 2,000건 가까이 쌓인 인기 베이커리다. 갓 구운 빵과 커피로 아침을 먹거나 빵을 사 가기 좋다.",
+   "must_try": [
+    "Croissant & Kaffee (크루아상과 커피)",
+    "Sauerteigbrot (사워도우 빵)"
+   ],
+   "tips_ko": "예전 후보 'Zeit für Brot'가 있던 주소(Venloer Str. 202)와 같다 — 현장 간판은 Die Mehlwerkstatt로 확인할 것. 바로 옆 206번지가 브런치 카페 cafecafe.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1326802/die-mehlwerkstatt",
+    "https://wanderlog.com/list/geoCategory/10013/breakfast-and-brunch",
+    "https://www.werkenntdenbesten.de/baeckerei/koeln"
+   ],
+   "confidence": "medium",
+   "style_hint": "bakery"
+  },
+  {
+   "name": "Ain Café",
+   "category": "cafe",
+   "area": "ehrenfeld",
+   "address": "Venloer Straße 374, 50825 Köln",
+   "cuisine": "Café",
+   "cuisine_country": [],
+   "dishes": [
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "brunch"
+   ],
+   "occasions": [
+    "solo"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 262,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 목록 스냅숏 (Google 4.7 / 262); 장소 페이지 4.7 / 239",
+   "summary_ko": "에렌펠트 역 근처 벤로어 슈트라세 374번지의 카페로, 구글 4.7의 높은 평점을 받는다. 바로 옆 Kumpir Haus·Café Caprista와 묶어 에렌펠트 역 주변에서 쉬어 가기 좋다.",
+   "must_try": [],
+   "tips_ko": "이번 조사에서 메뉴·영업시간은 확인하지 못함 — 방문 전 구글 지도 확인. 우편번호는 인접 380번지(50825) 기준.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/7405013/ain-caf%C3%A9",
+    "https://wanderlog.com/list/geoCategory/17153/best-coffee-shops-and-best-cafes-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  },
+  {
+   "name": "Brot, Wein, Fisch und..",
+   "category": "restaurant",
+   "area": "ehrenfeld",
+   "address": "Venloer Str. 393a, 50825 Köln",
+   "cuisine": "Small fish bistro — grilled fish, fish sandwiches, fish soup, monkfish risotto, with wine",
+   "cuisine_country": [],
+   "dishes": [
+    "seafood",
+    "sandwiches"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "date",
+    "solo"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "hidden-gem"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 2,
+   "price_pp": {
+    "min": 20,
+    "max": 30
+   },
+   "price_note": "Restaurant Guru 1인 €20–30 표기 — 메뉴판 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.9,
+   "google_reviews": 211,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.9 / 211); Restaurant Guru 자체 점수 4.8 / 366은 구글 아님",
+   "summary_ko": "에렌펠트 역 바로 앞 벤로어 슈트라세의 작은 생선 비스트로로, 고기 대신 숯불·그릴 생선에 집중해 생선 샌드위치, 생선 수프, 아귀(Seeteufel) 리조또 같은 메뉴를 와인과 함께 낸다. 구글 4.9로 평점이 매우 높아 케밥·임비스가 많은 이 거리에서 색다른 한 끼를 원할 때 좋다.",
+   "must_try": [
+    "Fischbrötchen / Fisch-Sandwich (생선 샌드위치)",
+    "Fischsuppe (생선 수프)",
+    "Seeteufel-Risotto (아귀 리조또)"
+   ],
+   "tips_ko": "작은 가게라 저녁엔 미리 전화(+49 1573 8144202)로 자리를 확인하는 편이 안전하다. 영업시간·결제 방식은 이번 조사에서 미확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/12146717/brot-wein-fisch-und",
+    "https://restaurantguru.com/Brot-Wein-Fisch-und-Cologne",
+    "https://wanderlog.com/list/geoCategory/81411/best-seafood-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "bistro"
+  },
+  {
+   "name": "WALLCZKA",
+   "category": "restaurant",
+   "area": "ehrenfeld",
+   "address": "Subbelrather Straße 295, 50825 Köln",
+   "cuisine": "Café-restaurant-bar — lunch, afternoon cakes, evening mezze; oriental-European fusion with Polish touches, many vegetarian/vegan dishes",
+   "cuisine_country": [
+    "INT",
+    "PL"
+   ],
+   "dishes": [
+    "mezze",
+    "cake"
+   ],
+   "diet": [
+    "vegetarian",
+    "vegan"
+   ],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "date",
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "card",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 1380,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 목록 스냅숏 (Google 4.6 / 1,380); 장소 페이지 4.6 / 1,254 (별도 4.0 / 47은 다른 포털)",
+   "summary_ko": "노이에렌펠트·에렌펠트 경계 주벨라터 슈트라세의 카페 겸 레스토랑 겸 바로, 점심엔 식사, 오후엔 케이크, 저녁엔 메제(작은 접시 요리)를 낸다. 동양·유럽 퓨전에 사우어크라우트 라비올리 같은 폴란드식 요리가 섞이고 채식·비건 메뉴가 많아, 구글 리뷰 1,300건 이상에 4.6을 받는 동네 인기집이다.",
+   "must_try": [
+    "Mezze (저녁 메제 모둠)",
+    "Sauerkraut-Ravioli (사우어크라우트 라비올리 — 폴란드식)"
+   ],
+   "tips_ko": "koeln.de 기준 카드 결제만 받는다(현금 불가). 평일 대부분 정오 무렵 열고 월·화는 늦게 연다고 나오니 방문 전 확인. 맛이 들쭉날쭉하다는 후기도 있다. 전화 +49 221 29842156.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1326788/wallczka",
+    "https://www.koeln.de/leben/ll/beliebte-restaurants-in-koeln-ehrenfeld/wallczka",
+    "https://willkommen.koelntourismus.de/en/gastro/wallczka",
+    "https://web2.cylex.de/firma-home/wallczka-12712610.html"
+   ],
+   "confidence": "medium",
+   "style_hint": "sharing"
+  },
+  {
+   "name": "Reefhouse",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Eigelstein 72, 50668 Köln",
+   "cuisine": "Seafood restaurant — fish and seafood, unpretentious",
+   "cuisine_country": [],
+   "dishes": [
+    "seafood"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "date",
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "hidden-gem"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 299,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (From Google 4.8 / 299; 별도 4.0 / 6은 다른 포털)",
+   "summary_ko": "아이겔슈타인 거리의 해산물 레스토랑으로, 인테리어는 수수하지만 해산물 맛은 최상급이라는 평이 많다. 구글 4.8의 높은 평점이라 중앙역 북쪽에서 생선·해산물 저녁을 먹고 싶을 때 좋은 선택이다.",
+   "must_try": [],
+   "tips_ko": "영어 메뉴가 없을 수 있다는 후기 — 번역 앱을 준비할 것. 직원이 친절하다는 평. 바로 옆 74번지가 크나이페 Weinhaus Vogel. 영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3462754/reefhouse",
+    "https://wanderlog.com/list/geoCategory/81411/best-seafood-restaurants-in-cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Lapidarium",
+   "category": "kneipe",
+   "area": "agnesviertel-eigelstein",
+   "address": "Eigelstein 118, 50668 Köln",
+   "cuisine": "Café-bar-Kneipe with German food and local beers",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "cash-only",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 517,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.4 / 517)",
+   "summary_ko": "아이겔슈타인 거리 북쪽 끝(아이겔슈타인 성문 근처)의 카페 겸 바 겸 크나이페로, 독일 음식과 쾰른 지역 맥주를 낸다. 관광객보다 동네 손님이 많은 편안한 곳이라 아이겔슈타인 산책 끝에 한잔하기 좋다.",
+   "must_try": [
+    "Kölsch (쾰시)"
+   ],
+   "tips_ko": "신용카드·EC카드를 받지 않는다는 후기 — 현금을 챙길 것. 영업시간·음식 메뉴는 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/7796843/lapidarium"
+   ],
+   "confidence": "medium",
+   "style_hint": "kneipe"
+  },
+  {
+   "name": "Weinhaus Vogel",
+   "category": "kneipe",
+   "area": "agnesviertel-eigelstein",
+   "address": "Eigelstein 74, 50668 Köln",
+   "cuisine": "Traditional Kölsch Kneipe / gastropub with hearty German food",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "Wanderlog '쾰른 저렴한 맛집(cheap eats)' 목록에 오름 — 메뉴판 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 1539,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.3 / 1,539; 별도 4.0 / 193은 다른 포털)",
+   "summary_ko": "아이겔슈타인 거리의 오래된 쾰시 크나이페 겸 식당(가스트로펍)으로, 한 리뷰어가 '훌륭한 독일 식당'이라 부를 만큼 음식도 평이 좋다. 구글 리뷰 1,500건 이상에 4.3, Wanderlog '저렴한 맛집' 목록에도 올라 부담 없이 쾰른식 술집 분위기를 느끼기 좋다.",
+   "must_try": [
+    "Kölsch vom Fass (생 쾰시)"
+   ],
+   "tips_ko": "이전 라운드 후보(수치 미확인)였던 곳을 이번에 구글 수치로 확인. 중앙역 북쪽 출구에서 걸어서 약 5–10분. 영업시간·대표 메뉴는 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3555697/weinhaus-vogel",
+    "https://wanderlog.com/list/geoCategory/20723/best-cheap-eats-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "kneipe"
+  },
+  {
+   "name": "Reispapier",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Neusser Str. 24, 50670 Köln",
+   "cuisine": "Vietnamese restaurant run by two sisters from Hanoi — pho, summer rolls, banh mi, bun bo nam bo",
+   "cuisine_country": [
+    "VN"
+   ],
+   "dishes": [
+    "pho",
+    "banh-mi",
+    "noodles"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "solo",
+    "date"
+   ],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 276,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.3 / 276)",
+   "summary_ko": "아그네스 지구 노이서 슈트라세 초입의 아늑한 베트남 식당으로, 하노이에서 자란 두 자매가 운영한다. 소고기 쌀국수, 월남쌈, 반미, 분보남보(비빔 쌀국수)가 대표 메뉴라 에버트플라츠 근처에서 가볍고 따뜻한 한 끼로 좋다.",
+   "must_try": [
+    "Phở Bò (소고기 쌀국수)",
+    "Bún Bò Nam Bộ (분보남보 — 소고기 비빔 쌀국수)",
+    "Sommerrollen (월남쌈)"
+   ],
+   "tips_ko": "야외석이 있다(겨울엔 실내 위주). Wanderlog 쾰른 베트남 음식 목록 20위권. 영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne",
+    "https://wanderlog.com/list/geoCategory/1820358/best-spots-for-pho-in-cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Restaurant Ngon Ngon",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Maybachstraße 152, 50670 Köln",
+   "cuisine": "Vietnamese restaurant — generous portions, many vegan dishes (vegan prawns)",
+   "cuisine_country": [
+    "VN"
+   ],
+   "dishes": [
+    "noodles"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian"
+   ],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "family"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인 — 리뷰상 양이 푸짐함",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 966,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 'best Vietnamese' 목록 (Agnes 지구 항목, Google 4.4 / 966); 장소 페이지 4.4 / 961",
+   "summary_ko": "노이슈타트-노르트(아그네스 지구 서쪽) 마이바흐슈트라세의 베트남 식당으로, 양이 넉넉하고 비건 메뉴가 특히 인기다. 비건 새우 요리가 강력 추천 메뉴로 꼽혀 채식 동행이 있을 때 좋다.",
+   "must_try": [
+    "Vegane Garnelen (비건 새우 요리 — 리뷰 추천)"
+   ],
+   "tips_ko": "쥘피허 쪽 호엔슈타우펜링 15번지의 'Ngon Ngon 1970s'(구글 4.4 / 742)는 다른 가게다. 한자링(Hansaring) S반 역에서 가깝다. 영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Moselstübchen",
+   "category": "restaurant",
+   "area": "ehrenfeld",
+   "address": "Landmannstraße 3, 50825 Köln",
+   "cuisine": "Traditional Cologne Gaststätte — home-style Rhineland cooking, most dishes also available vegan at no extra charge",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian"
+   ],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "family"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 482,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.7 / 482)",
+   "summary_ko": "노이에렌펠트 란트만슈트라세의 전통 쾰른 가정식 식당으로, 셰프 팀(Tim)이 대부분의 요리를 추가 요금 없이 비건 버전으로도 만들어 준다. 구글 4.7의 높은 평점이라, 채식 동행과 함께 쾰른 향토 요리를 맛보고 싶을 때 특히 좋다.",
+   "must_try": [
+    "Rheinische Hausmannskost (라인란트 가정식 — 비건 버전 가능)"
+   ],
+   "tips_ko": "바로 맞은편 4번지가 조지아 식당 Maspinzelo(가이드 수록). 작은 동네 식당이라 저녁엔 예약하는 편이 안전하다. 영업시간·메뉴는 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/8759546/moselst%C3%BCbchen",
+    "https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/"
+   ],
+   "confidence": "medium",
+   "style_hint": "gasthaus"
+  },
+  {
+   "name": "Restaurant Pöttgen",
+   "category": "restaurant",
+   "area": "ehrenfeld",
+   "address": "Landmannstraße 19, 50825 Köln",
+   "cuisine": "Traditional German Gasthaus — rustic home cooking, family-run in its fourth generation",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "rhineland-classics",
+    "schnitzel"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "family"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 487,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 487; 별도 4.5 / 35는 다른 포털)",
+   "summary_ko": "노이에렌펠트 란트만슈트라세의 전통 독일 식당으로, 볼프강 푀트겐(Wolfgang Pöttgen)이 4대째 이어 운영하는 동네 노포다. 소박하지만 푸짐한 독일 가정식을 내 관광지 밖에서 쾰른 사람들의 단골집 분위기를 느끼기 좋다.",
+   "must_try": [
+    "Schnitzel (슈니첼)",
+    "Kölsch (쾰시)"
+   ],
+   "tips_ko": "같은 거리 3번지 Moselstübchen, 4번지 Maspinzelo와 함께 란트만슈트라세 맛집 골목을 이룬다. 동네 단골이 많아 저녁엔 예약 권장. 영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1478408/restaurant-p%C3%B6ttgen",
+    "https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/"
+   ],
+   "confidence": "medium",
+   "style_hint": "gasthaus"
+  },
+  {
+   "name": "Stickel Restaurant",
+   "category": "restaurant",
+   "area": "ehrenfeld",
+   "address": "Simarplatz 10, 50825 Köln",
+   "cuisine": "Neighbourhood restaurant and wine bar with terrace (successor of the former Maifeld)",
+   "cuisine_country": [
+    "INT"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "date"
+   ],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [
+    "wine-list"
+   ],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 151,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 151)",
+   "summary_ko": "노이에렌펠트 시마르플라츠(Simarplatz)의 레스토랑 겸 와인바로, 동네 인기집이던 Maifeld가 문을 닫은 자리에 들어섰다. 와인과 함께 저녁을 즐기기 좋은 곳이라 데이트나 조용한 저녁 식사에 어울린다.",
+   "must_try": [],
+   "tips_ko": "테라스는 따뜻한 계절용. 메뉴·영업시간은 이번 조사에서 미확인 — 방문 전 확인하고 저녁엔 예약 권장.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/4112896/stickel-restaurant",
+    "https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Café Elefant Agnesviertel",
+   "category": "cafe",
+   "area": "agnesviertel-eigelstein",
+   "address": "Weißenburgstraße 50, 50670 Köln",
+   "cuisine": "Neighbourhood café",
+   "cuisine_country": [],
+   "dishes": [
+    "coffee",
+    "cake"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "brunch"
+   ],
+   "occasions": [
+    "solo"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 748,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (첫 평점 4.8 / 748 = Google; 4.0 / 33은 다른 포털)",
+   "summary_ko": "아그네스 지구 바이센부르크슈트라세의 동네 카페로, 구글 리뷰 700건 이상에 4.8이라는 매우 높은 평점을 받는다. 아그네스 교회(St. Agnes) 주변을 산책하다 커피와 케이크로 쉬어 가기 좋다.",
+   "must_try": [],
+   "tips_ko": "같은 이름의 다른 지점과 헷갈리지 않도록 'Agnesviertel' 지점인지 확인할 것. 메뉴·영업시간은 이번 조사에서 미확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/9554913"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  },
+  {
+   "name": "Herbrand's",
+   "category": "restaurant",
+   "area": "ehrenfeld",
+   "address": "Herbrandstraße 21, 50825 Köln",
+   "cuisine": "Restaurant with large beer garden, club and event hall in a former wagon factory",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner",
+    "late-night"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [
+    "beer-garden",
+    "terrace"
+   ],
+   "drinks": [],
+   "vibe": [
+    "lively",
+    "trendy"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.2,
+   "google_reviews": 3466,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소·목록 페이지 (Google 4.2 / 3,287–3,487, 스냅숏마다 다름); 별도 3.0 / 76은 다른 포털",
+   "summary_ko": "옛 마차(객차) 공장 건물을 쓰는 에렌펠트의 레스토랑 겸 클럽 겸 대형 비어가든으로, 넓고 활기찬 분위기가 특징이다. 구글 리뷰 3,000건 이상에 4.2로, 에렌펠트 클럽·공연장 거리(Heliosgelände 근처)에서 여럿이 먹고 마시기 좋다.",
+   "must_try": [],
+   "tips_ko": "이전 라운드 후보(수치 미확인)였던 곳을 이번에 구글 수치로 확인. 비어가든은 따뜻한 계절 위주라 11–12월엔 실내 레스토랑·행사 위주일 가능성이 크다 — 방문 전 공식 사이트에서 영업·행사 일정을 확인할 것. 전화 +49 221 9541626.",
+   "website": "https://herbrands.de/",
+   "awards": [],
+   "sources": [
+    "https://extensionembed.wanderlog.com/place/details/1506283",
+    "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer",
+    "https://willkommen.koelntourismus.de/en/gastro/herbrands"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Bumann & SOHN",
+   "category": "bar",
+   "area": "ehrenfeld",
+   "address": "Bartholomäus-Schink-Straße 2, 50825 Köln",
+   "cuisine": "Bar and beer garden — craft cocktails, German beers, DJ nights and live music on weekends",
+   "cuisine_country": [],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "late-night"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [
+    "beer-garden",
+    "live-music"
+   ],
+   "drinks": [
+    "cocktails"
+   ],
+   "vibe": [
+    "lively",
+    "trendy"
+   ],
+   "reservation": "walk-in",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "음료 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.2,
+   "google_reviews": 1604,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.2 / 1,604; 목록 스냅숏은 최대 1,760건)",
+   "summary_ko": "에렌펠트의 바 겸 비어가든으로, 창의적인 수제 칵테일과 독일 맥주를 내고 주말엔 DJ 파티와 라이브 공연이 열린다. 구글 리뷰 1,600건 이상에 4.2라 에렌펠트 밤 나들이의 시작점으로 좋다.",
+   "must_try": [],
+   "tips_ko": "이전 라운드 후보(수치 미확인)였던 곳을 이번에 구글 수치로 확인. 비어가든은 겨울엔 축소 운영일 수 있으니 방문 전 확인. 주말 밤엔 붐빈다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1561781/bumann--sohn",
+    "https://wanderlog.com/list/geoCategory/11798/best-cologne-breweries-and-craft-beer"
+   ],
+   "confidence": "medium",
+   "style_hint": "bar"
+  },
+  {
+   "name": "Sant' Angelo - Trattoria & Bar",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Aquinostraße 1a, 50670 Köln",
+   "cuisine": "Italian trattoria and bar — generous pasta portions, outdoor seating",
+   "cuisine_country": [
+    "IT"
+   ],
+   "dishes": [
+    "pasta",
+    "pizza"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "date"
+   ],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [
+    "wine-list"
+   ],
+   "vibe": [
+    "local-favorite",
+    "lively"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 571,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.6 / 571)",
+   "summary_ko": "아그네스 지구(노이슈타트-노르트) 아퀴노슈트라세의 이탈리아 트라토리아 겸 바로, 파스타 양이 넉넉하기로 Mit Vergnügen '아그네스 지구 맛집 21'에 꼽혔다. 구글 4.6에 야외석도 있어 동네 이탈리안 저녁으로 좋다.",
+   "must_try": [
+    "Pasta (파스타 — 큰 1인분이 특징)"
+   ],
+   "tips_ko": "koeln.de 기준 주방은 12:00–22:30. 시끄럽고 서비스가 가끔 늦다는 후기가 있다. 전화 0221 731653. koeln.de에는 'Bar Trattoria Sant Angelo'(와인 레스토랑·야외석)로 등록돼 있다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/9800970/sant-angelo-trattoria--bar",
+    "https://branchen.koeln.de/gastro/eintrag/12358/weinlokal/bar-trattoria-sant-angelo",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/sant_angelo",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-agnesviertel"
+   ],
+   "confidence": "medium",
+   "style_hint": "trattoria"
+  },
+  {
+   "name": "Salera Tapas y mas",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Balthasarstraße 1, 50670 Köln",
+   "cuisine": "Spanish tapas restaurant",
+   "cuisine_country": [
+    "ES"
+   ],
+   "dishes": [
+    "tapas"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "date",
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 572,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소·목록 페이지 (Google 4.7 / 561–573, 스냅숏마다 다름)",
+   "summary_ko": "아그네스 지구 발타자르슈트라세의 스페인 타파스 레스토랑으로, 구글 리뷰 500여 건에 4.7의 높은 평점을 받는다. 여러 타파스를 나눠 먹으며 와인 한잔하는 저녁에 잘 맞는다.",
+   "must_try": [
+    "Tapas (타파스 모둠)"
+   ],
+   "tips_ko": "Mit Vergnügen(2025) 기준 수–일 18:00–24:00 영업(옛 정보라 방문 전 확인). 같은 거리 53번지가 가이드 수록 크나이페 Zum Goldenen Kegel. 저녁엔 예약 권장.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/10428129/salera-tapas-y-mas",
+    "https://wanderlog.com/list/geoCategory/1825451/best-places-for-tapas-in-cologne",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-spanisch-essen/",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-agnesviertel"
+   ],
+   "confidence": "medium",
+   "style_hint": "tapas"
+  },
+  {
+   "name": "Pizzeria Totò e Peppino 2.0",
+   "category": "restaurant",
+   "area": "agnesviertel-eigelstein",
+   "address": "Hansaring 119, 50670 Köln",
+   "cuisine": "Neapolitan-style pizzeria with wood-fired oven",
+   "cuisine_country": [
+    "IT"
+   ],
+   "dishes": [
+    "pizza"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [
+    "dinner",
+    "late-night"
+   ],
+   "occasions": [
+    "group",
+    "family"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite",
+    "lively"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 1777,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소·목록 페이지 (Google 4.7 / 1,777; 다른 스냅숏 4.8 / 1,740)",
+   "summary_ko": "에버트플라츠 근처 한자링의 화덕 피자집으로, Mit Vergnügen이 아그네스 지구 맛집으로 꼽은 곳이다. 구글 리뷰 1,700건 이상에 4.7이라 아그네스 지구·에버트플라츠 쪽에서 피자를 먹기로 한다면 가장 확실한 선택이다.",
+   "must_try": [
+    "Pizza aus dem Holzofen (화덕 피자)"
+   ],
+   "tips_ko": "Mit Vergnügen 기준 일–목 17–23시, 금·토 17–24시(저녁만 영업). 인기가 많아 주말 저녁엔 예약 권장. 구글 등록명은 'Pizzeria Totò e Peppino 2.0'.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1396313/pizzeria-tot%C3%B2-e-peppino",
+    "https://koeln.mitvergnuegen.com/2024/restaurants-agnesviertel/",
+    "https://wanderlog.com/list/geoCategory/52853/best-italian-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "pizzeria"
+  },
+  {
+   "name": "King Georg",
+   "category": "bar",
+   "area": "agnesviertel-eigelstein",
+   "address": "Sudermanstraße 2, 50670 Köln",
+   "cuisine": "Long-running dance bar / club bar — readings and jazz concerts on weekdays, DJ sets on Saturdays",
+   "cuisine_country": [],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "late-night"
+   ],
+   "occasions": [
+    "group",
+    "date"
+   ],
+   "features": [
+    "live-music"
+   ],
+   "drinks": [],
+   "vibe": [
+    "lively",
+    "local-favorite"
+   ],
+   "reservation": "walk-in",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "음료 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 347,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.5 / 347)",
+   "summary_ko": "에버트플라츠 바로 옆 수더만슈트라세에서 50년 가까이 자리를 지켜온 탄츠바(댄스 바)로, 평일엔 낭독회·재즈 공연, 토요일엔 DJ가 트는 클럽 바로 바뀐다. 근처 칵테일 바 Suderman과 묶어 아그네스 지구 밤 코스로 좋다.",
+   "must_try": [],
+   "tips_ko": "공연·파티 일정은 날마다 다르니 방문 전 프로그램을 확인할 것(공연일엔 입장료가 있을 수 있음). 늦은 밤 위주.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/bars-kneipen-agnesviertel/",
+    "https://koeln.mitvergnuegen.com/2025/tanzbars/",
+    "https://koeln.mitvergnuegen.com/2026/agnesviertel/"
+   ],
+   "confidence": "medium",
+   "style_hint": "bar"
+  },
+  {
+   "name": "Agnesklause",
+   "category": "kneipe",
+   "area": "agnesviertel-eigelstein",
+   "address": "Weißenburgstraße 8A, 50670 Köln",
+   "cuisine": "Neighbourhood Kölsch Kneipe with pinball",
+   "cuisine_country": [],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "late-night"
+   ],
+   "occasions": [
+    "group",
+    "solo"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite",
+    "traditional"
+   ],
+   "reservation": "walk-in",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "음료 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 146,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com 장소 페이지 (Google 4.6 / 146; 별도 3.4 / 8은 다른 포털)",
+   "summary_ko": "아그네스 지구 바이센부르크슈트라세의 전통적인 동네 크나이페로, 핀볼(Flipper) 기계와 맥주가 있는 소박한 단골 술집이다. 구글 4.6으로 평이 좋아 현지인 틈에서 쾰시 한잔하기 좋다.",
+   "must_try": [
+    "Kölsch (쾰시)"
+   ],
+   "tips_ko": "구글 등록명은 'Agnesklause Inh. Oschmann I.'. 현금을 챙겨 가는 편이 안전하다(결제 방식 미확인). 영업시간은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3439428/agnesklause-inh-oschmann-i",
+    "https://koeln.mitvergnuegen.com/2024/bars-kneipen-agnesviertel/"
+   ],
+   "confidence": "medium",
+   "style_hint": "kneipe"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Pak Firini",
+   "area": "agnesviertel-eigelstein",
+   "address": "Weidengasse 42-44, 50668 Köln",
+   "category": "bakery",
+   "reason": "permanently-closed (Wanderlog) + below-criteria (Google 4.5 / 42)",
+   "found": "터키 빵집(라흐마준·수프). Wanderlog가 영구 폐업으로 표시.",
+   "sources": [
+    "https://wanderlog.com/place/details/2637191/pak-firini"
+   ]
+  },
+  {
+   "name": "Mangal Döner x Lukas Podolski",
+   "area": "agnesviertel-eigelstein",
+   "address": "Weidengasse, 50668 Köln (번지 미확인)",
+   "category": "streetfood",
+   "reason": "below-criteria: Google 3.6 / 1,379 (wanderlog)",
+   "found": "바이덴가세의 되너 체인 지점. Mangal Restaurant(62번지)과 다른 가게.",
+   "sources": [
+    "https://wanderlog.com/place/details/3978740/mangal-d%C3%B6ner-x-lukas-podolski"
+   ]
+  },
+  {
+   "name": "Cafe Bohnenfeld",
+   "area": "ehrenfeld",
+   "address": "주소 미확인 (에렌펠트)",
+   "category": "cafe",
+   "reason": "address-missing: Google 4.5 / 135 (wanderlog) meets the bar but no address seen; Wanderlog hours show weekends only",
+   "found": "샥슈카와 커피가 호평인 카페. 영업일이 주말뿐으로 표시됨.",
+   "sources": [
+    "https://wanderlog.com/place/details/11629604/cafe-bohnenfeld"
+   ]
+  },
+  {
+   "name": "Försterstube",
+   "area": "ehrenfeld",
+   "address": "Försterstraße 23, 50823 Köln",
+   "category": "restaurant",
+   "reason": "google-count-missing: Wanderlog rating 4.6 seen but no review count",
+   "found": "Mit Vergnügen 2026 'Neuehrenfeld 21': 110년 넘은 쾰른 노포, 슈니첼로 유명. 리뷰 수만 확인되면 채택 가능.",
+   "sources": [
+    "https://wanderlog.com/place/details/10138973/f%C3%B6rsterstube",
+    "https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/"
+   ]
+  },
+  {
+   "name": "Miyu - Finest Sushi & Asian Cuisine",
+   "area": "ehrenfeld",
+   "address": "Eichendorffstraße 27, 50823 Köln",
+   "category": "restaurant",
+   "reason": "google-average-missing: Wanderlog shows 757 Google reviews (616 five-star) but the average was not in the snippet",
+   "found": "Mit Vergnügen 2026 'Neuehrenfeld 21': 스시 중심의 아시안 퓨전. 평균 평점만 확인되면 채택 가능(5점 비율로 보아 기준 충족 가능성 높지만 추정하지 않음).",
+   "sources": [
+    "https://wanderlog.com/place/details/4369993/miyu-finest-sushi--asian-cuisine-k%C3%B6ln",
+    "https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/"
+   ]
+  },
+  {
+   "name": "Genusseria",
+   "area": "ehrenfeld",
+   "address": "Eichendorffstraße 49, 50825 Köln",
+   "category": "restaurant",
+   "reason": "google-numbers-not-found",
+   "found": "Mit Vergnügen 2026: 나폴리 피자, 매주 월요일 피자 테이스팅. Wanderlog 이름 'Genusseria / Pizza Napoletana & mehr'.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/"
+   ]
+  },
+  {
+   "name": "Tolin",
+   "area": "ehrenfeld",
+   "address": "주소 미확인 (노이에렌펠트)",
+   "category": "restaurant",
+   "reason": "google-numbers-not-found + address-missing",
+   "found": "Mit Vergnügen 2026: Bisu 팀이 만든 이탈리아식 타파스, 테라스.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/"
+   ]
+  },
+  {
+   "name": "Pico Coffee",
+   "area": "agnesviertel-eigelstein",
+   "address": "Neusser Platz, 50670 Köln",
+   "category": "cafe",
+   "reason": "google-numbers-not-found",
+   "found": "노이서 플라츠(아그네스 교회 앞)의 커피 키오스크(Wanderlog).",
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/10013/best-breakfast-and-brunch-in-cologne"
+   ]
+  },
+  {
+   "name": "Anju",
+   "area": "ehrenfeld",
+   "address": "Subbelrather Straße 269, 50825 Köln",
+   "category": "restaurant",
+   "reason": "google-numbers-missing (2026 status now confirmed by Mit Vergnügen)",
+   "found": "Mit Vergnügen 2026 'Neuehrenfeld 21'에 '버거집 자리에 들어선 한국식 타파스(안주)'로 다시 소개 — 2026년 영업 신호. 구글 수치는 여전히 미확인.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2026/restaurants-neuehrenfeld/",
+    "https://koeln.mitvergnuegen.com/2019/anju-koeln/"
+   ]
+  },
+  {
+   "name": "Sternhagel",
+   "area": "agnesviertel-eigelstein",
+   "address": "Krefelder Straße 101, 50670 Köln",
+   "category": "kneipe",
+   "reason": "google-numbers-not-found",
+   "found": "Mit Vergnügen 2024 '아그네스 지구 바·크나이페 11': 펑크 술집, 도펠코프(카드게임)·다트, 매주 화요일 게임의 밤.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/bars-kneipen-agnesviertel/"
+   ]
+  },
+  {
+   "name": "Balthasar im Agnesveedel",
+   "area": "agnesviertel-eigelstein",
+   "address": "Neusser Straße 40, 50670 Köln",
+   "category": "kneipe",
+   "reason": "google-numbers-not-found",
+   "found": "Mit Vergnügen 2024/2026: 아그네스 지구의 전통 크나이페. 벨기에 지구의 카페 'Balthasar'(Aachener Str. 18, 가이드 수록)와 다른 곳.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/bars-kneipen-agnesviertel/",
+    "https://koeln.mitvergnuegen.com/2026/agnesviertel/"
+   ]
+  },
+  {
+   "name": "AGNES+",
+   "area": "agnesviertel-eigelstein",
+   "address": "Neusser Straße 58, 50670 Köln",
+   "category": "bar",
+   "reason": "google-numbers-not-found",
+   "found": "Mit Vergnügen 2024 '아그네스 지구 바·크나이페 11' 수록.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/bars-kneipen-agnesviertel/"
+   ]
+  },
+  {
+   "name": "Sion an der Agneskirche",
+   "area": "agnesviertel-eigelstein",
+   "address": "Neusser Straße 57, 50670 Köln",
+   "category": "kneipe",
+   "reason": "google-numbers-not-found (address now confirmed)",
+   "found": "Mit Vergnügen 2024/2026: 아그네스 교회 앞의 전통 쾰시 술집(Sion 쾰시). 주소 Neusser Straße 57 확인, 구글 수치는 여전히 미확인.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/bars-kneipen-agnesviertel/",
+    "https://restaurantguru.com/Sion-An-der-Agneskirche-Cologne"
+   ]
+  },
+  {
+   "name": "Frohnatur Coffeeshop",
+   "area": "agnesviertel-eigelstein",
+   "address": "Neusser Straße (번지 미확인), 50670 Köln",
+   "category": "cafe",
+   "reason": "google-numbers-not-found (new in 2026)",
+   "found": "Mit Vergnügen 2026: Frohnatur(비스트로·바, 가이드 수록 Friesenwall 84) 가족의 새 카페, 아침·커피·케이크, 월–일 9–18시.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2026/agnesviertel/"
+   ]
+  },
+  {
+   "name": "The Coffee Gang (Agnesviertel)",
+   "area": "agnesviertel-eigelstein",
+   "address": "Neusser Straße 53, 50670 Köln",
+   "category": "cafe",
+   "reason": "google-numbers-not-found (branch; the Hohenstaufenring branch is already in the guide)",
+   "found": "Mit Vergnügen 2026: '아그네스 지구에서 아마 가장 맛있는 커피'.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2026/agnesviertel/"
+   ]
+  },
+  {
+   "name": "Meramanis",
+   "area": "agnesviertel-eigelstein",
+   "address": "Krefelder Straße (번지 미확인), 50670 Köln",
+   "category": "cafe",
+   "reason": "google-numbers-not-found",
+   "found": "Mit Vergnügen 2026: 인도네시아 스페셜티 커피 카페.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2026/agnesviertel/"
+   ]
+  },
+  {
+   "name": "Drip Coffee & Matcha Bar",
+   "area": "agnesviertel-eigelstein",
+   "address": "Sudermanstraße (번지 미확인), 50670 Köln",
+   "category": "cafe",
+   "reason": "google-numbers-not-found",
+   "found": "Mit Vergnügen 2026 아그네스 지구 추천 카페(드립 커피·말차).",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2026/agnesviertel/"
+   ]
+  },
+  {
+   "name": "Barile",
+   "area": "agnesviertel-eigelstein",
+   "address": "주소 미확인 (아그네스 지구)",
+   "category": "restaurant",
+   "reason": "google-numbers-not-found + address-missing (opened 2026)",
+   "found": "Mit Vergnügen 2026-09 '새로 발견한 곳 11': 아그네스 지구 Massimo 그룹의 새 가게.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2026/neuentdeckungen-september-2026/"
+   ]
+  },
+  {
+   "name": "Piccola Essen & Trinken Agnesviertel",
+   "area": "agnesviertel-eigelstein",
+   "address": "주소 미확인 (아그네스 지구)",
+   "category": "restaurant",
+   "reason": "google-numbers-not-found",
+   "found": "koeln.de 'Pizzeria Piccola Agnesviertel', speisekarte.de 'Piccola Essen & Trinken Agnesviertel' 등록 확인. 수치·번지 미확인.",
+   "sources": [
+    "https://www.koeln.de/branchen/eintrag/74712/gaststaetten-und-restaurants/pizzeria-piccola-agnesviertel",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/piccola_essen_trinken_agnesviertel"
+   ]
+  }
+ ],
+ "notes_ko": ""
+}

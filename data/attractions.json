@@ -32,6 +32,12 @@
       "r7-bv-bars.json",
       "r7-bv-german.json",
       "r7-bv-wine.json",
+      "r8-candidates.json",
+      "r8-center-south.json",
+      "r8-ehrenfeld-agnes.json",
+      "r8-muelheim.json",
+      "r8-nippes.json",
+      "r8-suelz.json",
       "wine-places.json"
     ],
     "count": 61

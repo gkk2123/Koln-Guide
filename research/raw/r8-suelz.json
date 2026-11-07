@@ -1,0 +1,1202 @@
+{
+ "agent": "r8-suelz",
+ "generated": "2026-11-07",
+ "schema": "v2",
+ "scope": "Round 8 new area suelz-lindenthal — Sülz (Berrenrather Str., Zülpicher Str. south of the Gürtel, Sülzburgstr., Luxemburger Str.), Klettenberg and Lindenthal (Dürener Str., Bachemer Str.): restaurants of many cuisines, cafés, bakeries, street food and bars; re-check of earlier candidates in the area (Haus Unkelbach, Sülzer Kebab, EL HABAB, African Roasters, Sophias Restaurant)",
+ "places": [
+  {
+   "name": "Down To Earth Noodles",
+   "category": "restaurant",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 175, 50937 Köln",
+   "cuisine": "Tibetan-inspired noodle bar — homemade noodles and momo dumplings (Asian fusion)",
+   "cuisine_country": [
+    "INT"
+   ],
+   "dishes": [
+    "noodles",
+    "dumplings"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인 (출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 563,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page, Google 4.8 / 563)",
+   "summary_ko": "베렌라터 슈트라세의 작은 누들 바로, 직접 만든 수제 면과 티베트식 만두 모모(momo)가 간판 메뉴다. 구글 리뷰 560여 건에 4.8로 쥘츠에서 손꼽히는 평점이라, 쥘츠 주택가를 걷다가 따뜻한 국수 한 그릇 하기 좋다.",
+   "must_try": [
+    "Hausgemachte Nudeln mit Rindfleisch (소고기 수제 면 — 리뷰 추천)",
+    "Momos (모모 — 티베트식 만두)"
+   ],
+   "tips_ko": "가게가 작아 예약을 권한다는 후기가 있다. 술은 팔지 않는다(무알코올 가게). 영업시간은 출처에 없어 방문 전 확인할 것. 야외석이 있다는 쥘츠 야외 식사 기사(mitvergnügen)에도 소개됐다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1353374/down-to-earth-noodles",
+    "https://koeln.mitvergnuegen.com/2024/draussen-essen-suelz"
+   ],
+   "confidence": "medium",
+   "style_hint": "noodle-bar"
+  },
+  {
+   "name": "Restaurant Kuschari König",
+   "category": "streetfood",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 242, 50939 Köln",
+   "cuisine": "Egyptian street food — koshari (Kuschari) in small/medium/large, samosas; many vegan dishes",
+   "cuisine_country": [
+    "EG"
+   ],
+   "dishes": [],
+   "diet": [
+    "vegan",
+    "vegetarian"
+   ],
+   "meals": [],
+   "occasions": [
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note": "리뷰: 양에 비해 값이 합리적(Wanderlog 요약). 정확한 메뉴 가격은 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 576,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page, Google 4.6 / 576)",
+   "summary_ko": "이집트의 국민 길거리 음식 쿠샤리(Kuschari — 쌀·렌틸콩·마카로니에 토마토소스와 튀긴 양파를 얹은 요리)를 소·중·대 크기로 파는 작은 식당이다. 비건 메뉴가 많고 양에 비해 값이 합리적이라는 평이 많아, 쾰른에서 흔치 않은 이집트 음식을 가볍게 맛보기 좋다.",
+   "must_try": [
+    "Kuschari (쿠샤리 — 이집트식 쌀·렌틸콩·파스타 한 그릇)",
+    "Samosas (사모사)"
+   ],
+   "tips_ko": "크기(소·중·대)를 골라 주문하는 방식이다. 비건 옵션이 많다. 영업시간·결제 수단은 출처에 없어 방문 전 확인할 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3989672/restaurant-kuschari-k%C3%B6nig"
+   ],
+   "confidence": "medium",
+   "style_hint": "streetfood"
+  },
+  {
+   "name": "Sophias Restaurant",
+   "category": "restaurant",
+   "area": "suelz-lindenthal",
+   "address": "Luxemburger Straße 289, 50939 Köln",
+   "cuisine": "Greek restaurant — mezze small plates to share, lamb and seafood (modern, not a touristy taverna)",
+   "cuisine_country": [
+    "GR"
+   ],
+   "dishes": [
+    "mezze",
+    "seafood"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 644,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page, Google 4.7 / 644; 같은 페이지의 4.0/99는 다른 집계)",
+   "summary_ko": "룩셈부르거 슈트라세(쥘츠·클레텐베르크 경계)의 그리스 레스토랑으로, 관광지풍 타베르나가 아닌 깔끔한 분위기에서 메제(작은 접시)를 여러 개 시켜 나눠 먹는 곳이다. 양 어깨살·새우·가지 요리가 리뷰에서 자주 칭찬받고 구글 640여 건에 4.7이라 이 일대 저녁 식사로 믿을 만하다.",
+   "must_try": [
+    "Lammschulter (양 어깨살 요리)",
+    "Garnelen (새우 요리)",
+    "Auberginen (가지 요리)"
+   ],
+   "tips_ko": "수요일 휴무로 나온다(Wanderlog). 메제를 여러 개 주문해 나눠 먹는 방식이 추천된다. 이전 조사에서 주소를 못 찾아 후보로 남아 있던 곳으로, 이번에 주소를 확인했다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3984164/sophias-restaurant",
+    "https://wanderlog.com/list/geoCategory/786948/best-greek-foods-and-restaurants-in-cologne",
+    "https://koeln.mitvergnuegen.com/2024/draussen-essen-suelz"
+   ],
+   "confidence": "medium",
+   "style_hint": "mezze"
+  },
+  {
+   "name": "EL HABAB",
+   "category": "streetfood",
+   "area": "suelz-lindenthal",
+   "address": "Luxemburger Straße 246, 50937 Köln",
+   "cuisine": "Lebanese-style falafel & shawarma Imbiss (homemade coconut cake)",
+   "cuisine_country": [
+    "LB"
+   ],
+   "dishes": [
+    "falafel",
+    "kebab"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [],
+   "occasions": [
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "cash-only",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인 (임비스)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 552,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page, Google 4.5 / 552; 2차 조사 때 목록 스냅숏은 4.8 / 523)",
+   "summary_ko": "룩셈부르거 슈트라세의 팔라펠·샤와르마 임비스로, 겉은 바삭하고 속은 촉촉한 팔라펠이 이 집의 대표 메뉴다. 구글 리뷰 550여 건에 4.5로 동네 사람들이 즐겨 찾는 저렴한 한 끼이며, 직접 만든 코코넛 케이크(Kokoskuchen)도 칭찬받는다.",
+   "must_try": [
+    "Falafel (팔라펠)",
+    "Kokoskuchen (코코넛 케이크)"
+   ],
+   "tips_ko": "현금만 받는다는 정보가 있다(Wanderlog). 샤와르마는 퍽퍽하다는 후기도 있어 팔라펠 위주로 고르는 게 무난하다. 이전 조사에서 주소 미확인 후보였던 곳.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3962947/el-habab",
+    "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
+    "https://wanderlog.com/list/geoCategory/1794415/best-spots-for-falafel-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "streetfood"
+  },
+  {
+   "name": "Sülzer Kebab",
+   "category": "streetfood",
+   "area": "suelz-lindenthal",
+   "address": "Sülzburgstraße 201, 50937 Köln",
+   "cuisine": "Turkish döner kebab Imbiss with homemade bread",
+   "cuisine_country": [
+    "TR"
+   ],
+   "dishes": [
+    "kebab"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인 (되너 임비스)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 566,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page, Google 4.5 / 566; 2차 조사 때 목록 스냅숏은 4.6 / 586)",
+   "summary_ko": "쥘츠부르크슈트라세의 되너 케밥 임비스로, 직접 구운 빵과 넉넉한 양으로 리뷰가 좋다. 구글 리뷰 560여 건에 4.5라 쥘츠에서 손꼽히는 되너집이다.",
+   "must_try": [
+    "Döner im hausgemachten Brot (수제 빵에 넣은 되너)"
+   ],
+   "tips_ko": "토요일 휴무로 나온다(Wanderlog) — 주말에 간다면 꼭 확인할 것. 이전 조사에서 주소 미확인 후보였던 곳.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3704511/s%C3%BClzer-kebab",
+    "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "kebab"
+  },
+  {
+   "name": "Café Goldjunge Sülz",
+   "category": "cafe",
+   "area": "suelz-lindenthal",
+   "address": "Zülpicher Straße 282, 50937 Köln",
+   "cuisine": "Brunch café (local mini-chain) — all-day breakfast, many vegetarian specials, chai latte",
+   "cuisine_country": [],
+   "dishes": [
+    "brunch-plates",
+    "coffee"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [
+    "breakfast",
+    "brunch"
+   ],
+   "occasions": [],
+   "features": [
+    "open-sunday"
+   ],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 824,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page 4.7 / 824); restaurantguru.com Google 4.7 / 810",
+   "summary_ko": "쾰른에 여러 지점을 둔 브런치 카페 골트융에(Goldjunge)의 쥘츠 지점으로, 쥘피허 슈트라세 남쪽(귀르텔 바깥) 주택가에 있다. 아침·브런치 메뉴와 차이 라테가 호평이고 구글 리뷰 800여 건에 4.7이라 쥘츠에서 아침을 먹기에 가장 무난한 곳이다.",
+   "must_try": [
+    "Chai Latte (차이 라테)",
+    "Frühstück (아침 플레이트)"
+   ],
+   "tips_ko": "일요일도 9–18시 영업으로 나온다(Wanderlog). 다른 지점은 인넨슈타트·미디어파크·니페스에 있다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3263141/caf%C3%A9-goldjunge-s%C3%BClz",
+    "https://restaurantguru.com/Cafe-Goldjunge-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "brunch"
+  },
+  {
+   "name": "Deli Sülz",
+   "category": "restaurant",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 221, 50937 Köln",
+   "cuisine": "All-day deli bistro (opened 2020) — breakfast, lunch and dinner, meat plus vegetarian/vegan dishes",
+   "cuisine_country": [
+    "INT"
+   ],
+   "dishes": [
+    "brunch-plates",
+    "sandwiches"
+   ],
+   "diet": [
+    "vegetarian",
+    "vegan"
+   ],
+   "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [],
+   "features": [
+    "open-sunday"
+   ],
+   "drinks": [],
+   "vibe": [
+    "trendy"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 773,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.3 / 773; 같은 페이지의 842건은 Restaurant Guru 자체 리뷰 수); wanderlog.com place page 4.3 / 730 (이전 스냅숏); spinach.guide는 Google Maps 4.3 / 823 인용",
+   "summary_ko": "2020년에 문을 연 쥘츠의 델리 겸 비스트로로, 아침부터 저녁까지 고기 메뉴와 채식·비건 메뉴를 고루 낸다. 구글 리뷰 700여 건에 4.3으로, 베렌라터 슈트라세에서 시간 구애 없이 한 끼 먹기 편한 곳이다.",
+   "must_try": [],
+   "tips_ko": "아침·점심·저녁 모두 운영하는 올데이 가게로, 일요일도 9–23시로 나온다(Wanderlog). 친절하다는 평과 함께 대기 시간·양에 대한 엇갈린 후기도 있다. OpenTable에도 올라 있다. 같은 번지(221)에 있던 Berrenrather Hof는 영구 폐업으로 표시돼 있으니 혼동하지 말 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3263131/deli-s%C3%BClz",
+    "https://restaurantguru.com/MyThai-Sulz-Cologne-3",
+    "https://spinach.guide/venues/deli-sulz-26372/",
+    "https://www.opentable.com/r/deli-sulz-koln"
+   ],
+   "confidence": "medium",
+   "style_hint": "bistro"
+  },
+  {
+   "name": "Sakura",
+   "category": "restaurant",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 266, 50939 Köln",
+   "cuisine": "Japanese restaurant (since 2010) — all-you-can-eat sushi and warm Asian dishes ordered by tablet",
+   "cuisine_country": [
+    "JP"
+   ],
+   "dishes": [
+    "sushi"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 2,
+   "price_pp": {
+    "min": 24,
+    "max": 28
+   },
+   "price_note": "올유캔잇(무제한) €27.90라는 리뷰, 다른 리뷰는 약 €24 (Wanderlog 리뷰 요약)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 638,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page, Google 4.6 / 638; 같은 페이지의 4.0/52는 다른 플랫폼)",
+   "summary_ko": "2010년부터 영업한 쥘츠의 일식당으로, 태블릿으로 주문하는 무제한(올유캔잇) 스시와 따뜻한 아시아 요리가 주력이다. 구글 리뷰 630여 건에 4.6으로 스시 품질 칭찬이 많아, 여럿이 실컷 스시를 먹기 좋은 곳이다.",
+   "must_try": [
+    "All-you-can-eat Sushi (무제한 스시 — 태블릿 주문)"
+   ],
+   "tips_ko": "무제한 코스는 1인 약 €24–28(리뷰 기준, 시간대·요일별로 다를 수 있음). 예전의 회전 스시(Running Sushi)는 더 이상 하지 않는다는 후기가 있다. 전화 +49 221 3201818.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3490311/sakura"
+   ],
+   "confidence": "medium",
+   "style_hint": "sushi-bar"
+  },
+  {
+   "name": "Bisù Sülz",
+   "category": "restaurant",
+   "area": "suelz-lindenthal",
+   "address": "Weyertal 41, 50937 Köln",
+   "cuisine": "Italian tapas — small plates to share (Italian Speiselokal), many vegetarian/vegan options, open late",
+   "cuisine_country": [
+    "IT"
+   ],
+   "dishes": [
+    "tapas",
+    "pasta"
+   ],
+   "diet": [
+    "vegetarian",
+    "vegan"
+   ],
+   "meals": [
+    "dinner",
+    "late-night"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "wine-list"
+   ],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 639,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.6 / 639); wanderlog.com place page 4.6 / 585 (earlier snapshot)",
+   "summary_ko": "쥘츠 바이어탈(Weyertal)의 이탈리아식 타파스 레스토랑으로, 작은 접시 요리를 여러 개 시켜 와인과 나눠 먹는 곳이다. 채식·비건 메뉴가 많고 분위기·와인 리스트 칭찬이 많으며, 구글 리뷰 600여 건에 4.6이라 동네 사람들로 금방 차는 인기 가게다.",
+   "must_try": [],
+   "tips_ko": "인기가 많아 금방 붐비니 예약을 권한다는 후기가 있다(Wanderlog). 목–토는 새벽 1:30까지 연다고 나온다. 웹사이트 bisu-koeln.de, 전화 +49 160 97772314.",
+   "website": "https://bisu-koeln.de",
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/4361697/bis%C3%B9-s%C3%BClz",
+    "https://restaurantguru.com/Bisu-italienisches-Speiselokal-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "tapas"
+  },
+  {
+   "name": "Landmann in Lindenthal",
+   "category": "brauhaus",
+   "area": "suelz-lindenthal",
+   "address": "Dürener Straße 143, 50931 Köln",
+   "cuisine": "Brauhaus-style Gaststätte — traditional Rhineland/German cooking (Himmel un Ääd, schnitzel, crispy fries)",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "rhineland-classics",
+    "schnitzel"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 622,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.7 / 622); wanderlog.com place page 4.7 / 544 (earlier snapshot)",
+   "summary_ko": "린덴탈 뒤러너 슈트라세의 브라우하우스풍 식당으로, 힘멜 운 애드(Himmel un Ääd — 으깬 감자·사과에 블루트부르스트를 곁들인 쾰른 향토 요리)와 슈니첼 같은 독일 가정식을 낸다. 구글 리뷰 600여 건에 4.7로 음식·서비스 칭찬이 꾸준해, 시내 관광지 브라우하우스 대신 동네 단골집 분위기를 원할 때 좋다.",
+   "must_try": [
+    "Himmel un Ääd (힘멜 운 애드 — 감자·사과 퓌레와 블루트부르스트)",
+    "Schnitzel (슈니첼)"
+   ],
+   "tips_ko": "항상 손님이 많아 예약이 필수라는 후기가 있다. 영업시간은 Wanderlog 표기가 서로 달라 방문 전 확인할 것. 전화 +49 221 409364 (Restaurant Guru).",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/4376420/landmann-in-lindenthal",
+    "https://restaurantguru.com/Landmann-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "brauhaus"
+  },
+  {
+   "name": "Gasthaus Scherz",
+   "category": "restaurant",
+   "area": "suelz-lindenthal",
+   "address": "Luxemburger Straße 256, 50937 Köln",
+   "cuisine": "Austrian Gasthaus — Wiener schnitzel, Tafelspitz, Austrian white wines",
+   "cuisine_country": [
+    "AT"
+   ],
+   "dishes": [
+    "schnitzel"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "wine-list"
+   ],
+   "vibe": [
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 924,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page, Google 4.5 / 924)",
+   "summary_ko": "쥘츠 룩셈부르거 슈트라세의 오스트리아 가스트하우스로, 비너 슈니첼과 타펠슈피츠(삶은 소고기 요리) 같은 정통 오스트리아 요리를 수준 높게 낸다. 구글 리뷰 900여 건에 4.5이고 오스트리아 화이트와인 셀렉션도 칭찬받아, 차분한 저녁 식사 자리로 좋다.",
+   "must_try": [
+    "Wiener Schnitzel (비너 슈니첼)",
+    "Tafelspitz (타펠슈피츠 — 오스트리아식 삶은 소고기)",
+    "Österreichischer Weißwein (오스트리아 화이트와인)"
+   ],
+   "tips_ko": "서비스가 느렸다는 후기가 일부 있으니 여유 있게 갈 것. 전화 +49 221 16929440 (Wanderlog). 쥘츠 야외 식사 기사(mitvergnügen)와 Wanderlog 중부유럽 요리 목록에도 올라 있다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1140643/gasthaus-scherz",
+    "https://wanderlog.com/list/geoCategory/795943/best-central-european-foods-and-restaurants-in-cologne",
+    "https://koeln.mitvergnuegen.com/2024/draussen-essen-suelz"
+   ],
+   "confidence": "medium",
+   "style_hint": "gasthaus"
+  },
+  {
+   "name": "Haus Unkelbach",
+   "category": "brauhaus",
+   "area": "suelz-lindenthal",
+   "address": "Luxemburger Straße 260, 50937 Köln",
+   "cuisine": "Traditional Kölsch Brauhaus-restaurant (since 1930) — Schweinshaxe and classic German dishes, indoor and outdoor seating",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "rhineland-classics",
+    "schnitzel"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [
+    "group"
+   ],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 2500,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page 4.3 / 2,500 — 3차 조사(r3-beer-pubs) 때 기록한 값, 반올림 표기일 수 있음); restaurantguru.com Google 4.3 (이번 조사, 건수 미표시)",
+   "summary_ko": "1930년부터 쥘츠·클레텐베르크 경계 룩셈부르거 슈트라세를 지켜 온 브라우하우스형 레스토랑으로, 쾰시와 함께 슈바인스학세(돼지 정강이 구이) 같은 독일 전통 요리를 낸다. 구글 리뷰 2,500여 건에 4.3이고 야외 자리가 있어, 시내 관광객 붐비는 브라우하우스 대신 현지인 동네 브라우하우스를 경험하기 좋다.",
+   "must_try": [
+    "Schweinshaxe (슈바인스학세 — 돼지 정강이 구이)",
+    "Kölsch vom Fass (생 쾰시)"
+   ],
+   "tips_ko": "예약 권장(3차 조사 메모). 실내·야외석이 있고 영어 가능한 직원이 있다는 후기. 전화 +49 221 414184 (Restaurant Guru). 쥘츠 야외 식사 기사(mitvergnügen)에 '쥘츠 한가운데의 든든한 브라우하우스 음식과 쾰시' 집으로 소개. 이전 조사에서 우편번호 미확인으로 후보에 있던 곳 — 이번에 Wanderlog에서 50937 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1484903/haus-unkelbach",
+    "https://restaurantguru.com/Haus-Unkelbach-Cologne",
+    "https://wanderlog.com/list/geoCategory/65348/best-outdoor-dining-in-cologne",
+    "https://koeln.mitvergnuegen.com/2024/draussen-essen-suelz"
+   ],
+   "confidence": "medium",
+   "style_hint": "brauhaus"
+  },
+  {
+   "name": "HEILANDT Café Sülz",
+   "category": "cafe",
+   "area": "suelz-lindenthal",
+   "address": "Sülzburgstraße 1, 50937 Köln",
+   "cuisine": "Specialty coffee café of Cologne roaster Heilandt",
+   "cuisine_country": [],
+   "dishes": [
+    "coffee",
+    "cake"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "specialty-coffee"
+   ],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.2,
+   "google_reviews": 527,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.2 / 527)",
+   "summary_ko": "쾰른 로스터리 하일란트(Heilandt)가 쥘츠부르크슈트라세 초입에 낸 스페셜티 커피 카페다. 구글 리뷰 520여 건에 4.2로 직원이 친절하고 아늑하다는 평이며, 쥘츠 산책 중 직접 볶은 원두 커피를 마시기 좋다.",
+   "must_try": [
+    "Flat White (플랫 화이트)"
+   ],
+   "tips_ko": "구글 평점이 기준선(4.2)에 딱 걸린다. 하일란트는 벨기에 지구(Bismarckstr. 41)·로스터리 카페(Girlitzweg) 등 여러 지점이 있다. 우편번호는 출처에 없어, 같은 거리 27·201번지가 50937인 것을 근거로 적었다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Heilandt-Cologne-3"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  },
+  {
+   "name": "Stube",
+   "category": "cafe",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 205, 50937 Köln",
+   "cuisine": "Specialty coffee café",
+   "cuisine_country": [],
+   "dishes": [
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "specialty-coffee"
+   ],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 182,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.8 / 182; 페이지 URL은 옛 이름 'Kleine Markthalle Sülz')",
+   "summary_ko": "베렌라터 슈트라세의 작은 스페셜티 커피 카페다. 구글 리뷰 180여 건에 4.8로 평점이 매우 높아, 쥘츠 골목에서 제대로 된 커피 한 잔이 필요할 때 들르기 좋다.",
+   "must_try": [],
+   "tips_ko": "메뉴·영업시간 정보는 출처에 거의 없어 방문 전 확인할 것. Wanderlog 주소: Berrenrather Str. 205, 50937 Köln.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Kleine-Markthalle-Sulz-Cologne",
+    "https://wanderlog.com/place/details/12687286"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  },
+  {
+   "name": "Ristorante Faro",
+   "category": "restaurant",
+   "area": "suelz-lindenthal",
+   "address": "Dürener Straße 94, 50931 Köln",
+   "cuisine": "Italian ristorante — pizza and pasta",
+   "cuisine_country": [
+    "IT"
+   ],
+   "dishes": [
+    "pizza",
+    "pasta"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "피자·파스타가 맛있고 값이 적당하다는 리뷰와 비싸다는 리뷰가 섞여 있음(Wanderlog 요약). 메뉴 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 449,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page, Google 4.4 / 449; 같은 페이지 4.0/55는 다른 플랫폼); restaurantguru.com 자체 4.4 / 614는 구글 아님",
+   "summary_ko": "린덴탈 뒤러너 슈트라세의 이탈리아 레스토랑으로, 피자와 파스타가 주력이다. 구글 리뷰 440여 건에 4.4로 분위기와 음식 칭찬이 많아, 린덴탈에서 무난한 이탈리안 저녁을 먹기 좋다.",
+   "must_try": [
+    "Pizza (피자)",
+    "Pasta (파스타)"
+   ],
+   "tips_ko": "직원 태도·곁들임 메뉴 선택지·가격에 대한 불만 후기도 있어 평이 엇갈린다. 전화 +49 221 401916 (Restaurant Guru·Wanderlog).",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3343330/ristorante-faro",
+    "https://restaurantguru.com/Ristorante-Faro-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "ristorante"
+  },
+  {
+   "name": "Pizzeria Trattoria Siciliana",
+   "category": "restaurant",
+   "area": "suelz-lindenthal",
+   "address": "Sülzburgstraße 90, 50937 Köln",
+   "cuisine": "Sicilian pizzeria-trattoria",
+   "cuisine_country": [
+    "IT"
+   ],
+   "dishes": [
+    "pizza"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 422,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.4 / 422; Restaurant Guru 자체 4.3 / 475는 구글 아님)",
+   "summary_ko": "쥘츠부르크슈트라세의 시칠리아식 피체리아 겸 트라토리아다. 구글 리뷰 420여 건에 4.4로 '정통 피자, 친절한 직원'이라는 평이 있어, 쥘츠 동네 피자집으로 무난하다.",
+   "must_try": [
+    "Pizza (피자)"
+   ],
+   "tips_ko": "메뉴·영업시간은 출처에 없어 방문 전 확인할 것. 우편번호는 출처에 없어, 같은 거리 27·201번지가 50937인 것을 근거로 적었다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Trattoria-Siciliana-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "pizzeria"
+  },
+  {
+   "name": "Falafel Shawarma Sülz",
+   "category": "streetfood",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 219, 50937 Köln",
+   "cuisine": "Falafel & shawarma Imbiss (takeaway and delivery)",
+   "cuisine_country": [],
+   "dishes": [
+    "falafel",
+    "kebab"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [],
+   "occasions": [
+    "quick"
+   ],
+   "features": [
+    "takeaway"
+   ],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "cash-only",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인 (임비스)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 143,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.3 / 143)",
+   "summary_ko": "베렌라터 슈트라세의 팔라펠·샤와르마 임비스로, 포장과 배달도 한다. 구글 리뷰 140여 건에 4.3이라, 쥘츠에서 싸고 빠르게 한 끼 해결하기 좋다.",
+   "must_try": [
+    "Falafel (팔라펠)",
+    "Shawarma (샤와르마)"
+   ],
+   "tips_ko": "현금만 받는다는 정보가 있다(Restaurant Guru). Restaurant Guru 페이지 주소(URL)는 옛 상호 'Izmir Döner Haus'로 되어 있다. 우편번호는 같은 쪽 205·221번지(50937) 기준.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Izmir-Doner-Haus-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "streetfood"
+  },
+  {
+   "name": "Café Bo",
+   "category": "cafe",
+   "area": "suelz-lindenthal",
+   "address": "Luxemburger Straße 315, 50939 Köln",
+   "cuisine": "Breakfast & brunch café — pancakes, generous breakfast plates, served late",
+   "cuisine_country": [],
+   "dishes": [
+    "brunch-plates",
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "brunch"
+   ],
+   "occasions": [],
+   "features": [
+    "open-sunday"
+   ],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인 (양이 넉넉하다는 리뷰)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 824,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com (place page, Google 4.6 / 824 — 별점 분포 603·146·42·19·14 합계와 일치); restaurantguru.com Google 4.6",
+   "summary_ko": "쥘츠·클레텐베르크 경계 룩셈부르거 슈트라세의 아침·브런치 카페로, 팬케이크와 넉넉한 아침 플레이트가 유명하다. 구글 리뷰 820여 건에 4.6이고 영어가 통하는 친절한 직원 칭찬이 많아, 여행자가 편하게 늦은 아침을 먹기 좋다.",
+   "must_try": [
+    "Pancakes (팬케이크)",
+    "Frühstück (아침 플레이트)"
+   ],
+   "tips_ko": "매일 9–17시 영업으로 나온다(Wanderlog). 가게가 작아 주말엔 예약을 권한다는 후기가 있다. 커피 평은 엇갈린다. 졸슈톡(Zollstock)에 다른 지점(Café Bo Zollstock)이 있다. 전화 +49 221 29932351.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/1326777/caf%C3%A9-bo",
+    "https://restaurantguru.com/Cafe-Bo-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "brunch"
+  },
+  {
+   "name": "Holm Kaffeerösterei Café",
+   "category": "cafe",
+   "area": "suelz-lindenthal",
+   "address": "Lindenthalgürtel 61, 50935 Köln",
+   "cuisine": "Specialty coffee roastery café (opened 2022 in a former butcher's shop) with cakes and pastries",
+   "cuisine_country": [],
+   "dishes": [
+    "coffee",
+    "cake"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [
+    "specialty-coffee"
+   ],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 332,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.7 / 332); 개업 연도·옛 정육점 자리 설명은 Wanderlog 목록 문구",
+   "summary_ko": "2022년 린덴탈의 옛 정육점 자리에 문을 연 로스터리 카페로, 직접 볶은 스페셜티 커피와 케이크·페이스트리를 낸다. 구글 리뷰 330여 건에 4.7이라, 린덴탈·시립공원(Stadtwald) 쪽에서 커피 한 잔 하기 좋은 곳이다.",
+   "must_try": [
+    "Specialty Coffee (스페셜티 커피)",
+    "Kuchen (케이크 — Café Walther 출신 파티시에가 만든다는 소개)"
+   ],
+   "tips_ko": "테이블 간격이 아주 좁다는 후기가 있다. 우편번호는 출처에 없어, 같은 린덴탈귀르텔 72번지가 50935인 것을 근거로 적었다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Holm-Kaffeerosterei-Cafe-Cologne",
+    "https://wanderlog.com/list/geoCategory/4659",
+    "https://wanderlog.com/list/geoCategory/18938/best-cake-shops-and-cake-bakeries-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Watami",
+   "area": "suelz-lindenthal",
+   "address": "Sülzburgstraße 172, 50937 Köln",
+   "category": "restaurant",
+   "reason": "identity-unclear: meets the bar (google.de 4.60 / 376 on werkenntdenbesten) but the same address is listed for Japanese restaurant KAIZEN (4.68 from 1,963 ratings on two portals, 27 good ratings in the last 12 months) — likely a rename; confirm which name is trading",
+   "found": "werkenntdenbesten: Watami (Sushi) Gesamt 4.76, google.de 4.60 (376); KAIZEN (japanisch) Sülzburgstr. 172, 50937 Köln (Sülz) 4.68 / 1,963 auf zwei Portalen (Google-Anteil nicht getrennt).",
+   "sources": [
+    "https://www.werkenntdenbesten.de/e/114122722/sushi-restaurant/koeln/watami-bewertungen.html",
+    "https://www.werkenntdenbesten.de/sushi/koeln",
+    "https://www.werkenntdenbesten.de/japanisches-restaurant/koeln"
+   ]
+  },
+  {
+   "name": "Petersberger Hof",
+   "area": "suelz-lindenthal",
+   "address": "Klettenberg, Köln (Hausnummer/PLZ nicht im Quelltext; Tel. +49 221 443600)",
+   "category": "kneipe",
+   "reason": "address-missing: meets the bar (Wanderlog Google 4.3 / 627) but no street address surfaced",
+   "found": "Wanderlog place page: Google 4.3 (627), Tripadvisor 3.5 (31). Traditional Cologne pub-style Gaststätte in Klettenberg — affordable meals, beer garden/outside seating, reliable friendly service, 'neighbourhood meeting place'. Restaurant Guru: Pub & bar / German restaurant, open until 1 AM, Tel. +49 221 443600 (RG own 4.9/952 is not Google).",
+   "sources": [
+    "https://wanderlog.com/place/details/3746942/petersberger-hof",
+    "https://restaurantguru.com/Petersberger-Hof-Cologne/menu"
+   ]
+  },
+  {
+   "name": "Südkurve Köln-Sülz",
+   "area": "suelz-lindenthal",
+   "address": "Luxemburger Straße 228, Köln (PLZ nicht im Quelltext, vermutlich 50937)",
+   "category": "bar",
+   "reason": "category-unclear + postcode-missing: meets the bar (Restaurant Guru Google 4.4 / 393) but the type of place (pub/sports bar vs. café) is not stated",
+   "found": "Restaurant Guru: Google 4.4 (393), RG own 3.8 (401); reviewers praise the cheerful staff. Surfaced in both a 'pub/bar' and a 'café/breakfast' search for Sülz. Not the 1. FC Köln fan venue (Gereonswall).",
+   "sources": [
+    "https://restaurantguru.com/Sudkurve-Cologne"
+   ]
+  },
+  {
+   "name": "Restaurant Lux",
+   "area": "suelz-lindenthal",
+   "address": "Luxemburger Straße 206, Köln (PLZ nicht im Quelltext)",
+   "category": "restaurant",
+   "reason": "review-count-missing: Restaurant Guru shows Google 4.5 without a count",
+   "found": "Restaurant Guru: Google 4.5; RG own 4.4 (426). German menu with vegetarian options.",
+   "sources": [
+    "https://restaurantguru.com/Lux-Cologne"
+   ]
+  },
+  {
+   "name": "Klettenberger Hof",
+   "area": "suelz-lindenthal",
+   "address": "Klettenberg, Köln (Adresse nicht im Quelltext)",
+   "category": "restaurant",
+   "reason": "address-missing + stale: Google 4.2 (437) at the bar, but the Restaurant Guru page is ~1,900 days old and shows no address",
+   "found": "Restaurant Guru: Google 4.2 (437 ratings); RG own 4.8 (441).",
+   "sources": [
+    "https://restaurantguru.com/Klettenberger-Hof-Cologne"
+   ]
+  },
+  {
+   "name": "Azzurro Pizzeria",
+   "area": "suelz-lindenthal",
+   "address": "Sülz, Köln (Adresse nicht im Quelltext)",
+   "category": "restaurant",
+   "reason": "address-missing: meets the bar (google.de 4.70 / 184 on werkenntdenbesten) but no street address surfaced",
+   "found": "werkenntdenbesten: 4.69 from 204 ratings on five portals; google.de 4.70 (184). Described as 'die beste Pizza von Sülz'.",
+   "sources": [
+    "https://www.werkenntdenbesten.de/e/100283265/italienisches-restaurant/koeln/azzurro-pizzeria-bewertungen.html"
+   ]
+  },
+  {
+   "name": "Haweli",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 177, 50937 Köln",
+   "category": "restaurant",
+   "reason": "google-attribution-unclear: werkenntdenbesten 4.80 from 432 ratings on a single portal — portal not named as Google",
+   "found": "Indian restaurant in Sülz; werkenntdenbesten: 74 good ratings in the last 12 months, 4.80 from 432 ratings on one portal.",
+   "sources": [
+    "https://www.werkenntdenbesten.de/indisches-restaurant/koeln"
+   ]
+  },
+  {
+   "name": "Sonntags Frühstückscafe und Patisserie",
+   "area": "suelz-lindenthal",
+   "address": "Sülz, Köln (Adresse nicht im Quelltext)",
+   "category": "cafe",
+   "reason": "review-count-missing + address-missing: Restaurant Guru shows Google 4.8 without a count",
+   "found": "Breakfast café & patisserie; Restaurant Guru Google 4.8; a visitor review places it in Sülz.",
+   "sources": [
+    "https://restaurantguru.com/Patisserie-Sonntags-Cologne"
+   ]
+  },
+  {
+   "name": "prôt von Alex – Kontor Lindenthal",
+   "area": "suelz-lindenthal",
+   "address": "Dürener Straße 154, Köln (PLZ nicht im Quelltext)",
+   "category": "bakery",
+   "reason": "google-numbers-missing: only Restaurant Guru's own score (4.8 / 116), not Google",
+   "found": "Lindenthal branch of artisan bakery prôt von Alex (Belgisches Viertel Kontor, Lütticher Str. 6, has Wanderlog Google 4.8 / 552 — different branch; closed Sun–Mon; protvonalex.de).",
+   "sources": [
+    "https://restaurantguru.com/prot-von-Alex-Kontor-Lindenthal-Cologne",
+    "https://wanderlog.com/place/details/1416428/pr%C3%B4t-von-alex-backstube-belgisches-viertel"
+   ]
+  },
+  {
+   "name": "Lo Sfizio",
+   "area": "suelz-lindenthal",
+   "address": "Luxemburger Straße, Köln-Klettenberg? (Ort widersprüchlich: auch 'Hansaring' genannt)",
+   "category": "restaurant",
+   "reason": "location-unclear: Wanderlog Google about 4.6 (413–446 depending on page) but one summary places it on Luxemburger Straße (Klettenberg), another at Hansaring",
+   "found": "Italian; daily changing menu, pizza above average, aubergine parmigiana, carbonara; quick friendly service; some complain about price for a simple setting.",
+   "sources": [
+    "https://wanderlog.com/place/details/3343292/lo-sfizio"
+   ]
+  },
+  {
+   "name": "Linos Bar & Ristorante",
+   "area": "suelz-lindenthal",
+   "address": "Klettenberggürtel 15, Köln (PLZ nicht im Quelltext)",
+   "category": "restaurant",
+   "reason": "google-numbers-missing: only Restaurant Guru's own 4.3 (317)",
+   "found": "Italian bar-ristorante on the Klettenberggürtel.",
+   "sources": [
+    "https://restaurantguru.com/Linos-Bar-Ristorante-Cologne"
+   ]
+  },
+  {
+   "name": "Haus am See",
+   "area": "suelz-lindenthal",
+   "address": "Bachemer Landstraße 420, Köln (PLZ nicht im Quelltext; Decksteiner Weiher)",
+   "category": "restaurant",
+   "reason": "review-count-missing: Restaurant Guru shows Google 4.5 but the count is not shown (embedded aggregate 4.9 / 2,747 is not Google)",
+   "found": "Restaurant by the Decksteiner Weiher lake in the Lindenthal city forest belt.",
+   "sources": [
+    "https://de.restaurantguru.com/amp/Haus-am-See-Cologne"
+   ]
+  },
+  {
+   "name": "Café Bauchgefühl",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 160, Köln (PLZ nicht im Quelltext)",
+   "category": "cafe",
+   "reason": "google-numbers-not-found",
+   "found": "Wanderlog: vegan and gluten-free café on Berrenrather Straße.",
+   "sources": [
+    "https://wanderlog.com/place/details/12490496/caf%C3%A9-bauchgef%C3%BChl"
+   ]
+  },
+  {
+   "name": "Taners Schnellrestaurant",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 186, Köln (PLZ nicht im Quelltext)",
+   "category": "streetfood",
+   "reason": "google-numbers-not-found",
+   "found": "Wanderlog: quick-service Imbiss praised for its Kurdish lamb wrap; limited seating.",
+   "sources": [
+    "https://wanderlog.com/place/details/4073225/taners-schnellrestaurant"
+   ]
+  },
+  {
+   "name": "Kletterrose",
+   "area": "suelz-lindenthal",
+   "address": "Sülz/Klettenberg, Köln (Adresse nicht im Quelltext)",
+   "category": "bar",
+   "reason": "google-numbers-not-found + address-missing",
+   "found": "mitvergnügen Köln 'draußen essen in Sülz': a hidden beer garden. Seasonal (outdoor) — little use in Nov–Dec.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/draussen-essen-suelz"
+   ]
+  },
+  {
+   "name": "Brasserie Marie",
+   "area": "suelz-lindenthal",
+   "address": "Sülz, Köln (Adresse nicht im Quelltext)",
+   "category": "restaurant",
+   "reason": "google-numbers-not-found + address-missing",
+   "found": "mitvergnügen Köln: French country-style brasserie with a cosy atmosphere in Sülz.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/draussen-essen-suelz"
+   ]
+  },
+  {
+   "name": "PiGa (Pizzeria Gallo)",
+   "area": "suelz-lindenthal",
+   "address": "Sülz, Köln (Adresse nicht im Quelltext)",
+   "category": "restaurant",
+   "reason": "google-numbers-not-found + address-missing",
+   "found": "mitvergnügen Köln: Neapolitan-style pizza from a large wood-fired oven, outdoor courtyard; local favourite.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/draussen-essen-suelz",
+    "https://koeln.mitvergnuegen.com/2021/11-restaurants-draussen-essen-suelz/"
+   ]
+  },
+  {
+   "name": "Thai Gourmet Sülz",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 270, 50939 Köln",
+   "category": "restaurant",
+   "reason": "below-criteria: Google 4.0 (611)",
+   "found": "Restaurant Guru Google 4.0 (611); Wanderlog 4.0 (574). Thai-Vietnamese, budget; card only for orders over €15. Not the same as 'Thai Gourmet' (Neusser Str.) in the main list.",
+   "sources": [
+    "https://restaurantguru.com/MyThai-Sulz-Cologne-4",
+    "https://wanderlog.com/place/details/10100730/thai-gourmet-s%C3%BClz"
+   ]
+  },
+  {
+   "name": "Pizzeria Piccola Lindenthal",
+   "area": "suelz-lindenthal",
+   "address": "Dürener Straße 145, Köln (PLZ nicht im Quelltext)",
+   "category": "restaurant",
+   "reason": "below-criteria: Google 4.1 (731)",
+   "found": "Restaurant Guru: Google 4.1 (731), RG own 4.3 (862). Tel. +49 221 22272000.",
+   "sources": [
+    "https://restaurantguru.com/Piccola-Cologne"
+   ]
+  },
+  {
+   "name": "Ristorante L'Angelo D'oro",
+   "area": "suelz-lindenthal",
+   "address": "Berrenrather Straße 197, Köln (PLZ nicht im Quelltext)",
+   "category": "restaurant",
+   "reason": "below-criteria: Wanderlog 4.0 (count conflicting: 505 vs 54)",
+   "found": "Italian restaurant on Berrenrather Straße.",
+   "sources": [
+    "https://wanderlog.com/place/details/3343305/ristorante-langelo-doro"
+   ]
+  },
+  {
+   "name": "Sülzburger",
+   "area": "suelz-lindenthal",
+   "address": "Sülz, Köln (Adresse nicht im Quelltext)",
+   "category": "restaurant",
+   "reason": "below-criteria: Google 4.0 (217)",
+   "found": "Burger place in Sülz; Restaurant Guru Google 4.0 (217), reviews about two years old.",
+   "sources": [
+    "https://restaurantguru.com/Sulzburger-Cologne"
+   ]
+  },
+  {
+   "name": "Jacques’ Wein-Depot Köln-Sülz",
+   "area": "suelz-lindenthal",
+   "address": "Sülz, Köln (Adresse nicht im Quelltext)",
+   "category": "wine-shop",
+   "reason": "out-of-scope (wine shop, not a bar/restaurant); Google 4.7 (118) meets the bar",
+   "found": "Restaurant Guru: Google 4.7 (118); wine shop chain branch with tasting/deli items; reviews about three years old.",
+   "sources": [
+    "https://restaurantguru.com/Jacques-Wein-Depot-Koln-Sulz-Cologne"
+   ]
+  },
+  {
+   "name": "Schulz",
+   "area": "ehrenfeld",
+   "address": "Landmannstraße 39, Köln (PLZ nicht im Quelltext; Neuehrenfeld)",
+   "category": "kneipe",
+   "reason": "outside-area (Ehrenfeld, found incidentally) + postcode-missing: Restaurant Guru Google 4.6 (119) meets the bar (page structured data shows RG 3.9)",
+   "found": "Cozy Kölsch bar with a wine list; ranked #351 of 2,683 pubs & bars in Cologne on Restaurant Guru.",
+   "sources": [
+    "https://restaurantguru.com/Schulz-Cologne"
+   ]
+  }
+ ],
+ "notes_ko": "범위: 새 지역 suelz-lindenthal — 쥘츠(Berrenrather Str., 귀르텔 바깥 Zülpicher Str., Sülzburgstr., Luxemburger Str., Weyertal), 클레텐베르크(Luxemburger Str. 남쪽, Klettenberggürtel, Petersbergstr.), 린덴탈(Dürener Str., Lindenthalgürtel, Bachemer Str.). WebSearch 32회(standard) 모두 사용. 수치는 Wanderlog 장소 페이지(구글 평점·건수 표시), Restaurant Guru의 'Google' 칸, werkenntdenbesten의 google.de 칸에서만 가져왔고, Restaurant Guru 자체 점수·건수는 쓰지 않았다(rating_source에 구분 표기). \n\n이전 후보 재확인: Sophias Restaurant(주소 Luxemburger Str. 289 확인), EL HABAB(Luxemburger Str. 246), Sülzer Kebab(Sülzburgstr. 201), Haus Unkelbach(Luxemburger Str. 260, 50937 확인)를 places로 올렸다. African Roasters(Sülzburgstr. 27)는 검색 한도 때문에 재확인하지 못해 기존 후보 그대로 둔다. \n\n우편번호 메모: 출처에 우편번호가 없던 4곳은 같은 거리의 확인된 번지로 적었다 — Stube는 이후 Wanderlog에서 50937 확인, HEILANDT Café Sülz(Sülzburgstr. 1)·Pizzeria Trattoria Siciliana(Sülzburgstr. 90)는 같은 거리 27·201번지가 50937, Falafel Shawarma Sülz(Berrenrather Str. 219)는 같은 쪽 205·221번지가 50937, Holm Kaffeerösterei Café(Lindenthalgürtel 61)는 같은 거리 72번지가 50935인 것을 근거로 함. 지오코딩 전 확인 권장. \n\n폐업 신호로 제외: Zur Sülzburg(Sülzburgstr. 229, Google 4.2/91이지만 Restaurant Guru '영구 폐업'), Sünner Stube(Lindenthalgürtel 72, 50935 — Wanderlog '영구 폐업'), Berrenrather Hof(Berrenrather Str. 221 — 같은 번지에 현재 Deli Sülz), BIGBOI Burger(Berrenrather Str. 177), Mei Wok Vegan Sülz, DreiZehn Weinbar(Lindenthalgürtel 77), Rotisserie zum Krieler Dom(Bachemer Str. 233 — 같은 번지의 ZEN Japanese는 이미 본 목록에 있음). \n\n기타 메모: Gasthaus Scherz의 현재 주소는 Luxemburger Str. 256, 50937(쥘츠)이다. 기존 후보 'Medina'(북아프리카 요리)는 Restaurant Guru에 'Medina Restaurant Köln – Nordafrikanische Küche, Luxemburger Str. 15'로 나와(지역은 kwartier-lateng, 구글 수치 미확인) 다음 라운드 참고용으로 적어 둔다. 쥘츠 관련 검색에 아이스크림 가게 Eiscafe Da Luca(Google 4.9/579), Eiscafé Cellino(4.6/221), Eiscafé Lido(4.3/177), Eiscafé Settebello(4.2/286)가 나왔지만 위치가 확인되지 않아 넣지 않았다. Viet Thai Restaurant Köln(Eupener Str., Google 4.1/276)·Kölsch Kultur(Petersbergstr. 1, Restaurant Guru 자체 3.4)·Smiley's Pizza Profis(3.9)·Pizza Prego(3.7)는 기준 미달. 벨기에 지구 Heilandt(Bismarckstr. 41)는 Restaurant Guru Google 4.5/783으로 확인됨(이 지역 밖, 기존 후보 'Heilandt Café Belgisches Viertel' 갱신 참고). \n\n주요 출처: https://wanderlog.com/place/details/1353374/down-to-earth-noodles , https://wanderlog.com/place/details/3984164/sophias-restaurant , https://wanderlog.com/place/details/1140643/gasthaus-scherz , https://wanderlog.com/place/details/1326777/caf%C3%A9-bo , https://wanderlog.com/place/details/4376420/landmann-in-lindenthal , https://restaurantguru.com/Cafe-Goldjunge-Cologne , https://restaurantguru.com/Heilandt-Cologne-3 , https://restaurantguru.com/Trattoria-Siciliana-Cologne , https://restaurantguru.com/Holm-Kaffeerosterei-Cafe-Cologne , https://www.werkenntdenbesten.de/sushi/koeln , https://koeln.mitvergnuegen.com/2024/draussen-essen-suelz"
+}

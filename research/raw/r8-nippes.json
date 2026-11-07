@@ -1,0 +1,1487 @@
+{
+ "agent": "r8-nippes",
+ "generated": "2026-11-07",
+ "schema": "v2",
+ "scope": "Round 8 new area 'nippes': Nippes (Neusser Straße, Wilhelmplatz, Turmstraße, Kempener Straße, Sechzigviertel), Riehl (Zoo/Flora) and one Niehl pub (50735) — restaurants, cafés, bakery, Brauhaus and Kneipen meeting Google >= 4.2 / >= 50",
+ "places": [
+  {
+   "name": "FRÜH \"Em Golde Kappes\"",
+   "category": "brauhaus",
+   "area": "nippes",
+   "address": "Neusser Straße 295, 50733 Köln",
+   "cuisine": "Historic Kölsch Brauhaus (since 1913, run by Früh since 2009) with rustic Rhineland dishes",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "rhineland-classics"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Früh Kölsch"
+   ],
+   "google_rating": 4.4,
+   "google_reviews": 2385,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.4 / 2,385); wanderlog.com 4.4 / 2,375 (earlier snapshot). Restaurant Guru's own 4.8 is not Google",
+   "summary_ko": "1913년부터 닙페스 노이서 거리(Neusser Str.)에 있던 쾰시 맥주집으로, 2009년 프뤼(Früh) 양조장이 넘겨받아 복원한 뒤 다시 열었다. 구글 리뷰 2,300여 건에 4.4로 닙페스에서 가장 이름난 브라우하우스라, 시내 관광객 인파 없이 쾰시와 라인란트 향토 요리를 즐기기 좋다.",
+   "must_try": [
+    "Früh Kölsch vom Fass (생 프뤼 쾰시)",
+    "Rheinische Küche (라인란트 향토 요리)"
+   ],
+   "tips_ko": "노이서 거리 295번지로 Café Goldjunge(291번지)·Alt Neppes(301번지)와 몇 걸음 거리다. 저녁·주말엔 붐비니 여럿이면 예약하는 편이 안전하다. 메뉴·가격은 출처에서 확인하지 못했다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Em-Golde-Kappes-Cologne",
+    "https://www.koeln.de/koeln/essen_und_trinken/tipps/dies-sind-die-besten-restaurants-in-koeln-nippes_em_golde_kappes_L1118008_1136456.html",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ],
+   "confidence": "medium",
+   "style_hint": "brauhaus"
+  },
+  {
+   "name": "Haus Schnackertz",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Bülowstraße 2, 50733 Köln",
+   "cuisine": "German gutbürgerlich restaurant (Gasthaus) — schnitzel, cordon bleu and its signature Nippeser Senfrostbraten",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "schnitzel",
+    "steak"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "family",
+    "date"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite",
+    "traditional"
+   ],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "옛 메뉴판(약 4년 전 업로드, Restaurant Guru): Carpaccio vom Rind €9.90, kleines paniertes Kalbsschnitzel €7.90, Blaubeerpfannkuchen €6.50 — 현재 가격은 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 519,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com / wanderlog.com (Google 4.6; 519–541 reviews depending on the snapshot — lower figure used). Tripadvisor 4.5 / 66 and Restaurant Guru's own 4.5 / 742 are not Google",
+   "summary_ko": "닙페스 뷜로 거리(Bülowstraße)의 독일 가정식(gutbürgerlich) 식당으로, 슈니첼과 감자샐러드, 그리고 이 집 명물 '닙페스식 겨자 로스트브라텐(Nippeser Senfrostbraten)'으로 알려져 있다. 구글 4.6(약 520–540건)에 영어가 되는 친절한 직원 칭찬이 많아 독일 음식을 제대로 먹고 싶을 때 좋다.",
+   "must_try": [
+    "Nippeser Senfrostbraten (닙페스식 겨자 로스트브라텐 — 이 집 명물)",
+    "Wiener Schnitzel / Cordon bleu (비너 슈니첼·코르동 블뢰)",
+    "Kaiserschmarrn (카이저슈마렌 — 잘게 찢은 팬케이크 디저트)"
+   ],
+   "tips_ko": "인기가 많아 미리 예약하라는 후기가 많다(전화 +49 221 766839). 주변 주차가 어렵다는 불만이 반복되니 대중교통으로 갈 것. 간 요리가 덜 익었다는 후기도 하나 있다.",
+   "website": "https://schnackertz.koeln",
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Schnackertz-Cologne",
+    "https://restaurantguru.com/Schnackertz-Cologne/menu",
+    "https://wanderlog.com/place/details/4059239/haus-schnackertz",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ],
+   "confidence": "medium",
+   "style_hint": "gasthaus"
+  },
+  {
+   "name": "Riehler Hof",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Stammheimer Straße 133, 50735 Köln",
+   "cuisine": "German neighbourhood Gaststätte in Riehl known for schnitzel",
+   "cuisine_country": [
+    "DE"
+   ],
+   "dishes": [
+    "schnitzel"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "family"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite",
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 526,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.6 / 526; the page's structured-data 4.5 / 608 is a cross-site aggregate)",
+   "summary_ko": "릴(Riehl) 슈탐하이머 거리의 독일식 동네 가스트슈테테로, 리뷰에 슈니첼과 직원 칭찬이 자주 나온다. 구글 4.6(526건)이라 쾰른 동물원·플로라 식물원 쪽 일정 뒤 독일 가정식 저녁을 먹기 좋다.",
+   "must_try": [
+    "Schnitzel (슈니첼)"
+   ],
+   "tips_ko": "동네 단골 위주의 가게다. 메뉴·영업시간은 출처에서 확인하지 못했으니 방문 전 확인할 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Riehler-Hof-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "gasthaus"
+  },
+  {
+   "name": "Zum Kornbrenner",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Neusser Straße 171, 50733 Köln",
+   "cuisine": "Old-style neighbourhood Gaststätte (pub-restaurant) praised for generous portions",
+   "cuisine_country": [],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "hidden-gem",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.3,
+   "google_reviews": 575,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com place page (Google 4.3 / 575)",
+   "summary_ko": "노이서 거리 171번지의 오래된 동네 가스트슈테테로, 양이 넉넉하고 주인·직원이 친절하다는 '숨은 맛집' 후기가 많다. 구글 4.3(575건)으로 관광지 밖 쾰른 동네 식당 분위기를 느끼기 좋다.",
+   "must_try": [],
+   "tips_ko": "출처에서 메뉴·요리 국적·가격을 확인하지 못했다. 양이 많다는 후기가 많으니 주문은 적게 시작할 것. 영업일은 방문 전 확인.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/5215765/zum-kornbrenner",
+    "https://restaurantguru.com/Zum-Kornbrenner-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "gasthaus"
+  },
+  {
+   "name": "Restaurant Schlemmergarten (Kleingartenverein Köln-Riehl)",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Boltensternstraße 90, 50735 Köln",
+   "cuisine": "Allotment-garden club restaurant (Vereinsgaststätte) in Riehl",
+   "cuisine_country": [],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "family"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "hidden-gem",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 396,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.8 / 396, German page)",
+   "summary_ko": "릴(Riehl)의 주말농장 단지(Kleingartenverein) 안에 있는 클럽 식당으로, 관광객은 거의 모르는 동네 사람들의 단골집이다. 구글 4.8(396건)로 평점이 매우 높아 쾰른 사람들의 일상적인 외식 문화를 엿보기 좋다.",
+   "must_try": [],
+   "tips_ko": "주말농장 단지 안이라 입구 찾기가 조금 어렵다(Boltensternstraße 90). 메뉴(Restaurant Guru에 메뉴 페이지 있음)·영업일은 확인하지 못했으니 방문 전 확인할 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Restaurant-Schlemmergarten-im-Kleingartenverein-Koln-Riehl-Cologne",
+    "https://de.restaurantguru.com/amp/Restaurant-Schlemmergarten-im-Kleingartenverein-Koln-Riehl-Cologne",
+    "https://restaurantguru.com/Restaurant-Schlemmergarten-im-Kleingartenverein-Koln-Riehl-Cologne/menu"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Lamia Restaurant",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Neusser Straße 182, 50733 Köln",
+   "cuisine": "Mediterranean seafood restaurant — mezze, fish, daily fresh oysters",
+   "cuisine_country": [
+    "INT"
+   ],
+   "dishes": [
+    "seafood",
+    "mezze"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "date",
+    "business"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 224,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com place page (Google 4.7 / 224; the second score 4.5 / 7 is another site)",
+   "summary_ko": "노이서 거리의 지중해 레스토랑으로 메제·생선 요리와 매일 들여오는 생굴이 특징이며, 별을 받은 여성 셰프 밑에서 일했던 요리사들이 주방을 맡는다(Mit Vergnügen). 구글 4.7(224건)에 해산물 리소토 등 신선한 해산물 칭찬이 많아 닙페스에서 특별한 저녁을 원할 때 좋다.",
+   "must_try": [
+    "Risotto ai frutti di mare (해산물 리소토)",
+    "Austern (생굴)",
+    "Mezze (지중해식 메제)"
+   ],
+   "tips_ko": "일·월 휴무, 그 외 요일은 점심·저녁 영업(Wanderlog). 전화 +49 221 88889988. 처음에 서빙이 조금 늦었다는 후기가 있다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/4267646/lamia-restaurant",
+    "https://restaurantguru.com/Lamia-Restaurant-Cologne/menu",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "a comer!",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Einheitstraße 15, 50733 Köln",
+   "cuisine": "Peruvian-Spanish tapas bar — ceviche and small plates, varied wine list",
+   "cuisine_country": [
+    "PE",
+    "ES"
+   ],
+   "dishes": [
+    "tapas",
+    "seafood",
+    "flammkuchen"
+   ],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "date",
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "wine-list"
+   ],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 300,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.6 / 300); wanderlog.com 4.6 / 299; OpenTable 4.5 / 132 is not Google",
+   "summary_ko": "닙페스 아인하이트 거리의 페루·스페인식 타파스 바로, 세비체와 작은 접시 요리, 다양한 와인이 강점이다. 구글 4.6(약 300건)에 아늑한 분위기와 친절한 서비스 칭찬이 많아 둘이서 저녁 먹기 좋다.",
+   "must_try": [
+    "Ceviche (세비체 — 라임즙에 절인 페루식 생선 요리)",
+    "Tapas (타파스 여러 접시)"
+   ],
+   "tips_ko": "화–토 17–23시 저녁만 영업, 일·월 휴무(Wanderlog). 가격에 비해 양이 적고 품절 메뉴가 있었다는 후기도 있으니 여러 접시를 나눠 먹을 생각으로 갈 것. Mit Vergnügen은 플람쿠헨도 낸다고 소개했다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Einheit-15-Cologne",
+    "https://wanderlog.com/place/details/5217249/a-comer",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/",
+    "https://www.koeln.de/koeln/essen_und_trinken/tipps/dies-sind-die-besten-restaurants-in-koeln-nippes_1118008.html"
+   ],
+   "confidence": "medium",
+   "style_hint": "tapas"
+  },
+  {
+   "name": "Bisù Nippes",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Scharnhorststraße 8, 50733 Köln",
+   "cuisine": "Italian tapas restaurant (small plates, 'Speiselokal')",
+   "cuisine_country": [
+    "IT"
+   ],
+   "dishes": [
+    "tapas"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "date",
+    "group"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 402,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.5 / 402)",
+   "summary_ko": "닙페스 주택가 샤른호르스트 거리의 이탈리아 타파스 식당으로, 작은 접시 요리를 여러 개 시켜 나눠 먹는 방식이고 채식 메뉴도 있다. 구글 4.5(약 400건)로 동네 이탈리안 중 평이 좋아 2–4명 저녁에 알맞다.",
+   "must_try": [
+    "Italienische Tapas (이탈리아식 타파스 여러 접시)"
+   ],
+   "tips_ko": "작은 동네 식당이라 저녁은 예약하는 편이 안전하다(웹사이트 nippes.bisu-koeln.de). 쾰른에 다른 Bisù 지점('Bisù – Italienisches Speiselokal')도 있으니 주소를 확인할 것.",
+   "website": "https://nippes.bisu-koeln.de",
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Bisu-Nippes-Cologne",
+    "https://restaurantguru.com/Bisu-Nippes-Cologne/menu",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ],
+   "confidence": "medium",
+   "style_hint": "tapas"
+  },
+  {
+   "name": "Shibuya (Neusser Straße)",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Neusser Straße 332, 50733 Köln",
+   "cuisine": "Japanese izakaya — ramen, sushi and bao buns (Nippes branch of Daikan; Wanderlog still lists it as 'Shibuya')",
+   "cuisine_country": [
+    "JP"
+   ],
+   "dishes": [
+    "ramen",
+    "sushi"
+   ],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "solo",
+    "date"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 563,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com place page 'Shibuya' at Neusser Str. 332 (Google 4.4 / 563, captured in round r2; identity re-checked in round 8)",
+   "summary_ko": "노이서 거리 332번지의 일본 이자카야로, 벨기에 지구 다이칸(Daikan)의 닙페스 분점이라 라멘·스시·바오번을 낸다(Mit Vergnügen; Wanderlog엔 옛 이름 'Shibuya'로 등록). 친절한 서비스와 스시 품질, 아늑하고 깨끗한 가게 칭찬이 많고 구글 4.4(563건)다.",
+   "must_try": [
+    "Ramen (라멘)",
+    "Sushi (스시)",
+    "Bao Buns (바오번)"
+   ],
+   "tips_ko": "지도에서는 'DAIKAN IZAKAYA (Nippes)' 또는 'Shibuya'로 나올 수 있다. Restaurant Guru엔 리뷰 없는 'Daikan, Neusser Str. 339' 항목도 따로 있으니 번지(332)로 찾을 것. 홈메이드 아이스티를 추천하는 후기가 있다.",
+   "website": "https://daikan.de",
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/3490317/shibuya",
+    "https://restaurantguru.com/Shibuya-Cologne",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ],
+   "confidence": "medium",
+   "style_hint": "izakaya"
+  },
+  {
+   "name": "Hà Nội 46 Restaurant",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Kempener Straße 46, 50733 Köln",
+   "cuisine": "Vietnamese and pan-Asian restaurant (pho, vegetarian options)",
+   "cuisine_country": [
+    "VN"
+   ],
+   "dishes": [
+    "pho",
+    "noodles"
+   ],
+   "diet": [
+    "vegetarian"
+   ],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "quick",
+    "solo"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.5,
+   "google_reviews": 754,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.5 / 754); wanderlog.com place page 4.5 / 669 and list page 4.5 / 751. RG structured data 4.3 / 800 is a cross-site aggregate",
+   "summary_ko": "켐페너 거리의 베트남·범아시아 식당으로 쌀국수(phở) 칭찬이 많고 채식 메뉴도 있다. 구글 4.5(750건 안팎)로 닙페스에서 리뷰가 가장 많은 아시아 식당 중 하나다.",
+   "must_try": [
+    "Phở (베트남 쌀국수)"
+   ],
+   "tips_ko": "현금만 받는다고 미리 안내받았다는 후기가 있으니 현금을 챙길 것. 요리끼리 맛 차이가 적다, 계산이 더 나왔다, 배달 주문이 오지 않았다는 불만 후기도 있어 매장에서 먹고 계산서를 확인하길 권한다. 전화 +49 221 29490698.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/HA-NOI-46-Cologne",
+    "https://wanderlog.com/place/details/1965756/h%C3%A0-n%E1%BB%99i-46-restaurant",
+    "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Gaziantep Altıntepsi",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Auguststraße 35, 50733 Köln",
+   "cuisine": "Turkish restaurant in the Gaziantep tradition — lahmacun and pide",
+   "cuisine_country": [
+    "TR"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "quick",
+    "family"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite",
+    "hidden-gem"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note": "리뷰에서 '저렴한 가격(inexpensive)'을 여러 번 언급 — 메뉴판 가격은 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 347,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com place page (Google 4.7 / 347)",
+   "summary_ko": "닙페스 아우구스트 거리의 튀르키예 가지안테프식 식당으로, 라마준(얇은 튀르키예 피자)과 피데(배 모양 튀르키예 피자) 칭찬이 많다. 구글 4.7(347건)에 값이 싸고 손님 대접이 좋다는 후기가 많아 싸고 든든한 한 끼로 좋다.",
+   "must_try": [
+    "Lahmacun (라마준 — 다진 고기를 얹은 얇은 튀르키예 피자)",
+    "Pide (피데 — 배 모양 튀르키예 피자)"
+   ],
+   "tips_ko": "관광객보다 동네 손님 위주의 소박한 가게다. 영업시간은 출처에서 확인하지 못했다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/9644549/gaziantep-alt%C4%B1ntepsi"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Hornochse – Burger Manufaktur Köln",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Neusser Straße 304, 50733 Köln",
+   "cuisine": "Burger restaurant — beef, vegetarian and vegan burgers with fries",
+   "cuisine_country": [
+    "US"
+   ],
+   "dishes": [
+    "burger"
+   ],
+   "diet": [
+    "vegetarian",
+    "vegan"
+   ],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "group",
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 1277,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com place page (Google 4.6 / 1,277; Wanderlog list snapshots show 1,458–1,466 reviews). A Restaurant Guru snippet shows Google 4.4 and RG structured data 4.3 / 1,426",
+   "summary_ko": "노이서 거리의 수제 버거집으로, Mit Vergnügen이 '닙페스에서 버거라면 단연 첫 번째 주소'라고 꼽은 곳이다. 소고기·채식·비건 버거를 모두 내고 구글 리뷰 1,200건 이상에 4.6이라 든든한 저녁으로 좋다.",
+   "must_try": [
+    "Royal Cheese Burger (로열 치즈버거 — 큼직하다는 호평)",
+    "Portobello Burger (포르토벨로 버섯 채식 버거)",
+    "Pommes (감자튀김)"
+   ],
+   "tips_ko": "마요네즈·케첩을 따로 돈 받는다는 불만, 미디엄 레어로 시켰는데 완전히 익혀 나왔다는 후기가 있다. 알레르기가 있으면 주문 때 꼭 말할 것(알레르겐이 섞였다는 후기 언급).",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/2616846/hornochse-burger-manufaktur-k%C3%B6ln",
+    "https://restaurantguru.com/Hornochse-Cologne",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ],
+   "confidence": "medium",
+   "style_hint": "burger"
+  },
+  {
+   "name": "Fink – restaurant café",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Siebachstraße 50, 50733 Köln",
+   "cuisine": "Small seasonal restaurant-café — short, freshly cooked menu (risotto, rabbit, daily specials)",
+   "cuisine_country": [
+    "INT"
+   ],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "occasions": [
+    "date",
+    "solo"
+   ],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [],
+   "vibe": [
+    "hidden-gem",
+    "quiet"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 150,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.7 / 150; page about 450 days old); wanderlog.com 4.7 / 144. RG's own 4.7 / 277 and Tripadvisor 4.5 / 21 are not Google",
+   "summary_ko": "닙페스 북쪽 지바흐 거리의 작은 레스토랑 겸 카페로, 메뉴는 짧지만 제철 재료로 매일 새로 요리한다(Mit Vergnügen). 구글 4.7(150건)에 리소토·토끼 요리와 오늘의 메뉴 칭찬이 많아 조용한 동네 저녁으로 좋다.",
+   "must_try": [
+    "Tagesgericht (오늘의 메뉴)",
+    "Risotto (리소토)",
+    "Kaninchen (토끼 요리 — 메뉴에 있을 때)"
+   ],
+   "tips_ko": "메뉴가 작고 계절마다 바뀌어 원하는 요리가 없을 수 있다. 여름엔 야외석이 인기다. 영업시간은 출처에서 확인하지 못했다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Fink-Cologne",
+    "https://wanderlog.com/place/details/3746902/fink-restaurant-cafe",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "name": "Café Goldjunge Nippes",
+   "category": "cafe",
+   "area": "nippes",
+   "address": "Neusser Straße 291, 50733 Köln",
+   "cuisine": "Breakfast and brunch café (Cologne mini-chain, Nippes branch)",
+   "cuisine_country": [],
+   "dishes": [
+    "brunch-plates",
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+   ],
+   "occasions": [
+    "solo",
+    "family"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 443,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.7 / 443); wanderlog.com 4.7 / 441. RG's own 4.8 is not Google",
+   "summary_ko": "쾰른에 네 곳(쥘츠·미디어파크·시내·닙페스)을 둔 아침·브런치 카페 골트융에의 닙페스 지점으로, 노이서 거리 한가운데 있다. 구글 4.7(440여 건)로 닙페스 카페 중 평이 가장 좋은 편이라 동네 산책 전 아침 식사 장소로 알맞다.",
+   "must_try": [
+    "Frühstück (아침 세트)"
+   ],
+   "tips_ko": "아침은 맛있지만 느리게 나왔다, 아이스커피가 값에 비해 아쉬웠다는 후기가 있다. 주말 오전엔 자리가 빨리 차니 바로 옆 Café Pause(287번지)도 대안이다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Cafe-Goldjunge-Cologne-3",
+    "https://wanderlog.com/place/details/5295598/caf%C3%A9-goldjunge-nippes",
+    "https://wanderlog.com/list/geoCategory/10013/best-breakfast-and-brunch-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "brunch"
+  },
+  {
+   "name": "Café Pause",
+   "category": "cafe",
+   "area": "nippes",
+   "address": "Neusser Straße 287, 50733 Köln",
+   "cuisine": "Neighbourhood café — coffee, grilled panini, focaccia, crêpes and toast",
+   "cuisine_country": [],
+   "dishes": [
+    "sandwiches",
+    "coffee"
+   ],
+   "diet": [
+    "vegan"
+   ],
+   "meals": [
+    "breakfast",
+    "lunch"
+   ],
+   "occasions": [
+    "solo",
+    "quick"
+   ],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.2,
+   "google_reviews": 361,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com place page (Google 4.2 / 361; a Wanderlog list snapshot shows 4.2 / 379)",
+   "summary_ko": "노이서 거리의 동네 카페로 커피와 함께 구운 파니니·포카치아·크레프·토스트를 낸다. 음식·가격·친절한 직원 칭찬이 많고 비건 메뉴와 여름 야외석이 있어 가볍게 아침이나 점심을 먹기 좋다.",
+   "must_try": [
+    "Panini (구운 파니니)",
+    "Crêpe (크레프)"
+   ],
+   "tips_ko": "구글 4.2로 기준선에 딱 걸리는 곳이라 '편한 동네 카페' 정도로 기대할 것. 바로 옆 291번지가 Café Goldjunge다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/10494747/caf%C3%A9-pause",
+    "https://wanderlog.com/list/geoCategory/1856496/best-spots-for-crepes-in-cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  },
+  {
+   "name": "Café Wölkchen",
+   "category": "cafe",
+   "area": "nippes",
+   "address": "Kempener Straße 34, 50733 Köln",
+   "cuisine": "Small family-friendly neighbourhood café — homemade cakes, coffee and breakfast",
+   "cuisine_country": [],
+   "dishes": [
+    "cake",
+    "coffee",
+    "brunch-plates"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast",
+    "brunch"
+   ],
+   "occasions": [
+    "family",
+    "solo"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [
+    "local-favorite",
+    "hidden-gem"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 465,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com place page (Google 4.8 / 465; 389 of them five-star)",
+   "summary_ko": "켐페너 거리의 작은 동네 카페로, 케이크와 커피 칭찬이 많고 Mit Vergnügen의 '닙페스 아침 식사 11곳'에 아이와 가기 좋은 카페로 소개됐다. 구글 4.8(465건)로 닙페스 카페 중 최상위 평점이다.",
+   "must_try": [
+    "Kuchen (케이크)",
+    "Frühstück (아침 메뉴)"
+   ],
+   "tips_ko": "자리가 적어 주말엔 붐비고 시끄러울 수 있다는 후기가 있다. 평일 오전이나 오후 커피·케이크 시간을 노릴 것. 같은 거리 46번지가 Hà Nội 46이다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/4362930/caf%C3%A9-w%C3%B6lkchen",
+    "https://koeln.mitvergnuegen.com/2024/fruehstueck-nippes"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  },
+  {
+   "name": "Anguli Coffee",
+   "category": "cafe",
+   "area": "nippes",
+   "address": "Mauenheimer Straße 28, 50733 Köln",
+   "cuisine": "Specialty coffee café at Schillplatz",
+   "cuisine_country": [],
+   "dishes": [
+    "coffee"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast"
+   ],
+   "occasions": [
+    "solo",
+    "quick"
+   ],
+   "features": [
+    "open-sunday"
+   ],
+   "drinks": [
+    "specialty-coffee"
+   ],
+   "vibe": [
+    "hidden-gem"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.7,
+   "google_reviews": 200,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.7 / 200); wanderlog.com 4.7 / 181. RG's own 2.8 / 200 is not Google",
+   "summary_ko": "닙페스 쉴플라츠(Schillplatz) 바로 앞의 스페셜티 커피 카페로, Wanderlog가 '고품질 커피 전문의 숨은 보석'으로 소개하고 Mit Vergnügen의 닙페스 아침 식사 목록에도 올랐다. 구글 4.7(약 200건)이라 동네 산책 중 커피 한잔하기 좋다.",
+   "must_try": [
+    "Specialty Coffee (스페셜티 커피)"
+   ],
+   "tips_ko": "Restaurant Guru 기준 평일 08–18시, 주말 10–18시(출처마다 시간이 조금 다르니 확인할 것).",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://de.restaurantguru.com/Anguli-Coffee-Cologne",
+    "https://wanderlog.com/place/details/8822395/anguli-coffee",
+    "https://koeln.mitvergnuegen.com/2024/fruehstueck-nippes"
+   ],
+   "confidence": "medium",
+   "style_hint": "cafe"
+  },
+  {
+   "name": "POTPOURRI Köln",
+   "category": "restaurant",
+   "area": "nippes",
+   "address": "Mauenheimer Straße 92, 50733 Köln",
+   "cuisine": "Restaurant-café in the Altenberger Hof with courtyard — healthy, vegan-friendly food and Sunday brunch",
+   "cuisine_country": [
+    "INT"
+   ],
+   "dishes": [
+    "brunch-plates",
+    "bowls"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian"
+   ],
+   "meals": [
+    "brunch",
+    "lunch"
+   ],
+   "occasions": [
+    "group",
+    "date"
+   ],
+   "features": [
+    "terrace"
+   ],
+   "drinks": [],
+   "vibe": [
+    "trendy"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 848,
+   "google_as_of": null,
+   "rating_source": "wanderlog.com place page (Google 4.4 / 848; the second score 4.0 / 17 is Tripadvisor)",
+   "summary_ko": "문화공간 알텐베르거 호프(Altenberger Hof) 안뜰에 있는 레스토랑 겸 카페로, 건강식·비건 메뉴(바나나 팬케이크 등)와 일요일 브런치로 알려져 있다. 구글 리뷰 800여 건에 4.4로, 채식하는 동행이 있을 때 고르기 좋은 브런치 장소다.",
+   "must_try": [
+    "Bananen-Pancakes (바나나 팬케이크 — 비건 가능)",
+    "Sonntagsbrunch (일요일 브런치)"
+   ],
+   "tips_ko": "브런치의 스파클링 와인 무제한 구성에 무알코올 대안이 없었다는 불만 후기가 있으니 주문 전 구성을 확인할 것. 일요일 브런치는 붐빌 수 있으니 미리 자리를 확인할 것.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://wanderlog.com/place/details/4103234/potpourri-k%C3%B6ln",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ],
+   "confidence": "medium",
+   "style_hint": "brunch"
+  },
+  {
+   "name": "Adolph's Bäckerei – Filiale Nippes",
+   "category": "bakery",
+   "area": "nippes",
+   "address": "Sechzigstraße 21, 50733 Köln",
+   "cuisine": "Neighbourhood bakery branch (bread, rolls, pastries)",
+   "cuisine_country": [],
+   "dishes": [
+    "bread-pastry"
+   ],
+   "diet": [],
+   "meals": [
+    "breakfast"
+   ],
+   "occasions": [
+    "quick"
+   ],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.6,
+   "google_reviews": 176,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.6 / 176; Restaurant Guru's own 3/5 from 180 is not Google)",
+   "summary_ko": "섹치히 지구(Sechzigviertel) 섹치히 거리의 동네 빵집 지점으로 빵·브뢰첸·페이스트리를 판다. 구글 4.6(176건)으로 평이 좋아 근처에 묵는다면 아침 빵을 사기 좋다.",
+   "must_try": [
+    "Brötchen (브뢰첸 — 독일식 아침 빵)"
+   ],
+   "tips_ko": "빵집이라 아침 일찍 열고 오후엔 빵이 떨어질 수 있다. 영업시간·일요일 영업은 출처에서 확인하지 못했다. 같은 거리 1번지가 그리스 식당 Jamas다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Adolphs-Baeckerei-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "bakery"
+  },
+  {
+   "name": "Alt Neppes",
+   "category": "kneipe",
+   "area": "nippes",
+   "address": "Neusser Straße 301, 50733 Köln",
+   "cuisine": "Old-school Nippes Kölsch pub (Kneipe)",
+   "cuisine_country": [],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "late-night"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite",
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.4,
+   "google_reviews": 321,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.4 / 321; Restaurant Guru's own 3.1 / 377 is not Google)",
+   "summary_ko": "'옛 닙페스'(Neppes는 닙페스의 쾰른 사투리)라는 이름의 쾰시 크나이페로, Mit Vergnügen의 '저렴한 바·크나이페 11곳'과 '진짜 쾰른 크나이페 11곳'에 오른 곳이다. 구글 4.4(321건)로 동네 술집 분위기를 느끼기 좋다.",
+   "must_try": [
+    "Kölsch vom Fass (생 쾰시)"
+   ],
+   "tips_ko": "관광 술집이 아니라 단골 위주의 동네 술집이다. 같은 거리 295번지 Em Golde Kappes, 340번지 Neppeser Gaffel Stube와 묶어 노이서 거리 크나이페 순례를 하기 좋다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Alt-Neppes-Cologne",
+    "https://koeln.mitvergnuegen.com/2024/guenstige-bars-kneipen/",
+    "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/"
+   ],
+   "confidence": "medium",
+   "style_hint": "kneipe"
+  },
+  {
+   "name": "Flora 6",
+   "category": "kneipe",
+   "area": "nippes",
+   "address": "Florastraße 6, 50733 Köln",
+   "cuisine": "Nippes neighbourhood Kölsch pub (Kneipe) pouring Gaffel",
+   "cuisine_country": [],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "late-night"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Gaffel Kölsch"
+   ],
+   "google_rating": 4.3,
+   "google_reviews": 458,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.3 / 458; Restaurant Guru's own 2.7 / 504 is not Google)",
+   "summary_ko": "닙페스 플로라 거리 6번지의 동네 크나이페로, Mit Vergnügen 크나이페 목록에 이름이 오르고 가펠(Gaffel) 쾰시를 낸다. 구글 4.3(458건)으로 현지 단골이 많은 쾰시 술집이다.",
+   "must_try": [
+    "Gaffel Kölsch (가펠 쾰시)"
+   ],
+   "tips_ko": "이름의 'Flora'는 길 이름(Florastraße)이고 릴의 식물원 플로라(Flora)와는 다른 곳이다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Flora-6-Cologne",
+    "https://wanderlog.com/place/details/12792986/flora-6-k%C3%B6ln-nippes"
+   ],
+   "confidence": "medium",
+   "style_hint": "kneipe"
+  },
+  {
+   "name": "Neppeser Gaffel Stube",
+   "category": "kneipe",
+   "area": "nippes",
+   "address": "Neusser Straße 340, 50733 Köln",
+   "cuisine": "Gaffel Kölsch pub (Kneipe), formerly 'Restauration Pet Wirtz'",
+   "cuisine_country": [],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "late-night"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "traditional",
+    "local-favorite"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Gaffel Kölsch"
+   ],
+   "google_rating": 4.4,
+   "google_reviews": 246,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.4 / 246; Restaurant Guru's own 3.4 / 260 is not Google)",
+   "summary_ko": "노이서 거리 북쪽의 가펠(Gaffel) 쾰시 크나이페로, 닙페스 동네 사람들이 쾰시 한잔하러 모이는 곳이다. 구글 4.4(246건).",
+   "must_try": [
+    "Gaffel Kölsch (가펠 쾰시)"
+   ],
+   "tips_ko": "음식 메뉴·영업시간은 출처에서 확인하지 못했다. Daikan 닙페스점(332번지)과 가까워 저녁 뒤 한잔하기 좋다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Restauration-Pet-Wirtz-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "kneipe"
+  },
+  {
+   "name": "Gaffel im Linkewitz",
+   "category": "kneipe",
+   "area": "nippes",
+   "address": "Niehler Damm 179, 50735 Köln",
+   "cuisine": "Gaststätte (Kölsch pub with food) serving Gaffel Kölsch, in Niehl",
+   "cuisine_country": [],
+   "dishes": [],
+   "diet": [],
+   "meals": [
+    "dinner"
+   ],
+   "occasions": [
+    "group"
+   ],
+   "features": [],
+   "drinks": [
+    "koelsch"
+   ],
+   "vibe": [
+    "local-favorite",
+    "traditional"
+   ],
+   "reservation": "unknown",
+   "payment": "unknown",
+   "price_level": null,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인(출처에 메뉴 가격 없음)",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [
+    "Gaffel Kölsch"
+   ],
+   "google_rating": 4.5,
+   "google_reviews": 614,
+   "google_as_of": null,
+   "rating_source": "restaurantguru.com (Google 4.5 / 614; the page's structured data shows 4.4)",
+   "summary_ko": "닙페스 구의 닐(Niehl) 동네, 닐러 담(Niehler Damm)에 있는 가펠 쾰시 가스트슈테테다. 구글 4.5(614건)로 평이 좋지만 시내에서 멀어 닐·릴 쪽에 일정이 있을 때 들를 만하다.",
+   "must_try": [
+    "Gaffel Kölsch (가펠 쾰시)"
+   ],
+   "tips_ko": "출처에 우편번호가 없어 닐 지역 우편번호(50735)로 적었다. 메뉴·영업시간은 확인하지 못했다.",
+   "website": null,
+   "awards": [],
+   "sources": [
+    "https://restaurantguru.com/Gaffel-im-Linkewitz-Cologne"
+   ],
+   "confidence": "medium",
+   "style_hint": "kneipe"
+  }
+ ],
+ "candidates": [
+  {
+   "name": "Körners Gasthaus",
+   "area": "nippes",
+   "address": "Stammheimer Straße 100, 50735 Köln",
+   "category": "restaurant",
+   "reason": "google-numbers-missing: OpenTable 4.9 from only 5 reviews; Restaurant Guru figures (~4.3, 434 votes) are not Google",
+   "found": "릴의 전통 라인란트 가스트하우스(OpenTable: '정통 라인란트식 환대와 든든한 요리'). OpenTable은 닙페스 일대 최고 인기 식당이라고 표시. 구글 수치 확인되면 승격 가능.",
+   "sources": [
+    "https://opentable.com.mx/features/best-lunch-restaurants-cologne-nippes",
+    "https://restaurantguru.com/Riehler-Hof-Cologne"
+   ]
+  },
+  {
+   "name": "Rakete – Wein- & Apéritivobar",
+   "area": "nippes",
+   "address": "Baudriplatz 2, Köln (PLZ 미확인)",
+   "category": "wine-bar",
+   "reason": "below-bar: Restaurant Guru shows 4.7 from only 26 reviews (labelled Google) — under 50",
+   "found": "와인·아페리티보 바. 아늑한 동네 분위기·친절한 주인 호평, 위스키 사워 언급. 아침·브런치·야외석 표시. 닙페스 검색에서 나왔지만 위치(Baudriplatz)가 닙페스인지 미확인.",
+   "sources": [
+    "https://restaurantguru.com/Rakete-Wein-und-Aperitivobar-Cologne"
+   ]
+  },
+  {
+   "name": "The Tasty Pasty Company",
+   "area": "nippes",
+   "address": "Mauenheimer Straße 28, 50733 Köln",
+   "category": "cafe",
+   "reason": "google-review-count-missing + possible closure: Google 4.6 on Restaurant Guru; Anguli Coffee is now listed at the same address",
+   "found": "영국식 파이(pasty) 카페로 기록돼 있으나 같은 번지에 현재 Anguli Coffee가 있어 폐업·이전 가능성.",
+   "sources": [
+    "https://restaurantguru.com/The-Tasty-Pasty-Company-Cologne"
+   ]
+  },
+  {
+   "name": "Flora Grill-Pizzeria",
+   "area": "nippes",
+   "address": "Neusser Straße 267, 50733 Köln",
+   "category": "streetfood",
+   "reason": "google-review-count-missing: Google 4.3 (structured data 4.2) on Restaurant Guru, count not shown",
+   "found": "노이서 거리의 그릴·피자 임비스.",
+   "sources": [
+    "https://restaurantguru.com/Flora-Grill-Pizzeria-Cologne"
+   ]
+  },
+  {
+   "name": "Nachtschwärmer",
+   "area": "nippes",
+   "address": "Neusser Straße (Hausnummer nicht ermittelt), 50733 Köln",
+   "category": "bar",
+   "reason": "google-numbers-missing + address-incomplete",
+   "found": "노이서 거리의 펍·바(맥주·칵테일·와인·증류주).",
+   "sources": [
+    "https://restaurantguru.com/Nachtschwaermer-Cologne"
+   ]
+  },
+  {
+   "name": "Barfly",
+   "area": "nippes",
+   "address": "Kempener Straße 68, 50733 Köln",
+   "category": "cocktail-bar",
+   "reason": "permanently-closed (Restaurant Guru)",
+   "found": "칵테일 바 — Restaurant Guru에 영구 폐업 표시.",
+   "sources": [
+    "https://restaurantguru.com/Barfly-Cologne"
+   ]
+  },
+  {
+   "name": "Pizzeria Mimmo u Santo",
+   "area": "nippes",
+   "address": "Neusser Straße (Hausnummer nicht ermittelt), 50733 Köln",
+   "category": "restaurant",
+   "reason": "closure-signal: Wanderlog 'Permanently Closed' (Mit Vergnügen 2025 still lists 'Mimmo & Santo' with gluten-free and vegan options)",
+   "found": "노이서 거리의 이탈리아 피자집. 출처 간 영업 여부가 엇갈림.",
+   "sources": [
+    "https://wanderlog.com/place/details/1282844/pizzeria-mimmo-u-santo",
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ]
+  },
+  {
+   "name": "Jacques' Wein-Depot Köln-Nippes",
+   "area": "nippes",
+   "address": "Neusser Straße 273, 50733 Köln",
+   "category": "wine-shop",
+   "reason": "out-of-scope (wine-shop chain) + review count missing: Google 4.4 on Restaurant Guru (RG's own 0.8 / 26)",
+   "found": "와인 판매 체인 지점(시음 가능). 바·식당이 아님.",
+   "sources": [
+    "https://restaurantguru.com/Jacques-Wein-Depot-Koln-Nippes-Cologne"
+   ]
+  },
+  {
+   "name": "Pizza Terminator – Lieferservice in Nippes",
+   "area": "nippes",
+   "address": null,
+   "category": "streetfood",
+   "reason": "below-bar: Google 4.1 (Restaurant Guru)",
+   "found": "배달·포장 위주 피자집.",
+   "sources": [
+    "https://restaurantguru.com/Pizza-Terminator-Cologne"
+   ]
+  },
+  {
+   "name": "Viet Kitchen",
+   "area": "nippes",
+   "address": "Neusser Straße 289, 50733 Köln",
+   "category": "restaurant",
+   "reason": "google-numbers-missing (Wanderlog shows a single review, no rating)",
+   "found": "노이서 거리의 베트남 식당.",
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/792345/best-vietnamese-foods-and-restaurants-in-cologne"
+   ]
+  },
+  {
+   "name": "An Banh Mi",
+   "area": "nippes",
+   "address": "Niehler Straße 147, 50733 Köln",
+   "category": "streetfood",
+   "reason": "google-numbers-not-found (no Wanderlog / Restaurant Guru listing surfaced)",
+   "found": "Mit Vergnügen '닙페스에서 맛있게 먹기 11곳'(2025)에 나온 반미 가게.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2025/restaurants-nippes/"
+   ]
+  },
+  {
+   "name": "Komagene Köln-Nippes",
+   "area": "nippes",
+   "address": "Neusser Straße 324, 50733 Köln",
+   "category": "streetfood",
+   "reason": "google-numbers-missing (Restaurant Guru's own 1.4 / 71 only)",
+   "found": "치쾨프테(çiğ köfte — 튀르키예식 불구르 완자) 체인 지점.",
+   "sources": [
+    "https://de.restaurantguru.com/Komagene-Cologne-3"
+   ]
+  },
+  {
+   "name": "cigkoftem köln nippes",
+   "area": "nippes",
+   "address": null,
+   "category": "streetfood",
+   "reason": "google-numbers-conflicting: text cites Google 4.7, structured data 1.3; review count not shown",
+   "found": "치쾨프테(çiğ köfte) 체인 지점.",
+   "sources": [
+    "https://restaurantguru.com/cigkoftem-koln-nippes-Cologne"
+   ]
+  },
+  {
+   "name": "finefine – Healthy Food Köln Nippes",
+   "area": "nippes",
+   "address": null,
+   "category": "restaurant",
+   "reason": "below-bar / conflicting: Restaurant Guru shows Google 3.5 (112); structured data on the same page says 4.2",
+   "found": "건강식·볼 가게. 주소 미확보.",
+   "sources": [
+    "https://restaurantguru.com/finefine-Healthy-Food-Koln-Nippes-Cologne"
+   ]
+  },
+  {
+   "name": "Simit Dünyası",
+   "area": "nippes",
+   "address": "Wilhelmstraße 51, 50733 Köln",
+   "category": "bakery",
+   "reason": "google-numbers-missing",
+   "found": "튀르키예 시미트(깨 링빵) 베이커리·카페 체인. Restaurant Guru 소개문에 '닙페스에서 놓치면 안 될 곳'.",
+   "sources": [
+    "https://restaurantguru.com/Simit-Dunyasi-Cologne-2"
+   ]
+  },
+  {
+   "name": "Café Wohnraum",
+   "area": "nippes",
+   "address": "Neusser Straße 314, 50733 Köln",
+   "category": "cafe",
+   "reason": "google-numbers-missing",
+   "found": "샌드위치·베이글·케이크·비건 메뉴, 스페셜티 커피·스무디(Wanderlog 목록 설명).",
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/10013/best-breakfast-and-brunch-in-cologne"
+   ]
+  },
+  {
+   "name": "Frau Mexi",
+   "area": "nippes",
+   "address": null,
+   "category": "cafe",
+   "reason": "google-numbers-missing + address-missing",
+   "found": "Mit Vergnügen '닙페스 아침 식사 11곳': 페이스트리·베이글.",
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/fruehstueck-nippes"
+   ]
+  },
+  {
+   "name": "WERNHERS",
+   "area": "nippes",
+   "address": "Neusser Straße 261, 50733 Köln",
+   "category": "cafe",
+   "reason": "google-numbers-missing (not searched — search cap reached)",
+   "found": "노이서 거리의 카페(Restaurant Guru).",
+   "sources": [
+    "https://restaurantguru.com/Wernhers-Cologne"
+   ]
+  },
+  {
+   "name": "Eis-Engeln",
+   "area": "nippes",
+   "address": null,
+   "category": "dessert",
+   "reason": "google-numbers-missing + address-missing",
+   "found": "Wanderlog 디저트 목록: '닙페스 최고의 아이스크림 가게'라는 후기. 겨울(11–12월) 휴업 여부 확인 필요.",
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/26078/best-desserts-and-snacks-in-cologne"
+   ]
+  },
+  {
+   "name": "Café Eiszeit",
+   "area": "nippes",
+   "address": "Hartwichstraße 93, 50733 Köln",
+   "category": "dessert",
+   "reason": "google-numbers-missing",
+   "found": "닙페스 아이스크림 카페. 겨울 휴업 여부 확인 필요.",
+   "sources": [
+    "https://de.restaurantguru.com/Cafe-Eiszeit-Cologne"
+   ]
+  },
+  {
+   "name": "Don Taco Grill",
+   "area": "nippes",
+   "address": "Boltensternstraße 104-112, 50735 Köln",
+   "category": "streetfood",
+   "reason": "google-numbers-missing (Wanderlog shows reviews but no overall rating)",
+   "found": "릴의 타코·그릴 가게. 친절한 직원 호평.",
+   "sources": [
+    "https://wanderlog.com/list/geoCategory/1782260"
+   ]
+  },
+  {
+   "name": "Bierbrunnen",
+   "area": "nippes",
+   "address": null,
+   "category": "kneipe",
+   "reason": "address-missing / location unconfirmed: Restaurant Guru Google 4.7 / 58 (surfaced in a Nippes search)",
+   "found": "주소가 확인되면 승격 가능(기준 충족).",
+   "sources": [
+    "https://restaurantguru.com/Bierbrunnen-Cologne"
+   ]
+  },
+  {
+   "name": "Gasthaus Goldenes Fass",
+   "area": "other",
+   "address": "Stammheimer Ring 111, Köln (PLZ 미확인)",
+   "category": "restaurant",
+   "reason": "out-of-area / location unverified: Restaurant Guru Google 4.4 / 213 — Stammheimer Ring is probably in Stammheim (Mülheim district), not Riehl",
+   "found": "Riehl 검색에서 함께 나온 가스트하우스. 주소 지역 확인 후 해당 지역에 넣을 것.",
+   "sources": [
+    "https://restaurantguru.com/Goldenes-Fass-Cologne"
+   ]
+  }
+ ],
+ "notes_ko": "범위: 새 지역 'nippes' — 닙페스(노이서 거리·빌헬름플라츠·투름 거리·켐페너 거리·섹치히 지구)와 릴(동물원·플로라 식물원), 같은 우편번호(50735)의 닐(Niehl) 1곳. 구글 4.2 이상·리뷰 50건 이상만 places에 넣었다(23곳). 검색 32회 한도 모두 사용.\n출처: 구글 수치는 Restaurant Guru의 'Google' 표기 또는 Wanderlog 장소 페이지('from Google')에서만 가져왔다. Restaurant Guru 자체 점수(예: Flora 6 2.7, Alt Neppes 3.1)와 구조화 데이터의 합산 점수는 구글이 아니므로 쓰지 않았다. Restaurant Guru 페이지 일부는 1–2년 된 스냅숏이라(예: Fink 약 450일 전) google_as_of는 비워 두었다.\n기존 후보 재확인: Alt Neppes(구글 4.4/321, Neusser Str. 301)를 places로 올렸다. Shibuya(Neusser Str. 332)는 벨기에 지구 Daikan의 닙페스 분점(Restaurant Guru 제목 'DAIKAN IZAKAYA (Nippes)', Wanderlog는 옛 이름 Shibuya + daikan.de, Mit Vergnügen 2025 '라멘·스시·바오, 벨기에 지구 분점')으로 정체가 확인돼 같은 이름으로 places에 올렸다(수치는 r2 때 Wanderlog 4.4/563). Tony's Tacos(폐업)·Wochenmärkte는 손대지 않았다.\n중복 제외: 본 목록에 이미 있는 Jamas Griechische Taverne(Sechzigstraße 1), Thai Gourmet(Neusser Str. 311), Osters Rudi(Hartwichstraße 26-28)는 넣지 않았다(셋 다 50733 = nippes). Bulgogi Haus(Neusser Str. 654)는 50737(바이덴페슈)이라 nippes 범위 밖. 닙페스 검색에 나온 Pizzeria Trattoria Siciliana는 쥘츠(Sülzburgstraße 90) 가게라 r8-suelz 몫으로 뺐다.\n주의: Hornochse는 Wanderlog 4.6/1,277, Restaurant Guru 스니펫 4.4로 출처마다 다르다(둘 다 기준 충족). Haus Schnackertz 리뷰 수는 스냅숏에 따라 519–541. Café Pause는 4.2로 기준선. Gaffel im Linkewitz의 우편번호 50735는 출처에 없어 닐 지역 우편번호로 적었다. Zum Kornbrenner·Schlemmergarten은 요리 종류를 확인하지 못했다. 아이스크림 가게(Eis-Engeln, Café Eiszeit)는 수치 미확보 + 11–12월 휴업 가능성.\n다음 조사 단서(이름만 확보): Mit Vergnügen '11 Bars und Kneipen in Nippes'(2025) https://koeln.mitvergnuegen.com/2025/bars-kneipen-nippes/ , '11 Cafés in Nippes'(2026) https://koeln.mitvergnuegen.com/2026/cafes-nippes/ , '11 Cafés und Restaurants an der Neusser Straße'(2024) https://koeln.mitvergnuegen.com/2024/neusser-strasse-kulinarisch/ , '21 Dinge in Nippes'(2026) https://koeln.mitvergnuegen.com/2026/nippes/ . 닙페스는 칵테일·와인 바 쪽 구글 수치가 거의 안 잡혔다(Rakete는 26건으로 미달).\n주요 출처: https://koeln.mitvergnuegen.com/2025/restaurants-nippes/ , https://koeln.mitvergnuegen.com/2024/fruehstueck-nippes , https://www.koeln.de/koeln/essen_und_trinken/tipps/dies-sind-die-besten-restaurants-in-koeln-nippes_1118008.html , https://restaurantguru.com/Em-Golde-Kappes-Cologne , https://wanderlog.com/place/details/4059239/haus-schnackertz"
+}
