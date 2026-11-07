@@ -1096,7 +1096,7 @@ function kgStart() {
           '<span class="sub">' + bits.filter(Boolean).join(" · ") + (k === "sight" ? sightStatusShort(it) : "") + "</span>" +
           (dl ? '<span class="dish">' + esc(dl) + "</span>" : "") + "</button></li>";
       }).join("") + "</ol>" + (rows.length > shown.length ? '<p style="margin:8px 0 0"><button type="button" class="linkbtn" data-nearmore>더 보기 (' + (rows.length - shown.length) + "곳)</button></p>" : "") +
-      (state.tab === "sights" ? "" : '<p class="hint" style="margin-top:8px">가격대: € ~15 · €€ 15–30 · €€€ 30–60 · €€€€ 60+ (1인 음식값, 음료 제외 · 칵테일바는 1잔 기준) · “약”은 유형 기준 추정이에요.</p>');
+      (state.tab === "sights" ? "" : '<p class="hint" style="margin-top:8px">가격대: € ~15 · €€ 15–30 · €€€ 30–60 · €€€€ 60+ (1인 음식값, 음료 제외 · 칵테일바는 칵테일 1잔, 와인바는 와인 1잔 기준) · “약”은 유형 기준 추정이에요.</p>');
   }
   function sightStatusShort(it) {
     var ts = todayState(it, NOW);
@@ -1227,9 +1227,11 @@ function kgStart() {
   function near(anchor, km) { return function () { state.anchor = anchor; state.maxKm = km; state.sort[state.tab] = "distance"; }; }
   var PRESETS = {
     food: [
+      { id: "de", label: "독일·쾰른 요리", apply: function (f) { f.sel.country = { DE: true }; } },
+      { id: "bv", label: "벨기에 지구", apply: function (f) { f.sel.area = { "belgisches-viertel": true }; } },
       { id: "kr", label: "한식", apply: function (f) { f.sel.country = { KR: true }; } },
-      { id: "dom1", label: "대성당 1km", apply: near("dom", 1) },
-      { id: "messe", label: "메쎄 근처", apply: near("messe", 2) },
+      { global: true, id: "dom1", label: "대성당 1km", apply: near("dom", 1) },
+      { global: true, id: "messe", label: "메쎄 근처", apply: near("messe", 2) },
       { id: "cheap", label: "€ 저렴", apply: function (f) { f.sel.price = { "1": true }; } },
       { id: "vegan", label: "비건", apply: function (f) { f.sel.diet = { vegan: true }; } },
       { id: "late", label: "늦게까지", apply: function (f) { f.sel.meal = { "late-night": true }; } },
@@ -1237,16 +1239,21 @@ function kgStart() {
       { id: "fine", label: "파인다이닝", apply: function (f) { f.sel.category = { "fine-dining": true }; } }
     ],
     beer: [
-      { id: "cheap", label: "쾰시 €2.30 이하", apply: function (f) { f.maxBeer = 2.3; state.sort.beer = "beer"; } },
+      { global: true, id: "cheap", label: "쾰시 €2.30 이하", apply: function (f) { f.maxBeer = 2.3; state.sort.beer = "beer"; } },
       { id: "brau", label: "브라우하우스", apply: function (f) { f.sel.category = { brauhaus: true }; } },
       { id: "kneipe", label: "동네 펍", apply: function (f) { f.sel.category = { kneipe: true }; } },
       { id: "craft", label: "크래프트 맥주", apply: function (f) { f.sel.drink = { "craft-beer": true }; } },
-      { id: "dom1", label: "대성당 1km", apply: near("dom", 1) }
+      { global: true, id: "dom1", label: "대성당 1km", apply: near("dom", 1) }
     ],
     bars: [
+      { id: "wine", label: "와인바", apply: function (f) { f.sel.style = { "wine-bar": true }; } },
+      { id: "quiet", label: "조용한 곳", apply: function (f) { f.sel.vibe = { quiet: true }; } },
+      { id: "lively", label: "활기찬 곳", apply: function (f) { f.sel.vibe = { lively: true }; } },
+      { id: "lounge", label: "라운지", apply: function (f) { f.sel.style = { lounge: true }; } },
+      { id: "bv", label: "벨기에 지구", apply: function (f) { f.sel.area = { "belgisches-viertel": true }; } },
       { id: "cocktail", label: "칵테일바", apply: function (f) { f.sel.category = { "cocktail-bar": true }; } },
       { id: "late", label: "늦게까지", apply: function (f) { f.sel.meal = { "late-night": true }; } },
-      { id: "dom1", label: "대성당 1km", apply: near("dom", 1) }
+      { global: true, id: "dom1", label: "대성당 1km", apply: near("dom", 1) }
     ],
     sights: [
       { id: "must", label: "첫 방문 필수", apply: function (f) { f.must = true; } },
@@ -1267,6 +1274,13 @@ function kgStart() {
   }
   var PIN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>';
   var NEAR_KM = [0.5, 1, 2, 0];
+  function presetCount(tab, p) {  // hide quick filters that would show nothing (e.g. no lounge in the data yet)
+    var f = fresh(), keep = state.maxKm;
+    p.apply(f); state.maxKm = 0;
+    var n = TABS[tab].items.filter(function (it) { return matches(it, f); }).length;
+    state.maxKm = keep;
+    return n;
+  }
   function renderToolbar() {
     var tab = state.tab, v = state.view[tab] || "list";
     var nearBtn = CFG.geolocation ? '<button type="button" class="near" data-near aria-pressed="' + state.near + '">' + PIN + "내 주변</button>" : "";
@@ -1275,7 +1289,7 @@ function kgStart() {
         return '<button type="button" data-nearkm="' + k + '" aria-pressed="' + (state.maxKm === k) + '">' + (k ? fmtKm(k) : "전체") + "</button>";
       }).join("") + "</div></div>" : "";
     document.getElementById("toolbar").innerHTML = nearBtn + '<div class="presets" role="group" aria-label="빠른 선택">' +
-      (PRESETS[tab] || []).map(function (p) {
+      (PRESETS[tab] || []).filter(function (p) { return p.global || presetCount(tab, p) > 0; }).map(function (p) {
         return '<button type="button" class="preset" data-preset="' + p.id + '" aria-pressed="' + (state.preset[tab] === p.id) + '">' + esc(p.label) + "</button>";
       }).join("") + '</div><div class="viewtoggle" role="group" aria-label="보기 방식">' +
       '<button type="button" data-view="list" aria-pressed="' + (v === "list") + '">목록</button>' +

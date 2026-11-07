@@ -351,6 +351,35 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
     (TABLES / "beer-pubs.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
     written.append("beer-pubs.md")
 
+    # Belgian Quarter deep dive (round 7): German/Kölsch food, wine bars, bars & lounges, the rest of the quarter
+    def bv_km(i):
+        return (i.get("dist") or {}).get("belgisches")
+
+    def near_bv(i, km):
+        d = bv_km(i)
+        return i["area"] == "belgisches-viertel" or (d is not None and d <= km)
+
+    def bv_rows(rows):
+        rows = sorted(rows, key=lambda i: (bv_km(i) if bv_km(i) is not None else 99, -(i.get("google_rating") or 0)))
+        return [[name_cell(i), kind_label(i), ", ".join(L["vibe"].get(v, v) for v in i.get("vibe") or []) or "–", price(i), rating(i),
+                 f"{bv_km(i):.1f} km" if bv_km(i) is not None else "–", i.get("summary_ko")] for i in rows]
+
+    allp = food + bars
+    german = [i for i in allp if near_bv(i, 1.3) and ("DE" in (i.get("cuisine_country") or []) or i["category"] in ("brauhaus", "kneipe"))]
+    wine = [i for i in allp if near_bv(i, 1.3) and (i.get("style") == "wine-bar" or i["category"] == "wine-bar")]
+    barl = [i for i in bars if near_bv(i, 1.0) and i not in wine and i not in german]
+    rest = [i for i in food if i["area"] == "belgisches-viertel" and i not in german and i not in wine]
+    hdr = ["이름(지도)", "스타일", "분위기", "가격", "구글", "브뤼셀러 플라츠에서", "한 줄 소개"]
+    parts = [banner("벨기에 지구 집중 — 독일·쾰른 요리, 와인바, 바·라운지", generated),
+             "\n벨기에 지구(브뤼셀러 플라츠 일대)와 걸어서 갈 만한 주변(직선 1.0–1.3 km)만 모았어요. "
+             "거리는 브뤼셀러 플라츠 기준 직선거리, 기준은 다른 표와 같이 구글 ★4.2+ · 리뷰 50+입니다.\n"]
+    for title, rows in (("독일·쾰른 요리 (브라우하우스·크나이페 포함)", german), ("와인바", wine),
+                        ("바·라운지·칵테일", barl), ("그 밖의 벨기에 지구 식당·카페", rest)):
+        parts.append(f"\n## {title} — {len(rows)}곳\n")
+        parts.append(table(hdr, bv_rows(rows)) if rows else "_아직 기준을 넘는 곳이 없어요._")
+    (TABLES / "belgisches-viertel.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
+    written.append("belgisches-viertel.md")
+
     # near Messe / near Dom
     for anchor, title, limit_km, fname in (("messe", "쾰른 메쎄 근처 (가까운 순)", 2.0, "near-messe.md"),
                                            ("dom", "대성당 근처 (가까운 순)", 1.0, "near-dom.md")):

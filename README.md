@@ -11,12 +11,13 @@
 | 세계 음식 분석 (나라·동네·요리별 추천, 한식) | [`guides/international-food.md`](guides/international-food.md) |
 | 이번 시즌 (2026-11~2027-02): 대성당 입장료, 휴관, 11.11 카니발, 크리스마스 마켓 | [`guides/season-2026-11-to-2027-02.md`](guides/season-2026-11-to-2027-02.md) |
 | 관광지 입장권·운영시간 (11–12월 요일별 시간, 마지막 입장, 공휴일 휴관, 무료·할인, 예약, 패스) | [`guides/tables/attractions-tickets-hours.md`](guides/tables/attractions-tickets-hours.md) · 웹 뷰어 관광지 탭 "오늘 여는 곳" |
+| 벨기에 지구 집중: 독일·쾰른 요리 · 와인바(조용한 곳 표시) · 바·라운지 | [`guides/tables/belgisches-viertel.md`](guides/tables/belgisches-viertel.md) · 웹 뷰어 "벨기에 지구"·"와인바"·"조용한 곳"·"활기찬 곳" 빠른 선택 |
 | 가성비 맥주 펍 (브라우하우스·크나이페·크래프트 맥주, 쾰시 가격) | [`guides/beer-pubs.md`](guides/beer-pubs.md) · [표](guides/tables/beer-pubs.md) |
 | World's 50 Best Bars & 쾰른 칵테일바 | [`guides/bars-and-worlds-50-best.md`](guides/bars-and-worlds-50-best.md) |
 | 미쉐린 2026 쾰른 | [`guides/fine-dining-michelin-2026.md`](guides/fine-dining-michelin-2026.md) |
 | 독일 화이트와인 가이드 | [`guides/german-white-wine.md`](guides/german-white-wine.md) |
 | 러닝 코스 6개 + 현지인 인기 스폿 (프리젠플라츠 출발·도착, 5.3–13.3 km) | [`guides/running-route.md`](guides/running-route.md) · 구글 마이맵 [`routes/koln-running.kml`](routes/koln-running.kml) · GPX 코스별 `routes/koln-running-*.gpx` |
-| 표: 지역별 · 나라·문화권별 · 요리별 · 가격대별 · 바 · 관광지 · 입장권·운영시간 · 메쎄 근처 · 대성당 근처 · 후보 | [`guides/tables/`](guides/tables/) |
+| 표: 지역별 · 나라·문화권별 · 요리별 · 가격대별 · 바 · 벨기에 지구 · 관광지 · 입장권·운영시간 · 메쎄 근처 · 대성당 근처 · 후보 | [`guides/tables/`](guides/tables/) |
 
 터미널에서도 바로 필터링할 수 있습니다. 한 옵션 안의 값은 OR, 옵션끼리는 AND입니다.
 
