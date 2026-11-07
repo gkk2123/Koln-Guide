@@ -1,0 +1,271 @@
+{
+  "agent": "r5-tickets-dates",
+  "generated": "2026-11-07",
+  "notes_ko": "r5-tickets-* 조사 결과의 hours_note에 공식 출처로 적힌 특정 날짜 일정(토텐존탁·성탄 휴무·연말 단축 운영)과 부분 휴관을 뷰어가 날짜별로 판단할 수 있게 구조화한 파일. 새 사실은 없고 각 항목의 출처는 원 조사와 같음. 'open' = 운영하지만 시간 미확인. 파리나 연말 일정은 공식 페이지에 연도 표기 없이 실린 것. 동물원 12/24·31 단축 운영(2016/17 공지)은 2026 확인이 안 돼 넣지 않음. 스포츠·올림픽 박물관의 방학 중 월요일 개관은 날짜 미확인이라 넣지 않음. 시립 박물관 8곳의 12/26(토) 개관은 dom-city 조사 노트(museen.koeln 기준)에서, 그날 시간은 각 관의 '공휴일 시간' 규칙에서 가져옴(슈뉘트겐·RJM은 공휴일 시간 규칙이 없어 'open'). schedule='departures' = 정해진 출발·시작 시각에만 참여(유람선·지붕 투어) — 뷰어가 '지금 열림' 대신 회차를 보여 줌.",
+  "updates": [
+    {
+      "id": "weihnachtsmarkt-am-kolner-dom",
+      "date_hours": {
+        "2026-11-22": "closed"
+      },
+      "sources": [
+        "https://www.koelnerweihnachtsmarkt.com/de/",
+        "https://www.koelnerweihnachtsmarkt.com/de/faq-items/zu-welchen-uhrzeiten-ist-der-weihnachtsmarkt-am-koelner-dom-geoeffnet/"
+      ]
+    },
+    {
+      "id": "markt-der-engel-neumarkt",
+      "date_hours": {
+        "2026-11-22": "closed"
+      },
+      "sources": [
+        "https://www.markt-der-engel.de/"
+      ]
+    },
+    {
+      "id": "nikolausdorf-am-rudolfplatz",
+      "date_hours": {
+        "2026-11-22": "closed"
+      },
+      "sources": [
+        "https://nikolausdorf.com/index.php",
+        "https://nikolausdorf.com/en/"
+      ]
+    },
+    {
+      "id": "weihnachtsmarkt-im-stadtgarten",
+      "date_hours": {
+        "2026-11-22": "18:00-21:30"
+      },
+      "sources": [
+        "https://www.weihnachtsmarkt-stadtgarten.de/"
+      ]
+    },
+    {
+      "id": "hafen-weihnachtsmarkt-am-schokoladenmuseum",
+      "date_hours": {
+        "2026-11-15": "13:00-21:00",
+        "2026-11-22": "18:00-21:00",
+        "2026-12-24": "closed",
+        "2026-12-25": "closed",
+        "2026-12-26": "open",
+        "2026-12-27": "open",
+        "2026-12-28": "open",
+        "2026-12-29": "open",
+        "2026-12-30": "open",
+        "2026-12-31": "open",
+        "2027-01-01": "open",
+        "2027-01-02": "open",
+        "2027-01-03": "open"
+      },
+      "sources": [
+        "https://www.koeln.de/weihnachten/weihnachtsmaerkte-koeln/hafen-weihnachtsmarkt/",
+        "https://www.schokoladenmuseum.de/en/plan-a-visit/aktuelles/hafenweihnachtsmarkt-am-schokoladenmuseum/"
+      ]
+    },
+    {
+      "id": "heimat-der-heinzel-altstadt-heumarkt-alter-markt",
+      "rename": true,
+      "name": "Heinzels Wintermärchen (Altstadt: Heumarkt & Alter Markt)",
+      "name_ko": "하인첼의 겨울 동화 (구시가 크리스마스 마켓)",
+      "date_hours": {
+        "2026-12-24": "closed",
+        "2026-12-25": "closed",
+        "2026-12-31": "11:00-21:00",
+        "2027-01-02": "11:00-21:00",
+        "2027-01-03": "11:00-21:00",
+        "2027-01-04": "11:00-21:00",
+        "2027-01-05": "11:00-21:00",
+        "2027-01-06": "11:00-21:00",
+        "2027-01-07": "11:00-21:00",
+        "2027-01-08": "11:00-21:00",
+        "2027-01-09": "11:00-21:00",
+        "2027-01-10": "11:00-21:00"
+      },
+      "sources": [
+        "https://www.heinzels-wintermaerchen.de/",
+        "https://www.heinzels-wintermaerchen.de/en/infos-opening-hours/"
+      ]
+    },
+    {
+      "id": "st-ursula-goldene-kammer",
+      "partial_closure": {
+        "what_ko": "황금의 방(Goldene Kammer) 복원 공사로 관람 불가",
+        "start": "2026-09-07",
+        "end": "2027-02-18",
+        "note_ko": "이전 교구 공지엔 종료일 2026-12-24로 표기"
+      },
+      "sources": [
+        "https://www.katholisch-in-koeln.de/st-agnes/aktuelles/news/detail/Oeffnungs-und-Besichtigungszeiten-St.-Ursula/"
+      ]
+    },
+    {
+      "id": "schokoladenmuseum",
+      "date_hours": {
+        "2026-11-09": "closed",
+        "2026-11-16": "closed",
+        "2026-12-24": "closed",
+        "2026-12-25": "closed",
+        "2026-12-31": "10:00-16:00",
+        "2027-01-01": "10:00-18:00"
+      },
+      "sources": [
+        "https://www.schokoladenmuseum.de/en/plan-a-visit/"
+      ]
+    },
+    {
+      "id": "kolumba",
+      "date_hours": {
+        "2026-11-09": "closed",
+        "2026-11-10": "closed",
+        "2026-12-24": "closed",
+        "2026-12-25": "closed",
+        "2026-12-31": "closed",
+        "2027-01-01": "closed"
+      },
+      "sources": [
+        "https://www.kolumba.de/index.php?language=de",
+        "https://www.kolumba.de/?language=ger&cat_select=1&category=22&artikle=283"
+      ]
+    },
+    {
+      "id": "kathe-kollwitz-museum-koln",
+      "date_hours": {
+        "2026-11-16": "closed",
+        "2026-11-17": "closed",
+        "2026-11-18": "closed",
+        "2026-11-19": "closed",
+        "2026-11-20": "closed",
+        "2026-11-21": "closed",
+        "2026-11-22": "closed",
+        "2026-11-23": "closed",
+        "2026-11-24": "closed",
+        "2026-11-25": "closed",
+        "2026-11-26": "closed",
+        "2026-12-03": "11:00-21:00",
+        "2026-12-24": "closed",
+        "2026-12-25": "closed",
+        "2026-12-26": "closed",
+        "2026-12-31": "closed"
+      },
+      "sources": [
+        "https://www.kollwitz.de/besuch",
+        "https://www.kollwitz.de/uebersicht-ausstellungen"
+      ]
+    },
+    {
+      "id": "deutsches-sport-olympia-museum",
+      "date_hours": {
+        "2026-11-11": "closed",
+        "2026-12-24": "closed",
+        "2026-12-25": "closed",
+        "2026-12-31": "closed",
+        "2027-01-01": "closed"
+      },
+      "sources": [
+        "https://sportmuseum.de/besuch/besuch-planen",
+        "https://sportmuseum.de/besuch/faq"
+      ]
+    },
+    {
+      "id": "duftmuseum-farina-haus",
+      "date_hours": {
+        "2026-12-24": "10:00-14:00",
+        "2026-12-25": "closed",
+        "2026-12-26": "11:00-17:00",
+        "2026-12-31": "10:00-16:00",
+        "2027-01-01": "closed"
+      },
+      "sources": [
+        "https://farina.org/fragrance-museum/tickets/"
+      ]
+    },
+    {
+      "id": "museum-ludwig",
+      "date_hours": {
+        "2026-12-26": "10:00-18:00"
+      },
+      "sources": [
+        "https://www.museen.koeln/besuchen/museen/museum-ludwig"
+      ]
+    },
+    {
+      "id": "makk",
+      "date_hours": {
+        "2026-12-26": "10:00-18:00"
+      },
+      "sources": [
+        "https://www.museen.koeln/besuchen/museen/makk-museum-fuer-angewandte-kunst-koeln"
+      ]
+    },
+    {
+      "id": "roemisch-germanisches-museum",
+      "date_hours": {
+        "2026-12-26": "10:00-18:00"
+      },
+      "sources": [
+        "https://www.museen.koeln/besuchen/museen/roemisch-germanisches-museum"
+      ]
+    },
+    {
+      "id": "museum-fuer-ostasiatische-kunst",
+      "date_hours": {
+        "2026-12-26": "11:00-17:00"
+      },
+      "sources": [
+        "https://www.museen.koeln/besuchen/museen/museum-fuer-ostasiatische-kunst"
+      ]
+    },
+    {
+      "id": "ns-dokumentationszentrum",
+      "date_hours": {
+        "2026-12-26": "11:00-18:00"
+      },
+      "sources": [
+        "https://www.museen.koeln/besuchen/museen/ns-dokumentationszentrum"
+      ]
+    },
+    {
+      "id": "koelnisches-stadtmuseum",
+      "date_hours": {
+        "2026-12-26": "10:00-17:00"
+      },
+      "sources": [
+        "https://www.museen.koeln/besuchen/museen/koelnisches-stadtmuseum"
+      ]
+    },
+    {
+      "id": "museum-schnuetgen",
+      "date_hours": {
+        "2026-12-26": "open"
+      },
+      "sources": [
+        "https://www.museen.koeln/besuchen/museen/museum-schnuetgen"
+      ]
+    },
+    {
+      "id": "rautenstrauch-joest-museum",
+      "date_hours": {
+        "2026-12-26": "open"
+      },
+      "sources": [
+        "https://www.museen.koeln/besuchen/museen/rautenstrauch-joest-museum-kulturen-der-welt"
+      ]
+    },
+    {
+      "id": "kd-panoramafahrt-koln",
+      "schedule": "departures",
+      "sources": [
+        "https://www.k-d.com/?kd_product=panoramafahrt-koeln"
+      ]
+    },
+    {
+      "id": "koelner-dom-dachfuehrung",
+      "schedule": "departures",
+      "sources": [
+        "https://www.domfuehrungen-koeln.de/sonderfuehrungen/dach"
+      ]
+    }
+  ],
+  "places": []
+}

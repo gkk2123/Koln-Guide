@@ -1,0 +1,682 @@
+{
+  "agent": "r5-tickets-private",
+  "generated": "2026-11-07",
+  "updates": [
+    {
+      "id": "schokoladenmuseum",
+      "name": "Schokoladenmuseum Köln",
+      "tickets": [
+        {
+          "label_ko": "성인(월–금)",
+          "eur": 17.5,
+          "note_ko": null
+        },
+        {
+          "label_ko": "성인(토·일·공휴일)",
+          "eur": 19.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "어린이·학생(6–18세, 월–금)",
+          "eur": 10.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "어린이·학생(6–18세, 토·일·공휴일)",
+          "eur": 11.5,
+          "note_ko": null
+        },
+        {
+          "label_ko": "가족(성인 2+자녀 18세까지, 월–금)",
+          "eur": 45.0,
+          "note_ko": "독일어 공식 페이지 기준. 영어 페이지는 €35로 달라서 웹숍에서 확인 필요"
+        },
+        {
+          "label_ko": "가족(성인 2+자녀 18세까지, 토·일·공휴일)",
+          "eur": 49.5,
+          "note_ko": "독일어 페이지 기준. 영어 페이지는 €38"
+        },
+        {
+          "label_ko": "6세 미만",
+          "eur": 0,
+          "note_ko": "무료"
+        },
+        {
+          "label_ko": "생일 당일 어린이",
+          "eur": 0,
+          "note_ko": "공식 안내: 생일인 어린이 무료"
+        }
+      ],
+      "price_eur": 17.5,
+      "price_note": "성인 평일 €17.50 · 주말·공휴일 €19 · 6–18세 €10/€11.50 · 6세 미만 무료",
+      "hours": {
+        "mon": "10:00-18:00",
+        "tue": "10:00-18:00",
+        "wed": "10:00-18:00",
+        "thu": "10:00-18:00",
+        "fri": "10:00-18:00",
+        "sat": "10:00-18:00",
+        "sun": "10:00-18:00"
+      },
+      "last_entry": "17:00",
+      "hours_note": "11–12월 매일 10:00–18:00, 마지막 입장은 폐관 1시간 전(보통 17:00). 11/9·11/16(월) 휴관(11/2도 휴관이었음). 12/24·25 휴관, 12/31 10:00–16:00(마지막 입장 15:00), 2027-01-01 10:00–18:00. 앞마당 '하펜 크리스마스 마켓' 11/13–2027-01-03 매일 11–21시(금·토 22시), 입장 무료.",
+      "free_note": "6세 미만 무료, 생일 당일 어린이 무료. 12세 미만은 성인 동반 필수(12세부터 혼자 입장 가능).",
+      "booking": "not-needed",
+      "booking_url": "https://shop.schokoladenmuseum.de/de/tickets/1805",
+      "status": "open",
+      "season": null,
+      "website": "https://www.schokoladenmuseum.de",
+      "sources": [
+        "https://www.schokoladenmuseum.de/en/plan-a-visit/",
+        "https://www.schokoladenmuseum.de/stollwerckhaus/",
+        "https://shop.schokoladenmuseum.de/de/tickets/1805",
+        "https://www.schokoladenmuseum.de/en/discover-experience/family-outing/",
+        "https://www.schokoladenmuseum.de/en/plan-a-visit/aktuelles/hafenweihnachtsmarkt-am-schokoladenmuseum/"
+      ],
+      "checked": "2026-11",
+      "confidence": "high"
+    },
+    {
+      "id": "kolumba",
+      "name": "Kolumba – Kunstmuseum des Erzbistums Köln",
+      "tickets": [
+        {
+          "label_ko": "성인",
+          "eur": 8.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "할인",
+          "eur": 5.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "18세까지",
+          "eur": 0,
+          "note_ko": "무료"
+        },
+        {
+          "label_ko": "연간권",
+          "eur": 30.0,
+          "note_ko": "할인 €20"
+        },
+        {
+          "label_ko": "공개 가이드 투어",
+          "eur": 15.0,
+          "note_ko": "토요일·매월 마지막 수요일, 입장료·간이 안내서 포함, 전화 예약 필수"
+        }
+      ],
+      "price_eur": 8.0,
+      "price_note": "성인 €8 · 할인 €5 · 18세까지 무료 (공식 — €10 표기는 틀림)",
+      "hours": {
+        "mon": "12:00-17:00",
+        "tue": "closed",
+        "wed": "12:00-17:00",
+        "thu": "12:00-17:00",
+        "fri": "12:00-17:00",
+        "sat": "12:00-17:00",
+        "sun": "12:00-17:00"
+      },
+      "last_entry": null,
+      "hours_note": "수–월 12:00–17:00, 화 휴관(공식 사이트 — '화–일 11–18시' 자료는 틀림). 11/9(월)·11/10(화)은 샤우슈필 쾰른 연극 'Requiem für eine marode Brücke'(19:30, 매진) 공연일이라 낮에는 휴관하고 저녁 공연 때만 개방. 12/24·25·31, 1/1 휴관, 카니발(Weiberfastnacht~재의 수요일) 휴관. 부속 성 콜룸바 예배당(Kapelle)은 매일 9:30–19:00. 가이드 투어는 12시 이전·17시 이후에만(예약제).",
+      "free_note": "18세까지 무료",
+      "booking": "not-needed",
+      "booking_url": null,
+      "status": "open",
+      "season": null,
+      "website": "https://www.kolumba.de",
+      "sources": [
+        "https://www.kolumba.de/index.php?language=de",
+        "https://www.kolumba.de/?language=ger&cat_select=1&category=22&artikle=283",
+        "https://www.kolumba.de/?language=ger&cat_select=1&category=22&artikle=284",
+        "https://www.kolumba.de/index.php?language=ger&cat=2&art=991",
+        "https://www.schauspiel.koeln/en/kalender"
+      ],
+      "checked": "2026-11",
+      "confidence": "high"
+    },
+    {
+      "id": "kathe-kollwitz-museum-koln",
+      "name": "Käthe Kollwitz Museum Köln",
+      "tickets": [
+        {
+          "label_ko": "성인",
+          "eur": 8.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "할인",
+          "eur": 4.0,
+          "note_ko": "대학생·직업훈련생 등"
+        },
+        {
+          "label_ko": "18세 미만",
+          "eur": 0,
+          "note_ko": "무료"
+        },
+        {
+          "label_ko": "17:30 이후 입장",
+          "eur": 4.0,
+          "note_ko": "전원 반값(성인 €8→€4)"
+        },
+        {
+          "label_ko": "매월 첫째 목요일",
+          "eur": 0,
+          "note_ko": "전원 무료, 11:00–21:00 (다음은 12/3)"
+        },
+        {
+          "label_ko": "연간권",
+          "eur": 25.0,
+          "note_ko": "할인 €15"
+        }
+      ],
+      "price_eur": 8.0,
+      "price_note": "성인 €8 · 할인 €4 · 18세 미만 무료 · 17:30 이후 반값 · 첫째 목요일 무료",
+      "hours": {
+        "mon": "closed",
+        "tue": "11:00-18:00",
+        "wed": "11:00-18:00",
+        "thu": "11:00-18:00",
+        "fri": "11:00-18:00",
+        "sat": "11:00-18:00",
+        "sun": "11:00-18:00"
+      },
+      "last_entry": null,
+      "hours_note": "화–일 11:00–18:00, 월 휴관, 공휴일 11:00–18:00. 매월 첫째 목요일 11:00–21:00(무료) → 12/3(목). 전시 교체로 11/16–11/26 휴관, 11/27부터 새 전시 'HANNA NAGEL – Wiederentdeckung einer Pionierin feministischer Kunst'(현재 전시는 11/15까지). 12/24·25·26·31 휴관, 카니발(Weiberfastnacht~Veilchendienstag) 휴관. 1/1 운영 여부는 미확인.",
+      "free_note": "18세 미만 무료, 매월 첫째 목요일은 전원 무료(11–21시)",
+      "booking": "not-needed",
+      "booking_url": null,
+      "status": "open",
+      "season": null,
+      "website": "https://www.kollwitz.de",
+      "sources": [
+        "https://www.kollwitz.de/besuch",
+        "https://www.kollwitz.de/uebersicht-ausstellungen",
+        "https://www.kollwitz.de/jetzt",
+        "https://www.kollwitz.de/startseite"
+      ],
+      "checked": "2026-11",
+      "confidence": "high"
+    },
+    {
+      "id": "deutsches-sport-olympia-museum",
+      "name": "Deutsches Sport & Olympia Museum",
+      "tickets": [
+        {
+          "label_ko": "성인",
+          "eur": 10.5,
+          "note_ko": null
+        },
+        {
+          "label_ko": "학생·직업훈련생·대학생",
+          "eur": 7.5,
+          "note_ko": null
+        },
+        {
+          "label_ko": "시니어",
+          "eur": 9.5,
+          "note_ko": null
+        },
+        {
+          "label_ko": "장애 정도 50% 이상",
+          "eur": 9.5,
+          "note_ko": null
+        },
+        {
+          "label_ko": "가족권 성인",
+          "eur": 9.5,
+          "note_ko": "성인 1명+어린이 1명 이상일 때"
+        },
+        {
+          "label_ko": "가족권 어린이",
+          "eur": 6.5,
+          "note_ko": "온라인 티켓숍에서 가족은 1인당 €1 할인이라는 안내와 같은 혜택"
+        },
+        {
+          "label_ko": "단체(12인 이상)",
+          "eur": 9.5,
+          "note_ko": "1인당"
+        },
+        {
+          "label_ko": "KölnCard 소지",
+          "eur": 8.4,
+          "note_ko": "현장 구매 시"
+        },
+        {
+          "label_ko": "6세 미만",
+          "eur": 0,
+          "note_ko": "무료(동반인·독일박물관협회/ICOM 회원도 무료)"
+        }
+      ],
+      "price_eur": 10.5,
+      "price_note": "성인 €10.50 · 학생 €7.50 · 시니어 €9.50 · 가족 성인 €9.50/어린이 €6.50 · 6세 미만 무료 · KölnCard €8.40",
+      "hours": {
+        "mon": "closed",
+        "tue": "10:00-18:00",
+        "wed": "10:00-18:00",
+        "thu": "10:00-18:00",
+        "fri": "10:00-18:00",
+        "sat": "10:00-18:00",
+        "sun": "10:00-18:00"
+      },
+      "last_entry": null,
+      "hours_note": "화–일 10:00–18:00(공휴일 포함), 월 휴관 — 단 NRW 학교 방학 중엔 월요일도 개관(크리스마스 방학 해당, 방학 날짜는 따로 확인). 11/11(수, 카니발 시즌 개막일) 휴관. 12/24·25·31, 1/1 휴관(공식 FAQ). 옥상(Dach) 방문은 입장료에 포함.",
+      "free_note": "6세 미만, 동반인(Begleitperson), 독일박물관협회·ICOM 회원 무료",
+      "booking": "not-needed",
+      "booking_url": null,
+      "status": "open",
+      "season": null,
+      "website": "https://sportmuseum.de",
+      "sources": [
+        "https://sportmuseum.de/besuch/besuch-planen",
+        "https://sportmuseum.de/besuch/faq",
+        "https://sportmuseum.de/en/our-offers/kinder-und-familien",
+        "https://sportmuseum.de/leichte-sprache/informationen-zum-besuch"
+      ],
+      "checked": "2026-11",
+      "confidence": "high"
+    },
+    {
+      "id": "duftmuseum-farina-haus",
+      "name": "Duftmuseum im Farina-Haus",
+      "tickets": [
+        {
+          "label_ko": "정규 투어 성인",
+          "eur": 12.0,
+          "note_ko": "평일 진행"
+        },
+        {
+          "label_ko": "정규 투어 어린이",
+          "eur": 6.0,
+          "note_ko": "영문 가격표 기준. 독일어 캘린더 페이지는 17세까지 €10 — 서로 다름"
+        },
+        {
+          "label_ko": "역사 의상 투어 성인",
+          "eur": 18.0,
+          "note_ko": "주말·목요일 오후"
+        },
+        {
+          "label_ko": "역사 의상 투어 어린이",
+          "eur": 9.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "FlexTicket 정규 투어",
+          "eur": 15.0,
+          "note_ko": "시작 1시간 전까지 변경·취소 가능(일반 티켓은 환불 불가, 24시간 전까지 날짜 변경만)"
+        },
+        {
+          "label_ko": "FlexTicket 역사 투어",
+          "eur": 21.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "프라이빗 투어(최대 20명)",
+          "eur": 160.0,
+          "note_ko": "역사 의상 프라이빗 투어 €210"
+        }
+      ],
+      "price_eur": 12.0,
+      "price_note": "정규 투어 성인 €12(평일) · 역사 의상 투어 €18(주말·목 오후) · 어린이 €6–10(자료 상이)",
+      "hours": {
+        "mon": "10:00-19:00",
+        "tue": "10:00-19:00",
+        "wed": "10:00-19:00",
+        "thu": "10:00-19:00",
+        "fri": "10:00-19:00",
+        "sat": "10:00-19:00",
+        "sun": "11:00-17:00"
+      },
+      "last_entry": null,
+      "hours_note": "월–토 10:00–19:00, 일 11:00–17:00. 박물관은 가이드 투어로만 관람 — 매시간 여러 언어(영·독·불·이·스·중)로 출발, 평일은 정규 투어, 주말·목요일 오후는 역사 의상 투어. 연말(공식 페이지, 연도 표기 없음): 12/24 10:00–14:00, 12/25 휴무, 12/26 11:00–17:00, 12/31 10:00–16:00, 1/1 휴무.",
+      "free_note": null,
+      "booking": "required",
+      "booking_url": "https://farina.org/fragrance-museum/tickets/",
+      "status": "open",
+      "season": null,
+      "website": "https://farina.org",
+      "sources": [
+        "https://farina.org/fragrance-museum/tickets/",
+        "https://farina.org/de/duftmuseum/kalendar/",
+        "https://farina.org/fragrance-museum/private-tours/",
+        "https://farina.org/fragrance-museum/",
+        "https://farina.org/museum-policies/"
+      ],
+      "checked": "2026-11",
+      "confidence": "high"
+    },
+    {
+      "id": "4711-haus-glockengasse",
+      "name": "4711 Haus Glockengasse",
+      "tickets": [
+        {
+          "label_ko": "매장·4711 분수",
+          "eur": 0,
+          "note_ko": "무료"
+        },
+        {
+          "label_ko": "공개 역사 투어",
+          "eur": 7.5,
+          "note_ko": "토 13:00, 약 50분"
+        },
+        {
+          "label_ko": "향수 세미나",
+          "eur": 40.0,
+          "note_ko": "토 14:30, 약 90분, 직접 만든 오 드 콜로뉴를 가져감"
+        },
+        {
+          "label_ko": "향수 디너(Duftmenü)",
+          "eur": 95.0,
+          "note_ko": "약 4시간, 4코스 + 4711 오리지널 페어링"
+        }
+      ],
+      "price_eur": 0,
+      "price_note": "매장 무료 · 역사 투어 €7.50(토 13시) · 향수 세미나 €40(토 14:30)",
+      "hours": {
+        "mon": "09:30-18:30",
+        "tue": "09:30-18:30",
+        "wed": "09:30-18:30",
+        "thu": "09:30-18:30",
+        "fri": "09:30-18:30",
+        "sat": "09:30-18:00",
+        "sun": "closed"
+      },
+      "last_entry": null,
+      "hours_note": "월–금 09:30–18:30, 토 09:30–18:00, 일 휴무(공식 페이지, 날짜 표기 없음). 공개 역사 투어 토 13:00(약 50분), 향수 세미나 토 14:30(약 90분) — 단체는 요청 시 따로 진행. 12/24·31 등 연말 영업시간은 미확인(문의 0221 270 999 11).",
+      "free_note": "매장·분수 무료",
+      "booking": "not-needed",
+      "booking_url": null,
+      "status": "open",
+      "season": null,
+      "website": "https://4711.com/en/pages/dufthaus",
+      "sources": [
+        "https://4711.com/en/pages/dufthaus",
+        "https://4711.com/en/pages/ein-mix-aus-tradition-und-moderne-das-dufthaus-4711",
+        "https://4711.com/en/pages/4711-haus-ehrenfeld"
+      ],
+      "checked": "2026-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "kolntriangle-aussichtsplattform",
+      "name": "KölnTriangle (Aussichtsplattform)",
+      "tickets": [
+        {
+          "label_ko": "성인·청소년",
+          "eur": 5.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "학생·대학생",
+          "eur": 4.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "단체(5인 이상)",
+          "eur": 4.0,
+          "note_ko": "1인당"
+        },
+        {
+          "label_ko": "12세까지",
+          "eur": 0,
+          "note_ko": "무료"
+        },
+        {
+          "label_ko": "중증장애인",
+          "eur": 0,
+          "note_ko": "증명서 지참 시 무료, 'B' 표시가 있으면 동반 1인도 무료(nomadotravel 기준)"
+        }
+      ],
+      "price_eur": 5.0,
+      "price_note": "성인 €5 · 학생 €4 · 12세까지 무료 (koeln.de, 운영사 2026 공지 미확인)",
+      "hours": {
+        "mon": "11:00-20:00",
+        "tue": "11:00-20:00",
+        "wed": "11:00-20:00",
+        "thu": "11:00-20:00",
+        "fri": "11:00-20:00",
+        "sat": "11:00-20:00",
+        "sun": "11:00-20:00"
+      },
+      "last_entry": null,
+      "hours_note": "10–4월 매일 11:00–20:00(koeln.de). 폭풍·뇌우 때는 폐쇄. 운영사 사이트(koelntrianglepanorama.de)의 2026 시간은 이번 조사에서 확인 못 함 — 12/24·25·31 등 연말 운영 여부 미확인.",
+      "free_note": "12세까지 무료, 중증장애인 무료",
+      "booking": "not-needed",
+      "booking_url": null,
+      "status": "open",
+      "season": null,
+      "website": "http://www.koelntrianglepanorama.de",
+      "sources": [
+        "https://www.koeln.de/?p=68873",
+        "https://www.nomadotravel.app/de/attractions/cologne-triangle-panorama",
+        "https://willkommen.koelntourismus.de/en/poi/koelntriangle"
+      ],
+      "checked": "2026-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "kolner-seilbahn",
+      "name": "Kölner Seilbahn",
+      "tickets": [
+        {
+          "label_ko": "성인 편도",
+          "eur": 5.5,
+          "note_ko": null
+        },
+        {
+          "label_ko": "성인 왕복",
+          "eur": 9.5,
+          "note_ko": null
+        },
+        {
+          "label_ko": "어린이(4–12세) 편도",
+          "eur": 3.3,
+          "note_ko": null
+        },
+        {
+          "label_ko": "어린이(4–12세) 왕복",
+          "eur": 4.8,
+          "note_ko": null
+        },
+        {
+          "label_ko": "성인 왕복 10회권",
+          "eur": 85.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "KölnCard·Köln-Pass 할인",
+          "eur": null,
+          "note_ko": "할인 금액은 2026 요금표 PDF 참고"
+        }
+      ],
+      "price_eur": 5.5,
+      "price_note": "성인 편도 €5.50·왕복 €9.50 · 4–12세 €3.30/€4.80 (2026 요금, 대림절 운행도 같은 요금)",
+      "hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "closed",
+        "thu": "closed",
+        "fri": "closed",
+        "sat": "10:00-18:00",
+        "sun": "10:00-18:00"
+      },
+      "last_entry": "17:45",
+      "hours_note": "2026 정규 시즌은 11/8(일)에 끝나고 겨울 휴지. 대림절 특별 운행만: 11/28·29, 12/5·6, 12/12·13, 12/19·20(토·일) 10:00–18:00, 마지막 탑승 17:45, 정규 요금. 11/14·15·21·22 주말과 평일엔 운행 없음. 강풍(약 16 m/s) 때 중단 — 출발 전 koelner-seilbahn.de 확인.",
+      "tips_ko": "동물원 앞(Riehl)과 라인파크(Deutz) 사이 라인강을 건넌다. 11–12월엔 대림절 주말(11/28–12/20 토·일)에만 운행하니 쾰른 동물원과 같은 날 묶기 좋다. 바람이 세면 멈춘다.",
+      "free_note": null,
+      "booking": "not-needed",
+      "booking_url": null,
+      "status": "seasonal",
+      "season": {
+        "start": "2026-11-28",
+        "end": "2026-12-20"
+      },
+      "website": "https://www.koelner-seilbahn.de",
+      "sources": [
+        "https://www.koelner-seilbahn.de/fahrten.html",
+        "https://www.koelner-seilbahn.de/download/2026_current_ticket_prices.pdf",
+        "https://www.stadtwerkekoeln.de/pressemitteilungen/saisonstart-kolner-seilbahn-ab-dem-12-marz-heben-die-gondeln-wieder-ab",
+        "https://www.stadtwerkekoeln.de/pressemitteilungen/kolner-seilbahn-ladt-zu-adventsfahrten-ein"
+      ],
+      "checked": "2026-11",
+      "confidence": "high"
+    }
+  ],
+  "places": [
+    {
+      "id": "kolner-zoo",
+      "name": "Kölner Zoo & Aquarium",
+      "name_ko": "쾰른 동물원·수족관",
+      "category": "experience-tour",
+      "area": "other",
+      "address": "Riehler Straße 173, 50735 Köln",
+      "lat": null,
+      "lng": null,
+      "summary_ko": "리엘(Riehl)에 있는 쾰른 동물원 겸 수족관. 겨울엔 오후 5시에 닫지만 수족관 같은 실내 동물사가 있고, 길 건너 케이블카(Seilbahn) 정류장과 묶기 좋다.",
+      "tips_ko": "변동 요금이라 온라인 예매가 더 싸다(성인 €22.50부터, 최고 €29.50). 동물사·수족관은 폐장 30분 전에 닫으니 수족관부터 보자. 겨울 이벤트: 11/14(토) 18–22시 '수족관의 긴 밤'(€26/€22/€14), 금요일 18:30 손전등 수족관 투어(12/4·12/18). 케이블카는 대림절 주말(11/28–12/20 토·일)에만 운행.",
+      "price_eur": 29.5,
+      "price_note": "변동 요금: 성인 최고 €29.50(온라인 €22.50부터) · 할인 최고 €23 · 어린이 최고 €15(온라인 €10.50부터) · 3세까지 무료",
+      "duration_min": 180,
+      "hours_note": "11–2월 매일 09:00–17:00, 매표소 16:30 마감, 수족관을 포함한 모든 동물사는 폐장 30분 전에 닫음(공식 홈페이지). 12/24·12/31은 예년에 09:00–14:00 단축(마지막 입장 13:30, 동물사 13:45 폐쇄 — 2016/17 옛 공지 기준, 2026 미확인). 12/25·26, 1/1 운영 시간은 미확인.",
+      "booking": "recommended",
+      "booking_url": "https://shop.koelnerzoo.de/en",
+      "status": "open",
+      "season": null,
+      "priority": 3,
+      "tags": [
+        "kid-friendly",
+        "nature"
+      ],
+      "google_rating": null,
+      "google_reviews": null,
+      "google_as_of": null,
+      "rating_source": null,
+      "website": "https://koelnerzoo.de",
+      "tickets": [
+        {
+          "label_ko": "성인 1일권(최고가)",
+          "eur": 29.5,
+          "note_ko": "날짜·구매 채널별 변동 요금의 현재 상한"
+        },
+        {
+          "label_ko": "성인 온라인",
+          "eur": 22.5,
+          "note_ko": "온라인 최저가(…부터)"
+        },
+        {
+          "label_ko": "할인 1일권(최고가)",
+          "eur": 23.0,
+          "note_ko": "학생·대학생·직업훈련생·시니어·청소년 패스"
+        },
+        {
+          "label_ko": "어린이 1일권(최고가)",
+          "eur": 15.0,
+          "note_ko": "온라인은 €10.50부터"
+        },
+        {
+          "label_ko": "3세까지",
+          "eur": 0,
+          "note_ko": "무료"
+        },
+        {
+          "label_ko": "이벤트: 수족관의 긴 밤(11/14 18–22시)",
+          "eur": 26.0,
+          "note_ko": "할인 €22 · 어린이 €14"
+        }
+      ],
+      "hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "09:00-17:00"
+      },
+      "last_entry": "16:30",
+      "free_note": "3세까지 무료",
+      "verification": "sourced",
+      "sources": [
+        "https://koelnerzoo.de/en/",
+        "https://koelnerzoo.de/en/visit/",
+        "https://koelnerzoo.de/article/admission-prices/",
+        "https://koelnerzoo.de/en/current/",
+        "https://shop.koelnerzoo.de/en"
+      ],
+      "checked": "2026-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "kd-panoramafahrt-koln",
+      "name": "KD Köln-Düsseldorfer Panoramafahrt",
+      "name_ko": "KD 라인강 파노라마 유람선(1시간)",
+      "category": "experience-tour",
+      "area": "dom-altstadt",
+      "address": "Frankenwerft 15, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "summary_ko": "구시가 KD 선착장(Anlegestelle Köln/Altstadt)에서 출발해 라인강을 1시간 도는 파노라마 유람선. 안내 방송으로 강변 명소를 소개하고, 간식·음료는 배에서 따로 주문한다.",
+      "tips_ko": "2026 겨울엔 11/20–12/20 금·토·일에만 12:00·13:30 하루 2회 운항(월–목 운항 없음). 가족권(성인 2+어린이 2) €49. 매표소는 Frankenwerft 15 KD 서비스센터, 온라인 예매 가능. KD는 초콜릿 박물관 콤비 티켓도 판다.",
+      "price_eur": 20.0,
+      "price_note": "성인 €20 · 어린이·학생·대학생 €10 · 가족(성인 2+어린이 2) €49",
+      "duration_min": 60,
+      "hours_note": "2026 정규 시즌(3/28–10/31, 하루 최대 6회 10:30·12:00·13:30·15:00·16:30·18:00)은 끝남. 겨울 신규 운항 11/20–12/20 금·토·일 12:00·13:30 출발(각 약 1시간). 월–목과 12/21 이후엔 운항 없음.",
+      "booking": "recommended",
+      "booking_url": "https://www.k-d.com/?kd_product=panoramafahrt-koeln",
+      "status": "seasonal",
+      "season": {
+        "start": "2026-11-20",
+        "end": "2026-12-20"
+      },
+      "priority": 2,
+      "tags": [
+        "river",
+        "dom-view",
+        "photo-spot"
+      ],
+      "google_rating": null,
+      "google_reviews": null,
+      "google_as_of": null,
+      "rating_source": null,
+      "website": "https://www.k-d.com",
+      "tickets": [
+        {
+          "label_ko": "성인",
+          "eur": 20.0,
+          "note_ko": null
+        },
+        {
+          "label_ko": "어린이·학생·대학생",
+          "eur": 10.0,
+          "note_ko": "KD 상품 페이지 기준. 2026 시간표 PDF엔 '어린이 고정가 €14' 표기도 있어 확인 필요"
+        },
+        {
+          "label_ko": "가족(성인 2+어린이 2)",
+          "eur": 49.0,
+          "note_ko": null
+        }
+      ],
+      "hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "closed",
+        "thu": "closed",
+        "fri": "12:00-13:00,13:30-14:30",
+        "sat": "12:00-13:00,13:30-14:30",
+        "sun": "12:00-13:00,13:30-14:30"
+      },
+      "last_entry": "13:30",
+      "free_note": null,
+      "verification": "sourced",
+      "sources": [
+        "https://www.k-d.com/?kd_product=panoramafahrt-koeln",
+        "https://www.k-d.com/en/product/panoramic-tour-of-cologne/",
+        "https://www.k-d.com/wp-content/uploads/2026/02/KD_Fahrplan_2026_web.pdf",
+        "https://www.k-d.com/en/faq/faq-general/"
+      ],
+      "checked": "2026-11",
+      "confidence": "high"
+    }
+  ],
+  "notes_ko": "[KölnCard] 24시간 1인 €9 · 24시간 5인 그룹권 €19 · 48시간 1인 €18 · 48시간 5인 그룹권 €38. 쾰른 시내 버스·슈타트반(트램)·S반·지역열차(2등석) 무제한 + 박물관 입장 할인, 시티투어·쇼핑·파트너 업체 최대 50% 할인. 사용 시작 때 이름(그룹권은 1명)·날짜·시각을 적어야 유효, 양도 불가·신분증 지참. 판매: 투어리스트 인포메이션, KVB 앱, KVB 발매기. (KVB·쾰른관광청 공식 페이지, 연도 표기 없음 — 2026 요금 변동 여부는 확인 못 함.) 이번 그룹 할인 예: 스포츠·올림픽 박물관 €10.50→€8.40, 케이블카도 KölnCard 할인(금액 미확인). 출처: https://www.kvb.koeln/abos-und-tickets/alle-tickets/koelncard.html , https://www.koelntourismus.de/buchen/koelncard , https://www.cologne-tourism.com/booking/koelncard\n[KVB 24시간권(24hTicket)] 쾰른 시내 = 요금 단계 1b: 1인 €9.60, 5인 €19.20 (1a €8.40은 쾰른 시내에선 해당 없음). 위 가격대로라면 KölnCard 24h(€9)가 24hTicket(€9.60)보다 싸고 할인까지 붙음. 출처: https://www.kvb.koeln/abos-und-tickets/alle-tickets/24hticket.html , https://www.kvb.koeln/abos-und-tickets/preise.html\n[쾰른 박물관의 밤 Kölner Museumsnacht] 오늘 11/7(토) — 통합권 €20, 할인 €10 (kollwitz.de 첫 화면 공지, 연도 표기에 혼동 있음). 출처: https://www.kollwitz.de/startseite , https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/veranstaltungskalender/koelner-museumsnacht-2026\n[하펜 크리스마스 마켓(초콜릿 박물관 앞)] 2026-11-13~2027-01-03 매일 11–21시, 금·토 22시, 입장 무료 — 기존 항목 hafen-weihnachtsmarkt-am-schokoladenmuseum 대조용. 출처: https://www.schokoladenmuseum.de/en/plan-a-visit/aktuelles/hafenweihnachtsmarkt-am-schokoladenmuseum/\n[콤비 티켓] KD가 '초콜릿 박물관 콤비 티켓'(유람선+박물관)을 판매 — 가격·겨울 운영은 미확인. 출처: https://www.k-d.com/en/product/kombiticket-schokoladenmuseum/\n[Odysseum — 추가 안 함] 칼크(Kalk)의 Odysseum은 2025년 문을 닫았고(ADAC '일단 폐관'), 건물은 학교로 개조 중이라 박물관으로 운영하지 않음(koeln.de). 후속 체험관 'Exploradom'(에렌펠트, 2026년 봄 개관 예정 보도)의 실제 개관은 확인 못 함. 출처: https://www.koeln.de/freizeit/odysseum-koeln , https://maps.adac.de/ortsteil/kalk-koeln , https://www.koelner.de/news/stadtleben/exploradom-kommt-nach-koeln/\n[미확인으로 남은 것] KölnTriangle 2026 공식 시간·요금(운영사 사이트 검색 안 됨), 동물원 2026 크리스마스·연말 시간, 4711 연말 영업시간, 초콜릿 박물관 가족권(독일어 €45/€49.50 vs 영어 €35/€38), 파리나 어린이 요금(€6 vs €10), KD 어린이 요금(€10 vs 시간표 PDF €14), 스포츠 박물관 12/26 운영(FAQ엔 휴관일 아님)."
+}

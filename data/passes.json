@@ -1,0 +1,70 @@
+{
+  "checked": "2026-11-07",
+  "items": [
+    {
+      "id": "koelncard",
+      "name_ko": "쾰른카드 (KölnCard)",
+      "price_ko": "24시간 €9 · 48시간 €18 · 5인 그룹 24시간 €19 / 48시간 €38",
+      "note_ko": "쾰른 시내 버스·트램·S반·지역열차(2등석) 무제한 + 박물관·투어·상점 할인(최대 50%). 쓰기 시작할 때 이름·날짜·시각을 적어야 유효하고 양도할 수 없어요. 투어리스트 인포메이션·KVB 앱·발매기에서 팔아요. 할인 예: 스포츠·올림픽 박물관 €10.50→€8.40, 대성당 시설 중엔 보물관만 할인. 요금 안내에 연도 표기는 없어요.",
+      "sources": [
+        "https://www.kvb.koeln/abos-und-tickets/alle-tickets/koelncard.html",
+        "https://www.koelntourismus.de/buchen/koelncard",
+        "https://www.cologne-tourism.com/booking/koelncard"
+      ]
+    },
+    {
+      "id": "kvb-24h",
+      "name_ko": "KVB 24시간권 (24hTicket)",
+      "price_ko": "1인 €9.60 · 5인 €19.20 (쾰른 시내 요금 1b)",
+      "note_ko": "대중교통만, 할인 혜택 없음. 같은 24시간이면 쾰른카드(€9)가 더 싸고 할인도 붙어요.",
+      "sources": [
+        "https://www.kvb.koeln/abos-und-tickets/alle-tickets/24hticket.html",
+        "https://www.kvb.koeln/abos-und-tickets/preise.html"
+      ]
+    },
+    {
+      "id": "museumscard",
+      "name_ko": "뮤지엄카드 쾰른 (MuseumsCard)",
+      "price_ko": "1인 €18 · 가족 €30 (성인 2 + 18세 미만 2)",
+      "note_ko": "쾰른 시립 박물관에서 연속 2개관일 동안 유효하고, 첫날은 시내 대중교통도 무료예요. 기명식, 온라인 구매는 수수료 별도. 루트비히(€15.40) + 로마-게르만(€6)만 가도 이득. 참여관 전체 목록과 특별전 포함 여부는 이번 조사에서 확인하지 못했어요.",
+      "sources": [
+        "https://museenkoeln.de/portal/Museumscard",
+        "https://www.museen.koeln/en/tickets"
+      ]
+    },
+    {
+      "id": "dom-tickets",
+      "name_ko": "쾰른 대성당 티켓 (2026-07-01부터)",
+      "price_ko": "내부 관람 €12(할인 €6) · 남탑 €8(€4) · 보물관 €8(€4) · 탑+보물관 콤비 €12(€6) · 지붕 투어 €27",
+      "note_ko": "13세 이하 무료, 미사·기도는 언제나 무료(북쪽 익랑 입구). 온라인 tickets.koelner-dom.de(최대 3개월 전) 또는 Kurienhaus 매표소(Roncalliplatz 2, 매일 09:00–17:30). 탑+보물관 콤비에 내부 관람은 포함되지 않아요. 지붕 투어는 내부 관람 티켓이 따로 필요 없어요(16세 이상, 예약 필수).",
+      "sources": [
+        "https://www.koelner-dom.de/besuchen/faq",
+        "https://www.koelner-dom.de/tickets",
+        "https://www.koelner-dom.de/besuchen/turmbesteigung",
+        "https://www.domfuehrungen-koeln.de/sonderfuehrungen/dach"
+      ]
+    },
+    {
+      "id": "first-thursday",
+      "name_ko": "매월 첫째 목요일 (KölnTag) — 여행 중엔 12/3(목)",
+      "price_ko": "쾰른 거주자만 시립 박물관 무료",
+      "note_ko": "관광객은 무료가 아니에요. 대신 이날 시립 박물관은 22:00까지 열고, 루트비히는 17시 이후 €7, MAKK는 17시 이후 할인가예요. 케테 콜비츠 미술관(시립 아님)은 첫째 목요일에 누구나 무료(11:00–21:00).",
+      "sources": [
+        "https://www.stadt-koeln.de/leben-in-koeln/kultur/koelntage-den-staedtischen-museen",
+        "https://www.museen.koeln/en/visit/program/koelntag",
+        "https://www.museum-ludwig.de/en/home/visit/information/tickets-opening-hours",
+        "https://www.kollwitz.de/besuch"
+      ]
+    },
+    {
+      "id": "schnuetgen-rjm",
+      "name_ko": "슈뉘트겐 + 라우텐슈트라우흐-요스트 콤비",
+      "price_ko": "€10 (할인 €7)",
+      "note_ko": "바로 옆에 붙은 두 박물관의 상설전. 특별전은 포함되지 않아요. 두 곳 모두 목요일은 20:00까지.",
+      "sources": [
+        "https://museum-schnuetgen.de/Planen-Sie-Ihren-Besuch",
+        "https://rautenstrauch-joest-museum.de/Service"
+      ]
+    }
+  ]
+}

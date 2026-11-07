@@ -325,7 +325,8 @@ _ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
 def clean_date_hours(d) -> dict | None:
-    """Date exceptions, e.g. {"2026-12-24": "closed", "2026-12-31": "10:00-14:00"}."""
+    """Date exceptions, e.g. {"2026-12-24": "closed", "2026-12-31": "10:00-14:00", "2026-12-27": "open"}.
+    "open" = open that day but the times are not confirmed."""
     if not isinstance(d, dict):
         return None
     out = {}
@@ -334,19 +335,29 @@ def clean_date_hours(d) -> dict | None:
             warn(f"date_hours: dropped {k!r}: {v!r}")
             continue
         v = v.strip().replace("–", "-").replace(" ", "")
-        v = "closed" if v.lower() in ("closed", "geschlossen", "휴관") else v
-        if v != "closed" and not _RANGE.match(v):
+        v = "closed" if v.lower() in ("closed", "geschlossen", "휴관") else "open" if v.lower() == "open" else v
+        if v not in ("closed", "open") and not _RANGE.match(v):
             warn(f"date_hours: unparsed value '{v}' for {k}")
             continue
         out[k] = v
     return out or None
 
 
+def clean_closure(c) -> dict | None:
+    """Part of a place closed for a while: {"what_ko", "start", "end", "note_ko"}."""
+    if not (isinstance(c, dict) and c.get("what_ko") and _ISO.match(str(c.get("end") or ""))):
+        return None
+    return {"what_ko": c["what_ko"], "start": c.get("start") if _ISO.match(str(c.get("start") or "")) else None,
+            "end": c["end"], "note_ko": c.get("note_ko")}
+
+
 def ticket_fields(p: dict) -> dict:
     return {"tickets": clean_tickets(p.get("tickets")), "hours": clean_hours(p.get("hours")),
-            "date_hours": clean_date_hours(p.get("date_hours")),
+            "date_hours": clean_date_hours(p.get("date_hours")), "partial_closure": clean_closure(p.get("partial_closure")),
+            "schedule": p.get("schedule") if p.get("schedule") in ("departures",) else None,
             "last_entry": p.get("last_entry"), "free_note": p.get("free_note"), "booking_url": p.get("booking_url"),
-            "info_checked": p.get("checked") or p.get("info_checked")}
+            "info_checked": p.get("checked") or p.get("info_checked"),
+            "info_confidence": (p.get("confidence") or p.get("info_confidence")) if (p.get("checked") or p.get("info_checked")) else None}
 
 
 def apply_attraction_updates(items: list[dict], updates: dict) -> None:
@@ -358,7 +369,7 @@ def apply_attraction_updates(items: list[dict], updates: dict) -> None:
         tf = ticket_fields(u)
         for k, v in tf.items():
             if v not in (None, [], ""):
-                it[k] = v
+                it[k] = {**(it.get(k) or {}), **v} if k == "date_hours" else v
         for k in ("price_note", "hours_note", "status", "season", "booking"):
             if u.get(k) not in (None, ""):
                 if k == "status" and u[k] not in ATTRACTION_STATUS:
@@ -371,10 +382,18 @@ def apply_attraction_updates(items: list[dict], updates: dict) -> None:
                 it["price_eur"] = round(float(u["price_eur"]), 2)
             except (TypeError, ValueError):
                 pass
+        if u.get("website") and not it.get("website"):
+            it["website"] = u["website"]
+        if u.get("rename"):  # official name changed (e.g. a market renamed); the id stays
+            it["name"] = u.get("name") or it["name"]
+            it["name_ko"] = u.get("name_ko") or it.get("name_ko")
         for url in as_list(u.get("sources")):
             if url not in it["sources"]:
                 it["sources"].append(url)
-        it["info_confidence"] = u.get("confidence")
+        if u.get("confidence"):
+            it["info_confidence"] = u["confidence"]
+            if it.get("verification") in ("annual-event", "unverified") and u.get("confidence") in ("high", "medium"):
+                it["verification"] = "sourced"  # this year's dates are now confirmed
 
 
 def is_attraction(p: dict) -> bool:

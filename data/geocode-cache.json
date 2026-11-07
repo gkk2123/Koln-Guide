@@ -1482,5 +1482,41 @@
     "display_name": "Paradies-Apotheke, 162a, Severinstraße, Georgsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland",
     "provider": "nominatim",
     "date": "2026-11-07"
+  },
+  "Am Botanischen Garten 1a, 50735 Köln": {
+    "lat": 50.9601767,
+    "lng": 6.9707118,
+    "display_name": "Flora, 1a, Am Botanischen Garten, Riehl, Nippes, Köln, Nordrhein-Westfalen, 50735, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Aachener Straße 204, 50931 Köln": {
+    "lat": 50.937356,
+    "lng": 6.9160097,
+    "display_name": "204, Aachener Straße, Lindenthal, Köln, Nordrhein-Westfalen, 50931, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Frankenwerft 15, 50667 Köln": {
+    "lat": 50.9374746,
+    "lng": 6.9625556,
+    "display_name": "15, Frankenwerft, Martinsviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Universitätsstraße 100, 50674 Köln": {
+    "lat": 50.9352025,
+    "lng": 6.9258688,
+    "display_name": "Museum für Ostasiatische Kunst, 100, Universitätsstraße, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Riehler Straße 173, 50735 Köln": {
+    "lat": 50.9612923,
+    "lng": 6.9765705,
+    "display_name": "Kölner Zoo, 173, Riehler Straße, Riehl, Nippes, Köln, Nordrhein-Westfalen, 50735, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07",
+    "note": "address search hit a café; replaced by the OSM zoo object (query 'Kölner Zoo, Riehler Straße, Köln')"
   }
 }

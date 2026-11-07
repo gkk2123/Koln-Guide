@@ -22,6 +22,10 @@
       "r2-se-south-asia.json",
       "r3-beer-pubs.json",
       "r3-brauhaus.json",
+      "r5-tickets-churches-markets.json",
+      "r5-tickets-dates.json",
+      "r5-tickets-dom-city.json",
+      "r5-tickets-private.json",
       "wine-places.json"
     ],
     "count": 0

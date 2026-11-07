@@ -231,6 +231,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 .tix b { font-family: var(--font-data); font-weight: 500; font-size: 13px; }
 .tix small { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
 .more h4 { margin: 10px 0 0; font-size: 13px; }
+.warn { margin: 0; font-size: 13px; font-weight: 600; background: var(--accent-soft); border-radius: 6px; padding: 4px 8px; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 </style>
 </head>
@@ -648,6 +649,8 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     if (it.season.end && date > it.season.end) return "after";
     return "in";
   }
+  // NRW public holidays and days when most places change their hours, in the trip window
+  var HOLI = { "2026-12-24": "성탄 전야", "2026-12-25": "성탄절", "2026-12-26": "성탄절 둘째 날", "2026-12-31": "12/31", "2027-01-01": "새해 첫날" };
   function hoursOn(it, date, day) {
     if (it.date_hours && it.date_hours[date]) return { v: it.date_hours[date], special: true };
     return { v: it.hours ? it.hours[day] : null, special: false };
@@ -658,7 +661,8 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     if (it.status === "closed-renovation") return { cls: "closed", text: "휴관 중(공사)", openToday: false, openNow: false };
     var ss = seasonState(it, now.date);
     var oneDay = it.season && it.season.start === it.season.end;
-    if (ss === "before") return { cls: "soon", text: oneDay ? md(it.season.start) + " 하루 행사" : md(it.season.start) + " 개막" + (it.season.end ? " · " + md(it.season.end) + "까지" : ""), openToday: false, openNow: false };
+    var opens = it.category === "market-event" ? " 개막" : "부터 운영";
+    if (ss === "before") return { cls: "soon", text: oneDay ? md(it.season.start) + " 하루 행사" : md(it.season.start) + opens + (it.season.end ? " · " + md(it.season.end) + "까지" : ""), openToday: false, openNow: false };
     if (ss === "after") return { cls: "closed", text: "올해 일정 끝남", openToday: false, openNow: false };
     var h = hoursOn(it, now.date, now.day);
     if (h.v == null) {
@@ -667,12 +671,19 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       return { cls: "", text: "", openToday: null, openNow: false };
     }
     if (h.v === "closed") return { cls: "closed", text: "오늘(" + dk + ") 휴관" + (h.special ? " · 특별 일정" : ""), openToday: false, openNow: false };
+    if (h.v === "open") return { cls: "open", text: "오늘(" + dk + ") 운영 · 시간 미확인", openToday: true, openNow: false };
+    if (it.schedule === "departures") {  // fixed departure / start times: show the slots, never "open now"
+      return { cls: "open", text: "오늘(" + dk + ") 회차 " + fmtRanges(h.v) + (it.last_entry ? " · 마지막 출발 " + it.last_entry : "") +
+        (it.booking === "required" ? " · 예약 필수" : it.booking === "recommended" ? " · 예약 권장" : "") +
+        (HOLI[now.date] && !h.special ? " · " + HOLI[now.date] + " — 시간이 다를 수 있어요" : ""), openToday: true, openNow: false };
+    }
     var m = now.min, openNow = false, next = null, closesAt = null;
     ranges(h.v).forEach(function (r) {
       if (m >= r[0] && m < r[1]) { openNow = true; closesAt = r[1]; }
       else if (m < r[0] && next == null) next = r[0];
     });
     var state = openNow ? "지금 열림 · " + hm(closesAt) + "까지" : next != null ? hm(next) + " 문 열어요" : "오늘 운영 끝남";
+    if (HOLI[now.date] && !h.special) state += " · " + HOLI[now.date] + " — 시간이 다를 수 있어요";
     if (openNow && it.last_entry && m > toMin(it.last_entry) && toMin(it.last_entry) < closesAt) state = "입장 마감(" + it.last_entry + ")";
     return { cls: openNow ? "open" : next != null ? "soon" : "closed", text: "오늘(" + dk + ") " + fmtRanges(h.v) + (h.special ? "(특별)" : "") + " · " + state,
       openToday: true, openNow: openNow && state.indexOf("입장 마감") < 0 };
@@ -694,11 +705,23 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
         (g.v == null ? "미확인" : g.v === "closed" ? "휴관" : fmtRanges(g.v)) + "</td></tr>";
     }).join("") + "</tbody></table>";
   }
+  function dayDiff(a, b) { return Math.round((Date.parse(b + "T12:00:00Z") - Date.parse(a + "T12:00:00Z")) / 864e5); }
+  function dayValue(v) { return v === "closed" ? "휴관" : v === "open" ? "운영(시간 미확인)" : fmtRanges(v); }
   function upcomingExceptions(it, now) {
-    var dh = it.date_hours || {};
-    return Object.keys(dh).sort().filter(function (d) { return d >= now.date; }).slice(0, 6).map(function (d) {
-      return md(d) + "(" + DAY_KO[isoDay(d)] + ") " + (dh[d] === "closed" ? "휴관" : fmtRanges(dh[d]));
+    var dh = it.date_hours || {}, runs = [];
+    Object.keys(dh).sort().filter(function (d) { return d >= now.date; }).forEach(function (d) {
+      var r = runs[runs.length - 1];
+      if (r && r.v === dh[d] && dayDiff(r.b, d) === 1) r.b = d; else runs.push({ a: d, b: d, v: dh[d] });
+    });
+    return runs.slice(0, 6).map(function (r) {
+      return (r.a === r.b ? md(r.a) + "(" + DAY_KO[isoDay(r.a)] + ")" : md(r.a) + "–" + md(r.b)) + " " + dayValue(r.v);
     }).join(" · ");
+  }
+  function closureHtml(it, now) {
+    var c = it.partial_closure;
+    if (!c || !c.end || now.date > c.end) return "";
+    var when = c.start && now.date < c.start ? md(c.start) + "부터 " : "";
+    return '<p class="warn">' + esc(when + c.what_ko) + " · " + esc(c.end.slice(0, 4) !== now.date.slice(0, 4) ? c.end.slice(0, 4) + "/" + md(c.end) : md(c.end)) + "까지</p>";
   }
   var CONF_KO = { high: "공식 2026 자료", medium: "공식(날짜 미표기)·신뢰 출처", low: "참고용 — 방문 전 확인" };
   function admissionHtml(it, now) {
@@ -711,7 +734,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     } else if (it.price_note) body += "<h4>입장권</h4><p>" + esc(it.price_note) + "</p>";
     if (it.free_note) body += "<p><b>무료·할인</b> " + esc(it.free_note) + "</p>";
     if (it.hours) body += "<h4>운영 시간 <small class=\"hint\">11–12월 · 쾰른 시각</small></h4>" + hoursTable(it, now);
-    if (it.last_entry) body += "<p><b>마지막 입장</b> " + esc(it.last_entry) + "</p>";
+    if (it.last_entry) body += "<p><b>" + (it.schedule === "departures" ? "마지막 출발" : "마지막 입장") + "</b> " + esc(it.last_entry) + "</p>";
     var ex = upcomingExceptions(it, now);
     if (ex) body += "<p><b>특별 일정</b> " + esc(ex) + "</p>";
     if (it.hours_note) body += "<p>" + esc(it.hours_note) + "</p>";
@@ -736,7 +759,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       (it.priority === 1 ? '<span class="award">필수</span>' : "") + "</div>" +
       "<h3>" + esc(it.name_ko || it.name) + (it.name_ko ? '<span class="alt">' + esc(it.name) + "</span>" : "") + "</h3>" +
       '<p class="meta">' + ratingHtml(it) + distHtml(it) + (status ? "<span><b>" + status + "</b></span>" : "") + (season ? "<span>" + season + "</span>" : "") + "</p>" +
-      (ts.text ? '<p class="today ' + ts.cls + '">' + esc(ts.text) + "</p>" : "") +
+      (ts.text ? '<p class="today ' + ts.cls + '">' + esc(ts.text) + "</p>" : "") + closureHtml(it, NOW) +
       (bits.length ? '<p class="cuisine">' + bits.join(" · ") + "</p>" : "") +
       (it.summary_ko ? '<p class="summary">' + esc(it.summary_ko) + "</p>" : "") +
       tagsHtml(it.tags) +

@@ -1,0 +1,635 @@
+{
+ "agent": "r5-tickets-churches-markets",
+ "generated": "2026-11-07",
+ "updates": [
+  {
+   "id": "gross-st-martin",
+   "name": "Groß St. Martin",
+   "tickets": [
+    {
+     "label_ko": "입장",
+     "eur": 0,
+     "note_ko": "무료 (지하 발굴 구역 포함)"
+    }
+   ],
+   "price_eur": 0,
+   "price_note": "무료",
+   "hours": {
+    "mon": "closed",
+    "tue": "13:00-17:25",
+    "wed": "13:00-17:25",
+    "thu": "13:00-17:25",
+    "fri": "10:00-12:30,13:00-17:25",
+    "sat": "10:00-12:30,13:00-17:25",
+    "sun": "13:00-18:00"
+   },
+   "last_entry": null,
+   "hours_note": "월 휴관 · 화–목 13:00–17:25 · 금–토 10:00–12:30, 13:00–17:25 · 일 13:00–18:00. 로마 시대 유구가 남은 지하 발굴 구역도 이 시간에 들어갈 수 있다(일부 계단만 있음). 예배·기도 시간(예루살렘 수도 공동체)에는 관람 불가, 공휴일·예배 일정에 따라 바뀔 수 있음. 12/24·25·31, 1/1 시간은 미확인.",
+   "free_note": "입장 무료",
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "open",
+   "season": null,
+   "sources": [
+    "https://www.romanische-kirchen-koeln.de/grosse-kirchen/gross-st-martin/das-wichtigste-in-kuerze/",
+    "https://www.romanische-kirchen-koeln.de/grosse-kirchen/gross-st-martin/krypta-ausgrabungszone/index.html",
+    "https://www.cologne-tourism.com/arts-culture/sights/detail/gross-st-martin"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "st-gereon",
+   "name": "St. Gereon",
+   "tickets": [],
+   "price_eur": null,
+   "price_note": "이번 조사에서 입장료 표기 미확인 (기존 자료엔 무료로 기재)",
+   "hours": {
+    "mon": "10:00-18:00",
+    "tue": "10:00-18:00",
+    "wed": "10:00-18:00",
+    "thu": "10:00-18:00",
+    "fri": "10:00-18:00",
+    "sat": "10:00-18:00",
+    "sun": "10:00-18:00"
+   },
+   "last_entry": null,
+   "hours_note": "매일 10:00–18:00 (로마네스크 성당 후원회 사이트·교구 안내). 미사 중(특히 일요일 예배, 대림·성탄 시기)에는 관람 제한, 예외적으로 닫힐 때는 현관(Vorhalle)만 개방. 단체 가이드 투어는 교구(Pfarramt, 0221 474507-0)와 사전 협의. 제3자 자료엔 토 10:00–17:30으로 나오기도 함. 성탄·연말연시 특별 시간 미확인.",
+   "free_note": null,
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "open",
+   "season": null,
+   "sources": [
+    "http://www.romanische-kirchen-koeln.de/index.php?id=29",
+    "https://www.stgereon.de/export/sites/gereon-koeln/.content/.galleries/downloads/2018-Brigitte-Janssen/Advent-und-Weihnachten-in-der-Pfarrei-St.-Gereon-1.pdf"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "st-maria-im-kapitol",
+   "name": "St. Maria im Kapitol",
+   "tickets": [],
+   "price_eur": null,
+   "price_note": "이번 조사에서 입장료 정보 미확인",
+   "hours": {
+    "mon": "09:00-18:00",
+    "tue": "09:00-18:00",
+    "wed": "09:00-18:00",
+    "thu": "09:00-18:00",
+    "fri": "09:00-17:30",
+    "sat": "09:00-17:30",
+    "sun": "13:00-18:00"
+   },
+   "last_entry": null,
+   "hours_note": "월–목 09:00–18:00 · 금–토 09:00–17:30 · 일 13:00–18:00 (교구 공식 사이트). 미사 중 관람 불가. 11/11(카니발 시즌 개막일)에는 성당·회랑(Kreuzgang) 폐쇄. 후원회 사이트엔 '월–토 10–18, 일 13–18'로 다르게 나오고, 기존 자료의 '일 09–18'(NRW Tourism)은 공식 사이트와 다름. 성탄·연말연시 특별 시간 미확인.",
+   "free_note": null,
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "open",
+   "season": null,
+   "sources": [
+    "https://www.maria-im-kapitol.de/",
+    "https://www.maria-im-kapitol.de/angebote.html"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "st-aposteln",
+   "name": "St. Aposteln",
+   "tickets": [],
+   "price_eur": null,
+   "price_note": "이번 조사에서 입장료 정보 미확인",
+   "hours": {
+    "mon": "10:00-19:00",
+    "tue": "10:00-19:00",
+    "wed": "10:00-19:00",
+    "thu": "10:00-19:00",
+    "fri": "10:00-19:00",
+    "sat": "10:00-19:00",
+    "sun": "10:00-17:00"
+   },
+   "last_entry": null,
+   "hours_note": "월–토 10:00–19:00 · 일 10:00–17:00 (로마네스크 성당 후원회 '핵심 정보' 페이지). 예배 시간 외에만 관람 가능, 단체·가이드 투어는 교구 사무소(0221 292405-60)에 사전 신청. 같은 사이트의 옛 페이지엔 '매일 10–13시, 14–17시'로 다르게 나오니 방문 전 확인. 성탄·연말연시 특별 시간 미확인.",
+   "free_note": null,
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "open",
+   "season": null,
+   "sources": [
+    "https://www.romanische-kirchen-koeln.de/grosse-kirchen/st-aposteln/das-wichtigste-in-kuerze/index.html",
+    "https://gemeinden.erzbistum-koeln.de/export/sites/st-aposteln/.galleries/dokumente/wochenblatt/Wochenblatt-2025-07-05.pdf",
+    "https://www.nomadotravel.app/de/attractions/st-aposteln-church"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "st-pantaleon",
+   "name": "St. Pantaleon",
+   "tickets": [
+    {
+     "label_ko": "입장",
+     "eur": 0,
+     "note_ko": "무료"
+    }
+   ],
+   "price_eur": 0,
+   "price_note": "무료",
+   "hours": {
+    "mon": "09:00-12:00,12:45-17:00",
+    "tue": "09:00-12:00,12:45-17:00",
+    "wed": "09:00-12:00,12:45-17:00",
+    "thu": "09:00-12:00,12:45-17:00",
+    "fri": "09:00-12:00,12:45-17:00",
+    "sat": "09:00-17:00",
+    "sun": "12:30-17:00"
+   },
+   "last_entry": null,
+   "hours_note": "월–금 09:00–12:00, 12:45–17:00 · 토 09:00–17:00 · 일 12:30–17:00 (로마네스크 성당 후원회 사이트). 특별 예배·피정·콘서트 때는 예외, 고해성사 시간(월–금 10–12시)에는 대규모 단체 투어 불가. 공휴일·예배로 바뀔 수 있으니 교구 사무소(+49 221 316655) 확인 권장. 성탄·연말연시 특별 시간 미확인.",
+   "free_note": "입장 무료 (KölnTourismus)",
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "open",
+   "season": null,
+   "sources": [
+    "https://www.romanische-kirchen-koeln.de/",
+    "https://willkommen.koelntourismus.de/en/poi/st-pantaleon",
+    "https://maps.adac.de/poi/st-pantaleon-koeln"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "st-ursula-goldene-kammer",
+   "name": "St. Ursula & Goldene Kammer",
+   "tickets": [
+    {
+     "label_ko": "황금의 방(성인)",
+     "eur": 3,
+     "note_ko": "※ 2026-09-07~2027-02-18 복원 공사로 관람 불가"
+    },
+    {
+     "label_ko": "콤비 (황금의 방 + 보물실)",
+     "eur": 5,
+     "note_ko": "재개관 후 기준. 공사 중 보물실 단독 관람 여부는 미확인"
+    },
+    {
+     "label_ko": "어린이(보호자 동반)",
+     "eur": 0,
+     "note_ko": "보호자와 함께 오면 무료"
+    }
+   ],
+   "price_eur": 3,
+   "price_note": "황금의 방 €3 · 보물실 콤비 €5 · 동반 어린이 무료 — 단 2026-09-07~2027-02-18 복원 공사로 황금의 방 휴관",
+   "hours": {
+    "mon": "10:00-12:00,15:00-17:00",
+    "tue": "10:00-12:00,15:00-17:00",
+    "wed": "10:00-12:00,15:00-17:00",
+    "thu": "10:00-12:00,15:00-17:00",
+    "fri": "10:00-12:00,15:00-17:00",
+    "sat": "15:00-17:00",
+    "sun": "15:00-17:00"
+   },
+   "last_entry": null,
+   "hours_note": "※ 황금의 방(Goldene Kammer)은 2026-09-07~2027-02-18 복원 공사로 관람 불가(이전 공지엔 2026-12-24 종료로 표기) → 11–12월 여행 중엔 사실상 볼 수 없음. 교구 안내 관람 시간(성당·황금의 방·보물실): 월–금 10–12시, 매일 15–17시. 그 밖의 시간(매일 10–17시)엔 성당 안 철창(Gitter)까지만 들어갈 수 있음. 일요일 관람은 보장되지 않고 예배 중엔 관람 불가. 성탄·연말연시 특별 시간 미확인.",
+   "free_note": "보호자 동반 어린이 무료",
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "open",
+   "partial_closure": {
+    "what_ko": "황금의 방(Goldene Kammer) 복원 공사",
+    "start": "2026-09-07",
+    "end": "2027-02-18",
+    "note_ko": "이전 교구 공지엔 종료일 2026-12-24로 표기"
+   },
+   "season": null,
+   "sources": [
+    "https://www.katholisch-in-koeln.de/st-agnes/aktuelles/news/detail/Oeffnungs-und-Besichtigungszeiten-St.-Ursula/",
+    "https://www.katholisch-in-koeln.de/ueber-uns/st-ursula/index.html",
+    "https://www.katholisch-in-koeln.de/detail/Basilika-St.-Ursula-Goldene-Kammer-00002/",
+    "https://www.katholisch-in-koeln.de/st-agnes/unsere-kirchen/st-ursula/index.html"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "st-kunibert",
+   "name": "St. Kunibert",
+   "tickets": [],
+   "price_eur": null,
+   "price_note": "이번 조사에서 입장료 정보 미확인",
+   "hours": {
+    "mon": "10:00-18:00",
+    "tue": "10:00-18:00",
+    "wed": "10:00-18:00",
+    "thu": "10:00-18:00",
+    "fri": "10:00-18:00",
+    "sat": "10:00-18:00",
+    "sun": "10:00-18:00"
+   },
+   "last_entry": null,
+   "hours_note": "매일 10:00–18:00, 특별 행사가 있으면 예외 (교구 소식지 Agnes Aktuell·후원회 사이트). 가이드 투어는 교구 사무소(0221 121214)와 사전 협의. 토 17:30 저녁 미사(2022년 소식지 기준) 중엔 관람 자제. 성탄·연말연시 특별 시간 미확인.",
+   "free_note": null,
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "open",
+   "season": null,
+   "sources": [
+    "https://www.romanische-kirchen-koeln.de/index.php?id=kunibert",
+    "https://katholisch-in-koeln.de/export/sites/katholisch-in-koeln/st-agnes/.galleries/dokumente/downloads_a_schriften/Agnes_Aktuell_9-2024.pdf",
+    "https://www.katholisch-in-koeln.de/export/sites/katholisch-in-koeln/st-agnes/.galleries/dokumente/downloads_a_schriften/Agnes_Aktuell_11-2025.pdf",
+    "https://gemeinden.erzbistum-koeln.de/export/sites/gemeinden/st-agnes-koeln/.content/.galleries/downloads/downloads_p_schriften/Agnes_Aktuell_10_2022.pdf"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "weihnachtsmarkt-am-kolner-dom",
+   "name": "Weihnachtsmarkt am Kölner Dom",
+   "tickets": [
+    {
+     "label_ko": "입장",
+     "eur": 0,
+     "note_ko": "무료"
+    }
+   ],
+   "price_eur": 0,
+   "price_note": "무료 입장",
+   "hours": {
+    "mon": "11:00-21:00",
+    "tue": "11:00-21:00",
+    "wed": "11:00-21:00",
+    "thu": "11:00-22:00",
+    "fri": "11:00-22:00",
+    "sat": "10:00-22:00",
+    "sun": "11:00-21:00"
+   },
+   "last_entry": null,
+   "hours_note": "2026-11-16(월)~12-23(수). 일–수 11:00–21:00 · 목–금 11:00–22:00 · 토 10:00–22:00. 11-22(일, 토텐존탁) 휴무. 공식 개막 행사 11-17(화) 16:30 무대. 12/24 이후엔 열지 않음.",
+   "free_note": "입장 무료",
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "seasonal",
+   "season": {
+    "start": "2026-11-16",
+    "end": "2026-12-23"
+   },
+   "website": "https://www.koelnerweihnachtsmarkt.com/de/",
+   "sources": [
+    "https://www.koelnerweihnachtsmarkt.com/de/",
+    "https://www.koelnerweihnachtsmarkt.com/de/faq-items/zu-welchen-uhrzeiten-ist-der-weihnachtsmarkt-am-koelner-dom-geoeffnet/",
+    "https://www.koelnerweihnachtsmarkt.com/de/faq-items/wann-beginnt-der-weihnachtsmarkt-und-wie-lange-dauert-er/",
+    "https://www.koelnerweihnachtsmarkt.com/de/buehnenprogramm/"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "heimat-der-heinzel-altstadt-heumarkt-alter-markt",
+   "name": "Heinzels Wintermärchen (Altstadt: Heumarkt & Alter Markt)",
+   "tickets": [
+    {
+     "label_ko": "마켓 입장",
+     "eur": 0,
+     "note_ko": "무료"
+    },
+    {
+     "label_ko": "아이스링크 성인(평일)",
+     "eur": 9.5,
+     "note_ko": "공식 영문 페이지 표기(시즌 연도 미표기, 2026/27 가격인지 미확인). 온라인 판매, 예매 수수료 별도"
+    },
+    {
+     "label_ko": "아이스링크 성인(주말)",
+     "eur": 11.5,
+     "note_ko": "위와 같음"
+    },
+    {
+     "label_ko": "아이스링크 어린이(5–12세)",
+     "eur": 6,
+     "note_ko": "5세 미만 무료"
+    },
+    {
+     "label_ko": "아이스링크 가족(성인 2 + 어린이 2)",
+     "eur": 24,
+     "note_ko": "위와 같음"
+    },
+    {
+     "label_ko": "아이스링크 월요일 '어린이의 날'",
+     "eur": 5,
+     "note_ko": "대상 조건은 공식 페이지 확인"
+    },
+    {
+     "label_ko": "스케이트 대여(성인)",
+     "eur": 6.5,
+     "note_ko": "어린이 €5.50"
+    }
+   ],
+   "price_eur": 0,
+   "price_note": "무료 입장 · 아이스링크 성인 평일 €9.50/주말 €11.50, 5–12세 €6 (공식 영문 페이지, 시즌 연도 미표기)",
+   "hours": {
+    "mon": "11:00-22:00",
+    "tue": "11:00-22:00",
+    "wed": "11:00-22:00",
+    "thu": "11:00-22:00",
+    "fri": "11:00-22:00",
+    "sat": "11:00-22:00",
+    "sun": "11:00-22:00"
+   },
+   "last_entry": null,
+   "hours_note": "2026-11-23(월)~2027-01-10(일). 매일 11:00–22:00, 12-31부터 11:00–21:00(호이마르크트). 알터 마르크트 구역은 12-23까지만. 12-24·25 휴무, 1/1 운영 시간은 미확인. 토텐존탁(11-22) 다음 날 개장. 공식 이름은 'Heinzels Wintermärchen'(하인첼의 겨울 동화).",
+   "free_note": "마켓 입장 무료, 5세 미만 아이스링크 무료",
+   "booking": "not-needed",
+   "booking_url": "https://www.heinzels-wintermaerchen.de/en/ice-skating/",
+   "status": "seasonal",
+   "season": {
+    "start": "2026-11-23",
+    "end": "2027-01-10"
+   },
+   "website": "https://www.heinzels-wintermaerchen.de/",
+   "sources": [
+    "https://www.heinzels-wintermaerchen.de/",
+    "https://www.heinzels-wintermaerchen.de/en/infos-opening-hours/",
+    "https://www.heinzels-wintermaerchen.de/en/ice-skating/",
+    "https://www.heinzels-wintermaerchen.de/programmundtermine/jacks-eislaufschule/"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "markt-der-engel-neumarkt",
+   "name": "Markt der Engel (Neumarkt)",
+   "tickets": [
+    {
+     "label_ko": "입장",
+     "eur": 0,
+     "note_ko": "무료"
+    }
+   ],
+   "price_eur": 0,
+   "price_note": "무료 입장",
+   "hours": {
+    "mon": "11:00-21:00",
+    "tue": "11:00-21:00",
+    "wed": "11:00-21:00",
+    "thu": "11:00-21:00",
+    "fri": "11:00-22:00",
+    "sat": "11:00-22:00",
+    "sun": "11:00-21:00"
+   },
+   "last_entry": null,
+   "hours_note": "2026-11-16(월)~12-23(수). 일–목 11:00–21:00(글뤼바인 노점 22:00까지) · 금–토 11:00–22:00(글뤼바인 23:00까지). 11-22(토텐존탁) 휴무, 12-23은 21:00 종료.",
+   "free_note": "입장 무료",
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "seasonal",
+   "season": {
+    "start": "2026-11-16",
+    "end": "2026-12-23"
+   },
+   "website": "https://www.markt-der-engel.de/",
+   "sources": [
+    "https://www.markt-der-engel.de/",
+    "https://www.festivalsindeutschland.de/festival/markt-der-engel-koeln-neumarkt"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "nikolausdorf-am-rudolfplatz",
+   "name": "Nikolausdorf am Rudolfplatz",
+   "tickets": [
+    {
+     "label_ko": "입장",
+     "eur": 0,
+     "note_ko": "무료"
+    }
+   ],
+   "price_eur": 0,
+   "price_note": "무료 입장",
+   "hours": {
+    "mon": "11:00-21:00",
+    "tue": "11:00-21:00",
+    "wed": "11:00-21:00",
+    "thu": "11:00-21:00",
+    "fri": "11:00-22:00",
+    "sat": "11:00-22:00",
+    "sun": "11:00-21:00"
+   },
+   "last_entry": null,
+   "hours_note": "2026-11-16(월)~12-23(수). 일–목 11:00–21:00 · 금–토 11:00–22:00 (글뤼바인 노점은 평일 22:00까지). 11-22(토텐존탁) 휴무. 개막 행사 11-17(화) 18:00.",
+   "free_note": "입장 무료",
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "seasonal",
+   "season": {
+    "start": "2026-11-16",
+    "end": "2026-12-23"
+   },
+   "website": "https://nikolausdorf.com/",
+   "sources": [
+    "https://nikolausdorf.com/index.php",
+    "https://nikolausdorf.com/en/",
+    "https://nikolausdorf.com/en/program/eroeffnung-2026-11-17-1800/"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "hafen-weihnachtsmarkt-am-schokoladenmuseum",
+   "name": "Hafen-Weihnachtsmarkt (am Schokoladenmuseum)",
+   "tickets": [
+    {
+     "label_ko": "입장",
+     "eur": 0,
+     "note_ko": "무료"
+    }
+   ],
+   "price_eur": 0,
+   "price_note": "무료 입장",
+   "hours": {
+    "mon": "11:00-21:00",
+    "tue": "11:00-21:00",
+    "wed": "11:00-21:00",
+    "thu": "11:00-21:00",
+    "fri": "11:00-22:00",
+    "sat": "11:00-22:00",
+    "sun": "11:00-21:00"
+   },
+   "last_entry": null,
+   "hours_note": "크리스마스 마켓 2026-11-13(금)~12-23, 이어서 신년 마켓(Neujahrsmarkt) 12-26~2027-01-03. 매일 11:00–21:00, 금·토 22:00까지. 11-15(일, 국민 추도일) 13:00부터, 11-22(토텐존탁) 18:00부터. 12-24·25엔 열지 않음, 신년 마켓 기간(12/31·1/1 포함) 시간은 미확인.",
+   "free_note": "입장 무료 (초콜릿 박물관 공지)",
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "seasonal",
+   "season": {
+    "start": "2026-11-13",
+    "end": "2027-01-03"
+   },
+   "sources": [
+    "https://www.koeln.de/weihnachten/weihnachtsmaerkte-koeln/hafen-weihnachtsmarkt/",
+    "https://www.schokoladenmuseum.de/en/plan-a-visit/aktuelles/hafenweihnachtsmarkt-am-schokoladenmuseum/",
+    "https://www.festivalsindeutschland.de/festival/hafen-weihnachtsmarkt-schokoladenmuseum-koeln"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "weihnachtsmarkt-im-stadtgarten",
+   "name": "Weihnachtsmarkt im Stadtgarten",
+   "tickets": [
+    {
+     "label_ko": "입장",
+     "eur": 0,
+     "note_ko": "무료"
+    }
+   ],
+   "price_eur": 0,
+   "price_note": "무료 입장",
+   "hours": {
+    "mon": "16:00-21:30",
+    "tue": "16:00-21:30",
+    "wed": "16:00-21:30",
+    "thu": "16:00-21:30",
+    "fri": "16:00-21:30",
+    "sat": "12:00-21:30",
+    "sun": "12:00-21:30"
+   },
+   "last_entry": null,
+   "hours_note": "2026-11-13(금)~12-23(수). 월–금 16:00–21:30 · 토–일 12:00–21:30. 11-22(토텐존탁)은 18:00부터. 개막 콘서트 11-13(금) 18:00. 일부 포털엔 11-16·11-19 개막으로 나오지만 공식 사이트·koeln.de 기준.",
+   "free_note": "입장 무료",
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "seasonal",
+   "season": {
+    "start": "2026-11-13",
+    "end": "2026-12-23"
+   },
+   "website": "https://www.weihnachtsmarkt-stadtgarten.de/",
+   "sources": [
+    "https://www.weihnachtsmarkt-stadtgarten.de/",
+    "https://www.koeln.de/weihnachten/weihnachtsmaerkte-koeln/weihnachtsmarkt-stadtgarten/"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  }
+ ],
+ "places": [
+  {
+   "id": "flora-botanischer-garten",
+   "name": "Flora und Botanischer Garten Köln",
+   "name_ko": "플로라·쾰른 식물원",
+   "category": "park-nature",
+   "area": "other",
+   "address": "Am Botanischen Garten 1a, 50735 Köln",
+   "address_note": "주소는 이전 조사 후보 기록에서 가져옴(이번 세션에서 재확인 안 함)",
+   "lat": null,
+   "lng": null,
+   "summary_ko": "동물원 옆, 19세기 플로라 궁전과 정원이 있는 시립 식물원. 2026년 6월 12일 새 전시 온실이 문을 열었고 정원·온실 모두 무료.",
+   "tips_ko": "새 전시 온실은 겨울에도 10–16시 무료 개방이라 비 오는 날 대안으로 좋다. 정원 폐장 시각은 해 질 녘에 맞춰 바뀌니(안내 방송) 늦은 오후는 피할 것.",
+   "tickets": [
+    {
+     "label_ko": "입장(정원·온실)",
+     "eur": 0,
+     "note_ko": "무료"
+    }
+   ],
+   "price_eur": 0,
+   "price_note": "무료 (정원·온실)",
+   "duration_min": 60,
+   "hours": {
+    "mon": "10:00-16:00",
+    "tue": "10:00-16:00",
+    "wed": "10:00-16:00",
+    "thu": "10:00-16:00",
+    "fri": "10:00-16:00",
+    "sat": "10:00-16:00",
+    "sun": "10:00-16:00"
+   },
+   "last_entry": null,
+   "hours_note": "정원: 매일 08:00 개장, 폐장은 계절(해 질 녘)에 따라 달라지며 안내 방송으로 알림(여름 최대 21:00). 새 전시 온실(2026-06-12 개관): 4–9월 10:00–18:00, 10–3월 10:00–16:00. 표의 시간은 겨울 온실 기준. 12/24·25·31, 1/1 시간은 미확인.",
+   "free_note": "정원·온실 모두 무료",
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "open",
+   "season": null,
+   "priority": 3,
+   "tags": [
+    "free",
+    "nature",
+    "rainy-day"
+   ],
+   "google_rating": null,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": null,
+   "website": "https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/parks/adresse-oeffnungszeiten-flora-botanischer-garten",
+   "sources": [
+    "https://www.stadt-koeln.de/leben-in-koeln/freizeit-natur-sport/parks/adresse-oeffnungszeiten-flora-botanischer-garten",
+    "https://www.stadt-koeln.de/artikel/05256/index.html",
+    "https://www.koeln.de/tourismus/sehenswertes/flora-koeln/"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "melaten-friedhof",
+   "name": "Melaten-Friedhof",
+   "name_ko": "멜라텐 묘지",
+   "category": "park-nature",
+   "area": "other",
+   "address": "Aachener Straße 204, 50931 Köln",
+   "lat": null,
+   "lng": null,
+   "summary_ko": "아헨 거리(Aachener Straße)에 있는 쾰른의 대표 시립 묘지. 가로수길과 오래된 묘비 조각 사이를 걷는 조용한 산책 코스.",
+   "tips_ko": "겨울엔 17:00에 문을 닫고 일찍 어두워지니 낮에 갈 것. koeln.de 등에서 묘지 가이드 투어 상품도 판다.",
+   "tickets": [
+    {
+     "label_ko": "입장",
+     "eur": 0,
+     "note_ko": "공공 묘지라 입장료 없음 (출처에 요금 언급 없음)"
+    }
+   ],
+   "price_eur": 0,
+   "price_note": "입장료 없음 (공공 묘지)",
+   "duration_min": 60,
+   "hours": {
+    "mon": "08:00-17:00",
+    "tue": "08:00-17:00",
+    "wed": "08:00-17:00",
+    "thu": "08:00-17:00",
+    "fri": "08:00-17:00",
+    "sat": "08:00-17:00",
+    "sun": "08:00-17:00"
+   },
+   "last_entry": null,
+   "hours_note": "겨울(11-03~03-31) 매일 08:00–17:00, 여름(04-01~11-02) 매일 07:00–20:00 (koeln.de). 공휴일 특별 시간은 미확인. 겨울엔 일찍 어두워짐.",
+   "free_note": "입장료 없음",
+   "booking": "not-needed",
+   "booking_url": null,
+   "status": "open",
+   "season": null,
+   "priority": 3,
+   "tags": [
+    "free",
+    "nature",
+    "history"
+   ],
+   "google_rating": null,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": null,
+   "website": "https://www.stadt-koeln.de/artikel/05317/index.html",
+   "sources": [
+    "https://www.koeln.de/tourismus/sehenswertes/melaten-friedhof/",
+    "https://www.stadt-koeln.de/artikel/05317/index.html",
+    "https://book.tourdesk.com/de/Tour/Item/10350/24/Melaten_-_Wo_Koln_ewig_lebt"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  }
+ ],
+ "notes_ko": "【크리스마스 마켓 2026 공통】 토텐존탁 11-22(일): 대성당·노이마르크트(천사)·루돌프플라츠(니콜라우스 마을) 마켓 휴무, 슈타트가르텐·하펜 마켓은 18:00부터, 구시가(Heinzels Wintermärchen)는 다음 날 11-23 개장. 국민 추도일 11-15(일) 하펜 마켓은 13:00부터. 대부분 12-23에 끝나고, 연말연시에 계속 여는 곳은 구시가 호이마르크트(2027-01-10까지, 12/24·25 휴무)와 하펜 신년 마켓(12-26~2027-01-03). 모든 마켓 입장 무료(구시가 아이스링크만 유료). 출처: https://www.koelnerweihnachtsmarkt.com/de/ · https://www.heinzels-wintermaerchen.de/ · https://www.markt-der-engel.de/ · https://nikolausdorf.com/ · https://www.weihnachtsmarkt-stadtgarten.de/ · https://www.koeln.de/weihnachten/weihnachtsmaerkte-koeln/hafen-weihnachtsmarkt/ 【로마네스크 성당】 미사·기도 시간엔 관람 불가가 공통 원칙이고, 단체·가이드 투어는 각 교구에 사전 신청. 로마네스크 성당 후원회(Förderverein) 사이트의 성당별 '핵심 정보(Das Wichtigste in Kürze)' 페이지에 개방 시간이 있음(https://www.romanische-kirchen-koeln.de/). 성탄·연말연시(12/24·25·31, 1/1) 특별 개방 시간은 7곳 모두 확인하지 못함. 주의: 장크트 우르줄라 '황금의 방'은 2026-09-07~2027-02-18 복원 공사로 휴관(https://www.katholisch-in-koeln.de/st-agnes/aktuelles/news/detail/Oeffnungs-und-Besichtigungszeiten-St.-Ursula/). 장크트 마리아 임 카피톨은 11/11 카니발 개막일에 성당·회랑 폐쇄(https://www.maria-im-kapitol.de/). 장크트 판탈레온 개방 시간은 후원회 사이트 검색 결과에서 확인했으나 해당 페이지 주소를 특정하지 못함. 【다른 그룹 참고】 koelner-dom.de 공지 제목: '2026-07-01부터 쾰른 대성당 관람 유료, 티켓 예매'(https://www.koelner-dom.de/aktuelles/aktuelle-information-zur-oeffnung-des-koelner-domes). 검색 요약엔 성인 €12·할인 €6으로 나왔으나 가격은 대성당 담당 그룹이 공식 페이지로 확인 필요."
+}

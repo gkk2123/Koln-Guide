@@ -1,0 +1,763 @@
+{
+ "agent": "r5-tickets-dom-city",
+ "generated": "2026-11-07",
+ "updates": [
+  {
+   "id": "koelner-dom",
+   "name": "Kölner Dom",
+   "tickets": [
+    {
+     "label_ko": "성인(관광 관람)",
+     "eur": 12,
+     "note_ko": "2026-07-01부터 관광 목적 내부 관람 유료. 도메포룸 내부 가이드 투어 참가자도 이 관람 티켓이 따로 필요"
+    },
+    {
+     "label_ko": "할인",
+     "eur": 6,
+     "note_ko": "14세 이상 학생·직업훈련생·대학생, 학생 단체 인솔자, NRW 사회복지 패스(Sozialpass) 소지자 — 증빙(사진 신분증) 필요"
+    },
+    {
+     "label_ko": "어린이(13세 이하)",
+     "eur": 0,
+     "note_ko": "무료 (탑·보물관도 13세 이하 무료)"
+    },
+    {
+     "label_ko": "중증장애인",
+     "eur": 0,
+     "note_ko": "동반 1인 포함 무료"
+    },
+    {
+     "label_ko": "미사·기도",
+     "eur": 0,
+     "note_ko": "미사 참석과 북쪽 익랑(Nordquerhaus) 기도 공간은 언제나 무료"
+    }
+   ],
+   "price_eur": 12,
+   "price_note": "관광 관람 €12 · 할인 €6 · 13세 이하 무료 · 미사·기도 무료 (탑·보물관 별도)",
+   "hours": {
+    "mon": "10:00-17:45",
+    "tue": "10:00-17:45",
+    "wed": "10:00-17:45",
+    "thu": "10:00-17:45",
+    "fri": "10:00-17:45",
+    "sat": "10:00-17:45",
+    "sun": "13:30-16:30"
+   },
+   "last_entry": "17:30",
+   "hours_note": "관광 관람: 월–토 10:00–17:45(마지막 입장 17:30), 일·교회 축일 13:30–16:30(마지막 입장 16:15). 관광객은 서쪽 정문(Westportal)으로 들어가고 대부분 북쪽 문으로 나온다. 기도·미사 목적이면 북쪽 익랑 입구로 무료 입장, 예배 시간 외 보통 매일 06:00–20:00. 미사·행사·공사로 관람이 일부 또는 전부 막힐 수 있다. 12/24·25·26·31, 1/1 성탄·연말 특별 관람 시간은 이번 조사에서 확인 못 함 — 방문 전 koelner-dom.de 확인.",
+   "free_note": "13세 이하, 중증장애인(동반 1인 포함), 중앙 대성당 건축협회(Zentral-Dombau-Verein) 회원 무료. 매년 5/1·10/3은 누구나 무료 — 11–12월 여행 기간에는 무료일 없음. 미사·기도는 항상 무료. (기존 자료의 1/6 주현절 무료 기간은 이번에 재확인 못 함)",
+   "booking": "recommended",
+   "booking_url": "https://tickets.koelner-dom.de/",
+   "status": "open",
+   "sources": [
+    "https://www.koelner-dom.de/besuchen/faq",
+    "https://www.koelner-dom.de/besuchen/oeffnungszeiten",
+    "https://www.koelner-dom.de/aktuelles/domkapitel-erlaeutert-details-zum-neuen-besichtigungskonzept",
+    "https://api.koelner-dom.de/uploads/PM_3_2026_Domkapitel_erlaeutert_Details_zum_neuen_Besichtigungskonzept_acac674149.pdf",
+    "https://www.koelner-dom.de/besuchen/neue-besichtigungsgebuehr-ab-dem-1-juli-2026",
+    "https://www.koelner-dom.de/tickets",
+    "https://tickets.koelner-dom.de/",
+    "https://www.evangelisch.de/inhalte/256000/02-06-2026/touristen-muessen-kuenftig-zwoelf-euro-eintritt-fuer-koelner-dom-zahlen",
+    "https://www.domforum.de/dom-und-kirchen-fuehrungen/allgemeine-informationen/index.html"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "koelner-dom-turm",
+   "name": "Kölner Dom – Turmbesteigung (Südturm)",
+   "tickets": [
+    {
+     "label_ko": "성인",
+     "eur": 8,
+     "note_ko": "성당 내부 관광 티켓(€12)과 별개"
+    },
+    {
+     "label_ko": "할인",
+     "eur": 4,
+     "note_ko": "14세 이상 학생·직업훈련생·대학생 등, 증빙 필요"
+    },
+    {
+     "label_ko": "어린이(13세 이하)",
+     "eur": 0,
+     "note_ko": "무료"
+    },
+    {
+     "label_ko": "콤비 탑+보물관",
+     "eur": 12,
+     "note_ko": "할인 €6"
+    }
+   ],
+   "price_eur": 8,
+   "price_note": "성인 €8 · 할인 €4 · 13세 이하 무료 · 탑+보물관 콤비 €12(할인 €6)",
+   "hours": {
+    "mon": "09:00-16:00",
+    "tue": "09:00-16:00",
+    "wed": "09:00-16:00",
+    "thu": "09:00-16:00",
+    "fri": "09:00-16:00",
+    "sat": "09:00-16:00",
+    "sun": "09:00-16:00"
+   },
+   "date_hours": {
+    "2026-11-11": "closed",
+    "2026-12-24": "closed",
+    "2026-12-25": "closed",
+    "2026-12-26": "closed",
+    "2026-12-31": "closed",
+    "2027-01-01": "closed"
+   },
+   "last_entry": "15:30",
+   "hours_note": "11–2월 매일 09:00–16:00(마지막 입장 15:30, 마감 30분 전), 3–10월 09:00–18:00. 일·공휴일에는 종탑 구역(Glockenstuhl)이 14:00까지 닫힘. 휴무: 11/11, 12/24·25·26, 12/31, 1/1, 카니발(Weiberfastnacht·토·일·장미의 월요일). 공사로 추가 폐쇄 가능.",
+   "free_note": "13세 이하 무료",
+   "booking": "not-needed",
+   "booking_url": "https://tickets.koelner-dom.de/turmbesteigung",
+   "status": "open",
+   "sources": [
+    "https://www.koelner-dom.de/besuchen/turmbesteigung",
+    "https://tickets.koelner-dom.de/turmbesteigung",
+    "https://www.koelner-dom.de/aktuelles/oeffnungszeiten-zu-karneval",
+    "https://www.koelner-dom.de/tickets"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "domschatzkammer",
+   "name": "Domschatzkammer",
+   "tickets": [
+    {
+     "label_ko": "성인",
+     "eur": 8,
+     "note_ko": "공식 보물관 페이지 기준(날짜 미표기)"
+    },
+    {
+     "label_ko": "할인",
+     "eur": 4,
+     "note_ko": "14세 이상 학생·직업훈련생·대학생 등. KölnCard 소지자 할인(대성당 시설 중 보물관만)"
+    },
+    {
+     "label_ko": "어린이(13세 이하)",
+     "eur": 0,
+     "note_ko": "무료"
+    },
+    {
+     "label_ko": "콤비 탑+보물관",
+     "eur": 12,
+     "note_ko": "할인 €6"
+    }
+   ],
+   "price_eur": 8,
+   "price_note": "성인 €8 · 할인 €4 · 13세 이하 무료 · 탑+보물관 콤비 €12(할인 €6)",
+   "hours": {
+    "mon": "10:00-18:00",
+    "tue": "10:00-18:00",
+    "wed": "10:00-18:00",
+    "thu": "10:00-18:00",
+    "fri": "10:00-18:00",
+    "sat": "10:00-18:00",
+    "sun": "10:00-18:00"
+   },
+   "date_hours": {
+    "2026-12-24": "closed",
+    "2026-12-25": "closed",
+    "2026-12-26": "closed",
+    "2026-12-31": "closed",
+    "2027-01-01": "closed"
+   },
+   "last_entry": "17:30",
+   "hours_note": "연중 매일 10:00–18:00(마지막 입장 17:30). 휴무 12/24·25·26·31, 1/1. 11/11 휴무는 옛 자료에만 있음.",
+   "free_note": "13세 이하 무료",
+   "booking": "not-needed",
+   "booking_url": "https://tickets.koelner-dom.de/schatzkammer",
+   "status": "open",
+   "sources": [
+    "https://www.koelner-dom.de/besuchen/domschatzkammer",
+    "https://tickets.koelner-dom.de/schatzkammer",
+    "https://www.koelner-dom.de/besuchen/turmbesteigung"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "koelner-dom-dachfuehrung",
+   "name": "Kölner Dom – Dachführung (Domforum)",
+   "tickets": [
+    {
+     "label_ko": "공개 투어 1인",
+     "eur": 27,
+     "note_ko": "할인 없음, 1회 예매 최대 6장, 당월+다음 2개월분을 온라인·DOMFORUM에서 판매. 성당 관람 티켓(€12) 따로 필요 없음"
+    },
+    {
+     "label_ko": "그룹 투어(최대 12명)",
+     "eur": 330,
+     "note_ko": "외국어 진행 +€10, 당월+다음 3개월분 예약 가능, 늦어도 14일 전"
+    }
+   ],
+   "price_eur": 27,
+   "price_note": "1인 €27(할인 없음) · 그룹(최대 12명) €330 · 성당 관람 티켓 불필요",
+   "hours": {
+    "mon": "16:00-18:30",
+    "tue": "16:00-18:30",
+    "wed": "16:00-18:30",
+    "thu": "16:00-18:30",
+    "fri": "16:00-18:30",
+    "sat": "10:00-16:00",
+    "sun": null
+   },
+   "last_entry": null,
+   "hours_note": "회차제 — 위 시간은 투어 시작 시각 범위. 공사 때문에 평일은 16:00 이후 시작(마지막 시작 18:30), 토요일은 10:00–16:00 사이 시작. 일요일 회차는 공식 페이지에서 확인 못 함. 약 240계단의 좁은 옛 계단(손잡이 없음), 공사용 승강기 사용은 보장 안 됨, 무장애 아님, 고소공포증 있으면 불가.",
+   "free_note": "할인·무료 없음. 16세 이상만 참가(보호자 동반이어도 16세 미만 불가)",
+   "booking": "required",
+   "booking_url": "https://www.domfuehrungen-koeln.de/sonderfuehrungen/dach",
+   "status": "open",
+   "sources": [
+    "https://www.domfuehrungen-koeln.de/sonderfuehrungen/dach",
+    "https://www.domfuehrungen-koeln.de/en/special-tours/rooftop",
+    "https://www.domforum.de/dom-und-kirchen-fuehrungen/allgemeine-informationen/index.html"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "museum-ludwig",
+   "name": "Museum Ludwig",
+   "tickets": [
+    {
+     "label_ko": "성인",
+     "eur": 15.4,
+     "note_ko": "공식 티켓 페이지·시청 안내 기준. 하루 종일 유효, 상설전+모든 특별전 포함. 전시 안내(Foyer) 페이지는 €13.50으로 표기 — 현장 확인"
+    },
+    {
+     "label_ko": "할인",
+     "eur": 10.4,
+     "note_ko": "Foyer 페이지는 €9.50"
+    },
+    {
+     "label_ko": "장애(GdB 50 이상)",
+     "eur": 7.7,
+     "note_ko": "정가의 50%"
+    },
+    {
+     "label_ko": "어린이·청소년(18세 이하)",
+     "eur": 0,
+     "note_ko": "무료"
+    },
+    {
+     "label_ko": "첫째 목 17시 이후",
+     "eur": 7,
+     "note_ko": "매월 첫째 목요일 17:00–22:00 (여행 기간: 2026-12-03)"
+    },
+    {
+     "label_ko": "쾰른 거주자(KölnTag)",
+     "eur": 0,
+     "note_ko": "첫째 목 종일 무료, 거주 증빙 필요"
+    }
+   ],
+   "price_eur": 15.4,
+   "price_note": "성인 €15.40 · 할인 €10.40 · 18세 이하 무료 · 첫째 목 17시 이후 €7 (일부 공식 페이지 €13.50/€9.50)",
+   "hours": {
+    "mon": "closed",
+    "tue": "10:00-18:00",
+    "wed": "10:00-18:00",
+    "thu": "10:00-18:00",
+    "fri": "10:00-18:00",
+    "sat": "10:00-18:00",
+    "sun": "10:00-18:00"
+   },
+   "date_hours": {
+    "2026-12-03": "10:00-22:00",
+    "2026-12-24": "closed",
+    "2026-12-25": "closed",
+    "2026-12-31": "closed",
+    "2027-01-01": "closed"
+   },
+   "last_entry": null,
+   "hours_note": "화–일 10:00–18:00, 공휴일(월요일이어도) 10:00–18:00, 월 휴관. 매월 첫째 목 10:00–22:00(2026-12-03). 휴관 12/24·25·31, 1/1 — 12/26(토)은 개관. 현재 전시: 이우환(Lee Ufan) 볼프강 한 상 수상전 2026-11-07~2027-04-04.",
+   "free_note": "18세 이하 무료. 쾰른 거주자는 첫째 목(KölnTag) 종일 무료. 그 밖의 방문객은 첫째 목 17시 이후 €7.",
+   "booking": "not-needed",
+   "status": "open",
+   "sources": [
+    "https://www.museum-ludwig.de/en/home/visit/information/tickets-opening-hours",
+    "https://www.museum-ludwig.de/de/foyer",
+    "https://www.museen.koeln/besuchen/museen/museum-ludwig",
+    "https://www.stadt-koeln.de/artikel/07529/index.html",
+    "https://www.museum-ludwig.de/en/home/visit/events-and-activities/calendar/all"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "museum-schnuetgen",
+   "name": "Museum Schnütgen",
+   "tickets": [
+    {
+     "label_ko": "성인(상설)",
+     "eur": 6,
+     "note_ko": null
+    },
+    {
+     "label_ko": "할인",
+     "eur": 3.5,
+     "note_ko": null
+    },
+    {
+     "label_ko": "콤비 슈뉘트겐+RJM",
+     "eur": 10,
+     "note_ko": "두 박물관 상설전, 할인 €7 (특별전 미포함)"
+    }
+   ],
+   "price_eur": 6,
+   "price_note": "성인 €6 · 할인 €3.50 · RJM 콤비 €10(할인 €7)",
+   "hours": {
+    "mon": "closed",
+    "tue": "10:00-18:00",
+    "wed": "10:00-18:00",
+    "thu": "10:00-20:00",
+    "fri": "10:00-18:00",
+    "sat": "10:00-18:00",
+    "sun": "10:00-18:00"
+   },
+   "date_hours": {
+    "2026-11-11": "closed",
+    "2026-12-03": "10:00-22:00",
+    "2026-12-24": "closed",
+    "2026-12-25": "closed",
+    "2026-12-31": "closed",
+    "2027-01-01": "closed"
+   },
+   "last_entry": null,
+   "hours_note": "화–일 10:00–18:00, 목 10:00–20:00, 매월 첫째 목 ~22:00(공휴일 제외), 월 휴관. 휴관: 2026-11-11(카니발 시즌 개막), 12/24·25·31, 1/1.",
+   "free_note": "KölnTag(첫째 목) 쾰른 거주자 무료 — 시립 박물관 공통",
+   "booking": "not-needed",
+   "status": "open",
+   "sources": [
+    "https://museum-schnuetgen.de/Planen-Sie-Ihren-Besuch",
+    "https://www.museen.koeln/besuchen/museen/museum-schnuetgen",
+    "https://www.stadt-koeln.de/leben-in-koeln/kultur/koelntage-den-staedtischen-museen"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "rautenstrauch-joest-museum",
+   "name": "Rautenstrauch-Joest-Museum – Kulturen der Welt",
+   "tickets": [
+    {
+     "label_ko": "성인(상설)",
+     "eur": 7,
+     "note_ko": "상설전 할인가는 이번 조사에서 확인 못 함"
+    },
+    {
+     "label_ko": "특별전 포함",
+     "eur": 11,
+     "note_ko": "할인 €7 — 출처마다 다름(museenkoeln.de는 특별전 €6/할인 €4)"
+    },
+    {
+     "label_ko": "콤비 RJM+슈뉘트겐",
+     "eur": 10,
+     "note_ko": "두 박물관 상설전, 할인 €7"
+    }
+   ],
+   "price_eur": 7,
+   "price_note": "상설 €7 · 특별전 포함 €11(할인 €7) · 슈뉘트겐 콤비 €10(할인 €7)",
+   "hours": {
+    "mon": "closed",
+    "tue": "10:00-18:00",
+    "wed": "10:00-18:00",
+    "thu": "10:00-20:00",
+    "fri": "10:00-18:00",
+    "sat": "10:00-18:00",
+    "sun": "10:00-18:00"
+   },
+   "date_hours": {
+    "2026-11-11": "closed",
+    "2026-12-03": "10:00-22:00",
+    "2026-12-24": "closed",
+    "2026-12-25": "closed",
+    "2026-12-31": "closed",
+    "2027-01-01": "closed"
+   },
+   "last_entry": null,
+   "hours_note": "화–일 10:00–18:00, 목 10:00–20:00, 매월 첫째 목 ~22:00(공휴일 제외), 월 휴관. 휴관: 2026-11-11(카니발 시즌 개막), 12/24·25·31, 1/1.",
+   "free_note": "KölnTag(첫째 목) 쾰른 거주자 무료 — 시립 박물관 공통",
+   "booking": "not-needed",
+   "status": "open",
+   "sources": [
+    "https://rautenstrauch-joest-museum.de/Service",
+    "https://www.museen.koeln/besuchen/museen/rautenstrauch-joest-museum-kulturen-der-welt",
+    "https://www.stadt-koeln.de/leben-in-koeln/kultur/koelntage-den-staedtischen-museen"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "makk",
+   "name": "MAKK – Museum für Angewandte Kunst Köln",
+   "tickets": [
+    {
+     "label_ko": "성인(상설)",
+     "eur": 6,
+     "note_ko": "할인 €3.50"
+    },
+    {
+     "label_ko": "특별전",
+     "eur": 7,
+     "note_ko": "할인 €4"
+    },
+    {
+     "label_ko": "콤비(상설+특별전)",
+     "eur": 12,
+     "note_ko": "할인 €6.50"
+    },
+    {
+     "label_ko": "어린이(6세 미만)",
+     "eur": 0,
+     "note_ko": "무료. 쾰른 거주 18세 미만·학교 단체도 무료"
+    },
+    {
+     "label_ko": "첫째 목 17시 이후",
+     "eur": null,
+     "note_ko": "비거주자는 할인가 적용, 쾰른 거주자는 종일 무료(신분증)"
+    }
+   ],
+   "price_eur": 6,
+   "price_note": "상설 €6 · 특별전 €7 · 콤비 €12(할인 €3.50/€4/€6.50) · 6세 미만 무료",
+   "hours": {
+    "mon": "closed",
+    "tue": "10:00-18:00",
+    "wed": "10:00-18:00",
+    "thu": "10:00-18:00",
+    "fri": "10:00-18:00",
+    "sat": "10:00-18:00",
+    "sun": "10:00-18:00"
+   },
+   "date_hours": {
+    "2026-12-03": "10:00-22:00",
+    "2026-12-24": "closed",
+    "2026-12-25": "closed",
+    "2026-12-31": "closed",
+    "2027-01-01": "closed"
+   },
+   "last_entry": null,
+   "hours_note": "화–일 10:00–18:00, 월 휴관(일부 공휴일 월요일은 개관), 공휴일은 일요일 시간. 매월 첫째 목 ~22:00(공휴일 제외). 휴관 12/24·25·31, 1/1. 역사 컬렉션은 보수·재구성으로 휴관 중.",
+   "free_note": "6세 미만, 쾰른 거주 18세 미만, 학교 단체 무료. KölnTag(첫째 목) 쾰른 거주자 무료, 비거주자는 17시 이후 할인가.",
+   "booking": "not-needed",
+   "status": "open",
+   "sources": [
+    "https://makk.de/besuchen/besuch-vorbereiten/oeffnungszeiten-und-preise",
+    "https://www.museen.koeln/besuchen/museen/makk-museum-fuer-angewandte-kunst-koeln",
+    "https://www.museen.koeln/en/visit/museums/museum-of-applied-arts-cologne-makk"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "ns-dokumentationszentrum",
+   "name": "NS-Dokumentationszentrum (EL-DE-Haus)",
+   "tickets": [
+    {
+     "label_ko": "성인",
+     "eur": 4.5,
+     "note_ko": "현장 매표소(로비)에서만 판매, 온라인 판매 없음"
+    },
+    {
+     "label_ko": "할인",
+     "eur": 2,
+     "note_ko": "대학생·직업훈련생, 장애 50% 이상(동반 1인 무료), 자원봉사 복무자, 실업급여·기초생활 수급자"
+    },
+    {
+     "label_ko": "무료 대상",
+     "eur": 0,
+     "note_ko": "초·중·고 학생, 쾰른 거주 미성년자, KölnPass, ICOM·박물관협회 회원, EL-DE-Haus 후원회 회원"
+    }
+   ],
+   "price_eur": 4.5,
+   "price_note": "성인 €4.50 · 할인 €2 · 학생(초중고) 무료",
+   "hours": {
+    "mon": "closed",
+    "tue": "10:00-18:00",
+    "wed": "10:00-18:00",
+    "thu": "10:00-18:00",
+    "fri": "10:00-18:00",
+    "sat": "11:00-18:00",
+    "sun": "11:00-18:00"
+   },
+   "date_hours": {
+    "2026-12-03": "10:00-22:00",
+    "2026-12-24": "closed",
+    "2026-12-25": "closed",
+    "2026-12-31": "closed",
+    "2027-01-01": "closed"
+   },
+   "last_entry": null,
+   "hours_note": "화–금 10:00–18:00, 토·일·공휴일 11:00–18:00, 월 휴관. 매월 첫째 목 ~22:00(공휴일 제외), 그날 쾰른 거주자 무료. 휴관: 12/24·25·31, 1/1, 카니발 목·일·월.",
+   "free_note": "초·중·고 학생, 쾰른 거주 미성년자, KölnPass 소지자 등 무료. 첫째 목 쾰른 거주자 무료.",
+   "booking": "not-needed",
+   "status": "open",
+   "sources": [
+    "https://nsdok.de/Ihr-Besuch",
+    "https://museenkoeln.de/NS-Dokumentationszentrum/Your-visit",
+    "https://www.museen.koeln/besuchen/museen/ns-dokumentationszentrum"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "roemisch-germanisches-museum",
+   "name": "Römisch-Germanisches Museum (Interim im Belgischen Haus)",
+   "tickets": [
+    {
+     "label_ko": "성인",
+     "eur": 6,
+     "note_ko": "임시관(벨기에 하우스)"
+    },
+    {
+     "label_ko": "할인",
+     "eur": 3.5,
+     "note_ko": null
+    },
+    {
+     "label_ko": "중증장애인",
+     "eur": 3,
+     "note_ko": "정가의 50%, 장애인증에 B 표시가 있으면 동반 1인 무료"
+    },
+    {
+     "label_ko": "학교 단체",
+     "eur": 0,
+     "note_ko": "학급 단위 방문 무료"
+    }
+   ],
+   "price_eur": 6,
+   "price_note": "성인 €6 · 할인 €3.50",
+   "hours": {
+    "mon": "10:00-18:00",
+    "tue": "closed",
+    "wed": "10:00-18:00",
+    "thu": "10:00-18:00",
+    "fri": "10:00-18:00",
+    "sat": "10:00-18:00",
+    "sun": "10:00-18:00"
+   },
+   "date_hours": {
+    "2026-11-11": "closed",
+    "2026-12-24": "closed",
+    "2026-12-25": "closed",
+    "2026-12-31": "closed",
+    "2027-01-01": "closed"
+   },
+   "last_entry": null,
+   "hours_note": "임시관(Belgisches Haus, Cäcilienstraße 46, 노이마르크트): 수–월 10:00–18:00, 화 휴관(공휴일 제외), 공휴일은 일요일 시간. 휴관: 2026-11-11(카니발 시즌 개막), 12/24·25·31, 1/1. 로마 유적 우비어 기념물(Ubiermonument)은 매월 첫째 목(KölnTag) 14:00–17:00 개방. 첫째 목 야간 연장은 확인 못 함. 대성당 옆 본관(Roncalliplatz)은 보수로 폐쇄, 디오니소스 모자이크는 지금 내부 관람 불가.",
+   "free_note": "학교 단체 무료. KölnTag(첫째 목) 쾰른 거주자 무료 — 시립 박물관 공통",
+   "booking": "not-needed",
+   "status": "temporary-location",
+   "sources": [
+    "https://roemisch-germanisches-museum.de/oeffnungszeiten-Eintrittspreise",
+    "https://www.museen.koeln/besuchen/museen/roemisch-germanisches-museum",
+    "https://www.stadt-koeln.de/service/adressen/00081/index.html"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "koelnisches-stadtmuseum",
+   "name": "Kölnisches Stadtmuseum (Interim, ehem. Modehaus Franz Sauer)",
+   "tickets": [
+    {
+     "label_ko": "성인",
+     "eur": 5,
+     "note_ko": "상설전·특별전 같은 요금"
+    },
+    {
+     "label_ko": "할인",
+     "eur": 3,
+     "note_ko": null
+    },
+    {
+     "label_ko": "어린이(7세 미만)",
+     "eur": 0,
+     "note_ko": "무료. 학교 단체, KölnPass 소지자도 무료"
+    },
+    {
+     "label_ko": "쾰른 거주자",
+     "eur": 0,
+     "note_ko": "본인 생일과 첫째 목(KölnTag)에 무료"
+    }
+   ],
+   "price_eur": 5,
+   "price_note": "성인 €5 · 할인 €3 · 7세 미만 무료",
+   "hours": {
+    "mon": "closed",
+    "tue": "10:00-17:00",
+    "wed": "10:00-17:00",
+    "thu": "10:00-17:00",
+    "fri": "10:00-17:00",
+    "sat": "10:00-17:00",
+    "sun": "10:00-17:00"
+   },
+   "date_hours": {
+    "2026-12-03": "10:00-22:00",
+    "2026-12-24": "closed",
+    "2026-12-25": "closed",
+    "2026-12-31": "closed",
+    "2027-01-01": "closed"
+   },
+   "last_entry": null,
+   "hours_note": "임시관(Minoritenstraße 13): 화–일 10:00–17:00, 매월 첫째 목 ~22:00, 월 휴관, 공휴일 ~17:00. 휴관 12/24·25·31, 1/1. 박물관 보도 페이지와 옛 시청 페이지는 화 10:00–20:00로 적혀 있지만 2026 시립 박물관 포털(museen.koeln)은 화도 17:00 마감 — 화요일 저녁 방문은 확인 후.",
+   "free_note": "7세 미만, 학교 단체, KölnPass 소지자 무료. 쾰른 거주자는 생일·첫째 목 무료.",
+   "booking": "not-needed",
+   "status": "temporary-location",
+   "sources": [
+    "https://www.museen.koeln/besuchen/museen/koelnisches-stadtmuseum",
+    "https://www.koelnisches-stadtmuseum.de/en/",
+    "https://www.koelnisches-stadtmuseum.de/Presse",
+    "https://www.museen.koeln/en/visit/museums/cologne-city-museum"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  },
+  {
+   "id": "wallraf-richartz-museum",
+   "name": "Wallraf-Richartz-Museum & Fondation Corboud",
+   "tickets": [],
+   "price_note": "휴관 중 — 2026-08-03부터 전관 보수",
+   "hours": {
+    "mon": "closed",
+    "tue": "closed",
+    "wed": "closed",
+    "thu": "closed",
+    "fri": "closed",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "last_entry": null,
+   "hours_note": "2026-08-03부터 전관 휴관(대규모 보수·증축). 박물관 공식 재개관 목표는 2028년 말(옛 자료는 2028년 가을). 쾰른 시내 임시 전시관은 없고 소장품을 다른 곳에서 전시하지도 않는다. 2026-11~12 관람 불가.",
+   "free_note": null,
+   "booking": "not-needed",
+   "status": "closed-renovation",
+   "sources": [
+    "https://www.wallraf.museum/aktuell/voruebergehend-geschlossen/",
+    "https://www.museen.koeln/besuchen/museen/wallraf-richartz-museum-fondation-corboud",
+    "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/28558/index.html"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  },
+  {
+   "id": "miqua",
+   "name": "MiQua – LVR-Jüdisches Museum im Archäologischen Quartier Köln",
+   "tickets": [],
+   "price_note": "미개관(공사 중)",
+   "hours": {
+    "mon": "closed",
+    "tue": "closed",
+    "wed": "closed",
+    "thu": "closed",
+    "fri": "closed",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "last_entry": null,
+   "hours_note": "아직 개관 전, 공사 중 — 2026-11~12 관람 불가. 시 발표 최신 일정은 2028년 6월 완공·2028년 12월 말 운영 개시 목표지만 자료마다 다르다(2029년 중반 개관 보도도 있음). 2026-04 시 현황 보고: 프레토리움 구역 공사가 2026-10까지 이어진 뒤 준공 검사 시작.",
+   "free_note": null,
+   "booking": "not-needed",
+   "status": "closed-renovation",
+   "sources": [
+    "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/28461/index.html",
+    "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/28363/index.html"
+   ],
+   "checked": "2026-11",
+   "confidence": "high"
+  }
+ ],
+ "places": [
+  {
+   "id": "museum-fuer-ostasiatische-kunst",
+   "name": "Museum für Ostasiatische Kunst Köln",
+   "name_ko": "동아시아 미술관(MOK)",
+   "category": "museum",
+   "area": "belgisches-viertel",
+   "address": "Universitätsstraße 100, 50674 Köln",
+   "lat": null,
+   "lng": null,
+   "summary_ko": "아헨너 바이어(Aachener Weiher) 호숫가에 있는 쾰른 시립 동아시아 미술관. 중국·한국·일본 미술을 다루며, 2026년 11월 현재 'Schichten und Schnitte'(2026-06-18~2027-01-31)와 말의 해 기념전 'Zum Mondjahr des Pferdes'(~2027 봄)를 열고 있다.",
+   "tips_ko": "개관이 11시로 늦고 월요일 휴관. 11월 프로그램 예: 11/8 다도 시연, 11/13 중국 칠기 전문가 투어, 11/14 이케바나 워크숍(유료) — 가이드 투어는 보통 입장료 + €2. 아헨너 바이어 공원 산책과 묶기 좋다. 문의 0221 221-28617.",
+   "price_eur": 9.5,
+   "price_note": "성인 €9.50 · 할인 €5.50 (공식 안내상 임시 인하가 €7.50/€3.50) · 쾰른 거주 18세 미만 무료",
+   "duration_min": 60,
+   "hours_note": "화–일 11:00–17:00, 월 휴관, 매월 첫째 목 ~22:00(공휴일 제외, 2026-12-03). 공휴일은 일요일 시간. 휴관 12/24·25·31, 1/1.",
+   "booking": "not-needed",
+   "status": "open",
+   "season": null,
+   "priority": 3,
+   "tags": [
+    "art",
+    "indoor",
+    "rainy-day"
+   ],
+   "google_rating": null,
+   "google_reviews": null,
+   "google_as_of": null,
+   "rating_source": null,
+   "travel_time_min": null,
+   "website": "https://museum-fuer-ostasiatische-kunst.de",
+   "tickets": [
+    {
+     "label_ko": "성인",
+     "eur": 9.5,
+     "note_ko": "정상가"
+    },
+    {
+     "label_ko": "할인",
+     "eur": 5.5,
+     "note_ko": "정상가"
+    },
+    {
+     "label_ko": "임시 인하가(성인)",
+     "eur": 7.5,
+     "note_ko": "공조(항온·항습) 장치 소음 때문에 임시 인하(할인 €3.50) — 공식 안내 페이지에 있으나 지금도 적용 중인지 현장 확인"
+    },
+    {
+     "label_ko": "가이드 투어",
+     "eur": 2,
+     "note_ko": "입장료에 추가(대부분의 투어)"
+    },
+    {
+     "label_ko": "쾰른 거주 18세 미만·학생",
+     "eur": 0,
+     "note_ko": "무료. 첫째 목(KölnTag) 쾰른 거주자 무료(증빙)"
+    }
+   ],
+   "hours": {
+    "mon": "closed",
+    "tue": "11:00-17:00",
+    "wed": "11:00-17:00",
+    "thu": "11:00-17:00",
+    "fri": "11:00-17:00",
+    "sat": "11:00-17:00",
+    "sun": "11:00-17:00"
+   },
+   "date_hours": {
+    "2026-12-03": "11:00-22:00",
+    "2026-12-24": "closed",
+    "2026-12-25": "closed",
+    "2026-12-31": "closed",
+    "2027-01-01": "closed"
+   },
+   "last_entry": null,
+   "free_note": "쾰른 거주 18세 미만·학생 무료, 첫째 목(KölnTag) 쾰른 거주자 무료",
+   "booking_url": null,
+   "verification": "sourced",
+   "sources": [
+    "https://museum-fuer-ostasiatische-kunst.de/Information",
+    "https://www.museen.koeln/besuchen/museen/museum-fuer-ostasiatische-kunst",
+    "https://www.stadt-koeln.de/service/adressen/00275/index.html",
+    "https://museum-fuer-ostasiatische-kunst.de/Ausstellungen",
+    "https://www.museum-fuer-ostasiatische-kunst.de/Programm"
+   ],
+   "checked": "2026-11",
+   "confidence": "medium"
+  }
+ ],
+ "notes_ko": "■ KölnTag(쾰른의 날): 매월 첫째 목요일, 쾰른에 주소를 둔 사람은 신분증 등 거주 증빙만 보여 주면 시립 박물관 상설전·특별전이 무료. 이날 박물관은 22:00까지 연다. 첫째 목이 공휴일이면 KölnTag는 없다. 여행 기간 해당일은 2026-12-03(목) 하루(11/5는 지남). 관광객(비거주자)은 무료가 아니다 — 대신 루트비히는 17시 이후 €7, MAKK는 17시 이후 할인가. 쾰른 거주자는 본인 생일에도 무료인 시립관이 있다(예: 시립 역사박물관). 출처: https://www.stadt-koeln.de/leben-in-koeln/kultur/koelntage-den-staedtischen-museen , https://www.museen.koeln/en/visit/program/koelntag , https://www.kindaling.de/sonstige-veranstaltungen/koelntag-in-den-museen-der-stadt-koeln/koeln , https://www.museum-ludwig.de/en/home/visit/information/tickets-opening-hours , https://makk.de/besuchen/besuch-vorbereiten/oeffnungszeiten-und-preise\n■ 첫째 목 야간 개관(~22:00, 공휴일 제외)이 확인된 곳: 루트비히(10–22), 슈뉘트겐·라우텐슈트라우흐-요스트(RJM), MAKK, NS 기록센터, 시립 역사박물관, 동아시아 미술관(11–22). 로마-게르만 박물관은 야간 연장을 확인 못 했고, 대신 우비어 기념물(Ubiermonument)을 첫째 목 14–17시에 연다. 슈뉘트겐·RJM은 매주 목요일 20:00까지.\n■ MuseumsCard Köln: Single €18 / Family €30(성인 2 + 18세 미만 어린이 2), 온라인 구매는 수수료 별도. 연속된 2개관일 동안 쾰른 시립 박물관에서 유효하고, 첫날은 시내 대중교통도 무료. 기명식이라 양도 불가. 참여 박물관 매표소나 KölnTicket(전화 0221-2801)에서 사며, 미리 사 두고 쓰기 전에 이름·날짜를 적으면 된다. 정확한 참여관 목록과 특별전 포함 여부는 이번 조사에서 확인 못 함(이 그룹의 시립관: 루트비히·슈뉘트겐·RJM·MAKK·로마-게르만·시립 역사박물관·동아시아 미술관·NS 기록센터, 발라프는 휴관). 계산 예: 루트비히 €15.40(또는 €13.50) + 로마-게르만 €6 = €19.50–21.40 → 이틀 안에 루트비히를 포함해 2곳 이상 가면 Single(€18)이 이득. 2010년 요금표의 €15/€28, 옛 영문 페이지의 €20/€32는 옛 가격. 시립 박물관 연간권(Jahreskarte)도 있으나 가격은 미확인. 출처: https://museenkoeln.de/portal/Museumscard , https://www.museen.koeln/en/tickets , https://museenkoeln.de/portal/Museumscard-en , https://www.stadt-koeln.de/artikel/04348/index.html\n■ 대성당 티켓 구조(2026-07-01부터): 내부 관광 €12/할인 €6, 남탑 €8/€4, 보물관 €8/€4, 탑+보물관 콤비 €12/€6(내부 관광 티켓과 별개). 13세 이하는 셋 다 무료. 온라인 tickets.koelner-dom.de(최대 3개월 전 예매) 또는 Kurienhaus 중앙 매표소(Roncalliplatz 2, 매일 09:00–17:30). 미사·기도는 무료(북쪽 익랑 입구). 도메포룸 내부 가이드 투어 참가자도 관람 티켓이 필요하지만, 지붕 투어(€27)는 필요 없다. KölnCard 할인은 대성당 시설 중 보물관만. 출처: https://www.koelner-dom.de/besuchen/faq , https://www.koelner-dom.de/tickets , https://www.koelner-dom.de/besuchen/turmbesteigung , https://www.domforum.de/dom-und-kirchen-fuehrungen/allgemeine-informationen/index.html , https://www.domfuehrungen-koeln.de/sonderfuehrungen/dach\n■ 연말·특별일 휴관: 시립 박물관(루트비히·MAKK·시립 역사박물관·슈뉘트겐·RJM·로마-게르만·동아시아·NS 기록센터)은 12/24·25·31, 2027-01-01 휴관이고 12/26(토)은 연다. 대성당 탑과 보물관은 12/24·25·26·31, 1/1 휴무. 대성당 내부의 성탄·연말 관람 시간은 확인 못 함. 11/11(수, 카니발 시즌 개막): 로마-게르만·슈뉘트겐·RJM·대성당 탑 휴관. 출처: https://www.museen.koeln/besuchen/museen/museum-ludwig , https://www.museen.koeln/besuchen/museen/makk-museum-fuer-angewandte-kunst-koeln , https://www.museen.koeln/besuchen/museen/koelnisches-stadtmuseum , https://museum-fuer-ostasiatische-kunst.de/Information , https://nsdok.de/Ihr-Besuch , https://roemisch-germanisches-museum.de/oeffnungszeiten-Eintrittspreise , https://museum-schnuetgen.de/Planen-Sie-Ihren-Besuch , https://www.koelner-dom.de/besuchen/domschatzkammer\n■ 루트비히 요금 주의: 공식 티켓 페이지와 시청 안내는 성인 €15.40/할인 €10.40, 전시 안내(Foyer) 페이지는 €13.50/€9.50 — 데이터에는 €15.40으로 넣었다. 쿠사마 야요이 회고전(2026-03-14~08-02)은 끝났고, 지금은 이우환 볼프강 한 상 수상전(2026-11-07~2027-04-04)이 열린다. 출처: https://www.museum-ludwig.de/en/home/visit/information/tickets-opening-hours , https://www.museum-ludwig.de/de/foyer , https://www.stadt-koeln.de/artikel/07529/index.html"
+}

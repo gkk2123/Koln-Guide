@@ -9,13 +9,10 @@
 | 이름 | 지역 | 사유 | 확인된 정보 |
 |---|---|---|---|
 | Historisches Rathaus Köln | 대성당·구시가 | unverified-2026 | 외관은 무료로 상시 관람 가능. 내부 관람·투어 가능 여부와 시간은 미확인. MiQua 공사장과 인접 |
-| Melaten-Friedhof | 기타 시내 | unverified-2026 | 이번 세션 출처 없음. (일반 지식·미검증: 무료) 개방 시간 미확인 |
-| KD Köln-Düsseldorfer – Panoramafahrt | 대성당·구시가 | unverified-2026 | 2026 겨울 운항 여부·요금 미확인(검색 한도 소진) |
-| Kölner Zoo & Aquarium | 기타 시내 | unverified-2026 | 2026 입장료·겨울 운영 시간 미확인 |
 | Kölsch-/Brauhaus-Führung | 대성당·구시가 | unverified-2026 | 운영사·요금·일정 미확인(주소는 쾰른 관광 안내소 기준) |
 | Wochenmärkte (z. B. Wilhelmplatz Nippes) | 기타 시내 | unverified-2026 | 장터 요일·시간 미확인 |
+| Heimat der Heinzel (Altstadt: Heumarkt & Alter Markt) | 대성당·구시가 | unverified-2026-dates | 2026 일정 미검색 |
 | Heinzels Wintermärchen – Eisbahn am Heumarkt | 대성당·구시가 | unverified-2026-dates | 2026 운영 기간·요금 미검색 |
-| Museum für Ostasiatische Kunst | 벨기에 지구 | unverified-2026-status | 2026 운영 상태·요금 미검색 |
 | Odysseum | 기타 시내 | unverified-2026-status | 2026 운영 여부 미검색 — 폐관 가능성 확인 필요 |
 | Salon Schmitz | 벨기에 지구 | google-numbers-missing; aggregate scores (3.8–3.99) suggest likely below-criteria | werkenntdenbesten.de 종합 3,99 (4개 포털 합산 1425건, 구글 단독 수치는 검색 결과에 노출되지 않음). speisekarte.menu 3.8 (7,211건, 출처 미표기). 번지 출처별 상이: 28(werkenntdenbesten, speisekarte.menu) / 28–30(smart-travelling) / 34(koeln.de). koeln.de는 'Schmitz – Salon, Bar, Metzgerei' 묶음으로 소개하며, Metzgerei Schmitz 별도 수치는 미확인. |
 | Compleat Köln Belgisches Viertel | 벨기에 지구 | google-numbers-missing | HappyCow 등록: 건강식(Gesundes Essen) & 케이터링. 평점 미확인. |
@@ -199,7 +196,6 @@
 | Papa Rudis | 쥐트슈타트·라인아우하펜 | google-numbers-not-found | Wheree 다이브 바 목록에만 나옴. 구글 수치 미확보. |
 | Reissdorf am Hahnentor | 프리젠 지구·에렌슈트라세 | address-and-google-numbers-not-found | veedelcgn(2026): 11.11.2026 시즌 개막일에 쾰시(Stange)를 €2.30에 팔 예정 — 보도된 가격 중 가장 쌈(운영 책임자 Schlüter). 라이스도르프 계열 가게라 브라우하우스 범위일 수도 있음. 주소·구글 수치 미확보. |
 | Kuen pub & Bar | 기타 시내 | google-review-count-missing | Restaurant Guru Google 4.6(리뷰 수 미표시). Mit Vergnügen 2025 닙페스 목록: 쾰시·와인·롱드링크. 주소 미확보. |
-| Flora 6 | 기타 시내 | google-numbers-not-found | Mit Vergnügen 2025 닙페스 목록: 긴 밤으로 유명, 쾰시와 독주. 주소·구글 수치 미확보. |
 | Point One | 에렌펠트 | google-numbers-not-found | Mit Vergnügen 2025 '축구 보기 좋은 크나이페': 축구 팬 모임 장소, 쾰시가 쌈(지역은 검색 요약 기준 에렌펠트). 주소·구글 수치 미확보. |
 | Wicleff | 에렌펠트 | google-numbers-not-found | Mit Vergnügen 2025 '축구 보기 좋은 크나이페': 쾰시와 축구의 동네 크나이페(지역은 검색 요약 기준). 주소·구글 수치 미확보. |
 | Schmelztiegel | 크바르티어 라텡(쥘피허 지구) | google-numbers-not-found | Mit Vergnügen 2024 '11 günstige Bars und Kneipen': Luxemburger Straße, 목요일 비어퐁 나이트(우승 팀에 €50 쾰시 쿠폰). 번지·구글 수치 미확보. |
