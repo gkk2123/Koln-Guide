@@ -228,3 +228,4 @@
 | Henne.Weinbar | 프리젠 지구·에렌슈트라세 | not-verified (검색 한도 소진). 배경지식 기반 리드: Mittelstraße 인근 Pfeilstraße의 와인바(작은 접시 요리+와인)로 기억됨. 독일 와인 비중·주소·구글 수치·영업 여부 확인 필요. 확인되면 category wine-bar. | 이번 세션에서 찾은 수치·출처 없음 |
 | Sorgenfrei | 벨기에 지구 | not-verified (검색 한도 소진). 배경지식 기반 리드: 벨기에 지구 Antwerpener Straße의 와인 리스트가 강한 레스토랑 겸 와인바로 기억됨. 주소·구글 수치·영업 여부·독일 와인 비중 확인 필요. 확인되면 category restaurant 또는 wine-bar. | 이번 세션에서 찾은 수치·출처 없음 |
 | Kölner Weinkeller | 기타 시내 | not-verified (검색 한도 소진). 배경지식 기반 리드: Braunsfeld(Stolberger Straße)의 대형 와인 전문 매장으로 기억됨(시음 행사). 주소·구글 수치·영업 여부·독일 와인 비중 확인 필요. 확인되면 category wine-shop. | 이번 세션에서 찾은 수치·출처 없음 |
+| Die Eisdielerin | 에렌펠트 | closed-temporarily (확인 2026-11-07) | 쾰른관광청(cologne-tourism.com) 페이지에 'Temporary closed' 표시(날짜·사유 없음) — 추가 검색으로도 겨울 휴무인지 확인 못 함. 11월이라 시즌 휴무 가능 → 방문 전 확인 필요. 주소 일치. 옛 영업시간 화–금 13–19시, 토·일 13–20시; 추운 계절엔 와플·글뤼바인. 2개 포털 합산 4.5(794)는 구글 단독 아님. |

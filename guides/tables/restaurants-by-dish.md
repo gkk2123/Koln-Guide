@@ -13,8 +13,8 @@
 |---|---|---|---|---|
 | [Gusto Antico](https://www.google.com/maps/search/?api=1&query=Gusto%20Antico%20Vogelsanger%20Str.%20216%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | – | ★4.9 (773) |
 | [Nuvola Napoli](https://www.google.com/maps/search/?api=1&query=Nuvola%20Napoli%20Deutzer%20Freiheit%2066a%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 이탈리아 | – | ★4.8 (1,172) |
-| [Virtuous Pie – Vegane Pizza](https://www.google.com/maps/search/?api=1&query=Virtuous%20Pie%20%E2%80%93%20Vegane%20Pizza%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | – | ★4.8 (794) |
-| [Pizzeria Spaccanapoli](https://www.google.com/maps/search/?api=1&query=Pizzeria%20Spaccanapoli%20Venloer%20Str.%20502%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | – | ★4.7 (644) |
+| [Virtuous Pie – Vegane Pizza](https://www.google.com/maps/search/?api=1&query=Virtuous%20Pie%20%E2%80%93%20Vegane%20Pizza%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | – | ★4.8 (988) |
+| [Pizzeria Spaccanapoli](https://www.google.com/maps/search/?api=1&query=Pizzeria%20Spaccanapoli%20Venloer%20Str.%20502%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | – | ★4.8 (681) |
 | [SORELLINA di Nuvola Napoli (Belgisches Viertel)](https://www.google.com/maps/search/?api=1&query=SORELLINA%20di%20Nuvola%20Napoli%20%28Belgisches%20Viertel%29%20Br%C3%BCsseler%20Str.%2073%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 이탈리아 | – | ★4.7 (542) |
 
 ## 파스타 — 3곳
@@ -45,7 +45,7 @@
 | [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 일본 | – | ★4.7 (730) |
 | [ITO Japanese Cuisine](https://www.google.com/maps/search/?api=1&query=ITO%20Japanese%20Cuisine%20Antwerpener%20Stra%C3%9Fe%2015%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | €€€€ | ★4.6 (308) |
 | [Tanoshii](https://www.google.com/maps/search/?api=1&query=Tanoshii%20Brabanter%20Stra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 베트남 | – | ★4.5 (905) |
-| [Sushi Ninja](https://www.google.com/maps/search/?api=1&query=Sushi%20Ninja%20Venloer%20Stra%C3%9Fe%20241%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 일본 | – | ★4.5 (724) |
+| [Sushi Ninja](https://www.google.com/maps/search/?api=1&query=Sushi%20Ninja%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 일본 | – | ★4.5 (724) |
 
 ## 면 요리 — 6곳
 
@@ -286,14 +286,13 @@
 | [LOUIS Cafe am Dom](https://www.google.com/maps/search/?api=1&query=LOUIS%20Cafe%20am%20Dom%20Kleine%20Budengasse%201-3%2C%2050667%20K%C3%B6ln) | 대성당·구시가 |  | € | ★4.4 (407) |
 | [Café Feynsinn](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Feynsinn%20Rathenauplatz%207%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) |  | €€ | ★4.2 (724) |
 
-## 아이스크림 — 4곳
+## 아이스크림 — 3곳
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
 | [schmelz&BOHNE – Eisliebe in der Kettengasse](https://www.google.com/maps/search/?api=1&query=schmelz%26BOHNE%20%E2%80%93%20Eisliebe%20in%20der%20Kettengasse%20Kettengasse%204%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 |  | € | ★4.9 (501) |
 | [Der Eismacher](https://www.google.com/maps/search/?api=1&query=Der%20Eismacher%20Severinstra%C3%9Fe%2053%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 |  | € | ★4.8 (181) |
 | [Il Gelato di Ferigo](https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20di%20Ferigo%20Goltsteinstra%C3%9Fe%2032%2C%2050968%20K%C3%B6ln) | 기타 시내 | 이탈리아 | € | ★4.7 (1,617) |
-| [Die Eisdielerin](https://www.google.com/maps/search/?api=1&query=Die%20Eisdielerin%20Venloer%20Stra%C3%9Fe%20402%2C%2050825%20K%C3%B6ln) | 에렌펠트 |  | € | ★4.4 (550) |
 
 ## 커피 — 18곳
 

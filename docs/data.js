@@ -4906,12 +4906,19 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/9800969/gusto-antico",
     "https://wanderlog.com/list/geoCategory/1799196/best-places-for-pasta-in-cologne",
     "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
-    "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/"
+    "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/",
+    "https://koeln.mitvergnuegen.com/2023/gusto-antico-ehrenfeld/",
+    "https://joinpearl.co/restaurants/cologne-germany/gusto-antico",
+    "https://www.enprimeurclub.com/restaurants/gusto-antico-cologne-restaurant"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "unknown",
+   "verification_note": "주소 일치. 평일 점심 위주 영업 — 월–금 11–18시(주방 15시까지, Mit Vergnügen 2023), Pearl도 '평일 점심만' 표기 → 주말·저녁 방문 불가 가능성. 구글 수치·최근 리뷰 확인 못 함, 폐업 신호는 없음.",
+   "latest_review": null,
    "dist": {
     "dom": 3.44,
     "hbf": 3.39,
@@ -4976,12 +4983,17 @@ window.KOLN_GUIDE = {
     "https://www.enprimeurclub.com/restaurants/soliana-cologne-restaurant",
     "https://koeln.mitvergnuegen.com/2024/neuentdeckungen-november-2024/",
     "https://wolt.com/en/deu/cologne/restaurant/soliana/items/wraps-3",
-    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+    "https://spinach-web.pages.dev/venues/soliana-fusion-home-cooking-35154/"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "unknown",
+   "verification_note": "주소 일치(spinach·En Primeur). 퓨전 홈쿠킹, 별도 비건 메뉴 있음. 구글 수치·영업시간·최근 활동 확인 못 함, 폐업 신호 없음.",
+   "latest_review": null,
    "dist": {
     "dom": 3.04,
     "hbf": 2.96,
@@ -5039,12 +5051,22 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/6334047/caf%C3%A9-caprista",
-    "https://tablejourney.com/germany/cologne/cafes/"
+    "https://tablejourney.com/germany/cologne/cafes/",
+    "https://koeln.mitvergnuegen.com/2022/cafe-caprista/",
+    "https://spinach.guide/venues/cafe-caprista-31087/",
+    "https://neotaste.com/restaurants/cologne/cafe-caprista",
+    "https://www.reviewhero.io/caf-caprista-venloer-str-380-koeln-9427",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/cafe_caprista",
+    "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치. Mit Vergnügen 2026년판 베를로어 거리 기사가 검색 결과에 함께 노출(본문 미확인, 약한 영업 신호). NeoTaste 4.9(1,264)·reviewhero 4.8(606)은 구글 표기가 없어 미반영. 영업 월–금 10–17시, 토·일 9–18시(2022 기사·spinach).",
+   "latest_review": null,
    "dist": {
     "dom": 3.33,
     "hbf": 3.27,
@@ -5089,9 +5111,9 @@ window.KOLN_GUIDE = {
    "beer_price_note": null,
    "beers": [],
    "google_rating": 4.8,
-   "google_reviews": 794,
+   "google_reviews": 988,
    "google_as_of": null,
-   "rating_source": "wanderlog.com (place page, 'from Google'); restaurantguru.com shows Google 4.8 (697)",
+   "rating_source": "spinach.guide (Google Maps 4.8/988 표기; spinach 자체 평점 5.0/1,186은 별도)",
    "summary_ko": "에렌펠트 Venloer Straße의 100% 비건 피자집으로, 비건 치즈와 소스를 직접 만든다. '이 근방 최고의 비건 피자'라는 리뷰가 많고 토핑 조합이 독특하다는 평이라 비건이 아니어도 가 볼 만하다.",
    "must_try": [
     "Vegane Pizza (비건 피자 — 직접 만든 비건 치즈·소스)"
@@ -5104,12 +5126,21 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/7806138/virtuous-pie-vegane-pizza",
     "https://restaurantguru.com/Virtuous-Pie-Cologne",
     "https://wanderlog.com/list/geoCategory/92121/the-best-vegan-restaurants-in-cologne",
-    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+    "https://spinach.guide/venues/virtuous-pie-vegane-pizza-29445/",
+    "https://wolt.com/de/deu/cologne/restaurant/virtuous-pie",
+    "https://koeln.mitvergnuegen.com/2026/vegan-ehrenfeld",
+    "https://neotaste.com/de/en/restaurants/cologne/virtuous-pie-vegane-pizza"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치(Venloer Str. 241-245). 구글 리뷰 수 794→988 증가(spinach의 Google Maps 수치, 날짜 미표기). Wolt 운영 중 — 화 휴무, 월·수·목 16–21:30, 금 15–22, 토·일 13–22(배달 시간 기준). 2023 기사의 11:45 오픈은 낡은 정보.",
+   "latest_review": null,
+   "google_previous": "4.8 (794)",
    "dist": {
     "dom": 2.55,
     "hbf": 2.51,
@@ -5173,18 +5204,96 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/3984192/maspinzelo",
     "https://restaurantguru.com/Maspinzelo-Georgische-Tapas-Cologne",
-    "https://restaurantguru.com/khinkali-Cologne-m1689"
+    "https://restaurantguru.com/khinkali-Cologne-m1689",
+    "https://spinach.guide/venues/maspinzelo-27350/",
+    "https://www.nochoffen.de/ehrenfeld-maspinzelo",
+    "https://koeln.mitvergnuegen.com/2026/landmannstrasse-neuehrenfeld/",
+    "https://www.happycow.net/reviews/maspinzelo-cologne-271474"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치(spinach). 조지아 가족식당, 작은 접시 공유식. 영업(nochoffen.de) 월–목 17–23시, 금 14–24시, 토·일 15–24시. Mit Vergnügen 2026년판 란트만 거리 기사에 노출(약한 영업 신호). 구글 수치는 이번에 확인 못 함.",
+   "latest_review": null,
    "dist": {
     "dom": 3.19,
     "hbf": 3.11,
     "messe": 4.51,
     "deutz": 4.27,
     "belgisches": 2.17
+   }
+  },
+  {
+   "id": "pizzeria-spaccanapoli",
+   "name": "Pizzeria Spaccanapoli",
+   "category": "restaurant",
+   "area": "ehrenfeld",
+   "address": "Venloer Str. 502, 50825 Köln",
+   "lat": 50.955329,
+   "lng": 6.907746,
+   "cuisine": "Neapolitan pizza",
+   "cuisine_country": [
+    "IT"
+   ],
+   "cuisine_region": "southern-europe",
+   "dishes": [
+    "pizza"
+   ],
+   "diet": [],
+   "meals": [],
+   "occasions": [],
+   "features": [],
+   "drinks": [],
+   "vibe": [],
+   "reservation": "recommended",
+   "payment": "unknown",
+   "location": [],
+   "price_level": null,
+   "price_estimated": false,
+   "price_pp": null,
+   "price_note": "가격 정보 미확인",
+   "beer_price_eur": null,
+   "beer_price_note": null,
+   "beers": [],
+   "google_rating": 4.8,
+   "google_reviews": 681,
+   "google_as_of": null,
+   "rating_source": "enprimeurclub.com으로 추정 (검색 요약: 'a 4.8 Google rating from 681 reviews')",
+   "summary_ko": "에렌펠트 Venloer Straße 끝자락(502번지)의 나폴리 피자집으로, '가볍고 잘 구워진 나폴리식 도우'를 칭찬하는 리뷰가 많다. Mit Vergnügen의 2026 에렌펠트 맛집 21곳에 든 동네 피자집이라 부담 없는 저녁 한 끼에 좋다.",
+   "must_try": [
+    "Pizza napoletana (나폴리 피자 — 가볍고 쫄깃한 도우)"
+   ],
+   "tips_ko": "금요일 저녁은 미리 예약하라는 리뷰가 있습니다. 가격과 휴무일은 이번 조사에서 확인하지 못했습니다. Wanderlog·Restaurant Guru에는 'Spaccanapoli Köln'이라는 이름으로 올라 있습니다.",
+   "website": null,
+   "awards": [],
+   "award_flags": [],
+   "sources": [
+    "https://wanderlog.com/place/details/6228856/spaccanapoli-k%C3%B6ln",
+    "https://restaurantguru.com/Spaccanapoli-Koln-Cologne",
+    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+    "https://www.enprimeurclub.com/restaurants/spacca-napoli-cologne-restaurant",
+    "https://koeln.mitvergnuegen.com/2024/pizzeria-spaccanapoli",
+    "https://spinach.guide/venues/spaccanapoli-koln-29486/",
+    "https://koeln.mitvergnuegen.com/2026/neapolitanische-pizza/"
+   ],
+   "confidence": "high",
+   "research": "r2-europe-americas",
+   "checked": "2026-11-07",
+   "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치. 구글 4.7(644)→4.8(681) 표기 확인(출처 날짜 없음; spinach 4.4(710)는 구글 여부 불명). 영업시간 상충 — En Primeur: 수 휴무, 월·화·목·금 17–23, 토 15–23, 일 15–22 / Mit Vergnügen 2024: 화–금 17–23, 토·일 15–23. 피자 23종 중 비건 6종. Mit Vergnügen 2026 나폴리 피자 기사에 노출.",
+   "latest_review": null,
+   "google_previous": "4.7 (644)",
+   "dist": {
+    "dom": 3.87,
+    "hbf": 3.8,
+    "messe": 5.24,
+    "deutz": 4.98,
+    "belgisches": 2.67
    }
   },
   {
@@ -5249,79 +5358,25 @@ window.KOLN_GUIDE = {
     "https://www.falstaff.com/en/listings/kebap-street-food-restaurants-in-cologne",
     "https://tablejourney.com/germany/cologne/budget-eating/kebapland-budget/",
     "https://tablejourney.com/germany/cologne/late-night/kebapland-late/",
-    "https://cologne-tourism.com/delight-diversity/gastronomy/detail/kebapland"
+    "https://cologne-tourism.com/delight-diversity/gastronomy/detail/kebapland",
+    "https://blog.koelntourismus.de/?p=13207",
+    "https://findit.city/en/germany/cologne/places/restaurants/kebapland-338548474",
+    "https://koeln.mitvergnuegen.com/2026/tuerkisch-essen"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치. 영업시간 출처별 상이 — koeln.de 일–목 11:30–01시, 금·토 –03시 / 쾰른관광청 블로그 금·토 –02시. findit.city엔 '현금만'(옛 정보일 수 있음). Mit Vergnügen 2026 튀르키예 음식 기사 등에 노출. 구글 수치는 이번 검색에서 미확인.",
+   "latest_review": null,
    "dist": {
     "dom": 3.18,
     "hbf": 3.13,
     "messe": 4.64,
     "deutz": 4.32,
     "belgisches": 1.94
-   }
-  },
-  {
-   "id": "pizzeria-spaccanapoli",
-   "name": "Pizzeria Spaccanapoli",
-   "category": "restaurant",
-   "area": "ehrenfeld",
-   "address": "Venloer Str. 502, 50825 Köln",
-   "lat": 50.955329,
-   "lng": 6.907746,
-   "cuisine": "Neapolitan pizza",
-   "cuisine_country": [
-    "IT"
-   ],
-   "cuisine_region": "southern-europe",
-   "dishes": [
-    "pizza"
-   ],
-   "diet": [],
-   "meals": [],
-   "occasions": [],
-   "features": [],
-   "drinks": [],
-   "vibe": [],
-   "reservation": "recommended",
-   "payment": "unknown",
-   "location": [],
-   "price_level": null,
-   "price_estimated": false,
-   "price_pp": null,
-   "price_note": "가격 정보 미확인",
-   "beer_price_eur": null,
-   "beer_price_note": null,
-   "beers": [],
-   "google_rating": 4.7,
-   "google_reviews": 644,
-   "google_as_of": null,
-   "rating_source": "wanderlog.com (place page 'Spaccanapoli Köln', Google breakdown: 568 of 644 five-star)",
-   "summary_ko": "에렌펠트 Venloer Straße 끝자락(502번지)의 나폴리 피자집으로, '가볍고 잘 구워진 나폴리식 도우'를 칭찬하는 리뷰가 많다. Mit Vergnügen의 2026 에렌펠트 맛집 21곳에 든 동네 피자집이라 부담 없는 저녁 한 끼에 좋다.",
-   "must_try": [
-    "Pizza napoletana (나폴리 피자 — 가볍고 쫄깃한 도우)"
-   ],
-   "tips_ko": "금요일 저녁은 미리 예약하라는 리뷰가 있습니다. 가격과 휴무일은 이번 조사에서 확인하지 못했습니다. Wanderlog·Restaurant Guru에는 'Spaccanapoli Köln'이라는 이름으로 올라 있습니다.",
-   "website": null,
-   "awards": [],
-   "award_flags": [],
-   "sources": [
-    "https://wanderlog.com/place/details/6228856/spaccanapoli-k%C3%B6ln",
-    "https://restaurantguru.com/Spaccanapoli-Koln-Cologne",
-    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
-   ],
-   "confidence": "high",
-   "research": "r2-europe-americas",
-   "checked": "2026-11-07",
-   "coord_source": "nominatim",
-   "dist": {
-    "dom": 3.87,
-    "hbf": 3.8,
-    "messe": 5.24,
-    "deutz": 4.98,
-    "belgisches": 2.67
    }
   },
   {
@@ -5376,12 +5431,21 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/1484912/vegan-revolution",
     "https://restaurantguru.com/Vegan-Food-Revolution-Cologne",
     "https://spinach.guide/cities/cologne/",
-    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+    "https://spinach.guide/venues/vegan-food-revolution-23772/",
+    "https://www.happycow.net/reviews/vegan-food-revolution-cologne-141833",
+    "https://www.enprimeurclub.com/restaurants/vegan-revolution-cologne-restaurant",
+    "https://veggiesabroad.com/vegan-guide-to-cologne-eau-de-cologne/",
+    "https://koeln.mitvergnuegen.com/2026/vegan-ehrenfeld"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치. HappyCow 제보: 이제 치즈도 판매해 완전 비건이 아님 — '비건' 소개 시 주의. 'Vegan Revolution' 명의 항목의 4.1(609)은 출처·구글 여부 불명이고 기존 4.7(531)과 수학적으로 양립 불가 → 미반영. 영업 12–22시(HappyCow 매일 / spinach 화–토). Mit Vergnügen 2026 에렌펠트 비건 기사에 노출.",
+   "latest_review": null,
    "dist": {
     "dom": 3.62,
     "hbf": 3.56,
@@ -5440,12 +5504,19 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/list/geoCategory/788747/best-lebanese-foods-and-restaurants-in-cologne",
     "https://www.speisekarte.de/k%C3%B6ln/restaurant/restaurant_bethlehem",
     "https://speisekarte.menu/restaurants/koeln/bethlehem-1",
-    "https://www.enprimeurclub.com/restaurants/bethlehem-cologne-restaurant"
+    "https://www.enprimeurclub.com/restaurants/bethlehem-cologne-restaurant",
+    "https://wolt.com/en/deu/cologne/restaurant/restaurant-bethlehem",
+    "https://www.reviewhero.io/de/orientalische-kueche/koeln",
+    "https://koeln.mitvergnuegen.com/2024/restaurants-orientalische-kueche"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치. 구글 4.7(352) 표기(En Primeur 추정)는 기존 4.7(362)보다 오래된 스냅숏 → 변경 없음. Wolt 'Restaurant Bethlehem' 운영 중 — 화 휴무, 저녁 17:00–21:30 위주. speisekarte.menu 4.4(1,320)·reviewhero 4.3(316)은 다출처 집계라 미반영.",
+   "latest_review": null,
    "dist": {
     "dom": 3.25,
     "hbf": 3.17,
@@ -5506,12 +5577,19 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/4101908/popeye-falafel",
     "https://wanderlog.com/list/geoCategory/1794415/best-spots-for-falafel-in-cologne",
     "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
-    "https://www.speisekarte.de/köln/restaurant/popeye_falafel"
+    "https://www.speisekarte.de/köln/restaurant/popeye_falafel",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/falafel_popeye_venloer_str/speisekarte",
+    "https://spinach.guide/venues/popeye-falafel-31748/",
+    "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "'Venloer Str. 468' 번지는 확인 못 함 — 본점은 Subbelrather Str. 165/167(50823), 베를로어 거리 지점 존재는 확인(speisekarte.de 메뉴 2025-10-20 갱신). 방문 전 번지 재확인 필요. spinach 4.2는 어느 지점인지 불명. Mit Vergnügen 2026 베를로어 기사에 노출.",
+   "latest_review": null,
    "dist": {
     "dom": 3.68,
     "hbf": 3.61,
@@ -5570,12 +5648,18 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/1326718/ehrenfeld-cafe",
     "https://wanderlog.com/list/geoCategory/779752/best-turkish-foods-and-restaurants-in-cologne",
     "https://www.speisekarte.de/k%C3%B6ln/restaurant/ehrenfeldcafe",
-    "https://www.koeln.de/branchen/eintrag/58684/cafes/ehrenfeld-cafe"
+    "https://www.koeln.de/branchen/eintrag/58684/cafes/ehrenfeld-cafe",
+    "https://neotaste.com/en/restaurants/cologne/ehrenfeld-cafe",
+    "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치(ehrenfeld.cafe, Venloer Str. 176). NeoTaste 4.9(171)는 구글 표기가 없어 미반영. 영업시간 상충(NeoTaste 11–19시 / speisekarte 9시 오픈). Mit Vergnügen 2026 베를로어 기사에 노출. Venloer 206의 'cafecafe Ehrenfeld'와는 다른 곳.",
+   "latest_review": null,
    "dist": {
     "dom": 2.27,
     "hbf": 2.23,
@@ -5634,12 +5718,19 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/3638852/eat-kumpir",
     "https://www.speisekarte.de/k%C3%B6ln/restaurant/eat_kumpir",
     "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
-    "https://www.enprimeurclub.com/restaurants/eat-kumpir-cologne-restaurant"
+    "https://www.enprimeurclub.com/restaurants/eat-kumpir-cologne-restaurant",
+    "https://wolt.com/de/deu/cologne/restaurant/eat-kumpir",
+    "https://neotaste.com/restaurants/cologne/eat-kumpir",
+    "https://www.cologne-tourism.com/food-drink/gastronomy/eat-kumpir"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치. 2007년부터 쿰피르(속 채운 구운 감자) 전문. Wolt 운영 중 — 월 11–22시 … 일 12–22시, 금·토 –23시(NeoTaste는 매일 11–23시). NeoTaste 4.8(106)·spinach 4.3은 구글 수치가 아님 → 미반영.",
+   "latest_review": null,
    "dist": {
     "dom": 2.69,
     "hbf": 2.64,
@@ -5696,12 +5787,20 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/1508526/van-dyck-espressobar",
     "https://wanderlog.com/list/geoCategory/1861715/best-coffee-roasters-in-cologne",
     "https://koeln.mitvergnuegen.com/2026/cafes-in-ehrenfeld/",
-    "https://rausgegangen.de/en/blog/places-secret-tips-ehrenfeld-koeln/"
+    "https://rausgegangen.de/en/blog/places-secret-tips-ehrenfeld-koeln/",
+    "https://willkommen.koelntourismus.de/en/gastro/van-dyck-espressobar",
+    "https://www.smart-travelling.net/locations/van-dyck-kaffee-espressobar",
+    "https://caffeatlas.com/van-dyck-espressobar-ehrenfeld-cologne",
+    "https://www.koeln.de/branchen/eintrag/24510/kaffeeroesterei-kaffee/van-dyck"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "unknown",
+   "verification_note": "주소 일치(Körnerstraße 43, 50823). 영업 월–토 9–19시, 일 휴무(한 리스팅 기준). 구글 수치·최근 활동 확인 못 함, 폐업 신호 없음.",
+   "latest_review": null,
    "dist": {
     "dom": 2.66,
     "hbf": 2.6,
@@ -5762,12 +5861,18 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/10141833/tantuni-haus",
-    "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
+    "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/",
+    "https://spinach.guide/venues/tantuni-haus-28948/",
+    "https://koeln.mitvergnuegen.com/2024/venloer-strasse-kulinarisch/"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "Mit Vergnügen: Kebapland의 '작은 자매점'이며 '근처의 더 현대적인 매장으로 이전'했다고 언급 — 추가 검색으로도 이전 시점·새 주소 확인 못 함. spinach는 Venloer Str. 282 표기(이전 후 주소일 가능성) → 방문 전 위치 확인 필요. spinach 4.2(377)는 출처 불명이고 기존 구글 4.6(381)과 상충 → 미반영.",
+   "latest_review": null,
    "dist": {
     "dom": 2.72,
     "hbf": 2.67,
@@ -5836,12 +5941,18 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/1784408/braustelle",
     "https://restaurantguru.com/Braustelle-Cologne/menu",
     "https://willkommen.koelntourismus.de/en/gastro/braustelle",
-    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/heliosbraustelle",
+    "https://tablejourney.com/germany/cologne/breweries/braustelle/"
    ],
    "confidence": "medium",
    "research": "fnb-ehrenfeld-lateng, r3-brauhaus",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치. werkenntdenbesten 8개 포털 합산 4.60(804건), 2026-07-05 갱신, 쾰른 양조장 5위 — 구글 단독 수치는 검색 요약에 없어 미반영. 탭룸 화–토(tablejourney), 18시 오픈 표시(speisekarte). 쾰른 최소 브루펍, Helios Kölsch 양조.",
+   "latest_review": "2026-07 기준 최근 12개월 리뷰 19건 (werkenntdenbesten, 전 포털 합산)",
    "dist": {
     "dom": 3.61,
     "hbf": 3.55,
@@ -5898,12 +6009,19 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/12881391/kudret-kebap-house",
-    "https://www.enprimeurclub.com/restaurants/kudret-kebap-house-cologne-restaurant"
+    "https://www.enprimeurclub.com/restaurants/kudret-kebap-house-cologne-restaurant",
+    "https://joinpearl.co/restaurants/cologne-germany/kudret-kebap-house",
+    "https://koeln.mitvergnuegen.com/2026/doener-essen",
+    "https://www.falstaff.com/ch/listings/kebab-streetfood-lokale-in-koeln"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치(Pearl). 대부분 자정까지, 금·토 02시까지 영업(Pearl, 제3자 정보). Falstaff: 올드스쿨 분위기·푸짐한 양. Mit Vergnügen 2026 되너 기사에 노출 — Hohenzollernring에 2호점 있음. 구글 수치 미확인.",
+   "latest_review": null,
    "dist": {
     "dom": 2.71,
     "hbf": 2.66,
@@ -5917,9 +6035,9 @@ window.KOLN_GUIDE = {
    "name": "Sushi Ninja",
    "category": "restaurant",
    "area": "ehrenfeld",
-   "address": "Venloer Straße 241, 50823 Köln",
-   "lat": 50.94688,
-   "lng": 6.923414,
+   "address": "Venloer Str. 241-245, 50823 Köln",
+   "lat": null,
+   "lng": null,
    "cuisine": "Sushi bar (Ehrenfeld branch of a two-branch local brand)",
    "cuisine_country": [
     "JP"
@@ -5958,19 +6076,21 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/3490294/sushi-ninja--ehrenfeld",
     "https://wanderlog.com/place/details/3490299/sushi-ninja--lindenthal",
     "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
-    "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
+    "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/sushi_ninja_restaurant",
+    "https://spottedbylocals.com/cologne/sushi-ninja",
+    "https://findit.city/en/germany/cologne/places/restaurants/sushi-ninja-823682732",
+    "https://www.opentable.com/r/lost-monk-koln",
+    "https://koeln.mitvergnuegen.com/2026/sushi-draussen-essen/"
    ],
    "confidence": "medium",
    "research": "r2-east-asia",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
-   "dist": {
-    "dom": 2.52,
-    "hbf": 2.48,
-    "messe": 4.05,
-    "deutz": 3.68,
-    "belgisches": 1.24
-   }
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "번지는 241-245로 표기됨(같은 건물에 Virtuous Pie·Lost Monk 입점 — 리뷰 혼동 주의). 영업 월·화 11:30–15:00, 17:30–22:00(findit). '2개 포털 4.46(347)'은 소속 불명확 → 미반영. Mit Vergnügen 2026 기사(베를로어·야외 스시)에 노출.",
+   "latest_review": null
   },
   {
    "id": "pufu",
@@ -6019,12 +6139,20 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/12124492/pufu",
-    "https://wanderlog.com/list/geoCategory/67133/best-pancakes-in-cologne"
+    "https://wanderlog.com/list/geoCategory/67133/best-pancakes-in-cologne",
+    "https://koeln.mitvergnuegen.com/2025/pancakes/",
+    "https://koeln.mitvergnuegen.com/2024/neuentdeckungen-september-2024/",
+    "https://wanderlog.com/place/details/12124492",
+    "https://worldcrunch.com/food-travel/where-do-locals-eat-in-cologne"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "unknown",
+   "verification_note": "에렌펠트 수플레 팬케이크 전문(2024-09 신규 소개, Mit Vergnügen 2025 팬케이크 기사에도 등장). 주문 후 조리라 1개당 약 15분. 이번 검색으로는 주소(Vogelsanger Str. 197b)·구글 수치·2026년 활동 확인 못 함, 폐업 신호도 없음.",
+   "latest_review": null,
    "dist": {
     "dom": 3.36,
     "hbf": 3.31,
@@ -6086,12 +6214,19 @@ window.KOLN_GUIDE = {
    "sources": [
     "https://wanderlog.com/place/details/1188694/caf%C3%A9-sehnsucht",
     "https://wanderlog.com/list/geoCategory/17153/best-coffee-shops-and-best-cafes-in-cologne",
-    "https://koeln.mitvergnuegen.com/2026/cafes-in-ehrenfeld/"
+    "https://koeln.mitvergnuegen.com/2026/cafes-in-ehrenfeld/",
+    "https://www.koeln.de/leben/ll/koelner-cafes-fuer-fruehstueck-und-brunch/cafe-sehnsucht/",
+    "https://www.speisekarte.de/köln/restaurant/cafe_sehnsucht",
+    "https://spinach.guide/venues/cafe-sehnsucht-23628/"
    ],
    "confidence": "medium",
    "research": "r2-cafes-dessert",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "unknown",
+   "verification_note": "주소 일치. 영업시간 상충 — koeln.de 월–목 9–22, 금·토 9–24, 일 9–20(조식 평일 14시·주말 15:30까지) / spinach 월 9–18, 화–토 23~24시. 구글 수치·최근 활동 확인 못 함, 폐업 신호 없음. 예약은 전화만(speisekarte).",
+   "latest_review": null,
    "dist": {
     "dom": 2.64,
     "hbf": 2.58,
@@ -6149,79 +6284,25 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/place/details/4057435/essers-gasthaus",
     "https://wanderlog.com/list/geoCategory/0785149",
     "https://www.koeln.de/branchen/eintrag/43172/restaurants/essers-gasthaus",
-    "https://www.speisekarte.de/k%C3%B6ln/restaurant/essers_gasthaus"
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/essers_gasthaus",
+    "https://starwinelist.com/wine-place/essers-gasthaus",
+    "https://joinpearl.co/restaurants/cologne-germany/essers-gasthaus",
+    "https://tablejourney.com/germany/cologne/cuisine/austrian/"
    ],
    "confidence": "medium",
    "research": "r2-europe-americas",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치. 저녁 17:30부터, 수요일 휴무(마감 23:00~24:00 출처별 상이). Star Wine List 2023·2026 선정 → 2026년 영업 신호. 전화 +49 221 425954. tablejourney 4.5는 구글 수치 아님.",
+   "latest_review": null,
    "dist": {
     "dom": 2.76,
     "hbf": 2.67,
     "messe": 3.96,
     "deutz": 3.78,
     "belgisches": 2.09
-   }
-  },
-  {
-   "id": "die-eisdielerin",
-   "name": "Die Eisdielerin",
-   "category": "dessert",
-   "area": "ehrenfeld",
-   "address": "Venloer Straße 402, 50825 Köln",
-   "lat": 50.95267,
-   "lng": 6.913191,
-   "cuisine": "Ice cream shop with many vegan flavours and backyard seating",
-   "cuisine_country": [],
-   "cuisine_region": null,
-   "dishes": [
-    "ice-cream"
-   ],
-   "diet": [
-    "vegan"
-   ],
-   "meals": [],
-   "occasions": [],
-   "features": [
-    "terrace"
-   ],
-   "drinks": [],
-   "vibe": [],
-   "reservation": "unknown",
-   "payment": "unknown",
-   "location": [],
-   "price_level": 1,
-   "price_estimated": true,
-   "price_pp": null,
-   "price_note": "가격 정보 미확인",
-   "beer_price_eur": null,
-   "beer_price_note": null,
-   "beers": [],
-   "google_rating": 4.4,
-   "google_reviews": 550,
-   "google_as_of": null,
-   "rating_source": "wanderlog.com",
-   "summary_ko": "에렌펠트 벤로어 거리의 아이스크림 가게로, 비건 아이스크림 선택지가 많고 뒤뜰(Hinterhof) 좌석에서 먹을 수 있다. 에렌펠트 산책 중 들르기 좋다.",
-   "must_try": [],
-   "tips_ko": "보통 13–20시, 월요일 휴무(Wanderlog). 한 리스트에 '임시 휴업' 표시가 있어 겨울 휴업일 수 있으니 방문 전 확인할 것. 수치는 Wanderlog 페이지마다 약 4.4–4.5, 약 550–630건이라 낮은 쪽 값을 적었다.",
-   "website": null,
-   "awards": [],
-   "award_flags": [],
-   "sources": [
-    "https://wanderlog.com/place/details/2741363/die-eisdielerin",
-    "https://wanderlog.com/list/geoCategory/49283/places-to-have-best-gelato-in-cologne",
-    "https://wanderlog.com/list/geoCategory/51068/best-ice-cream-shops-in-cologne"
-   ],
-   "confidence": "medium",
-   "research": "r2-cafes-dessert",
-   "checked": "2026-11-07",
-   "coord_source": "nominatim",
-   "dist": {
-    "dom": 3.4,
-    "hbf": 3.34,
-    "messe": 4.82,
-    "deutz": 4.53,
-    "belgisches": 2.19
    }
   },
   {
@@ -6278,12 +6359,21 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/list/geoCategory/1794415/best-spots-for-falafel-in-cologne",
     "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/",
     "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/",
-    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+    "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+    "https://www.reviewhero.io/de/falafel-restaurant/koeln",
+    "https://spinach.guide/venues/falafel-konig-26423/",
+    "https://www.falstaff.com/en/listings/the-best-street-food-venues-of-type-levante-cuisine-in-cologne",
+    "https://wanderlog.com/place/details/3681251",
+    "https://koeln.mitvergnuegen.com/2026/vegane-imbisse"
    ],
    "confidence": "medium",
    "research": "r2-middle-east-africa",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "번지 상충 — reviewhero는 Venloer Str. 384(50825), Falstaff·Foursquare는 392 → 재확인 필요. 심야 영업: 월 11–01시, 금·토 05시까지(spinach·reviewhero). reviewhero 4.4(968)·spinach 3.3은 구글 표기 아님 → 미반영. 주말 혼잡. Mit Vergnügen 2026 기사(베를로어·비건 임비스)에 노출.",
+   "latest_review": null,
    "dist": {
     "dom": 3.34,
     "hbf": 3.28,
@@ -9906,12 +9996,21 @@ window.KOLN_GUIDE = {
    "award_flags": [],
    "sources": [
     "https://wanderlog.com/place/details/4637608/the-b%C3%A4r--gin--cocktailbar-k%C3%B6ln",
-    "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+    "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
+    "https://www.cologne-tourism.com/food-drink/gastronomy/the-baer",
+    "https://www.clicatour.com/en/excursion/germany/cologne/kolonya-tthok-algn-fy-bar-maa-koktyl-trhyby-1749255448",
+    "https://koeln.mitvergnuegen.com/2025/cocktail-bars/",
+    "https://koeln.mitvergnuegen.com/2025/happy-hour/",
+    "https://www.meininger.de/gastronomie/konzepte/wir-zeigen-den-gaesten-ihren-eigenen-gin-geschmack"
    ],
    "confidence": "medium",
    "research": "r2-bars",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "unknown",
+   "verification_note": "주소 일치(Piusstraße 정류장–Rewe 사이 검은 문·금색 곰 로고). 진 200종 이상, 자체 인퓨즈드 진 8종; 진 테이스팅 투어 상품 판매(clicatour). 영업시간은 수·목 19–24시만 확인(옛 프로필일 수 있음). 영업 신호는 2025년(Mit Vergnügen 칵테일바·해피아워 기사)까지만, 폐업 신호 없음. 구글 수치 미확인.",
+   "latest_review": null,
    "dist": {
     "dom": 2.65,
     "hbf": 2.6,
@@ -9969,12 +10068,19 @@ window.KOLN_GUIDE = {
     "https://wanderlog.com/list/geoCategory/817531/best-bars-with-live-music-in-cologne",
     "https://restaurantguru.com/Sonic-Ballroom-Cologne",
     "https://last.fm/zh/event/4767328+TV+CULT+at+Sonic+Ballroom+on+26+October+2023",
-    "https://www.songkick.com/concerts/43110438-crimson-ghosts-at-sonic-ballroom"
+    "https://www.songkick.com/concerts/43110438-crimson-ghosts-at-sonic-ballroom",
+    "https://www.werkenntdenbesten.de/e/50862175/disco/koeln/sonic-ballroom-bewertungen.html",
+    "https://www.songkick.com/pt/concerts/43285857-dead-end-kids-de-at-sonic-ballroom",
+    "https://speisekarte.menu/restaurants/koeln/sonic-ballroom"
    ],
    "confidence": "medium",
    "research": "r3-beer-pubs",
    "checked": "2026-11-07",
    "coord_source": "nominatim",
+   "verified_at": "2026-11-07",
+   "verification_status": "open",
+   "verification_note": "주소 일치. Songkick에 2026-08-14 공연 등 공연 활동 지속. werkenntdenbesten 5개 포털 합산 4.69(1,556)·speisekarte.menu 4.6(1,009)는 구글 단독 수치 아님 → 미반영. 영업 월–목 20–02시, 금·토 20–05시. 펑크·얼터너티브 라이브 바.",
+   "latest_review": null,
    "dist": {
     "dom": 3.64,
     "hbf": 3.6,

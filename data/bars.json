@@ -1017,12 +1017,21 @@
       "award_flags": [],
       "sources": [
         "https://wanderlog.com/place/details/4637608/the-b%C3%A4r--gin--cocktailbar-k%C3%B6ln",
-        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne"
+        "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
+        "https://www.cologne-tourism.com/food-drink/gastronomy/the-baer",
+        "https://www.clicatour.com/en/excursion/germany/cologne/kolonya-tthok-algn-fy-bar-maa-koktyl-trhyby-1749255448",
+        "https://koeln.mitvergnuegen.com/2025/cocktail-bars/",
+        "https://koeln.mitvergnuegen.com/2025/happy-hour/",
+        "https://www.meininger.de/gastronomie/konzepte/wir-zeigen-den-gaesten-ihren-eigenen-gin-geschmack"
       ],
       "confidence": "medium",
       "research": "r2-bars",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "unknown",
+      "verification_note": "주소 일치(Piusstraße 정류장–Rewe 사이 검은 문·금색 곰 로고). 진 200종 이상, 자체 인퓨즈드 진 8종; 진 테이스팅 투어 상품 판매(clicatour). 영업시간은 수·목 19–24시만 확인(옛 프로필일 수 있음). 영업 신호는 2025년(Mit Vergnügen 칵테일바·해피아워 기사)까지만, 폐업 신호 없음. 구글 수치 미확인.",
+      "latest_review": null
     },
     {
       "id": "sonic-ballroom",
@@ -1073,12 +1082,19 @@
         "https://wanderlog.com/list/geoCategory/817531/best-bars-with-live-music-in-cologne",
         "https://restaurantguru.com/Sonic-Ballroom-Cologne",
         "https://last.fm/zh/event/4767328+TV+CULT+at+Sonic+Ballroom+on+26+October+2023",
-        "https://www.songkick.com/concerts/43110438-crimson-ghosts-at-sonic-ballroom"
+        "https://www.songkick.com/concerts/43110438-crimson-ghosts-at-sonic-ballroom",
+        "https://www.werkenntdenbesten.de/e/50862175/disco/koeln/sonic-ballroom-bewertungen.html",
+        "https://www.songkick.com/pt/concerts/43285857-dead-end-kids-de-at-sonic-ballroom",
+        "https://speisekarte.menu/restaurants/koeln/sonic-ballroom"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
       "checked": "2026-11-07",
-      "coord_source": "nominatim"
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "주소 일치. Songkick에 2026-08-14 공연 등 공연 활동 지속. werkenntdenbesten 5개 포털 합산 4.69(1,556)·speisekarte.menu 4.6(1,009)는 구글 단독 수치 아님 → 미반영. 영업 월–목 20–02시, 금·토 20–05시. 펑크·얼터너티브 라이브 바.",
+      "latest_review": null
     },
     {
       "id": "torburg",

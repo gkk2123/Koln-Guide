@@ -7,7 +7,7 @@
 1인 음식값 기준(음료 제외): € ~15 · €€ 15–30 · €€€ 30–60 · €€€€ 60+
 
 
-## € — 32곳
+## € — 31곳
 
 | 이름(지도) | 지역 | 음식 | 구글 | 가격 메모 |
 |---|---|---|---|---|
@@ -39,7 +39,6 @@
 | [PUFU](https://www.google.com/maps/search/?api=1&query=PUFU%20Vogelsanger%20Stra%C3%9Fe%20197b%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 일본 | ★4.5 (522) | 기본 수플레 팬케이크(슈가파우더·꿀) €6.50, 토핑 1개당 +€1 |
 | [Café Belgique](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Belgique%20Br%C3%BCsseler%20Platz%2016%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | ★4.5 (358) | 리뷰상 합리적인 가격 (구체적 메뉴 가격 미확인) |
 | [Lebanon Vitamin](https://www.google.com/maps/search/?api=1&query=Lebanon%20Vitamin%20Z%C3%BClpicher%20Stra%C3%9Fe%2038%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레바논 | ★4.4 (757) | 저렴한 샌드위치(리뷰 기준) — 메뉴 가격은 미확인 |
-| [Die Eisdielerin](https://www.google.com/maps/search/?api=1&query=Die%20Eisdielerin%20Venloer%20Stra%C3%9Fe%20402%2C%2050825%20K%C3%B6ln) | 에렌펠트 |  | ★4.4 (550) | 가격 정보 미확인 |
 | [LOUIS Cafe am Dom](https://www.google.com/maps/search/?api=1&query=LOUIS%20Cafe%20am%20Dom%20Kleine%20Budengasse%201-3%2C%2050667%20K%C3%B6ln) | 대성당·구시가 |  | ★4.4 (407) | 가격 정보 미확인 |
 | [Falafel König](https://www.google.com/maps/search/?api=1&query=Falafel%20K%C3%B6nig%20Venloer%20Stra%C3%9Fe%20384%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 중동·터키·북아프리카 | ★4.3 (1,044) | 가격 정보 미확인 |
 | [Damla](https://www.google.com/maps/search/?api=1&query=Damla%20Weidengasse%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 터키 | ★4.2 (538) | 가격 정보 미확인 |
