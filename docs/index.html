@@ -1191,6 +1191,13 @@ function kgStart() {
     state.origin = state.me && state.geo && state.geo.status === "ok" ? { lat: state.me.lat, lng: state.me.lng } : null;
     startLocate();
     render();
+    if (TILES) setTimeout(scrollToMap, 60);  // on phones the map sits below the buttons
+  }
+  function scrollToMap() {
+    var el = document.getElementById("lmap"), top = document.querySelector(".top");
+    if (!el || document.getElementById("mapview").hidden) return;
+    var y = el.getBoundingClientRect().top + window.pageYOffset - (top ? top.offsetHeight : 0) - 8;
+    if (Math.abs(y - window.pageYOffset) > 40) window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
   }
 
   // ------------------------------------------------------------ presets + active chips
