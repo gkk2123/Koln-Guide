@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Köln Guide</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: sticky header with tabs; filter rail on the left and a card grid on the right on wide screens, stacked on phones. */
+:root {
+  --bg: #F2F2EE;
+  --surface: #FFFFFF;
+  --ink: #1B1A18;
+  --muted: #625E57;
+  --line: #DCDAD3;
+  --chip: #E8E7E1;
+  --accent: #C30F2B;
+  --accent-ink: #FFFFFF;
+  --accent-soft: #F7E1E4;
+  --star: #A87400;
+  --header: #FFFFFF;
+  --font-display: "Grenze Gotisch", "UnifrakturMaguntia", Georgia, serif;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101315; --surface: #181C1F; --ink: #ECEAE6; --muted: #A6A39D; --line: #2D3337;
+    --chip: #232A2E; --accent: #F04A60; --accent-ink: #16070A; --accent-soft: #3B1B21;
+    --star: #E8C14E; --header: #14181B; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101315; --surface: #181C1F; --ink: #ECEAE6; --muted: #A6A39D; --line: #2D3337;
+  --chip: #232A2E; --accent: #F04A60; --accent-ink: #16070A; --accent-soft: #3B1B21;
+  --star: #E8C14E; --header: #14181B; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--header); }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3 { text-wrap: balance; margin: 0; }
+
+.gutter { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--header); border-bottom: 3px solid var(--accent); }
+.top-inner { max-width: 1280px; margin: 0 auto; padding-block: 10px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; }
+.brand { display: flex; align-items: baseline; gap: 12px; min-width: 0; }
+.wordmark { font-family: var(--font-display); font-weight: 600; font-size: 40px; line-height: 1; color: var(--accent); letter-spacing: 0.01em; }
+.brand-text { display: flex; flex-direction: column; min-width: 0; }
+.brand-text strong { font-size: 15px; font-weight: 600; }
+.brand-text span { font-size: 12px; color: var(--muted); }
+.tabs { display: flex; gap: 4px; margin-left: auto; overflow-x: auto; scrollbar-width: none; max-width: 100%; }
+.tabs a { text-decoration: none; color: var(--ink); font-weight: 600; font-size: 15px; padding: 8px 12px; border-radius: 999px; white-space: nowrap; }
+.tabs a .n { font-family: var(--font-data); font-size: 12px; color: var(--muted); margin-left: 4px; }
+.tabs a[aria-current="page"] { background: var(--accent); color: var(--accent-ink); }
+.tabs a[aria-current="page"] .n { color: inherit; opacity: .8; }
+
+.wrap { max-width: 1280px; margin: 0 auto; padding-block: 20px 48px; }
+.layout { display: grid; grid-template-columns: 1fr; gap: 20px; align-items: start; }
+@media (min-width: 960px) {
+  .layout { grid-template-columns: 300px minmax(0, 1fr); gap: 28px; }
+  .rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 84px); max-height: calc(100vh - 100px); overflow-y: auto; }
+}
+
+.rail { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.rail > summary { list-style: none; cursor: pointer; padding: 12px 14px; font-weight: 600; display: flex; justify-content: space-between; align-items: center; }
+.rail > summary::-webkit-details-marker { display: none; }
+.rail > summary .applied { font-family: var(--font-data); font-size: 12px; color: var(--accent); }
+.rail-body { padding: 0 14px 14px; display: flex; flex-direction: column; gap: 16px; }
+.group { display: flex; flex-direction: column; gap: 8px; }
+.group-label { font-family: var(--font-data); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.group-label b { font-family: var(--font-body); font-size: 13px; letter-spacing: 0; text-transform: none; color: var(--ink); font-weight: 600; margin-right: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: inherit; font-size: 13px; border: 1px solid transparent; background: var(--chip); color: var(--ink); padding: 4px 10px; border-radius: 999px; cursor: pointer; }
+.chip .n { font-family: var(--font-data); font-size: 11px; color: var(--muted); margin-left: 4px; }
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: .75; }
+.chip:disabled { opacity: .4; cursor: default; }
+.seg { display: flex; flex-wrap: wrap; gap: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg button { font: inherit; font-size: 13px; flex: 1 1 auto; background: var(--surface); color: var(--ink); border: 0; border-right: 1px solid var(--line); padding: 6px 8px; cursor: pointer; }
+.seg button:last-child { border-right: 0; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.seg button:disabled { opacity: .4; cursor: default; }
+input[type="search"], select { font: inherit; font-size: 14px; width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.hint { font-size: 12px; color: var(--muted); margin: 0; }
+.reset { font: inherit; font-size: 13px; align-self: flex-start; background: none; border: 1px solid var(--line); color: var(--ink); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+
+.results-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-bottom: 12px; }
+.results-head h2 { font-size: 20px; }
+.results-head .sub { font-size: 13px; color: var(--muted); }
+.notice { background: var(--accent-soft); border-radius: 8px; padding: 8px 12px; font-size: 13px; margin: 0 0 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 14px; }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.card-top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.eyebrow { font-family: var(--font-data); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.price { font-family: var(--font-data); font-size: 13px; letter-spacing: .05em; white-space: nowrap; }
+.price i { font-style: normal; color: var(--line); }
+.card h3 { font-size: 17px; font-weight: 700; line-height: 1.3; }
+.card h3 .alt { font-weight: 500; font-size: 13px; color: var(--muted); margin-left: 6px; }
+.cuisine { margin: 0; font-size: 13px; color: var(--muted); }
+.meta { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; font-variant-numeric: tabular-nums; }
+.meta .star { color: var(--star); }
+.meta .num { font-family: var(--font-data); font-size: 12px; }
+.summary { margin: 2px 0 0; font-size: 14px; }
+.awards { display: flex; flex-wrap: wrap; gap: 4px; }
+.award { font-size: 11px; font-weight: 600; border: 1px solid var(--accent); color: var(--accent); border-radius: 4px; padding: 1px 6px; }
+.try { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: baseline; font-size: 13px; }
+.try .label, .tags .label { font-family: var(--font-data); font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.pill { background: var(--chip); border-radius: 4px; padding: 1px 6px; }
+.tags { display: flex; flex-wrap: wrap; gap: 4px; font-size: 12px; color: var(--muted); }
+.tags span + span::before { content: "·"; margin-right: 4px; }
+.more { font-size: 13px; }
+.more summary { cursor: pointer; color: var(--muted); }
+.more p { margin: 6px 0 0; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: auto; padding-top: 6px; font-size: 13px; font-weight: 600; }
+.actions a { text-decoration: none; }
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); padding: 28px; text-align: center; color: var(--muted); }
+
+.wine { display: flex; flex-direction: column; gap: 28px; }
+.wine h2 { font-size: 22px; }
+.wine .lede { max-width: 68ch; margin: 6px 0 0; color: var(--muted); }
+.terms { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 8px 16px; margin: 12px 0 0; }
+.terms div { border-top: 1px solid var(--line); padding-top: 8px; min-width: 0; }
+.terms dt { font-weight: 700; }
+.terms dd { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); margin-top: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-family: var(--font-data); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+tr:last-child td { border-bottom: 0; }
+footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-inner gutter">
+    <div class="brand">
+      <span class="wordmark" aria-hidden="true">Köln</span>
+      <div class="brand-text"><strong>쾰른 맛집·바·관광지</strong><span id="stamp">구글 ★4.2+ · 리뷰 50+</span></div>
+    </div>
+    <nav class="tabs" aria-label="섹션">
+      <a href="#food" data-tab="food">맛집<span class="n"></span></a>
+      <a href="#bars" data-tab="bars">바<span class="n"></span></a>
+      <a href="#sights" data-tab="sights">관광지<span class="n"></span></a>
+      <a href="#wine" data-tab="wine">독일 화이트와인</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap gutter">
+  <div class="layout" id="layout">
+    <details class="rail" id="rail">
+      <summary>필터 <span class="applied" id="applied"></span></summary>
+      <div class="rail-body" id="filters"></div>
+    </details>
+    <section aria-live="polite">
+      <div class="results-head"><h2 id="rtitle">맛집</h2><span class="sub" id="rsub"></span></div>
+      <p class="notice" id="notice" hidden></p>
+      <div class="grid" id="grid"></div>
+    </section>
+  </div>
+  <div class="wine" id="wine" hidden></div>
+  <footer id="foot"></footer>
+</main>
+<script>window.KOLN_CONFIG={"geolocation": true};</script>
+<script src="data.js"></script>
+<script>
+(function () {
+  "use strict";
+  var G = window.KOLN_GUIDE || { restaurants: [], bars: [], shops: [], attractions: [], areas: [], anchors: [], labels: {} };
+  var CFG = window.KOLN_CONFIG || {};
+  var L = G.labels || {};
+  var AREAS = {}; (G.areas || []).forEach(function (a) { AREAS[a.id] = a; });
+  var ANCHOR_IDS = ["dom", "hbf", "messe", "belgisches"];
+  var ANCHORS = (G.anchors || []).filter(function (a) { return ANCHOR_IDS.indexOf(a.id) >= 0; });
+  var TABS = {
+    food: { title: "맛집", items: G.restaurants || [] },
+    bars: { title: "바·와인숍", items: (G.bars || []).concat(G.shops || []) },
+    sights: { title: "관광지", items: G.attractions || [] },
+    wine: { title: "독일 화이트와인", items: [] }
+  };
+  var KM_STEPS = [0, 0.5, 1, 2, 3, 5];
+  var MIN_RATINGS = [0, 4.4, 4.6, 4.8];
+
+  function fresh() { return { q: "", area: {}, cuisine: {}, cat: {}, price: {}, tag: {}, minRating: 0, free: false, must: false, open: false }; }
+  var state = { tab: "food", anchor: "dom", maxKm: 0, sort: { food: "rating", bars: "rating", sights: "priority" }, origin: null,
+    f: { food: fresh(), bars: fresh(), sights: fresh() } };
+
+  function store(k, v) { try { localStorage.setItem("kg." + k, v); } catch (e) {} }
+  function recall(k) { try { return localStorage.getItem("kg." + k); } catch (e) { return null; } }
+  var savedAnchor = recall("anchor"); if (savedAnchor && ANCHOR_IDS.indexOf(savedAnchor) >= 0) state.anchor = savedAnchor;
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function lab(group, key) { return (L[group] && L[group][key]) || key || ""; }
+  function keys(o) { return Object.keys(o).filter(function (k) { return o[k]; }); }
+  function hav(a, b, c, d) {
+    var r = 6371.0088, p1 = a * Math.PI / 180, p2 = c * Math.PI / 180, dp = p2 - p1, dl = (d - b) * Math.PI / 180;
+    var x = Math.sin(dp / 2) * Math.sin(dp / 2) + Math.cos(p1) * Math.cos(p2) * Math.sin(dl / 2) * Math.sin(dl / 2);
+    return 2 * r * Math.asin(Math.sqrt(x));
+  }
+  function dist(it) {
+    if (state.anchor === "me") return (state.origin && it.lat != null) ? hav(state.origin.lat, state.origin.lng, it.lat, it.lng) : null;
+    return it.dist && it.dist[state.anchor] != null ? it.dist[state.anchor] : null;
+  }
+  function walk(km) { return Math.max(1, Math.round(km * 1.3 / 4.8 * 60)); }
+  function anchorLabel() {
+    if (state.anchor === "me") return "내 위치";
+    var a = ANCHORS.filter(function (x) { return x.id === state.anchor; })[0];
+    return a ? a.label_ko : "";
+  }
+  function coordCount(items) { return items.filter(function (i) { return i.lat != null; }).length; }
+
+  function matches(it, f, skip) {
+    if (f.q) {
+      var hay = [it.name, it.name_ko, it.cuisine, it.summary_ko, it.tips_ko, (it.must_try || []).join(" "), (it.awards || []).join(" "),
+        lab("cuisine_group", it.cuisine_group), lab("category", it.category)].join(" ").toLowerCase();
+      var words = f.q.toLowerCase().split(/\s+/).filter(Boolean);
+      for (var w = 0; w < words.length; w++) if (hay.indexOf(words[w]) < 0) return false;
+    }
+    var sel;
+    if (skip !== "area" && (sel = keys(f.area)).length && sel.indexOf(it.area) < 0) return false;
+    if (skip !== "cuisine" && (sel = keys(f.cuisine)).length && sel.indexOf(it.cuisine_group) < 0) return false;
+    if (skip !== "cat" && (sel = keys(f.cat)).length && sel.indexOf(it.category) < 0) return false;
+    if (skip !== "price" && (sel = keys(f.price)).length && sel.indexOf(String(it.price_level)) < 0) return false;
+    if (skip !== "tag" && (sel = keys(f.tag)).length) {
+      var t = it.tags || [];
+      for (var i = 0; i < sel.length; i++) if (t.indexOf(sel[i]) < 0) return false;
+    }
+    if (f.minRating && !((it.google_rating || 0) >= f.minRating)) return false;
+    if (f.free && it.price_eur !== 0) return false;
+    if (f.must && it.priority !== 1) return false;
+    if (f.open && it.status && it.status !== "open" && it.status !== "seasonal" && it.status !== "temporary-location") return false;
+    if (state.maxKm) { var d = dist(it); if (d == null || d > state.maxKm) return false; }
+    return true;
+  }
+
+  var SORTS = {
+    rating: function (a, b) { return (b.google_rating || 0) - (a.google_rating || 0) || (b.google_reviews || 0) - (a.google_reviews || 0); },
+    reviews: function (a, b) { return (b.google_reviews || 0) - (a.google_reviews || 0); },
+    distance: function (a, b) {
+      var x = dist(a), y = dist(b);
+      if (x == null && y == null) return SORTS.rating(a, b);
+      if (x == null) return 1; if (y == null) return -1; return x - y;
+    },
+    price: function (a, b) { return (a.price_level || 9) - (b.price_level || 9) || SORTS.rating(a, b); },
+    priority: function (a, b) { return (a.priority || 2) - (b.priority || 2) || SORTS.rating(a, b); },
+    name: function (a, b) { return String(a.name).localeCompare(String(b.name)); }
+  };
+  var SORT_LABELS = { rating: "평점 높은 순", reviews: "리뷰 많은 순", distance: "가까운 순", price: "가격 낮은 순", priority: "추천 순", name: "이름 순" };
+
+  // ------------------------------------------------------------ filters UI
+  function facet(items, f, name, getter, labeler, order) {
+    var counts = {};
+    items.forEach(function (it) { if (matches(it, f, name)) { var v = getter(it); [].concat(v || []).forEach(function (x) { counts[x] = (counts[x] || 0) + 1; }); } });
+    var all = {};
+    items.forEach(function (it) { [].concat(getter(it) || []).forEach(function (x) { all[x] = true; }); });
+    var vals = Object.keys(all);
+    if (order) vals.sort(function (a, b) { return order.indexOf(a) - order.indexOf(b); });
+    else vals.sort(function (a, b) { return (counts[b] || 0) - (counts[a] || 0); });
+    return vals.map(function (v) {
+      var on = !!f[name][v], n = counts[v] || 0;
+      return '<button type="button" class="chip" data-facet="' + name + '" data-v="' + esc(v) + '" aria-pressed="' + on + '"' +
+        (!n && !on ? " disabled" : "") + ">" + esc(labeler(v)) + '<span class="n">' + n + "</span></button>";
+    }).join("");
+  }
+
+  function group(label, hint, inner) {
+    return '<div class="group"><div class="group-label"><b>' + label + "</b>" + (hint || "") + "</div>" + inner + "</div>";
+  }
+
+  function renderFilters() {
+    var tab = state.tab, f = state.f[tab], items = TABS[tab].items, html = "";
+    var hasCoords = coordCount(items) > 0;
+    html += '<input type="search" id="q" placeholder="이름·메뉴·키워드 검색" value="' + esc(f.q) + '" aria-label="검색">';
+
+    var anchorBtns = ANCHORS.map(function (a) {
+      return '<button type="button" data-anchor="' + a.id + '" aria-pressed="' + (state.anchor === a.id) + '"' + (hasCoords ? "" : " disabled") + ">" + esc(a.label_ko) + "</button>";
+    }).join("");
+    if (CFG.geolocation) anchorBtns += '<button type="button" data-anchor="me" aria-pressed="' + (state.anchor === "me") + '"' + (hasCoords ? "" : " disabled") + ">내 위치</button>";
+    var kmBtns = KM_STEPS.map(function (k) {
+      return '<button type="button" data-km="' + k + '" aria-pressed="' + (state.maxKm === k) + '"' + (hasCoords ? "" : " disabled") + ">" + (k ? k + "km" : "전체") + "</button>";
+    }).join("");
+    html += group("거리", "", '<div class="seg" role="group" aria-label="기준점">' + anchorBtns + '</div><div class="seg" role="group" aria-label="최대 거리">' + kmBtns + "</div>" +
+      (hasCoords ? '<p class="hint">직선거리 기준. 도보 시간은 어림값.</p>' : '<p class="hint">아직 좌표를 수집하지 않아 거리 필터가 꺼져 있어요.</p>'));
+
+    var sortKeys = tab === "sights" ? ["priority", "rating", "distance", "name"] : ["rating", "reviews", "distance", "price", "name"];
+    if (!hasCoords) sortKeys = sortKeys.filter(function (k) { return k !== "distance"; });
+    html += group("정렬", "", '<select id="sort" aria-label="정렬">' + sortKeys.map(function (k) {
+      return '<option value="' + k + '"' + (state.sort[tab] === k ? " selected" : "") + ">" + SORT_LABELS[k] + "</option>";
+    }).join("") + "</select>");
+
+    html += group("유형", "", '<div class="chips">' + facet(items, f, "cat", function (i) { return i.category; }, function (v) { return lab("category", v); }) + "</div>");
+    html += group("지역", "", '<div class="chips">' + facet(items, f, "area", function (i) { return i.area; }, function (v) { return (AREAS[v] && AREAS[v].name_ko) || v; },
+      (G.areas || []).map(function (a) { return a.id; })) + "</div>");
+    if (tab === "food") {
+      html += group("나라·스타일", "", '<div class="chips">' + facet(items, f, "cuisine", function (i) { return i.cuisine_group; }, function (v) { return lab("cuisine_group", v); }) + "</div>");
+    }
+    if (tab !== "sights") {
+      html += group("가격", tab === "bars" ? "칵테일 1잔 기준" : "1인 음식값", '<div class="chips">' + facet(items, f, "price", function (i) { return i.price_level != null ? String(i.price_level) : null; },
+        function (v) { return lab("price_level", v); }, ["1", "2", "3", "4"]) + "</div>");
+      html += group("구글 평점", "", '<div class="seg" role="group" aria-label="최소 평점">' + MIN_RATINGS.map(function (r) {
+        return '<button type="button" data-rating="' + r + '" aria-pressed="' + (f.minRating === r) + '">' + (r ? "★" + r.toFixed(1) + "+" : "4.2+ 전체") + "</button>";
+      }).join("") + "</div>");
+    } else {
+      html += group("빠른 선택", "", '<div class="chips">' +
+        '<button type="button" class="chip" data-toggle="must" aria-pressed="' + f.must + '">첫 방문 필수</button>' +
+        '<button type="button" class="chip" data-toggle="free" aria-pressed="' + f.free + '">무료</button>' +
+        '<button type="button" class="chip" data-toggle="open" aria-pressed="' + f.open + '">휴관 제외</button></div>');
+    }
+    html += group("태그", "", '<div class="chips">' + facet(items, f, "tag", function (i) { return i.tags; }, function (v) { return lab("tag", v); }) + "</div>");
+    html += '<button type="button" class="reset" id="reset">필터 초기화</button>';
+    document.getElementById("filters").innerHTML = html;
+  }
+
+  // ------------------------------------------------------------ cards
+  function priceHtml(n) {
+    if (!n) return "";
+    return '<span class="price" title="가격대 ' + n + '/4"><b>' + "€".repeat(n) + "</b><i>" + "€".repeat(4 - n) + "</i></span>";
+  }
+  function ratingHtml(it) {
+    if (it.google_rating == null) return "";
+    return '<span title="구글 평점' + (it.google_as_of ? " (" + esc(it.google_as_of) + " 기준)" : "") + '"><span class="star">★</span> <span class="num">' +
+      Number(it.google_rating).toFixed(1) + "</span>" + (it.google_reviews ? ' <span class="num">(' + Number(it.google_reviews).toLocaleString("en-US") + ")</span>" : "") + "</span>";
+  }
+  function distHtml(it) {
+    var d = dist(it);
+    if (d == null) return "";
+    return '<span>' + esc(anchorLabel()) + ' <span class="num">' + d.toFixed(1) + "km</span> · 도보 " + walk(d) + "분</span>";
+  }
+  function mapsUrl(it) {
+    if (it.google_maps_url) return it.google_maps_url;
+    return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(it.name + " " + (it.address || "Köln"));
+  }
+  function tagsHtml(tags) {
+    if (!tags || !tags.length) return "";
+    return '<div class="tags">' + tags.slice(0, 6).map(function (t) { return "<span>" + esc(lab("tag", t)) + "</span>"; }).join("") + "</div>";
+  }
+  function awardsHtml(a) {
+    if (!a || !a.length) return "";
+    return '<div class="awards">' + a.slice(0, 3).map(function (x) { return '<span class="award">' + esc(x) + "</span>"; }).join("") + "</div>";
+  }
+  function moreHtml(rows) {
+    rows = rows.filter(function (r) { return r[1]; });
+    if (!rows.length) return "";
+    return '<details class="more"><summary>팁·정보</summary>' + rows.map(function (r) { return "<p><b>" + r[0] + "</b> " + r[1] + "</p>"; }).join("") + "</details>";
+  }
+  function sourcesHtml(src) {
+    if (!src || !src.length) return "";
+    return src.slice(0, 4).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + (i + 1) + "</a>"; }).join(" ");
+  }
+  function actions(it) {
+    return '<div class="actions"><a href="' + esc(mapsUrl(it)) + '" target="_blank" rel="noopener">구글 지도 ↗</a>' +
+      (it.website ? '<a href="' + esc(it.website) + '" target="_blank" rel="noopener">웹사이트 ↗</a>' : "") + "</div>";
+  }
+
+  function fnbCard(it) {
+    var area = (AREAS[it.area] && AREAS[it.area].name_ko) || it.area;
+    var cuisine = lab("cuisine_group", it.cuisine_group);
+    return '<article class="card">' +
+      '<div class="card-top"><span class="eyebrow">' + esc(lab("category", it.category)) + " · " + esc(area) + "</span>" + priceHtml(it.price_level) + "</div>" +
+      "<h3>" + esc(it.name) + "</h3>" +
+      '<p class="cuisine">' + esc(cuisine) + (it.cuisine ? " · " + esc(it.cuisine) : "") + "</p>" +
+      '<p class="meta">' + ratingHtml(it) + distHtml(it) + "</p>" +
+      awardsHtml(it.awards) +
+      (it.summary_ko ? '<p class="summary">' + esc(it.summary_ko) + "</p>" : "") +
+      (it.must_try && it.must_try.length ? '<div class="try"><span class="label">추천</span>' + it.must_try.slice(0, 4).map(function (m) { return '<span class="pill">' + esc(m) + "</span>"; }).join("") + "</div>" : "") +
+      tagsHtml(it.tags) +
+      moreHtml([["팁", esc(it.tips_ko)], ["가격", esc(it.price_note)], ["주소", esc(it.address)],
+        ["평점 출처", it.rating_source ? esc(it.rating_source) + (it.google_as_of ? " · " + esc(it.google_as_of) : "") : ""], ["조사 출처", sourcesHtml(it.sources)]]) +
+      actions(it) + "</article>";
+  }
+
+  function sightCard(it) {
+    var area = (AREAS[it.area] && AREAS[it.area].name_ko) || it.area;
+    var status = { "closed-renovation": "휴관(공사 중)", "temporary-location": "임시 장소 운영", seasonal: "시즌 한정" }[it.status] || "";
+    var season = it.season && it.season.start ? it.season.start.slice(5).replace("-", "/") + "–" + String(it.season.end || "").slice(5).replace("-", "/") : "";
+    var price = it.price_note || (it.price_eur === 0 ? "무료" : it.price_eur != null ? "€" + it.price_eur : "");
+    var bits = [];
+    if (price) bits.push(esc(price));
+    if (it.duration_min) bits.push("약 " + it.duration_min + "분");
+    if (it.travel_time_min) bits.push("중앙역에서 " + it.travel_time_min + "분");
+    return '<article class="card">' +
+      '<div class="card-top"><span class="eyebrow">' + esc(lab("category", it.category)) + " · " + esc(area) + "</span>" +
+      (it.priority === 1 ? '<span class="award">필수</span>' : "") + "</div>" +
+      "<h3>" + esc(it.name_ko || it.name) + (it.name_ko ? '<span class="alt">' + esc(it.name) + "</span>" : "") + "</h3>" +
+      '<p class="meta">' + ratingHtml(it) + distHtml(it) + (status ? "<span><b>" + status + "</b></span>" : "") + (season ? "<span>" + season + "</span>" : "") + "</p>" +
+      (bits.length ? '<p class="cuisine">' + bits.join(" · ") + "</p>" : "") +
+      (it.summary_ko ? '<p class="summary">' + esc(it.summary_ko) + "</p>" : "") +
+      tagsHtml(it.tags) +
+      moreHtml([["팁", esc(it.tips_ko)], ["운영", esc(it.hours_note)], ["예약", it.booking === "required" ? "필수" : it.booking === "recommended" ? "권장" : ""],
+        ["주소", esc(it.address)], ["조사 출처", sourcesHtml(it.sources)]]) +
+      actions(it) + "</article>";
+  }
+
+  // ------------------------------------------------------------ wine tab
+  function renderWine() {
+    var w = G.wine, el = document.getElementById("wine");
+    if (!w) { el.innerHTML = '<div class="empty">와인 가이드 데이터가 아직 없어요. 저장소의 guides/german-white-wine.md를 참고하세요.</div>'; return; }
+    var html = "<section><h2>독일 화이트와인 한눈에</h2><p class=\"lede\">품종, 산지, 라벨 용어를 정리했어요. 자세한 설명과 추천 병은 저장소의 <code>guides/german-white-wine.md</code>에 있어요.</p></section>";
+    if (w.grapes && w.grapes.length) {
+      html += "<section><h2>품종</h2><div class=\"grid\" style=\"margin-top:12px\">" + w.grapes.map(function (g) {
+        return '<article class="card"><div class="card-top"><span class="eyebrow">' + esc(g.sweetness_range || "") + "</span></div>" +
+          "<h3>" + esc(g.name_de) + (g.name_ko ? '<span class="alt">' + esc(g.name_ko) + "</span>" : "") + "</h3>" +
+          (g.also_known_as ? '<p class="cuisine">' + esc([].concat(g.also_known_as).join(", ")) + "</p>" : "") +
+          (g.style_ko ? '<p class="summary">' + esc(g.style_ko) + "</p>" : "") +
+          (g.key_regions ? '<div class="try"><span class="label">산지</span>' + [].concat(g.key_regions).map(function (r) { return '<span class="pill">' + esc(r) + "</span>"; }).join("") + "</div>" : "") +
+          moreHtml([["페어링", esc(g.food_pairing_ko)], ["가격 팁", esc(g.price_tip_ko)]]) + "</article>";
+      }).join("") + "</div></section>";
+    }
+    if (w.regions && w.regions.length) {
+      html += '<section><h2>산지</h2><div class="table-wrap"><table><thead><tr><th>산지</th><th>대표 화이트</th><th>특징</th><th>쾰른에서</th><th>생산자</th></tr></thead><tbody>' +
+        w.regions.map(function (r) {
+          return "<tr><td><b>" + esc(r.name) + "</b><br>" + esc(r.name_ko || "") + "</td><td>" + esc([].concat(r.key_whites || []).join(", ")) + "</td><td>" + esc(r.character_ko || "") +
+            "</td><td>" + esc(r.from_koeln || "") + "</td><td>" + esc([].concat(r.notable_producers || []).join(", ")) + "</td></tr>";
+        }).join("") + "</tbody></table></div></section>";
+    }
+    if (w.terms && w.terms.length) {
+      html += "<section><h2>라벨 용어</h2><dl class=\"terms\">" + w.terms.map(function (t) {
+        return "<div><dt>" + esc(t.term) + "</dt><dd>" + esc(t.meaning_ko) + "</dd></div>";
+      }).join("") + "</dl></section>";
+    }
+    el.innerHTML = html;
+  }
+
+  // ------------------------------------------------------------ main render
+  function appliedCount(f) {
+    return keys(f.area).length + keys(f.cuisine).length + keys(f.cat).length + keys(f.price).length + keys(f.tag).length +
+      (f.minRating ? 1 : 0) + (f.free ? 1 : 0) + (f.must ? 1 : 0) + (f.open ? 1 : 0) + (f.q ? 1 : 0) + (state.maxKm ? 1 : 0);
+  }
+
+  function renderResults() {
+    var tab = state.tab, f = state.f[tab], items = TABS[tab].items;
+    var list = items.filter(function (it) { return matches(it, f); });
+    var sortKey = state.sort[tab];
+    list.sort(SORTS[sortKey] || SORTS.rating);
+    var card = tab === "sights" ? sightCard : fnbCard;
+    var grid = document.getElementById("grid");
+    grid.innerHTML = list.length ? list.map(card).join("") :
+      '<div class="empty">조건에 맞는 곳이 없어요. 필터를 줄이거나 <button type="button" class="reset" id="reset2">초기화</button> 해 보세요.</div>';
+    document.getElementById("rtitle").textContent = TABS[tab].title;
+    var sub = list.length + "곳 · " + SORT_LABELS[sortKey];
+    if (state.maxKm) sub += " · " + anchorLabel() + " " + state.maxKm + "km 이내";
+    document.getElementById("rsub").textContent = sub;
+    var n = appliedCount(f);
+    document.getElementById("applied").textContent = n ? n + "개 적용" : "";
+    var notice = document.getElementById("notice");
+    var missing = state.maxKm ? items.length - coordCount(items) : 0;
+    if (state.anchor === "me" && !state.origin) { notice.hidden = false; notice.textContent = "위치를 확인하는 중이에요…"; }
+    else if (missing > 0) { notice.hidden = false; notice.textContent = "좌표가 없는 " + missing + "곳은 거리 필터에서 빠졌어요."; }
+    else notice.hidden = true;
+  }
+
+  function render() {
+    var tab = state.tab;
+    document.querySelectorAll(".tabs a").forEach(function (a) {
+      if (a.getAttribute("data-tab") === tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+      var t = TABS[a.getAttribute("data-tab")], n = a.querySelector(".n");
+      if (n && t) n.textContent = t.items.length;
+    });
+    var isWine = tab === "wine";
+    document.getElementById("layout").hidden = isWine;
+    document.getElementById("wine").hidden = !isWine;
+    if (isWine) { renderWine(); return; }
+    renderFilters();
+    renderResults();
+  }
+
+  function setTab(t) { if (!TABS[t]) t = "food"; state.tab = t; store("tab", t); render(); }
+
+  // ------------------------------------------------------------ events
+  document.getElementById("filters").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b || b.disabled) return;
+    var f = state.f[state.tab];
+    if (b.id === "reset") { state.f[state.tab] = fresh(); state.maxKm = 0; render(); return; }
+    if (b.hasAttribute("data-facet")) { var fac = b.getAttribute("data-facet"), v = b.getAttribute("data-v"); f[fac][v] = !f[fac][v]; }
+    else if (b.hasAttribute("data-anchor")) {
+      state.anchor = b.getAttribute("data-anchor");
+      if (state.anchor === "me") locate(); else store("anchor", state.anchor);
+      if (!state.maxKm && state.sort[state.tab] !== "distance") state.sort[state.tab] = "distance";
+    }
+    else if (b.hasAttribute("data-km")) { state.maxKm = Number(b.getAttribute("data-km")); }
+    else if (b.hasAttribute("data-rating")) { f.minRating = Number(b.getAttribute("data-rating")); }
+    else if (b.hasAttribute("data-toggle")) { var k = b.getAttribute("data-toggle"); f[k] = !f[k]; }
+    render();
+  });
+  document.getElementById("filters").addEventListener("input", function (e) {
+    if (e.target.id === "q") { state.f[state.tab].q = e.target.value.trim(); renderResults(); }
+  });
+  document.getElementById("filters").addEventListener("change", function (e) {
+    if (e.target.id === "sort") { state.sort[state.tab] = e.target.value; renderResults(); }
+  });
+  document.getElementById("grid").addEventListener("click", function (e) {
+    if (e.target.id === "reset2") { state.f[state.tab] = fresh(); state.maxKm = 0; render(); }
+  });
+  function locate() {
+    if (!navigator.geolocation) { state.anchor = "dom"; render(); return; }
+    navigator.geolocation.getCurrentPosition(function (p) {
+      state.origin = { lat: p.coords.latitude, lng: p.coords.longitude }; render();
+    }, function () {
+      state.anchor = "dom"; render();
+      var n = document.getElementById("notice"); n.hidden = false; n.textContent = "위치 권한이 없어 대성당 기준으로 되돌렸어요.";
+    }, { enableHighAccuracy: false, timeout: 8000 });
+  }
+  window.addEventListener("hashchange", function () { setTab(location.hash.slice(1)); });
+
+  var foot = document.getElementById("foot");
+  foot.innerHTML = "데이터 기준일 " + esc(G.generated || "") + " · 식음료는 구글 평점 " + ((G.criteria || {}).min_google_rating || 4.2) +
+    "+ & 리뷰 " + ((G.criteria || {}).min_google_reviews || 50) + "+만 표시 · 평점·영업시간은 방문 전 구글 지도에서 다시 확인하세요.";
+  document.getElementById("stamp").textContent = (G.generated ? G.generated.slice(0, 7).replace("-", ".") + " 조사 · " : "") + "구글 ★4.2+ · 리뷰 50+";
+
+  var rail = document.getElementById("rail");
+  if (window.matchMedia && window.matchMedia("(min-width: 960px)").matches) rail.open = true;
+  setTab((location.hash || "").slice(1) || recall("tab") || "food");
+})();
+</script>
+</body>
+</html>

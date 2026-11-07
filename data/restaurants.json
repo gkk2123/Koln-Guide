@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "generated": "2026-11-07",
+    "criteria": {
+      "min_google_rating": 4.2,
+      "min_google_reviews": 50
+    },
+    "research_files": [
+      "bars.json",
+      "fnb-belgisches-friesen.json",
+      "fnb-deutz-messe.json",
+      "fnb-dom-altstadt-eigelstein.json",
+      "fnb-ehrenfeld-lateng.json",
+      "fnb-suedstadt-other-korean.json"
+    ],
+    "count": 12
+  },
+  "items": [
+    {
+      "id": "peters-brauhaus",
+      "name": "Peters Brauhaus",
+      "category": "brauhaus",
+      "area": "dom-altstadt",
+      "address": "Mühlengasse 1, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Rhineland / Kölsch brauhaus",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.4,
+      "google_reviews": 8395,
+      "google_as_of": "2026-05",
+      "rating_source": "werkenntdenbesten.de",
+      "summary_ko": "구시가 알터 마르크트(Alter Markt) 인근 Mühlengasse의 대형 전통 브라우하우스로, Peters Kölsch와 쾨베스(Köbes, 브라우하우스 웨이터)의 서빙 자체가 '경험의 일부'라는 후기가 많다. 관광객 비중이 높지만 구글 리뷰 8천여 건에 4.4로 구시가 브라우하우스 중 평점이 높은 편이라 첫 브라우하우스로 무난하다.",
+      "must_try": [
+        "Peters Kölsch (페터스 쾰시 — 이 집에서 내는 쾰시 맥주)"
+      ],
+      "tags": [
+        "koelsch",
+        "touristy"
+      ],
+      "tips_ko": "후기에 관광객이 많다는 언급이 잦다. 트립어드바이저(3.9, 2,338건)는 구글(4.4)보다 낮게 나온다. 음식 메뉴·가격은 이번 조사에서 확인하지 못했으니 방문 전 공식 메뉴를 확인할 것.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/28017932/brauerei/koeln/peters-brauhaus-bruno-haumann-gf-bewertungen.html",
+        "https://spinach.guide/venues/peters-brauhaus-23831/",
+        "https://theeuropeanbarguide.com/peters-brauhaus-cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/peters_brauhaus"
+      ],
+      "confidence": "high",
+      "research": "fnb-dom-altstadt-eigelstein",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "frueh-am-dom",
+      "name": "FRÜH am Dom",
+      "category": "brauhaus",
+      "area": "dom-altstadt",
+      "address": "Am Hof 12-18, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Rhineland / Kölsch brauhaus",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.3,
+      "google_reviews": 19851,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com",
+      "summary_ko": "대성당 바로 남쪽 Am Hof에 있는 Früh Kölsch의 대표 브라우하우스로, Fodor's가 '대성당 그늘 아래의 유서 깊은 옛 양조장'으로 소개한 쾰른 관광 1번지 맥주홀이다. 구글 리뷰 약 2만 건(4.3)으로 규모·인지도는 최고지만 서비스 평은 크게 엇갈린다.",
+      "must_try": [
+        "Früh Kölsch (프뤼 쾰시 — 이 집의 쾰시 맥주)"
+      ],
+      "tags": [
+        "koelsch",
+        "touristy",
+        "terrace",
+        "near-hbf"
+      ],
+      "tips_ko": "2026년 9월까지의 트립어드바이저 후기가 극명하게 갈린다: 테라스에서 마시는 쾰시는 호평이지만, 불친절한 서비스와 위생 문제(식당 안에서 쥐를 봤다는 후기)를 지적하는 글도 있다. 대성당·중앙역에서 걸어서 몇 분 거리라 관광 동선 중 한 잔 하기엔 가장 편하다. 메뉴·가격은 이번 조사에서 미확인.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://restaurantguru.com/Fruh-am-Dom-Cologne-2",
+        "https://www.werkenntdenbesten.de/e/50856596/internationales-restaurant/koeln/frueh-am-dom-bewertungen.html",
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d7235024-Reviews-Fruh_am_Dom-Cologne_North_Rhine_Westphalia.html",
+        "https://www.tripexpert.com/cologne/restaurants/fruh-am-dom",
+        "https://sa.trip.com/travel-guide/cologne-388-restaurant/Frueh%20am%20Dom-17190129",
+        "https://www.beeradvocate.com/beer/profile/1450/6356/"
+      ],
+      "confidence": "medium",
+      "research": "fnb-dom-altstadt-eigelstein",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "brauerei-zur-malzmuehle",
+      "name": "Brauerei zur Malzmühle",
+      "category": "brauhaus",
+      "area": "dom-altstadt",
+      "address": "Heumarkt 6, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Rhineland / Kölsch brauhaus",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.2,
+      "google_reviews": 2584,
+      "google_as_of": null,
+      "rating_source": "spinach.guide",
+      "summary_ko": "호이마르크트(Heumarkt)에 있는, Mühlen Kölsch를 빚는 Malzmühle 양조장의 브라우하우스로, 음식과 친절한 서비스, 브라우하우스 특유의 분위기를 칭찬하는 후기가 많다. 쾰른 매체 독자 투표와 브라우하우스 추천 리스트에 꾸준히 이름을 올리는 곳.",
+      "must_try": [
+        "Mühlen Kölsch (뮐렌 쾰시 — 이 양조장의 쾰시)"
+      ],
+      "tags": [
+        "koelsch"
+      ],
+      "tips_ko": "Lebensmittelzeitung 보도(날짜 미확인)에 따르면 Malzmühle가 Sünner 양조장을 인수하고 Heumarkt의 맥주 생산을 Kalk로 옮길 예정이다. 브라우하우스는 2026년 8월자 채용공고가 올라와 있어 영업 중으로 보인다. 구글 평점은 출처별로 4.2~4.3(기준선 경계), 트립어드바이저 4.0(1,357건).",
+      "website": "https://malzmuehle.de",
+      "awards": [],
+      "sources": [
+        "https://spinach.guide/venues/brauerei-zur-malzmuhle-33208/",
+        "https://de.restaurantguru.com/Brauerei-zur-Malzmuhle-Cologne",
+        "https://www.werkenntdenbesten.de/brauerei/koeln",
+        "https://www.koeln.de/tourismus/ll/brauhaus-koeln/brauerei-zur-malzmuehle/",
+        "https://malzmuehle.de/wp-content/uploads/2026/08/Hausmeister-Schreiner_Stellenausschreibung_2026.pdf",
+        "https://www.lebensmittelzeitung.net/industrie/nachrichten/koelsch-hersteller-malzmuehle-schluckt-suenner-brauerei-161790",
+        "https://beertasting.com/en/beers/muhlen-kolsch",
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d1908458-Reviews-Brauerei_Zur_Malzmuhle-Cologne_North_Rhine_Westphalia.html",
+        "https://verliebtinkoeln.com/beste-brauhaus-koeln/",
+        "https://www.22places.com/cologne-breweries/"
+      ],
+      "confidence": "medium",
+      "research": "fnb-dom-altstadt-eigelstein",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "hallmackenreuther",
+      "name": "Hallmackenreuther",
+      "category": "cafe",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Platz 9, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Café-Bar im 50er-Jahre-Stil, Wochenend-Brunch",
+      "cuisine_group": "cafe-bakery",
+      "price_level": 2,
+      "price_note": "spinach.guide 가격대 표기 $$ (구체적 메뉴 가격은 이번 조사에서 미확인)",
+      "google_rating": 4.2,
+      "google_reviews": 990,
+      "google_as_of": null,
+      "rating_source": "spinach.guide",
+      "summary_ko": "브뤼셀러 플라츠(Brüsseler Platz)에 면한 1950년대 레트로 스타일 카페 겸 바로, 쾰른 사람이라면 거의 다 안다는 벨기에 지구의 터줏대감이다. 주말 브런치 테라스로 이름나 있어 동네 분위기를 느끼며 커피와 브런치를 즐기려는 사람에게 맞다.",
+      "must_try": [],
+      "tags": [
+        "terrace",
+        "brunch",
+        "local-favorite",
+        "late-night",
+        "open-sunday"
+      ],
+      "tips_ko": "리스팅 기준 매일 10:00 오픈, 금·토는 01:30까지, 일요일은 23:30까지(방문 전 재확인). 주말 브런치 시간대 테라스가 인기라 자리를 원하면 일찍 가는 편이 좋다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://spinach.guide/venues/hallmackenreuther-28875/",
+        "https://rausgegangen.de/en/locations/hallmackenreuther/",
+        "https://tablejourney.com/neighborhood/cologne/belgisches-viertel/cafe/",
+        "https://www.smart-travelling.net/locations/hallmackenreuther",
+        "https://koeln.mitvergnuegen.com/2026/cafes-belgisches-viertel/"
+      ],
+      "confidence": "medium",
+      "research": "fnb-belgisches-friesen",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "bei-oma-kleinmann",
+      "name": "Bei Oma Kleinmann",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 9, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Kölsche Eckkneipe – Schnitzel & Hausmannskost",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.7,
+      "google_reviews": 4677,
+      "google_as_of": null,
+      "rating_source": "gayout.com",
+      "summary_ko": "쥘피허 거리 초입의 오래된 모퉁이 선술집(에크크나이페) 겸 식당으로, 거대한 슈니첼 덕분에 '오마 클라인만은 컬트'라는 말을 듣는 쾰른의 명물이다. 구글 리뷰 4,600개 이상에 평점 4.7로, 푸짐한 독일 가정식을 원하는 여행자에게 첫손에 꼽을 만하다.",
+      "must_try": [
+        "Riesen-Schnitzel (대형 슈니첼 — 이 집의 대표 메뉴)"
+      ],
+      "tags": [
+        "reservation-recommended",
+        "local-favorite"
+      ],
+      "tips_ko": "작고 인기가 많아 사전 예약이 사실상 필수. 붐비는 시간엔 음식이 늦게 나올 수 있다는 리뷰가 있음. 11월 11일(카니발 시즌 개막일)에는 쥘피허 거리 일대가 인파로 통제되니 이날은 피할 것.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.gayout.com/europe/germany/cologne/restaurants/bei-oma-kleinmann",
+        "https://spinach.guide/venues/bei-oma-kleinmann-30508/",
+        "https://www.koeln.de/tourismus/ll/koelner-lokale-mit-koelscher-und-rheinischer-kueche/bei-oma-kleinmann/",
+        "https://koeln.mitvergnuegen.com/2019/11-cafes-restaurants-zuelpicher-strasse-koeln/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/bei_oma_kleinmann/bewertung",
+        "https://www.xtremefoodies.com/europe/Cologne/review/Bei-Oma-Kleinmann/Schnitzel/8223_8455"
+      ],
+      "confidence": "high",
+      "research": "fnb-ehrenfeld-lateng",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "braustelle",
+      "name": "Braustelle",
+      "category": "brauhaus",
+      "area": "ehrenfeld",
+      "address": "Christianstraße 2, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Hausbrauerei / brewpub – German pub fare",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.6,
+      "google_reviews": 342,
+      "google_as_of": null,
+      "rating_source": "werkenntdenbesten.de",
+      "summary_ko": "2001년부터 에렌펠트 헬리오스 지구 모퉁이를 지켜 온 작은 하우스 양조장 겸 동네 펍으로, '낮에는 쾰른에서 가장 작은 양조장, 밤에는 최고의 펍'이라는 평을 듣는다. 직접 빚은 헬리오스(Helios) 맥주에 소박한 독일식 안주를 곁들이고 싶은 맥주 애호가에게 잘 맞는다.",
+      "must_try": [
+        "Helios Kölsch (헬리오스 — 직접 양조한 쾰시 스타일 하우스 맥주, 인근 19세기 전기회사 '헬리오스'에서 딴 이름)",
+        "Ehrenfelder Alt (에렌펠더 알트 — 하우스 알트비어)",
+        "Ehrenfelder Brotzeitteller (에렌펠트식 브로트차이트 플레이트 — 맥주 안주 모둠)",
+        "Schnitzel (슈니첼 — 여러 가지 버전)"
+      ],
+      "tags": [
+        "craft-beer",
+        "local-favorite"
+      ],
+      "tips_ko": "좌석이 적은 모퉁이 가게라 저녁엔 붐빌 수 있음. 집계 사이트의 영업시간·메뉴가 오래됐을 수 있으니 방문 전 공식 사이트에서 확인할 것.",
+      "website": "https://www.braustelle.com",
+      "awards": [],
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/29129548/brauerei/koeln/braustelle-bewertungen.html",
+        "https://wanderlog.com/place/details/1784408/braustelle",
+        "https://restaurantguru.com/Braustelle-Cologne/menu",
+        "https://willkommen.koelntourismus.de/en/gastro/braustelle",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "confidence": "medium",
+      "research": "fnb-ehrenfeld-lateng",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "nuvola-napoli",
+      "name": "Nuvola Napoli",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Deutzer Freiheit 66a, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Neapolitan pizza",
+      "cuisine_group": "italian",
+      "price_level": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 1172,
+      "google_as_of": null,
+      "rating_source": "spinach.guide",
+      "summary_ko": "도이츠 메인 거리 도이처 프라이하이트에 있는 나폴리 피자 전문점으로, 피자 맛과 세심한 서비스를 칭찬하는 리뷰가 많다. Mit Vergnügen이 'Schäl Sick(라인강 건너편)의 벨라 이탈리아'로 소개한 동네 맛집이라 메쎄 점심이나 가벼운 저녁에 좋다.",
+      "must_try": [
+        "Pizza napoletana (나폴리식 피자 — 가장자리가 부풀고 쫄깃한 도우)"
+      ],
+      "tags": [
+        "near-messe",
+        "open-sunday",
+        "vegetarian-friendly",
+        "local-favorite"
+      ],
+      "tips_ko": "spinach.guide 기준 평일 12–22시, 주말 13–22시(koeln.de는 평일 12–22시)입니다. 평일 정오부터 열어 박람회 점심 시간에 맞추기 좋습니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://spinach.guide/venues/nuvola-napoli-32110/",
+        "https://www.reviewhero.io/nuvola-napoli-deutzer-freiheit-66a-koeln-d4a9",
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/nuvola-napoli/",
+        "https://koeln.mitvergnuegen.com/2023/nuvola-napoli/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/"
+      ],
+      "confidence": "high",
+      "research": "fnb-deutz-messe",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "lommerzheim",
+      "name": "Lommerzheim",
+      "category": "brauhaus",
+      "area": "deutz-messe",
+      "address": "Siegesstraße 18, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Traditional Kölsch pub (Päffgen), Rhineland pub food",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 정보 미확인(이번 조사에서 메뉴 가격 출처를 찾지 못함)",
+      "google_rating": 4.6,
+      "google_reviews": 4362,
+      "google_as_of": null,
+      "rating_source": "werkenntdenbesten.de",
+      "summary_ko": "도이츠 주택가 골목에 있는 낡고 소박한 옛 쾰시 선술집 '로미(Lommi)'로, 현지인과 관광객 모두에게 컬트적인 인기를 누린다. 1999년 G8 정상회의 때 빌 클린턴을 들이지 않았다는 일화로도 유명해, 꾸밈없는 쾰른 술집 분위기를 원하는 사람에게 맞는다.",
+      "must_try": [
+        "Päffgen Kölsch (파프겐 쾰시 — 이 집에서 따라 주는 쾰른 전통 생맥주)"
+      ],
+      "tags": [
+        "koelsch",
+        "local-favorite",
+        "beer-garden",
+        "near-messe"
+      ],
+      "tips_ko": "영업 요일·시간이 출처마다 달라(werkenntdenbesten: 평일 11:00–14:30, 16:30–24:00, 주말 정보 없음) 방문 전 반드시 확인하세요. 현금만 받는지도 이번 조사에서 확인하지 못했으니 현금을 챙겨 가는 편이 안전합니다. 날씨가 좋으면 비어가든 자리도 있습니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/100120571/restaurant/koeln/gaststaette-lommerzheim-bewertungen.html",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/lommerzheim",
+        "https://koeln.mitvergnuegen.com/koelnhaktnach/lommerzheim-bill-clinton/",
+        "https://koeln.mitvergnuegen.com/2025/deutz",
+        "https://cologne-tourism.com/delight-diversity/gastronomy/detail/lommerzheim",
+        "https://www.koeln.de/branchen/eintrag/21594/brauhaeuser/lommerzheim"
+      ],
+      "confidence": "high",
+      "research": "fnb-deutz-messe",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "deutzer-brauhaus",
+      "name": "Deutzer Brauhaus",
+      "category": "brauhaus",
+      "area": "deutz-messe",
+      "address": "Ottoplatz 7, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Brauhaus — Kölsch and Rhineland dishes",
+      "cuisine_group": "german",
+      "price_level": 2,
+      "price_note": "OpenTable 가격대 '보통(moderate)'",
+      "google_rating": 4.3,
+      "google_reviews": 9240,
+      "google_as_of": null,
+      "rating_source": "spinach.guide",
+      "summary_ko": "쾰른 메쎄/도이츠역 바로 앞 오토플라츠(Ottoplatz)에 있는 대형 브라우하우스로, 기차에서 내려 몇 걸음이면 갓 따른 쾰시를 마실 수 있다. 박람회 방문객·여행자·현지인이 뒤섞이는, 퇴근 후 한잔이나 단체 식사에 실용적인 곳.",
+      "must_try": [
+        "frisch gezapftes Kölsch (갓 따른 생 쾰시)"
+      ],
+      "tags": [
+        "koelsch",
+        "near-messe",
+        "group-friendly"
+      ],
+      "tips_ko": "리뷰 사이트마다 평가 편차가 큽니다. 분위기·맥주·가성비는 호평이지만 서비스와 음식 품질이 들쭉날쭉하다는 평도 있습니다. 박람회 기간 저녁엔 붐비니 OpenTable로 미리 예약하는 것이 좋습니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://spinach.guide/venues/deutzer-brauhaus-35211/",
+        "https://opentable.ae/deutzer-brauhaus",
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/deutzer-brauhaus/",
+        "https://speisekarte.menu/restaurants/koeln/deutzer-bahnhof",
+        "https://www.bahnhof.de/koeln-messe-deutz/einkaufen-und-essen/deutzer-brauhaus",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/",
+        "https://opentable.co.uk/neighborhood/n/raum-koln/koln/deutz-restaurants"
+      ],
+      "confidence": "medium",
+      "research": "fnb-deutz-messe",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "mongos-koeln",
+      "name": "Mongo's Köln",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Ottoplatz 1, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Mongolian grill — all-you-can-eat wok buffet (chain)",
+      "cuisine_group": "asian-fusion",
+      "price_level": 3,
+      "price_note": "OpenTable 가격대 '높음(gehoben)' — 무제한 코스 정확한 가격은 미확인",
+      "google_rating": 4.3,
+      "google_reviews": 3074,
+      "google_as_of": null,
+      "rating_source": "reviewhero.io",
+      "summary_ko": "도이츠역 앞 오토플라츠에 있는 몽골리안 그릴 체인점으로, 고기·채소·소스를 직접 골라 웍에서 볶아 주는 무제한(all-you-can-eat) 방식이다. 메뉴 고민 없이 여럿이 가기 좋은 메쎄 근처 단체 식사 옵션.",
+      "must_try": [
+        "Mongolian wok grill (직접 고른 재료를 웍에 볶아 주는 몽골리안 그릴)"
+      ],
+      "tags": [
+        "near-messe",
+        "group-friendly",
+        "open-sunday"
+      ],
+      "tips_ko": "OpenTable 기준 월–금 17–23시, 토 12–23시, 일 11:30–23시로 평일 점심 영업은 없습니다. 단품 메뉴는 전채 몇 가지뿐이라 사실상 무제한 코스만 가능합니다. 독일 여러 도시에 지점이 있는 체인입니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.reviewhero.io/mongo-s-restaurant-koln-1ede",
+        "https://www.reviewhero.io/de/mongolisches-grillrestaurant/koeln",
+        "https://www.opentable.com/r/mongos-restaurant-koln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/mongos_koeln",
+        "https://opentable.co.uk/neighborhood/n/raum-koln/koln/deutz-restaurants"
+      ],
+      "confidence": "medium",
+      "research": "fnb-deutz-messe",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "brauhaus-ohne-namen",
+      "name": "Brauhaus ohne Namen (b.o.n.)",
+      "category": "brauhaus",
+      "area": "deutz-messe",
+      "address": "Mathildenstraße 42, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Brauhaus — Rhineland / regional dishes",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.3,
+      "google_reviews": 1397,
+      "google_as_of": null,
+      "rating_source": "reviewhero.io",
+      "summary_ko": "도이츠 마틸덴슈트라세에 있는 젊고 아늑한 브라우하우스로, 라인 지방 향토 요리와 쾰시를 낸다. LANXESS 아레나·메쎄·도이츠역에서 걸어서 몇 분 거리라 행사 전후 저녁 식사에 좋고, 큼직한 코텔레트가 인기다.",
+      "must_try": [
+        "Braumeister Kotelett (브라우마이스터 코텔레트 — 350g짜리 뼈 붙은 돼지 폭찹)",
+        "Kölsch (쾰시)"
+      ],
+      "tags": [
+        "koelsch",
+        "near-messe",
+        "open-sunday",
+        "reservation-recommended"
+      ],
+      "tips_ko": "예약은 전화로만 받습니다(0221 812680). koeln.de 기준 화–토 17–23시, 일·공휴일 12–22시이지만 다른 목록에는 월·화 휴무나 16시 오픈으로 나와 있어 확인이 필요합니다. 1. FC 쾰른 토요일 경기가 있는 날은 킥오프 1시간 전에 문을 엽니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.reviewhero.io/de/brauereischaenke/koeln",
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/brauhaus-ohne-namen/",
+        "https://www.koeln.de/branchen/eintrag/2913/brauhaeuser/brauhaus-ohne-namen",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/brauhaus_ohne_namen",
+        "https://www.golocal.de/koeln-deutz/restaurants-gaststaetten/"
+      ],
+      "confidence": "medium",
+      "research": "fnb-deutz-messe",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "cafe-especial",
+      "name": "Café Especial",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Neuhöfferstraße 32, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Mexican cantina & tequila bar",
+      "cuisine_group": "latin-american",
+      "price_level": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.2,
+      "google_reviews": 3473,
+      "google_as_of": null,
+      "rating_source": "spinach.guide",
+      "summary_ko": "1986년부터 도이츠에서 영업해 온 멕시칸 레스토랑 겸 테킬라 바(칸티나)다. 타코·부리토·퀘사디야·나초 같은 친숙한 메뉴에 술을 곁들이는 캐주얼한 곳이라 여럿이 모이는 저녁에 무난하다.",
+      "must_try": [
+        "Tacos (타코)",
+        "Burritos (부리토)",
+        "Quesadillas (퀘사디야)",
+        "Nachos (나초)"
+      ],
+      "tags": [
+        "near-messe",
+        "group-friendly"
+      ],
+      "tips_ko": "구글 4.2점으로 기준선에 걸쳐 있고 리뷰가 엇갈립니다(음식은 호평이지만 붐빌 때 서비스가 느리거나 주문이 누락된다는 불만이 있음). 주소는 Neuhöfferstraße 32이며, 일부 목록에는 Deutzer Freiheit 89로 나와 있습니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://spinach.guide/venues/cafe-especial-koln-236271/",
+        "https://rausgegangen.de/blog/best-restaurants-koeln-deutz/",
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-und-kneipen-in-koeln-deutz_cafe_especial_L1121067_1121061.html",
+        "https://koeln.mitvergnuegen.com/2024/restaurants-deutz",
+        "https://tripaligner.com/countries/germany-22/destinations/koln-8618/places/cafe-especial-koln-983157"
+      ],
+      "confidence": "medium",
+      "research": "fnb-deutz-messe",
+      "checked": "2026-11-07"
+    }
+  ]
+}

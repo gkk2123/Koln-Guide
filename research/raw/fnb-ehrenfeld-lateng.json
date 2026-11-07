@@ -1,0 +1,543 @@
+{
+  "agent": "fnb-ehrenfeld-lateng",
+  "generated": "2026-11-07",
+  "scope": "Food & drink (restaurants, Brauhäuser/brewpubs, cafés, bakeries, dessert, street food; no cocktail/beer/wine bars) in Ehrenfeld and Kwartier Latäng (Zülpicher Viertel). Run cut short: shared WebSearch budget exhausted, so most entries are unverified candidates.",
+  "places": [
+    {
+      "id": "braustelle",
+      "name": "Braustelle",
+      "category": "brauhaus",
+      "area": "ehrenfeld",
+      "address": "Christianstraße 2, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Hausbrauerei / brewpub – German pub fare",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.6,
+      "google_reviews": 342,
+      "google_as_of": null,
+      "rating_source": "werkenntdenbesten.de",
+      "summary_ko": "2001년부터 에렌펠트 헬리오스 지구 모퉁이를 지켜 온 작은 하우스 양조장 겸 동네 펍으로, '낮에는 쾰른에서 가장 작은 양조장, 밤에는 최고의 펍'이라는 평을 듣는다. 직접 빚은 헬리오스(Helios) 맥주에 소박한 독일식 안주를 곁들이고 싶은 맥주 애호가에게 잘 맞는다.",
+      "must_try": [
+        "Helios Kölsch (헬리오스 — 직접 양조한 쾰시 스타일 하우스 맥주, 인근 19세기 전기회사 '헬리오스'에서 딴 이름)",
+        "Ehrenfelder Alt (에렌펠더 알트 — 하우스 알트비어)",
+        "Ehrenfelder Brotzeitteller (에렌펠트식 브로트차이트 플레이트 — 맥주 안주 모둠)",
+        "Schnitzel (슈니첼 — 여러 가지 버전)"
+      ],
+      "tags": ["craft-beer", "local-favorite"],
+      "tips_ko": "좌석이 적은 모퉁이 가게라 저녁엔 붐빌 수 있음. 집계 사이트의 영업시간·메뉴가 오래됐을 수 있으니 방문 전 공식 사이트에서 확인할 것.",
+      "website": "https://www.braustelle.com",
+      "awards": [],
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/29129548/brauerei/koeln/braustelle-bewertungen.html",
+        "https://wanderlog.com/place/details/1784408/braustelle",
+        "https://restaurantguru.com/Braustelle-Cologne/menu",
+        "https://willkommen.koelntourismus.de/en/gastro/braustelle",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "bei-oma-kleinmann",
+      "name": "Bei Oma Kleinmann",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 9, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Kölsche Eckkneipe – Schnitzel & Hausmannskost",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.7,
+      "google_reviews": 4677,
+      "google_as_of": null,
+      "rating_source": "gayout.com",
+      "summary_ko": "쥘피허 거리 초입의 오래된 모퉁이 선술집(에크크나이페) 겸 식당으로, 거대한 슈니첼 덕분에 '오마 클라인만은 컬트'라는 말을 듣는 쾰른의 명물이다. 구글 리뷰 4,600개 이상에 평점 4.7로, 푸짐한 독일 가정식을 원하는 여행자에게 첫손에 꼽을 만하다.",
+      "must_try": [
+        "Riesen-Schnitzel (대형 슈니첼 — 이 집의 대표 메뉴)"
+      ],
+      "tags": ["reservation-recommended", "local-favorite"],
+      "tips_ko": "작고 인기가 많아 사전 예약이 사실상 필수. 붐비는 시간엔 음식이 늦게 나올 수 있다는 리뷰가 있음. 11월 11일(카니발 시즌 개막일)에는 쥘피허 거리 일대가 인파로 통제되니 이날은 피할 것.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.gayout.com/europe/germany/cologne/restaurants/bei-oma-kleinmann",
+        "https://spinach.guide/venues/bei-oma-kleinmann-30508/",
+        "https://www.koeln.de/tourismus/ll/koelner-lokale-mit-koelscher-und-rheinischer-kueche/bei-oma-kleinmann/",
+        "https://koeln.mitvergnuegen.com/2019/11-cafes-restaurants-zuelpicher-strasse-koeln/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/bei_oma_kleinmann/bewertung",
+        "https://www.xtremefoodies.com/europe/Cologne/review/Bei-Oma-Kleinmann/Schnitzel/8223_8455"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "cafe-feynsinn",
+      "name": "Café Feynsinn",
+      "category": "cafe",
+      "area": "kwartier-lateng",
+      "address": "Rathenauplatz 7, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Café-Bistro – Bio-Frühstück, Kaffee, Mittagessen",
+      "cuisine_group": "cafe-bakery",
+      "price_level": null,
+      "price_note": "가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.2,
+      "google_reviews": 724,
+      "google_as_of": null,
+      "rating_source": "gelbeseiten.de",
+      "summary_ko": "공원 광장 라테나우플라츠에 면한 동네 카페 겸 비스트로로, 유기농 재료를 쓴 아침·커피·점심으로 알려져 있다. 대학가에서 느긋한 아침을 먹고 싶은 사람에게 맞지만, 평점은 기준선에 걸쳐 있다.",
+      "must_try": [
+        "Bio-Frühstück (유기농 재료 아침 메뉴)",
+        "Mittagessen (유기농 재료 점심 메뉴)"
+      ],
+      "tags": ["breakfast", "reservation-recommended"],
+      "tips_ko": "좌석이 한정적이라 저녁 식사나 단체는 예약 권장. 구글 평점이 딱 4.2로 기준선이고 다른 포털 점수(3.7)는 더 낮아 평가가 엇갈림.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.gelbeseiten.de/gsbiz/c575c5e8-cb41-43be-935a-0d9f8bef67d6",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/cafe_feynsinn",
+        "https://speisekarte.menu/restaurants/koeln/feynsinn",
+        "https://www.airbnb.com/things-to-do/places/44295"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Haus Scholzen",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 236, 50823 Köln",
+      "reason": "google-numbers-not-found: searched (koeln.de, speisekarte, restaurantguru, wanderlog snippets) but no Google rating/count surfaced",
+      "found": "Traditional German restaurant since 1907 (koeln.de); known for Ehrenfelder Senfrostbraten, also roast goose and potato pancakes; restaurantguru ~€20–30 per person; hours Wed–Sun 11:30–15 & 17–23 (koeln.de/wanderlog); speisekarte.de 5.0 (1 review); Airbnb 55 local recommendations. Listed in Mit Vergnügen 2026 Ehrenfeld list. Note: speisekarte.de page title shows PLZ 50667, koeln.de shows 50823 (50823 is the Ehrenfeld PLZ).",
+      "sources": [
+        "https://www.koeln.de/leben/ll/beliebte-restaurants-in-koeln-ehrenfeld/haus-scholzen",
+        "https://restaurantguru.com/Haus-Scholzen-Cologne",
+        "https://wanderlog.com/place/details/2371198/haus-scholzen",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/haus_scholzen1",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ]
+    },
+    {
+      "name": "Essers Gasthaus",
+      "area": "ehrenfeld",
+      "address": "Ottostraße 72, 50823 Köln",
+      "reason": "google-numbers-not-found: searched but no Google rating/count surfaced",
+      "found": "Austrian-style Gasthaus in Neuehrenfeld (corner Ottostraße/Nussbaumerstraße) with an award-winning wine list (one source: Star Wine List No. 1 in 2023); speisekarte.de no reviews. Hours conflict: koeln.de says closed Wednesdays, kitchen from 18:00; speisekarte.de says daily 17:30–23:00.",
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/essers_gasthaus",
+        "https://www.koeln.de/branchen/eintrag/43172/restaurants/essers-gasthaus",
+        "https://www.enprimeurclub.com/restaurants/essers-gasthaus-cologne-restaurant",
+        "https://joinpearl.co/restaurants/cologne-germany/essers-gasthaus"
+      ]
+    },
+    {
+      "name": "Herbrand's",
+      "area": "ehrenfeld",
+      "address": "Herbrandstraße 21, 50825 Köln",
+      "reason": "google-numbers-not-found: searched but no Google rating/count surfaced",
+      "found": "Restaurant + large beer garden + event hall/club in a former wagon factory (Köln Tourismus, dein-nrw); Wanderlog describes it as spacious and lively with a big outdoor Biergarten. No ratings in results.",
+      "sources": [
+        "https://willkommen.koelntourismus.de/en/gastro/herbrands",
+        "https://entdecke.dein-nrw.de/en/dein-nrw/streaming/detail/Gastro/g_100014846/herbrand-s",
+        "https://www.koeln.de/branchen/eintrag/42997/biergaerten/herbrands",
+        "https://extensionembed.wanderlog.com/place/details/1506283"
+      ]
+    },
+    {
+      "name": "Bunte Burger",
+      "area": "ehrenfeld",
+      "address": "Hospeltstraße 1, 50825 Köln",
+      "reason": "google-numbers-not-found: searched but no Google rating/count surfaced",
+      "found": "Fully vegan organic burger restaurant + catering, ~50 m from tram stop Leyendeckerstraße (lines 3, 4); speisekarte.de 4.3 (20 reviews, not Google); HappyCow reviews mixed; speisekarte.de lists Wed–Sun, closed Mon/Tue. One older article (rausgegangen) gives Brabanter Str. 48 — probably a former location.",
+      "sources": [
+        "https://willkommen.koelntourismus.de/en/gastro/bunte-burger",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/bunte_burger",
+        "https://happycow.net/reviews/bunte-burger-cologne-47443?page=4",
+        "https://www.findmeglutenfree.com/biz/bunte-burger/5879718352650240",
+        "https://rausgegangen.de/blog/vegane-restaurants-in-koeln/"
+      ]
+    },
+    {
+      "name": "Restaurant Fabian",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 531, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Mezze at fine-dining level, made for sharing; in Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld'. Possible upscale pick.",
+      "sources": ["https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"]
+    },
+    {
+      "name": "Esszimmer Köln",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 434, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Upscale international restaurant; OpenTable 4.7 (not Google). Possible upscale pick.",
+      "sources": ["https://www.opentable.com/r/esszimmer-koln"]
+    },
+    {
+      "name": "Nonna Napoli Ehrenfeld",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 248, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Neapolitan pizza and truffle pasta; in Mit Vergnügen 2026 Ehrenfeld list at Venloer Straße 248 (a 2025 snippet mentions 'Nonna Napoli ... in einem Hinterhof an der Vogelsanger Straße' — likely mixed up with Gusto Antico; verify). Sister branch on Zülpicher Straße 5.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/"
+      ]
+    },
+    {
+      "name": "Gusto Antico",
+      "area": "ehrenfeld",
+      "address": "Vogelsanger Straße 216, 50825 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Italian, described as a hidden gem with generous, cheap lunches; in Mit Vergnügen 2026 Ehrenfeld list and 2025 lunch lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/mittagessen/"
+      ]
+    },
+    {
+      "name": "Pizzeria Spaccanapoli",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 502, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Pizzeria in Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld'.",
+      "sources": ["https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"]
+    },
+    {
+      "name": "Virtuous Pie",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 241–245, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "In Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld' (same address as Sushi Ninja); cuisine not confirmed in results.",
+      "sources": ["https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"]
+    },
+    {
+      "name": "Sushi Ninja",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 241–245, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Sushi; in Mit Vergnügen 2026 Ehrenfeld and Venloer Straße lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
+      ]
+    },
+    {
+      "name": "Viet Village Ehrenfeld",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 235, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Vietnamese street food; in Mit Vergnügen 2026 Ehrenfeld list and 2025 Ehrenfeld lunch list.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/"
+      ]
+    },
+    {
+      "name": "Qing Tian",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 207, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Chinese hand-pulled noodles; in Mit Vergnügen 2026 Ehrenfeld list and 2025 Ehrenfeld lunch list.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/"
+      ]
+    },
+    {
+      "name": "Thai Street Food",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 282, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Thai street food; in Mit Vergnügen 2026 Ehrenfeld and Venloer Straße lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
+      ]
+    },
+    {
+      "name": "Masala Empire",
+      "area": "ehrenfeld",
+      "address": "Neptunplatz 6a, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Indian; in Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld'.",
+      "sources": ["https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"]
+    },
+    {
+      "name": "Vegan Food Revolution",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 456, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Vegan restaurant; in Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld'; En Primeur Club has a 'Vegan Revolution' Cologne page.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://www.enprimeurclub.com/restaurants/vegan-revolution-cologne-restaurant"
+      ]
+    },
+    {
+      "name": "Kebapland",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 385, 50825 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Cult kebab snack bar (~10 years old per koeln.de); charcoal-grilled lamb skewers; Falstaff street-food listing praises Kebabteller, Kebabtaschen, Lahmacun, Falafel; a Mit Vergnügen-linked article spells it 'Kebabland'. Strong Turkish street-food pick if numbers check out.",
+      "sources": [
+        "https://www.koeln.de/leben/ll/imbisse-und-fast-food-in-koeln/kebapland",
+        "https://www.falstaff.com/en/listings/kebap-street-food-restaurants-in-cologne",
+        "https://www.spottedbylocals.com/cologne/kebapland",
+        "https://cologne-tourism.com/delight-diversity/gastronomy/detail/kebapland"
+      ]
+    },
+    {
+      "name": "Falafel König",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 384, 50825 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Well-known Ehrenfeld falafel spot; in Mit Vergnügen 2026 Ehrenfeld, Venloer Straße and 2025 lunch lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/"
+      ]
+    },
+    {
+      "name": "Tantuni Haus",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 282, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Turkish tantuni (Mersin-style meat wrap); in Mit Vergnügen 2026 Venloer Straße list.",
+      "sources": ["https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"]
+    },
+    {
+      "name": "Eat Kumpir",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 274, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Turkish loaded baked potatoes (kumpir); in Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld'.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://www.enprimeurclub.com/restaurants/eat-kumpir-cologne-restaurant"
+      ]
+    },
+    {
+      "name": "Kudret Kebap House",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 280, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Walk-in Turkish kebab house (En Primeur Club listing).",
+      "sources": ["https://www.enprimeurclub.com/restaurants/kudret-kebap-house-cologne-restaurant"]
+    },
+    {
+      "name": "Murat Grill-Imbiss & Pizzeria",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 464, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Turkish grill snack bar; recommended for lahmacun with lemon and parsley, also a vegetarian version (from a Turkish-food roundup in the search results; exact page not isolated).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/wie-in-der-tuerkei/",
+        "https://iza-server.uibk.ac.at/pywb/dilimag/20210113092156mp_/https://renk-magazin.de/en/best-german-turkish-restaurants-cologne"
+      ]
+    },
+    {
+      "name": "Soliana",
+      "area": "ehrenfeld",
+      "address": "Subbelrather Straße, Köln (house number unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Ethiopian/injera restaurant on Subbelrather Straße; in Mit Vergnügen 2025/2026 Ehrenfeld lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ]
+    },
+    {
+      "name": "Ehrenfeld Café",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße, Köln (house number unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Turkish café; owner Atilla brews mocha the traditional way in hot sand.",
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/ehrenfeldcafe",
+        "https://www.koeln.de/branchen/eintrag/58684/cafes/ehrenfeld-cafe"
+      ]
+    },
+    {
+      "name": "Café Sehnsucht",
+      "area": "ehrenfeld",
+      "address": "Körnerstraße 67, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Café/breakfast spot on Körnerstraße; in Mit Vergnügen 2026 '21 Cafés in Ehrenfeld', Goethe-Institut Cologne café list, Tripadvisor listing.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/cafes-in-ehrenfeld/",
+        "https://www.goethe.de/ins/in/de/kul/soc/osg/22647394.html",
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d2496675-Reviews-Cafe_Sehnsucht-Cologne_North_Rhine_Westphalia.html"
+      ]
+    },
+    {
+      "name": "Van Dyck Ehrenfeld",
+      "area": "ehrenfeld",
+      "address": "Körnerstraße 43, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Espresso bar / coffee roaster café in a former hair salon; in Mit Vergnügen 2026 '21 Cafés in Ehrenfeld', Rausgegangen and veranstaltungenkoeln café lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/cafes-in-ehrenfeld/",
+        "https://rausgegangen.de/en/blog/places-secret-tips-ehrenfeld-koeln/",
+        "https://www.veranstaltungenkoeln.de/tipps/cafes-koeln-ehrenfeld"
+      ]
+    },
+    {
+      "name": "Hellers Brauhaus",
+      "area": "kwartier-lateng",
+      "address": "Roonstraße 33, 50674 Köln",
+      "reason": "google-numbers-not-found: searched but no Google rating/count surfaced; note brewing stopped after summer 2024 (pub still open)",
+      "found": "Brauhaus of the former Brauerei Heller; per leinetal24, beer production ended after summer 2024 but Hellers Brauhaus and Volksgarten stay open; OpenTable 4.8 (6) incl. a review of a 31 Jan 2026 visit (still operating); dastelefonbuch golocal 4.0 (4), 61 Yelp reviews; popular with students; one listing says cash only; hours conflict across listings (evenings from ~17:00, Sunday maybe closed).",
+      "sources": [
+        "https://restaurantguru.com/Hellers-Brauhaus-Cologne",
+        "https://wanderlog.com/place/details/1784413/hellers-brauhaus",
+        "https://www.leinetal24.de/welt/roonstrasse-pils-hellers-bier-brauerei-koelsch-sort-produktion-eingestellt-anna-heller-zr-92846067.html",
+        "https://www.opentable.com/r/hellers-brauhaus-koln",
+        "https://adresse.dastelefonbuch.de/K%C3%B6ln/3-Brauereien-Heller-GmbH-K%C3%B6ln-Roonstr.html"
+      ]
+    },
+    {
+      "name": "Brauhaus Pütz",
+      "area": "kwartier-lateng",
+      "address": "Engelbertstraße 67, 50674 Köln",
+      "reason": "google-numbers-not-found: only multi-portal aggregates found, no Google-only figure",
+      "found": "Aggregates: 4.6 from 3,444 reviews across 3 sources and 4.40 from 1,755 reviews across 8 portals (search summaries, source pages not isolated); Wanderlog/restaurantguru snippet '4.4–4.5 across ~1,000–1,650 reviews depending on platform'. Mühlen Kölsch on tap (no own brewing), Schnitzel, Bratwurst, Haxe; vaulted cellar rooms; hours Mon–Fri 16–24, Sat 15–24, Sun 15–23 (25hours/restaurantguru). Very likely qualifies once Google-only numbers are found.",
+      "sources": [
+        "https://restaurantguru.com/Brauhaus-Putz-Cologne",
+        "https://wanderlog.com/place/details/490867/brauhaus-p%C3%BCtz",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/brauhaus_puetz1",
+        "https://www.koeln.de/branchen/eintrag/45750/brauhaeuser/brauhaus-puetz",
+        "https://25hours-hotels.com/?p=21714"
+      ]
+    },
+    {
+      "name": "La Société",
+      "area": "kwartier-lateng",
+      "address": "Kyffhäuserstraße 53, 50674 Köln",
+      "reason": "google-numbers-not-found: searched but no Google rating/count surfaced; 2026 Michelin status unverified",
+      "found": "One Michelin star per guide.michelin.com listing (chef Leon Hofmockel); OpenTable lists star 2023 and 2024, Pearl/En Primeur Club cite 2024 and 2025; La Liste 2026: 78 pts. Upscale pick for the student quarter if Google numbers and 2026 star are confirmed.",
+      "sources": [
+        "https://guide.michelin.com/en/nordrhein-westfalen/koln/restaurant/la-societe",
+        "https://www.opentable.com/r/la-societe-koln",
+        "https://joinpearl.co/restaurants/cologne-germany/la-societe",
+        "https://www.enprimeurclub.com/restaurants/la-societe-cologne-restaurant"
+      ]
+    },
+    {
+      "name": "Asia Oma",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 38, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Chinese; Mit Vergnügen 2024 calls it 'maybe the best restaurant on Zülpicher Straße, judging by Google reviews' (no numbers given); simple but very warm atmosphere.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/",
+        "https://onlinestreet.de/poi/MVl2WCtqdXFlTXFKYzNDb0ZzQWFFdz09"
+      ]
+    },
+    {
+      "name": "Ni'Hao Nudelbar",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 46, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Handmade Chinese noodles; opened around 2024; in Mit Vergnügen 2024 Zülpicher Straße list. Not to be confused with 'NiHao' on Aachener Straße 31.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/",
+        "https://nihaonudelbar-koeln.de/",
+        "https://www.gastroguide.de/restaurant/289766/ni-hao-nudelbar/koeln/"
+      ]
+    },
+    {
+      "name": "Habibi",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 28, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Lebanese falafel/shawarma snack bar, halal; called Cologne's best-known falafel shop; tablejourney score 3.9 (own score, not Google). Classic cheap student eat.",
+      "sources": [
+        "https://www.enprimeurclub.com/restaurants/habibi-koln-cologne-restaurant",
+        "https://joinpearl.co/restaurants/cologne-germany/habibi-koln",
+        "https://tablejourney.com/germany/cologne/casual-dining/habibi-cologne/"
+      ]
+    },
+    {
+      "name": "Ferkulum",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 37, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Late-night flatbread stop, open until 3 a.m. (Mit Vergnügen 2024 Zülpicher Straße list).",
+      "sources": ["https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/"]
+    },
+    {
+      "name": "Ristorante Etrusca",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 27, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Italian for 40+ years, Sardinian specialties (Mit Vergnügen 2024 Zülpicher Straße list).",
+      "sources": ["https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/"]
+    },
+    {
+      "name": "Nonna Napoli (Zülpicher Straße)",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 5, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Neapolitan pizza (branch of the Ehrenfeld Nonna Napoli); listed by En Primeur Club and a University of Cologne food guide.",
+      "sources": [
+        "https://www.enprimeurclub.com/restaurants/nonna-napoli-cologne-restaurant",
+        "https://hf.uni-koeln.de/data/eso34/File/Restaurant_Mensa%20update%207-9-26.pdf"
+      ]
+    },
+    {
+      "name": "Borsalino",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße, Köln (house number unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Trattoria since the 1980s with cheap pasta dishes (tablejourney listing).",
+      "sources": ["https://tablejourney.com/germany/cologne/casual-dining/borsalino-cologne/"]
+    },
+    {
+      "name": "Tsukiji",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Platz, Köln (exact address unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Japanese; Mit Vergnügen calls it probably the hottest food tip in Kwartier Latäng.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/essen-kwartier-lataeng",
+        "https://koeln.mitvergnuegen.com/2026/kwartier-lataeng"
+      ]
+    },
+    {
+      "name": "Oruc",
+      "area": "kwartier-lateng",
+      "address": "Ecke Heinsbergstraße/Kyffhäuserstraße, Köln (exact address unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Döner shop; fans call it the best döner in the city (Mit Vergnügen Kwartier Latäng).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/essen-kwartier-lataeng",
+        "https://koeln.mitvergnuegen.com/2026/kwartier-lataeng"
+      ]
+    },
+    {
+      "name": "Com Pho",
+      "area": "kwartier-lateng",
+      "address": "near Zülpicher Straße, Köln (address unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Vietnamese pho; listed in a University of Cologne food guide (2026 update) for the Zülpicher Straße area.",
+      "sources": ["https://hf.uni-koeln.de/data/eso34/File/Restaurant_Mensa%20update%207-9-26.pdf"]
+    },
+    {
+      "name": "Café Wo ist Tom?",
+      "area": "kwartier-lateng",
+      "address": "near Zülpicher Straße, Köln (address unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Café listed in a University of Cologne food guide (2026 update) for the Zülpicher Straße area.",
+      "sources": ["https://hf.uni-koeln.de/data/eso34/File/Restaurant_Mensa%20update%207-9-26.pdf"]
+    }
+  ]
+}

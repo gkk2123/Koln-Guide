@@ -1,0 +1,1590 @@
+{
+  "meta": {
+    "generated": "2026-11-07",
+    "criteria": {
+      "min_google_rating": 4.2,
+      "min_google_reviews": 50
+    },
+    "research_files": [
+      "bars.json",
+      "fnb-belgisches-friesen.json",
+      "fnb-deutz-messe.json",
+      "fnb-dom-altstadt-eigelstein.json",
+      "fnb-ehrenfeld-lateng.json",
+      "fnb-suedstadt-other-korean.json"
+    ],
+    "count": 125
+  },
+  "items": [
+    {
+      "name": "Little Link",
+      "area": "belgisches-viertel",
+      "address": "Maastrichter Straße 20, 50672 Köln",
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "Falstaff 바 페이지 96점(가이드 연도 표기 미확인). Bar Magazine 'The 8 Best Bars in Cologne (2026)' 선정. 공식 사이트 타이틀 문구 'Innovativste Bar des Jahres'(연도·주최 미확인). Accor 여행 가이드가 'World's 50 Best Bars 리스트에 포함된 적 있다'고 쓰지만 연도·순위 없음 — 50 Best 리스트 출처로는 확인되지 않음(가이드에 표기 금지). 창업자 Stephan Hinz, 자가 제조 재료(포르치니 위스키, 로즈힙 슈럽, 블랙베리 캐비아), 슬라이더 23시까지. 구글 평점·리뷰 수 미확보.",
+      "sources": [
+        "https://www.littlelink.de/en/",
+        "https://www.falstaff.com/en/bars/little-link",
+        "https://barmagazine.com/best-bars/cologne",
+        "https://all.accor.com/a/en/limitless/thematics/entertainment/bars-in-cologne.html",
+        "https://wanderlog.com/place/details/1478418/little-link"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "Seiberts",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenwall, Köln (번지·우편번호 미확인)",
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "Volker Seibert가 운영하는 클래식 칵테일 바(Seiberts Classic Bar & Liquid Kitchen). enprimeurclub.com: World's 500 Best Bars(Top 500 Bars) 2025 436위(원 리스트 미확인). 검색 요약상 Mixology Bar Awards 2025 Top 10(원출처 페이지 특정 못 함). Wanderlog: 책 '150 Bars You Need to Visit Before You Die' 수록. 구글 수치 미확보.",
+      "sources": [
+        "https://www.enprimeurclub.com/bars/seiberts-bar-cologne-bar",
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "Toddy Tapper",
+      "area": "agnesviertel-eigelstein",
+      "address": "Schillingstraße 27, Köln (우편번호 미확인)",
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "50 Best 공식 'Discovery' 데이터베이스 등재(순위 리스트 아님). 스리랑카 출신 바텐더 Indika Silva 운영, 이름은 아락(arrack) 원료인 야자 수액 채취꾼에서 따왔고 메뉴 전반에 아락 사용. 제3자 리스트에 'Falstaff가 독일 최고 바 중 하나로 꼽음' 언급(출처 페이지 특정 못 함). 구글 수치 미확보.",
+      "sources": [
+        "https://www.theworlds50best.com/discovery/Establishments/Germany/Cologne/Toddy-Tapper.html"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "Asimmetric Bar",
+      "area": "ehrenfeld",
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "koelnticket 매거진: '50 Best Discovery in the World 2022' 등재(순위 리스트 아님). 주소·영업 여부·구글 수치 미확보.",
+      "sources": [
+        "https://www.koelnticket.de/magazin/deine-stadt/koeln-bei-nacht-entdecke-die-besten-bars-der-domstadt"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "Papa Joe's Jazzlokal",
+      "area": "dom-altstadt",
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "Travelbook 기사: European Bar Guide의 유럽 베스트 바 리스트 6위, '세계 최고의 재즈바 중 하나'로 소개(리스트 연도 미확인). 구시가의 재즈 라이브 펍. 주소·구글 수치 미확보.",
+      "sources": [
+        "https://www.travelbook.de/orte/auch-eine-deutsche-dabei-die-besten-bars-in-europa"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "ONA MOR",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "konfetti의 쾰른 칵테일바 가이드에 선정, 다른 쾰른 바 리스트에서도 인기 칵테일바로 반복 언급. 위치·주소·구글 수치 미확보.",
+      "sources": [
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "Monkey Bar (25hours Hotel The Circle)",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "검색 요약에서 쾰른 인기 바로 이름만 언급(Wanderlog·Yelp·funkyGERMANY 등 리스트 묶음, 정확한 출처 페이지 특정 못 함). 리드 시드 정보로는 25hours Hotel The Circle 루프탑 바 — 이번 세션에서 위치·영업·구글 수치 확인 못 함.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne",
+        "https://funkygermany.com/en/best-bars-in-cologne/"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "Soul Bar",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "검색 요약에서 쾰른 인기 바로 이름만 언급(Wanderlog·Yelp·funkyGERMANY 등 리스트 묶음, 정확한 출처 페이지 특정 못 함). 위치·종류·구글 수치 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne",
+        "https://funkygermany.com/en/best-bars-in-cologne/"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "Barito",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "konfetti의 쾰른 베스트 칵테일바 가이드에 선정. 위치·주소·구글 수치 미확보.",
+      "sources": [
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "Franky's Bar",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "konfetti의 쾰른 베스트 칵테일바 가이드에 선정. 위치·주소·구글 수치 미확보.",
+      "sources": [
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "Shaker's",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "konfetti의 쾰른 베스트 칵테일바 가이드에 선정. 위치·주소·구글 수치 미확보.",
+      "sources": [
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ],
+      "research": "bars"
+    },
+    {
+      "name": "Christoph Paul's Restaurant",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Straße 26, 50674 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing: no exact Google review count found (strong candidate, Michelin-listed)",
+      "found": "Michelin Guide 등재(€€ · Marktküche/saisonal, schöne Terrasse; Christoph Paul & Juliane 운영). En Primeur Club 표에 'Bib Gourmand' 표시(연도 미표시). 출처가 불분명한 애그리게이터 문구 'Google-Nutzer vergeben 4,7 bei über 200 Bewertungen' — 정확한 리뷰 수가 없어 채택하지 않음. 영업시간 출처별 상이(Foodle: 수–토 18:00~, Schlemmer-Atlas: 화–금 17:30~). 전화번호도 출처별 1자리 상이.",
+      "sources": [
+        "https://guide.michelin.com/en/nordrhein-westfalen/koln/restaurant/christoph-pauls-restaurant",
+        "https://www.enprimeurclub.com/restaurants/christoph-pauls-restaurant-cologne-restaurant",
+        "https://foodle.pro/restaurants/cologne/christoph-paul-s-restaurant",
+        "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/christoph-pauls-restaurant/",
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/christoph-pauls-restaurant"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Café Bauturm",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 24–26, 50674 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-ambiguous: spinach.guide 4.2 (802) may be Spinach's own score, other aggregates are lower",
+      "found": "spinach.guide 4.2 (802) — 구글 수치인지 spinach 자체 점수인지 불명확. speisekarte.menu 3.8 (5,805건, 출처 미표기). speisekarte.de 4.8 (4건). Theater im Bauturm 옆, 20년 넘은 '쾰른 인스티튜션', 비건 옵션 있음. Falstaff는 바(bar)로 분류.",
+      "sources": [
+        "https://spinach.guide/venues/cafe-bauturm-29790/",
+        "https://speisekarte.menu/restaurants/cologne/bauturm-cafe",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/bauturm_cafe",
+        "https://www.falstaff.com/de/bars/bauturm"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Salon Schmitz",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 28, 50674 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-missing; aggregate scores (3.8–3.99) suggest likely below-criteria",
+      "found": "werkenntdenbesten.de 종합 3,99 (4개 포털 합산 1425건, 구글 단독 수치는 검색 결과에 노출되지 않음). speisekarte.menu 3.8 (7,211건, 출처 미표기). 번지 출처별 상이: 28(werkenntdenbesten, speisekarte.menu) / 28–30(smart-travelling) / 34(koeln.de). koeln.de는 'Schmitz – Salon, Bar, Metzgerei' 묶음으로 소개하며, Metzgerei Schmitz 별도 수치는 미확인.",
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/42567766/cafe/koeln/salon-schmitz-bewertungen.html",
+        "https://speisekarte.menu/restaurants/koeln/salon-schmitz",
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-im-belgischen-viertel-in-koeln_schmitz-bar-salon-metzgerei-brasserie_L1134356_1134345.html",
+        "https://smart-travelling.net/locations/salon-schmitz"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Sorgenfrei",
+      "area": "belgisches-viertel",
+      "address": "Antwerpener Straße 15, 50672 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing; operating status unclear",
+      "found": "foodle.pro 등록(Sorgenfrei Wein und Speisen GmbH, 별점 없음). 예전 Lonely Planet 소개: 와인 리스트가 좋은 현지 인기 미식 레스토랑. OpenTable에 'sorgenfrei permanently closed' 페이지가 있으나 어느 지점인지 불명(케르펜·칭스트의 동명 업소 리스팅이 섞여 나옴). 쾰른 지점 폐업 보도는 찾지 못함.",
+      "sources": [
+        "https://foodle.pro/restaurants/cologne/sorgenfrei-wein-und-speisen-gmbh",
+        "https://www-lonelyplanet-com-57e2.imagizer.com/germany/north-rhine-westphalia/cologne/restaurants/sorgenfrei/a/poi-eat/1294360/359392",
+        "https://www.opentable.com/sorgenfrei-permanently-closed"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Tanoshii",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing (not researched further: search budget exhausted)",
+      "found": "Mit Vergnügen 2026 'Restaurants Belgisches Viertel': 쾰른의 고급 스시 주소 중 하나, 포케볼·베트남 요리도, 날씨 좋으면 안뜰(Hinterhof) 좌석, 예약 필수. 두부·가지 요리 추천.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Tigermilch",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing (not researched further: search budget exhausted)",
+      "found": "Mit Vergnügen 2025/2026: 모던 페루 퓨전, 타파스 크기로 나눠 먹는 구성('페루 요리 팬에게 필수'). tablejourney에 브런치 페이지 있음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-belgisches-viertel",
+        "https://tablejourney.com/germany/cologne/brunch/tigermilch-brunch/",
+        "https://www.enprimeurclub.com/restaurants/tigermilch-cologne-restaurant"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Wen Cheng",
+      "area": "belgisches-viertel",
+      "address": "Köln Innenstadt (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing; address and exact area not confirmed",
+      "found": "Mit Vergnügen 벨기에 지구 리스트: 베를린의 인기 수타면(handgezogene Nudeln) 가게가 쾰른 시내에 새로 오픈. 신규 매장이라 리뷰 수가 기준(50)에 못 미칠 수 있음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Belgischer Hof",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Straße, Köln (Hausnummer nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "독일·프랑스 요리, 녹음 짙은 안뜰, 큰 와인 리스트, 플람쿠헨(Flammkuchen) (Rausgegangen, Mit Vergnügen). Wanderlog 설명: 모던 프렌치. tablejourney 자체 점수 3.8.",
+      "sources": [
+        "https://rausgegangen.de/blog/unsere-lieblingsrestaurants-im-belgischen-viertel/",
+        "https://extensionembed.wanderlog.com/place/details/3077332",
+        "https://www.koeln.de/gastro/eintrag/44663/restaurants/belgischer-hof",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Petit Frère",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing; listed in 2024 roundup, 2026 status not confirmed",
+      "found": "Mit Vergnügen 2024: 로맨틱 디너·특별한 날용, 가격은 공정한 편, 점심 영업도 함. tablejourney 분류: Modern French / fine dining.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/restaurants-belgisches-viertel",
+        "https://tablejourney.com/germany/cologne/fine-dining/petit-frere/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Ouzeria",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing; 2026 status not confirmed",
+      "found": "koeln.de / 예전 Mit Vergnügen: 지중해식 작은 접시(메제) 중심의 캐주얼 파인다이닝.",
+      "sources": [
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-im-belgischen-viertel-in-koeln_ouzeria-in-k-ln-mediterrane-kleinigkeite_L1134356_1166626.html"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Daikan",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "Mit Vergnügen: 일본식 이자카야·라멘·스시, 작은 테라스, 비건 메뉴 있음. tablejourney 페이지 있음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/",
+        "https://tablejourney.com/germany/cologne/restaurants/daikan-cologne/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Mandalay",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "Mit Vergnügen: 쾰른 유일의 미얀마(버마) 레스토랑, 수수한 외관과 달리 음식 평이 좋음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Shaka Zulu",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "Mit Vergnügen: 남아프리카 요리, '쾰른에서 아마 가장 화려한 아프리카 레스토랑'.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Warung Bayu",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "Mit Vergnügen: 작은 인도네시아·발리 식당, 커리와 샐러드. tablejourney 페이지 있음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/",
+        "https://tablejourney.com/germany/cologne/restaurants/warung-bayu-cologne/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "SORELLINA di Nuvola Napoli (Belgisches Viertel)",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing (venue page found, numbers not seen)",
+      "found": "spinach.guide에 'SORELLINA di Nuvola Napoli (Belgisches Viertel)' 페이지 존재 — 이름상 나폴리 피자 계열. 평점·주소는 검색 결과에 나오지 않음.",
+      "sources": [
+        "https://spinach.guide/venues/sorellina-di-nuvola-napoli-belgisches-viertel-242681/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Café Luz",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Platz, 50674 Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing; new café, review count may be low",
+      "found": "Mit Vergnügen 2026 카페 리스트 도입부에 소개: 쥘츠(Sülz)의 유명 디저트 카페 팀이 Brüsseler Platz에 연 새 카페.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/cafes-belgisches-viertel/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Café Belgique",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Platz, 50674 Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "koeln.de '인기 거리 카페': 해 좋은 오후 주민과 쾰른 팬이 나란히 앉는 커피·케이크 카페. 영업시간(koeln.de) 일–목 12–19시, 금·토 12–23시.",
+      "sources": [
+        "https://www.koeln.de/leben/ll/beliebte-koelner-strassencafes/cafe-belgique/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Balthasar",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße, Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "동네 카페·비스트로, 종일 브런치·케이크·와인(tablejourney). tablejourney 자체 점수 4.0.",
+      "sources": [
+        "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Café Caprista",
+      "area": "belgisches-viertel",
+      "address": "Flandrische Straße, Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "푸짐한 브런치 플레이트와 오후 케이크(tablejourney). tablejourney 자체 점수 4.7.",
+      "sources": [
+        "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "The Coffee Gang",
+      "area": "belgisches-viertel",
+      "address": "Maastrichter Straße, Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "스페셜티 커피 바, 게스트 로스터 필터·에스프레소(tablejourney).",
+      "sources": [
+        "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Café Buur",
+      "area": "belgisches-viertel",
+      "address": "Maastrichter Straße, Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "브런치 카페(tablejourney 브런치 페이지).",
+      "sources": [
+        "https://tablejourney.com/germany/cologne/brunch/cafe-buur-brunch/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Hempies",
+      "area": "belgisches-viertel",
+      "address": "Händelstraße, Köln (Hausnummer nicht ermittelt)",
+      "category": "bakery",
+      "reason": "google-numbers-missing; Händelstraße is at the southern edge of the area (check area)",
+      "found": "비건 베이커리 카페(벨기에 지구 카페 리스트 검색 결과).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/cafes-belgisches-viertel/",
+        "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Compleat Köln Belgisches Viertel",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "HappyCow 등록: 건강식(Gesundes Essen) & 케이터링. 평점 미확인.",
+      "sources": [
+        "https://www.happycow.net/reviews/compleat-koeln-belgisches-viertel-i-gesundes-essen-catering-nordrhein-westfalen-478822"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Restaurant Acht",
+      "area": "belgisches-viertel",
+      "address": "Spichernhöfe, Köln (Adresse nicht ermittelt; Grenzlage — Gebiet prüfen)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing; area boundary unclear",
+      "found": "Hotels.com: 옛 창고 단지 Spichernhöfe의 인더스트리얼 디자인 레스토랑.",
+      "sources": [
+        "https://ie.hotels.com/go/germany/great-restaurants-cologne"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Brauerei Päffgen",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenstraße 64–66, 50670 Köln",
+      "category": "brauhaus",
+      "reason": "google-numbers-missing",
+      "found": "구글 수치 미발견. speisekarte.de 3.9 (25건; 2024년 서비스 불만 리뷰 등 엇갈림). tablejourney 자체 점수 4.5, '시내 마지막 독립 하우스 양조장' 소개. koeln.de 관광 페이지에 브라우하우스로 소개. 주의: 근처 바 'Päff'(speisekarte.menu 4.1 / 1,627건)와 혼동 금지.",
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/paeffgen",
+        "https://tablejourney.com/germany/cologne/restaurants/brauerei-paeffgen/",
+        "https://www.koeln.de/tourismus/ll/brauhaus-koeln/brauhaus-paeffgen/",
+        "https://speisekarte.menu/restaurants/koeln/paeff"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "NENI Köln",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Im Klapperhof 22–24, 50670 Köln (25hours Hotel The Circle)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "구글 수치 미발견(검색 결과엔 호텔 평점만 나옴). speisekarte.de 3/5 (1건, 의미 없음). 주소 번지는 이번 검색 결과에서 직접 확인하지 못함(호텔명만 확인) — 재확인 필요.",
+      "sources": [
+        "https://www.25hours-hotels.com/en/restaurants-bars/cologne/neni-cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/neni"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Bäckerei Zimmermann",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Ehrenstraße, Köln (Hausnummer nicht ermittelt)",
+      "category": "bakery",
+      "reason": "google-numbers-missing",
+      "found": "Culture Trip: 1875년부터 Ehrenstraße에서 영업한 베이커리.",
+      "sources": [
+        "https://theculturetrip.com/europe/germany/articles/the-best-bakeries-in-cologne-germany"
+      ],
+      "research": "fnb-belgisches-friesen"
+    },
+    {
+      "name": "Glashaus Restaurant & Bar (Hyatt Regency Köln)",
+      "area": "deutz-messe",
+      "address": "Kennedy-Ufer 2a, 50679 Köln",
+      "reason": "google-numbers-missing",
+      "found": "No Google numbers found for the restaurant. OpenTable 4.6–4.7 from about 470–490 reviews (varies by country site); OpenTable calls it the best-reviewed restaurant in Deutz, price 'very upscale'. Mit Vergnügen 2023: 'Fine Dining mit Domblick'. Hotel dining page: view of the Rhine, Hohenzollernbrücke and Dom. Sunday brunch. One review: reflective windows make the Altstadt view poor after dark. speisekarte.de 5.0 from 2 reviews. The hotel itself (not the restaurant) shows Google 4.5 (4,100) on enprimeurclub.com. HIGH PRIORITY for follow-up: the only Dom-view / business-dinner option in this area.",
+      "sources": [
+        "https://www.opentable.co.uk/glashaus-restaurant",
+        "https://koeln.mitvergnuegen.com/2023/glashaus-restaurant/",
+        "https://www.hyatt.com/de-DE/hotel/germany/hyatt-regency-cologne/colog/dining",
+        "https://www.hyattrestaurants.com/fr/dining/germany/cologne/glashaus-restaurant/events/sunday-brunch-in-rhine-riverbanks-hyatt-regency-cologne-p7zx",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/glashaus2",
+        "https://www.enprimeurclub.com/hotels/hyatt-regency-koln-cologne-hotel"
+      ],
+      "research": "fnb-deutz-messe"
+    },
+    {
+      "name": "Café Heimisch (Heimisch Kaffee & Regionales)",
+      "area": "deutz-messe",
+      "address": "Deutzer Freiheit 72–74, 50679 Köln",
+      "reason": "google-numbers-missing",
+      "found": "speisekarte.menu 4.3 (4,021). Not used: that aggregator is not labelled as Google, and its numbers for Deutzer Brauhaus (3.6/529) clearly differ from Google's (4.3/9,240). Rausgegangen top-5 Deutz (2023). Opened 2016; regional ingredients, breakfast, covered terrace, quieter upstairs for laptop work. Hours conflict: koeln.de daily 9–18; Rausgegangen Mo–Fr 8:00–18:30, Sa–So 9–18. Likely qualifies; a good breakfast or quick-lunch spot near the Messe.",
+      "sources": [
+        "https://speisekarte.menu/restaurants/koeln/heimisch",
+        "https://www.koeln.de/?p=56664",
+        "https://rausgegangen.de/blog/best-restaurants-koeln-deutz/",
+        "https://findit.city/en/germany/cologne/places/restaurants/heimisch-kaffee-and-regionales-4375815326"
+      ],
+      "research": "fnb-deutz-messe"
+    },
+    {
+      "name": "Rheinterrassen (Restaurant & Biergarten)",
+      "area": "deutz-messe",
+      "address": "Rheinparkweg 1, 50679 Köln",
+      "reason": "google-numbers-missing",
+      "found": "No Google numbers. OpenTable 4.0 from 96 reviews (food 3.9, service 3.9, ambience 4.3, value 3.4); speisekarte.de 3.7 from 7 reviews (some from 2013). Pullman POI hours: Mo–Sa 18–01, Sun/holidays 12–17 (another source differs). Event location (KölnKongress); seasonal 'Biergarten an den Rheinterrassen'; Falstaff has a listing. Non-Google scores suggest it may fall below the bar.",
+      "sources": [
+        "https://www.opentable.com/restaurant-rheinterrassen",
+        "https://koelncongress.de/en/locations/rheinterrassen-koeln/",
+        "https://pullman.accor.com/gb/destinations/poi/rheinterrassen-cologne.shtml",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/biergarten_an_den_rheinterrassen",
+        "https://www.koeln.de/freizeit/ll/schoene-biergaerten-in-koeln/biergarten-rheinterrassen/",
+        "https://www.falstaff.com/en/restaurants/rheinterrassen-koeln"
+      ],
+      "research": "fnb-deutz-messe"
+    },
+    {
+      "name": "Sion Bräues (Antik Brauhaus Sion-Bräues)",
+      "area": "deutz-messe",
+      "address": "Deutzer Freiheit 85–87, 50679 Köln",
+      "reason": "google-numbers-missing",
+      "found": "No Google numbers for the Deutz location. koeln.de: Tue–Thu from 16:00, Fri–Sun from 12:00; daily changing menu; small outdoor area; serves Kölsch and hearty Rhineland food to locals and LANXESS arena visitors. OpenTable 4.3 from 1 review. The reviewhero (4.04, 5,574) and werkenntdenbesten (3.96, 10,010) numbers that came up most likely belong to Brauhaus Sion in the Altstadt (Unter Taschenmacher 5–7). Do not mix them up.",
+      "sources": [
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/sion-braeues/",
+        "https://www.koeln.de/branchen/eintrag/36403/brauhaeuser/sion-braeues",
+        "https://opentable.sg/r/antik-brauhaus-sion-braues-cologne",
+        "https://www.reviewhero.io/antik-brauhaus-f386"
+      ],
+      "research": "fnb-deutz-messe"
+    },
+    {
+      "name": "Em Bierstüffge",
+      "area": "deutz-messe",
+      "address": "Graf-Geßler-Straße 1, 50679 Köln",
+      "reason": "google-numbers-missing",
+      "found": "No rating numbers found. koeln.de: no card payment (cash only), skittle alley (Kegelbahn), outdoor seating, shows 1. FC Köln and Kölner Haie matches; Mon–Tue from 15:00, Wed–Sat from 11:00, Sun from 14:00; no kitchen on Sunday. A neighbourhood Kölsch pub; possible after-work option if its Google numbers check out.",
+      "sources": [
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/em-bierstueffge",
+        "https://www.koeln.de/branchen/eintrag/43476/brauhaeuser/em-bierstueffge",
+        "https://speisekarte.menu/restaurants/koeln/em-bierstuffge"
+      ],
+      "research": "fnb-deutz-messe"
+    },
+    {
+      "name": "Meiwei",
+      "area": "deutz-messe",
+      "address": null,
+      "reason": "google-numbers-missing; address unverified",
+      "found": "Listed as Asian fusion with a cosy terrace in Mit Vergnügen '11 Mal lecker essen in Deutz' (2025). Hours in that list: lunch Mon–Fri 11:30–14:00, dinner daily 18:30–21:30, Sunday brunch 12:30–15:30. The search summary placed it next to the Hyatt Regency Köln entry (Kennedy-Ufer 2A), so it may be a Hyatt outlet, but no source confirms this and no Hyatt search mentioned it. No Google numbers.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/"
+      ],
+      "research": "fnb-deutz-messe"
+    },
+    {
+      "name": "Grissini Restaurant",
+      "area": "deutz-messe",
+      "address": null,
+      "reason": "google-numbers-missing; address unverified",
+      "found": "Italian. On OpenTable's Deutz list: 4.5 stars, price 'moderate'. A Booking.com listing groups 'Grissini Restaurant', 'Glashaus' and 'Sticky Fingers' with the Hyatt Regency Köln, which may only mean they are nearby. Exact address not confirmed.",
+      "sources": [
+        "https://opentable.co.uk/neighborhood/n/raum-koln/koln/deutz-restaurants",
+        "https://www.opentable.com/r/grissini-restaurant-koln/photos",
+        "https://m.booking.com/hotel/de/hyatt-regency-koln.en-gb.html"
+      ],
+      "research": "fnb-deutz-messe"
+    },
+    {
+      "name": "The ASH Köln MesseCity",
+      "area": "deutz-messe",
+      "address": null,
+      "reason": "google-numbers-missing; chain",
+      "found": "Steakhouse in MesseCity Köln, next to Bf Köln Messe/Deutz; on OpenTable's Deutz list as well-rated and upscale (special-occasion). Part of 'The ASH' chain. No Google numbers or exact address captured. A possible business-dinner option near the Messe.",
+      "sources": [
+        "https://opentable.co.uk/neighborhood/n/raum-koln/koln/deutz-restaurants"
+      ],
+      "research": "fnb-deutz-messe"
+    },
+    {
+      "name": "CoffeeIN",
+      "area": "deutz-messe",
+      "address": null,
+      "reason": "google-numbers-missing; address unverified",
+      "found": "Mit Vergnügen '21 Cafés in Deutz, Kalk und Mülheim' (2025) recommends it in Deutz for a good, cheap start to the day (breakfast/coffee). No numbers or address captured.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ],
+      "research": "fnb-deutz-messe"
+    },
+    {
+      "name": "Paparazzi Lounge Bar & Restaurant",
+      "area": "deutz-messe",
+      "address": null,
+      "reason": "google-numbers-missing; address unverified",
+      "found": "Only seen as a name in golocal's Köln-Deutz restaurant list. Nothing else verified (it may be a hotel lounge near the Messe).",
+      "sources": [
+        "https://www.golocal.de/koeln-deutz/restaurants-gaststaetten/"
+      ],
+      "research": "fnb-deutz-messe"
+    },
+    {
+      "name": "Gaffel am Dom",
+      "area": "dom-altstadt",
+      "address": "Bahnhofsvorplatz 1, 50667 Köln",
+      "reason": "below-criteria / conflicting-numbers: spinach.guide(브리프상 구글 데이터 출처)는 3.5 (9,701)로 리뷰 수가 더 많아 더 최신으로 보이며 기준 미달. restaurantguru는 Google 4.3 (8,716, 페이지 약 554일 전 ≈2025년 중반). 두 값은 같은 구글 목록이라면 산술적으로 양립 불가 → 실시간 구글 확인 필요. 중앙역 정문 바로 앞이라 확인되면 넣을 가치 큼.",
+      "found": "spinach.guide 3.5 (9,701, 날짜 없음); restaurantguru Google 4.3 (8,716); restaurantguru 종합 4.3 (14,828); 오래된 랭킹 페이지(약 1,344일 전) 요약에 4.3~4.4·약 6,600건으로 서로 모순되게 언급. 후기: 분위기·소시지·서비스 호평, 예전 후기엔 느린 서비스·작은 슈니첼 불만.",
+      "sources": [
+        "https://spinach.guide/venues/gaffel-am-dom-34330/",
+        "https://restaurantguru.com/Gaffel-am-Dom-Cologne",
+        "https://www.koeln.de/tourismus/ll/brauhaus-koeln/gaffel-am-dom/",
+        "https://www.diebestenderstadt.de/k%C3%B6ln/beste-brauereien-koeln"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Brauhaus Sion",
+      "area": "dom-altstadt",
+      "address": "Unter Taschenmacher 5-7, 50667 Köln",
+      "reason": "google-numbers-not-confirmed: 이 주소와 확실히 연결된 구글 수치를 찾지 못함.",
+      "found": "restaurantguru 'Sion Bräues Traditionsbrauhaus' Google 4.2 (409) — 주소 미확인, 대형 브라우하우스치고 리뷰 수가 너무 적어 같은 업소인지 의문; speisekarte.de 3.9 (16); TableJourney ★4.2. koeln.de: 1318년부터 이 자리에서 양조, 'Sion-Kölsch' 명칭 1936년, 전쟁 파괴 후 1953년 재개업, 최대 홀 'Alte Brauerei' 200명. 영업 매일 11시~자정/00:30(출처마다 다름).",
+      "sources": [
+        "https://www.koeln.de/tourismus/ll/brauhaus-koeln/brauhaus-sion/",
+        "https://theeuropeanbarguide.com/brauhaus-sion-cologne/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/brauhaus_sion",
+        "https://restaurantguru.com/Sion-Braeues-Traditionsbrauhaus-Cologne"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Gaffel Haus (Brauhaus zum Prinzen)",
+      "area": "dom-altstadt",
+      "address": "Alter Markt 20-22, 50667 Köln",
+      "reason": "google-numbers-not-found",
+      "found": "speisekarte.de 3.8 (5건, 2008·2014년 리뷰). arrivalguides: 알터 마르크트에서 가장 오래된 건물, 같은 주소를 Gaffel이 1987년 재개업한 'Brauhaus zum Prinzen'에도 귀속 — 구글 검색 시 두 이름 모두 확인 필요.",
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/gaffel_haus",
+        "https://www.arrivalguides.com/de/Travelguide/COLOGNE/dining/gaffel-haus-5084",
+        "https://restaurantguru.com/Brauhaus-zum-Prinzen-Cologne"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Sion am Bahnhof (Bistro Sion am Bahnhof)",
+      "area": "dom-altstadt",
+      "address": "Dompropst-Ketzer-Straße 1, 50667 Köln",
+      "reason": "below-criteria: Google 4.1 (255)",
+      "found": "restaurantguru Google 4.1 (255), restaurantguru 종합 3.7 (4,649). 최근 후기 중 서비스·음주 강요에 대한 강한 불만.",
+      "sources": [
+        "https://restaurantguru.com/Brauhaus-Sion-Cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/sion_am_bahnhof"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Sünner im Walfisch",
+      "area": "dom-altstadt",
+      "address": "Salzgasse 13, 50667 Köln",
+      "reason": "google-numbers-incomplete: 오래된 랭킹 페이지 요약에 Google 4.4만 있고 리뷰 수 없음. 주소는 사전지식(미검증).",
+      "found": "Google 4.4 (리뷰 수 미상, 약 1,344일 전 페이지 — 어느 랭킹 사이트인지 검색 요약에서 불명확); 22places Top 10(2026년 7월 업데이트로 보이는 리스트)에 포함.",
+      "sources": [
+        "https://www.diebestenderstadt.de/k%C3%B6ln/beste-brauereien-koeln",
+        "https://www.koelnerbranchen.de/brauhaus/koeln/",
+        "https://www.22places.com/cologne-breweries/"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "FRÜH \"Em Jan von Werth\"",
+      "area": null,
+      "address": null,
+      "reason": "address-not-found: 구글 수치는 기준 충족이지만 주소·지역을 이번 세션에서 확인하지 못함 (우리 범위인지 미정).",
+      "found": "restaurantguru Google 4.4 (1,163), 페이지 날짜 미상.",
+      "sources": [
+        "https://restaurantguru.com/Jan-von-Werth-Cologne"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Café-Lounge Alter Markt 55",
+      "area": "dom-altstadt",
+      "address": "Alter Markt 55, 50667 Köln",
+      "reason": "google-numbers-incomplete: 리뷰 수 미표시.",
+      "found": "restaurantguru Google 4.5 (리뷰 수 없음).",
+      "sources": [
+        "https://restaurantguru.com/Alter-Markt-55-Coffee-Cologne"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Alter-Markt-Treff",
+      "area": "dom-altstadt",
+      "address": "Alter Markt 18, 50667 Köln",
+      "reason": "below-criteria: Google 3.9 (80)",
+      "found": "restaurantguru Google 3.9 (80).",
+      "sources": [
+        "https://restaurantguru.com/Alter-Markt-Treff-Cologne"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Gilden Brauhaus (Gilden im Zims?)",
+      "area": "dom-altstadt",
+      "address": "Heumarkt 77, 50667 Köln",
+      "reason": "google-numbers-not-found: werkenntdenbesten 항목만 확인. 검색 요약이 'Heumarkt 77'의 종합 4.28 (9개 포털 14,185건)을 Früh am Dom에 잘못 붙였는데, 이 주소 업소의 수치로 보임(구글 단독 수치 아님, 귀속 불확실).",
+      "found": "werkenntdenbesten 종합 4.28 (14,185건/9개 포털, 귀속 불확실), 구글 단독 수치 없음.",
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/26377150/restaurant/koeln/gilden-brauhaus-bewertungen.html"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Brauerei zum Pfaffen",
+      "area": "dom-altstadt",
+      "address": "Heumarkt 62, 50667 Köln",
+      "reason": "google-numbers-incomplete: 랭킹 리스트 요약에 4.7만 있고 리뷰 수 없음, 어느 사이트인지 불명확. 주소는 사전지식(미검증).",
+      "found": "4.7 (리뷰 수 미상, 출처 페이지 불명확).",
+      "sources": [
+        "https://www.diebestenderstadt.de/k%C3%B6ln/beste-brauereien-koeln",
+        "https://www.koelnerbranchen.de/brauhaus/koeln/"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Gertrudenhof am Neumarkt",
+      "area": "dom-altstadt",
+      "address": null,
+      "reason": "not-verified: verliebtinkoeln 독자 투표(비대표 투표, 마감) 1위로만 확인. 구글 수치·주소·업소 성격 미확인.",
+      "found": "verliebtinkoeln.com 'beliebteste Kölner Brauhäuser laut Abstimmung' 1위.",
+      "sources": [
+        "https://verliebtinkoeln.com/beste-brauhaus-koeln/"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Wartesaal am Dom",
+      "area": "dom-altstadt",
+      "address": null,
+      "reason": "not-verified: restaurantguru 페이지 존재만 확인, 수치·주소 미확인.",
+      "found": "없음",
+      "sources": [
+        "https://restaurantguru.com/WARTESAAL-AM-DOM-Cologne"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "LOUIS Cafe am Dom",
+      "area": "dom-altstadt",
+      "address": null,
+      "reason": "not-verified: restaurantguru 페이지 존재만 확인, 수치·주소 미확인.",
+      "found": "없음",
+      "sources": [
+        "https://restaurantguru.com/LOUIS-Cafe-am-Dom-Cologne"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Bierhaus en d'r Salzgass",
+      "area": "dom-altstadt",
+      "address": "Salzgasse 5-11, 50667 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Haxenhaus zum Rheingarten",
+      "area": "dom-altstadt",
+      "address": "Frankenwerft 19, 50667 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Café Reichard",
+      "area": "dom-altstadt",
+      "address": "Unter Fettenhennen 11, 50667 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Hanse Stube (Excelsior Hotel Ernst)",
+      "area": "dom-altstadt",
+      "address": "Trankgasse 1-5, 50667 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Sahila",
+      "area": "dom-altstadt",
+      "address": "Kämmergasse 18, 50676 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증. Neumarkt 남쪽이라 지역 경계도 확인 필요.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Alfredo",
+      "area": "dom-altstadt",
+      "address": "Tunisstraße 3, 50667 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Sion an der Agneskirche",
+      "area": "agnesviertel-eigelstein",
+      "address": null,
+      "reason": "not-verified: restaurantguru 페이지 존재만 확인, 수치·주소 미확인.",
+      "found": "없음",
+      "sources": [
+        "https://restaurantguru.com/Sion-An-der-Agneskirche-Cologne"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Schreckenskammer",
+      "area": "agnesviertel-eigelstein",
+      "address": "Ursulagartenstraße 11-15, 50668 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "verliebtinkoeln 독자 투표 상위권에 이름 언급(순위·수치 없음).",
+      "sources": [
+        "https://verliebtinkoeln.com/beste-brauhaus-koeln/"
+      ],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Em Kölsche Boor",
+      "area": "agnesviertel-eigelstein",
+      "address": "Eigelstein 121-123, 50668 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Max Stark",
+      "area": "agnesviertel-eigelstein",
+      "address": "Unter Kahlenhausen 47, 50668 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Weinhaus Vogel",
+      "area": "agnesviertel-eigelstein",
+      "address": "Eigelstein 74, 50668 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Maximilian Lorenz",
+      "area": "agnesviertel-eigelstein",
+      "address": "Johannisstraße 64, 50668 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증. 현 위치 영업 여부(이전·폐업)도 확인 필요.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Astrein",
+      "area": "agnesviertel-eigelstein",
+      "address": "Krefelder Straße 37, 50670 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증. 현 영업 상태 확인 필요.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Le Moissonnier",
+      "area": "agnesviertel-eigelstein",
+      "address": "Krefelder Straße 25, 50670 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증. 리드가 폐업 가능성을 지적했으나 확인하지 못함 — 확인 전까지 가이드에 넣지 말 것.",
+      "found": "없음",
+      "sources": [],
+      "research": "fnb-dom-altstadt-eigelstein"
+    },
+    {
+      "name": "Café Feynsinn",
+      "area": "kwartier-lateng",
+      "address": "Rathenauplatz 7, 50674 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-low-confidence",
+      "found": "Google 4.2 (724) via gelbeseiten.de",
+      "sources": [
+        "https://www.gelbeseiten.de/gsbiz/c575c5e8-cb41-43be-935a-0d9f8bef67d6",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/cafe_feynsinn",
+        "https://speisekarte.menu/restaurants/koeln/feynsinn",
+        "https://www.airbnb.com/things-to-do/places/44295"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Haus Scholzen",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 236, 50823 Köln",
+      "reason": "google-numbers-not-found: searched (koeln.de, speisekarte, restaurantguru, wanderlog snippets) but no Google rating/count surfaced",
+      "found": "Traditional German restaurant since 1907 (koeln.de); known for Ehrenfelder Senfrostbraten, also roast goose and potato pancakes; restaurantguru ~€20–30 per person; hours Wed–Sun 11:30–15 & 17–23 (koeln.de/wanderlog); speisekarte.de 5.0 (1 review); Airbnb 55 local recommendations. Listed in Mit Vergnügen 2026 Ehrenfeld list. Note: speisekarte.de page title shows PLZ 50667, koeln.de shows 50823 (50823 is the Ehrenfeld PLZ).",
+      "sources": [
+        "https://www.koeln.de/leben/ll/beliebte-restaurants-in-koeln-ehrenfeld/haus-scholzen",
+        "https://restaurantguru.com/Haus-Scholzen-Cologne",
+        "https://wanderlog.com/place/details/2371198/haus-scholzen",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/haus_scholzen1",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Essers Gasthaus",
+      "area": "ehrenfeld",
+      "address": "Ottostraße 72, 50823 Köln",
+      "reason": "google-numbers-not-found: searched but no Google rating/count surfaced",
+      "found": "Austrian-style Gasthaus in Neuehrenfeld (corner Ottostraße/Nussbaumerstraße) with an award-winning wine list (one source: Star Wine List No. 1 in 2023); speisekarte.de no reviews. Hours conflict: koeln.de says closed Wednesdays, kitchen from 18:00; speisekarte.de says daily 17:30–23:00.",
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/essers_gasthaus",
+        "https://www.koeln.de/branchen/eintrag/43172/restaurants/essers-gasthaus",
+        "https://www.enprimeurclub.com/restaurants/essers-gasthaus-cologne-restaurant",
+        "https://joinpearl.co/restaurants/cologne-germany/essers-gasthaus"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Herbrand's",
+      "area": "ehrenfeld",
+      "address": "Herbrandstraße 21, 50825 Köln",
+      "reason": "google-numbers-not-found: searched but no Google rating/count surfaced",
+      "found": "Restaurant + large beer garden + event hall/club in a former wagon factory (Köln Tourismus, dein-nrw); Wanderlog describes it as spacious and lively with a big outdoor Biergarten. No ratings in results.",
+      "sources": [
+        "https://willkommen.koelntourismus.de/en/gastro/herbrands",
+        "https://entdecke.dein-nrw.de/en/dein-nrw/streaming/detail/Gastro/g_100014846/herbrand-s",
+        "https://www.koeln.de/branchen/eintrag/42997/biergaerten/herbrands",
+        "https://extensionembed.wanderlog.com/place/details/1506283"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Bunte Burger",
+      "area": "ehrenfeld",
+      "address": "Hospeltstraße 1, 50825 Köln",
+      "reason": "google-numbers-not-found: searched but no Google rating/count surfaced",
+      "found": "Fully vegan organic burger restaurant + catering, ~50 m from tram stop Leyendeckerstraße (lines 3, 4); speisekarte.de 4.3 (20 reviews, not Google); HappyCow reviews mixed; speisekarte.de lists Wed–Sun, closed Mon/Tue. One older article (rausgegangen) gives Brabanter Str. 48 — probably a former location.",
+      "sources": [
+        "https://willkommen.koelntourismus.de/en/gastro/bunte-burger",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/bunte_burger",
+        "https://happycow.net/reviews/bunte-burger-cologne-47443?page=4",
+        "https://www.findmeglutenfree.com/biz/bunte-burger/5879718352650240",
+        "https://rausgegangen.de/blog/vegane-restaurants-in-koeln/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Restaurant Fabian",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 531, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Mezze at fine-dining level, made for sharing; in Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld'. Possible upscale pick.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Esszimmer Köln",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 434, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Upscale international restaurant; OpenTable 4.7 (not Google). Possible upscale pick.",
+      "sources": [
+        "https://www.opentable.com/r/esszimmer-koln"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Nonna Napoli Ehrenfeld",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 248, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Neapolitan pizza and truffle pasta; in Mit Vergnügen 2026 Ehrenfeld list at Venloer Straße 248 (a 2025 snippet mentions 'Nonna Napoli ... in einem Hinterhof an der Vogelsanger Straße' — likely mixed up with Gusto Antico; verify). Sister branch on Zülpicher Straße 5.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Gusto Antico",
+      "area": "ehrenfeld",
+      "address": "Vogelsanger Straße 216, 50825 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Italian, described as a hidden gem with generous, cheap lunches; in Mit Vergnügen 2026 Ehrenfeld list and 2025 lunch lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/mittagessen/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Pizzeria Spaccanapoli",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 502, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Pizzeria in Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld'.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Virtuous Pie",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 241–245, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "In Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld' (same address as Sushi Ninja); cuisine not confirmed in results.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Sushi Ninja",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 241–245, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Sushi; in Mit Vergnügen 2026 Ehrenfeld and Venloer Straße lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Viet Village Ehrenfeld",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 235, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Vietnamese street food; in Mit Vergnügen 2026 Ehrenfeld list and 2025 Ehrenfeld lunch list.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Qing Tian",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 207, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Chinese hand-pulled noodles; in Mit Vergnügen 2026 Ehrenfeld list and 2025 Ehrenfeld lunch list.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Thai Street Food",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 282, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Thai street food; in Mit Vergnügen 2026 Ehrenfeld and Venloer Straße lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Masala Empire",
+      "area": "ehrenfeld",
+      "address": "Neptunplatz 6a, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Indian; in Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld'.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Vegan Food Revolution",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 456, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Vegan restaurant; in Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld'; En Primeur Club has a 'Vegan Revolution' Cologne page.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://www.enprimeurclub.com/restaurants/vegan-revolution-cologne-restaurant"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Kebapland",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 385, 50825 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Cult kebab snack bar (~10 years old per koeln.de); charcoal-grilled lamb skewers; Falstaff street-food listing praises Kebabteller, Kebabtaschen, Lahmacun, Falafel; a Mit Vergnügen-linked article spells it 'Kebabland'. Strong Turkish street-food pick if numbers check out.",
+      "sources": [
+        "https://www.koeln.de/leben/ll/imbisse-und-fast-food-in-koeln/kebapland",
+        "https://www.falstaff.com/en/listings/kebap-street-food-restaurants-in-cologne",
+        "https://www.spottedbylocals.com/cologne/kebapland",
+        "https://cologne-tourism.com/delight-diversity/gastronomy/detail/kebapland"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Falafel König",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 384, 50825 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Well-known Ehrenfeld falafel spot; in Mit Vergnügen 2026 Ehrenfeld, Venloer Straße and 2025 lunch lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Tantuni Haus",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 282, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Turkish tantuni (Mersin-style meat wrap); in Mit Vergnügen 2026 Venloer Straße list.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Eat Kumpir",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 274, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Turkish loaded baked potatoes (kumpir); in Mit Vergnügen 2026 '21 Restaurants in Ehrenfeld'.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://www.enprimeurclub.com/restaurants/eat-kumpir-cologne-restaurant"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Kudret Kebap House",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 280, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Walk-in Turkish kebab house (En Primeur Club listing).",
+      "sources": [
+        "https://www.enprimeurclub.com/restaurants/kudret-kebap-house-cologne-restaurant"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Murat Grill-Imbiss & Pizzeria",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 464, Köln (PLZ unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Turkish grill snack bar; recommended for lahmacun with lemon and parsley, also a vegetarian version (from a Turkish-food roundup in the search results; exact page not isolated).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/wie-in-der-tuerkei/",
+        "https://iza-server.uibk.ac.at/pywb/dilimag/20210113092156mp_/https://renk-magazin.de/en/best-german-turkish-restaurants-cologne"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Soliana",
+      "area": "ehrenfeld",
+      "address": "Subbelrather Straße, Köln (house number unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Ethiopian/injera restaurant on Subbelrather Straße; in Mit Vergnügen 2025/2026 Ehrenfeld lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Ehrenfeld Café",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße, Köln (house number unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Turkish café; owner Atilla brews mocha the traditional way in hot sand.",
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/ehrenfeldcafe",
+        "https://www.koeln.de/branchen/eintrag/58684/cafes/ehrenfeld-cafe"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Café Sehnsucht",
+      "area": "ehrenfeld",
+      "address": "Körnerstraße 67, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Café/breakfast spot on Körnerstraße; in Mit Vergnügen 2026 '21 Cafés in Ehrenfeld', Goethe-Institut Cologne café list, Tripadvisor listing.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/cafes-in-ehrenfeld/",
+        "https://www.goethe.de/ins/in/de/kul/soc/osg/22647394.html",
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d2496675-Reviews-Cafe_Sehnsucht-Cologne_North_Rhine_Westphalia.html"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Van Dyck Ehrenfeld",
+      "area": "ehrenfeld",
+      "address": "Körnerstraße 43, 50823 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Espresso bar / coffee roaster café in a former hair salon; in Mit Vergnügen 2026 '21 Cafés in Ehrenfeld', Rausgegangen and veranstaltungenkoeln café lists.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/cafes-in-ehrenfeld/",
+        "https://rausgegangen.de/en/blog/places-secret-tips-ehrenfeld-koeln/",
+        "https://www.veranstaltungenkoeln.de/tipps/cafes-koeln-ehrenfeld"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Hellers Brauhaus",
+      "area": "kwartier-lateng",
+      "address": "Roonstraße 33, 50674 Köln",
+      "reason": "google-numbers-not-found: searched but no Google rating/count surfaced; note brewing stopped after summer 2024 (pub still open)",
+      "found": "Brauhaus of the former Brauerei Heller; per leinetal24, beer production ended after summer 2024 but Hellers Brauhaus and Volksgarten stay open; OpenTable 4.8 (6) incl. a review of a 31 Jan 2026 visit (still operating); dastelefonbuch golocal 4.0 (4), 61 Yelp reviews; popular with students; one listing says cash only; hours conflict across listings (evenings from ~17:00, Sunday maybe closed).",
+      "sources": [
+        "https://restaurantguru.com/Hellers-Brauhaus-Cologne",
+        "https://wanderlog.com/place/details/1784413/hellers-brauhaus",
+        "https://www.leinetal24.de/welt/roonstrasse-pils-hellers-bier-brauerei-koelsch-sort-produktion-eingestellt-anna-heller-zr-92846067.html",
+        "https://www.opentable.com/r/hellers-brauhaus-koln",
+        "https://adresse.dastelefonbuch.de/K%C3%B6ln/3-Brauereien-Heller-GmbH-K%C3%B6ln-Roonstr.html"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Brauhaus Pütz",
+      "area": "kwartier-lateng",
+      "address": "Engelbertstraße 67, 50674 Köln",
+      "reason": "google-numbers-not-found: only multi-portal aggregates found, no Google-only figure",
+      "found": "Aggregates: 4.6 from 3,444 reviews across 3 sources and 4.40 from 1,755 reviews across 8 portals (search summaries, source pages not isolated); Wanderlog/restaurantguru snippet '4.4–4.5 across ~1,000–1,650 reviews depending on platform'. Mühlen Kölsch on tap (no own brewing), Schnitzel, Bratwurst, Haxe; vaulted cellar rooms; hours Mon–Fri 16–24, Sat 15–24, Sun 15–23 (25hours/restaurantguru). Very likely qualifies once Google-only numbers are found.",
+      "sources": [
+        "https://restaurantguru.com/Brauhaus-Putz-Cologne",
+        "https://wanderlog.com/place/details/490867/brauhaus-p%C3%BCtz",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/brauhaus_puetz1",
+        "https://www.koeln.de/branchen/eintrag/45750/brauhaeuser/brauhaus-puetz",
+        "https://25hours-hotels.com/?p=21714"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "La Société",
+      "area": "kwartier-lateng",
+      "address": "Kyffhäuserstraße 53, 50674 Köln",
+      "reason": "google-numbers-not-found: searched but no Google rating/count surfaced; 2026 Michelin status unverified",
+      "found": "One Michelin star per guide.michelin.com listing (chef Leon Hofmockel); OpenTable lists star 2023 and 2024, Pearl/En Primeur Club cite 2024 and 2025; La Liste 2026: 78 pts. Upscale pick for the student quarter if Google numbers and 2026 star are confirmed.",
+      "sources": [
+        "https://guide.michelin.com/en/nordrhein-westfalen/koln/restaurant/la-societe",
+        "https://www.opentable.com/r/la-societe-koln",
+        "https://joinpearl.co/restaurants/cologne-germany/la-societe",
+        "https://www.enprimeurclub.com/restaurants/la-societe-cologne-restaurant"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Asia Oma",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 38, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Chinese; Mit Vergnügen 2024 calls it 'maybe the best restaurant on Zülpicher Straße, judging by Google reviews' (no numbers given); simple but very warm atmosphere.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/",
+        "https://onlinestreet.de/poi/MVl2WCtqdXFlTXFKYzNDb0ZzQWFFdz09"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Ni'Hao Nudelbar",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 46, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Handmade Chinese noodles; opened around 2024; in Mit Vergnügen 2024 Zülpicher Straße list. Not to be confused with 'NiHao' on Aachener Straße 31.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/",
+        "https://nihaonudelbar-koeln.de/",
+        "https://www.gastroguide.de/restaurant/289766/ni-hao-nudelbar/koeln/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Habibi",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 28, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Lebanese falafel/shawarma snack bar, halal; called Cologne's best-known falafel shop; tablejourney score 3.9 (own score, not Google). Classic cheap student eat.",
+      "sources": [
+        "https://www.enprimeurclub.com/restaurants/habibi-koln-cologne-restaurant",
+        "https://joinpearl.co/restaurants/cologne-germany/habibi-koln",
+        "https://tablejourney.com/germany/cologne/casual-dining/habibi-cologne/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Ferkulum",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 37, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Late-night flatbread stop, open until 3 a.m. (Mit Vergnügen 2024 Zülpicher Straße list).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Ristorante Etrusca",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 27, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Italian for 40+ years, Sardinian specialties (Mit Vergnügen 2024 Zülpicher Straße list).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Nonna Napoli (Zülpicher Straße)",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 5, 50674 Köln",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted)",
+      "found": "Neapolitan pizza (branch of the Ehrenfeld Nonna Napoli); listed by En Primeur Club and a University of Cologne food guide.",
+      "sources": [
+        "https://www.enprimeurclub.com/restaurants/nonna-napoli-cologne-restaurant",
+        "https://hf.uni-koeln.de/data/eso34/File/Restaurant_Mensa%20update%207-9-26.pdf"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Borsalino",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße, Köln (house number unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Trattoria since the 1980s with cheap pasta dishes (tablejourney listing).",
+      "sources": [
+        "https://tablejourney.com/germany/cologne/casual-dining/borsalino-cologne/"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Tsukiji",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Platz, Köln (exact address unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Japanese; Mit Vergnügen calls it probably the hottest food tip in Kwartier Latäng.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/essen-kwartier-lataeng",
+        "https://koeln.mitvergnuegen.com/2026/kwartier-lataeng"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Oruc",
+      "area": "kwartier-lateng",
+      "address": "Ecke Heinsbergstraße/Kyffhäuserstraße, Köln (exact address unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Döner shop; fans call it the best döner in the city (Mit Vergnügen Kwartier Latäng).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/essen-kwartier-lataeng",
+        "https://koeln.mitvergnuegen.com/2026/kwartier-lataeng"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Com Pho",
+      "area": "kwartier-lateng",
+      "address": "near Zülpicher Straße, Köln (address unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Vietnamese pho; listed in a University of Cologne food guide (2026 update) for the Zülpicher Straße area.",
+      "sources": [
+        "https://hf.uni-koeln.de/data/eso34/File/Restaurant_Mensa%20update%207-9-26.pdf"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Café Wo ist Tom?",
+      "area": "kwartier-lateng",
+      "address": "near Zülpicher Straße, Köln (address unverified)",
+      "reason": "google-numbers-not-found: not verified individually (WebSearch budget exhausted); address incomplete",
+      "found": "Café listed in a University of Cologne food guide (2026 update) for the Zülpicher Straße area.",
+      "sources": [
+        "https://hf.uni-koeln.de/data/eso34/File/Restaurant_Mensa%20update%207-9-26.pdf"
+      ],
+      "research": "fnb-ehrenfeld-lateng"
+    },
+    {
+      "name": "Ox & Klee",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Im Zollhafen 18, 50678 Köln",
+      "address_status": "unverified: street and number from prior knowledge; this session only confirmed 'middle of the three Kranhäuser, Rheinauhafen'",
+      "category": "restaurant",
+      "cuisine_group": "modern-european",
+      "awards": [
+        "Michelin 2 Stars 2026"
+      ],
+      "reason": "google-numbers-missing",
+      "found": "Michelin Guide Deutschland 2026 (ceremony 2026-06-23): two stars, Köln's only two-star restaurant, in the middle Kranhaus at Rheinauhafen (mitvergnuegen 2026, guide.michelin.com 2026 list, hogapage, t-online). No Google rating or review count found: the shared WebSearch budget ran out before the rating lookup.",
+      "next_step": "Search 'Ox & Klee Köln Google Bewertungen' or restaurantguru/werkenntdenbesten; get the tasting-menu price for price_level.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026",
+        "https://www.hogapage.de/nachrichten/wirtschaft/gastronomie/guide-michelin-2026-ein-neuzugang-im-sterne-olymp/",
+        "https://koeln.t-online.de/region/koeln/id_101309626/michelin-sterne-2026-koelner-restaurant-neobiota-gewinnt-einen-stern.html"
+      ],
+      "research": "fnb-suedstadt-other-korean"
+    },
+    {
+      "name": "Pottkind",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Darmstädter Straße 9, 50678 Köln",
+      "address_status": "partial: street and number seen in this session (KölnTourismus 'Spitzen-Gastronomie 2024'); PLZ from prior knowledge",
+      "category": "restaurant",
+      "cuisine_group": "modern-european",
+      "awards": [
+        "Michelin 1 Star 2026"
+      ],
+      "reason": "google-numbers-missing",
+      "found": "Michelin 2026: one star, kept from the previous year (t-online list, mitvergnuegen 2026, guide.michelin.com 2026 list). Address per KölnTourismus 2024 press PDF. No Google numbers found (search budget exhausted).",
+      "next_step": "Search 'Pottkind Köln Google Bewertungen'; check menu price and whether it takes walk-ins.",
+      "sources": [
+        "https://koeln.t-online.de/region/koeln/id_101309626/michelin-sterne-2026-koelner-restaurant-neobiota-gewinnt-einen-stern.html",
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026",
+        "https://www.koelntourismus.de/fileadmin/Mediendatenbank/Sonstige-Dateien/PDF/Pressetexte/Spitzen-Gastronomie_2024_DE.pdf"
+      ],
+      "research": "fnb-suedstadt-other-korean"
+    },
+    {
+      "name": "Capricorn [i] Aries Brasserie",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Alteburger Straße 31, 50678 Köln",
+      "address_status": "unverified: prior knowledge (the brasserie and the separate fine-dining 'Restaurant' sit on opposite sides of Alteburger Str.; check the number)",
+      "category": "restaurant",
+      "cuisine_group": "french",
+      "awards": [
+        "Michelin Bib Gourmand"
+      ],
+      "reason": "google-numbers-missing",
+      "found": "Michelin's Köln page (as returned by search) counts 3 Bib Gourmands: HENNE.Weinbar, Capricorn [i] Aries Brasserie, Gasthaus Scherz; foodle.pro lists the same three. The snippet shows no year, but none of the 10 new 2026 Bibs nationwide are in Köln, so this is very likely the current state. No Google numbers found.",
+      "next_step": "Search 'Capricorn i Aries Brasserie Köln Google Bewertungen'; confirm the house number and that the Bib is in the 2026 guide.",
+      "sources": [
+        "https://guide.michelin.com/us/en/nordrhein-westfalen/koln/restaurants",
+        "https://foodle.pro/restaurants/michelin-star-restaurants/bib-gourmand/c-germany/cologne",
+        "https://www.hogapage.de/nachrichten/wirtschaft/gastronomie/zehn-neue-bib-gourmand-restaurants-in-deutschland/"
+      ],
+      "research": "fnb-suedstadt-other-korean"
+    },
+    {
+      "name": "Phaedra",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Elsaßstraße 30, 50677 Köln",
+      "address_status": "unverified: prior knowledge",
+      "category": "restaurant",
+      "cuisine_group": "mediterranean",
+      "awards": [],
+      "reason": "google-numbers-missing",
+      "found": "Named in a search summary of Köln's 2026 Michelin selection (based on restaurant-ranglisten.de) alongside Bib Gourmand places. However, Michelin's own Köln page counts only 3 Bibs and Phaedra is not one of them, so it is probably 'selected' without a Bib in 2026 (unconfirmed). No Google numbers found.",
+      "next_step": "Search 'Phaedra Köln Elsaßstraße Google Bewertungen' and 'Phaedra Köln Michelin'.",
+      "sources": [
+        "https://www.restaurant-ranglisten.de/news-magazin/restaurant-guides/alle-informationen-zum-guide-michelin/guide-michelin-deutschland/guide-michelin-deutschland-2026/",
+        "https://guide.michelin.com/us/en/nordrhein-westfalen/koln/restaurants"
+      ],
+      "research": "fnb-suedstadt-other-korean"
+    },
+    {
+      "name": "Brauhaus Johann Schäfer",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Elsaßstraße 6, 50677 Köln",
+      "address_status": "verified in this session (nrw-tourism.com / directory listings via search)",
+      "category": "brauhaus",
+      "cuisine_group": "german",
+      "awards": [],
+      "reason": "google-numbers-missing",
+      "found": "Searched 'Brauhaus Johann Schäfer Köln Google Bewertungen': no Google rating in the results. speisekarte.de shows no reviews (its own system, not Google). nrw-tourism.com: open 12-22 on weekdays, 10-22 on weekends; phone 0221 16860975. speisekarte.de: warehouse-style brewhouse with a terrace, seasonal dishes, own/local beer. Also listed on koeln.de, schlemmer-atlas.de, foodle.pro.",
+      "next_step": "Search 'Johann Schäfer Brauhaus Köln restaurantguru' or werkenntdenbesten for Google numbers.",
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/johann_schaefer",
+        "https://www.nrw-tourism.com/brauhaus-johann-schaefer",
+        "https://www.koeln.de/branchen/eintrag/49310/brauhaeuser/johann-schaefer-brauhaus",
+        "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/brauhaus-johann-schaefer/",
+        "https://foodle.pro/restaurants/cologne/johann-schaefer"
+      ],
+      "research": "fnb-suedstadt-other-korean"
+    },
+    {
+      "name": "Früh em Veedel",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Chlodwigplatz 28, 50678 Köln",
+      "address_status": "unverified: prior knowledge",
+      "category": "brauhaus",
+      "cuisine_group": "german",
+      "awards": [],
+      "reason": "google-numbers-missing",
+      "found": "Seed from the lead; not researched (search budget exhausted before it came up). Nothing found in this session.",
+      "next_step": "Search 'Früh em Veedel Chlodwigplatz Google Bewertungen' (werkenntdenbesten / restaurantguru).",
+      "sources": [],
+      "research": "fnb-suedstadt-other-korean"
+    },
+    {
+      "name": "Fette Kuh",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Bonner Straße 43, 50677 Köln",
+      "address_status": "unverified: prior knowledge",
+      "category": "restaurant",
+      "cuisine_group": "american-burger",
+      "awards": [],
+      "reason": "google-numbers-missing",
+      "found": "Seed from the lead; not researched (search budget exhausted). Nothing found in this session.",
+      "next_step": "Search 'Fette Kuh Köln Bonner Straße Google Bewertungen'; also check that it is still open.",
+      "sources": [],
+      "research": "fnb-suedstadt-other-korean"
+    },
+    {
+      "name": "Zur Tant",
+      "area": "other",
+      "address": "Rheinbergstraße 49, 51143 Köln",
+      "address_status": "unverified: prior knowledge (Porz-Langel, on the Rhine)",
+      "category": "restaurant",
+      "cuisine_group": "modern-european",
+      "awards": [
+        "Michelin 1 Star 2026"
+      ],
+      "reason": "google-numbers-missing",
+      "found": "Michelin 2026: one star, kept (t-online list, mitvergnuegen 2026, guide.michelin.com 2026 list). No Google numbers found (search budget exhausted).",
+      "next_step": "Search 'Zur Tant Porz Langel Google Bewertungen'; confirm the address and how to get there from the centre.",
+      "sources": [
+        "https://koeln.t-online.de/region/koeln/id_101309626/michelin-sterne-2026-koelner-restaurant-neobiota-gewinnt-einen-stern.html",
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026"
+      ],
+      "research": "fnb-suedstadt-other-korean"
+    },
+    {
+      "name": "La Cuisine Rademacher",
+      "area": "other",
+      "address": "Dellbrücker Mauspfad 482, 51069 Köln",
+      "address_status": "partial: district Dellbrück confirmed in this session (mitvergnuegen: 'Marlon Rademacher in Dellbrück'); street and number from prior knowledge",
+      "category": "restaurant",
+      "cuisine_group": "modern-european",
+      "awards": [
+        "Michelin 1 Star 2026"
+      ],
+      "reason": "google-numbers-missing",
+      "found": "Michelin 2026: one star (t-online list, mitvergnuegen 2026, guide.michelin.com 2026 list); chef Marlon Rademacher, Köln-Dellbrück. No Google numbers found (search budget exhausted).",
+      "next_step": "Search 'La Cuisine Rademacher Dellbrück Google Bewertungen'.",
+      "sources": [
+        "https://koeln.t-online.de/region/koeln/id_101309626/michelin-sterne-2026-koelner-restaurant-neobiota-gewinnt-einen-stern.html",
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026"
+      ],
+      "research": "fnb-suedstadt-other-korean"
+    }
+  ]
+}

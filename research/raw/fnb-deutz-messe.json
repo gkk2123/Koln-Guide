@@ -1,0 +1,360 @@
+{
+  "agent": "fnb-deutz-messe",
+  "generated": "2026-11-07",
+  "scope": "deutz-messe: right bank of the Rhine around Koelnmesse - Deutz, Deutzer Freiheit, Ottoplatz/Bf Koeln Messe/Deutz, LANXESS arena, Rheinboulevard, Rheinpark; restaurants, Brauhaeuser, cafes, hotel restaurants, bars. Research cut short: shared WebSearch budget exhausted after 26 queries.",
+  "places": [
+    {
+      "id": "lommerzheim",
+      "name": "Lommerzheim",
+      "category": "brauhaus",
+      "area": "deutz-messe",
+      "address": "Siegesstraße 18, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Traditional Kölsch pub (Päffgen), Rhineland pub food",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 정보 미확인(이번 조사에서 메뉴 가격 출처를 찾지 못함)",
+      "google_rating": 4.6,
+      "google_reviews": 4362,
+      "google_as_of": null,
+      "rating_source": "werkenntdenbesten.de",
+      "summary_ko": "도이츠 주택가 골목에 있는 낡고 소박한 옛 쾰시 선술집 '로미(Lommi)'로, 현지인과 관광객 모두에게 컬트적인 인기를 누린다. 1999년 G8 정상회의 때 빌 클린턴을 들이지 않았다는 일화로도 유명해, 꾸밈없는 쾰른 술집 분위기를 원하는 사람에게 맞는다.",
+      "must_try": [
+        "Päffgen Kölsch (파프겐 쾰시 — 이 집에서 따라 주는 쾰른 전통 생맥주)"
+      ],
+      "tags": [
+        "koelsch",
+        "local-favorite",
+        "beer-garden",
+        "near-messe"
+      ],
+      "tips_ko": "영업 요일·시간이 출처마다 달라(werkenntdenbesten: 평일 11:00–14:30, 16:30–24:00, 주말 정보 없음) 방문 전 반드시 확인하세요. 현금만 받는지도 이번 조사에서 확인하지 못했으니 현금을 챙겨 가는 편이 안전합니다. 날씨가 좋으면 비어가든 자리도 있습니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/100120571/restaurant/koeln/gaststaette-lommerzheim-bewertungen.html",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/lommerzheim",
+        "https://koeln.mitvergnuegen.com/koelnhaktnach/lommerzheim-bill-clinton/",
+        "https://koeln.mitvergnuegen.com/2025/deutz",
+        "https://cologne-tourism.com/delight-diversity/gastronomy/detail/lommerzheim",
+        "https://www.koeln.de/branchen/eintrag/21594/brauhaeuser/lommerzheim"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "deutzer-brauhaus",
+      "name": "Deutzer Brauhaus",
+      "category": "brauhaus",
+      "area": "deutz-messe",
+      "address": "Ottoplatz 7, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Brauhaus — Kölsch and Rhineland dishes",
+      "cuisine_group": "german",
+      "price_level": 2,
+      "price_note": "OpenTable 가격대 '보통(moderate)'",
+      "google_rating": 4.3,
+      "google_reviews": 9240,
+      "google_as_of": null,
+      "rating_source": "spinach.guide",
+      "summary_ko": "쾰른 메쎄/도이츠역 바로 앞 오토플라츠(Ottoplatz)에 있는 대형 브라우하우스로, 기차에서 내려 몇 걸음이면 갓 따른 쾰시를 마실 수 있다. 박람회 방문객·여행자·현지인이 뒤섞이는, 퇴근 후 한잔이나 단체 식사에 실용적인 곳.",
+      "must_try": [
+        "frisch gezapftes Kölsch (갓 따른 생 쾰시)"
+      ],
+      "tags": [
+        "koelsch",
+        "near-messe",
+        "group-friendly"
+      ],
+      "tips_ko": "리뷰 사이트마다 평가 편차가 큽니다. 분위기·맥주·가성비는 호평이지만 서비스와 음식 품질이 들쭉날쭉하다는 평도 있습니다. 박람회 기간 저녁엔 붐비니 OpenTable로 미리 예약하는 것이 좋습니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://spinach.guide/venues/deutzer-brauhaus-35211/",
+        "https://opentable.ae/deutzer-brauhaus",
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/deutzer-brauhaus/",
+        "https://speisekarte.menu/restaurants/koeln/deutzer-bahnhof",
+        "https://www.bahnhof.de/koeln-messe-deutz/einkaufen-und-essen/deutzer-brauhaus",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/",
+        "https://opentable.co.uk/neighborhood/n/raum-koln/koln/deutz-restaurants"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "brauhaus-ohne-namen",
+      "name": "Brauhaus ohne Namen (b.o.n.)",
+      "category": "brauhaus",
+      "area": "deutz-messe",
+      "address": "Mathildenstraße 42, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Brauhaus — Rhineland / regional dishes",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.3,
+      "google_reviews": 1397,
+      "google_as_of": null,
+      "rating_source": "reviewhero.io",
+      "summary_ko": "도이츠 마틸덴슈트라세에 있는 젊고 아늑한 브라우하우스로, 라인 지방 향토 요리와 쾰시를 낸다. LANXESS 아레나·메쎄·도이츠역에서 걸어서 몇 분 거리라 행사 전후 저녁 식사에 좋고, 큼직한 코텔레트가 인기다.",
+      "must_try": [
+        "Braumeister Kotelett (브라우마이스터 코텔레트 — 350g짜리 뼈 붙은 돼지 폭찹)",
+        "Kölsch (쾰시)"
+      ],
+      "tags": [
+        "koelsch",
+        "near-messe",
+        "open-sunday",
+        "reservation-recommended"
+      ],
+      "tips_ko": "예약은 전화로만 받습니다(0221 812680). koeln.de 기준 화–토 17–23시, 일·공휴일 12–22시이지만 다른 목록에는 월·화 휴무나 16시 오픈으로 나와 있어 확인이 필요합니다. 1. FC 쾰른 토요일 경기가 있는 날은 킥오프 1시간 전에 문을 엽니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.reviewhero.io/de/brauereischaenke/koeln",
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/brauhaus-ohne-namen/",
+        "https://www.koeln.de/branchen/eintrag/2913/brauhaeuser/brauhaus-ohne-namen",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/brauhaus_ohne_namen",
+        "https://www.golocal.de/koeln-deutz/restaurants-gaststaetten/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "nuvola-napoli",
+      "name": "Nuvola Napoli",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Deutzer Freiheit 66a, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Neapolitan pizza",
+      "cuisine_group": "italian",
+      "price_level": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 1172,
+      "google_as_of": null,
+      "rating_source": "spinach.guide",
+      "summary_ko": "도이츠 메인 거리 도이처 프라이하이트에 있는 나폴리 피자 전문점으로, 피자 맛과 세심한 서비스를 칭찬하는 리뷰가 많다. Mit Vergnügen이 'Schäl Sick(라인강 건너편)의 벨라 이탈리아'로 소개한 동네 맛집이라 메쎄 점심이나 가벼운 저녁에 좋다.",
+      "must_try": [
+        "Pizza napoletana (나폴리식 피자 — 가장자리가 부풀고 쫄깃한 도우)"
+      ],
+      "tags": [
+        "near-messe",
+        "open-sunday",
+        "vegetarian-friendly",
+        "local-favorite"
+      ],
+      "tips_ko": "spinach.guide 기준 평일 12–22시, 주말 13–22시(koeln.de는 평일 12–22시)입니다. 평일 정오부터 열어 박람회 점심 시간에 맞추기 좋습니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://spinach.guide/venues/nuvola-napoli-32110/",
+        "https://www.reviewhero.io/nuvola-napoli-deutzer-freiheit-66a-koeln-d4a9",
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/nuvola-napoli/",
+        "https://koeln.mitvergnuegen.com/2023/nuvola-napoli/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "cafe-especial",
+      "name": "Café Especial",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Neuhöfferstraße 32, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Mexican cantina & tequila bar",
+      "cuisine_group": "latin-american",
+      "price_level": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.2,
+      "google_reviews": 3473,
+      "google_as_of": null,
+      "rating_source": "spinach.guide",
+      "summary_ko": "1986년부터 도이츠에서 영업해 온 멕시칸 레스토랑 겸 테킬라 바(칸티나)다. 타코·부리토·퀘사디야·나초 같은 친숙한 메뉴에 술을 곁들이는 캐주얼한 곳이라 여럿이 모이는 저녁에 무난하다.",
+      "must_try": [
+        "Tacos (타코)",
+        "Burritos (부리토)",
+        "Quesadillas (퀘사디야)",
+        "Nachos (나초)"
+      ],
+      "tags": [
+        "near-messe",
+        "group-friendly"
+      ],
+      "tips_ko": "구글 4.2점으로 기준선에 걸쳐 있고 리뷰가 엇갈립니다(음식은 호평이지만 붐빌 때 서비스가 느리거나 주문이 누락된다는 불만이 있음). 주소는 Neuhöfferstraße 32이며, 일부 목록에는 Deutzer Freiheit 89로 나와 있습니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://spinach.guide/venues/cafe-especial-koln-236271/",
+        "https://rausgegangen.de/blog/best-restaurants-koeln-deutz/",
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-und-kneipen-in-koeln-deutz_cafe_especial_L1121067_1121061.html",
+        "https://koeln.mitvergnuegen.com/2024/restaurants-deutz",
+        "https://tripaligner.com/countries/germany-22/destinations/koln-8618/places/cafe-especial-koln-983157"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "mongos-koeln",
+      "name": "Mongo's Köln",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Ottoplatz 1, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Mongolian grill — all-you-can-eat wok buffet (chain)",
+      "cuisine_group": "asian-fusion",
+      "price_level": 3,
+      "price_note": "OpenTable 가격대 '높음(gehoben)' — 무제한 코스 정확한 가격은 미확인",
+      "google_rating": 4.3,
+      "google_reviews": 3074,
+      "google_as_of": null,
+      "rating_source": "reviewhero.io",
+      "summary_ko": "도이츠역 앞 오토플라츠에 있는 몽골리안 그릴 체인점으로, 고기·채소·소스를 직접 골라 웍에서 볶아 주는 무제한(all-you-can-eat) 방식이다. 메뉴 고민 없이 여럿이 가기 좋은 메쎄 근처 단체 식사 옵션.",
+      "must_try": [
+        "Mongolian wok grill (직접 고른 재료를 웍에 볶아 주는 몽골리안 그릴)"
+      ],
+      "tags": [
+        "near-messe",
+        "group-friendly",
+        "open-sunday"
+      ],
+      "tips_ko": "OpenTable 기준 월–금 17–23시, 토 12–23시, 일 11:30–23시로 평일 점심 영업은 없습니다. 단품 메뉴는 전채 몇 가지뿐이라 사실상 무제한 코스만 가능합니다. 독일 여러 도시에 지점이 있는 체인입니다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.reviewhero.io/mongo-s-restaurant-koln-1ede",
+        "https://www.reviewhero.io/de/mongolisches-grillrestaurant/koeln",
+        "https://www.opentable.com/r/mongos-restaurant-koln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/mongos_koeln",
+        "https://opentable.co.uk/neighborhood/n/raum-koln/koln/deutz-restaurants"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Glashaus Restaurant & Bar (Hyatt Regency Köln)",
+      "area": "deutz-messe",
+      "address": "Kennedy-Ufer 2a, 50679 Köln",
+      "reason": "google-numbers-missing",
+      "found": "No Google numbers found for the restaurant. OpenTable 4.6–4.7 from about 470–490 reviews (varies by country site); OpenTable calls it the best-reviewed restaurant in Deutz, price 'very upscale'. Mit Vergnügen 2023: 'Fine Dining mit Domblick'. Hotel dining page: view of the Rhine, Hohenzollernbrücke and Dom. Sunday brunch. One review: reflective windows make the Altstadt view poor after dark. speisekarte.de 5.0 from 2 reviews. The hotel itself (not the restaurant) shows Google 4.5 (4,100) on enprimeurclub.com. HIGH PRIORITY for follow-up: the only Dom-view / business-dinner option in this area.",
+      "sources": [
+        "https://www.opentable.co.uk/glashaus-restaurant",
+        "https://koeln.mitvergnuegen.com/2023/glashaus-restaurant/",
+        "https://www.hyatt.com/de-DE/hotel/germany/hyatt-regency-cologne/colog/dining",
+        "https://www.hyattrestaurants.com/fr/dining/germany/cologne/glashaus-restaurant/events/sunday-brunch-in-rhine-riverbanks-hyatt-regency-cologne-p7zx",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/glashaus2",
+        "https://www.enprimeurclub.com/hotels/hyatt-regency-koln-cologne-hotel"
+      ]
+    },
+    {
+      "name": "Café Heimisch (Heimisch Kaffee & Regionales)",
+      "area": "deutz-messe",
+      "address": "Deutzer Freiheit 72–74, 50679 Köln",
+      "reason": "google-numbers-missing",
+      "found": "speisekarte.menu 4.3 (4,021). Not used: that aggregator is not labelled as Google, and its numbers for Deutzer Brauhaus (3.6/529) clearly differ from Google's (4.3/9,240). Rausgegangen top-5 Deutz (2023). Opened 2016; regional ingredients, breakfast, covered terrace, quieter upstairs for laptop work. Hours conflict: koeln.de daily 9–18; Rausgegangen Mo–Fr 8:00–18:30, Sa–So 9–18. Likely qualifies; a good breakfast or quick-lunch spot near the Messe.",
+      "sources": [
+        "https://speisekarte.menu/restaurants/koeln/heimisch",
+        "https://www.koeln.de/?p=56664",
+        "https://rausgegangen.de/blog/best-restaurants-koeln-deutz/",
+        "https://findit.city/en/germany/cologne/places/restaurants/heimisch-kaffee-and-regionales-4375815326"
+      ]
+    },
+    {
+      "name": "Rheinterrassen (Restaurant & Biergarten)",
+      "area": "deutz-messe",
+      "address": "Rheinparkweg 1, 50679 Köln",
+      "reason": "google-numbers-missing",
+      "found": "No Google numbers. OpenTable 4.0 from 96 reviews (food 3.9, service 3.9, ambience 4.3, value 3.4); speisekarte.de 3.7 from 7 reviews (some from 2013). Pullman POI hours: Mo–Sa 18–01, Sun/holidays 12–17 (another source differs). Event location (KölnKongress); seasonal 'Biergarten an den Rheinterrassen'; Falstaff has a listing. Non-Google scores suggest it may fall below the bar.",
+      "sources": [
+        "https://www.opentable.com/restaurant-rheinterrassen",
+        "https://koelncongress.de/en/locations/rheinterrassen-koeln/",
+        "https://pullman.accor.com/gb/destinations/poi/rheinterrassen-cologne.shtml",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/biergarten_an_den_rheinterrassen",
+        "https://www.koeln.de/freizeit/ll/schoene-biergaerten-in-koeln/biergarten-rheinterrassen/",
+        "https://www.falstaff.com/en/restaurants/rheinterrassen-koeln"
+      ]
+    },
+    {
+      "name": "Sion Bräues (Antik Brauhaus Sion-Bräues)",
+      "area": "deutz-messe",
+      "address": "Deutzer Freiheit 85–87, 50679 Köln",
+      "reason": "google-numbers-missing",
+      "found": "No Google numbers for the Deutz location. koeln.de: Tue–Thu from 16:00, Fri–Sun from 12:00; daily changing menu; small outdoor area; serves Kölsch and hearty Rhineland food to locals and LANXESS arena visitors. OpenTable 4.3 from 1 review. The reviewhero (4.04, 5,574) and werkenntdenbesten (3.96, 10,010) numbers that came up most likely belong to Brauhaus Sion in the Altstadt (Unter Taschenmacher 5–7). Do not mix them up.",
+      "sources": [
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/sion-braeues/",
+        "https://www.koeln.de/branchen/eintrag/36403/brauhaeuser/sion-braeues",
+        "https://opentable.sg/r/antik-brauhaus-sion-braues-cologne",
+        "https://www.reviewhero.io/antik-brauhaus-f386"
+      ]
+    },
+    {
+      "name": "Em Bierstüffge",
+      "area": "deutz-messe",
+      "address": "Graf-Geßler-Straße 1, 50679 Köln",
+      "reason": "google-numbers-missing",
+      "found": "No rating numbers found. koeln.de: no card payment (cash only), skittle alley (Kegelbahn), outdoor seating, shows 1. FC Köln and Kölner Haie matches; Mon–Tue from 15:00, Wed–Sat from 11:00, Sun from 14:00; no kitchen on Sunday. A neighbourhood Kölsch pub; possible after-work option if its Google numbers check out.",
+      "sources": [
+        "https://www.koeln.de/leben/ll/kneipen-restaurants-koeln-deutz/em-bierstueffge",
+        "https://www.koeln.de/branchen/eintrag/43476/brauhaeuser/em-bierstueffge",
+        "https://speisekarte.menu/restaurants/koeln/em-bierstuffge"
+      ]
+    },
+    {
+      "name": "Meiwei",
+      "area": "deutz-messe",
+      "address": null,
+      "reason": "google-numbers-missing; address unverified",
+      "found": "Listed as Asian fusion with a cosy terrace in Mit Vergnügen '11 Mal lecker essen in Deutz' (2025). Hours in that list: lunch Mon–Fri 11:30–14:00, dinner daily 18:30–21:30, Sunday brunch 12:30–15:30. The search summary placed it next to the Hyatt Regency Köln entry (Kennedy-Ufer 2A), so it may be a Hyatt outlet, but no source confirms this and no Hyatt search mentioned it. No Google numbers.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/"
+      ]
+    },
+    {
+      "name": "Grissini Restaurant",
+      "area": "deutz-messe",
+      "address": null,
+      "reason": "google-numbers-missing; address unverified",
+      "found": "Italian. On OpenTable's Deutz list: 4.5 stars, price 'moderate'. A Booking.com listing groups 'Grissini Restaurant', 'Glashaus' and 'Sticky Fingers' with the Hyatt Regency Köln, which may only mean they are nearby. Exact address not confirmed.",
+      "sources": [
+        "https://opentable.co.uk/neighborhood/n/raum-koln/koln/deutz-restaurants",
+        "https://www.opentable.com/r/grissini-restaurant-koln/photos",
+        "https://m.booking.com/hotel/de/hyatt-regency-koln.en-gb.html"
+      ]
+    },
+    {
+      "name": "The ASH Köln MesseCity",
+      "area": "deutz-messe",
+      "address": null,
+      "reason": "google-numbers-missing; chain",
+      "found": "Steakhouse in MesseCity Köln, next to Bf Köln Messe/Deutz; on OpenTable's Deutz list as well-rated and upscale (special-occasion). Part of 'The ASH' chain. No Google numbers or exact address captured. A possible business-dinner option near the Messe.",
+      "sources": [
+        "https://opentable.co.uk/neighborhood/n/raum-koln/koln/deutz-restaurants"
+      ]
+    },
+    {
+      "name": "CoffeeIN",
+      "area": "deutz-messe",
+      "address": null,
+      "reason": "google-numbers-missing; address unverified",
+      "found": "Mit Vergnügen '21 Cafés in Deutz, Kalk und Mülheim' (2025) recommends it in Deutz for a good, cheap start to the day (breakfast/coffee). No numbers or address captured.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/cafes-deutz-kalk-muelheim/"
+      ]
+    },
+    {
+      "name": "Paparazzi Lounge Bar & Restaurant",
+      "area": "deutz-messe",
+      "address": null,
+      "reason": "google-numbers-missing; address unverified",
+      "found": "Only seen as a name in golocal's Köln-Deutz restaurant list. Nothing else verified (it may be a hotel lounge near the Messe).",
+      "sources": [
+        "https://www.golocal.de/koeln-deutz/restaurants-gaststaetten/"
+      ]
+    }
+  ]
+}

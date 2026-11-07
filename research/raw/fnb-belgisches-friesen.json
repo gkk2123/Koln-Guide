@@ -1,0 +1,363 @@
+{
+  "agent": "fnb-belgisches-friesen",
+  "generated": "2026-11-07",
+  "scope": "Food & drink (restaurants, Brauhäuser, cafés/brunch, bakeries, dessert, street food; no cocktail/beer/wine bars) in belgisches-viertel and friesenviertel-ehrenstrasse — INCOMPLETE: research stopped early because the shared per-turn web search budget (200 calls) was used up",
+  "places": [
+    {
+      "id": "hallmackenreuther",
+      "name": "Hallmackenreuther",
+      "category": "cafe",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Platz 9, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Café-Bar im 50er-Jahre-Stil, Wochenend-Brunch",
+      "cuisine_group": "cafe-bakery",
+      "price_level": 2,
+      "price_note": "spinach.guide 가격대 표기 $$ (구체적 메뉴 가격은 이번 조사에서 미확인)",
+      "google_rating": 4.2,
+      "google_reviews": 990,
+      "google_as_of": null,
+      "rating_source": "spinach.guide",
+      "summary_ko": "브뤼셀러 플라츠(Brüsseler Platz)에 면한 1950년대 레트로 스타일 카페 겸 바로, 쾰른 사람이라면 거의 다 안다는 벨기에 지구의 터줏대감이다. 주말 브런치 테라스로 이름나 있어 동네 분위기를 느끼며 커피와 브런치를 즐기려는 사람에게 맞다.",
+      "must_try": [],
+      "tags": ["terrace", "brunch", "local-favorite", "late-night", "open-sunday"],
+      "tips_ko": "리스팅 기준 매일 10:00 오픈, 금·토는 01:30까지, 일요일은 23:30까지(방문 전 재확인). 주말 브런치 시간대 테라스가 인기라 자리를 원하면 일찍 가는 편이 좋다.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://spinach.guide/venues/hallmackenreuther-28875/",
+        "https://rausgegangen.de/en/locations/hallmackenreuther/",
+        "https://tablejourney.com/neighborhood/cologne/belgisches-viertel/cafe/",
+        "https://www.smart-travelling.net/locations/hallmackenreuther",
+        "https://koeln.mitvergnuegen.com/2026/cafes-belgisches-viertel/"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Christoph Paul's Restaurant",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Straße 26, 50674 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing: no exact Google review count found (strong candidate, Michelin-listed)",
+      "found": "Michelin Guide 등재(€€ · Marktküche/saisonal, schöne Terrasse; Christoph Paul & Juliane 운영). En Primeur Club 표에 'Bib Gourmand' 표시(연도 미표시). 출처가 불분명한 애그리게이터 문구 'Google-Nutzer vergeben 4,7 bei über 200 Bewertungen' — 정확한 리뷰 수가 없어 채택하지 않음. 영업시간 출처별 상이(Foodle: 수–토 18:00~, Schlemmer-Atlas: 화–금 17:30~). 전화번호도 출처별 1자리 상이.",
+      "sources": [
+        "https://guide.michelin.com/en/nordrhein-westfalen/koln/restaurant/christoph-pauls-restaurant",
+        "https://www.enprimeurclub.com/restaurants/christoph-pauls-restaurant-cologne-restaurant",
+        "https://foodle.pro/restaurants/cologne/christoph-paul-s-restaurant",
+        "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/christoph-pauls-restaurant/",
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/christoph-pauls-restaurant"
+      ]
+    },
+    {
+      "name": "Café Bauturm",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 24–26, 50674 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-ambiguous: spinach.guide 4.2 (802) may be Spinach's own score, other aggregates are lower",
+      "found": "spinach.guide 4.2 (802) — 구글 수치인지 spinach 자체 점수인지 불명확. speisekarte.menu 3.8 (5,805건, 출처 미표기). speisekarte.de 4.8 (4건). Theater im Bauturm 옆, 20년 넘은 '쾰른 인스티튜션', 비건 옵션 있음. Falstaff는 바(bar)로 분류.",
+      "sources": [
+        "https://spinach.guide/venues/cafe-bauturm-29790/",
+        "https://speisekarte.menu/restaurants/cologne/bauturm-cafe",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/bauturm_cafe",
+        "https://www.falstaff.com/de/bars/bauturm"
+      ]
+    },
+    {
+      "name": "Salon Schmitz",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 28, 50674 Köln",
+      "category": "cafe",
+      "reason": "google-numbers-missing; aggregate scores (3.8–3.99) suggest likely below-criteria",
+      "found": "werkenntdenbesten.de 종합 3,99 (4개 포털 합산 1425건, 구글 단독 수치는 검색 결과에 노출되지 않음). speisekarte.menu 3.8 (7,211건, 출처 미표기). 번지 출처별 상이: 28(werkenntdenbesten, speisekarte.menu) / 28–30(smart-travelling) / 34(koeln.de). koeln.de는 'Schmitz – Salon, Bar, Metzgerei' 묶음으로 소개하며, Metzgerei Schmitz 별도 수치는 미확인.",
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/42567766/cafe/koeln/salon-schmitz-bewertungen.html",
+        "https://speisekarte.menu/restaurants/koeln/salon-schmitz",
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-im-belgischen-viertel-in-koeln_schmitz-bar-salon-metzgerei-brasserie_L1134356_1134345.html",
+        "https://smart-travelling.net/locations/salon-schmitz"
+      ]
+    },
+    {
+      "name": "Sorgenfrei",
+      "area": "belgisches-viertel",
+      "address": "Antwerpener Straße 15, 50672 Köln",
+      "category": "restaurant",
+      "reason": "google-numbers-missing; operating status unclear",
+      "found": "foodle.pro 등록(Sorgenfrei Wein und Speisen GmbH, 별점 없음). 예전 Lonely Planet 소개: 와인 리스트가 좋은 현지 인기 미식 레스토랑. OpenTable에 'sorgenfrei permanently closed' 페이지가 있으나 어느 지점인지 불명(케르펜·칭스트의 동명 업소 리스팅이 섞여 나옴). 쾰른 지점 폐업 보도는 찾지 못함.",
+      "sources": [
+        "https://foodle.pro/restaurants/cologne/sorgenfrei-wein-und-speisen-gmbh",
+        "https://www-lonelyplanet-com-57e2.imagizer.com/germany/north-rhine-westphalia/cologne/restaurants/sorgenfrei/a/poi-eat/1294360/359392",
+        "https://www.opentable.com/sorgenfrei-permanently-closed"
+      ]
+    },
+    {
+      "name": "Tanoshii",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing (not researched further: search budget exhausted)",
+      "found": "Mit Vergnügen 2026 'Restaurants Belgisches Viertel': 쾰른의 고급 스시 주소 중 하나, 포케볼·베트남 요리도, 날씨 좋으면 안뜰(Hinterhof) 좌석, 예약 필수. 두부·가지 요리 추천.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ]
+    },
+    {
+      "name": "Tigermilch",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing (not researched further: search budget exhausted)",
+      "found": "Mit Vergnügen 2025/2026: 모던 페루 퓨전, 타파스 크기로 나눠 먹는 구성('페루 요리 팬에게 필수'). tablejourney에 브런치 페이지 있음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-belgisches-viertel",
+        "https://tablejourney.com/germany/cologne/brunch/tigermilch-brunch/",
+        "https://www.enprimeurclub.com/restaurants/tigermilch-cologne-restaurant"
+      ]
+    },
+    {
+      "name": "Wen Cheng",
+      "area": "belgisches-viertel",
+      "address": "Köln Innenstadt (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing; address and exact area not confirmed",
+      "found": "Mit Vergnügen 벨기에 지구 리스트: 베를린의 인기 수타면(handgezogene Nudeln) 가게가 쾰른 시내에 새로 오픈. 신규 매장이라 리뷰 수가 기준(50)에 못 미칠 수 있음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ]
+    },
+    {
+      "name": "Belgischer Hof",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Straße, Köln (Hausnummer nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "독일·프랑스 요리, 녹음 짙은 안뜰, 큰 와인 리스트, 플람쿠헨(Flammkuchen) (Rausgegangen, Mit Vergnügen). Wanderlog 설명: 모던 프렌치. tablejourney 자체 점수 3.8.",
+      "sources": [
+        "https://rausgegangen.de/blog/unsere-lieblingsrestaurants-im-belgischen-viertel/",
+        "https://extensionembed.wanderlog.com/place/details/3077332",
+        "https://www.koeln.de/gastro/eintrag/44663/restaurants/belgischer-hof",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ]
+    },
+    {
+      "name": "Petit Frère",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing; listed in 2024 roundup, 2026 status not confirmed",
+      "found": "Mit Vergnügen 2024: 로맨틱 디너·특별한 날용, 가격은 공정한 편, 점심 영업도 함. tablejourney 분류: Modern French / fine dining.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2024/restaurants-belgisches-viertel",
+        "https://tablejourney.com/germany/cologne/fine-dining/petit-frere/"
+      ]
+    },
+    {
+      "name": "Ouzeria",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing; 2026 status not confirmed",
+      "found": "koeln.de / 예전 Mit Vergnügen: 지중해식 작은 접시(메제) 중심의 캐주얼 파인다이닝.",
+      "sources": [
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-im-belgischen-viertel-in-koeln_ouzeria-in-k-ln-mediterrane-kleinigkeite_L1134356_1166626.html"
+      ]
+    },
+    {
+      "name": "Daikan",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "Mit Vergnügen: 일본식 이자카야·라멘·스시, 작은 테라스, 비건 메뉴 있음. tablejourney 페이지 있음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/",
+        "https://tablejourney.com/germany/cologne/restaurants/daikan-cologne/"
+      ]
+    },
+    {
+      "name": "Mandalay",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "Mit Vergnügen: 쾰른 유일의 미얀마(버마) 레스토랑, 수수한 외관과 달리 음식 평이 좋음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ]
+    },
+    {
+      "name": "Shaka Zulu",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "Mit Vergnügen: 남아프리카 요리, '쾰른에서 아마 가장 화려한 아프리카 레스토랑'.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ]
+    },
+    {
+      "name": "Warung Bayu",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "Mit Vergnügen: 작은 인도네시아·발리 식당, 커리와 샐러드. tablejourney 페이지 있음.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/",
+        "https://tablejourney.com/germany/cologne/restaurants/warung-bayu-cologne/"
+      ]
+    },
+    {
+      "name": "SORELLINA di Nuvola Napoli (Belgisches Viertel)",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing (venue page found, numbers not seen)",
+      "found": "spinach.guide에 'SORELLINA di Nuvola Napoli (Belgisches Viertel)' 페이지 존재 — 이름상 나폴리 피자 계열. 평점·주소는 검색 결과에 나오지 않음.",
+      "sources": [
+        "https://spinach.guide/venues/sorellina-di-nuvola-napoli-belgisches-viertel-242681/"
+      ]
+    },
+    {
+      "name": "Café Luz",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Platz, 50674 Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing; new café, review count may be low",
+      "found": "Mit Vergnügen 2026 카페 리스트 도입부에 소개: 쥘츠(Sülz)의 유명 디저트 카페 팀이 Brüsseler Platz에 연 새 카페.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/cafes-belgisches-viertel/"
+      ]
+    },
+    {
+      "name": "Café Belgique",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Platz, 50674 Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "koeln.de '인기 거리 카페': 해 좋은 오후 주민과 쾰른 팬이 나란히 앉는 커피·케이크 카페. 영업시간(koeln.de) 일–목 12–19시, 금·토 12–23시.",
+      "sources": [
+        "https://www.koeln.de/leben/ll/beliebte-koelner-strassencafes/cafe-belgique/"
+      ]
+    },
+    {
+      "name": "Balthasar",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße, Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "동네 카페·비스트로, 종일 브런치·케이크·와인(tablejourney). tablejourney 자체 점수 4.0.",
+      "sources": [
+        "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+      ]
+    },
+    {
+      "name": "Café Caprista",
+      "area": "belgisches-viertel",
+      "address": "Flandrische Straße, Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "푸짐한 브런치 플레이트와 오후 케이크(tablejourney). tablejourney 자체 점수 4.7.",
+      "sources": [
+        "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+      ]
+    },
+    {
+      "name": "The Coffee Gang",
+      "area": "belgisches-viertel",
+      "address": "Maastrichter Straße, Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "스페셜티 커피 바, 게스트 로스터 필터·에스프레소(tablejourney).",
+      "sources": [
+        "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+      ]
+    },
+    {
+      "name": "Café Buur",
+      "area": "belgisches-viertel",
+      "address": "Maastrichter Straße, Köln (Hausnummer nicht ermittelt)",
+      "category": "cafe",
+      "reason": "google-numbers-missing",
+      "found": "브런치 카페(tablejourney 브런치 페이지).",
+      "sources": [
+        "https://tablejourney.com/germany/cologne/brunch/cafe-buur-brunch/"
+      ]
+    },
+    {
+      "name": "Hempies",
+      "area": "belgisches-viertel",
+      "address": "Händelstraße, Köln (Hausnummer nicht ermittelt)",
+      "category": "bakery",
+      "reason": "google-numbers-missing; Händelstraße is at the southern edge of the area (check area)",
+      "found": "비건 베이커리 카페(벨기에 지구 카페 리스트 검색 결과).",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/cafes-belgisches-viertel/",
+        "https://tablejourney.com/germany/cologne/cuisine/cafe/"
+      ]
+    },
+    {
+      "name": "Compleat Köln Belgisches Viertel",
+      "area": "belgisches-viertel",
+      "address": "Belgisches Viertel, Köln (Adresse nicht ermittelt)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "HappyCow 등록: 건강식(Gesundes Essen) & 케이터링. 평점 미확인.",
+      "sources": [
+        "https://www.happycow.net/reviews/compleat-koeln-belgisches-viertel-i-gesundes-essen-catering-nordrhein-westfalen-478822"
+      ]
+    },
+    {
+      "name": "Restaurant Acht",
+      "area": "belgisches-viertel",
+      "address": "Spichernhöfe, Köln (Adresse nicht ermittelt; Grenzlage — Gebiet prüfen)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing; area boundary unclear",
+      "found": "Hotels.com: 옛 창고 단지 Spichernhöfe의 인더스트리얼 디자인 레스토랑.",
+      "sources": [
+        "https://ie.hotels.com/go/germany/great-restaurants-cologne"
+      ]
+    },
+    {
+      "name": "Brauerei Päffgen",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenstraße 64–66, 50670 Köln",
+      "category": "brauhaus",
+      "reason": "google-numbers-missing",
+      "found": "구글 수치 미발견. speisekarte.de 3.9 (25건; 2024년 서비스 불만 리뷰 등 엇갈림). tablejourney 자체 점수 4.5, '시내 마지막 독립 하우스 양조장' 소개. koeln.de 관광 페이지에 브라우하우스로 소개. 주의: 근처 바 'Päff'(speisekarte.menu 4.1 / 1,627건)와 혼동 금지.",
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/paeffgen",
+        "https://tablejourney.com/germany/cologne/restaurants/brauerei-paeffgen/",
+        "https://www.koeln.de/tourismus/ll/brauhaus-koeln/brauhaus-paeffgen/",
+        "https://speisekarte.menu/restaurants/koeln/paeff"
+      ]
+    },
+    {
+      "name": "NENI Köln",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Im Klapperhof 22–24, 50670 Köln (25hours Hotel The Circle)",
+      "category": "restaurant",
+      "reason": "google-numbers-missing",
+      "found": "구글 수치 미발견(검색 결과엔 호텔 평점만 나옴). speisekarte.de 3/5 (1건, 의미 없음). 주소 번지는 이번 검색 결과에서 직접 확인하지 못함(호텔명만 확인) — 재확인 필요.",
+      "sources": [
+        "https://www.25hours-hotels.com/en/restaurants-bars/cologne/neni-cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/neni"
+      ]
+    },
+    {
+      "name": "Bäckerei Zimmermann",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Ehrenstraße, Köln (Hausnummer nicht ermittelt)",
+      "category": "bakery",
+      "reason": "google-numbers-missing",
+      "found": "Culture Trip: 1875년부터 Ehrenstraße에서 영업한 베이커리.",
+      "sources": [
+        "https://theculturetrip.com/europe/germany/articles/the-best-bakeries-in-cologne-germany"
+      ]
+    }
+  ]
+}

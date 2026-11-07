@@ -1,0 +1,125 @@
+{
+  "agent": "bars",
+  "generated": "2026-11-07",
+  "scope": "쾰른 시내 전역의 바(칵테일·클래식·스피크이지·호텔/루프탑·크래프트 맥주·클래식 크나이페; 와인바·브라우하우스 제외) + World's 50 Best Bars 쾰른 진입 여부 확인",
+  "places": [],
+  "candidates": [
+    {
+      "name": "Little Link",
+      "area": "belgisches-viertel",
+      "address": "Maastrichter Straße 20, 50672 Köln",
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "Falstaff 바 페이지 96점(가이드 연도 표기 미확인). Bar Magazine 'The 8 Best Bars in Cologne (2026)' 선정. 공식 사이트 타이틀 문구 'Innovativste Bar des Jahres'(연도·주최 미확인). Accor 여행 가이드가 'World's 50 Best Bars 리스트에 포함된 적 있다'고 쓰지만 연도·순위 없음 — 50 Best 리스트 출처로는 확인되지 않음(가이드에 표기 금지). 창업자 Stephan Hinz, 자가 제조 재료(포르치니 위스키, 로즈힙 슈럽, 블랙베리 캐비아), 슬라이더 23시까지. 구글 평점·리뷰 수 미확보.",
+      "sources": [
+        "https://www.littlelink.de/en/",
+        "https://www.falstaff.com/en/bars/little-link",
+        "https://barmagazine.com/best-bars/cologne",
+        "https://all.accor.com/a/en/limitless/thematics/entertainment/bars-in-cologne.html",
+        "https://wanderlog.com/place/details/1478418/little-link"
+      ]
+    },
+    {
+      "name": "Seiberts",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenwall, Köln (번지·우편번호 미확인)",
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "Volker Seibert가 운영하는 클래식 칵테일 바(Seiberts Classic Bar & Liquid Kitchen). enprimeurclub.com: World's 500 Best Bars(Top 500 Bars) 2025 436위(원 리스트 미확인). 검색 요약상 Mixology Bar Awards 2025 Top 10(원출처 페이지 특정 못 함). Wanderlog: 책 '150 Bars You Need to Visit Before You Die' 수록. 구글 수치 미확보.",
+      "sources": [
+        "https://www.enprimeurclub.com/bars/seiberts-bar-cologne-bar",
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne"
+      ]
+    },
+    {
+      "name": "Toddy Tapper",
+      "area": "agnesviertel-eigelstein",
+      "address": "Schillingstraße 27, Köln (우편번호 미확인)",
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "50 Best 공식 'Discovery' 데이터베이스 등재(순위 리스트 아님). 스리랑카 출신 바텐더 Indika Silva 운영, 이름은 아락(arrack) 원료인 야자 수액 채취꾼에서 따왔고 메뉴 전반에 아락 사용. 제3자 리스트에 'Falstaff가 독일 최고 바 중 하나로 꼽음' 언급(출처 페이지 특정 못 함). 구글 수치 미확보.",
+      "sources": [
+        "https://www.theworlds50best.com/discovery/Establishments/Germany/Cologne/Toddy-Tapper.html"
+      ]
+    },
+    {
+      "name": "Asimmetric Bar",
+      "area": "ehrenfeld",
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "koelnticket 매거진: '50 Best Discovery in the World 2022' 등재(순위 리스트 아님). 주소·영업 여부·구글 수치 미확보.",
+      "sources": [
+        "https://www.koelnticket.de/magazin/deine-stadt/koeln-bei-nacht-entdecke-die-besten-bars-der-domstadt"
+      ]
+    },
+    {
+      "name": "Papa Joe's Jazzlokal",
+      "area": "dom-altstadt",
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "Travelbook 기사: European Bar Guide의 유럽 베스트 바 리스트 6위, '세계 최고의 재즈바 중 하나'로 소개(리스트 연도 미확인). 구시가의 재즈 라이브 펍. 주소·구글 수치 미확보.",
+      "sources": [
+        "https://www.travelbook.de/orte/auch-eine-deutsche-dabei-die-besten-bars-in-europa"
+      ]
+    },
+    {
+      "name": "ONA MOR",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "konfetti의 쾰른 칵테일바 가이드에 선정, 다른 쾰른 바 리스트에서도 인기 칵테일바로 반복 언급. 위치·주소·구글 수치 미확보.",
+      "sources": [
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ]
+    },
+    {
+      "name": "Monkey Bar (25hours Hotel The Circle)",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "검색 요약에서 쾰른 인기 바로 이름만 언급(Wanderlog·Yelp·funkyGERMANY 등 리스트 묶음, 정확한 출처 페이지 특정 못 함). 리드 시드 정보로는 25hours Hotel The Circle 루프탑 바 — 이번 세션에서 위치·영업·구글 수치 확인 못 함.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne",
+        "https://funkygermany.com/en/best-bars-in-cologne/"
+      ]
+    },
+    {
+      "name": "Soul Bar",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "검색 요약에서 쾰른 인기 바로 이름만 언급(Wanderlog·Yelp·funkyGERMANY 등 리스트 묶음, 정확한 출처 페이지 특정 못 함). 위치·종류·구글 수치 미확보.",
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/6444/best-bars-and-drinks-in-cologne",
+        "https://funkygermany.com/en/best-bars-in-cologne/"
+      ]
+    },
+    {
+      "name": "Barito",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "konfetti의 쾰른 베스트 칵테일바 가이드에 선정. 위치·주소·구글 수치 미확보.",
+      "sources": [
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ]
+    },
+    {
+      "name": "Franky's Bar",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "konfetti의 쾰른 베스트 칵테일바 가이드에 선정. 위치·주소·구글 수치 미확보.",
+      "sources": [
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ]
+    },
+    {
+      "name": "Shaker's",
+      "area": null,
+      "address": null,
+      "reason": "google-numbers-not-found (공유 WebSearch 한도 소진으로 구글 평점 조회 전 중단)",
+      "found": "konfetti의 쾰른 베스트 칵테일바 가이드에 선정. 위치·주소·구글 수치 미확보.",
+      "sources": [
+        "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/"
+      ]
+    }
+  ]
+}

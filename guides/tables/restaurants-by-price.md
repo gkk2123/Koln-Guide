@@ -1,0 +1,21 @@
+# 가격대별 맛집
+
+> 자동 생성 파일입니다 — 직접 고치지 말고 `data/*.json`을 수정한 뒤 `python3 scripts/build.py`를 실행하세요.
+> 기준: 구글 평점 4.2+ · 리뷰 50+ · 빌드 2026-11-07. 거리는 직선거리(km)이며 좌표가 없는 곳은 '–'로 표시됩니다.
+
+
+1인 음식값 기준(음료 제외): € ~15 · €€ 15–30 · €€€ 30–60 · €€€€ 60+
+
+
+## €€ — 2곳
+
+| 이름(지도) | 지역 | 음식 | 구글 | 가격 메모 |
+|---|---|---|---|---|
+| [Deutzer Brauhaus](https://www.google.com/maps/search/?api=1&query=Deutzer%20Brauhaus%20Ottoplatz%207%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 독일 | ★4.3 (9,240) | OpenTable 가격대 '보통(moderate)' |
+| [Hallmackenreuther](https://www.google.com/maps/search/?api=1&query=Hallmackenreuther%20Br%C3%BCsseler%20Platz%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 카페·베이커리 | ★4.2 (990) | spinach.guide 가격대 표기 $$ (구체적 메뉴 가격은 이번 조사에서 미확인) |
+
+## €€€ — 1곳
+
+| 이름(지도) | 지역 | 음식 | 구글 | 가격 메모 |
+|---|---|---|---|---|
+| [Mongo's Köln](https://www.google.com/maps/search/?api=1&query=Mongo%27s%20K%C3%B6ln%20Ottoplatz%201%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 아시안 퓨전 | ★4.3 (3,074) | OpenTable 가격대 '높음(gehoben)' — 무제한 코스 정확한 가격은 미확인 |

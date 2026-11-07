@@ -1,0 +1,156 @@
+{
+  "agent": "fnb-suedstadt-other-korean",
+  "generated": "2026-11-07",
+  "scope": "Food & drink in suedstadt-rheinauhafen; Korean restaurants citywide; up to 5 standouts in 'other' areas; Michelin Köln 2026 list (in notes). INCOMPLETE: shared WebSearch budget ran out after 12 searches, no Google numbers could be verified.",
+  "places": [],
+  "candidates": [
+    {
+      "name": "Ox & Klee",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Im Zollhafen 18, 50678 Köln",
+      "address_status": "unverified: street and number from prior knowledge; this session only confirmed 'middle of the three Kranhäuser, Rheinauhafen'",
+      "category": "restaurant",
+      "cuisine_group": "modern-european",
+      "awards": ["Michelin 2 Stars 2026"],
+      "reason": "google-numbers-missing",
+      "found": "Michelin Guide Deutschland 2026 (ceremony 2026-06-23): two stars, Köln's only two-star restaurant, in the middle Kranhaus at Rheinauhafen (mitvergnuegen 2026, guide.michelin.com 2026 list, hogapage, t-online). No Google rating or review count found: the shared WebSearch budget ran out before the rating lookup.",
+      "next_step": "Search 'Ox & Klee Köln Google Bewertungen' or restaurantguru/werkenntdenbesten; get the tasting-menu price for price_level.",
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026",
+        "https://www.hogapage.de/nachrichten/wirtschaft/gastronomie/guide-michelin-2026-ein-neuzugang-im-sterne-olymp/",
+        "https://koeln.t-online.de/region/koeln/id_101309626/michelin-sterne-2026-koelner-restaurant-neobiota-gewinnt-einen-stern.html"
+      ]
+    },
+    {
+      "name": "Pottkind",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Darmstädter Straße 9, 50678 Köln",
+      "address_status": "partial: street and number seen in this session (KölnTourismus 'Spitzen-Gastronomie 2024'); PLZ from prior knowledge",
+      "category": "restaurant",
+      "cuisine_group": "modern-european",
+      "awards": ["Michelin 1 Star 2026"],
+      "reason": "google-numbers-missing",
+      "found": "Michelin 2026: one star, kept from the previous year (t-online list, mitvergnuegen 2026, guide.michelin.com 2026 list). Address per KölnTourismus 2024 press PDF. No Google numbers found (search budget exhausted).",
+      "next_step": "Search 'Pottkind Köln Google Bewertungen'; check menu price and whether it takes walk-ins.",
+      "sources": [
+        "https://koeln.t-online.de/region/koeln/id_101309626/michelin-sterne-2026-koelner-restaurant-neobiota-gewinnt-einen-stern.html",
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026",
+        "https://www.koelntourismus.de/fileadmin/Mediendatenbank/Sonstige-Dateien/PDF/Pressetexte/Spitzen-Gastronomie_2024_DE.pdf"
+      ]
+    },
+    {
+      "name": "Capricorn [i] Aries Brasserie",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Alteburger Straße 31, 50678 Köln",
+      "address_status": "unverified: prior knowledge (the brasserie and the separate fine-dining 'Restaurant' sit on opposite sides of Alteburger Str.; check the number)",
+      "category": "restaurant",
+      "cuisine_group": "french",
+      "awards": ["Michelin Bib Gourmand"],
+      "reason": "google-numbers-missing",
+      "found": "Michelin's Köln page (as returned by search) counts 3 Bib Gourmands: HENNE.Weinbar, Capricorn [i] Aries Brasserie, Gasthaus Scherz; foodle.pro lists the same three. The snippet shows no year, but none of the 10 new 2026 Bibs nationwide are in Köln, so this is very likely the current state. No Google numbers found.",
+      "next_step": "Search 'Capricorn i Aries Brasserie Köln Google Bewertungen'; confirm the house number and that the Bib is in the 2026 guide.",
+      "sources": [
+        "https://guide.michelin.com/us/en/nordrhein-westfalen/koln/restaurants",
+        "https://foodle.pro/restaurants/michelin-star-restaurants/bib-gourmand/c-germany/cologne",
+        "https://www.hogapage.de/nachrichten/wirtschaft/gastronomie/zehn-neue-bib-gourmand-restaurants-in-deutschland/"
+      ]
+    },
+    {
+      "name": "Phaedra",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Elsaßstraße 30, 50677 Köln",
+      "address_status": "unverified: prior knowledge",
+      "category": "restaurant",
+      "cuisine_group": "mediterranean",
+      "awards": [],
+      "reason": "google-numbers-missing",
+      "found": "Named in a search summary of Köln's 2026 Michelin selection (based on restaurant-ranglisten.de) alongside Bib Gourmand places. However, Michelin's own Köln page counts only 3 Bibs and Phaedra is not one of them, so it is probably 'selected' without a Bib in 2026 (unconfirmed). No Google numbers found.",
+      "next_step": "Search 'Phaedra Köln Elsaßstraße Google Bewertungen' and 'Phaedra Köln Michelin'.",
+      "sources": [
+        "https://www.restaurant-ranglisten.de/news-magazin/restaurant-guides/alle-informationen-zum-guide-michelin/guide-michelin-deutschland/guide-michelin-deutschland-2026/",
+        "https://guide.michelin.com/us/en/nordrhein-westfalen/koln/restaurants"
+      ]
+    },
+    {
+      "name": "Brauhaus Johann Schäfer",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Elsaßstraße 6, 50677 Köln",
+      "address_status": "verified in this session (nrw-tourism.com / directory listings via search)",
+      "category": "brauhaus",
+      "cuisine_group": "german",
+      "awards": [],
+      "reason": "google-numbers-missing",
+      "found": "Searched 'Brauhaus Johann Schäfer Köln Google Bewertungen': no Google rating in the results. speisekarte.de shows no reviews (its own system, not Google). nrw-tourism.com: open 12-22 on weekdays, 10-22 on weekends; phone 0221 16860975. speisekarte.de: warehouse-style brewhouse with a terrace, seasonal dishes, own/local beer. Also listed on koeln.de, schlemmer-atlas.de, foodle.pro.",
+      "next_step": "Search 'Johann Schäfer Brauhaus Köln restaurantguru' or werkenntdenbesten for Google numbers.",
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/johann_schaefer",
+        "https://www.nrw-tourism.com/brauhaus-johann-schaefer",
+        "https://www.koeln.de/branchen/eintrag/49310/brauhaeuser/johann-schaefer-brauhaus",
+        "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/brauhaus-johann-schaefer/",
+        "https://foodle.pro/restaurants/cologne/johann-schaefer"
+      ]
+    },
+    {
+      "name": "Früh em Veedel",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Chlodwigplatz 28, 50678 Köln",
+      "address_status": "unverified: prior knowledge",
+      "category": "brauhaus",
+      "cuisine_group": "german",
+      "awards": [],
+      "reason": "google-numbers-missing",
+      "found": "Seed from the lead; not researched (search budget exhausted before it came up). Nothing found in this session.",
+      "next_step": "Search 'Früh em Veedel Chlodwigplatz Google Bewertungen' (werkenntdenbesten / restaurantguru).",
+      "sources": []
+    },
+    {
+      "name": "Fette Kuh",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Bonner Straße 43, 50677 Köln",
+      "address_status": "unverified: prior knowledge",
+      "category": "restaurant",
+      "cuisine_group": "american-burger",
+      "awards": [],
+      "reason": "google-numbers-missing",
+      "found": "Seed from the lead; not researched (search budget exhausted). Nothing found in this session.",
+      "next_step": "Search 'Fette Kuh Köln Bonner Straße Google Bewertungen'; also check that it is still open.",
+      "sources": []
+    },
+    {
+      "name": "Zur Tant",
+      "area": "other",
+      "address": "Rheinbergstraße 49, 51143 Köln",
+      "address_status": "unverified: prior knowledge (Porz-Langel, on the Rhine)",
+      "category": "restaurant",
+      "cuisine_group": "modern-european",
+      "awards": ["Michelin 1 Star 2026"],
+      "reason": "google-numbers-missing",
+      "found": "Michelin 2026: one star, kept (t-online list, mitvergnuegen 2026, guide.michelin.com 2026 list). No Google numbers found (search budget exhausted).",
+      "next_step": "Search 'Zur Tant Porz Langel Google Bewertungen'; confirm the address and how to get there from the centre.",
+      "sources": [
+        "https://koeln.t-online.de/region/koeln/id_101309626/michelin-sterne-2026-koelner-restaurant-neobiota-gewinnt-einen-stern.html",
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026"
+      ]
+    },
+    {
+      "name": "La Cuisine Rademacher",
+      "area": "other",
+      "address": "Dellbrücker Mauspfad 482, 51069 Köln",
+      "address_status": "partial: district Dellbrück confirmed in this session (mitvergnuegen: 'Marlon Rademacher in Dellbrück'); street and number from prior knowledge",
+      "category": "restaurant",
+      "cuisine_group": "modern-european",
+      "awards": ["Michelin 1 Star 2026"],
+      "reason": "google-numbers-missing",
+      "found": "Michelin 2026: one star (t-online list, mitvergnuegen 2026, guide.michelin.com 2026 list); chef Marlon Rademacher, Köln-Dellbrück. No Google numbers found (search budget exhausted).",
+      "next_step": "Search 'La Cuisine Rademacher Dellbrück Google Bewertungen'.",
+      "sources": [
+        "https://koeln.t-online.de/region/koeln/id_101309626/michelin-sterne-2026-koelner-restaurant-neobiota-gewinnt-einen-stern.html",
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026"
+      ]
+    }
+  ]
+}

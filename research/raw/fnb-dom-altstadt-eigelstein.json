@@ -1,0 +1,381 @@
+{
+  "agent": "fnb-dom-altstadt-eigelstein",
+  "generated": "2026-11-07",
+  "scope": "Food & drink (restaurants, Brauhäuser, cafés, bakeries, dessert, street food; no cocktail/beer/wine bars) in dom-altstadt and agnesviertel-eigelstein — INCOMPLETE: shared WebSearch budget ran out after 19 searches",
+  "places": [
+    {
+      "id": "peters-brauhaus",
+      "name": "Peters Brauhaus",
+      "category": "brauhaus",
+      "area": "dom-altstadt",
+      "address": "Mühlengasse 1, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Rhineland / Kölsch brauhaus",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.4,
+      "google_reviews": 8395,
+      "google_as_of": "2026-05",
+      "rating_source": "werkenntdenbesten.de",
+      "summary_ko": "구시가 알터 마르크트(Alter Markt) 인근 Mühlengasse의 대형 전통 브라우하우스로, Peters Kölsch와 쾨베스(Köbes, 브라우하우스 웨이터)의 서빙 자체가 '경험의 일부'라는 후기가 많다. 관광객 비중이 높지만 구글 리뷰 8천여 건에 4.4로 구시가 브라우하우스 중 평점이 높은 편이라 첫 브라우하우스로 무난하다.",
+      "must_try": [
+        "Peters Kölsch (페터스 쾰시 — 이 집에서 내는 쾰시 맥주)"
+      ],
+      "tags": [
+        "koelsch",
+        "touristy"
+      ],
+      "tips_ko": "후기에 관광객이 많다는 언급이 잦다. 트립어드바이저(3.9, 2,338건)는 구글(4.4)보다 낮게 나온다. 음식 메뉴·가격은 이번 조사에서 확인하지 못했으니 방문 전 공식 메뉴를 확인할 것.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/28017932/brauerei/koeln/peters-brauhaus-bruno-haumann-gf-bewertungen.html",
+        "https://spinach.guide/venues/peters-brauhaus-23831/",
+        "https://theeuropeanbarguide.com/peters-brauhaus-cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/peters_brauhaus"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "frueh-am-dom",
+      "name": "FRÜH am Dom",
+      "category": "brauhaus",
+      "area": "dom-altstadt",
+      "address": "Am Hof 12-18, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Rhineland / Kölsch brauhaus",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.3,
+      "google_reviews": 19851,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com",
+      "summary_ko": "대성당 바로 남쪽 Am Hof에 있는 Früh Kölsch의 대표 브라우하우스로, Fodor's가 '대성당 그늘 아래의 유서 깊은 옛 양조장'으로 소개한 쾰른 관광 1번지 맥주홀이다. 구글 리뷰 약 2만 건(4.3)으로 규모·인지도는 최고지만 서비스 평은 크게 엇갈린다.",
+      "must_try": [
+        "Früh Kölsch (프뤼 쾰시 — 이 집의 쾰시 맥주)"
+      ],
+      "tags": [
+        "koelsch",
+        "touristy",
+        "terrace",
+        "near-hbf"
+      ],
+      "tips_ko": "2026년 9월까지의 트립어드바이저 후기가 극명하게 갈린다: 테라스에서 마시는 쾰시는 호평이지만, 불친절한 서비스와 위생 문제(식당 안에서 쥐를 봤다는 후기)를 지적하는 글도 있다. 대성당·중앙역에서 걸어서 몇 분 거리라 관광 동선 중 한 잔 하기엔 가장 편하다. 메뉴·가격은 이번 조사에서 미확인.",
+      "website": null,
+      "awards": [],
+      "sources": [
+        "https://restaurantguru.com/Fruh-am-Dom-Cologne-2",
+        "https://www.werkenntdenbesten.de/e/50856596/internationales-restaurant/koeln/frueh-am-dom-bewertungen.html",
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d7235024-Reviews-Fruh_am_Dom-Cologne_North_Rhine_Westphalia.html",
+        "https://www.tripexpert.com/cologne/restaurants/fruh-am-dom",
+        "https://sa.trip.com/travel-guide/cologne-388-restaurant/Frueh%20am%20Dom-17190129",
+        "https://www.beeradvocate.com/beer/profile/1450/6356/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "brauerei-zur-malzmuehle",
+      "name": "Brauerei zur Malzmühle",
+      "category": "brauhaus",
+      "area": "dom-altstadt",
+      "address": "Heumarkt 6, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Rhineland / Kölsch brauhaus",
+      "cuisine_group": "german",
+      "price_level": null,
+      "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
+      "google_rating": 4.2,
+      "google_reviews": 2584,
+      "google_as_of": null,
+      "rating_source": "spinach.guide",
+      "summary_ko": "호이마르크트(Heumarkt)에 있는, Mühlen Kölsch를 빚는 Malzmühle 양조장의 브라우하우스로, 음식과 친절한 서비스, 브라우하우스 특유의 분위기를 칭찬하는 후기가 많다. 쾰른 매체 독자 투표와 브라우하우스 추천 리스트에 꾸준히 이름을 올리는 곳.",
+      "must_try": [
+        "Mühlen Kölsch (뮐렌 쾰시 — 이 양조장의 쾰시)"
+      ],
+      "tags": [
+        "koelsch"
+      ],
+      "tips_ko": "Lebensmittelzeitung 보도(날짜 미확인)에 따르면 Malzmühle가 Sünner 양조장을 인수하고 Heumarkt의 맥주 생산을 Kalk로 옮길 예정이다. 브라우하우스는 2026년 8월자 채용공고가 올라와 있어 영업 중으로 보인다. 구글 평점은 출처별로 4.2~4.3(기준선 경계), 트립어드바이저 4.0(1,357건).",
+      "website": "https://malzmuehle.de",
+      "awards": [],
+      "sources": [
+        "https://spinach.guide/venues/brauerei-zur-malzmuhle-33208/",
+        "https://de.restaurantguru.com/Brauerei-zur-Malzmuhle-Cologne",
+        "https://www.werkenntdenbesten.de/brauerei/koeln",
+        "https://www.koeln.de/tourismus/ll/brauhaus-koeln/brauerei-zur-malzmuehle/",
+        "https://malzmuehle.de/wp-content/uploads/2026/08/Hausmeister-Schreiner_Stellenausschreibung_2026.pdf",
+        "https://www.lebensmittelzeitung.net/industrie/nachrichten/koelsch-hersteller-malzmuehle-schluckt-suenner-brauerei-161790",
+        "https://beertasting.com/en/beers/muhlen-kolsch",
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d1908458-Reviews-Brauerei_Zur_Malzmuhle-Cologne_North_Rhine_Westphalia.html",
+        "https://verliebtinkoeln.com/beste-brauhaus-koeln/",
+        "https://www.22places.com/cologne-breweries/"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Gaffel am Dom",
+      "area": "dom-altstadt",
+      "address": "Bahnhofsvorplatz 1, 50667 Köln",
+      "reason": "below-criteria / conflicting-numbers: spinach.guide(브리프상 구글 데이터 출처)는 3.5 (9,701)로 리뷰 수가 더 많아 더 최신으로 보이며 기준 미달. restaurantguru는 Google 4.3 (8,716, 페이지 약 554일 전 ≈2025년 중반). 두 값은 같은 구글 목록이라면 산술적으로 양립 불가 → 실시간 구글 확인 필요. 중앙역 정문 바로 앞이라 확인되면 넣을 가치 큼.",
+      "found": "spinach.guide 3.5 (9,701, 날짜 없음); restaurantguru Google 4.3 (8,716); restaurantguru 종합 4.3 (14,828); 오래된 랭킹 페이지(약 1,344일 전) 요약에 4.3~4.4·약 6,600건으로 서로 모순되게 언급. 후기: 분위기·소시지·서비스 호평, 예전 후기엔 느린 서비스·작은 슈니첼 불만.",
+      "sources": [
+        "https://spinach.guide/venues/gaffel-am-dom-34330/",
+        "https://restaurantguru.com/Gaffel-am-Dom-Cologne",
+        "https://www.koeln.de/tourismus/ll/brauhaus-koeln/gaffel-am-dom/",
+        "https://www.diebestenderstadt.de/k%C3%B6ln/beste-brauereien-koeln"
+      ]
+    },
+    {
+      "name": "Brauhaus Sion",
+      "area": "dom-altstadt",
+      "address": "Unter Taschenmacher 5-7, 50667 Köln",
+      "reason": "google-numbers-not-confirmed: 이 주소와 확실히 연결된 구글 수치를 찾지 못함.",
+      "found": "restaurantguru 'Sion Bräues Traditionsbrauhaus' Google 4.2 (409) — 주소 미확인, 대형 브라우하우스치고 리뷰 수가 너무 적어 같은 업소인지 의문; speisekarte.de 3.9 (16); TableJourney ★4.2. koeln.de: 1318년부터 이 자리에서 양조, 'Sion-Kölsch' 명칭 1936년, 전쟁 파괴 후 1953년 재개업, 최대 홀 'Alte Brauerei' 200명. 영업 매일 11시~자정/00:30(출처마다 다름).",
+      "sources": [
+        "https://www.koeln.de/tourismus/ll/brauhaus-koeln/brauhaus-sion/",
+        "https://theeuropeanbarguide.com/brauhaus-sion-cologne/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/brauhaus_sion",
+        "https://restaurantguru.com/Sion-Braeues-Traditionsbrauhaus-Cologne"
+      ]
+    },
+    {
+      "name": "Gaffel Haus (Brauhaus zum Prinzen)",
+      "area": "dom-altstadt",
+      "address": "Alter Markt 20-22, 50667 Köln",
+      "reason": "google-numbers-not-found",
+      "found": "speisekarte.de 3.8 (5건, 2008·2014년 리뷰). arrivalguides: 알터 마르크트에서 가장 오래된 건물, 같은 주소를 Gaffel이 1987년 재개업한 'Brauhaus zum Prinzen'에도 귀속 — 구글 검색 시 두 이름 모두 확인 필요.",
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/gaffel_haus",
+        "https://www.arrivalguides.com/de/Travelguide/COLOGNE/dining/gaffel-haus-5084",
+        "https://restaurantguru.com/Brauhaus-zum-Prinzen-Cologne"
+      ]
+    },
+    {
+      "name": "Sion am Bahnhof (Bistro Sion am Bahnhof)",
+      "area": "dom-altstadt",
+      "address": "Dompropst-Ketzer-Straße 1, 50667 Köln",
+      "reason": "below-criteria: Google 4.1 (255)",
+      "found": "restaurantguru Google 4.1 (255), restaurantguru 종합 3.7 (4,649). 최근 후기 중 서비스·음주 강요에 대한 강한 불만.",
+      "sources": [
+        "https://restaurantguru.com/Brauhaus-Sion-Cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/sion_am_bahnhof"
+      ]
+    },
+    {
+      "name": "Sünner im Walfisch",
+      "area": "dom-altstadt",
+      "address": "Salzgasse 13, 50667 Köln",
+      "reason": "google-numbers-incomplete: 오래된 랭킹 페이지 요약에 Google 4.4만 있고 리뷰 수 없음. 주소는 사전지식(미검증).",
+      "found": "Google 4.4 (리뷰 수 미상, 약 1,344일 전 페이지 — 어느 랭킹 사이트인지 검색 요약에서 불명확); 22places Top 10(2026년 7월 업데이트로 보이는 리스트)에 포함.",
+      "sources": [
+        "https://www.diebestenderstadt.de/k%C3%B6ln/beste-brauereien-koeln",
+        "https://www.koelnerbranchen.de/brauhaus/koeln/",
+        "https://www.22places.com/cologne-breweries/"
+      ]
+    },
+    {
+      "name": "FRÜH \"Em Jan von Werth\"",
+      "area": null,
+      "address": null,
+      "reason": "address-not-found: 구글 수치는 기준 충족이지만 주소·지역을 이번 세션에서 확인하지 못함 (우리 범위인지 미정).",
+      "found": "restaurantguru Google 4.4 (1,163), 페이지 날짜 미상.",
+      "sources": [
+        "https://restaurantguru.com/Jan-von-Werth-Cologne"
+      ]
+    },
+    {
+      "name": "Café-Lounge Alter Markt 55",
+      "area": "dom-altstadt",
+      "address": "Alter Markt 55, 50667 Köln",
+      "reason": "google-numbers-incomplete: 리뷰 수 미표시.",
+      "found": "restaurantguru Google 4.5 (리뷰 수 없음).",
+      "sources": [
+        "https://restaurantguru.com/Alter-Markt-55-Coffee-Cologne"
+      ]
+    },
+    {
+      "name": "Alter-Markt-Treff",
+      "area": "dom-altstadt",
+      "address": "Alter Markt 18, 50667 Köln",
+      "reason": "below-criteria: Google 3.9 (80)",
+      "found": "restaurantguru Google 3.9 (80).",
+      "sources": [
+        "https://restaurantguru.com/Alter-Markt-Treff-Cologne"
+      ]
+    },
+    {
+      "name": "Gilden Brauhaus (Gilden im Zims?)",
+      "area": "dom-altstadt",
+      "address": "Heumarkt 77, 50667 Köln",
+      "reason": "google-numbers-not-found: werkenntdenbesten 항목만 확인. 검색 요약이 'Heumarkt 77'의 종합 4.28 (9개 포털 14,185건)을 Früh am Dom에 잘못 붙였는데, 이 주소 업소의 수치로 보임(구글 단독 수치 아님, 귀속 불확실).",
+      "found": "werkenntdenbesten 종합 4.28 (14,185건/9개 포털, 귀속 불확실), 구글 단독 수치 없음.",
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/26377150/restaurant/koeln/gilden-brauhaus-bewertungen.html"
+      ]
+    },
+    {
+      "name": "Brauerei zum Pfaffen",
+      "area": "dom-altstadt",
+      "address": "Heumarkt 62, 50667 Köln",
+      "reason": "google-numbers-incomplete: 랭킹 리스트 요약에 4.7만 있고 리뷰 수 없음, 어느 사이트인지 불명확. 주소는 사전지식(미검증).",
+      "found": "4.7 (리뷰 수 미상, 출처 페이지 불명확).",
+      "sources": [
+        "https://www.diebestenderstadt.de/k%C3%B6ln/beste-brauereien-koeln",
+        "https://www.koelnerbranchen.de/brauhaus/koeln/"
+      ]
+    },
+    {
+      "name": "Gertrudenhof am Neumarkt",
+      "area": "dom-altstadt",
+      "address": null,
+      "reason": "not-verified: verliebtinkoeln 독자 투표(비대표 투표, 마감) 1위로만 확인. 구글 수치·주소·업소 성격 미확인.",
+      "found": "verliebtinkoeln.com 'beliebteste Kölner Brauhäuser laut Abstimmung' 1위.",
+      "sources": [
+        "https://verliebtinkoeln.com/beste-brauhaus-koeln/"
+      ]
+    },
+    {
+      "name": "Wartesaal am Dom",
+      "area": "dom-altstadt",
+      "address": null,
+      "reason": "not-verified: restaurantguru 페이지 존재만 확인, 수치·주소 미확인.",
+      "found": "없음",
+      "sources": [
+        "https://restaurantguru.com/WARTESAAL-AM-DOM-Cologne"
+      ]
+    },
+    {
+      "name": "LOUIS Cafe am Dom",
+      "area": "dom-altstadt",
+      "address": null,
+      "reason": "not-verified: restaurantguru 페이지 존재만 확인, 수치·주소 미확인.",
+      "found": "없음",
+      "sources": [
+        "https://restaurantguru.com/LOUIS-Cafe-am-Dom-Cologne"
+      ]
+    },
+    {
+      "name": "Bierhaus en d'r Salzgass",
+      "area": "dom-altstadt",
+      "address": "Salzgasse 5-11, 50667 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Haxenhaus zum Rheingarten",
+      "area": "dom-altstadt",
+      "address": "Frankenwerft 19, 50667 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Café Reichard",
+      "area": "dom-altstadt",
+      "address": "Unter Fettenhennen 11, 50667 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Hanse Stube (Excelsior Hotel Ernst)",
+      "area": "dom-altstadt",
+      "address": "Trankgasse 1-5, 50667 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Sahila",
+      "area": "dom-altstadt",
+      "address": "Kämmergasse 18, 50676 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증. Neumarkt 남쪽이라 지역 경계도 확인 필요.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Alfredo",
+      "area": "dom-altstadt",
+      "address": "Tunisstraße 3, 50667 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Sion an der Agneskirche",
+      "area": "agnesviertel-eigelstein",
+      "address": null,
+      "reason": "not-verified: restaurantguru 페이지 존재만 확인, 수치·주소 미확인.",
+      "found": "없음",
+      "sources": [
+        "https://restaurantguru.com/Sion-An-der-Agneskirche-Cologne"
+      ]
+    },
+    {
+      "name": "Schreckenskammer",
+      "area": "agnesviertel-eigelstein",
+      "address": "Ursulagartenstraße 11-15, 50668 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "verliebtinkoeln 독자 투표 상위권에 이름 언급(순위·수치 없음).",
+      "sources": [
+        "https://verliebtinkoeln.com/beste-brauhaus-koeln/"
+      ]
+    },
+    {
+      "name": "Em Kölsche Boor",
+      "area": "agnesviertel-eigelstein",
+      "address": "Eigelstein 121-123, 50668 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Max Stark",
+      "area": "agnesviertel-eigelstein",
+      "address": "Unter Kahlenhausen 47, 50668 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Weinhaus Vogel",
+      "area": "agnesviertel-eigelstein",
+      "address": "Eigelstein 74, 50668 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Maximilian Lorenz",
+      "area": "agnesviertel-eigelstein",
+      "address": "Johannisstraße 64, 50668 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증. 현 위치 영업 여부(이전·폐업)도 확인 필요.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Astrein",
+      "area": "agnesviertel-eigelstein",
+      "address": "Krefelder Straße 37, 50670 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증. 현 영업 상태 확인 필요.",
+      "found": "없음",
+      "sources": []
+    },
+    {
+      "name": "Le Moissonnier",
+      "area": "agnesviertel-eigelstein",
+      "address": "Krefelder Straße 25, 50670 Köln",
+      "reason": "not-verified: 검색 한도 소진으로 이번 세션에서 조회하지 못함 (구글 수치·영업 상태 모두 미확인). 주소는 사전지식이며 미검증. 리드가 폐업 가능성을 지적했으나 확인하지 못함 — 확인 전까지 가이드에 넣지 말 것.",
+      "found": "없음",
+      "sources": []
+    }
+  ]
+}

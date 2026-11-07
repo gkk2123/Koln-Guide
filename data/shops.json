@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "generated": "2026-11-07",
+    "criteria": {
+      "min_google_rating": 4.2,
+      "min_google_reviews": 50
+    },
+    "research_files": [
+      "bars.json",
+      "fnb-belgisches-friesen.json",
+      "fnb-deutz-messe.json",
+      "fnb-dom-altstadt-eigelstein.json",
+      "fnb-ehrenfeld-lateng.json",
+      "fnb-suedstadt-other-korean.json"
+    ],
+    "count": 0
+  },
+  "items": []
+}
