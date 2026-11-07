@@ -414,15 +414,17 @@ def render_viewer(payload: dict, mode: str) -> str:
     head, body = tpl.split("<!--BODY-->", 1)
     head = head.replace("<!--HEAD-->", "")
     site = mode in ("site", "protected")
-    config = json.dumps({"geolocation": site, "downloads": site})
+    config = json.dumps({"geolocation": site, "downloads": site, "tiles": site})
     data_js = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     if site:
         src = "data.enc.js" if mode == "protected" else "data.js"
         body = body.replace("<!--DATA-->", f'<script>window.KOLN_CONFIG={config};</script>\n<script src="{src}"></script>')
-        attrs, extra = "", ""
+        attrs = ""
+        extra = ('<link rel="stylesheet" href="vendor/leaflet/leaflet.css">\n'  # real map (tiles) on the website only
+                 '<script src="vendor/leaflet/leaflet.js"></script>\n')
         if mode == "protected":  # start locked so nothing flashes before the script runs; keep it out of search engines
             body = body.replace('<div class="gate" id="gate" hidden>', '<div class="gate" id="gate">', 1)
-            attrs, extra = ' class="locked"', '<meta name="robots" content="noindex, nofollow">\n'
+            attrs, extra = ' class="locked"', '<meta name="robots" content="noindex, nofollow">\n' + extra
         return ('<!doctype html>\n<html lang="ko">\n<head>\n<meta charset="utf-8">\n'
                 '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
                 f"{extra}{head.strip()}\n</head>\n<body{attrs}>\n{body.strip()}\n</body>\n</html>\n")
@@ -446,10 +448,23 @@ def encrypt_site(payload: dict, site: dict, password: str) -> str:
     return "window.KOLN_ENC = " + json.dumps(enc) + ";\n"
 
 
+VENDOR = ROOT / "scripts" / "vendor"
+
+
+def copy_vendor() -> None:
+    """Map library (Leaflet, BSD-2-Clause) served from docs/vendor so the site does not depend on a CDN."""
+    for f in VENDOR.rglob("*"):
+        if f.is_file():
+            dst = DOCS / "vendor" / f.relative_to(VENDOR)
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            dst.write_bytes(f.read_bytes())
+
+
 def write_site(payload: dict) -> str:
     """docs/ for GitHub Pages. With data/site.json password_protected, only ciphertext is written."""
     site = load_json(DATA / "site.json", {}) or {}
     DOCS.mkdir(exist_ok=True)
+    copy_vendor()
     if not site.get("password_protected"):
         (DOCS / "data.js").write_text("window.KOLN_GUIDE = " + json.dumps(payload, ensure_ascii=False, indent=1) + ";\n",
                                       encoding="utf-8")

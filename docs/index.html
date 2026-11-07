@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<script src="vendor/leaflet/leaflet.js"></script>
 <title>Köln Guide</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +25,7 @@
   --accent-soft: #F7E1E4;
   --star: #A87400;
   --header: #FFFFFF;
-  --land: #F7F7F4; --water: #CBDDE8; --route2: #1F6FB2;
+  --land: #F7F7F4; --water: #CBDDE8; --route2: #1F6FB2; --me: #1A73E8;
   --c-food: #C30F2B; --c-cafe: #8A5A2B; --c-beer: #B07A00; --c-bar: #6B3FA0; --c-sight: #1F7A4D;
   --font-display: "Grenze Gotisch", "UnifrakturMaguntia", Georgia, serif;
   --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
@@ -35,7 +37,7 @@
     --bg: #101315; --surface: #181C1F; --ink: #ECEAE6; --muted: #A6A39D; --line: #2D3337;
     --chip: #232A2E; --accent: #F04A60; --accent-ink: #16070A; --accent-soft: #3B1B21;
     --star: #E8C14E; --header: #14181B; color-scheme: dark;
-    --land: #15191C; --water: #1F3B4D; --route2: #5AA9E6;
+    --land: #15191C; --water: #1F3B4D; --route2: #5AA9E6; --me: #4C9BFF;
     --c-food: #F04A60; --c-cafe: #D09A66; --c-beer: #E8C14E; --c-bar: #B48AE8; --c-sight: #4CC38A;
   }
 }
@@ -43,7 +45,7 @@
   --bg: #101315; --surface: #181C1F; --ink: #ECEAE6; --muted: #A6A39D; --line: #2D3337;
   --chip: #232A2E; --accent: #F04A60; --accent-ink: #16070A; --accent-soft: #3B1B21;
   --star: #E8C14E; --header: #14181B; color-scheme: dark;
-    --land: #15191C; --water: #1F3B4D; --route2: #5AA9E6;
+    --land: #15191C; --water: #1F3B4D; --route2: #5AA9E6; --me: #4C9BFF;
     --c-food: #F04A60; --c-cafe: #D09A66; --c-beer: #E8C14E; --c-bar: #B48AE8; --c-sight: #4CC38A;
 }
 
@@ -194,6 +196,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 .r-km-t { fill: var(--muted); font-size: 10px; font-family: var(--font-data); }
 .fab { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 6; font: inherit; font-weight: 600; font-size: 14px; border: 0; border-radius: 999px; padding: 10px 16px; background: var(--ink); color: var(--surface); box-shadow: 0 4px 14px rgba(0, 0, 0, .18); cursor: pointer; }
 @media (min-width: 960px) { .fab { display: none; } }
+@media (max-width: 959px) { .wrap { padding-bottom: 96px; } }
 .run { display: flex; flex-direction: column; gap: 18px; }
 .run-head { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; }
 .run-head h2 { font-size: 22px; }
@@ -232,6 +235,53 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 .tix b { font-family: var(--font-data); font-weight: 500; font-size: 13px; }
 .tix small { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
 .more h4 { margin: 10px 0 0; font-size: 13px; }
+/* real map (Leaflet + map tiles) on the GitHub Pages build; the artifact keeps the SVG sketch map */
+.lmap-wrap { position: relative; isolation: isolate; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--land); }
+.lmap { height: min(64vh, 620px); min-height: 340px; width: 100%; background: var(--land); }
+@media (min-width: 960px) { .lmap { height: min(70vh, 700px); } }
+.run-grid .lmap { height: min(62vh, 560px); }
+.leaflet-container { font-family: var(--font-body); background: var(--land); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.9) contrast(.9) saturate(.55); } }
+:root[data-theme="dark"] .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.9) contrast(.9) saturate(.55); }
+.leaflet-container a { color: var(--accent); }
+.leaflet-bar a, .leaflet-bar button { background: var(--surface); color: var(--ink); border-bottom-color: var(--line); }
+.leaflet-bar a:hover, .leaflet-bar button:hover { background: var(--chip); color: var(--ink); }
+.leaflet-control-attribution { font-size: 10px; background: color-mix(in srgb, var(--surface) 80%, transparent) !important; color: var(--muted); }
+.leaflet-tooltip { background: var(--surface); color: var(--ink); border: 1px solid var(--line); font-size: 12px; box-shadow: 0 1px 4px rgba(0, 0, 0, .2); }
+.leaflet-tooltip-top::before { border-top-color: var(--surface); }
+.loc-btn { width: 36px; height: 36px; display: grid; place-items: center; border: 0; border-radius: 4px; cursor: pointer; padding: 0; }
+.loc-btn svg { width: 20px; height: 20px; }
+.loc-btn[aria-pressed="true"] { color: var(--me); }
+.me-ic span { display: block; width: 18px; height: 18px; border-radius: 50%; background: var(--me); border: 3px solid #fff; box-shadow: 0 0 0 0 rgba(26, 115, 232, .5); animation: mepulse 2s infinite; }
+@keyframes mepulse { 0% { box-shadow: 0 0 0 0 rgba(26, 115, 232, .45); } 70% { box-shadow: 0 0 0 14px rgba(26, 115, 232, 0); } 100% { box-shadow: 0 0 0 0 rgba(26, 115, 232, 0); } }
+@media (prefers-reduced-motion: reduce) { .me-ic span { animation: none; } }
+.anc-ic span { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 6px; background: var(--ink); color: var(--surface); font: 700 12px var(--font-body); border: 2px solid var(--surface); box-shadow: 0 1px 3px rgba(0, 0, 0, .3); }
+.stop-ic span { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; color: #fff; font: 700 11px var(--font-data); border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, .35); }
+.km-tip { background: none; border: 0; box-shadow: none; color: var(--ink); font: 600 11px var(--font-data); padding: 0 2px; text-shadow: 0 0 3px var(--surface), 0 0 3px var(--surface); }
+.km-tip::before { display: none; }
+.lsheet { position: absolute; left: 8px; right: 8px; bottom: 26px; z-index: 900; max-width: 520px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; box-shadow: 0 8px 28px rgba(0, 0, 0, .22); display: flex; flex-direction: column; gap: 4px; }
+.lsheet h3 { font-size: 16px; font-weight: 700; padding-right: 32px; line-height: 1.3; }
+.lsheet h3 .alt { font-weight: 500; font-size: 12px; color: var(--muted); margin-left: 6px; }
+.lsheet .actions { padding-top: 6px; }
+.lsheet-x { position: absolute; top: 4px; right: 6px; font: inherit; font-size: 22px; line-height: 1; background: none; border: 0; color: var(--muted); cursor: pointer; padding: 6px 8px; }
+.map-msg { position: absolute; left: 50%; top: 10px; transform: translateX(-50%); z-index: 800; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: 13px; box-shadow: 0 2px 8px rgba(0, 0, 0, .15); white-space: nowrap; max-width: calc(100% - 100px); overflow: hidden; text-overflow: ellipsis; }
+.near { font: inherit; font-size: 13px; font-weight: 600; white-space: nowrap; display: inline-flex; align-items: center; gap: 4px; border: 1px solid var(--accent); background: var(--surface); color: var(--accent); border-radius: 999px; padding: 5px 12px; cursor: pointer; flex: none; }
+.near svg { width: 14px; height: 14px; }
+.near[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.nearbar { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; font-size: 13px; color: var(--muted); }
+.nearbar .seg { flex: none; }
+.nearbar .seg button { padding: 4px 10px; flex: none; }
+.nl-h { font-size: 15px; margin: 16px 0 8px; display: flex; gap: 8px; align-items: baseline; }
+.nl-h .sub { font-size: 12px; color: var(--muted); font-weight: 400; }
+.nearlist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); overflow: hidden; }
+.nearlist li + li { border-top: 1px solid var(--line); }
+.nearlist button { font: inherit; width: 100%; text-align: left; background: none; border: 0; color: var(--ink); cursor: pointer; padding: 9px 12px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 2px 8px; align-items: baseline; }
+.nearlist button[aria-pressed="true"] { background: var(--accent-soft); }
+.nearlist .nm { font-weight: 600; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.nearlist .sub { grid-column: 2; font-size: 12px; color: var(--muted); }
+.nearlist .d { grid-column: 3; grid-row: 1 / span 2; font-family: var(--font-data); font-size: 12px; color: var(--ink); text-align: right; align-self: center; white-space: nowrap; }
+.nearlist .cdot { margin: 0; align-self: center; }
+.card.flash { outline: 3px solid var(--accent); outline-offset: 2px; }
 .gate { min-height: 100vh; display: grid; place-items: center; padding: 24px 16px; }
 .gate-card { width: min(100%, 360px); background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: var(--radius); padding: 24px 20px; display: flex; flex-direction: column; gap: 12px; }
 .gate-card .wordmark { font-size: 52px; }
@@ -298,13 +348,15 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   <button type="button" class="fab" id="fab" hidden>필터</button>
   <footer id="foot"></footer>
 </main>
-<script>window.KOLN_CONFIG={"geolocation": true, "downloads": true};</script>
+<script>window.KOLN_CONFIG={"geolocation": true, "downloads": true, "tiles": true};</script>
 <script src="data.enc.js"></script>
 <script>
 function kgStart() {
   "use strict";
   var G = window.KOLN_GUIDE || { restaurants: [], bars: [], shops: [], attractions: [], areas: [], anchors: [], labels: {} };
   var CFG = window.KOLN_CONFIG || {};
+  var LF = window.L;  // Leaflet (the name L is taken by the label table below)
+  var TILES = !!(LF && LF.map && CFG.tiles);  // real map tiles (GitHub Pages); otherwise the inline SVG sketch map
   var L = G.labels || {};
   var AREAS = {}; (G.areas || []).forEach(function (a) { AREAS[a.id] = a; });
   var ANCHOR_IDS = ["dom", "hbf", "messe", "belgisches"];
@@ -324,7 +376,7 @@ function kgStart() {
   function fresh() { return { q: "", sel: {}, minRating: 0, maxBeer: 0, free: false, must: false, open: false, today: false, now: false }; }
   var BEER_STEPS = [0, 2.3, 2.6, 2.9];
   var state = { tab: "food", anchor: "dom", maxKm: 0, sort: { food: "rating", beer: "rating", bars: "rating", sights: "priority" },
-    origin: null, originLabel: "", moreOpen: {}, view: {}, mapSel: null, route: "main", preset: {}, f: { food: fresh(), beer: fresh(), bars: fresh(), sights: fresh() } };
+    origin: null, originLabel: "", near: false, me: null, geo: null, nearMore: false, moreOpen: {}, view: {}, mapSel: null, route: "main", preset: {}, f: { food: fresh(), beer: fresh(), bars: fresh(), sights: fresh() } };
 
   function store(k, v) { try { localStorage.setItem("kg." + k, v); } catch (e) {} }
   function recall(k) { try { return localStorage.getItem("kg." + k); } catch (e) { return null; } }
@@ -344,6 +396,8 @@ function kgStart() {
     return it.dist && it.dist[state.anchor] != null ? it.dist[state.anchor] : null;
   }
   function walk(km) { return Math.max(1, Math.round(km * 1.3 / 4.8 * 60)); }
+  function fmtDist(km) { return km < 1 ? Math.max(10, Math.round(km * 100) * 10) + "m" : km.toFixed(1) + "km"; }
+  function fmtKm(k) { return k < 1 ? Math.round(k * 1000) + "m" : k + "km"; }
   function anchorLabel() {
     if (state.anchor === "me") return "내 위치";
     if (state.anchor === "place") return state.originLabel;
@@ -487,7 +541,7 @@ function kgStart() {
     }).join("");
     if (CFG.geolocation) anchorBtns += '<button type="button" data-anchor="me" aria-pressed="' + (state.anchor === "me") + '"' + (hasCoords ? "" : " disabled") + ">내 위치</button>";
     var kmBtns = KM_STEPS.map(function (k) {
-      return '<button type="button" data-km="' + k + '" aria-pressed="' + (state.maxKm === k) + '"' + (hasCoords ? "" : " disabled") + ">" + (k ? k + "km" : "전체") + "</button>";
+      return '<button type="button" data-km="' + k + '" aria-pressed="' + (state.maxKm === k) + '"' + (hasCoords ? "" : " disabled") + ">" + (k ? fmtKm(k) : "전체") + "</button>";
     }).join("");
     var note = state.anchor === "place" ? '<div class="anchor-note">기준점: <b>' + esc(state.originLabel) + '</b> <button type="button" class="linkbtn" data-anchor="dom">해제</button></div>' : "";
     html += group("거리", "", note + '<div class="seg" role="group" aria-label="기준점">' + anchorBtns + '</div><div class="seg" role="group" aria-label="최대 거리">' + kmBtns + "</div>" +
@@ -552,7 +606,7 @@ function kgStart() {
   function distHtml(it) {
     var d = dist(it);
     if (d == null) return "";
-    return '<span>' + esc(anchorLabel()) + ' <span class="num">' + d.toFixed(1) + "km</span> · 도보 " + walk(d) + "분</span>";
+    return '<span>' + esc(anchorLabel()) + ' <span class="num">' + fmtDist(d) + "</span> · 도보 " + walk(d) + "분</span>";
   }
   function placeQuery(it) { return it.name + ", " + (it.address || "Köln"); }
   function mapsUrl(it) {
@@ -622,7 +676,7 @@ function kgStart() {
 
   function fnbCard(it) {
     var area = (AREAS[it.area] && AREAS[it.area].name_ko) || it.area;
-    return '<article class="card">' +
+    return '<article class="card" id="c-' + esc(it.id) + '">' +
       '<div class="card-top"><span class="eyebrow">' + esc(lab("category", it.category)) + " · " + esc(area) + "</span>" + priceHtml(it.price_level, it.price_estimated) + "</div>" +
       "<h3>" + esc(it.name) + "</h3>" +
       '<p class="cuisine">' + esc(foodLine(it)) + "</p>" +
@@ -780,7 +834,7 @@ function kgStart() {
     if (price) bits.push(esc(price));
     if (it.duration_min) bits.push("약 " + it.duration_min + "분");
     var ts = todayState(it, NOW);
-    return '<article class="card">' +
+    return '<article class="card" id="c-' + esc(it.id) + '">' +
       '<div class="card-top"><span class="eyebrow">' + esc(lab("category", it.category)) + " · " + esc(area) + "</span>" +
       (it.priority === 1 ? '<span class="award">필수</span>' : "") + "</div>" +
       "<h3>" + esc(it.name_ko || it.name) + (it.name_ko ? '<span class="alt">' + esc(it.name) + "</span>" : "") + "</h3>" +
@@ -886,6 +940,7 @@ function kgStart() {
   function boxWidth(el, fallback) { return Math.max(280, Math.min((el && el.clientWidth) || fallback, 1100)); }
 
   function renderMapView(list) {
+    if (TILES) { renderLeaflet(list); return; }
     var el = document.getElementById("mapview");
     var withC = list.filter(function (i) { return i.lat != null; });
     if (!withC.length) { el.innerHTML = '<div class="empty">지도에 표시할 곳이 없어요.</div>'; return; }
@@ -904,6 +959,238 @@ function kgStart() {
     el.innerHTML = '<div class="map-wrap">' + svgWrap(g, baseMap(g) + dots) + '</div><div class="legend">' + legend + "</div>" +
       '<p class="map-note">점을 누르면 카드가 열려요. 지도는 약도예요' + (missing ? " · 좌표 없는 " + missing + "곳은 목록에서 보세요" : "") + ".</p>" +
       (sel ? '<div class="map-pick">' + (kindOf(sel[0]) === "sight" ? sightCard(sel[0]) : fnbCard(sel[0])) + "</div>" : "");
+  }
+
+
+  // ------------------------------------------------------------ real map (Leaflet) — GitHub Pages build only
+  function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+  function isDark() {
+    var t = document.documentElement.getAttribute("data-theme");
+    return t ? t === "dark" : !!(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+  }
+  // OpenStreetMap standard tiles (no key needed; light use with attribution). Dark mode darkens them with a CSS filter.
+  function newTiles() {
+    return LF.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> 기여자' });
+  }
+  var LOC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="7" fill="none" stroke="currentColor" stroke-width="2"/></svg>';
+  function locControl(map, onClick) {
+    var C = LF.Control.extend({ options: { position: "topright" }, onAdd: function () {
+      var box = LF.DomUtil.create("div", "leaflet-bar");
+      box.innerHTML = '<button type="button" class="loc-btn" aria-label="내 위치 보기" title="내 위치" aria-pressed="' + !!state.me + '">' + LOC_SVG + "</button>";
+      LF.DomEvent.disableClickPropagation(box);
+      box.firstChild.addEventListener("click", onClick);
+      return box;
+    } });
+    return new C().addTo(map);
+  }
+  var MAPS = [];  // live maps that show the blue "me" dot
+  function meIcon() { return LF.divIcon({ className: "me-ic", html: "<span></span>", iconSize: [18, 18], iconAnchor: [9, 9] }); }
+  function drawMe(entry) {
+    var me = state.me;
+    if (!entry.meLayer) entry.meLayer = LF.layerGroup().addTo(entry.map);
+    entry.meLayer.clearLayers();
+    if (!me || !state.geo || state.geo.status !== "ok") return;
+    if (me.acc && me.acc < 400) LF.circle([me.lat, me.lng], { radius: me.acc, color: cssVar("--me"), weight: 1, fillOpacity: 0.08, interactive: false }).addTo(entry.meLayer);
+    LF.marker([me.lat, me.lng], { icon: meIcon(), keyboard: false, zIndexOffset: 1000 }).bindTooltip("내 위치").addTo(entry.meLayer);
+  }
+  function updateMe() {
+    MAPS = MAPS.filter(function (e) { return e.map && e.map._container && document.body.contains(e.map._container); });
+    MAPS.forEach(drawMe);
+    document.querySelectorAll(".loc-btn").forEach(function (b) { b.setAttribute("aria-pressed", String(!!state.me)); });
+  }
+
+  var LM = null;  // the list-view map, created once and reused
+  function renderLeaflet(list) {
+    var el = document.getElementById("mapview");
+    if (!LM) {
+      el.innerHTML = '<div class="lmap-wrap"><div class="lmap" id="lmap" role="region" aria-label="지도"></div><p class="map-msg" id="lmsg" hidden></p>' +
+        '<div class="lsheet" id="lsheet" hidden></div></div><div class="legend" id="lleg"></div><p class="map-note" id="lnote"></p><div id="lnear"></div>';
+      var m = LF.map("lmap", { zoomSnap: 0.5, minZoom: 10, maxZoom: 19 }).setView([50.9384, 6.9583], 14);
+      m.attributionControl.setPrefix(false);
+      LM = { map: m, tiles: newTiles().addTo(m), markers: LF.layerGroup().addTo(m), extra: LF.layerGroup().addTo(m), byId: {}, key: "" };
+      locControl(m, function () {
+        if (state.me && state.geo && state.geo.status === "ok") { m.setView([state.me.lat, state.me.lng], Math.max(m.getZoom(), 16)); if (!state.near) toggleNear(); }
+        else { LM.centerOnFix = true; if (!state.near) toggleNear(); else startLocate(); }
+      });
+      m.on("click", closeSheet);
+      MAPS.push(LM);
+    }
+    var m = LM.map;
+    m.invalidateSize();
+    var col = { food: cssVar("--c-food"), cafe: cssVar("--c-cafe"), beer: cssVar("--c-beer"), bar: cssVar("--c-bar"), sight: cssVar("--c-sight") };
+    var ring = cssVar("--surface"), ink = cssVar("--ink"), kinds = {};
+    var withC = list.filter(function (i) { return i.lat != null; });
+    LM.markers.clearLayers(); LM.extra.clearLayers(); LM.byId = {};
+    withC.forEach(function (it) {
+      var k = kindOf(it), on = it.id === state.mapSel;
+      kinds[k] = true;
+      var mk = LF.circleMarker([it.lat, it.lng], { radius: on ? 10 : 7, weight: on ? 3 : 2, color: on ? ink : ring, fillColor: col[k], fillOpacity: 1, bubblingMouseEvents: false });
+      mk.bindTooltip(esc(it.name_ko || it.name), { direction: "top", offset: [0, -8] });
+      mk.on("click", function () { selectOnMap(it.id, false); });
+      mk.addTo(LM.markers);
+      LM.byId[it.id] = { m: mk, it: it, k: k };
+    });
+    // distance origin: me, a chosen place, or a fixed anchor
+    var o = null;
+    if (state.anchor === "me" || state.anchor === "place") o = state.origin;
+    else { var a = ANCHORS.filter(function (x) { return x.id === state.anchor; })[0]; if (a) o = { lat: a.lat, lng: a.lng, label: a.label_ko }; }
+    if (o && state.anchor !== "me") {
+      LF.marker([o.lat, o.lng], { icon: LF.divIcon({ className: "anc-ic", html: "<span>★</span>", iconSize: [22, 22], iconAnchor: [11, 11] }), keyboard: false })
+        .bindTooltip(esc(anchorLabel()) + " (거리 기준)").addTo(LM.extra);
+    }
+    if (o && state.maxKm) LF.circle([o.lat, o.lng], { radius: state.maxKm * 1000, color: cssVar("--accent"), weight: 1.5, dashArray: "5 6", fillOpacity: 0.04, interactive: false }).addTo(LM.extra);
+    drawMe(LM);
+    // re-fit only when what is shown changes, so panning around is not undone on every update
+    var key = state.tab + "|" + state.anchor + "|" + state.maxKm + "|" + withC.length + "|" + (withC[0] ? withC[0].id : "") + "|" + (o ? o.lat.toFixed(3) + o.lng.toFixed(3) : "");
+    if (key !== LM.key) {
+      LM.key = key;
+      if (o && state.maxKm) m.fitBounds(LF.latLng(o.lat, o.lng).toBounds(state.maxKm * 2000), { padding: [16, 16] });
+      else if (withC.length) {
+        var b = LF.latLngBounds(withC.map(function (i) { return [i.lat, i.lng]; }));
+        if (o && state.anchor === "me") b.extend([o.lat, o.lng]);
+        m.fitBounds(b, { padding: [28, 28], maxZoom: 16 });
+      } else if (o) m.setView([o.lat, o.lng], 15);
+      else m.setView([50.9384, 6.9583], 14);
+    }
+    var msg = document.getElementById("lmsg");
+    msg.hidden = withC.length > 0;
+    msg.textContent = state.maxKm ? fmtKm(state.maxKm) + " 안에 없어요 — 반경을 넓혀 보세요" : "조건에 맞는 곳이 없어요";
+    document.getElementById("lleg").innerHTML = Object.keys(kinds).map(function (k) { return '<span><i style="background:var(--c-' + k + ')"></i>' + KIND_LABEL[k] + "</span>"; }).join("") +
+      (state.me && state.geo && state.geo.status === "ok" ? '<span><i style="background:var(--me)"></i>내 위치</span>' : "") + (o && state.anchor !== "me" ? "<span>★ 거리 기준점</span>" : "");
+    var missing = list.length - withC.length;
+    document.getElementById("lnote").textContent = "점을 누르면 정보와 길찾기가 나와요. 거리는 직선거리, 도보 시간은 어림값이에요." + (missing ? " 좌표 없는 " + missing + "곳은 목록에서 보세요." : "");
+    document.getElementById("lnear").innerHTML = nearListHtml(withC);
+    if (state.mapSel && LM.byId[state.mapSel]) showSheet(LM.byId[state.mapSel]); else closeSheet();
+  }
+  function nearListHtml(rows) {
+    if (!rows.length) return "";
+    var byDist = state.sort[state.tab] === "distance";
+    var shown = rows.slice(0, state.nearMore ? 80 : 12);
+    return '<h3 class="nl-h">' + (byDist ? esc(anchorLabel()) + "에서 가까운 순" : esc(SORT_LABELS[state.sort[state.tab]] || "")) + ' <span class="sub">' + rows.length + "곳</span></h3>" +
+      '<ol class="nearlist">' + shown.map(function (it) {
+        var d = dist(it), k = kindOf(it);
+        return '<li><button type="button" data-pick="' + esc(it.id) + '" aria-pressed="' + (state.mapSel === it.id) + '"><i class="cdot" style="background:var(--c-' + k + ')"></i>' +
+          '<span class="nm">' + esc(it.name_ko || it.name) + '</span><span class="d">' + (d != null ? fmtDist(d) + "<br>도보 " + walk(d) + "분" : "") + "</span>" +
+          '<span class="sub">' + esc(lab("category", it.category)) + (it.google_rating ? " · ★" + Number(it.google_rating).toFixed(1) : "") + (it.beer_price_eur ? " · 맥주 €" + Number(it.beer_price_eur).toFixed(2) : "") +
+          (k === "sight" ? sightStatusShort(it) : "") + "</span></button></li>";
+      }).join("") + "</ol>" + (rows.length > shown.length ? '<p style="margin:8px 0 0"><button type="button" class="linkbtn" data-nearmore>더 보기 (' + (rows.length - shown.length) + "곳)</button></p>" : "");
+  }
+  function sightStatusShort(it) {
+    var ts = todayState(it, NOW);
+    if (!ts.text) return "";
+    var t = ts.openNow ? "지금 열림" : it.status === "closed-renovation" ? "휴관(공사)" : ts.text.split(" · ")[0];
+    return " · " + esc(t);
+  }
+  function sheetHtml(it, k) {
+    var ts = k === "sight" ? todayState(it, NOW) : null;
+    return '<button type="button" class="lsheet-x" aria-label="닫기" data-close>×</button>' +
+      '<div class="eyebrow"><i class="cdot" style="background:var(--c-' + k + ')"></i>' + esc(lab("category", it.category)) + " · " + esc(areaName(it.area)) + "</div>" +
+      "<h3>" + esc(it.name_ko || it.name) + (it.name_ko ? '<span class="alt">' + esc(it.name) + "</span>" : "") + "</h3>" +
+      '<p class="meta">' + ratingHtml(it) + (it.beer_price_eur ? '<span class="beer">맥주 <span class="num">€' + Number(it.beer_price_eur).toFixed(2) + "</span></span>" : "") + distHtml(it) + "</p>" +
+      (ts && ts.text ? '<p class="today ' + ts.cls + '">' + esc(ts.text) + "</p>" : (k !== "sight" && foodLine(it) ? '<p class="cuisine">' + esc(foodLine(it)) + "</p>" : "")) +
+      '<div class="actions"><a class="btn primary" href="' + esc(dirUrl(it)) + '" target="_blank" rel="noopener">길찾기</a>' +
+      '<a class="btn" href="' + esc(mapsUrl(it)) + '" target="_blank" rel="noopener">구글 지도</a>' +
+      '<button type="button" class="btn" data-detail="' + esc(it.id) + '">자세히</button></div>';
+  }
+  function showSheet(e) {
+    var sh = document.getElementById("lsheet");
+    if (!sh) return;
+    sh.innerHTML = sheetHtml(e.it, e.k); sh.hidden = false;
+  }
+  function closeSheet() {
+    var sh = document.getElementById("lsheet");
+    if (sh && !sh.hidden) { sh.hidden = true; sh.innerHTML = ""; }
+    if (LM && state.mapSel && LM.byId[state.mapSel]) LM.byId[state.mapSel].m.setStyle({ radius: 7, weight: 2, color: cssVar("--surface") });
+    state.mapSel = null;
+    document.querySelectorAll("#lnear [data-pick]").forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
+  }
+  function selectOnMap(id, fromList) {
+    if (!LM || !LM.byId[id]) return;
+    if (state.mapSel && LM.byId[state.mapSel]) LM.byId[state.mapSel].m.setStyle({ radius: 7, weight: 2, color: cssVar("--surface") });
+    state.mapSel = id;
+    var e = LM.byId[id];
+    e.m.setStyle({ radius: 10, weight: 3, color: cssVar("--ink") }); e.m.bringToFront();
+    if (fromList) {
+      LM.map.setView([e.it.lat, e.it.lng], Math.max(LM.map.getZoom(), 16));
+      document.getElementById("lmap").scrollIntoView({ behavior: "smooth", block: "center" });
+    } else LM.map.panInside([e.it.lat, e.it.lng], { paddingTopLeft: [40, 40], paddingBottomRight: [40, 190] });
+    showSheet(e);
+    document.querySelectorAll("#lnear [data-pick]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-pick") === id)); });
+  }
+  function showInList(id) {
+    state.view[state.tab] = "list"; state.mapSel = null; render();
+    var c = document.getElementById("c-" + id);
+    if (c) { c.scrollIntoView({ behavior: "smooth", block: "center" }); c.classList.add("flash"); setTimeout(function () { c.classList.remove("flash"); }, 1800); }
+  }
+
+  // ------------------------------------------------------------ location (asked only when the user taps 내 주변 / 내 위치)
+  var watchId = null, KOELN = { lat: 50.9413, lng: 6.9583 };
+  function startLocate() {
+    if (!navigator.geolocation) { geoFail("이 브라우저는 위치 기능을 지원하지 않아요."); return; }
+    if (watchId != null) return;
+    if (!state.me) state.geo = { status: "asking" };
+    // no per-fix timeout: standing still must not switch near-me off; a slow first fix only updates the notice
+    watchId = navigator.geolocation.watchPosition(onFix, function (err) {
+      if (err.code === 1) { stopLocate(); geoFail("위치 권한이 꺼져 있어요. 브라우저(또는 휴대폰) 설정에서 이 사이트의 위치를 허용한 뒤 ‘내 주변’을 다시 눌러 주세요."); return; }
+      if (state.me) return;  // keep the last good position
+      state.geo = { status: "slow" }; render();
+    }, { enableHighAccuracy: true, maximumAge: 10000 });
+    clearTimeout(startLocate.t);
+    startLocate.t = setTimeout(function () { if (!state.me && watchId != null) { state.geo = { status: "slow" }; render(); } }, 15000);
+  }
+  function stopLocate() { if (watchId != null) { navigator.geolocation.clearWatch(watchId); watchId = null; } }
+  function onFix(p) {
+    var me = { lat: p.coords.latitude, lng: p.coords.longitude, acc: Math.round(p.coords.accuracy || 0) };
+    var prev = state.me, far = hav(me.lat, me.lng, KOELN.lat, KOELN.lng);
+    state.me = me;
+    if (far > 30) {  // not in Cologne yet: say so instead of showing an empty "nearby" list
+      var wasFar = state.geo && state.geo.status === "far";
+      state.geo = { status: "far", km: Math.round(far) };
+      if (state.anchor === "me") { state.anchor = "dom"; state.origin = null; }
+      state.near = false; state.maxKm = 0;
+      if (!wasFar) render(); else updateMe();
+      return;
+    }
+    var first = !state.geo || state.geo.status !== "ok";
+    state.geo = { status: "ok" };
+    if (state.anchor === "me") state.origin = { lat: me.lat, lng: me.lng };
+    var moved = prev ? hav(prev.lat, prev.lng, me.lat, me.lng) * 1000 : Infinity;
+    if (first || moved > 25) {
+      if (LM && LM.centerOnFix) { LM.centerOnFix = false; LM.map.setView([me.lat, me.lng], 16); }
+      if (state.tab === "run") updateMe(); else render();
+    } else updateMe();
+    var nb = document.querySelector(".nearbar span");
+    if (nb) nb.textContent = "내 위치 기준 · 정확도 ±" + me.acc + "m";
+  }
+  function geoFail(msg) {
+    state.geo = { status: "error", msg: msg };
+    state.near = false;
+    if (state.anchor === "me") { state.anchor = "dom"; state.origin = null; state.maxKm = 0; }
+    render();
+  }
+  function geoNotice() {
+    var g = state.geo;
+    if (!g) return "";
+    if (g.status === "asking") return "위치를 확인하는 중이에요. 브라우저가 물어보면 ‘허용’을 눌러 주세요. 위치는 거리 계산과 지도 표시에만 쓰고 저장하지 않아요.";
+    if (g.status === "far") return "지금 위치가 쾰른에서 약 " + g.km.toLocaleString("ko-KR") + "km 떨어져 있어요. 쾰른에 도착하면 ‘내 주변’이 가까운 순으로 보여 줘요. 지금은 " + anchorLabel() + " 기준이에요.";
+    if (g.status === "error") return g.msg;
+    if (g.status === "slow") return "아직 위치를 찾는 중이에요. 실내에서는 오래 걸릴 수 있어요 — 창가로 가거나 휴대폰의 위치(GPS)를 켜 주세요.";
+    return "";
+  }
+  function toggleNear() {
+    if (state.near) {
+      state.near = false; state.maxKm = 0;
+      if (state.anchor === "me") { state.anchor = recall("anchor") || "dom"; state.origin = null; }
+      render(); return;
+    }
+    state.near = true; state.anchor = "me"; state.mapSel = null;
+    state.maxKm = state.maxKm && state.maxKm <= 2 ? state.maxKm : 1;
+    ["food", "beer", "bars", "sights"].forEach(function (t) { state.sort[t] = "distance"; });
+    if (TILES) ["food", "beer", "bars", "sights"].forEach(function (t) { state.view[t] = "map"; });
+    state.origin = state.me && state.geo && state.geo.status === "ok" ? { lat: state.me.lat, lng: state.me.lng } : null;
+    startLocate();
+    render();
   }
 
   // ------------------------------------------------------------ presets + active chips
@@ -942,18 +1229,27 @@ function kgStart() {
   };
   function applyPreset(id) {
     var tab = state.tab, p = (PRESETS[tab] || []).filter(function (x) { return x.id === id; })[0];
-    state.f[tab] = fresh(); state.maxKm = 0;
+    state.f[tab] = fresh(); if (!state.near) state.maxKm = 0;
     if (!p || state.preset[tab] === id) { state.preset[tab] = null; render(); return; }
-    p.apply(state.f[tab]); state.preset[tab] = id; render();
+    p.apply(state.f[tab]); state.preset[tab] = id;
+    if (state.anchor !== "me") state.near = false;  // e.g. "대성당 1km" replaces near-me
+    render();
   }
+  var PIN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>';
+  var NEAR_KM = [0.5, 1, 2, 0];
   function renderToolbar() {
     var tab = state.tab, v = state.view[tab] || "list";
-    document.getElementById("toolbar").innerHTML = '<div class="presets" role="group" aria-label="빠른 선택">' +
+    var nearBtn = CFG.geolocation ? '<button type="button" class="near" data-near aria-pressed="' + state.near + '">' + PIN + "내 주변</button>" : "";
+    var nearBar = state.near ? '<div class="nearbar"><span>내 위치 기준' + (state.me && state.geo && state.geo.status === "ok" ? " · 정확도 ±" + state.me.acc + "m" : " · 위치 확인 중…") +
+      '</span><div class="seg" role="group" aria-label="반경">' + NEAR_KM.map(function (k) {
+        return '<button type="button" data-nearkm="' + k + '" aria-pressed="' + (state.maxKm === k) + '">' + (k ? fmtKm(k) : "전체") + "</button>";
+      }).join("") + "</div></div>" : "";
+    document.getElementById("toolbar").innerHTML = nearBtn + '<div class="presets" role="group" aria-label="빠른 선택">' +
       (PRESETS[tab] || []).map(function (p) {
         return '<button type="button" class="preset" data-preset="' + p.id + '" aria-pressed="' + (state.preset[tab] === p.id) + '">' + esc(p.label) + "</button>";
       }).join("") + '</div><div class="viewtoggle" role="group" aria-label="보기 방식">' +
       '<button type="button" data-view="list" aria-pressed="' + (v === "list") + '">목록</button>' +
-      '<button type="button" data-view="map" aria-pressed="' + (v === "map") + '">지도</button></div>';
+      '<button type="button" data-view="map" aria-pressed="' + (v === "map") + '">지도</button></div>' + nearBar;
   }
   function renderChips() {
     var tab = state.tab, f = state.f[tab], out = [];
@@ -961,7 +1257,7 @@ function kgStart() {
       keys(f.sel[fc.key]).forEach(function (v) { out.push(["sel:" + fc.key + ":" + v, fc.label + " · " + fc.lab(v)]); });
     });
     if (f.q) out.push(["q", "검색: " + f.q]);
-    if (state.maxKm) out.push(["km", anchorLabel() + " " + state.maxKm + "km 이내"]);
+    if (state.maxKm) out.push(["km", anchorLabel() + " " + fmtKm(state.maxKm) + " 이내"]);
     if (f.minRating) out.push(["rating", "★" + f.minRating.toFixed(1) + "+"]);
     if (f.maxBeer) out.push(["beer", "맥주 €" + f.maxBeer.toFixed(2) + " 이하"]);
     if (f.must) out.push(["must", "첫 방문 필수"]);
@@ -1027,7 +1323,7 @@ function kgStart() {
         return '<a class="btn primary" href="' + esc(x.url) + '" target="_blank" rel="noopener">구글 지도 길찾기' + (rt.gmaps.length > 1 ? " " + (i + 1) + "/" + rt.gmaps.length : "") + "</a>";
       }).join("") + (CFG.downloads ? '<a class="btn" href="' + esc(fileUrl("routes/koln-running.kml")) + '" download="koln-running.kml">KML (구글 마이맵)</a><a class="btn" href="' +
         esc(fileUrl("routes/koln-running-" + rt.id + ".gpx")) + '" download="koln-running-' + rt.id + '.gpx">GPX (러닝 앱)</a>' : "") +
-      '</div><p class="map-note">' + (rt.gmaps.length > 1 ? "구글 지도 길찾기는 경유지가 9곳까지라 구간을 나눴어요. " : "") + "구글이 고르는 길은 이 코스와 조금 다를 수 있어요. " +
+      '</div><p class="map-note">' + (TILES ? "오른쪽 위 ◎ 버튼으로 내 위치를 코스 위에 띄울 수 있어요. " : "") + (rt.gmaps.length > 1 ? "구글 지도 길찾기는 경유지가 9곳까지라 구간을 나눴어요. " : "") + "구글이 고르는 길은 이 코스와 조금 다를 수 있어요. " +
       (CFG.downloads ? "" : "KML(구글 마이맵)·GPX(러닝 앱) 파일은 저장소 routes/ 폴더에 있어요. ") + "경로 데이터 © OpenStreetMap 기여자.</p></div>";
     html += '<ol class="stops">' + stops.slice(0, -1).map(function (st) {
       var q = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(st.name + ", Köln");
@@ -1058,9 +1354,51 @@ function kgStart() {
       "<li>구글 마이맵: mymaps.google.com → 새 지도 → 가져오기 → KML 파일(코스 6개가 레이어로 들어가요). GPX는 Strava·Garmin·Komoot에서 경로 가져오기.</li></ul>" +
       (sun ? '<table class="sun" style="margin-top:12px"><thead><tr><th>날짜</th><th>일출</th><th>일몰</th></tr></thead><tbody>' + sun + "</tbody></table>" : "") + "</section>";
   }
+  var RM = null;
+  function drawRunLeaflet(rt, RT) {
+    var box = document.getElementById("runmap");
+    if (RM) { RM.map.remove(); RM = null; }
+    box.className = "lmap-wrap"; box.innerHTML = '<div class="lmap" id="runlmap" role="region" aria-label="러닝 코스 지도"></div>';
+    var m = LF.map("runlmap", { zoomSnap: 0.5, maxZoom: 19 });
+    m.attributionControl.setPrefix(false);
+    var list = rt ? [rt] : RT, pts = [];
+    list.forEach(function (r) { pts = pts.concat(r.path); });
+    m.fitBounds(LF.latLngBounds(pts), { padding: [20, 20] });  // the view must exist before vector layers are added
+    newTiles().addTo(m);
+    var group = LF.featureGroup().addTo(m);
+    list.forEach(function (r) {
+      var c = cssVar("--" + (r.token || "accent"));
+      var line = LF.polyline(r.path, { color: c, weight: rt ? 5 : 4, opacity: rt ? 0.95 : 0.85 }).addTo(group);
+      if (!rt) line.bindTooltip(esc(r.label_ko) + " · " + r.distance_km.toFixed(1) + "km", { sticky: true }).on("click", function () { state.route = r.id; renderRun(); });
+    });
+    var ink = cssVar("--ink"), surf = cssVar("--surface");
+    if (rt) {
+      var c0 = cssVar("--" + (rt.token || "accent"));
+      rt.km_markers.forEach(function (k) {
+        LF.circleMarker([k.lat, k.lng], { radius: 4, color: ink, weight: 1.5, fillColor: surf, fillOpacity: 1, interactive: false })
+          .bindTooltip(String(k.km), { permanent: true, direction: "right", offset: [5, 0], className: "km-tip" }).addTo(m);
+      });
+      rt.stops.slice(0, -1).forEach(function (x) {
+        LF.marker([x.lat, x.lng], { icon: LF.divIcon({ className: "stop-ic", html: '<span style="background:' + c0 + '">' + (x.n === 0 ? "S" : x.n) + "</span>", iconSize: [24, 24], iconAnchor: [12, 12] }) })
+          .bindTooltip(esc(x.name_ko)).addTo(m);
+      });
+    } else {
+      var s0 = RT[0].stops[0];
+      LF.marker([s0.lat, s0.lng], { icon: LF.divIcon({ className: "stop-ic", html: '<span style="background:' + ink + '">S</span>', iconSize: [24, 24], iconAnchor: [12, 12] }) })
+        .bindTooltip("프리젠플라츠 (출발·도착)").addTo(m);
+    }
+    RM = { map: m };
+    MAPS.push(RM);
+    drawMe(RM);
+    if (CFG.geolocation) locControl(m, function () {
+      if (state.me && state.geo && state.geo.status === "ok") m.setView([state.me.lat, state.me.lng], Math.max(m.getZoom(), 16));
+      else startLocate();
+    });
+  }
   function drawRunMap(rt, RT) {
     var box = document.getElementById("runmap");
     if (!box) return;
+    if (TILES) { drawRunLeaflet(rt, RT); return; }
     var list = rt ? [rt] : RT, pts = [];
     list.forEach(function (r) { pts = pts.concat(r.path); });
     var g = mapGeo(fitExt(pts, 0.006, 0.01), boxWidth(box, 700));
@@ -1090,7 +1428,7 @@ function kgStart() {
     var all = [].concat(TABS.food.items, TABS.beer.items, TABS.bars.items, TABS.sights.items);
     var it = all.filter(function (x) { return x.id === id; })[0];
     if (it && it.lat != null) {
-      state.anchor = "place"; state.origin = { lat: it.lat, lng: it.lng }; state.originLabel = it.name_ko || it.name;
+      state.anchor = "place"; state.near = false; state.origin = { lat: it.lat, lng: it.lng }; state.originLabel = it.name_ko || it.name;
       state.sort[state.tab] = "distance"; render(); window.scrollTo({ top: 0, behavior: "smooth" });
     }
   }
@@ -1109,7 +1447,7 @@ function kgStart() {
     list.sort(SORTS[sortKey] || SORTS.rating);
     var card = tab === "sights" ? sightCard : fnbCard;
     var grid = document.getElementById("grid"), mv = document.getElementById("mapview");
-    var asMap = (state.view[tab] || "list") === "map" && list.length > 0;
+    var asMap = (state.view[tab] || "list") === "map" && (list.length > 0 || TILES);
     state._list = list;
     renderChips();
     mv.hidden = !asMap; grid.hidden = asMap;
@@ -1118,13 +1456,15 @@ function kgStart() {
       '<div class="empty">조건에 맞는 곳이 없어요. 필터를 줄이거나 <button type="button" class="reset" id="reset2">초기화</button> 해 보세요.</div>';
     document.getElementById("rtitle").textContent = TABS[tab].title;
     var sub = list.length + "곳 · " + SORT_LABELS[sortKey];
-    if (state.maxKm) sub += " · " + anchorLabel() + " " + state.maxKm + "km 이내";
+    if (state.maxKm) sub += " · " + anchorLabel() + " " + fmtKm(state.maxKm) + " 이내";
     document.getElementById("rsub").textContent = sub;
     var n = appliedCount(f);
     document.getElementById("applied").textContent = n ? n + "개 적용" : "";
     var notice = document.getElementById("notice");
     var missing = state.maxKm ? items.length - coordCount(items) : 0;
-    if (state.anchor === "me" && !state.origin) { notice.hidden = false; notice.textContent = "위치를 확인하는 중이에요…"; }
+    var gn = geoNotice();
+    if (gn) { notice.hidden = false; notice.textContent = gn; }
+    else if (state.anchor === "me" && !state.origin) { notice.hidden = false; notice.textContent = "위치를 확인하는 중이에요…"; }
     else if (missing > 0) { notice.hidden = false; notice.textContent = "좌표가 없는 " + missing + "곳은 거리 필터에서 빠졌어요."; }
     else notice.hidden = true;
   }
@@ -1163,7 +1503,8 @@ function kgStart() {
     }
     else if (b.hasAttribute("data-anchor")) {
       state.anchor = b.getAttribute("data-anchor");
-      if (state.anchor === "me") locate(); else store("anchor", state.anchor);
+      if (state.anchor === "me") { state.origin = state.me && state.geo && state.geo.status === "ok" ? { lat: state.me.lat, lng: state.me.lng } : null; startLocate(); }
+      else { store("anchor", state.anchor); state.near = false; }
       if (!state.maxKm && state.sort[state.tab] !== "distance") state.sort[state.tab] = "distance";
     }
     else if (b.hasAttribute("data-km")) { state.maxKm = Number(b.getAttribute("data-km")); }
@@ -1182,6 +1523,13 @@ function kgStart() {
     if (e.target.id === "reset2") { state.f[state.tab] = fresh(); state.maxKm = 0; state.preset[state.tab] = null; render(); return; }
     var pb = e.target.closest("[data-place]");
     if (pb) { anchorAtPlace(pb.getAttribute("data-place")); return; }
+    if (e.currentTarget.id === "mapview") {
+      var pk = e.target.closest("[data-pick]"), dt = e.target.closest("[data-detail]");
+      if (pk) { selectOnMap(pk.getAttribute("data-pick"), true); return; }
+      if (dt) { showInList(dt.getAttribute("data-detail")); return; }
+      if (e.target.closest("[data-close]")) { closeSheet(); return; }
+      if (e.target.closest("[data-nearmore]")) { state.nearMore = true; document.getElementById("lnear").innerHTML = nearListHtml((state._list || []).filter(function (i) { return i.lat != null; })); return; }
+    }
     var dot = e.target.closest("[data-id]");
     if (dot && e.currentTarget.id === "mapview") { state.mapSel = dot.getAttribute("data-id"); renderMapView(state._list || []); }
   }
@@ -1189,6 +1537,8 @@ function kgStart() {
   document.getElementById("mapview").addEventListener("click", cardClicks);
   document.getElementById("toolbar").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b) return;
+    if (b.hasAttribute("data-near")) { toggleNear(); return; }
+    if (b.hasAttribute("data-nearkm")) { state.maxKm = Number(b.getAttribute("data-nearkm")); render(); return; }
     if (b.hasAttribute("data-preset")) applyPreset(b.getAttribute("data-preset"));
     else if (b.hasAttribute("data-view")) { state.view[state.tab] = b.getAttribute("data-view"); store("view", state.view[state.tab]); renderToolbar(); renderResults(); }
   });
@@ -1205,18 +1555,16 @@ function kgStart() {
   window.addEventListener("resize", function () {
     clearTimeout(resizeT);
     resizeT = setTimeout(function () {
-      if (state.tab === "run") renderRun();
-      else if (!document.getElementById("mapview").hidden) renderMapView(state._list || []);
+      if (state.tab === "run") { if (RM) RM.map.invalidateSize(); else renderRun(); }
+      else if (!document.getElementById("mapview").hidden) { if (LM) LM.map.invalidateSize(); else renderMapView(state._list || []); }
     }, 200);
   });
-  function locate() {
-    if (!navigator.geolocation) { state.anchor = "dom"; render(); return; }
-    navigator.geolocation.getCurrentPosition(function (p) {
-      state.origin = { lat: p.coords.latitude, lng: p.coords.longitude }; render();
-    }, function () {
-      state.anchor = "dom"; render();
-      var n = document.getElementById("notice"); n.hidden = false; n.textContent = "위치 권한이 없어 대성당 기준으로 되돌렸어요.";
-    }, { enableHighAccuracy: false, timeout: 8000 });
+  if (TILES && window.matchMedia) {  // follow the system light/dark switch with matching map tiles
+    var mq = window.matchMedia("(prefers-color-scheme: dark)"), onScheme = function () {
+      if (LM && !document.getElementById("mapview").hidden) renderMapView(state._list || []);
+      if (state.tab === "run") renderRun();
+    };
+    if (mq.addEventListener) mq.addEventListener("change", onScheme); else if (mq.addListener) mq.addListener(onScheme);
   }
   document.getElementById("filters").addEventListener("toggle", function (e) {
     if (e.target.classList && e.target.classList.contains("more-filters")) state.moreOpen[state.tab] = e.target.open;

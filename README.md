@@ -7,7 +7,7 @@
 
 | 보고 싶은 것 | 위치 |
 |---|---|
-| 필터 웹 뷰어 (목록·지도 보기, 빠른 선택, 러닝 코스 탭) — **비밀번호로 잠김** | GitHub Pages: <https://gkk2123.github.io/Koln-Guide/> (Settings → Pages에서 이 브랜치의 `/docs`를 켜면 열려요). 비밀번호는 만든 사람에게 받으세요 |
+| 필터 웹 뷰어 (목록·실제 지도, **내 주변**: 위치 허용 시 가까운 순·도보 시간·반경, 러닝 코스 지도) — **비밀번호로 잠김** | GitHub Pages: <https://gkk2123.github.io/Koln-Guide/> (Settings → Pages에서 이 브랜치의 `/docs`를 켜면 열려요). 비밀번호는 만든 사람에게 받으세요 |
 | 세계 음식 분석 (나라·동네·요리별 추천, 한식) | [`guides/international-food.md`](guides/international-food.md) |
 | 이번 시즌 (2026-11~2027-02): 대성당 입장료, 휴관, 11.11 카니발, 크리스마스 마켓 | [`guides/season-2026-11-to-2027-02.md`](guides/season-2026-11-to-2027-02.md) |
 | 관광지 입장권·운영시간 (11–12월 요일별 시간, 마지막 입장, 공휴일 휴관, 무료·할인, 예약, 패스) | [`guides/tables/attractions-tickets-hours.md`](guides/tables/attractions-tickets-hours.md) · 웹 뷰어 관광지 탭 "오늘 여는 곳" |
@@ -121,6 +121,11 @@ KOLN_GUIDE_PASSWORD=... python3 scripts/build.py   # 표와 웹 뷰어 다시 �
 ```
 
 `import_raw.py`는 `research/raw` 기준으로 `data/`를 다시 쓰므로, 손으로 고친 내용은 `research/raw`에도 반영하세요.
+
+**지도·내 위치:** GitHub Pages 뷰어는 OpenStreetMap 지도(타일 © OpenStreetMap 기여자, 라이브러리 Leaflet 1.9.4 — `scripts/vendor/leaflet`)를 씁니다.
+"내 주변"을 누르면 브라우저가 위치 권한을 묻고, 허용하면 파란 점과 함께 가까운 순(직선거리·도보 어림 시간)과 500m/1km/2km 반경으로 보여 줘요.
+위치는 거리 계산과 지도 표시에만 쓰고 저장하지 않습니다. 쾰른에서 30km 넘게 떨어져 있으면 그 사실을 알려 주고 대성당 기준으로 보여 줘요.
+claude.ai 페이지는 외부 지도 이미지를 불러올 수 없어 간단한 약도를 그대로 씁니다.
 
 **웹 뷰어 잠금:** `docs/`에는 가이드 데이터가 AES-256-GCM 암호문(`docs/data.enc.js`)으로만 들어가고, 페이지가 비밀번호를 물어
 브라우저 안에서 풀어요(키 = PBKDF2-SHA256 60만 회). 비밀번호는 저장소 어디에도 없고, `KOLN_GUIDE_PASSWORD` 없이 `build.py`를 돌리면
