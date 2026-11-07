@@ -16,6 +16,9 @@
       "r2-attractions.json",
       "r2-bars.json",
       "r2-cafes-dessert.json",
+      "r2-east-asia.json",
+      "r2-europe-americas.json",
+      "r2-middle-east-africa.json",
       "r2-se-south-asia.json",
       "wine-places.json"
     ],

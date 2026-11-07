@@ -168,6 +168,13 @@ def normalize_fnb(p: dict, agent: str) -> dict:
     if pl is not None and not 1 <= pl <= 4:
         warn(f"{where}: price_level {pl} out of range -> null")
         pl = None
+    price_estimated = False
+    if pl is None:  # category-based estimate where German prices are predictable; regular restaurants stay null
+        est = {"streetfood": 1, "bakery": 1, "dessert": 1, "brauhaus": 2, "fine-dining": 4}.get(cat)
+        if cat == "cafe":
+            est = 2 if "brunch-plates" in facets["dishes"] or "brunch" in facets["meals"] else 1
+        if est:
+            pl, price_estimated = est, True
     ppp = p.get("price_pp") if isinstance(p.get("price_pp"), dict) else None
     if ppp:
         ppp = {k: as_int(ppp.get(k)) for k in ("min", "max") if as_int(ppp.get(k)) is not None} or None
@@ -187,6 +194,7 @@ def normalize_fnb(p: dict, agent: str) -> dict:
         "payment": payment,
         "location": location,
         "price_level": pl,
+        "price_estimated": price_estimated,
         "price_pp": ppp,
         "price_note": p.get("price_note"),
         "google_rating": as_float(p.get("google_rating")),
@@ -383,16 +391,28 @@ def main() -> int:
 
     # candidates: drop the ones that ended up in the main lists, dedupe by name.
     # Later research files win (r2-* after round 1), and "Seiberts" matches "Seiberts Classic Bar".
-    def same(a: str, b: str) -> bool:
-        return a == b or (min(len(a), len(b)) >= 6 and (a.startswith(b) or b.startswith(a)))
+    GENERIC = {"cafe", "restaurant", "bar", "the", "brauhaus", "koeln", "cologne", "pizzeria", "ristorante",
+               "imbiss", "kebap", "kebab", "grill", "haus", "und", "am", "im", "in", "der", "die", "das", "de", "la"}
 
-    main_names = [norm_name(i["name"]) for k in DATA_FILES for i in buckets[k]]
+    def sig(name: str) -> set:
+        return {t for t in slugify(name).split("-") if len(t) >= 4 and t not in GENERIC}
+
+    def same(a: tuple, b: tuple) -> bool:
+        (ka, ta, aa), (kb, tb, ab) = a, b
+        if ka == kb or (min(len(ka), len(kb)) >= 6 and (ka.startswith(kb) or kb.startswith(ka))):
+            return True
+        return bool(aa and aa == ab and ta and tb and (ta <= tb or tb <= ta))
+
+    def ident(x: dict) -> tuple:
+        return norm_name(x.get("name", "")), sig(x.get("name", "")), x.get("area")
+
+    main_ids = [ident(i) for k in DATA_FILES for i in buckets[k]]
     seen, cands = [], []
     for c in reversed(candidates):
-        key = norm_name(c.get("name", ""))
-        if not key or any(same(key, m) for m in main_names) or any(same(key, x) for x in seen):
+        me = ident(c)
+        if not me[0] or any(same(me, m) for m in main_ids) or any(same(me, x) for x in seen):
             continue
-        seen.append(key)
+        seen.append(me)
         cands.append(c)
     cands.reverse()
     report.append(f"{'candidates':12s} {len(cands):4d}")

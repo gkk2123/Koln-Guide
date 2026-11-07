@@ -16,12 +16,223 @@
       "r2-attractions.json",
       "r2-bars.json",
       "r2-cafes-dessert.json",
+      "r2-east-asia.json",
+      "r2-europe-americas.json",
+      "r2-middle-east-africa.json",
       "r2-se-south-asia.json",
       "wine-places.json"
     ],
-    "count": 51
+    "count": 125
   },
   "items": [
+    {
+      "id": "artistanbul-meze",
+      "name": "Artistanbul Meze",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Komödienstraße 52, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish meze restaurant",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "mezze"
+      ],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 795,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "대성당 서쪽 코뫼디엔슈트라세의 터키식 메제(소량 전채) 레스토랑으로, Wanderlog의 '쾰른 중동 음식'과 '저녁 식사' 추천 목록에 모두 오른 고평점(구글 4.8) 집이다. 대성당 관광을 마친 뒤 저녁에 여러 메제를 나눠 먹기 좋은 위치다.",
+      "must_try": [
+        "Meze (메제 — 터키식 소량 전채 모둠)"
+      ],
+      "tips_ko": "세부 메뉴·예약 정책은 이번 조사에서 미확인 — 방문 전 확인할 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
+        "https://wanderlog.com/list/geoCategory/29648/best-restaurants-to-have-dinner-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "nainai-bao",
+      "name": "NaiNai Bao",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Josef-Haubrich-Hof 3, 50676 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Chinese biang biang noodles and bao",
+      "cuisine_country": [
+        "CN"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "noodles",
+        "dumplings"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": false,
+      "price_pp": {
+        "min": 10,
+        "max": 20
+      },
+      "price_note": "1인 €10–20, 소고기 비앙비앙면 €13(리뷰 기준)",
+      "google_rating": 4.8,
+      "google_reviews": 587,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.8 / 587); Restaurant Guru own score 4.9 / 644",
+      "summary_ko": "노이마르크트 옆 요제프-하우브리히-호프에 있는 중국 면 요리집으로, 넓적한 수타면 비앙비앙면이 간판 메뉴다. 시내 쇼핑가에서 가깝고 1인 €10–20 정도라 합리적인 가격에 산시(陝西)식 국수를 맛보기 좋다.",
+      "must_try": [
+        "Biang Biang Noodles (비앙비앙면 — 넓적한 수타면)",
+        "Beef Biang Biang Noodles (소고기 비앙비앙면)",
+        "Beef noodle soup (소고기 국수)"
+      ],
+      "tips_ko": "소고기가 질기다는 리뷰가 있지만 면은 호평입니다. 노이마르크트 정류장에서 걸어서 가깝습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/12066841/nainai-bao",
+        "https://restaurantguru.com/NaiNai-Bao-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "gangnamstyle-korean-bbq",
+      "name": "Gangnamstyle Korean BBQ • Bulgogi • Bar",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Thurnmarkt 7, 50676 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Korean BBQ and bar (tabletop grill, QR ordering)",
+      "cuisine_country": [
+        "KR"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "korean-bbq",
+        "grill"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 2088,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.7 / 2,088 on the place page; one Wanderlog list shows 4.6)",
+      "summary_ko": "호이마르크트 남쪽 구시가 투른마르크트에 있는 테이블 그릴식 한국 고깃집 겸 바로, QR 코드로 주문한다. 구시가 관광 동선에서 가까워 일행과 고기구이를 먹기 편하지만, 과다 청구·느린 서비스·달달한 소스를 지적하는 리뷰도 있어 평이 갈린다.",
+      "must_try": [
+        "Korean BBQ (테이블 고기구이)",
+        "Bulgogi (불고기)",
+        "Rosé Tteokbokki (로제 떡볶이)"
+      ],
+      "tips_ko": "주문은 테이블 QR 코드로 합니다. 계산서를 꼭 확인하라는 리뷰가 있습니다(과다 청구·결제 방식 혼란 지적). 영업시간은 출처에 일부만 나와 있어 확인이 필요합니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/7033962/gangnamstyle-korean-bbq--bulgogi--bar"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "coco-ramen-sushi",
+      "name": "COCO Ramen – Sushi – Asian kitchen",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Breite Straße 26, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Ramen, sushi and pan-Asian kitchen in the WDR Arkaden",
+      "cuisine_country": [
+        "JP"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "ramen",
+        "sushi"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(리뷰: 점심 가격이 합리적)",
+      "google_rating": 4.7,
+      "google_reviews": 947,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "시내 쇼핑가 브라이테 거리의 WDR 아케이드(WDR Arkaden) 안에 있는 라멘·스시·아시아 요리집으로, 라멘이 맛있고 점심 가격이 합리적이라는 평이 많다. 대성당 주변 관광이나 쇼핑 중 점심 한 그릇에 좋지만, 서비스가 느릴 때가 있다.",
+      "must_try": [],
+      "tips_ko": "점심 가성비가 좋다는 리뷰가 많습니다. 붐비면 서비스가 느려질 수 있습니다. 전화 +49 221 88889999.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://app.wanderlog.com/place/details/3573324/coco-ramen-sushi-asian-kitchen"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
     {
       "id": "oma-janssen-colonialwarenhandel",
       "name": "Oma Janßen Colonialwarenhandel",
@@ -53,7 +264,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.7,
@@ -108,7 +320,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.7,
@@ -157,7 +370,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.7,
@@ -204,7 +418,8 @@
       "reservation": "recommended",
       "payment": "cash-only",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.6,
@@ -223,6 +438,57 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "el-chango",
+      "name": "El Chango",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Bolzengasse 9, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Argentine steakhouse (charcoal grill)",
+      "cuisine_country": [
+        "AR"
+      ],
+      "cuisine_region": "americas",
+      "dishes": [
+        "steak",
+        "grill"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 1929,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.5; place page 1841, list snapshots 1766/1904/1929; largest used); restaurantguru.com shows Google 4.5",
+      "summary_ko": "구시가 Bolzengasse의 아르헨티나 스테이크하우스로, 모든 요리를 숯불 그릴에 굽는다. 대성당·구시가 관광 뒤 제대로 된 스테이크를 먹고 싶을 때 좋다.",
+      "must_try": [
+        "Steak vom Holzkohlegrill (숯불 스테이크)"
+      ],
+      "tips_ko": "구글 리뷰 수는 스냅샷마다 1,766–1,929개로 다릅니다. 가격 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3077329/el-chango",
+        "https://restaurantguru.com/El-Chango-Cologne",
+        "https://wanderlog.com/list/geoCategory/1503221/best-steaks-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
       "checked": "2026-11-07"
     },
     {
@@ -254,7 +520,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
       "google_rating": 4.4,
@@ -303,6 +570,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.4,
@@ -348,6 +616,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": 2,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "TripAligner 기준 중간 가격대 (금액은 확인 못 함)",
       "google_rating": 4.4,
@@ -394,7 +663,8 @@
       "reservation": "unknown",
       "payment": "card",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.4,
@@ -451,7 +721,8 @@
       "location": [
         "near-hbf"
       ],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
       "google_rating": 4.3,
@@ -476,6 +747,57 @@
       ],
       "confidence": "medium",
       "research": "fnb-dom-altstadt-eigelstein",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "beirut-restaurant",
+      "name": "Beirut Restaurant",
+      "category": "restaurant",
+      "area": "dom-altstadt",
+      "address": "Buttermarkt 3, 50667 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Lebanese restaurant — mezze & mixed grill",
+      "cuisine_country": [
+        "LB"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "mezze",
+        "grill"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.2,
+      "google_reviews": 3692,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "구시가 부터마르크트에 있는 비교적 격식 있는 대형 레바논 레스토랑으로, 메제(여러 가지 작은 전채)와 믹스 그릴이 리뷰에서 칭찬받는다. 대성당·구시가 관광 동선에서 여럿이 메제를 나눠 먹기 좋다.",
+      "must_try": [
+        "Mezze (메제 — 레바논식 소량 전채 모둠)",
+        "Mixed Grill (믹스 그릴 — 여러 고기 구이 모둠)"
+      ],
+      "tips_ko": "팔라펠은 평범하고 치킨 샤와르마는 계피 향이 강하다는 리뷰가 있으니 메제와 그릴 위주로 주문할 것. 구글 평점은 기준선(4.2)에 걸친 수준.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/763650/beirut-restaurant",
+        "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
       "checked": "2026-11-07"
     },
     {
@@ -505,7 +827,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 미확인 (이번 세션에서 메뉴·구글 1인 가격 출처를 확보하지 못함)",
       "google_rating": 4.2,
@@ -537,6 +860,160 @@
       "checked": "2026-11-07"
     },
     {
+      "id": "petit-frere",
+      "name": "Petit Frère",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Aachener Str. 20, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Modern French-German cuisine (chef Tim Engelhard)",
+      "cuisine_country": [
+        "FR",
+        "DE"
+      ],
+      "cuisine_region": "western-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [
+        "date"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.9,
+      "google_reviews": 253,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (French restaurants list / place listing)",
+      "summary_ko": "벨기에 지구 Aachener Straße의 작은 레스토랑으로, 셰프 팀 엥겔하르트(Tim Engelhard)가 프랑스와 독일 요리를 섞은 모던 요리를 낸다. 로맨틱한 저녁이나 기념일에 어울리면서 가격은 공정한 편이라는 평이다.",
+      "must_try": [],
+      "tips_ko": "점심 영업도 한다는 소개가 있습니다(Mit Vergnügen 2024). 메뉴와 가격은 공식 사이트에서 확인하세요.",
+      "website": "https://petitfrere.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/45713/best-french-restaurants-and-bistros-in-cologne",
+        "https://koeln.mitvergnuegen.com/2024/restaurants-belgisches-viertel",
+        "https://tablejourney.com/germany/cologne/fine-dining/petit-frere/"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "christoph-pauls-restaurant",
+      "name": "Christoph Paul's Restaurant",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Str. 26, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Seasonal market cuisine (modern European, French-leaning)",
+      "cuisine_country": [
+        "INT"
+      ],
+      "cuisine_region": "international",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "미쉐린 가이드 가격대 €€ — 정확한 금액 미확인",
+      "google_rating": 4.9,
+      "google_reviews": 223,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (French restaurants list snapshot; other snapshots 4.7/177 'From Google', 4.9/196, 4.8/206, 4.9/222)",
+      "summary_ko": "벨기에 지구 Brüsseler Straße에서 크리스토프 파울과 율리아네가 운영하는 제철 시장 요리(Marktküche) 레스토랑으로, 미쉐린 가이드에 실렸다. 구글 평점이 4.9로 매우 높고 예쁜 테라스가 있어 여름 저녁 식사에 특히 좋다.",
+      "must_try": [],
+      "tips_ko": "저녁에만 열며 영업 요일은 출처마다 다릅니다(수–토 18시~ / 화–금 17:30~). 방문 전 확인하세요. En Primeur Club 표에는 'Bib Gourmand'로 나오지만 연도를 확인하지 못했습니다.",
+      "website": null,
+      "awards": [
+        "Michelin Guide (selected)"
+      ],
+      "award_flags": [
+        "michelin-guide"
+      ],
+      "sources": [
+        "https://wanderlog.com/place/details/1140659/christoph-pauls-restaurant",
+        "https://wanderlog.com/list/geoCategory/45713/best-french-restaurants-and-bistros-in-cologne",
+        "https://guide.michelin.com/en/nordrhein-westfalen/koln/restaurant/christoph-pauls-restaurant",
+        "https://foodle.pro/restaurants/cologne/christoph-paul-s-restaurant",
+        "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/christoph-pauls-restaurant/"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "shaka-zulu",
+      "name": "Shaka Zulu",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Limburger Straße 29, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "South African restaurant",
+      "cuisine_country": [
+        "ZA"
+      ],
+      "cuisine_region": "africa",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 1474,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "벨기에 지구 림부르거 슈트라세의 남아프리카 레스토랑으로, Mit Vergnügen이 '쾰른에서 아마 가장 화려한 아프리카 레스토랑'이라고 소개한 곳이다. 구글 평점 4.8(1,474건 이상)로 Wanderlog '쾰른 아프리카 음식' 목록 최상위권이다.",
+      "must_try": [],
+      "tips_ko": "메뉴 세부 정보는 이번 조사에서 미확인 — 방문 전 메뉴와 예약 여부를 확인할 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/797742/best-african-foods-and-restaurants-in-cologne",
+        "https://app.wanderlog.com/list/geoCategory/797742/african-restaurants",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
       "id": "hempies",
       "name": "Hempies",
       "category": "bakery",
@@ -564,7 +1041,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "리뷰상 '조금 비싼 편' (구체적 가격 미확인)",
       "google_rating": 4.8,
@@ -617,7 +1095,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.7,
@@ -665,6 +1144,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.7,
@@ -684,6 +1164,390 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "sorellina-di-nuvola-napoli",
+      "name": "SORELLINA di Nuvola Napoli (Belgisches Viertel)",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Str. 73, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Neapolitan pizza (sister of Nuvola Napoli), vegan options",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "pizza"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "card",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 542,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place page; Wanderlog shows Google ratings)",
+      "summary_ko": "도이츠의 인기 피자집 Nuvola Napoli가 벨기에 지구에 낸 자매점(Sorellina는 '여동생'이라는 뜻)이다. 나폴리 피자, 특히 비건 피자가 좋다는 평이 많아 채식하는 일행과 함께 가기에도 좋다.",
+      "must_try": [
+        "Pizza napoletana (나폴리 피자)",
+        "Vegan pizza (비건 피자)"
+      ],
+      "tips_ko": "현금은 받지 않는다는 리뷰가 있으니 카드를 준비하세요. 매장에 화장실이 없다는 지적이 있습니다. 입구는 Antwerpener Straße 38 쪽입니다(공식 주소는 Brüsseler Str. 73).",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/8759545/sorellina-di-nuvola-napoli-belgisches-viertel",
+        "https://restaurantguru.com/RAZZO-Vegan-Pizza-Bar-Cologne",
+        "https://spinach.guide/venues/sorellina-di-nuvola-napoli-belgisches-viertel-242681/"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "hambaga",
+      "name": "Hambaga Burger, Ramen & Bar",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 9, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Japanese-style burgers, ramen and cocktail bar",
+      "cuisine_country": [
+        "JP",
+        "US"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "ramen",
+        "burger",
+        "dumplings"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 356,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place-page main score, read as Google)",
+      "summary_ko": "벨기에 지구 초입 아헤너 거리의 일본풍 버거·라멘 바로, 시오 라멘과 교자, 칵테일이 특히 호평이다. 라멘과 버거를 나눠 먹으며 한잔하기 좋은 저녁 장소다.",
+      "must_try": [
+        "Shio Ramen (시오 라멘 — 소금 베이스 맑은 국물)",
+        "Gyoza (교자)",
+        "Cocktails (칵테일)"
+      ],
+      "tips_ko": "칵테일 평이 좋아 식사 뒤 한잔하기에도 괜찮습니다. 전화 +49 221 56078384.",
+      "website": "https://hambaga.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/8700451/hambaga-burger-ramen--bar"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "ito-japanese-cuisine",
+      "name": "ITO Japanese Cuisine",
+      "category": "fine-dining",
+      "area": "belgisches-viertel",
+      "address": "Antwerpener Straße 15, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Modern Japanese — sushi, omakase and tasting menus",
+      "cuisine_country": [
+        "JP"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "sushi",
+        "tasting-menu",
+        "seafood"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 4,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "리뷰 기준 테이스팅 메뉴 1인 €109(4인 이상 단체는 이 메뉴만 가능) · 미쉐린 가이드 가격대 표기 €€",
+      "google_rating": 4.6,
+      "google_reviews": 308,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.6 / 308); Wanderlog snapshots show Google 4.6–4.7 with 288–310 reviews; OpenTable 4.8 / 428",
+      "summary_ko": "벨기에 지구 안트베르페너 거리의 모던 일식당(2020년 11월 개업)으로, 생선 품질과 플레이팅이 뛰어난 스시·오마카세로 미쉐린 가이드에 올라 있다. 가격이 높아 오마카세 가성비는 평이 갈리지만, 특별한 날 제대로 된 일식을 원하는 사람에게 맞다.",
+      "must_try": [
+        "Omakase (오마카세 — 셰프 추천 코스)",
+        "Nigiri (니기리 스시)"
+      ],
+      "tips_ko": "4인 이상 단체는 €109 테이스팅 메뉴만 가능하다는 리뷰가 있습니다. 미쉐린 가이드 사이트로는 예약할 수 없으니 식당에 직접 예약하세요.",
+      "website": null,
+      "awards": [
+        "MICHELIN Guide (selected)"
+      ],
+      "award_flags": [
+        "michelin-guide"
+      ],
+      "sources": [
+        "https://restaurantguru.com/ITO-Japanese-Cuisine-Cologne",
+        "https://wanderlog.com/place/details/3490353/ito-japanese-cuisine",
+        "https://guide.michelin.com/th/th/nordrhein-westfalen/koln/restaurant/ito-1193617",
+        "https://jobjump.net/jobs/als-chef-de-partie/vollzeit/in-koeln/chef-de-partie-mwd-76252c35-605f-5a1a-a19f-6405f66f635f"
+      ],
+      "confidence": "high",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "nihao-aachener-strasse",
+      "name": "NiHao",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 31, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Chinese and Vietnamese dishes",
+      "cuisine_country": [
+        "CN",
+        "VN"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 97,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place-page main score, read as Google)",
+      "summary_ko": "벨기에 지구 초입 아헤너 거리의 작은 중국·베트남 요리집으로 구글 평점 4.6을 받는다. 서비스 속도와 결제 방식에 대한 평은 엇갈려, 근처에서 간단히 아시아 요리를 먹을 때 고려할 만하다.",
+      "must_try": [],
+      "tips_ko": "리뷰에 따르면 EC카드(독일 직불카드)나 현금만 받아 해외 신용카드가 안 될 수 있으니 현금을 챙기세요. 같은 이름의 Brüsseler Straße 44 가게는 폐업했고, 쥘피허 거리의 Ni'Hao Nudelbar와도 다른 곳입니다. 전화 +49 221 88899861.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/12522496/nihao"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "hankki-koeln",
+      "name": "Hankki Köln",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Brabanter Straße 42, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Korean fried chicken and Korean comfort food (tteokbokki, bibimbap)",
+      "cuisine_country": [
+        "KR"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "fried-chicken"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner",
+        "late-night"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [
+        "open-sunday",
+        "takeaway"
+      ],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(이번 조사에서 메뉴 가격 출처를 찾지 못함)",
+      "google_rating": 4.5,
+      "google_reviews": 1077,
+      "google_as_of": null,
+      "rating_source": "reviewhero.io (Ø 4.49 from 1,077 reviews on 1 portal = Google); Wanderlog place page shows Google 4.5 (1,045)",
+      "summary_ko": "벨기에 지구 브라반터 거리의 작고 눈에 잘 띄지 않는 가게지만, 쾰른에서 한국식 치킨으로 가장 잘 알려진 집 중 하나다. 바삭한 순살 치킨을 달콤매콤한 양념이나 간장 소스로 내고 떡볶이·비빔밥도 호평이라, 한국 맛이 그리울 때 첫 번째로 갈 만하다.",
+      "must_try": [
+        "Yangnyum Chicken (양념치킨 — 달콤매콤 소스 순살 치킨)",
+        "Ganjang Chicken (간장치킨)",
+        "Tteokbokki (떡볶이)",
+        "Bibimbap (비빔밥)"
+      ],
+      "tips_ko": "인기가 많아 30분 넘게 기다릴 수 있으니 예약을 권합니다. Mit Vergnügen 2025년 기사 기준 화–금 17–24시, 토·일 12–24시(월요일 휴무로 보임)이고, 2022년 기사에는 평일 점심 영업도 있어 방문 전 확인하세요. 양이 많아 혼자보다 2명 이상이 좋고, Wolt 배달도 됩니다.",
+      "website": "https://hankki.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://www.reviewhero.io/hankki-koln-1736",
+        "https://wanderlog.com/place/details/3690481/hankki-k%C3%B6ln",
+        "https://koeln.mitvergnuegen.com/2025/koreanisch-essen/",
+        "https://restaurantguru.com/Hankki-Koln-Cologne",
+        "https://wolt.com/de/deu/cologne/restaurant/hankki-1"
+      ],
+      "confidence": "high",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "tigermilch",
+      "name": "Tigermilch",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Str. 12, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Modern Peruvian fusion — sharing plates and cocktails",
+      "cuisine_country": [
+        "PE"
+      ],
+      "cuisine_region": "americas",
+      "dishes": [
+        "tapas"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 1059,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Latin and South American restaurants list)",
+      "summary_ko": "벨기에 지구 Brüsseler Straße의 모던 페루 퓨전 레스토랑으로, 타파스 크기 접시를 여러 개 시켜 나눠 먹고 칵테일을 곁들이는 구성이다. Mit Vergnügen이 '페루 요리 팬이라면 꼭 가 볼 곳'으로 꼽았다.",
+      "must_try": [],
+      "tips_ko": "여럿이 가서 여러 접시를 나눠 먹을수록 좋습니다. tablejourney에 브런치 페이지가 있어 브런치도 하는 것으로 보이지만 확인하지 못했습니다. 가격 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1373852/tigermilch",
+        "https://restaurantguru.com/Tigermilch-Cologne",
+        "https://wanderlog.com/list/geoCategory/799541/best-latin-and-south-american-foods-and-restaurants-in-cologne",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/",
+        "https://tablejourney.com/germany/cologne/brunch/tigermilch-brunch/"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "tanoshii",
+      "name": "Tanoshii",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Brabanter Straße 3, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Sushi (classic and creative) plus Vietnamese warm dishes",
+      "cuisine_country": [
+        "JP",
+        "VN"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "sushi"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(리뷰: 다소 비싼 편)",
+      "google_rating": 4.5,
+      "google_reviews": 905,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google; Japanese/sushi list snapshots show 4.5 with 755–905 reviews — highest count used)",
+      "summary_ko": "벨기에 지구 브라반터 거리의 스시집으로, 정통 스시와 세계 각지 스타일의 창작 롤을 함께 내고 베트남식 따뜻한 요리도 있다. 장어·와규 니기리처럼 유럽에서 드문 메뉴 덕에 '쾰른 최애 스시집'이라는 리뷰가 많지만 가격은 다소 높은 편이다.",
+      "must_try": [
+        "Unagi Nigiri (장어 니기리)",
+        "Wagyu Nigiri (와규 니기리)",
+        "Creative sushi rolls (창작 롤)"
+      ],
+      "tips_ko": "가격이 조금 비싸다는 리뷰가 있습니다. 전화 +49 221 17067275.",
+      "website": "https://tanoshii.eu",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/54638/best-japanese-food-and-restaurants-in-cologne",
+        "https://wanderlog.com/list/geoCategory/84981/best-sushi-restaurants-and-sushi-bars-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
       "checked": "2026-11-07"
     },
     {
@@ -715,7 +1579,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "리뷰상 합리적인 가격 (구체적 메뉴 가격 미확인)",
       "google_rating": 4.5,
@@ -774,7 +1639,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.4,
@@ -794,6 +1660,51 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "kouzina-greekstreetfood-wine",
+      "name": "Kouzina Greekstreetfood & Wine",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Aachener Str. 10, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Greek street food & wine",
+      "cuisine_country": [
+        "GR"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 917,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Greek restaurants list)",
+      "summary_ko": "벨기에 지구 초입 Aachener Straße의 그리스 길거리 음식점으로, 이름처럼 그리스식 간편 요리에 와인을 곁들이는 캐주얼한 곳이다. 구글 리뷰 900개 이상에 4.4점으로 꾸준히 평이 좋다.",
+      "must_try": [],
+      "tips_ko": "세부 메뉴와 가격은 이번 조사에서 확인하지 못했습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3759436/kouzina-greekstreetfood--wine",
+        "https://wanderlog.com/list/geoCategory/786948/best-greek-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
       "checked": "2026-11-07"
     },
     {
@@ -820,6 +1731,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.4,
@@ -840,6 +1752,61 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "daikan-izakaya",
+      "name": "Daikan",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Maastrichter Straße 9, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Japanese izakaya (DAIKAN Izakaya) — ramen and small plates",
+      "cuisine_country": [
+        "JP"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "ramen",
+        "dumplings",
+        "tapas"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.3,
+      "google_reviews": 2378,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (main score 4.3 / 2,378 read as Google; the page's second score 3.5 / 206 is read as Tripadvisor although the search summary called it Google)",
+      "summary_ko": "벨기에 지구 마스트리히터 거리의 이자카야로, 미소 라멘·매운 미소 라멘과 가라아게·매운 새우 만두 같은 안주가 인기다. Wanderlog가 쾰른 라멘 1위로 꼽고 리뷰가 2천 건 넘게 쌓인 곳이라, 저녁에 라멘과 술 한잔을 함께 하기 좋다.",
+      "must_try": [
+        "Miso Ramen (미소 라멘)",
+        "Spicy Miso Ramen (매운 미소 라멘)",
+        "Karaage (가라아게 — 일본식 닭튀김)",
+        "Spicy shrimp dumplings (매운 새우 만두)"
+      ],
+      "tips_ko": "라멘 양이 적다는 리뷰도 있습니다. Wanderlog에는 니페스(Neusser Straße 332)의 다른 지점 정보도 있지만 이름 표기가 달라 확인이 필요합니다. 전화 +49 221 30135915.",
+      "website": "https://daikan.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1455608/daikan-izakaya-belgisches-viertel",
+        "https://wanderlog.com/list/geoCategory/1507873/best-ramen-in-cologne",
+        "https://wanderlog.com/list/geoCategory/1789534/best-noodle-spots-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
       "checked": "2026-11-07"
     },
     {
@@ -874,6 +1841,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": 2,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "spinach.guide 가격대 표기 $$ (구체적 메뉴 가격은 이번 조사에서 미확인)",
       "google_rating": 4.2,
@@ -921,6 +1889,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "리뷰상 가격이 합리적이라는 평 (금액은 확인 못 함)",
       "google_rating": 4.2,
@@ -967,7 +1936,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.9,
@@ -986,6 +1956,97 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "zadem",
+      "name": "Zadem",
+      "category": "restaurant",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Kaiser-Wilhelm-Ring 6-8, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish restaurant",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 1131,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "링 북쪽 구간(카이저-빌헬름-링)에 있는 터키 레스토랑으로, Wanderlog '쾰른 터키 음식 베스트' 목록에 구글 평점 4.7(1,131건)로 올라 있다. 이번 조사에서는 대표 메뉴와 분위기까지는 확인하지 못했다.",
+      "must_try": [],
+      "tips_ko": "메뉴·영업시간·예약 정책은 방문 전 구글 지도로 확인 필요.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/779752/best-turkish-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "daimyo-ramen-sushi",
+      "name": "Daimyo - Ramen & Fitnes Sushi Restaurant",
+      "category": "restaurant",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenwall 116, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Ramen and light 'fitness' sushi",
+      "cuisine_country": [
+        "JP"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "ramen",
+        "sushi"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "cash-only",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 834,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "프리젠 지구 프리젠발(Friesenwall)의 라멘·스시집으로, 가벼운 '피트니스 스시' 메뉴가 특징이다. 구글 평점은 높지만 라멘은 '맛있다'와 '평범하다'로 평이 갈려, 가볍게 스시와 라멘을 함께 먹고 싶을 때 맞다.",
+      "must_try": [],
+      "tips_ko": "현금만 받는다는 리뷰가 여럿 있으니 현금을 챙기세요. 전화 +49 221 28068790.",
+      "website": "https://daimyo-restaurant.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1455610/daimyo-ramen--fitnes-sushi-restaurant"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
       "checked": "2026-11-07"
     },
     {
@@ -1019,6 +2080,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.6,
@@ -1067,7 +2129,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "리뷰상 크기 대비 비싼 편 (구체적 가격 미확인)",
       "google_rating": 4.5,
@@ -1088,6 +2151,55 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "bai-lu-noodles",
+      "name": "Bai Lu Noodles",
+      "category": "restaurant",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Palmstraße 41, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Chinese noodle shop (beef noodle soup)",
+      "cuisine_country": [
+        "CN"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "noodles"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 1352,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place-page main score; the snippet does not name the platform — read as Google from Wanderlog's layout and the review volume)",
+      "summary_ko": "에렌슈트라세 쇼핑가 근처 팔름 거리의 중국 국수집으로, 소고기 국수가 대표 메뉴다. 리뷰가 1,300건 넘게 쌓인 인기 집이지만 소고기 양이나 맛이 평범하다는 평도 섞여 있어, 쇼핑 중 따끈한 국수 한 그릇이 생각날 때 맞다.",
+      "must_try": [
+        "Beef noodle soup (소고기 국수)"
+      ],
+      "tips_ko": "소고기가 질기고 양이 적다는 리뷰가 있습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1282849/bai-lu-noodles",
+        "https://restaurantguru.com/Bai-Lu-Noodles-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
       "checked": "2026-11-07"
     },
     {
@@ -1114,6 +2226,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.4,
@@ -1131,6 +2244,62 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "neni-koeln",
+      "name": "NENI Köln",
+      "category": "restaurant",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Im Klapperhof 22-24, 50670 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Israeli-inspired eastern Mediterranean (NENI by Haya Molcho), in 25hours Hotel The Circle",
+      "cuisine_country": [
+        "IL"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "mezze"
+      ],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.3,
+      "google_reviews": 1989,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "25hours 호텔 The Circle 8층에 있는, 하야 몰초(Haya Molcho) 가족의 이스라엘풍 동지중해 레스토랑 'NENI'의 쾰른 지점이다. 메제를 여러 접시 시켜 나눠 먹는 방식이며 음식과 전망, 야외 테라스가 강점이다.",
+      "must_try": [
+        "Mezze (메제 — 여러 작은 접시를 나눠 먹는 이스라엘풍 전채)"
+      ],
+      "tips_ko": "저녁은 가격대가 높고 서비스가 느리다는 리뷰가 있음. 예약은 현재 전화로만 받는다고 안내됨(speisekarte.de). Wanderlog 목록 한 곳에 '임시 휴업' 표시가 있었지만 호텔·자체 페이지는 정상 영업으로 안내 — 방문 전 확인.",
+      "website": "https://www.25hours-hotels.com/en/restaurants-bars/cologne/neni-cologne",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1140621/neni-k%C3%B6ln",
+        "https://www.25hours-hotels.com/en/restaurants-bars/cologne/neni-cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/neni",
+        "https://all.accor.com/hotel/b0c9/index.de.shtml",
+        "https://location.koelntourismus.de/en/a-25hours-hotel-the-circle"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
       "checked": "2026-11-07"
     },
     {
@@ -1167,6 +2336,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.9,
@@ -1214,7 +2384,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.8,
@@ -1237,6 +2408,157 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "sadaf",
+      "name": "Sadaf",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Jahnstraße 20, 50676 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Persian (Iranian) restaurant",
+      "cuisine_country": [
+        "IR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 1165,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "알트슈타트-쥐트(50676) 얀슈트라세의 페르시아(이란) 레스토랑으로, Wanderlog '쾰른 중동 음식' 목록에 구글 평점 4.8(1,165건)로 올라 있다. 이번 조사에서는 대표 메뉴 정보까지는 확인하지 못했다.",
+      "must_try": [],
+      "tips_ko": "speisekarte.de 등 다른 리뷰 사이트에서는 평이 엇갈림. 메뉴·영업시간은 방문 전 확인할 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/sadaf/bewertung",
+        "https://speisekarte.menu/restaurants/koeln/sadaf/menu"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "tsukiji-koeln",
+      "name": "Tsukiji",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Platz 4a, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Japanese sushi restaurant",
+      "cuisine_country": [
+        "JP"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "sushi",
+        "seafood"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "trendy"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 982,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google; Tripadvisor 4.5 / 51 shown separately; an older Wanderlog list snapshot shows 4.9 / 686)",
+      "summary_ko": "쥘피허 플라츠의 스시집으로 구글 평점 4.8이며, Mit Vergnügen이 크바르티어 라텡에서 가장 뜨거운 맛집으로 꼽은 곳이다. 문어 요리·스시 롤·말차 티라미수가 호평이고 예약하면 전통 좌식 테이블에 앉을 수 있어, 특별한 저녁 식사에 좋다.",
+      "must_try": [
+        "Octopus (문어 요리)",
+        "Sushi rolls (스시 롤)",
+        "Matcha Tiramisu (말차 티라미수)"
+      ],
+      "tips_ko": "전통식 낮은 좌식 테이블은 예약해야 앉을 수 있습니다. 전화 +49 221 42348771.",
+      "website": "https://tsukiji.de",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2627369/tsukiji",
+        "https://wanderlog.com/list/geoCategory/84981/best-sushi-restaurants-and-sushi-bars-in-cologne",
+        "https://koeln.mitvergnuegen.com/2024/essen-kwartier-lataeng",
+        "https://koeln.mitvergnuegen.com/2026/kwartier-lataeng"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "takumi-ramen-koeln",
+      "name": "Takumi – Japanisches Ramen Restaurant",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Hohenstaufenring 58, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Japanese ramen restaurant",
+      "cuisine_country": [
+        "JP"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "ramen"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인(리뷰: 비싼 편)",
+      "google_rating": 4.7,
+      "google_reviews": 7973,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "쥘피허 플라츠와 바바로사플라츠 사이 링 도로의 라멘 전문점으로, 구글 리뷰가 약 8천 건으로 이번 조사에서 찾은 쾰른 라멘집 중 가장 많다. 국물 맛이 좋고 음식이 빨리 나와 간단한 한 끼에 알맞지만, 양이 적고 비싸다는 평도 있다.",
+      "must_try": [],
+      "tips_ko": "빨리 먹고 나오기 좋은 곳입니다. 양이 적고 비싸다는 리뷰가 있습니다. 전화 +49 221 34899171.",
+      "website": "https://takumi.koeln",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1655848/takumi-japanisches-ramen-restaurant",
+        "https://wanderlog.com/list/geoCategory/1507873/best-ramen-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
       "checked": "2026-11-07"
     },
     {
@@ -1267,6 +2589,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함)",
       "google_rating": 4.7,
@@ -1320,7 +2643,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.7,
@@ -1369,6 +2693,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.7,
@@ -1389,6 +2714,530 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "hana-korean-kitchen",
+      "name": "Hana Korean Kitchen",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Hohenstaufenring 23, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Korean home cooking (sundubu jjigae, haemul pajeon)",
+      "cuisine_country": [
+        "KR"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 741,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "쥘피허 플라츠와 바바로사플라츠 사이 링 도로(Hohenstaufenring)에 있는 한식당으로, 순두부찌개와 해물파전 같은 집밥 메뉴가 호평받는다. 양이 넉넉하고 직원이 친절하다는 리뷰가 많아 따뜻한 국물 요리가 생각날 때 좋다.",
+      "must_try": [
+        "Sundubu Jjigae (순두부찌개)",
+        "Haemul Pajeon (해물파전)"
+      ],
+      "tips_ko": "영업시간은 출처에 일부만 나와 있어 방문 전 구글 지도로 확인하세요. 전화 +49 221 16868622.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/7295066/hana-korean-kitchen"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "ristorante-etrusca",
+      "name": "Ristorante Etrusca",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Str. 27, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Italian with Sardinian specialties (40+ years)",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "pasta"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "traditional"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 459,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (list snapshot 4.7/459; place page 4.7/402 'from Google'); restaurantguru.com Google 4.7 (405)",
+      "summary_ko": "쥘피허 거리 초입에서 40년 넘게 영업해 온 이탈리안으로, 사르데냐 요리가 특기다. 벽돌 벽의 세련된 실내에서 제철 이탈리아 요리를 내 대학가 한복판에서 차분한 저녁을 먹기 좋다.",
+      "must_try": [],
+      "tips_ko": "가격·휴무일은 이번 조사에서 확인하지 못했습니다. 구글 리뷰 수는 스냅샷마다 402–459개로 다릅니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2741348/ristorante-etrusca",
+        "https://restaurantguru.com/Etrusca-Cologne",
+        "https://wanderlog.com/list/geoCategory/1799196/best-places-for-pasta-in-cologne",
+        "https://koeln.mitvergnuegen.com/2024/zuelpicher-strasse-kulinarisch/"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "la-societe",
+      "name": "La Société",
+      "category": "fine-dining",
+      "area": "kwartier-lateng",
+      "address": "Kyffhäuserstraße 53, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "French-inspired contemporary tasting menu (one Michelin star, chef Leon Hofmockel)",
+      "cuisine_country": [
+        "FR"
+      ],
+      "cuisine_region": "western-europe",
+      "dishes": [
+        "tasting-menu"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 4,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "Wanderlog 가격대 '$$$$ (very expensive)' — 정확한 코스 가격 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 454,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (listing; first score = Google, second 4.5/223 is another platform)",
+      "summary_ko": "쥘피허 지구 Kyffhäuserstraße의 미쉐린 1스타 레스토랑으로, 프랑스 요리를 바탕으로 한 컨템퍼러리 코스를 낸다(셰프 레온 호프모켈). 대학가인 쥘피허 지구 한가운데서 격식 있는 코스를 즐길 수 있는 곳이다.",
+      "must_try": [],
+      "tips_ko": "미쉐린 스타 레스토랑이라 미리 예약하세요. La Liste 2026에서 78점을 받았습니다(1차 조사).",
+      "website": null,
+      "awards": [
+        "Michelin 1 Star 2026"
+      ],
+      "award_flags": [
+        "michelin-star"
+      ],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/59993/michelin-star-restaurants-in-cologne",
+        "https://wanderlog.com/list/geoCategory/29648/best-restaurants-to-have-dinner-in-cologne",
+        "https://guide.michelin.com/en/nordrhein-westfalen/koln/restaurant/la-societe",
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://joinpearl.co/restaurants/cologne-germany/la-societe"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "oruc-kebap",
+      "name": "Oruç Kebap",
+      "category": "streetfood",
+      "area": "kwartier-lateng",
+      "address": "Heinsbergstraße 1, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish döner & charcoal grill (since 1988)",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "kebab",
+        "grill"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 2059,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "1988년부터 영업해 온 쥘피허 지구(하인스베르크슈트라세·퀴프회이저슈트라세 모퉁이)의 되너 가게로, 팬들 사이에서 '쾰른 최고의 되너'로 불린다. 숯불에 구운 고기와 가게에서 직접 구운 빵, 친절한 서비스가 리뷰에서 특히 칭찬받는다.",
+      "must_try": [
+        "Döner im hausgemachten Brot (가게에서 직접 구운 빵에 넣은 되너)"
+      ],
+      "tips_ko": "Wanderlog 목록 한 곳에 '임시 휴업' 표시가 있었으니(자체 페이지와 Mit Vergnügen 2026 목록은 정상) 방문 전 영업 여부를 확인할 것. 가격이 다소 비싸다는 리뷰도 있음. 정식 상호는 'Oruç Kebap – Das Original seit 1988'.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1160438/oru%C3%A7-kebap-das-original-seit-1988",
+        "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
+        "https://koeln.mitvergnuegen.com/2026/kwartier-lataeng",
+        "https://iza-server.uibk.ac.at/pywb/dilimag/20210113092156mp_/https://renk-magazin.de/en/best-german-turkish-restaurants-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "el-inca-restaurant",
+      "name": "El Inca Restaurant",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Görresstraße 2, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Traditional Peruvian",
+      "cuisine_country": [
+        "PE"
+      ],
+      "cuisine_region": "americas",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "traditional"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 1772,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Latin and South American restaurants list)",
+      "summary_ko": "라테나우플라츠 근처 지하 공간에서 25년 넘게 영업해 온 페루 레스토랑으로, 알록달록한 민속풍 장식이 아늑한 분위기를 만든다. 정통 페루 요리를 맛보고 싶은 사람에게 맞다.",
+      "must_try": [],
+      "tips_ko": "지하(셀러)에 있어 입구를 잘 보고 찾아가세요. 메뉴·가격은 이번 조사에서 확인하지 못했습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/El-Inca-Cologne",
+        "https://app.wanderlog.com/place/details/1601254/el-inca-restaurant",
+        "https://wanderlog.com/list/geoCategory/799541/best-latin-and-south-american-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "fasika",
+      "name": "Fasika Restaurant",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Luxemburger Straße 17, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Ethiopian restaurant",
+      "cuisine_country": [
+        "ET"
+      ],
+      "cuisine_region": "africa",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 586,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "바르바로사플라츠 바로 옆 룩셈부르거 슈트라세의 에티오피아 레스토랑으로, Wanderlog '쾰른 아프리카 음식' 목록 1–2위에 꼽힌다. 발효 빵 인제라에 여러 스튜를 올려 나눠 먹는 에티오피아 식사를 처음 경험해 보기에 좋다.",
+      "must_try": [],
+      "tips_ko": "메뉴·예약 정책은 이번 조사에서 미확인. Wanderlog 페이지에 따라 리뷰 수가 508~586건으로 다름.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://extensionembed.wanderlog.com/place/details/1484918/fasika-restaurant",
+        "https://wanderlog.com/list/geoCategory/797742/best-african-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "habibi-koeln",
+      "name": "Habibi",
+      "category": "streetfood",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 28, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Lebanese falafel & shawarma snack bar",
+      "cuisine_country": [
+        "LB"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "falafel",
+        "kebab"
+      ],
+      "diet": [
+        "vegetarian",
+        "halal"
+      ],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가성비 좋은 학생가 임비스(리뷰 기준) — 메뉴 가격은 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 4329,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "쥘피허 슈트라세 대학가의 레바논식 팔라펠·샤와르마 가게로, '쾰른에서 가장 유명한 팔라펠집'으로 불린다. 직접 만든 팔라펠과 크리미한 후무스를 싸고 푸짐하게 먹을 수 있어 학생과 여행자 모두에게 인기다.",
+      "must_try": [
+        "Falafel (팔라펠 — 가게 대표 메뉴)",
+        "Hummus (후무스 — 크리미한 병아리콩 퓨레)",
+        "Schawarma (샤와르마 — 양념해 구운 고기를 얇게 썰어 빵에 싼 것)"
+      ],
+      "tips_ko": "할랄. 리뷰상 샤와르마보다 팔라펠이 낫다는 평이 많음. 꾸밈없는 간이식당 스타일.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/788747/best-lebanese-foods-and-restaurants-in-cologne",
+        "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
+        "https://wanderlog.com/list/geoCategory/1794415/best-spots-for-falafel-in-cologne",
+        "https://www.enprimeurclub.com/restaurants/habibi-koln-cologne-restaurant",
+        "https://joinpearl.co/restaurants/cologne-germany/habibi-koln"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "tapeo-and-co",
+      "name": "Tapeo & Co.",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Lindenstraße 38, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Spanish tapas, cocktails and sangria",
+      "cuisine_country": [
+        "ES"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "tapas"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 2336,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (tapas list)",
+      "summary_ko": "쥘피허 지구 Lindenstraße의 스페인 타파스 바로, 타파스·칵테일·상그리아를 내며 구글 리뷰가 2,300개가 넘는다. 새우와 미트볼 타파스를 칭찬하는 리뷰가 많아 여럿이 나눠 먹는 저녁에 맞다.",
+      "must_try": [
+        "Gambas (새우 타파스)",
+        "Albóndigas (스페인식 미트볼)"
+      ],
+      "tips_ko": "가격과 음식 질에 대한 불만도 섞여 있어 평이 엇갈립니다. 예전 이름은 'Tapeo Picus'였습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1282848/tapeo--co-tapas--cocktails--sangrias",
+        "https://restaurantguru.com/Tapeo-Picus-Cologne",
+        "https://app.wanderlog.com/list/geoCategory/1825451/best-places-for-tapas-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "zarathustra",
+      "name": "Zarathustra",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Dasselstraße 4, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Persian (Iranian) restaurant with many vegan dishes",
+      "cuisine_country": [
+        "IR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "grill"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 807,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "쥘피허 지구 다셀슈트라세의 페르시아(이란) 레스토랑으로, 이란식 꼬치구이 '카바브'와 직원들의 따뜻한 환대가 리뷰에서 특히 칭찬받는다. 메뉴의 상당수가 비건이라 HappyCow에도 올라 있어 채식 동행과 함께 가기 좋다.",
+      "must_try": [
+        "Kabab (카바브 — 이란식 꼬치구이, 리뷰 최다 추천)"
+      ],
+      "tips_ko": "쾰른에서 평판이 좋은 집이라는 평(speisekarte.menu). 예약 정책·영업시간은 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1552638/zarathustra",
+        "https://happycow.net/reviews/zarathustra-cologne-241076",
+        "https://speisekarte.menu/restaurants/koeln/zarathustra"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "injera-restaurant",
+      "name": "Injera Restaurant",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Lindenstraße 86, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Ethiopian / East African restaurant",
+      "cuisine_country": [
+        "ET"
+      ],
+      "cuisine_region": "africa",
+      "dishes": [],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 745,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "쥘피허 지구 린덴슈트라세의 에티오피아·동아프리카 레스토랑으로, Wanderlog '쾰른 아프리카 음식' 목록 1위다. 채식·고기 모둠 플래터를 합리적인 가격에 먹을 수 있고, 영어가 통하는 친절한 직원과 테라스가 있어 여행자에게 편하다.",
+      "must_try": [
+        "Veggie Platter (채식 모둠 플래터 — 여러 채소 스튜를 인제라 위에 올려 냄)",
+        "Mixed Platter (믹스 플래터 — 고기·채소 스튜 모둠)"
+      ],
+      "tips_ko": "인테리어는 소박한 편이고, 붐빌 때는 서빙 인원이 적어 느릴 수 있음. 비건 메뉴와 칵테일도 있음.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1655982/injera-restaurant",
+        "https://app.wanderlog.com/list/geoCategory/797742/african-restaurants"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
       "checked": "2026-11-07"
     },
     {
@@ -1417,6 +3266,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.4,
@@ -1438,6 +3288,110 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "casita-mexicana-belgisches-viertel",
+      "name": "Casita Mexicana Belgisches Viertel",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Roonstraße 88, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Mexican street food (tacos)",
+      "cuisine_country": [
+        "MX"
+      ],
+      "cuisine_region": "americas",
+      "dishes": [
+        "tacos"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 1175,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place page, 'From Google')",
+      "summary_ko": "이름은 '벨기에 지구'지만 실제로는 쥘피허 지구 Roonstraße에 있는 Casita Mexicana 지점이다. 정통 멕시코 길거리 음식을 내며, 아늑한 분위기와 빠른 서비스를 칭찬하는 리뷰가 많다.",
+      "must_try": [
+        "Tacos (타코)"
+      ],
+      "tips_ko": "쥐트슈타트(Severinstraße 10–12)에도 지점이 있습니다. 가격 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1282861/casita-mexicana-belgisches-viertel",
+        "https://restaurantguru.com/Casita-Mexicana-Cologne-2",
+        "https://wanderlog.com/list/geoCategory/776154/best-mexican-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "lebanon-vitamin",
+      "name": "Lebanon Vitamin",
+      "category": "streetfood",
+      "area": "kwartier-lateng",
+      "address": "Zülpicher Straße 38, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Lebanese shawarma & sandwiches",
+      "cuisine_country": [
+        "LB"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "kebab",
+        "sandwiches"
+      ],
+      "diet": [
+        "halal"
+      ],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "저렴한 샌드위치(리뷰 기준) — 메뉴 가격은 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 757,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "하비비와 같은 쥘피허 슈트라세 대학가에 있는 레바논식 샌드위치 가게로, 치킨 샤와르마와 저렴한 가격이 칭찬받는다. 할랄 메뉴가 있어 빠르고 싸게 한 끼 해결하기 좋다.",
+      "must_try": [
+        "Chicken Schawarma (치킨 샤와르마 — 리뷰 최다 추천 메뉴)"
+      ],
+      "tips_ko": "향신료가 약하다는 평이 있으니 매운 소스를 요청해 볼 것. 서비스와 화장실(잠금장치)에 대한 불만 리뷰도 있음.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3962943/lebanon-vitamin",
+        "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
       "checked": "2026-11-07"
     },
     {
@@ -1470,7 +3424,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "리뷰상 다소 비싼 편 (구체적 가격 미확인)",
       "google_rating": 4.2,
@@ -1492,6 +3447,124 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "gusto-antico",
+      "name": "Gusto Antico",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Vogelsanger Str. 216, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Italian trattoria — pizza and pasta in a courtyard",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "pizza",
+        "pasta"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "hidden-gem"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "점심이 푸짐하고 저렴하다는 평(금액 미확인)",
+      "google_rating": 4.9,
+      "google_reviews": 773,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com ('Google 4.9/5, 773'); wanderlog.com shows Google 4.9 (654)",
+      "summary_ko": "에렌펠트 Vogelsanger Straße의 안뜰(Hinterhof)에 숨어 있는 작은 이탈리안으로, 피자와 파스타를 낸다. 구글 4.9점의 '숨은 맛집'으로, 푸짐하고 저렴한 점심 덕에 Mit Vergnügen 점심 추천 목록에 여러 번 올랐다.",
+      "must_try": [
+        "Pizza (피자)",
+        "Pasta (파스타)"
+      ],
+      "tips_ko": "길가가 아니라 안뜰 안쪽에 있어 입구를 찾기 어려울 수 있습니다. 저녁 영업 여부와 가격은 확인하지 못했습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Gusto-Antico-Cologne",
+        "https://restaurantguru.com/Gusto-Antico-Cologne/menu",
+        "https://wanderlog.com/place/details/9800969/gusto-antico",
+        "https://wanderlog.com/list/geoCategory/1799196/best-places-for-pasta-in-cologne",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "soliana",
+      "name": "Soliana",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Subbelrather Straße 242, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Ethiopian & fusion home cooking",
+      "cuisine_country": [
+        "ET"
+      ],
+      "cuisine_region": "africa",
+      "dishes": [],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [],
+      "features": [
+        "live-music"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.9,
+      "google_reviews": 145,
+      "google_as_of": null,
+      "rating_source": "spinach.guide (Google Maps)",
+      "summary_ko": "에렌펠트 주벨라터 슈트라세의 가족 운영 에티오피아·퓨전 가정식 식당으로, 인제라 플래터와 티브스, 별도의 비건 메뉴를 낸다. 아늑한 분위기와 친절한 직원, 가성비가 칭찬받는 작은 동네 식당이다.",
+      "must_try": [
+        "Injera-Platte (인제라 플래터 — 발효 빵 인제라 위에 여러 스튜를 올린 모둠)",
+        "Tibs (티브스 — 에티오피아식 고기 볶음)"
+      ],
+      "tips_ko": "월요일 휴무, 화–일 정오~22시(spinach.guide 기준). 2024년 11월 기사엔 금–일 라이브 피아노 연주가 소개됨 — 지금도 하는지 확인할 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://spinach.guide/venues/soliana-fusion-home-cooking-35154/",
+        "https://www.enprimeurclub.com/restaurants/soliana-cologne-restaurant",
+        "https://koeln.mitvergnuegen.com/2024/neuentdeckungen-november-2024/",
+        "https://wolt.com/en/deu/cologne/restaurant/soliana/items/wraps-3",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
       "checked": "2026-11-07"
     },
     {
@@ -1521,7 +3594,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.8,
@@ -1543,6 +3617,502 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "virtuous-pie",
+      "name": "Virtuous Pie – Vegane Pizza",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Venloer Str. 241-245, 50823 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Vegan pizza (house-made vegan cheese and sauces)",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "pizza"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.8,
+      "google_reviews": 794,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place page, 'from Google'); restaurantguru.com shows Google 4.8 (697)",
+      "summary_ko": "에렌펠트 Venloer Straße의 100% 비건 피자집으로, 비건 치즈와 소스를 직접 만든다. '이 근방 최고의 비건 피자'라는 리뷰가 많고 토핑 조합이 독특하다는 평이라 비건이 아니어도 가 볼 만하다.",
+      "must_try": [
+        "Vegane Pizza (비건 피자 — 직접 만든 비건 치즈·소스)"
+      ],
+      "tips_ko": "모든 메뉴가 비건입니다. 가격·영업시간은 이번 조사에서 확인하지 못했습니다. 구글 리뷰 수는 출처마다 697–826개로 다릅니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/7806138/virtuous-pie-vegane-pizza",
+        "https://restaurantguru.com/Virtuous-Pie-Cologne",
+        "https://wanderlog.com/list/geoCategory/92121/the-best-vegan-restaurants-in-cologne",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "maspinzelo",
+      "name": "Maspinzelo",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Landmannstraße 4, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Georgian tapas (small plates), khinkali",
+      "cuisine_country": [
+        "GE"
+      ],
+      "cuisine_region": "eastern-europe",
+      "dishes": [
+        "dumplings",
+        "tapas"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": false,
+      "price_pp": {
+        "min": 20,
+        "max": 30
+      },
+      "price_note": "1인 €20–30 (Restaurant Guru)",
+      "google_rating": 4.8,
+      "google_reviews": 783,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place page, 'From Google')",
+      "summary_ko": "에렌펠트 Landmannstraße의 조지아 음식점으로, 여러 접시를 나눠 먹는 '조지아식 타파스'를 내세운다. 리뷰에서 힌칼리(육즙 가득한 조지아 만두)를 특히 칭찬하고 채식 메뉴도 있다.",
+      "must_try": [
+        "Khinkali (힌칼리 — 육즙 가득한 조지아식 만두)"
+      ],
+      "tips_ko": "여럿이 가서 여러 접시를 나눠 먹는 게 좋습니다. Restaurant Guru 페이지는 오래된 자료라 영업시간은 따로 확인하세요.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3984192/maspinzelo",
+        "https://restaurantguru.com/Maspinzelo-Georgische-Tapas-Cologne",
+        "https://restaurantguru.com/khinkali-Cologne-m1689"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "kebapland",
+      "name": "Kebapland",
+      "category": "streetfood",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 385, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish charcoal grill (mangal) & kebab snack bar",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "kebab",
+        "grill",
+        "falafel"
+      ],
+      "diet": [],
+      "meals": [
+        "late-night"
+      ],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "tablejourney '저예산(budget)' 맛집으로 분류 — 메뉴 가격은 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 12444,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "에렌펠트 벤로어 슈트라세의 '컬트' 케밥 임비스로, 숯불(망갈)에 구운 양고기 꼬치와 케밥 접시·라마준으로 유명하다. 구글 리뷰가 1만 2천 건이 넘는 동네 명물이라 늦은 밤 출출할 때 혼자 들르기에도 좋다.",
+      "must_try": [
+        "Kebabteller (케밥 접시 — 숯불에 구운 고기를 곁들이와 함께 내는 한 접시)",
+        "Lamm-Spieß (숯불 양고기 꼬치)",
+        "Lahmacun (라마준 — 다진 고기를 얇게 펴 구운 터키식 피자)",
+        "Kebabtasche (케밥 타셰 — 빵 주머니에 고기와 채소를 채운 케밥)"
+      ],
+      "tips_ko": "tablejourney는 심야·저예산 맛집으로 분류. 이름이 비슷한 자매점 'Baros Streetfood by Kebapland'와 헷갈리지 말 것. 영업시간·결제 수단은 방문 전 구글 지도로 확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/779752/best-turkish-foods-and-restaurants-in-cologne",
+        "https://wanderlog.com/list/geoCategory/74272/where-to-eat-best-restaurants-in-cologne",
+        "https://www.koeln.de/leben/ll/imbisse-und-fast-food-in-koeln/kebapland",
+        "https://www.falstaff.com/en/listings/kebap-street-food-restaurants-in-cologne",
+        "https://tablejourney.com/germany/cologne/budget-eating/kebapland-budget/",
+        "https://tablejourney.com/germany/cologne/late-night/kebapland-late/",
+        "https://cologne-tourism.com/delight-diversity/gastronomy/detail/kebapland"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "pizzeria-spaccanapoli",
+      "name": "Pizzeria Spaccanapoli",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Venloer Str. 502, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Neapolitan pizza",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "pizza"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 644,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place page 'Spaccanapoli Köln', Google breakdown: 568 of 644 five-star)",
+      "summary_ko": "에렌펠트 Venloer Straße 끝자락(502번지)의 나폴리 피자집으로, '가볍고 잘 구워진 나폴리식 도우'를 칭찬하는 리뷰가 많다. Mit Vergnügen의 2026 에렌펠트 맛집 21곳에 든 동네 피자집이라 부담 없는 저녁 한 끼에 좋다.",
+      "must_try": [
+        "Pizza napoletana (나폴리 피자 — 가볍고 쫄깃한 도우)"
+      ],
+      "tips_ko": "금요일 저녁은 미리 예약하라는 리뷰가 있습니다. 가격과 휴무일은 이번 조사에서 확인하지 못했습니다. Wanderlog·Restaurant Guru에는 'Spaccanapoli Köln'이라는 이름으로 올라 있습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/6228856/spaccanapoli-k%C3%B6ln",
+        "https://restaurantguru.com/Spaccanapoli-Koln-Cologne",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "confidence": "high",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "vegan-food-revolution",
+      "name": "Vegan Food Revolution",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Venloer Str. 456, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Vegan Middle Eastern — hummus, falafel, baklava",
+      "cuisine_country": [],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "falafel",
+        "mezze"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "cash-only",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격이 합리적이라는 평(금액 미확인)",
+      "google_rating": 4.7,
+      "google_reviews": 531,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place page 'Vegan Revolution', Google reviews)",
+      "summary_ko": "에렌펠트 Venloer Straße의 100% 비건 중동 요리집으로, 후무스·팔라펠·바클라바가 맛있고 가격이 합리적이라는 평이 많다. 비건·채식 여행자가 싸고 든든하게 먹기 좋은 곳이다.",
+      "must_try": [
+        "Hummus (후무스)",
+        "Falafel (팔라펠)",
+        "Baklava (바클라바)"
+      ],
+      "tips_ko": "카드 결제가 안 된다는 리뷰가 많으니 현금을 준비하세요. 'Vegan Revolution'이라는 이름으로도 올라 있습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1484912/vegan-revolution",
+        "https://restaurantguru.com/Vegan-Food-Revolution-Cologne",
+        "https://spinach.guide/cities/cologne/",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "bethlehem-oriental-kitchen",
+      "name": "Bethlehem Oriental Kitchen",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Lenauplatz 8, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Lebanese / Levantine restaurant",
+      "cuisine_country": [
+        "LB"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "mezze"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 362,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "노이에렌펠트 레나우플라츠의 레바논·레반트 레스토랑으로, 전통 레바논 요리와 키베·마칼리 같은 전채가 대표 메뉴다. 관광지와는 떨어진 동네 식당이지만 구글 평점 4.7로 평가가 좋다.",
+      "must_try": [
+        "Kibbeh (키베 — 다진 고기와 불구르 밀 반죽을 빚어 튀긴 레바논식 완자)",
+        "Makali (마칼리 — 콜리플라워·가지 등을 튀긴 레바논식 채소 튀김)"
+      ],
+      "tips_ko": "이름은 '베들레헴'이지만 출처들은 레바논 요리로 분류함. 최신 영업 상태가 출처마다 불분명하니 방문 전 확인할 것(공식 사이트로 restaurant-bethlehem.de가 안내됨).",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3504546/bethlehem-oriental-kitchen",
+        "https://wanderlog.com/list/geoCategory/788747/best-lebanese-foods-and-restaurants-in-cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/restaurant_bethlehem",
+        "https://speisekarte.menu/restaurants/koeln/bethlehem-1",
+        "https://www.enprimeurclub.com/restaurants/bethlehem-cologne-restaurant"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "popeye-falafel",
+      "name": "Popeye Falafel",
+      "category": "streetfood",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 468, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Syrian falafel snack bar",
+      "cuisine_country": [
+        "SY"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "falafel"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 237,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "에렌펠트 서쪽 벤로어 슈트라세의 시리아식 팔라펠 임비스로, 단골들이 팔라펠 맛 하나로 계속 찾는 곳이다(구글 4.7). 에렌펠트를 걷다가 빠르게 채식 한 끼를 해결하기 좋다.",
+      "must_try": [
+        "Falafel (팔라펠 — 시리아식 병아리콩 완자 튀김)"
+      ],
+      "tips_ko": "주소가 출처마다 다름(Wanderlog: Venloer Str. 468 / speisekarte.de: Subbelrather Str. 165/167) — 방문 전 구글 지도로 위치를 꼭 확인할 것. 돈과 음식을 같은 손으로 만진다는 위생 지적 리뷰도 있음.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4101908/popeye-falafel",
+        "https://wanderlog.com/list/geoCategory/1794415/best-spots-for-falafel-in-cologne",
+        "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
+        "https://www.speisekarte.de/köln/restaurant/popeye_falafel"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "ehrenfeld-cafe",
+      "name": "Ehrenfeld Café",
+      "category": "cafe",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 176, 50823 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish café — sand-brewed Turkish coffee",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "coffee"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "open-sunday"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 131,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "주인 아틸라 씨가 뜨거운 모래에 커피 주전자(제즈베)를 묻어 전통 방식으로 터키 커피를 끓여 주는 에렌펠트의 작은 동네 카페다. 소박하지만 제대로 된 터키 커피 한 잔을 맛보고 싶은 사람에게 추천.",
+      "must_try": [
+        "Türk Kahvesi (튀르크 카흐베시 — 뜨거운 모래로 끓인 터키 커피)"
+      ],
+      "tips_ko": "Wanderlog 기준 평일 9–19시, 주말 11–19시 영업(일요일도 영업) — 변동될 수 있으니 확인할 것. '평범한 카페지만 가볼 만하다'는 평.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1326718/ehrenfeld-cafe",
+        "https://wanderlog.com/list/geoCategory/779752/best-turkish-foods-and-restaurants-in-cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/ehrenfeldcafe",
+        "https://www.koeln.de/branchen/eintrag/58684/cafes/ehrenfeld-cafe"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "eat-kumpir",
+      "name": "Eat Kumpir",
+      "category": "streetfood",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 274, 50823 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish kumpir (loaded baked potatoes)",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 1153,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "이스탄불 길거리 음식 '쿰피르'(큰 통감자 속을 버터·치즈와 으깨 토핑을 얹는 요리) 전문점으로, 큼직한 감자와 다양한 토핑 선택이 칭찬받는다. 채식 옵션이 많아 고기 없이도 든든한 한 끼를 원할 때 좋다.",
+      "must_try": [
+        "Kumpir (쿰피르 — 버터·치즈로 속을 으깬 대형 통감자에 원하는 토핑을 골라 얹음)"
+      ],
+      "tips_ko": "맛이 다소 심심하다는 리뷰도 있으니 소스·토핑을 넉넉히 고를 것. 근처의 'Kumpir Haus Ehrenfeld'(별개 가게)와 혼동 주의.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3638852/eat-kumpir",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/eat_kumpir",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://www.enprimeurclub.com/restaurants/eat-kumpir-cologne-restaurant"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
       "checked": "2026-11-07"
     },
     {
@@ -1570,7 +4140,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.6,
@@ -1593,6 +4164,61 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "tantuni-haus",
+      "name": "Tantuni Haus",
+      "category": "streetfood",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 282, 50823 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish tantuni (Mersin-style wraps) & lahmacun",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "kebab"
+      ],
+      "diet": [
+        "vegan",
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 381,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "터키 남부 메르신의 길거리 음식 '탄투니'를 전문으로 하는 벤로어 슈트라세의 작은 가게로, 넉넉한 양과 친절한 직원이 리뷰에서 자주 칭찬받는다. 비건 라마준도 있어 채식하는 일행과 함께 가볍게 들르기 좋다.",
+      "must_try": [
+        "Tantuni (탄투니 — 잘게 썬 고기를 철판에 볶아 얇은 빵에 돌돌 만 메르신식 랩)",
+        "Vegan Lahmacun (비건 라마준 — 샐러드를 올려 말아 먹는 얇은 터키식 피자)"
+      ],
+      "tips_ko": "비건 라마준은 양이 가벼운 편이라는 평. 가게 분위기에 비해 가격이 다소 높다는 리뷰도 있음.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/10141833/tantuni-haus",
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
       "checked": "2026-11-07"
     },
     {
@@ -1624,7 +4250,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함)",
       "google_rating": 4.6,
@@ -1654,6 +4281,106 @@
       "checked": "2026-11-07"
     },
     {
+      "id": "kudret-kebap-house",
+      "name": "Kudret Kebap House",
+      "category": "streetfood",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 280, 50823 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish döner kebab house",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "kebab"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "walk-in",
+      "payment": "cash-only",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 7892,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "탄투니 하우스·잇 쿰피르와 같은 벤로어 슈트라세 블록에 있는 되너 케밥집으로, 구글 리뷰가 약 7,900건 쌓인 에렌펠트의 대표 케밥집 중 하나다. 리뷰에서는 되너 맛과 서비스가 주로 칭찬받는다.",
+      "must_try": [
+        "Döner Kebap (되너 케밥 — 회전 꼬치에 구운 고기를 얇게 썰어 빵에 채운 것)"
+      ],
+      "tips_ko": "현금만 받는다는 리뷰가 있으니 현금을 챙길 것(예약 없이 워크인). 음식이 식어 나왔다거나 주문이 뒤바뀌었다는 불만 리뷰도 일부 있음.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/12881391/kudret-kebap-house",
+        "https://www.enprimeurclub.com/restaurants/kudret-kebap-house-cologne-restaurant"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "sushi-ninja-ehrenfeld",
+      "name": "Sushi Ninja",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 241, 50823 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Sushi bar (Ehrenfeld branch of a two-branch local brand)",
+      "cuisine_country": [
+        "JP"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "sushi"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 724,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google; Tripadvisor 4.0 / 75 shown separately)",
+      "summary_ko": "에렌펠트 베놀러 거리의 스시집으로, 린덴탈에도 지점을 둔 쾰른 동네 브랜드다. 구글 리뷰 700여 건에 평점 4.5로 무난해 에렌펠트 구경 중 스시가 당길 때 들르기 좋다.",
+      "must_try": [],
+      "tips_ko": "린덴탈 지점(Lindenthalgürtel 2, 50935 Köln)은 구글 4.3(275)이고 정통 스시집보다 덜 정통적이라는 리뷰가 있습니다. 에렌펠트점 전화 +49 221 4745441.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3490294/sushi-ninja--ehrenfeld",
+        "https://wanderlog.com/place/details/3490299/sushi-ninja--lindenthal",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
       "id": "pufu",
       "name": "PUFU",
       "category": "dessert",
@@ -1679,6 +4406,7 @@
       "payment": "unknown",
       "location": [],
       "price_level": 1,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "기본 수플레 팬케이크(슈가파우더·꿀) €6.50, 토핑 1개당 +€1",
       "google_rating": 4.5,
@@ -1732,7 +4460,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.4,
@@ -1755,6 +4484,58 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "essers-gasthaus",
+      "name": "Essers Gasthaus",
+      "category": "restaurant",
+      "area": "ehrenfeld",
+      "address": "Ottostraße 72, 50823 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Austrian Gasthaus cooking with an award-winning wine list",
+      "cuisine_country": [
+        "AT"
+      ],
+      "cuisine_region": "central-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "wine-list"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 565,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.4; snapshots 502/519/565; largest used); restaurantguru.com 'Google 4.4/5, 545'",
+      "summary_ko": "노이에렌펠트 주택가 모퉁이(Ottostraße와 Nussbaumerstraße)의 오스트리아풍 가스트하우스로, 수상 경력이 있는 와인 리스트로 유명하다. 오스트리아 음식과 와인을 함께 즐기고 싶은 저녁에 좋다.",
+      "must_try": [],
+      "tips_ko": "저녁에만 엽니다. 휴무일 정보가 엇갈립니다(koeln.de: 수요일 휴무·주방 18시부터 / speisekarte.de: 매일 17:30–23:00). 와인 리스트 수상(Star Wine List 2023 1위)은 한 출처에서만 확인했습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Essers-Gasthaus-Cologne",
+        "https://wanderlog.com/place/details/4057435/essers-gasthaus",
+        "https://wanderlog.com/list/geoCategory/0785149",
+        "https://www.koeln.de/branchen/eintrag/43172/restaurants/essers-gasthaus",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/essers_gasthaus"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
       "checked": "2026-11-07"
     },
     {
@@ -1784,7 +4565,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.4,
@@ -1804,6 +4586,63 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "falafel-koenig",
+      "name": "Falafel König",
+      "category": "streetfood",
+      "area": "ehrenfeld",
+      "address": "Venloer Straße 384, 50825 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Middle Eastern falafel snack bar",
+      "cuisine_country": [],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "falafel"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": true,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.3,
+      "google_reviews": 1044,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "에렌펠트 벤로어 슈트라세의 팔라펠 전문 임비스로, 가게에서 손으로 빚는 팔라펠과 속을 꽉 채운 푸짐한 양이 칭찬받는다. Mit Vergnügen의 에렌펠트·점심 추천에 꾸준히 오르는 곳이라 가볍고 빠른 채식 한 끼로 좋다.",
+      "must_try": [
+        "Falafel (팔라펠 — 가게에서 직접 빚어 튀기는 병아리콩 완자)"
+      ],
+      "tips_ko": "직원 응대·위생에 대한 불만 리뷰도 있어 평이 갈리는 편. 어느 나라식 팔라펠인지는 출처에서 확인되지 않음.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne",
+        "https://wanderlog.com/place/details/3681251/falafel-k%C3%B6nig",
+        "https://wanderlog.com/list/geoCategory/1794415/best-spots-for-falafel-in-cologne",
+        "https://koeln.mitvergnuegen.com/2025/lunchen-ehrenfeld/",
+        "https://koeln.mitvergnuegen.com/2026/venloer-strasse-kulinarisch/",
+        "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
       "checked": "2026-11-07"
     },
     {
@@ -1831,7 +4670,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.8,
@@ -1850,6 +4690,498 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "downtowner-koeln",
+      "name": "Downtowner Korean Urban Restaurant",
+      "category": "restaurant",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Severinstraße 164, 50678 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Korean urban comfort food (fried chicken, bulgogi, bibimbap, pancakes, dumplings, corn dogs)",
+      "cuisine_country": [
+        "KR"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "fried-chicken",
+        "dumplings"
+      ],
+      "diet": [],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [],
+      "features": [
+        "open-sunday"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "리뷰 기준 메인 약 €24, 무알코올 음료 €4.60",
+      "google_rating": 4.7,
+      "google_reviews": 1218,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google panel 4.7 / 1,218; Restaurant Guru own score 4.5 / 1,227)",
+      "summary_ko": "쥐트슈타트 제베린 거리의 '코리안 어반' 레스토랑으로 한국식 치킨·불고기·비빔밥·전·만두에 큼직한 콘도그까지 낸다. 정통 한국 맛에 양이 넉넉하다는 리뷰가 많아, 쥐트슈타트 산책 뒤 저녁 식사로 좋다.",
+      "must_try": [
+        "Korean Fried Chicken (치킨)",
+        "Bulgogi (불고기)",
+        "Bibimbap (비빔밥)",
+        "Koreanische Pfannkuchen (전·부침개)",
+        "Korean Corn Dog (콘도그·핫도그)"
+      ],
+      "tips_ko": "Mit Vergnügen 2025년 기사 기준 수·목 18–22시, 금 18–22:30, 토 13–22:30, 일 13–22시이며 월·화는 휴무로 보입니다(점심은 주말만). 음료값이 비싸다는 리뷰가 있습니다. 번지수가 출처마다 다릅니다(Mit Vergnügen 164, Restaurant Guru 162a).",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Downtowner-Cologne",
+        "https://koeln.mitvergnuegen.com/2025/koreanisch-essen/"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "pottkind",
+      "name": "Pottkind",
+      "category": "fine-dining",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Darmstädter Str. 9, 50678 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Seasonal fixed menu at an open-kitchen counter (one Michelin star)",
+      "cuisine_country": [
+        "INT"
+      ],
+      "cuisine_region": "international",
+      "dishes": [
+        "tasting-menu"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "wine-list"
+      ],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 4,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "미쉐린 1스타 코스 — 정확한 메뉴 가격은 이번 조사에서 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 325,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place page; first score = Google, second 4.5/70 is another platform)",
+      "summary_ko": "쥐트슈타트의 미쉐린 1스타 레스토랑으로, 오픈 키친 앞 카운터에 앉아 요리 과정을 보며 정해진 코스를 먹는 구성이 인기다. 채식 코스와 와인 페어링도 있어 미식 데이트에 좋다.",
+      "must_try": [],
+      "tips_ko": "코스 한 가지만 내는 방식(fixed menu)입니다. 미리 예약하세요.",
+      "website": null,
+      "awards": [
+        "Michelin 1 Star 2026"
+      ],
+      "award_flags": [
+        "michelin-star"
+      ],
+      "sources": [
+        "https://wanderlog.com/place/details/1440368/pottkind",
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://koeln.t-online.de/region/koeln/id_101309626/michelin-sterne-2026-koelner-restaurant-neobiota-gewinnt-einen-stern.html",
+        "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "hayati",
+      "name": "Hayati",
+      "category": "streetfood",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Severinstraße 52C, 50678 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Lebanese / Arabic falafel & shawarma counter",
+      "cuisine_country": [
+        "LB"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "falafel",
+        "kebab"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 1,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "싸고 푸짐한 접시(리뷰 기준) — 메뉴 가격은 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 939,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "쥐트슈타트 제버린슈트라세에서 오래 영업해 온 카운터식 아랍·레바논 간식집으로, 현지인 사이에서 '쾰른 최고의 팔라펠'로 자주 꼽힌다. 빠른 서비스와 가격 대비 푸짐한 양 덕분에 쥐트슈타트 산책 중 가볍게 먹기 좋다.",
+      "must_try": [
+        "Falafel (팔라펠 — 쾰른 최고로 꼽는 사람이 많은 대표 메뉴)",
+        "Schawarma (샤와르마)"
+      ],
+      "tips_ko": "팔라펠 간이 기대보다 약하다는 리뷰도 있음. 샤와르마와 싸고 건강한 접시 메뉴도 평이 좋다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3638768/hayati",
+        "https://wanderlog.com/list/geoCategory/788747/best-lebanese-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "ox-und-klee",
+      "name": "Ox & Klee",
+      "category": "fine-dining",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Im Zollhafen 18, 50678 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Creative tasting menu (two Michelin stars)",
+      "cuisine_country": [
+        "INT"
+      ],
+      "cuisine_region": "international",
+      "dishes": [
+        "tasting-menu"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 4,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "미쉐린 2스타 코스 — 정확한 메뉴 가격은 이번 조사에서 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 623,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place page 4.6/623 'From Google'); other snapshots: Wanderlog lists 4.8 (593, 600), restaurantguru.com Google 4.8 (586)",
+      "summary_ko": "라인아우하펜의 크레인 모양 빌딩 크란하우스(Kranhaus) 가운데 동에 있는, 쾰른 유일의 미쉐린 2스타 레스토랑이다. 코스 하나로 특별한 날을 기념하고 싶은 미식가에게 맞다.",
+      "must_try": [],
+      "tips_ko": "미쉐린 2스타라 미리 예약하는 것이 좋습니다. 구글 평점은 출처마다 4.6–4.8로 다릅니다.",
+      "website": null,
+      "awards": [
+        "Michelin 2 Stars 2026"
+      ],
+      "award_flags": [
+        "michelin-star"
+      ],
+      "sources": [
+        "https://wanderlog.com/place/details/1140610/oxklee",
+        "https://restaurantguru.com/Ox-and-Klee-Cologne-2",
+        "https://wanderlog.com/list/geoCategory/59993/michelin-star-restaurants-in-cologne",
+        "https://koeln.mitvergnuegen.com/2026/sterne-restaurants/",
+        "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "capricorn-i-aries-brasserie",
+      "name": "Capricorn [i] Aries Brasserie",
+      "category": "restaurant",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Alteburger Str. 31, 50678 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "French brasserie",
+      "cuisine_country": [
+        "FR"
+      ],
+      "cuisine_region": "western-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.6,
+      "google_reviews": 277,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place page; first score = Google, second 4.0/133 is another platform)",
+      "summary_ko": "쥐트슈타트 Alteburger Straße의 프렌치 브라세리로, 미쉐린 빕 구르망(가성비 좋은 맛집 표시)에 오른 곳이다. 격식 없는 분위기에서 폭넓은 프랑스 메뉴를 내고 직원이 친절하다는 평이라 부담 없이 프랑스 요리를 즐기기 좋다.",
+      "must_try": [],
+      "tips_ko": "바쁠 때 음식이 늦게 나온다는 후기와 야외석이 작다는 지적이 있습니다. 빕 구르망은 미쉐린 쾰른 페이지 기준이며 연도 표시는 확인하지 못했습니다.",
+      "website": "https://capricorniaries.com",
+      "awards": [
+        "Michelin Bib Gourmand"
+      ],
+      "award_flags": [
+        "bib-gourmand"
+      ],
+      "sources": [
+        "https://wanderlog.com/place/details/1431943/capricorn-i-aries-brasserie",
+        "https://wanderlog.com/list/geoCategory/45713/best-french-restaurants-and-bistros-in-cologne",
+        "https://guide.michelin.com/us/en/nordrhein-westfalen/koln/restaurants",
+        "https://foodle.pro/restaurants/michelin-star-restaurants/bib-gourmand/c-germany/cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "casita-mexicana-suedstadt",
+      "name": "Casita Mexicana Südstadt",
+      "category": "restaurant",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Severinstraße 10-12, 50678 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Mexican street food (tacos), not Tex-Mex",
+      "cuisine_country": [
+        "MX"
+      ],
+      "cuisine_region": "americas",
+      "dishes": [
+        "tacos"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 2338,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com ('Google 4.5/5, 2338'); wanderlog.com shows Google 4.3 (2256)",
+      "summary_ko": "쥐트슈타트 Severinstraße의 멕시코 음식점으로, 텍스멕스가 아닌 정통 멕시코 길거리 음식(타코 등)을 내세운다. 구글 리뷰가 2,000개를 넘는 인기 가게라 가볍게 타코로 한 끼 하기 좋다.",
+      "must_try": [
+        "Tacos (타코)"
+      ],
+      "tips_ko": "쥘피허 지구 Roonstraße 88에 'Belgisches Viertel' 지점이 따로 있습니다. 구글 수치는 출처마다 다릅니다(Restaurant Guru 4.5/2,338, Wanderlog 4.3/2,256). 가격 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3759445/casita-mexicana-s%C3%BCdstadt",
+        "https://restaurantguru.com/Casita-Mexicana-Cologne",
+        "https://wanderlog.com/list/geoCategory/776154/best-mexican-foods-and-restaurants-in-cologne",
+        "https://wanderlog.com/list/geoCategory/799541/best-latin-and-south-american-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "al-salam",
+      "name": "Al Salam",
+      "category": "restaurant",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Eifelplatz 4, 50677 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Middle Eastern (Arabic) mezze & mixed grill",
+      "cuisine_country": [],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "mezze",
+        "grill",
+        "kebab"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "lively"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 1042,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "쥐트슈타트 아이펠플라츠의 중동(아랍) 레스토랑으로, 메제(소량 전채)와 케밥, 믹스 그릴을 '활기차고 화려한' 분위기에서 즐길 수 있다는 평이다. 구글 리뷰가 1,000건이 넘는 동네 인기 식당이다.",
+      "must_try": [
+        "Mezze (메제 — 중동식 소량 전채 모둠)",
+        "Mixed Grill (믹스 그릴 — 여러 고기 구이 모둠)"
+      ],
+      "tips_ko": "어느 나라 요리(레바논·시리아 등)인지는 출처에서 확인되지 않음. Wanderlog 페이지마다 평점이 4.5~4.7로 다름.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1522541/al-salam",
+        "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "tapavinho",
+      "name": "TapaVinho",
+      "category": "restaurant",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Kurfürstenstraße 29, 50678 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Portuguese and Spanish tapas",
+      "cuisine_country": [
+        "PT",
+        "ES"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "tapas",
+        "seafood"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 333,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (tapas / Spanish restaurants lists)",
+      "summary_ko": "쥐트슈타트 Kurfürstenstraße의 모퉁이 가게(Alteburger Straße 근처)인 포르투갈·스페인 타파스 레스토랑으로, 바칼라우(염장 대구)와 파스테이스 드 나타 같은 포르투갈 메뉴가 있다. 문어 샐러드·마늘 새우·염소치즈 타파스가 리뷰에서 자주 언급된다.",
+      "must_try": [
+        "Bacalhau (바칼라우 — 포르투갈식 염장 대구 요리)",
+        "Pastéis de nata (포르투갈 에그타르트)",
+        "Octopus salad (문어 샐러드)",
+        "Garlic prawns (마늘 새우)"
+      ],
+      "tips_ko": "Bonner Str. 26에 'TapaVinho im Fertig'라는 별도 지점이 있으니 헷갈리지 마세요. 가격 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4391858/tapavinho",
+        "https://restaurantguru.com/Tapavinho-Cologne",
+        "https://wanderlog.com/list/geoCategory/804938/best-spanish-foods-and-restaurants-in-cologne",
+        "https://app.wanderlog.com/list/geoCategory/1825451/best-places-for-tapas-in-cologne",
+        "https://restaurantguru.com/Fertig-Cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "die-fette-kuh",
+      "name": "Die Fette Kuh",
+      "category": "restaurant",
+      "area": "suedstadt-rheinauhafen",
+      "address": "Bonner Str. 43, 50677 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Burger bar (self-service)",
+      "cuisine_country": [
+        "US"
+      ],
+      "cuisine_region": "americas",
+      "dishes": [
+        "burger"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "quick"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 6103,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.4; snapshots show 5882, 6016 and 6103 reviews; largest used); restaurantguru.com also shows Google 4.4",
+      "summary_ko": "쥐트슈타트 Bonner Straße의 수제버거 가게로, 두툼한 패티를 원하는 굽기로 익혀 주는 고기 맛이 호평이다. 구글 리뷰 6,000개가 넘는 쾰른 대표 버거집이라 셀프서비스로 빠르게 한 끼 하기 좋다.",
+      "must_try": [
+        "Burger (두툼한 패티의 수제버거 — 굽기 선택 가능)"
+      ],
+      "tips_ko": "가게가 작고, 셀프서비스치고 가격이 조금 높다는 평이 있습니다. 가격 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/521202/die-fette-kuh",
+        "https://restaurantguru.com/Die-fette-Kuh-Cologne",
+        "https://wanderlog.com/list/geoCategory/1090/best-american-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
       "checked": "2026-11-07"
     },
     {
@@ -1877,7 +5209,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.9,
@@ -1895,6 +5228,110 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "caruso-pastabar",
+      "name": "CARUSO Pastabar",
+      "category": "restaurant",
+      "area": "agnesviertel-eigelstein",
+      "address": "Kasparstraße 19, 50670 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Italian pasta bar",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "pasta"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 957,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (place page; first score shown = Google, second 4.5/686 is another platform)",
+      "summary_ko": "아그네스 지구의 작은 파스타 바로, '파스타가 주인공'이라는 평처럼 맛과 테크닉을 칭찬하는 리뷰가 많다. 2023년 미쉐린 빕 구르망에 올랐던 곳이라 파스타 한 접시에 진심인 사람에게 맞다.",
+      "must_try": [
+        "Pasta (파스타 — 리뷰에서 맛·테크닉 호평)"
+      ],
+      "tips_ko": "가게가 작고 테이블 간격이 좁습니다. 2023년 빕 구르망(hogapage 보도) 이후 2026년 미쉐린 표시는 확인하지 못했습니다. 가격 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/884741",
+        "https://wanderlog.com/list/geoCategory/1799196/best-places-for-pasta-in-cologne",
+        "https://www.hogapage.de/nachrichten/wirtschaft/gastronomie/guide-michelin-2023-sterne-rekord-für-deutsche-spitzengastronomen/?page=6"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "tang-wang-koeln",
+      "name": "Tang Wang Köln",
+      "category": "restaurant",
+      "area": "agnesviertel-eigelstein",
+      "address": "Maximinenstraße 4, 50668 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Sichuan Chinese",
+      "cuisine_country": [
+        "CN"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "noodles"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "hidden-gem"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.7,
+      "google_reviews": 685,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.7 / 685); Wanderlog shows 671 Google reviews",
+      "summary_ko": "중앙역 북쪽 막시미넨 거리의 쓰촨 요리 전문점으로, 매운 생선 요리와 돼지고기 조림, 소고기 국수가 호평이다. 정통 중국 맛을 찾는 사람들이 '숨은 맛집'으로 꼽지만, 언어 장벽 때문에 주문이 설명과 다르게 나왔다는 리뷰도 있다.",
+      "must_try": [
+        "Boiled fish (쓰촨식 매운 생선 요리)",
+        "Braised pork (돼지고기 조림)",
+        "Beef noodle soup (소고기 국수)"
+      ],
+      "tips_ko": "메뉴 설명과 다른 요리가 나왔다는 리뷰가 있으니 사진을 보며 주문하고 맵기를 미리 확인하세요.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Tang-Wang-Cologne",
+        "https://wanderlog.com/place/details/1525287/tang-wang-k%C3%B6ln",
+        "https://wanderlog.com/list/geoCategory/22508/best-chinese-food-in-cologne"
+      ],
+      "confidence": "high",
+      "research": "r2-east-asia",
       "checked": "2026-11-07"
     },
     {
@@ -1922,7 +5359,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.5,
@@ -1940,6 +5378,150 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "oez-harran-doy-doy",
+      "name": "Öz Harran Doy Doy",
+      "category": "restaurant",
+      "area": "agnesviertel-eigelstein",
+      "address": "Weidengasse 28-34, 50668 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish restaurant (Harran style)",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "Wanderlog '저렴한 맛집(cheap eats)' 목록에 포함 — 메뉴 가격은 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 2404,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "중앙역 북쪽 아이겔슈타인 지구 바이덴가세의 터키 레스토랑으로, 이름의 '하란(Harran)'은 터키 남동부의 지명이다. Wanderlog '쾰른 저렴한 맛집' 목록에 구글 평점 4.4(2,404건)로 올라 있다.",
+      "must_try": [],
+      "tips_ko": "이름이 비슷한 'Büyük Harran Doy Doy'(구글 4.4·6,142건, 주소 미확인)와는 별개 가게. 메뉴 세부 정보는 이번 조사에서 미확인.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/20723/best-cheap-eats-in-cologne",
+        "https://app.wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "gogi-matcha-koeln",
+      "name": "Gogi Matcha Korean Restaurant",
+      "category": "restaurant",
+      "area": "agnesviertel-eigelstein",
+      "address": "Johannisstraße 47, 50668 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Korean (budae jjigae, cheese buldak, Korean fried chicken)",
+      "cuisine_country": [
+        "KR"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "hotpot",
+        "fried-chicken"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 1388,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google; Tripadvisor 4.0 / 82 shown separately)",
+      "summary_ko": "중앙역 북쪽 요하니스 거리에 있는 한식당으로 부대찌개와 치즈불닭이 대표 메뉴다. Mit Vergnügen이 2019년 '쾰른 최고의 한식당일지도'라고 소개했고 지금도 늘 붐벼서, 역 근처에서 얼큰한 한식이 당길 때 좋다.",
+      "must_try": [
+        "Budae Jjigae (부대찌개)",
+        "Cheese Buldak (치즈불닭)",
+        "Korean Fried Chicken (치킨)"
+      ],
+      "tips_ko": "대체로 붐벼서 예약을 권합니다. 서비스와 대기 시간은 평이 엇갈립니다. 뒤셀도르프에도 같은 이름의 지점이 있으니 지도 검색 때 혼동하지 마세요.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3690465/gogi-matcha-korean-restaurant",
+        "https://koeln.mitvergnuegen.com/2019/gogi-matcha-das-vielleicht-beste-koreanische-restaurant-koelns/",
+        "https://www.reviewhero.io/gogi-matcha-dusseldorf-efb0"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "restaurant-diogenis",
+      "name": "Restaurant Diogenis",
+      "category": "restaurant",
+      "area": "agnesviertel-eigelstein",
+      "address": "Sudermanplatz 7, 50670 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Greek restaurant",
+      "cuisine_country": [
+        "GR"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.4,
+      "google_reviews": 619,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Greek restaurants list)",
+      "summary_ko": "아그네스 지구 주더만플라츠(Sudermanplatz)의 그리스 레스토랑으로, 구글 리뷰 600개 이상에 4.4점이다. 관광지에서 벗어나 동네 그리스 식당에서 편하게 저녁을 먹고 싶을 때 좋다.",
+      "must_try": [],
+      "tips_ko": "메뉴·가격은 이번 조사에서 확인하지 못했습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/786948/best-greek-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
       "checked": "2026-11-07"
     },
     {
@@ -1967,7 +5549,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.2,
@@ -2023,6 +5606,7 @@
         "near-messe"
       ],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.8,
@@ -2075,7 +5659,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.8,
@@ -2120,7 +5705,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.7,
@@ -2173,7 +5759,8 @@
       "location": [
         "near-messe"
       ],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인(이번 조사에서 메뉴 가격 출처를 찾지 못함)",
       "google_rating": 4.6,
@@ -2198,6 +5785,68 @@
       ],
       "confidence": "high",
       "research": "fnb-deutz-messe",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "meiwei-deutz",
+      "name": "MEIWEI",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Mindener Straße 4, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Pan-Asian (MEIWEI Asiatisch) — Chinese dumplings (baozi, wonton), Thai salads, curries, noodle soups",
+      "cuisine_country": [
+        "CN",
+        "TH"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "dumplings",
+        "curry",
+        "noodles"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "occasions": [],
+      "features": [
+        "open-sunday"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "평일 12–15시 점심 메인 €10.50(저녁 가격 미확인)",
+      "google_rating": 4.5,
+      "google_reviews": 128,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.5 / 128; Restaurant Guru own score 4.8)",
+      "summary_ko": "도이츠 민데너 거리의 아시아 요리집으로, 바오쯔·완탕 같은 중국식 만두와 태국식 망고·파파야 새우 샐러드, 커리, 국수 요리를 낸다. 채식 메뉴가 넉넉하고 평일 점심 메인이 €10.50이라, 메쎄(박람회) 일정 중 점심 먹기 좋다.",
+      "must_try": [
+        "Baozi (바오쯔 — 중국식 찐만두)",
+        "Wan Tan (완탕)",
+        "Mango-Papaya-Salat mit Garnelen (새우 망고·파파야 샐러드)"
+      ],
+      "tips_ko": "Mit Vergnügen 2025년 기사 기준 화–토 12–15시·17–22:30, 일 12–22:30, 월요일 휴무입니다. 전화 +49 221 79108322.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://de.restaurantguru.com/MEIWEI-Asiatisch-Cologne",
+        "https://koeln.mitvergnuegen.com/2025/asiatisch-schael-sick/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-deutz/"
+      ],
+      "confidence": "medium",
+      "research": "r2-east-asia",
       "checked": "2026-11-07"
     },
     {
@@ -2232,6 +5881,7 @@
         "near-messe"
       ],
       "price_level": 2,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "OpenTable 가격대 '보통(moderate)'",
       "google_rating": 4.3,
@@ -2291,6 +5941,7 @@
         "near-messe"
       ],
       "price_level": 3,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "OpenTable 가격대 '높음(gehoben)' — 무제한 코스 정확한 가격은 미확인",
       "google_rating": 4.3,
@@ -2314,6 +5965,55 @@
       ],
       "confidence": "medium",
       "research": "fnb-deutz-messe",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "grissini-restaurant-terrasse",
+      "name": "Grissini Restaurant & Terrasse",
+      "category": "restaurant",
+      "area": "deutz-messe",
+      "address": "Kennedy-Ufer 2a, 50679 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Italian hotel restaurant (Hyatt Regency) with terrace",
+      "cuisine_country": [
+        "IT"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "dom-view",
+        "terrace"
+      ],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "OpenTable 가격대 'moderate'(1차 조사) — 정확한 메뉴 가격 미확인",
+      "google_rating": 4.3,
+      "google_reviews": 1694,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com ('Google 4.3/5, 1694'); wanderlog.com shows Google 4.3 (1587)",
+      "summary_ko": "도이츠 라인강변 하얏트 리젠시 호텔의 이탈리안 레스토랑으로, 강 건너 쾰른 대성당이 보이는 전망을 칭찬하는 리뷰가 많다. 메쎄 출장 중 저녁이나 전망 좋은 식사를 원할 때 고르기 좋다.",
+      "must_try": [],
+      "tips_ko": "주문을 헷갈리는 등 서비스가 아쉬웠다는 후기도 있습니다. 같은 호텔의 'Glashaus'와는 다른 레스토랑입니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1191530/grissini-restaurant--terrasse",
+        "https://restaurantguru.com/Regency-Club-Cologne",
+        "https://www.opentable.com/r/grissini-restaurant-koln/photos"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
       "checked": "2026-11-07"
     },
     {
@@ -2347,7 +6047,8 @@
       "location": [
         "near-messe"
       ],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.3,
@@ -2406,7 +6107,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.3,
@@ -2458,6 +6160,7 @@
         "near-messe"
       ],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.2,
@@ -2487,6 +6190,109 @@
       "checked": "2026-11-07"
     },
     {
+      "id": "enat-aethiopisches-restaurant",
+      "name": "Enat Äthiopisches Restaurant",
+      "category": "restaurant",
+      "area": "other",
+      "address": "Remscheider Straße 45, 51103 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Ethiopian / Eritrean restaurant (Kalk)",
+      "cuisine_country": [
+        "ET",
+        "ER"
+      ],
+      "cuisine_region": "africa",
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.9,
+      "google_reviews": 396,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "강 건너 칼크 지역의 에티오피아 레스토랑(에리트레아 요리로도 분류)으로, 구글 평점 4.9(396건)로 쾰른 아프리카 음식점 가운데 가장 높은 축의 평가를 받는다. 도심에서 떨어져 있지만 에티오피아 음식에 관심이 있다면 찾아갈 만하다.",
+      "must_try": [],
+      "tips_ko": "메뉴·영업시간은 이번 조사에서 미확인 — 방문 전 확인할 것.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/list/geoCategory/797742/best-african-foods-and-restaurants-in-cologne",
+        "https://app.wanderlog.com/list/geoCategory/797742/african-restaurants"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "bulgogi-haus",
+      "name": "Bulgogi Haus",
+      "category": "restaurant",
+      "area": "other",
+      "address": "Neusser Straße 654, 50737 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Korean BBQ (tabletop grill) with banchan buffet",
+      "cuisine_country": [
+        "KR"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "korean-bbq",
+        "grill"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 2,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "Culture Trip 기사 기준 정액 €21.90(기사 작성 시점 미상 — 현재 가격 확인 필요)",
+      "google_rating": 4.8,
+      "google_reviews": 2024,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google; Tripadvisor 4.5 / 588 shown separately)",
+      "summary_ko": "쾰른 북쪽 노이서 거리 끝자락(니페스 방면)에 있는 테이블 그릴식 한국 고깃집으로, 현지인에게 한식당을 물으면 먼저 꼽힌다는 곳이다. 고기 질과 반찬 뷔페가 호평이라 여럿이 제대로 된 한국식 고기구이를 먹고 싶을 때 맞다.",
+      "must_try": [
+        "Bulgogi (불고기 — 테이블에서 직접 굽는 양념 소고기)",
+        "Banchan buffet (반찬 뷔페)"
+      ],
+      "tips_ko": "시내 중심에서 북쪽으로 꽤 떨어져 있어 대중교통으로 가야 합니다. 테이블에서 직접 굽는 방식입니다. 양에 비해 비싸다는 리뷰도 있고, 정액 €21.90은 오래된 기사 기준입니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1282831/bulgogi-haus-korean-bbq",
+        "https://prinz.de/koeln/locations/kategorie/essen-trinken/koreanisch/",
+        "https://theculturetrip.com/europe/germany/cologne/articles/best-asian-restaurants-cologne",
+        "https://koeln.mitvergnuegen.com/2025/koreanisch-essen/"
+      ],
+      "confidence": "high",
+      "research": "r2-east-asia",
+      "checked": "2026-11-07"
+    },
+    {
       "id": "il-gelato-di-ferigo",
       "name": "Il Gelato di Ferigo",
       "category": "dessert",
@@ -2511,7 +6317,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.7,
@@ -2530,6 +6337,68 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "zen-japanese-restaurant",
+      "name": "ZEN Japanese Restaurant",
+      "category": "restaurant",
+      "area": "other",
+      "address": "Bachemer Straße 233, 50935 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Japanese — sushi, sashimi, tempura, udon, gyoza, omakase set",
+      "cuisine_country": [
+        "JP"
+      ],
+      "cuisine_region": "east-asia",
+      "dishes": [
+        "sushi",
+        "noodles",
+        "dumplings",
+        "seafood"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "미쉐린 가이드 가격대 표기 €€(메뉴 가격 미확인)",
+      "google_rating": 4.7,
+      "google_reviews": 730,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google 4.7; snapshots show 640–730 reviews — highest count used; Tripadvisor ~4.5 / ~250)",
+      "summary_ko": "린덴탈 주택가에 있는 담백하고 캐주얼한 일식당으로 2026 미쉐린 가이드 셀렉션에 올랐다. 교자·튀김·우동·스시·사시미에 푸짐한 오마카세 세트까지 있어, 관광지를 벗어나 현지인 동네에서 정갈한 일식을 먹고 싶을 때 좋다.",
+      "must_try": [
+        "Omakase set (오마카세 세트)",
+        "Tempura (덴푸라)",
+        "Udon (우동)",
+        "Gyoza (교자)",
+        "Sashimi (사시미)"
+      ],
+      "tips_ko": "시내 서쪽 린덴탈에 있어 트램·버스로 가야 합니다. 이름이 비슷한 'ZEN'(Aachener Straße 20, 평점 1.9)은 다른 가게이니 혼동하지 마세요.",
+      "website": null,
+      "awards": [
+        "MICHELIN Guide 2026 (selected)"
+      ],
+      "award_flags": [
+        "michelin-guide"
+      ],
+      "sources": [
+        "https://guide.michelin.com/us/en/nordrhein-westfalen/koln/restaurant/zen-japanese-restaurant",
+        "https://guide.michelin.com/de/de/best-of/die-top-japaner-in-dusseldorf-koln-und-bonn",
+        "https://wanderlog.com/place/details/1589749/zen",
+        "https://restaurantguru.com/ZEN-Japanese-Restaurant-Cologne"
+      ],
+      "confidence": "high",
+      "research": "r2-east-asia",
       "checked": "2026-11-07"
     },
     {
@@ -2555,7 +6424,8 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
       "price_note": "가격 정보 미확인",
       "google_rating": 4.5,
@@ -2576,6 +6446,56 @@
       ],
       "confidence": "medium",
       "research": "r2-cafes-dessert",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "jamas-griechische-taverne",
+      "name": "Jamas Griechische Taverne",
+      "category": "restaurant",
+      "area": "other",
+      "address": "Sechzigstraße 1, 50733 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Greek taverna — Greek tapas (mezedes)",
+      "cuisine_country": [
+        "GR"
+      ],
+      "cuisine_region": "southern-europe",
+      "dishes": [
+        "tapas",
+        "mezze"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.5,
+      "google_reviews": 426,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Greek restaurants list)",
+      "summary_ko": "닙페스(Nippes)의 그리스 타베르나로, 작은 접시로 나눠 먹는 그리스식 타파스에 집중한다. 구글 4.5점이라 닙페스 쪽에 묵거나 들를 때 좋은 선택이다.",
+      "must_try": [
+        "Griechische Tapas / Mezedes (그리스식 타파스)"
+      ],
+      "tips_ko": "시내 중심에서 조금 떨어진 닙페스에 있습니다. 메뉴·가격은 확인하지 못했습니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/3984169/jamas-griechische-taverne-k%C3%B6ln",
+        "https://wanderlog.com/list/geoCategory/786948/best-greek-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-europe-americas",
       "checked": "2026-11-07"
     },
     {
@@ -2604,6 +6524,7 @@
       "payment": "cash-only",
       "location": [],
       "price_level": null,
+      "price_estimated": false,
       "price_pp": null,
       "price_note": "리뷰상 가성비가 좋다는 평 (금액은 확인 못 함)",
       "google_rating": 4.4,
@@ -2621,6 +6542,56 @@
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
+      "checked": "2026-11-07"
+    },
+    {
+      "id": "kilim-restaurant",
+      "name": "Kilim Restaurant",
+      "category": "restaurant",
+      "area": "other",
+      "address": "Keupstraße 69, 51063 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Turkish restaurant on Keupstraße (Mülheim) — lahmacun, grill, desserts",
+      "cuisine_country": [
+        "TR"
+      ],
+      "cuisine_region": "middle-east",
+      "dishes": [
+        "grill"
+      ],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [],
+      "drinks": [],
+      "vibe": [],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "가격 정보 미확인",
+      "google_rating": 4.3,
+      "google_reviews": 3248,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com (Google)",
+      "summary_ko": "강 건너 뮐하임 코이프슈트라세의 터키 레스토랑으로, 라마준과 그릴 고기, 디저트가 리뷰에서 칭찬받고 가격도 합리적이라는 평이다(구글 리뷰 3,000건 이상). 라마준에 아이란을 곁들이러 다시 온다는 단골 리뷰가 있을 만큼 기본기가 좋은 곳이다.",
+      "must_try": [
+        "Lahmacun (라마준 — 다진 고기를 얇게 펴 구운 터키식 피자)",
+        "Ayran (아이란 — 짭짤한 터키식 요구르트 음료)"
+      ],
+      "tips_ko": "도심(대성당)에서 라인강 건너 북동쪽 뮐하임에 있으니 이동 시간을 고려할 것. 할랄 여부는 확인되지 않음.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1160436/kilim-restaurant",
+        "https://wanderlog.com/list/geoCategory/763561/best-middle-eastern-foods-and-restaurants-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r2-middle-east-africa",
       "checked": "2026-11-07"
     }
   ]
