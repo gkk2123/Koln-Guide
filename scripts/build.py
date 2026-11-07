@@ -19,8 +19,8 @@ from collections import defaultdict
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 from schema import (  # noqa: E402
-    AREAS, BAR_CATEGORIES, CUISINE_GROUPS, DATA, DOCS, FOOD_CATEGORIES, GUIDES, LABELS_KO, MIN_RATING,
-    MIN_REVIEWS, ROOT, haversine_km, load_all, load_json, meets_criteria, walk_minutes,
+    AREAS, BAR_CATEGORIES, DATA, DISHES, DOCS, GUIDES, LABELS_KO, MIN_RATING, MIN_REVIEWS, REGIONS, ROOT,
+    haversine_km, load_all, load_json, meets_criteria, walk_minutes,
 )
 
 TEMPLATE = ROOT / "scripts" / "templates" / "viewer.html"
@@ -54,6 +54,17 @@ def price(it: dict) -> str:
 def km(it: dict, anchor: str) -> str:
     d = (it.get("dist") or {}).get(anchor)
     return f"{d:.1f}km" if d is not None else "–"
+
+
+def food_label(it: dict) -> str:
+    names = [L["country"].get(c, c) for c in it.get("cuisine_country") or []]
+    if names:
+        return " · ".join(names)
+    return L["region"].get(it.get("cuisine_region"), "") if it.get("cuisine_region") else ""
+
+
+def by_rating(rows: list[dict]) -> list[dict]:
+    return sorted(rows, key=lambda i: (-(i.get("google_rating") or 0), -(i.get("google_reviews") or 0)))
 
 
 def area_name(areas: dict, aid: str) -> str:
@@ -92,28 +103,45 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
         a = areas.get(aid, {})
         parts.append(f"\n## {a.get('name_ko', aid)} ({a.get('name_de', '')}) — {len(rows)}곳\n\n{a.get('summary_ko', '')}\n")
         parts.append(table(
-            ["이름(지도)", "유형", "음식", "가격", "구글", "대성당", "메쎄", "한 줄 소개", "추천"],
-            [[name_cell(i), L["category"].get(i["category"], i["category"]), i.get("cuisine"), price(i), rating(i),
+            ["이름(지도)", "유형", "나라·음식", "가격", "구글", "대성당", "메쎄", "한 줄 소개", "추천"],
+            [[name_cell(i), L["category"].get(i["category"], i["category"]),
+              " · ".join(x for x in (food_label(i), i.get("cuisine")) if x), price(i), rating(i),
               km(i, "dom"), km(i, "messe"), i.get("summary_ko"), ", ".join(i.get("must_try") or [])[:120]] for i in rows]))
     (TABLES / "restaurants-by-area.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
     written.append("restaurants-by-area.md")
 
-    # by cuisine
-    groups = defaultdict(list)
-    for i in food:
-        groups[i["cuisine_group"]].append(i)
-    order = sorted(groups, key=lambda g: (-len(groups[g]), CUISINE_GROUPS.index(g) if g in CUISINE_GROUPS else 99))
-    parts = [banner("나라·스타일별 맛집", generated), "\n" + " · ".join(
-        f"[{L['cuisine_group'].get(g, g)} {len(groups[g])}](#{L['cuisine_group'].get(g, g).replace('·', '').replace(' ', '-')})"
-        for g in order) + "\n"]
-    for g in order:
-        rows = sorted(groups[g], key=lambda i: (-(i.get("google_rating") or 0), -(i.get("google_reviews") or 0)))
-        parts.append(f"\n## {L['cuisine_group'].get(g, g)}\n")
-        parts.append(table(["이름(지도)", "지역", "유형", "가격", "구글", "추천"],
-                           [[name_cell(i), area_name(areas, i["area"]), L["category"].get(i["category"], ""), price(i),
-                             rating(i), ", ".join(i.get("must_try") or [])[:120]] for i in rows]))
+    # by region -> country
+    parts = [banner("나라·문화권별 맛집", generated),
+             "\n문화권 → 나라 순서. 카페·디저트처럼 나라 구분이 없는 곳은 [요리 종류별 표](restaurants-by-dish.md)에 있습니다.\n"]
+    for rid, rlabel in REGIONS.items():
+        rows = [i for i in food if i.get("cuisine_region") == rid]
+        if not rows:
+            continue
+        parts.append(f"\n## {rlabel} — {len(rows)}곳\n")
+        by_c = defaultdict(list)
+        for i in rows:
+            by_c[(i.get("cuisine_country") or ["–"])[0]].append(i)
+        for code in sorted(by_c, key=lambda c: -len(by_c[c])):
+            if len(by_c) > 1 or code != "INT":
+                parts.append(f"\n### {L['country'].get(code, '기타')} ({len(by_c[code])})\n")
+            parts.append(table(["이름(지도)", "지역", "유형", "가격", "구글", "요리", "추천"],
+                               [[name_cell(i), area_name(areas, i["area"]), L["category"].get(i["category"], ""), price(i),
+                                 rating(i), ", ".join(L["dish"].get(d, d) for d in i.get("dishes") or []),
+                                 ", ".join(i.get("must_try") or [])[:120]] for i in by_rating(by_c[code])]))
     (TABLES / "restaurants-by-cuisine.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
     written.append("restaurants-by-cuisine.md")
+
+    # by dish
+    parts = [banner("요리 종류별", generated)]
+    present = [d for d in DISHES if any(d in (i.get("dishes") or []) for i in food)]
+    parts.append("\n" + " · ".join(f"{DISHES[d]}" for d in present) + "\n")
+    for d in present:
+        rows = by_rating([i for i in food if d in (i.get("dishes") or [])])
+        parts.append(f"\n## {DISHES[d]} — {len(rows)}곳\n")
+        parts.append(table(["이름(지도)", "지역", "나라", "가격", "구글"],
+                           [[name_cell(i), area_name(areas, i["area"]), food_label(i), price(i), rating(i)] for i in rows]))
+    (TABLES / "restaurants-by-dish.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
+    written.append("restaurants-by-dish.md")
 
     # by price
     parts = [banner("가격대별 맛집", generated),
@@ -125,7 +153,7 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
             continue
         parts.append(f"\n## {L['price_level'][lvl]} — {len(rows)}곳\n")
         parts.append(table(["이름(지도)", "지역", "음식", "구글", "가격 메모"],
-                           [[name_cell(i), area_name(areas, i["area"]), L["cuisine_group"].get(i["cuisine_group"], ""),
+                           [[name_cell(i), area_name(areas, i["area"]), food_label(i),
                              rating(i), i.get("price_note")] for i in rows]))
     (TABLES / "restaurants-by-price.md").write_text("\n".join(parts) + "\n", encoding="utf-8")
     written.append("restaurants-by-price.md")

@@ -22,8 +22,9 @@ from collections import Counter, defaultdict
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 from schema import (  # noqa: E402
     AREAS, ATTRACTION_CATEGORIES, ATTRACTION_STATUS, ATTRACTION_TAGS, BAR_CATEGORIES, BOOKING,
-    CUISINE_GROUPS, DATA, DATA_FILES, FNB_CATEGORIES, FOOD_CATEGORIES, PLACE_TAGS, RAW,
-    SHOP_CATEGORIES, load_json, meets_criteria, norm_name, save_json, slugify, street_key,
+    COUNTRIES, DATA, DATA_FILES, FACETS, FNB_CATEGORIES, FOOD_CATEGORIES, PAYMENT, RAW, REGIONS,
+    RESERVATION, SHOP_CATEGORIES, V1_CUISINE_GROUP, V1_TAGS, award_flags, infer_countries, infer_dishes,
+    load_json, meets_criteria, norm_name, region_for, save_json, slugify, street_key,
 )
 
 TODAY = dt.date.today().isoformat()
@@ -33,16 +34,7 @@ CATEGORY_SYNONYMS = {
     "ice-cream": "dessert", "icecream": "dessert", "coffee": "cafe", "coffee-shop": "cafe",
     "imbiss": "streetfood", "fast-food": "streetfood", "wine-store": "wine-shop",
     "cocktail": "cocktail-bar", "cocktailbar": "cocktail-bar", "winebar": "wine-bar",
-}
-CUISINE_SYNONYMS = {
-    "burger": "american-burger", "american": "american-burger", "levantine": "middle-eastern",
-    "lebanese": "middle-eastern", "syrian": "middle-eastern", "israeli": "middle-eastern",
-    "vegan": "vegan-vegetarian", "vegetarian": "vegan-vegetarian", "cafe": "cafe-bakery",
-    "bakery": "cafe-bakery", "dessert": "dessert-icecream", "ice-cream": "dessert-icecream",
-    "thai": "thai-southeast-asian", "indian": "indian-south-asian", "spanish": "spanish-portuguese",
-    "portuguese": "spanish-portuguese", "mexican": "latin-american", "peruvian": "latin-american",
-    "steak": "steak-grill", "grill": "steak-grill", "fusion": "asian-fusion",
-    "drinks": "bar-drinks", "bar": "bar-drinks", "rhineland": "german", "koelsch": "german",
+    "finedining": "fine-dining", "fine-dining-restaurant": "fine-dining", "street-food": "streetfood",
 }
 
 warnings: list[str] = []
@@ -94,6 +86,18 @@ def clean_tags(tags, allowed, where):
     return out
 
 
+def clean_enum_list(values, allowed: dict, where: str, field: str) -> list[str]:
+    out = []
+    for v in as_list(values):
+        v = slugify(str(v))
+        if v in allowed:
+            if v not in out:
+                out.append(v)
+        else:
+            warn(f"{where}: unknown {field} '{v}' dropped")
+    return out
+
+
 def normalize_fnb(p: dict, agent: str) -> dict:
     name = (p.get("name") or "").strip()
     where = f"[{agent}] {name}"
@@ -106,16 +110,67 @@ def normalize_fnb(p: dict, agent: str) -> dict:
     if area not in AREAS:
         warn(f"{where}: unknown area '{area}' -> other")
         area = "other"
+
+    facets = {k: clean_enum_list(p.get(k), allowed, where, k) for k, allowed in FACETS.items()}
+    reservation = p.get("reservation") if p.get("reservation") in RESERVATION else "unknown"
+    payment = p.get("payment") if p.get("payment") in PAYMENT else "unknown"
+    countries = []
+    for c in as_list(p.get("cuisine_country")):
+        c = str(c).strip().upper()
+        if c in COUNTRIES:
+            countries.append(c)
+        else:
+            warn(f"{where}: unknown cuisine_country '{c}' dropped")
+    region = p.get("cuisine_region") if p.get("cuisine_region") in REGIONS else None
+    awards = as_list(p.get("awards"))
+    flags, location = award_flags(awards), []
+
+    # v1 -> v2: tags and cuisine_group
+    for t in as_list(p.get("tags")):
+        t = slugify(str(t))
+        t = "koelsch" if t == "kolsch" else t
+        if t not in V1_TAGS:
+            warn(f"{where}: unknown v1 tag '{t}' dropped")
+            continue
+        facet, val = V1_TAGS[t]
+        if facet in facets and val not in facets[facet]:
+            facets[facet].append(val)
+        elif facet == "reservation" and reservation == "unknown":
+            reservation = val
+        elif facet == "payment":
+            payment = val
+        elif facet == "location":
+            location.append(val)
+        elif facet == "award" and val not in flags:
+            flags.append(val)
+    fallback_region = None
     cg = slugify(p.get("cuisine_group") or "")
-    cg = CUISINE_SYNONYMS.get(cg, cg)
-    if cg not in CUISINE_GROUPS:
-        fallback = "bar-drinks" if cat in BAR_CATEGORIES + SHOP_CATEGORIES else "international"
-        warn(f"{where}: unknown cuisine_group '{cg}' -> {fallback}")
-        cg = fallback
+    if cg in V1_CUISINE_GROUP:
+        c_list, fallback_region, dish_list, diet_list = V1_CUISINE_GROUP[cg]
+        if not countries:
+            countries = list(c_list)
+        facets["dishes"] += [d for d in dish_list if d not in facets["dishes"]]
+        facets["diet"] += [d for d in diet_list if d not in facets["diet"]]
+    elif cg:
+        warn(f"{where}: unknown v1 cuisine_group '{cg}'")
+    cuisine = (p.get("cuisine") or "").strip() or None
+    if cat in FOOD_CATEGORIES and not countries and cat not in ("cafe", "bakery", "dessert"):
+        countries = infer_countries(cuisine or "")
+    if not facets["dishes"]:
+        facets["dishes"] = infer_dishes(cuisine, name, " ".join(map(str, as_list(p.get("must_try")))))
+    region = region or region_for(countries, fallback_region)
+    if cat == "restaurant" and "michelin-star" in flags:
+        cat = "fine-dining"
+    if cat == "fine-dining" and "tasting-menu" not in facets["dishes"]:
+        facets["dishes"].append("tasting-menu")
+
     pl = as_int(p.get("price_level"))
     if pl is not None and not 1 <= pl <= 4:
         warn(f"{where}: price_level {pl} out of range -> null")
         pl = None
+    ppp = p.get("price_pp") if isinstance(p.get("price_pp"), dict) else None
+    if ppp:
+        ppp = {k: as_int(ppp.get(k)) for k in ("min", "max") if as_int(ppp.get(k)) is not None} or None
     out = {
         "id": slugify(p.get("id") or name),
         "name": name,
@@ -124,9 +179,15 @@ def normalize_fnb(p: dict, agent: str) -> dict:
         "address": (p.get("address") or "").strip() or None,
         "lat": None,
         "lng": None,
-        "cuisine": (p.get("cuisine") or "").strip() or None,
-        "cuisine_group": cg,
+        "cuisine": cuisine,
+        "cuisine_country": countries,
+        "cuisine_region": region,
+        **facets,
+        "reservation": reservation,
+        "payment": payment,
+        "location": location,
         "price_level": pl,
+        "price_pp": ppp,
         "price_note": p.get("price_note"),
         "google_rating": as_float(p.get("google_rating")),
         "google_reviews": as_int(p.get("google_reviews")),
@@ -134,10 +195,10 @@ def normalize_fnb(p: dict, agent: str) -> dict:
         "rating_source": p.get("rating_source"),
         "summary_ko": p.get("summary_ko"),
         "must_try": as_list(p.get("must_try")),
-        "tags": clean_tags(p.get("tags"), PLACE_TAGS, where),
         "tips_ko": p.get("tips_ko"),
         "website": p.get("website"),
-        "awards": as_list(p.get("awards")),
+        "awards": awards,
+        "award_flags": flags,
         "sources": as_list(p.get("sources")),
         "confidence": p.get("confidence") if p.get("confidence") in ("high", "medium", "low") else "medium",
         "research": agent,
@@ -208,7 +269,7 @@ def merge_into(primary: dict, other: dict) -> dict:
     for k, v in other.items():
         if primary.get(k) in (None, "", []) and v not in (None, "", []):
             primary[k] = v
-    for k in ("tags", "awards", "sources", "must_try"):
+    for k in ("awards", "award_flags", "sources", "must_try", "cuisine_country", "location", *FACETS):
         seen = list(primary.get(k) or [])
         for v in other.get(k) or []:
             if v not in seen:

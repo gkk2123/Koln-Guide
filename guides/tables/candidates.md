@@ -133,3 +133,6 @@
 | Fette Kuh | 쥐트슈타트·라인아우하펜 | google-numbers-missing | Seed from the lead; not researched (search budget exhausted). Nothing found in this session. |
 | Zur Tant | 기타 시내 | google-numbers-missing | Michelin 2026: one star, kept (t-online list, mitvergnuegen 2026, guide.michelin.com 2026 list). No Google numbers found (search budget exhausted). |
 | La Cuisine Rademacher | 기타 시내 | google-numbers-missing | Michelin 2026: one star (t-online list, mitvergnuegen 2026, guide.michelin.com 2026 list); chef Marlon Rademacher, Köln-Dellbrück. No Google numbers found (search budget exhausted). |
+| Wein am Rhein | 아그네스 지구·아이겔슈타인 | not-verified (검색 한도 소진). 배경지식 기반 리드일 뿐: 중앙역 북쪽 Johannisstraße(라인강 쪽)의 독일 와인 중심 레스토랑 겸 와인바로 기억되며, 같은 주소에 파인다이닝 'maximilian lorenz'가 있었던 것으로 기억됨. 존재·정확한 주소·구글 평점/리뷰 수·2026년 영업 여부 모두 확인 필요. 확인되면 category restaurant 또는 wine-bar, tag german-wine 후보. | 이번 세션에서 찾은 수치·출처 없음 |
+| Henne.Weinbar | 프리젠 지구·에렌슈트라세 | not-verified (검색 한도 소진). 배경지식 기반 리드: Mittelstraße 인근 Pfeilstraße의 와인바(작은 접시 요리+와인)로 기억됨. 독일 와인 비중·주소·구글 수치·영업 여부 확인 필요. 확인되면 category wine-bar. | 이번 세션에서 찾은 수치·출처 없음 |
+| Kölner Weinkeller | 기타 시내 | not-verified (검색 한도 소진). 배경지식 기반 리드: Braunsfeld(Stolberger Straße)의 대형 와인 전문 매장으로 기억됨(시음 행사). 주소·구글 수치·영업 여부·독일 와인 비중 확인 필요. 확인되면 category wine-shop. | 이번 세션에서 찾은 수치·출처 없음 |

@@ -89,6 +89,14 @@ h1, h2, h3 { text-wrap: balance; margin: 0; }
 .seg button:disabled { opacity: .4; cursor: default; }
 input[type="search"], select { font: inherit; font-size: 14px; width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
 .hint { font-size: 12px; color: var(--muted); margin: 0; }
+.more-filters { border-top: 1px solid var(--line); padding-top: 12px; }
+.more-filters > summary { cursor: pointer; font-weight: 600; font-size: 14px; list-style: none; }
+.more-filters > summary::-webkit-details-marker { display: none; }
+.more-filters > summary::after { content: " +"; color: var(--muted); }
+.more-filters[open] > summary::after { content: " −"; }
+.more-filters .group { margin-top: 14px; }
+.anchor-note { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.linkbtn { font: inherit; font-size: 13px; font-weight: 600; background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; }
 .reset { font: inherit; font-size: 13px; align-self: flex-start; background: none; border: 1px solid var(--line); color: var(--ink); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
 
 .results-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-bottom: 12px; }
@@ -189,9 +197,9 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   var KM_STEPS = [0, 0.5, 1, 2, 3, 5];
   var MIN_RATINGS = [0, 4.4, 4.6, 4.8];
 
-  function fresh() { return { q: "", area: {}, cuisine: {}, cat: {}, price: {}, tag: {}, minRating: 0, free: false, must: false, open: false }; }
-  var state = { tab: "food", anchor: "dom", maxKm: 0, sort: { food: "rating", bars: "rating", sights: "priority" }, origin: null,
-    f: { food: fresh(), bars: fresh(), sights: fresh() } };
+  function fresh() { return { q: "", sel: {}, minRating: 0, free: false, must: false, open: false }; }
+  var state = { tab: "food", anchor: "dom", maxKm: 0, sort: { food: "rating", bars: "rating", sights: "priority" },
+    origin: null, originLabel: "", moreOpen: {}, f: { food: fresh(), bars: fresh(), sights: fresh() } };
 
   function store(k, v) { try { localStorage.setItem("kg." + k, v); } catch (e) {} }
   function recall(k) { try { return localStorage.getItem("kg." + k); } catch (e) { return null; } }
@@ -199,39 +207,90 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function lab(group, key) { return (L[group] && L[group][key]) || key || ""; }
-  function keys(o) { return Object.keys(o).filter(function (k) { return o[k]; }); }
+  function keys(o) { return Object.keys(o || {}).filter(function (k) { return o[k]; }); }
+  function arr(v) { return v == null ? [] : [].concat(v); }
   function hav(a, b, c, d) {
     var r = 6371.0088, p1 = a * Math.PI / 180, p2 = c * Math.PI / 180, dp = p2 - p1, dl = (d - b) * Math.PI / 180;
     var x = Math.sin(dp / 2) * Math.sin(dp / 2) + Math.cos(p1) * Math.cos(p2) * Math.sin(dl / 2) * Math.sin(dl / 2);
     return 2 * r * Math.asin(Math.sqrt(x));
   }
   function dist(it) {
-    if (state.anchor === "me") return (state.origin && it.lat != null) ? hav(state.origin.lat, state.origin.lng, it.lat, it.lng) : null;
+    if (state.anchor === "me" || state.anchor === "place") return (state.origin && it.lat != null) ? hav(state.origin.lat, state.origin.lng, it.lat, it.lng) : null;
     return it.dist && it.dist[state.anchor] != null ? it.dist[state.anchor] : null;
   }
   function walk(km) { return Math.max(1, Math.round(km * 1.3 / 4.8 * 60)); }
   function anchorLabel() {
     if (state.anchor === "me") return "내 위치";
+    if (state.anchor === "place") return state.originLabel;
     var a = ANCHORS.filter(function (x) { return x.id === state.anchor; })[0];
     return a ? a.label_ko : "";
   }
   function coordCount(items) { return items.filter(function (i) { return i.lat != null; }).length; }
 
+  // ------------------------------------------------------------ facets (OR inside a facet, AND across facets)
+  var AREA_ORDER = (G.areas || []).map(function (a) { return a.id; });
+  var REGION_ORDER = Object.keys(L.region || {});
+  function known(v) { return v && v !== "unknown" ? v : null; }
+  function priceKey(i) { return i.price_level != null ? String(i.price_level) : null; }
+  function areaName(v) { return (AREAS[v] && AREAS[v].name_ko) || v; }
+  function F(key, label, get, group, opts) {
+    var o = { key: key, label: label, get: get, lab: function (v) { return group === "area" ? areaName(v) : lab(group, v); } };
+    for (var k in (opts || {})) o[k] = opts[k];
+    return o;
+  }
+  var FACETS = {
+    food: [
+      F("category", "유형", function (i) { return i.category; }, "category"),
+      F("area", "지역", function (i) { return i.area; }, "area", { order: AREA_ORDER }),
+      F("region", "문화권", function (i) { return i.cuisine_region; }, "region", { order: REGION_ORDER }),
+      F("country", "나라", function (i) { return i.cuisine_country; }, "country", { hideZero: true }),
+      F("dish", "요리", function (i) { return i.dishes; }, "dish", { hideZero: true }),
+      F("price", "가격", priceKey, "price_level", { hint: "1인 음식값", order: ["1", "2", "3", "4"] }),
+      F("diet", "식단", function (i) { return i.diet; }, "diet", { more: true }),
+      F("meal", "시간대", function (i) { return i.meals; }, "meal", { more: true }),
+      F("occasion", "상황", function (i) { return i.occasions; }, "occasion", { more: true }),
+      F("feature", "공간·서비스", function (i) { return i.features; }, "feature", { more: true }),
+      F("vibe", "분위기", function (i) { return i.vibe; }, "vibe", { more: true }),
+      F("drink", "음료", function (i) { return i.drinks; }, "drink", { more: true }),
+      F("award", "수상·선정", function (i) { return i.award_flags; }, "award", { more: true }),
+      F("reservation", "예약", function (i) { return known(i.reservation); }, "reservation", { more: true }),
+      F("payment", "결제", function (i) { return known(i.payment); }, "payment", { more: true })
+    ],
+    bars: [
+      F("category", "유형", function (i) { return i.category; }, "category"),
+      F("area", "지역", function (i) { return i.area; }, "area", { order: AREA_ORDER }),
+      F("price", "가격", priceKey, "price_level", { hint: "칵테일 1잔", order: ["1", "2", "3", "4"] }),
+      F("drink", "음료", function (i) { return i.drinks; }, "drink"),
+      F("feature", "공간·서비스", function (i) { return i.features; }, "feature", { more: true }),
+      F("vibe", "분위기", function (i) { return i.vibe; }, "vibe", { more: true }),
+      F("meal", "시간대", function (i) { return i.meals; }, "meal", { more: true }),
+      F("award", "수상·선정", function (i) { return i.award_flags; }, "award", { more: true }),
+      F("payment", "결제", function (i) { return known(i.payment); }, "payment", { more: true })
+    ],
+    sights: [
+      F("category", "유형", function (i) { return i.category; }, "category"),
+      F("area", "지역", function (i) { return i.area; }, "area", { order: AREA_ORDER }),
+      F("tag", "태그", function (i) { return i.tags; }, "tag")
+    ]
+  };
+
   function matches(it, f, skip) {
     if (f.q) {
-      var hay = [it.name, it.name_ko, it.cuisine, it.summary_ko, it.tips_ko, (it.must_try || []).join(" "), (it.awards || []).join(" "),
-        lab("cuisine_group", it.cuisine_group), lab("category", it.category)].join(" ").toLowerCase();
+      var hay = [it.name, it.name_ko, it.cuisine, it.summary_ko, it.tips_ko, arr(it.must_try).join(" "), arr(it.awards).join(" "),
+        lab("category", it.category), arr(it.cuisine_country).map(function (c) { return lab("country", c); }).join(" "),
+        lab("region", it.cuisine_region), arr(it.dishes).map(function (d) { return lab("dish", d); }).join(" ")].join(" ").toLowerCase();
       var words = f.q.toLowerCase().split(/\s+/).filter(Boolean);
       for (var w = 0; w < words.length; w++) if (hay.indexOf(words[w]) < 0) return false;
     }
-    var sel;
-    if (skip !== "area" && (sel = keys(f.area)).length && sel.indexOf(it.area) < 0) return false;
-    if (skip !== "cuisine" && (sel = keys(f.cuisine)).length && sel.indexOf(it.cuisine_group) < 0) return false;
-    if (skip !== "cat" && (sel = keys(f.cat)).length && sel.indexOf(it.category) < 0) return false;
-    if (skip !== "price" && (sel = keys(f.price)).length && sel.indexOf(String(it.price_level)) < 0) return false;
-    if (skip !== "tag" && (sel = keys(f.tag)).length) {
-      var t = it.tags || [];
-      for (var i = 0; i < sel.length; i++) if (t.indexOf(sel[i]) < 0) return false;
+    var facets = FACETS[state.tab] || [];
+    for (var n = 0; n < facets.length; n++) {
+      var fc = facets[n];
+      if (fc.key === skip) continue;
+      var sel = keys(f.sel[fc.key]);
+      if (!sel.length) continue;
+      var vals = arr(fc.get(it)), hit = false;
+      for (var j = 0; j < vals.length; j++) if (sel.indexOf(String(vals[j])) >= 0) { hit = true; break; }
+      if (!hit) return false;
     }
     if (f.minRating && !((it.google_rating || 0) >= f.minRating)) return false;
     if (f.free && it.price_eur !== 0) return false;
@@ -256,18 +315,22 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   var SORT_LABELS = { rating: "평점 높은 순", reviews: "리뷰 많은 순", distance: "가까운 순", price: "가격 낮은 순", priority: "추천 순", name: "이름 순" };
 
   // ------------------------------------------------------------ filters UI
-  function facet(items, f, name, getter, labeler, order) {
-    var counts = {};
-    items.forEach(function (it) { if (matches(it, f, name)) { var v = getter(it); [].concat(v || []).forEach(function (x) { counts[x] = (counts[x] || 0) + 1; }); } });
-    var all = {};
-    items.forEach(function (it) { [].concat(getter(it) || []).forEach(function (x) { all[x] = true; }); });
-    var vals = Object.keys(all);
-    if (order) vals.sort(function (a, b) { return order.indexOf(a) - order.indexOf(b); });
-    else vals.sort(function (a, b) { return (counts[b] || 0) - (counts[a] || 0); });
+  function facetChips(items, f, fc) {
+    var counts = {}, all = {};
+    items.forEach(function (it) {
+      var vals = arr(fc.get(it));
+      vals.forEach(function (x) { all[x] = true; });
+      if (matches(it, f, fc.key)) vals.forEach(function (x) { counts[x] = (counts[x] || 0) + 1; });
+    });
+    var chosen = f.sel[fc.key] || {};
+    var vals = Object.keys(all).filter(function (v) { return !fc.hideZero || counts[v] || chosen[v]; });
+    if (fc.order) vals.sort(function (a, b) { return fc.order.indexOf(a) - fc.order.indexOf(b); });
+    else vals.sort(function (a, b) { return (counts[b] || 0) - (counts[a] || 0) || fc.lab(a).localeCompare(fc.lab(b)); });
+    if (!vals.length) return "";
     return vals.map(function (v) {
-      var on = !!f[name][v], n = counts[v] || 0;
-      return '<button type="button" class="chip" data-facet="' + name + '" data-v="' + esc(v) + '" aria-pressed="' + on + '"' +
-        (!n && !on ? " disabled" : "") + ">" + esc(labeler(v)) + '<span class="n">' + n + "</span></button>";
+      var on = !!chosen[v], n = counts[v] || 0;
+      return '<button type="button" class="chip" data-facet="' + fc.key + '" data-v="' + esc(v) + '" aria-pressed="' + on + '"' +
+        (!n && !on ? " disabled" : "") + ">" + esc(fc.lab(v)) + '<span class="n">' + n + "</span></button>";
     }).join("");
   }
 
@@ -278,7 +341,7 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   function renderFilters() {
     var tab = state.tab, f = state.f[tab], items = TABS[tab].items, html = "";
     var hasCoords = coordCount(items) > 0;
-    html += '<input type="search" id="q" placeholder="이름·메뉴·키워드 검색" value="' + esc(f.q) + '" aria-label="검색">';
+    html += '<input type="search" id="q" placeholder="이름·나라·요리·키워드 검색" value="' + esc(f.q) + '" aria-label="검색">';
 
     var anchorBtns = ANCHORS.map(function (a) {
       return '<button type="button" data-anchor="' + a.id + '" aria-pressed="' + (state.anchor === a.id) + '"' + (hasCoords ? "" : " disabled") + ">" + esc(a.label_ko) + "</button>";
@@ -287,8 +350,9 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     var kmBtns = KM_STEPS.map(function (k) {
       return '<button type="button" data-km="' + k + '" aria-pressed="' + (state.maxKm === k) + '"' + (hasCoords ? "" : " disabled") + ">" + (k ? k + "km" : "전체") + "</button>";
     }).join("");
-    html += group("거리", "", '<div class="seg" role="group" aria-label="기준점">' + anchorBtns + '</div><div class="seg" role="group" aria-label="최대 거리">' + kmBtns + "</div>" +
-      (hasCoords ? '<p class="hint">직선거리 기준. 도보 시간은 어림값.</p>' : '<p class="hint">아직 좌표를 수집하지 않아 거리 필터가 꺼져 있어요.</p>'));
+    var note = state.anchor === "place" ? '<div class="anchor-note">기준점: <b>' + esc(state.originLabel) + '</b> <button type="button" class="linkbtn" data-anchor="dom">해제</button></div>' : "";
+    html += group("거리", "", note + '<div class="seg" role="group" aria-label="기준점">' + anchorBtns + '</div><div class="seg" role="group" aria-label="최대 거리">' + kmBtns + "</div>" +
+      (hasCoords ? '<p class="hint">직선거리 기준. 도보 시간은 어림값. 카드의 “여기 기준”으로 아무 장소나 기준점이 돼요.</p>' : '<p class="hint">아직 좌표를 수집하지 않아 거리 필터가 꺼져 있어요.</p>'));
 
     var sortKeys = tab === "sights" ? ["priority", "rating", "distance", "name"] : ["rating", "reviews", "distance", "price", "name"];
     if (!hasCoords) sortKeys = sortKeys.filter(function (k) { return k !== "distance"; });
@@ -296,25 +360,29 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       return '<option value="' + k + '"' + (state.sort[tab] === k ? " selected" : "") + ">" + SORT_LABELS[k] + "</option>";
     }).join("") + "</select>");
 
-    html += group("유형", "", '<div class="chips">' + facet(items, f, "cat", function (i) { return i.category; }, function (v) { return lab("category", v); }) + "</div>");
-    html += group("지역", "", '<div class="chips">' + facet(items, f, "area", function (i) { return i.area; }, function (v) { return (AREAS[v] && AREAS[v].name_ko) || v; },
-      (G.areas || []).map(function (a) { return a.id; })) + "</div>");
-    if (tab === "food") {
-      html += group("나라·스타일", "", '<div class="chips">' + facet(items, f, "cuisine", function (i) { return i.cuisine_group; }, function (v) { return lab("cuisine_group", v); }) + "</div>");
-    }
-    if (tab !== "sights") {
-      html += group("가격", tab === "bars" ? "칵테일 1잔 기준" : "1인 음식값", '<div class="chips">' + facet(items, f, "price", function (i) { return i.price_level != null ? String(i.price_level) : null; },
-        function (v) { return lab("price_level", v); }, ["1", "2", "3", "4"]) + "</div>");
-      html += group("구글 평점", "", '<div class="seg" role="group" aria-label="최소 평점">' + MIN_RATINGS.map(function (r) {
-        return '<button type="button" data-rating="' + r + '" aria-pressed="' + (f.minRating === r) + '">' + (r ? "★" + r.toFixed(1) + "+" : "4.2+ 전체") + "</button>";
-      }).join("") + "</div>");
-    } else {
-      html += group("빠른 선택", "", '<div class="chips">' +
+    var main = "", more = "";
+    (FACETS[tab] || []).forEach(function (fc) {
+      var chips = facetChips(items, f, fc);
+      if (!chips) return;
+      var g = group(fc.label, fc.hint || "", '<div class="chips">' + chips + "</div>");
+      if (fc.more) more += g; else main += g;
+      if (fc.key === "price" && tab !== "sights") {
+        main += group("구글 평점", "", '<div class="seg" role="group" aria-label="최소 평점">' + MIN_RATINGS.map(function (r) {
+          return '<button type="button" data-rating="' + r + '" aria-pressed="' + (f.minRating === r) + '">' + (r ? "★" + r.toFixed(1) + "+" : "4.2+ 전체") + "</button>";
+        }).join("") + "</div>");
+      }
+    });
+    if (tab === "sights") {
+      main += group("빠른 선택", "", '<div class="chips">' +
         '<button type="button" class="chip" data-toggle="must" aria-pressed="' + f.must + '">첫 방문 필수</button>' +
         '<button type="button" class="chip" data-toggle="free" aria-pressed="' + f.free + '">무료</button>' +
         '<button type="button" class="chip" data-toggle="open" aria-pressed="' + f.open + '">휴관 제외</button></div>');
     }
-    html += group("태그", "", '<div class="chips">' + facet(items, f, "tag", function (i) { return i.tags; }, function (v) { return lab("tag", v); }) + "</div>");
+    html += main;
+    if (more) {
+      var moreOpen = state.moreOpen[tab] || (FACETS[tab] || []).some(function (fc) { return fc.more && keys(f.sel[fc.key]).length; });
+      html += '<details class="more-filters" id="more-' + tab + '"' + (moreOpen ? " open" : "") + "><summary>더 많은 필터</summary>" + more + "</details>";
+    }
     html += '<button type="button" class="reset" id="reset">필터 초기화</button>';
     document.getElementById("filters").innerHTML = html;
   }
@@ -357,22 +425,44 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
   }
   function actions(it) {
     return '<div class="actions"><a href="' + esc(mapsUrl(it)) + '" target="_blank" rel="noopener">구글 지도 ↗</a>' +
-      (it.website ? '<a href="' + esc(it.website) + '" target="_blank" rel="noopener">웹사이트 ↗</a>' : "") + "</div>";
+      (it.website ? '<a href="' + esc(it.website) + '" target="_blank" rel="noopener">웹사이트 ↗</a>' : "") +
+      (it.lat != null ? '<button type="button" class="linkbtn" data-place="' + esc(it.id) + '">여기 기준 거리</button>' : "") + "</div>";
+  }
+
+  function foodLine(it) {
+    var head = arr(it.cuisine_country).map(function (c) { return lab("country", c); }).join(" · ") ||
+      (it.cuisine_region ? lab("region", it.cuisine_region) : "");
+    var dishes = arr(it.dishes).slice(0, 3).map(function (d) { return lab("dish", d); }).join(" · ");
+    return [head, dishes || it.cuisine].filter(Boolean).join(" · ");
+  }
+  function facetTags(it) {
+    var out = [];
+    [["feature", it.features], ["diet", it.diet], ["meal", it.meals], ["occasion", it.occasions], ["vibe", it.vibe], ["drink", it.drinks]]
+      .forEach(function (p) { arr(p[1]).forEach(function (v) { out.push(lab(p[0], v)); }); });
+    if (it.payment === "cash-only") out.push("현금만");
+    if (!out.length) return "";
+    return '<div class="tags">' + out.slice(0, 7).map(function (t) { return "<span>" + esc(t) + "</span>"; }).join("") + "</div>";
+  }
+  function pricePp(it) {
+    var p = it.price_pp;
+    if (!p || (p.min == null && p.max == null)) return "";
+    return "1인 €" + (p.min != null ? p.min : "") + (p.max != null ? "–" + p.max : "");
   }
 
   function fnbCard(it) {
     var area = (AREAS[it.area] && AREAS[it.area].name_ko) || it.area;
-    var cuisine = lab("cuisine_group", it.cuisine_group);
     return '<article class="card">' +
       '<div class="card-top"><span class="eyebrow">' + esc(lab("category", it.category)) + " · " + esc(area) + "</span>" + priceHtml(it.price_level) + "</div>" +
       "<h3>" + esc(it.name) + "</h3>" +
-      '<p class="cuisine">' + esc(cuisine) + (it.cuisine ? " · " + esc(it.cuisine) : "") + "</p>" +
+      '<p class="cuisine">' + esc(foodLine(it)) + "</p>" +
       '<p class="meta">' + ratingHtml(it) + distHtml(it) + "</p>" +
       awardsHtml(it.awards) +
       (it.summary_ko ? '<p class="summary">' + esc(it.summary_ko) + "</p>" : "") +
       (it.must_try && it.must_try.length ? '<div class="try"><span class="label">추천</span>' + it.must_try.slice(0, 4).map(function (m) { return '<span class="pill">' + esc(m) + "</span>"; }).join("") + "</div>" : "") +
-      tagsHtml(it.tags) +
-      moreHtml([["팁", esc(it.tips_ko)], ["가격", esc(it.price_note)], ["주소", esc(it.address)],
+      facetTags(it) +
+      moreHtml([["팁", esc(it.tips_ko)], ["가격", esc([it.price_note, pricePp(it)].filter(Boolean).join(" · "))],
+        ["예약", known(it.reservation) ? esc(lab("reservation", it.reservation)) : ""], ["결제", known(it.payment) ? esc(lab("payment", it.payment)) : ""],
+        ["설명", esc(it.cuisine)], ["주소", esc(it.address)],
         ["평점 출처", it.rating_source ? esc(it.rating_source) + (it.google_as_of ? " · " + esc(it.google_as_of) : "") : ""], ["조사 출처", sourcesHtml(it.sources)]]) +
       actions(it) + "</article>";
   }
@@ -431,8 +521,9 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
 
   // ------------------------------------------------------------ main render
   function appliedCount(f) {
-    return keys(f.area).length + keys(f.cuisine).length + keys(f.cat).length + keys(f.price).length + keys(f.tag).length +
-      (f.minRating ? 1 : 0) + (f.free ? 1 : 0) + (f.must ? 1 : 0) + (f.open ? 1 : 0) + (f.q ? 1 : 0) + (state.maxKm ? 1 : 0);
+    var n = 0;
+    for (var k in f.sel) n += keys(f.sel[k]).length;
+    return n + (f.minRating ? 1 : 0) + (f.free ? 1 : 0) + (f.must ? 1 : 0) + (f.open ? 1 : 0) + (f.q ? 1 : 0) + (state.maxKm ? 1 : 0);
   }
 
   function renderResults() {
@@ -479,7 +570,10 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     var b = e.target.closest("button"); if (!b || b.disabled) return;
     var f = state.f[state.tab];
     if (b.id === "reset") { state.f[state.tab] = fresh(); state.maxKm = 0; render(); return; }
-    if (b.hasAttribute("data-facet")) { var fac = b.getAttribute("data-facet"), v = b.getAttribute("data-v"); f[fac][v] = !f[fac][v]; }
+    if (b.hasAttribute("data-facet")) {
+      var fac = b.getAttribute("data-facet"), v = b.getAttribute("data-v");
+      f.sel[fac] = f.sel[fac] || {}; f.sel[fac][v] = !f.sel[fac][v];
+    }
     else if (b.hasAttribute("data-anchor")) {
       state.anchor = b.getAttribute("data-anchor");
       if (state.anchor === "me") locate(); else store("anchor", state.anchor);
@@ -497,7 +591,16 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
     if (e.target.id === "sort") { state.sort[state.tab] = e.target.value; renderResults(); }
   });
   document.getElementById("grid").addEventListener("click", function (e) {
-    if (e.target.id === "reset2") { state.f[state.tab] = fresh(); state.maxKm = 0; render(); }
+    if (e.target.id === "reset2") { state.f[state.tab] = fresh(); state.maxKm = 0; render(); return; }
+    var pb = e.target.closest("[data-place]");
+    if (pb) {
+      var id = pb.getAttribute("data-place"), all = [].concat(TABS.food.items, TABS.bars.items, TABS.sights.items);
+      var it = all.filter(function (x) { return x.id === id; })[0];
+      if (it && it.lat != null) {
+        state.anchor = "place"; state.origin = { lat: it.lat, lng: it.lng }; state.originLabel = it.name_ko || it.name;
+        state.sort[state.tab] = "distance"; render(); window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }
   });
   function locate() {
     if (!navigator.geolocation) { state.anchor = "dom"; render(); return; }
@@ -508,6 +611,9 @@ footer { font-size: 12px; color: var(--muted); margin-top: 32px; }
       var n = document.getElementById("notice"); n.hidden = false; n.textContent = "위치 권한이 없어 대성당 기준으로 되돌렸어요.";
     }, { enableHighAccuracy: false, timeout: 8000 });
   }
+  document.getElementById("filters").addEventListener("toggle", function (e) {
+    if (e.target.classList && e.target.classList.contains("more-filters")) state.moreOpen[state.tab] = e.target.open;
+  }, true);
   window.addEventListener("hashchange", function () { setTab(location.hash.slice(1)); });
 
   var foot = document.getElementById("foot");

@@ -11,9 +11,10 @@
       "fnb-deutz-messe.json",
       "fnb-dom-altstadt-eigelstein.json",
       "fnb-ehrenfeld-lateng.json",
-      "fnb-suedstadt-other-korean.json"
+      "fnb-suedstadt-other-korean.json",
+      "wine-places.json"
     ],
-    "count": 125
+    "count": 128
   },
   "items": [
     {
@@ -1585,6 +1586,33 @@
         "https://guide.michelin.com/de/de/article/michelin-guide-ceremony/alle-sternerestaurants---michelin-guide-deutschland-2026"
       ],
       "research": "fnb-suedstadt-other-korean"
+    },
+    {
+      "name": "Wein am Rhein",
+      "area": "agnesviertel-eigelstein",
+      "address": "",
+      "reason": "not-verified (검색 한도 소진). 배경지식 기반 리드일 뿐: 중앙역 북쪽 Johannisstraße(라인강 쪽)의 독일 와인 중심 레스토랑 겸 와인바로 기억되며, 같은 주소에 파인다이닝 'maximilian lorenz'가 있었던 것으로 기억됨. 존재·정확한 주소·구글 평점/리뷰 수·2026년 영업 여부 모두 확인 필요. 확인되면 category restaurant 또는 wine-bar, tag german-wine 후보.",
+      "found": "이번 세션에서 찾은 수치·출처 없음",
+      "sources": [],
+      "research": "wine-places"
+    },
+    {
+      "name": "Henne.Weinbar",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "",
+      "reason": "not-verified (검색 한도 소진). 배경지식 기반 리드: Mittelstraße 인근 Pfeilstraße의 와인바(작은 접시 요리+와인)로 기억됨. 독일 와인 비중·주소·구글 수치·영업 여부 확인 필요. 확인되면 category wine-bar.",
+      "found": "이번 세션에서 찾은 수치·출처 없음",
+      "sources": [],
+      "research": "wine-places"
+    },
+    {
+      "name": "Kölner Weinkeller",
+      "area": "other",
+      "address": "",
+      "reason": "not-verified (검색 한도 소진). 배경지식 기반 리드: Braunsfeld(Stolberger Straße)의 대형 와인 전문 매장으로 기억됨(시음 행사). 주소·구글 수치·영업 여부·독일 와인 비중 확인 필요. 확인되면 category wine-shop.",
+      "found": "이번 세션에서 찾은 수치·출처 없음",
+      "sources": [],
+      "research": "wine-places"
     }
   ]
 }

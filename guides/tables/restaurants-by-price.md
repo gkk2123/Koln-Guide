@@ -12,10 +12,10 @@
 | 이름(지도) | 지역 | 음식 | 구글 | 가격 메모 |
 |---|---|---|---|---|
 | [Deutzer Brauhaus](https://www.google.com/maps/search/?api=1&query=Deutzer%20Brauhaus%20Ottoplatz%207%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 독일 | ★4.3 (9,240) | OpenTable 가격대 '보통(moderate)' |
-| [Hallmackenreuther](https://www.google.com/maps/search/?api=1&query=Hallmackenreuther%20Br%C3%BCsseler%20Platz%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 카페·베이커리 | ★4.2 (990) | spinach.guide 가격대 표기 $$ (구체적 메뉴 가격은 이번 조사에서 미확인) |
+| [Hallmackenreuther](https://www.google.com/maps/search/?api=1&query=Hallmackenreuther%20Br%C3%BCsseler%20Platz%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | ★4.2 (990) | spinach.guide 가격대 표기 $$ (구체적 메뉴 가격은 이번 조사에서 미확인) |
 
 ## €€€ — 1곳
 
 | 이름(지도) | 지역 | 음식 | 구글 | 가격 메모 |
 |---|---|---|---|---|
-| [Mongo's Köln](https://www.google.com/maps/search/?api=1&query=Mongo%27s%20K%C3%B6ln%20Ottoplatz%201%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 아시안 퓨전 | ★4.3 (3,074) | OpenTable 가격대 '높음(gehoben)' — 무제한 코스 정확한 가격은 미확인 |
+| [Mongo's Köln](https://www.google.com/maps/search/?api=1&query=Mongo%27s%20K%C3%B6ln%20Ottoplatz%201%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 퓨전·인터내셔널 | ★4.3 (3,074) | OpenTable 가격대 '높음(gehoben)' — 무제한 코스 정확한 가격은 미확인 |
