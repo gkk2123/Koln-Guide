@@ -2489,10 +2489,76 @@
       "style": "kneipe"
     },
     {
+      "id": "osters-rudi",
+      "name": "Osters Rudi",
+      "category": "kneipe",
+      "area": "nippes",
+      "address": "Hartwichstraße 26-28, 50733 Köln",
+      "lat": 50.958716,
+      "lng": 6.94761,
+      "cuisine": "Nippes neighbourhood and football pub with billiards, darts and skittles",
+      "cuisine_country": [],
+      "cuisine_region": null,
+      "dishes": [
+        "rhineland-classics"
+      ],
+      "diet": [],
+      "meals": [
+        "dinner",
+        "late-night"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "traditional",
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": null,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "맥주 가격 미확인 (출처 없음)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.3,
+      "google_reviews": 327,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (Google 4.3/327)",
+      "summary_ko": "닙페스(Nippes)의 동네·축구 크나이페로, 당구·다트·케겔(볼링)을 즐길 수 있고 쾰른식 안주 할버 한(Halver Hahn)을 낸다. 관광지를 벗어나 현지인 동네 술집 분위기를 느끼고 싶은 사람에게 맞다.",
+      "must_try": [
+        "Halver Hahn (호밀빵에 고다 치즈·양파·겨자를 곁들인 쾰른식 안주)"
+      ],
+      "tips_ko": "2022년 리뷰에 청결 문제와 주인 교체 이야기가 있으니 최근 리뷰를 확인할 것. 영업 월–목 16–24시, 금·토 ~02시(Restaurant Guru, 오래된 정보). 맥주 가격 출처 없음. top-rated.online은 4.3(236건).",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Osters-Rudi-Cologne",
+        "https://www.top-rated.online/cities/Nippes/place/p/8242315/Osters+Rudi",
+        "https://koeln.mitvergnuegen.com/2025/kegeln-kegelbahn-koeln/"
+      ],
+      "confidence": "medium",
+      "research": "r3-beer-pubs",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "verified_at": "2026-11-07",
+      "verification_status": "open",
+      "verification_note": "구글 수치 워크리스트와 동일. RG 페이지 최신 리뷰가 스냅샷 기준 7–8개월 전(스냅샷 날짜 미상) — 2025–26년 활동은 확인 못 함, 폐업 표시도 없음. 당구·다트·케겔반·축구 중계 있는 동네 크나이페, 생맥주 가펠 쾰시. 케겔반 예약 불안정 불만(옛 리뷰).",
+      "latest_review": null,
+      "price_checked": "2026-11",
+      "style": "kneipe"
+    },
+    {
       "id": "limes-muelheim",
       "name": "Limes",
       "category": "kneipe",
-      "area": "other",
+      "area": "muelheim-kalk",
       "address": "Mülheimer Freiheit 150, 51063 Köln",
       "lat": 50.967227,
       "lng": 7.002317,
@@ -2554,72 +2620,6 @@
       "verification_note": "구글 리뷰 수 소폭 증가(473 → 478). RG 표기명 'Limes Müllem'. 펑크록 크나이페, 공정한 가격. 최근 출처: 화–토 20시~(행사 시 19시~); '일 13–17:30 커피·케이크' 정보는 옛 기사. 이웃 때문에 음악은 22시 종료. MV 2025 샤일직 바 기사가 함께 검색됨.",
       "latest_review": null,
       "google_previous": "4.7 (473)",
-      "style": "kneipe"
-    },
-    {
-      "id": "osters-rudi",
-      "name": "Osters Rudi",
-      "category": "kneipe",
-      "area": "other",
-      "address": "Hartwichstraße 26-28, 50733 Köln",
-      "lat": 50.958716,
-      "lng": 6.94761,
-      "cuisine": "Nippes neighbourhood and football pub with billiards, darts and skittles",
-      "cuisine_country": [],
-      "cuisine_region": null,
-      "dishes": [
-        "rhineland-classics"
-      ],
-      "diet": [],
-      "meals": [
-        "dinner",
-        "late-night"
-      ],
-      "occasions": [
-        "group"
-      ],
-      "features": [],
-      "drinks": [],
-      "vibe": [
-        "traditional",
-        "local-favorite"
-      ],
-      "reservation": "unknown",
-      "payment": "unknown",
-      "location": [],
-      "price_level": null,
-      "price_estimated": false,
-      "price_pp": null,
-      "price_note": "맥주 가격 미확인 (출처 없음)",
-      "beer_price_eur": null,
-      "beer_price_note": null,
-      "beers": [],
-      "google_rating": 4.3,
-      "google_reviews": 327,
-      "google_as_of": null,
-      "rating_source": "restaurantguru.com (Google 4.3/327)",
-      "summary_ko": "닙페스(Nippes)의 동네·축구 크나이페로, 당구·다트·케겔(볼링)을 즐길 수 있고 쾰른식 안주 할버 한(Halver Hahn)을 낸다. 관광지를 벗어나 현지인 동네 술집 분위기를 느끼고 싶은 사람에게 맞다.",
-      "must_try": [
-        "Halver Hahn (호밀빵에 고다 치즈·양파·겨자를 곁들인 쾰른식 안주)"
-      ],
-      "tips_ko": "2022년 리뷰에 청결 문제와 주인 교체 이야기가 있으니 최근 리뷰를 확인할 것. 영업 월–목 16–24시, 금·토 ~02시(Restaurant Guru, 오래된 정보). 맥주 가격 출처 없음. top-rated.online은 4.3(236건).",
-      "website": null,
-      "awards": [],
-      "award_flags": [],
-      "sources": [
-        "https://restaurantguru.com/Osters-Rudi-Cologne",
-        "https://www.top-rated.online/cities/Nippes/place/p/8242315/Osters+Rudi",
-        "https://koeln.mitvergnuegen.com/2025/kegeln-kegelbahn-koeln/"
-      ],
-      "confidence": "medium",
-      "research": "r3-beer-pubs",
-      "checked": "2026-11-07",
-      "coord_source": "nominatim",
-      "verified_at": "2026-11-07",
-      "verification_status": "open",
-      "verification_note": "구글 수치 워크리스트와 동일. RG 페이지 최신 리뷰가 스냅샷 기준 7–8개월 전(스냅샷 날짜 미상) — 2025–26년 활동은 확인 못 함, 폐업 표시도 없음. 당구·다트·케겔반·축구 중계 있는 동네 크나이페, 생맥주 가펠 쾰시. 케겔반 예약 불안정 불만(옛 리뷰).",
-      "latest_review": null,
-      "price_checked": "2026-11",
       "style": "kneipe"
     }
   ]

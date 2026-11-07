@@ -185,6 +185,7 @@
 | Einstein | 대성당·구시가 | google-numbers-not-found | Yelp 4.8(11건), 마르틴스피어텔(구시가). 구글 수치·주소 미확보. |
 | Papa Rudis | 쥐트슈타트·라인아우하펜 | google-numbers-not-found | Wheree 다이브 바 목록에만 나옴. 구글 수치 미확보. |
 | Kuen pub & Bar | 기타 시내 | google-review-count-missing | Restaurant Guru Google 4.6(리뷰 수 미표시). Mit Vergnügen 2025 닙페스 목록: 쾰시·와인·롱드링크. 주소 미확보. |
+| Flora 6 | 기타 시내 | google-numbers-not-found | Mit Vergnügen 2025 닙페스 목록: 긴 밤으로 유명, 쾰시와 독주. 주소·구글 수치 미확보. |
 | Point One | 에렌펠트 | google-numbers-not-found | Mit Vergnügen 2025 '축구 보기 좋은 크나이페': 축구 팬 모임 장소, 쾰시가 쌈(지역은 검색 요약 기준 에렌펠트). 주소·구글 수치 미확보. |
 | Wicleff | 에렌펠트 | google-numbers-not-found | Mit Vergnügen 2025 '축구 보기 좋은 크나이페': 쾰시와 축구의 동네 크나이페(지역은 검색 요약 기준). 주소·구글 수치 미확보. |
 | Schmelztiegel | 크바르티어 라텡(쥘피허 지구) | google-numbers-not-found | Mit Vergnügen 2024 '11 günstige Bars und Kneipen': Luxemburger Straße, 목요일 비어퐁 나이트(우승 팀에 €50 쾰시 쿠폰). 번지·구글 수치 미확보. |

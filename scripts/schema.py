@@ -23,6 +23,7 @@ MIN_REVIEWS = 50
 AREAS = [
     "dom-altstadt", "belgisches-viertel", "friesenviertel-ehrenstrasse", "kwartier-lateng",
     "ehrenfeld", "suedstadt-rheinauhafen", "agnesviertel-eigelstein", "deutz-messe",
+    "nippes", "suelz-lindenthal", "muelheim-kalk",
     "other", "day-trip",
 ]
 
@@ -107,6 +108,21 @@ ATTRACTION_TAGS = [
 ]
 ATTRACTION_STATUS = ["open", "closed-renovation", "temporary-location", "seasonal"]
 BOOKING = ["not-needed", "recommended", "required"]
+
+# Neighbourhoods added in round 8; places filed as "other" move here by postcode.
+AREA_BY_POSTCODE = {
+    "50733": "nippes", "50735": "nippes",
+    "50931": "suelz-lindenthal", "50935": "suelz-lindenthal", "50937": "suelz-lindenthal", "50939": "suelz-lindenthal",
+    "51063": "muelheim-kalk", "51065": "muelheim-kalk", "51103": "muelheim-kalk", "51105": "muelheim-kalk",
+}
+
+
+def refine_area(area: str | None, address: str | None) -> str | None:
+    if area not in (None, "", "other"):
+        return area
+    m = re.search(r"\b(5\d{4})\b", address or "")
+    return AREA_BY_POSTCODE.get(m.group(1), area) if m else area
+
 
 # What kind of place it is (format), separate from cuisine/nationality: shown as "인도네시아 · 비스트로 · €€".
 STYLES = {

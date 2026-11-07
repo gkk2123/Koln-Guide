@@ -42,7 +42,7 @@
 | [Tsukiji](https://www.google.com/maps/search/?api=1&query=Tsukiji%20Z%C3%BClpicher%20Platz%204a%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | €€ | ★4.8 (982) |
 | [COCO Ramen – Sushi – Asian kitchen](https://www.google.com/maps/search/?api=1&query=COCO%20Ramen%20%E2%80%93%20Sushi%20%E2%80%93%20Asian%20kitchen%20Breite%20Stra%C3%9Fe%2026%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 일본 | €€ | ★4.7 (947) |
 | [Daimyo - Ramen & Fitnes Sushi Restaurant](https://www.google.com/maps/search/?api=1&query=Daimyo%20-%20Ramen%20%26%20Fitnes%20Sushi%20Restaurant%20Friesenwall%20116%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 일본 | €€ | ★4.7 (834) |
-| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 일본 | €€€ | ★4.7 (731) |
+| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 쥘츠·린덴탈 | 일본 | €€€ | ★4.7 (731) |
 | [ITO Japanese Cuisine](https://www.google.com/maps/search/?api=1&query=ITO%20Japanese%20Cuisine%20Antwerpener%20Stra%C3%9Fe%2015%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | €€€€ | ★4.6 (310) |
 | [Tanoshii](https://www.google.com/maps/search/?api=1&query=Tanoshii%20Brabanter%20Stra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 베트남 | €€€ | ★4.5 (905) |
 | [Sushi Ninja](https://www.google.com/maps/search/?api=1&query=Sushi%20Ninja%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 일본 | €€ | ★4.5 (724) |
@@ -53,7 +53,7 @@
 |---|---|---|---|---|
 | [Nam](https://www.google.com/maps/search/?api=1&query=Nam%20Engelbertstra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 베트남 | € | ★4.9 (676) |
 | [NaiNai Bao](https://www.google.com/maps/search/?api=1&query=NaiNai%20Bao%20Josef-Haubrich-Hof%203%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 중국 | € | ★4.8 (587) |
-| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 일본 | €€€ | ★4.7 (731) |
+| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 쥘츠·린덴탈 | 일본 | €€€ | ★4.7 (731) |
 | [Tang Wang Köln](https://www.google.com/maps/search/?api=1&query=Tang%20Wang%20K%C3%B6ln%20Maximinenstra%C3%9Fe%204%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 중국 | € | ★4.7 (685) |
 | [Bai Lu Noodles](https://www.google.com/maps/search/?api=1&query=Bai%20Lu%20Noodles%20Palmstra%C3%9Fe%2041%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 중국 | €€ | ★4.5 (1,352) |
 | [MEIWEI](https://www.google.com/maps/search/?api=1&query=MEIWEI%20Mindener%20Stra%C3%9Fe%204%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 중국 · 태국 | – | ★4.5 (128) |
@@ -65,7 +65,7 @@
 | [Maspinzelo](https://www.google.com/maps/search/?api=1&query=Maspinzelo%20Landmannstra%C3%9Fe%204%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 조지아 | €€ | ★4.8 (783) |
 | [NaiNai Bao](https://www.google.com/maps/search/?api=1&query=NaiNai%20Bao%20Josef-Haubrich-Hof%203%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 중국 | € | ★4.8 (587) |
 | [Downtowner Korean Urban Restaurant](https://www.google.com/maps/search/?api=1&query=Downtowner%20Korean%20Urban%20Restaurant%20Severinstra%C3%9Fe%20162a%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 한국 | €€ | ★4.7 (1,218) |
-| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 일본 | €€€ | ★4.7 (731) |
+| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 쥘츠·린덴탈 | 일본 | €€€ | ★4.7 (731) |
 | [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 미국 | € | ★4.6 (356) |
 | [MEIWEI](https://www.google.com/maps/search/?api=1&query=MEIWEI%20Mindener%20Stra%C3%9Fe%204%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 중국 · 태국 | – | ★4.5 (128) |
 | [Daikan](https://www.google.com/maps/search/?api=1&query=Daikan%20Maastrichter%20Stra%C3%9Fe%209%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | €€ | ★4.3 (2,378) |
@@ -146,7 +146,7 @@
 | [Vegan Food Revolution](https://www.google.com/maps/search/?api=1&query=Vegan%20Food%20Revolution%20Venloer%20Str.%20456%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 중동·터키·북아프리카 | – | ★4.7 (531) |
 | [Bethlehem Oriental Kitchen](https://www.google.com/maps/search/?api=1&query=Bethlehem%20Oriental%20Kitchen%20Lenauplatz%208%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 레바논 | € | ★4.7 (362) |
 | [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 중동·터키·북아프리카 | €€ | ★4.5 (1,042) |
-| [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 기타 시내 | 그리스 | €€ | ★4.5 (451) |
+| [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 니페스·리엘 | 그리스 | €€ | ★4.5 (451) |
 | [NENI Köln](https://www.google.com/maps/search/?api=1&query=NENI%20K%C3%B6ln%20Im%20Klapperhof%2022-24%2C%2050670%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 이스라엘 | €€€ | ★4.3 (1,989) |
 | [Beirut Restaurant](https://www.google.com/maps/search/?api=1&query=Beirut%20Restaurant%20Buttermarkt%203%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레바논 | €€ | ★4.2 (3,692) |
 
@@ -162,7 +162,7 @@
 | [El Chango](https://www.google.com/maps/search/?api=1&query=El%20Chango%20Bolzengasse%209%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 아르헨티나 | – | ★4.5 (1,929) |
 | [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 중동·터키·북아프리카 | €€ | ★4.5 (1,042) |
 | [Zarathustra](https://www.google.com/maps/search/?api=1&query=Zarathustra%20Dasselstra%C3%9Fe%204%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 이란 | €€ | ★4.5 (807) |
-| [Kilim Restaurant](https://www.google.com/maps/search/?api=1&query=Kilim%20Restaurant%20Keupstra%C3%9Fe%2069%2C%2051063%20K%C3%B6ln) | 기타 시내 | 터키 | € | ★4.3 (3,248) |
+| [Kilim Restaurant](https://www.google.com/maps/search/?api=1&query=Kilim%20Restaurant%20Keupstra%C3%9Fe%2069%2C%2051063%20K%C3%B6ln) | 뮐하임·칼크(강 건너 동쪽) | 터키 | € | ★4.3 (3,248) |
 | [Beirut Restaurant](https://www.google.com/maps/search/?api=1&query=Beirut%20Restaurant%20Buttermarkt%203%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레바논 | €€ | ★4.2 (3,692) |
 
 ## 버거 — 2곳
@@ -184,7 +184,7 @@
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
 | [Tsukiji](https://www.google.com/maps/search/?api=1&query=Tsukiji%20Z%C3%BClpicher%20Platz%204a%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | €€ | ★4.8 (982) |
-| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 일본 | €€€ | ★4.7 (731) |
+| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 쥘츠·린덴탈 | 일본 | €€€ | ★4.7 (731) |
 | [ITO Japanese Cuisine](https://www.google.com/maps/search/?api=1&query=ITO%20Japanese%20Cuisine%20Antwerpener%20Stra%C3%9Fe%2015%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | €€€€ | ★4.6 (310) |
 | [Bier-Esel](https://www.google.com/maps/search/?api=1&query=Bier-Esel%20Breite%20Stra%C3%9Fe%20114%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | €€ | ★4.5 (2,712) |
 | [TapaVinho](https://www.google.com/maps/search/?api=1&query=TapaVinho%20Kurf%C3%BCrstenstra%C3%9Fe%2029%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 포르투갈 · 스페인 | – | ★4.5 (333) |
@@ -196,7 +196,7 @@
 | [Maspinzelo](https://www.google.com/maps/search/?api=1&query=Maspinzelo%20Landmannstra%C3%9Fe%204%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 조지아 | €€ | ★4.8 (783) |
 | [Tapeo & Co.](https://www.google.com/maps/search/?api=1&query=Tapeo%20%26%20Co.%20Lindenstra%C3%9Fe%2038%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 스페인 | €€ | ★4.5 (2,336) |
 | [Tigermilch](https://www.google.com/maps/search/?api=1&query=Tigermilch%20Br%C3%BCsseler%20Str.%2012%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 페루 | €€€ | ★4.5 (1,059) |
-| [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 기타 시내 | 그리스 | €€ | ★4.5 (451) |
+| [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 니페스·리엘 | 그리스 | €€ | ★4.5 (451) |
 | [TapaVinho](https://www.google.com/maps/search/?api=1&query=TapaVinho%20Kurf%C3%BCrstenstra%C3%9Fe%2029%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 포르투갈 · 스페인 | – | ★4.5 (333) |
 | [Daikan](https://www.google.com/maps/search/?api=1&query=Daikan%20Maastrichter%20Stra%C3%9Fe%209%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | €€ | ★4.3 (2,378) |
 
@@ -287,7 +287,7 @@
 |---|---|---|---|---|
 | [Hempies](https://www.google.com/maps/search/?api=1&query=Hempies%20H%C3%A4ndelstra%C3%9Fe%2055%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | € | ★4.8 (535) |
 | [Oma Janßen Colonialwarenhandel](https://www.google.com/maps/search/?api=1&query=Oma%20Jan%C3%9Fen%20Colonialwarenhandel%20Alter%20Markt%2056%2C%2050667%20K%C3%B6ln) | 대성당·구시가 |  | €€ | ★4.7 (694) |
-| [Darwish Konditorei](https://www.google.com/maps/search/?api=1&query=Darwish%20Konditorei%20Z%C3%BClpicher%20Stra%C3%9Fe%20273%2C%2050937%20K%C3%B6ln) | 기타 시내 | 중동·터키·북아프리카 | € | ★4.5 (940) |
+| [Darwish Konditorei](https://www.google.com/maps/search/?api=1&query=Darwish%20Konditorei%20Z%C3%BClpicher%20Stra%C3%9Fe%20273%2C%2050937%20K%C3%B6ln) | 쥘츠·린덴탈 | 중동·터키·북아프리카 | € | ★4.5 (940) |
 | [Damla](https://www.google.com/maps/search/?api=1&query=Damla%20Weidengasse%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 터키 | € | ★4.2 (538) |
 
 ## 케이크 — 8곳

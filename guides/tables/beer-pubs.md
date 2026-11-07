@@ -11,7 +11,7 @@
 
 | 이름(지도) | 지역 | 유형 | 맥주 가격 | 구글 | 맥주 |
 |---|---|---|---|---|---|
-| [Limes](https://www.google.com/maps/search/?api=1&query=Limes%20M%C3%BClheimer%20Freiheit%20150%2C%2051063%20K%C3%B6ln) | 기타 시내 | 동네 펍 | €1.60 | ★4.7 (478) | Kölsch, Astra |
+| [Limes](https://www.google.com/maps/search/?api=1&query=Limes%20M%C3%BClheimer%20Freiheit%20150%2C%2051063%20K%C3%B6ln) | 뮐하임·칼크(강 건너 동쪽) | 동네 펍 | €1.60 | ★4.7 (478) | Kölsch, Astra |
 | [Zum Goldenen Kegel](https://www.google.com/maps/search/?api=1&query=Zum%20Goldenen%20Kegel%20Balthasarstra%C3%9Fe%2053%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 동네 펍 | €1.70 | ★4.7 (212) | Reissdorf Kölsch |
 | [Kunst Kaschämm](https://www.google.com/maps/search/?api=1&query=Kunst%20Kasch%C3%A4mm%20Alter%20Markt%202%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 동네 펍 | €1.70 | ★4.6 (1,125) | Reissdorf Kölsch |
 | [Gaststätte Trierer Eck](https://www.google.com/maps/search/?api=1&query=Gastst%C3%A4tte%20Trierer%20Eck%20Trierer%20Stra%C3%9Fe%2021A%2C%2050676%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 동네 펍 | €1.80 | ★4.5 (403) | Reissdorf Kölsch |
@@ -95,9 +95,14 @@
 | [Brauhaus ohne Namen (b.o.n.)](https://www.google.com/maps/search/?api=1&query=Brauhaus%20ohne%20Namen%20%28b.o.n.%29%20Mathildenstra%C3%9Fe%2042%2C%2050679%20K%C3%B6ln) | 브라우하우스 | 쾰시 | – | ★4.3 (1,740) |  | 일요일 영업 | 도이츠 마틸덴슈트라세에 있는 젊고 아늑한 브라우하우스로, 라인 지방 향토 요리와 쾰시를 낸다. LANXESS 아레나·메쎄·도이츠역에서 걸어서 몇 분 거리라 행사 전후 저녁 식사에 좋고, 큼직한 코텔레트가 인기다. |
 | [Em Bierstüffge](https://www.google.com/maps/search/?api=1&query=Em%20Bierst%C3%BCffge%20Graf-Ge%C3%9Fler-Stra%C3%9Fe%201%2C%2050679%20K%C3%B6ln) | 동네 펍 | Reissdorf Kölsch | – | ★4.3 (875) | 현금만 | 일요일 영업, 테라스 | 도이츠 메쎄·LANXESS 아레나에서 가까운 골목의 동네 술집(가스트슈테테)으로, 공식 사이트가 '갓 따른, 알맞은 온도의 라이스도르프(Reissdorf) 쾰시'를 내세운다. 케겔반(볼링 레인)이 있고 FC 쾰른·쾰른 하이에 경기를 중계해, 메쎄 일정 뒤 현지인 틈에서 한잔하기 좋다. |
 
-## 기타 시내 — 2곳
+## 니페스·리엘 — 1곳
+
+| 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
+|---|---|---|---|---|---|---|---|
+| [Osters Rudi](https://www.google.com/maps/search/?api=1&query=Osters%20Rudi%20Hartwichstra%C3%9Fe%2026-28%2C%2050733%20K%C3%B6ln) | 동네 펍 |  | – | ★4.3 (327) |  |  | 닙페스(Nippes)의 동네·축구 크나이페로, 당구·다트·케겔(볼링)을 즐길 수 있고 쾰른식 안주 할버 한(Halver Hahn)을 낸다. 관광지를 벗어나 현지인 동네 술집 분위기를 느끼고 싶은 사람에게 맞다. |
+
+## 뮐하임·칼크(강 건너 동쪽) — 1곳
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
 | [Limes](https://www.google.com/maps/search/?api=1&query=Limes%20M%C3%BClheimer%20Freiheit%20150%2C%2051063%20K%C3%B6ln) | 동네 펍 | Kölsch, Astra | €1.60 | ★4.7 (478) |  | 라이브 음악 | 강 건너 뮐하임(Mülheim)의 펑크록 성향 크나이페로, 시끄러운 라이브 공연과 쾰른에서 가장 싼 축의 쾰시(2024년 €1.60)로 알려져 있다. 관광지에서 떨어져 있지만 싸게 마시며 동네 록 공연을 보고 싶은 사람에게 맞다. |
-| [Osters Rudi](https://www.google.com/maps/search/?api=1&query=Osters%20Rudi%20Hartwichstra%C3%9Fe%2026-28%2C%2050733%20K%C3%B6ln) | 동네 펍 |  | – | ★4.3 (327) |  |  | 닙페스(Nippes)의 동네·축구 크나이페로, 당구·다트·케겔(볼링)을 즐길 수 있고 쾰른식 안주 할버 한(Halver Hahn)을 낸다. 관광지를 벗어나 현지인 동네 술집 분위기를 느끼고 싶은 사람에게 맞다. |

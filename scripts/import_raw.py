@@ -23,7 +23,7 @@ sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 from schema import (  # noqa: E402
     AREAS, ATTRACTION_CATEGORIES, ATTRACTION_STATUS, ATTRACTION_TAGS, BAR_CATEGORIES, BOOKING,
     COUNTRIES, DATA, DATA_FILES, FACETS, FNB_CATEGORIES, FOOD_CATEGORIES, PAYMENT, RAW, REGIONS,
-    RESERVATION, SHOP_CATEGORIES, STYLES, V1_CUISINE_GROUP, V1_TAGS, award_flags, infer_countries, infer_dishes, infer_style,
+    RESERVATION, SHOP_CATEGORIES, STYLES, refine_area, V1_CUISINE_GROUP, V1_TAGS, award_flags, infer_countries, infer_dishes, infer_style,
     in_cologne, is_area_wide, load_json, meets_criteria, norm_name, region_for, save_json, slugify, street_key,
 )
 
@@ -118,7 +118,7 @@ def normalize_fnb(p: dict, agent: str) -> dict:
     if cat not in FNB_CATEGORIES:
         warn(f"{where}: unknown category '{cat}' -> restaurant")
         cat = "restaurant"
-    area = p.get("area")
+    area = refine_area(p.get("area"), p.get("address"))
     if area not in AREAS:
         warn(f"{where}: unknown area '{area}' -> other")
         area = "other"
@@ -212,6 +212,7 @@ def normalize_fnb(p: dict, agent: str) -> dict:
         "beer_price_eur": beer_price(p.get("beer_price_eur"), where),
         "beer_price_note": p.get("beer_price_note"),
         "beers": as_list(p.get("beers")),
+        "style_hint": p.get("style_hint") if p.get("style_hint") in STYLES else None,
         "google_rating": as_float(p.get("google_rating")),
         "google_reviews": as_int(p.get("google_reviews")),
         "google_as_of": p.get("google_as_of"),
@@ -239,7 +240,7 @@ def normalize_attraction(p: dict, agent: str) -> dict:
     if cat not in ATTRACTION_CATEGORIES:
         warn(f"{where}: unknown attraction category '{cat}' -> landmark")
         cat = "landmark"
-    area = p.get("area")
+    area = refine_area(p.get("area"), p.get("address"))
     if area not in AREAS:
         warn(f"{where}: unknown area '{area}' -> other")
         area = "other"

@@ -18,7 +18,7 @@
 | [Takumi – Japanisches Ramen Restaurant](https://www.google.com/maps/search/?api=1&query=Takumi%20%E2%80%93%20Japanisches%20Ramen%20Restaurant%20Hohenstaufenring%2058%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 라멘집 | €€ | ★4.7 (7,973) | 라멘 | Takumi Köln Signature Ramen (타쿠미 쾰른 시그니처 라멘), Gyoza mit Hähnchen (치킨 교자 — 6개), Veggie Gyoza (채소 교자) |
 | [COCO Ramen – Sushi – Asian kitchen](https://www.google.com/maps/search/?api=1&query=COCO%20Ramen%20%E2%80%93%20Sushi%20%E2%80%93%20Asian%20kitchen%20Breite%20Stra%C3%9Fe%2026%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 라멘집 | €€ | ★4.7 (947) | 라멘, 스시 | Veggie TanTan Ramen (베지 탄탄 라멘 — 매콤한 참깨 채식 라멘), Beji Miso Ramen (베지 미소 라멘 — 미소 육수 채식 라멘), Tonkotsu Ramen (돈코츠 라멘 — 진한 돼지뼈 |
 | [Daimyo - Ramen & Fitnes Sushi Restaurant](https://www.google.com/maps/search/?api=1&query=Daimyo%20-%20Ramen%20%26%20Fitnes%20Sushi%20Restaurant%20Friesenwall%20116%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 라멘집 | €€ | ★4.7 (834) | 라멘, 스시 |  |
-| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 스시 | €€€ | ★4.7 (731) | 스시, 면 요리, 만두·딤섬, 해산물 | Omakase set (오마카세 세트), Tempura (덴푸라), Udon (우동), Gyoza (교자), Sashimi (사시미) |
+| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 쥘츠·린덴탈 | 스시 | €€€ | ★4.7 (731) | 스시, 면 요리, 만두·딤섬, 해산물 | Omakase set (오마카세 세트), Tempura (덴푸라), Udon (우동), Gyoza (교자), Sashimi (사시미) |
 | [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 버거 | € | ★4.6 (356) | 라멘, 버거, 만두·딤섬 | Shio Ramen (시오 라멘 — 소금 베이스 맑은 국물), Gyoza (교자), Cocktails (칵테일) |
 | [ITO Japanese Cuisine](https://www.google.com/maps/search/?api=1&query=ITO%20Japanese%20Cuisine%20Antwerpener%20Stra%C3%9Fe%2015%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 파인다이닝 | €€€€ | ★4.6 (310) | 스시, 코스 요리, 해산물 | Omakase (오마카세 — 셰프 추천 코스), Nigiri (니기리 스시) |
 | [Tanoshii](https://www.google.com/maps/search/?api=1&query=Tanoshii%20Brabanter%20Stra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 스시 | €€€ | ★4.5 (905) | 스시 | Unagi Nigiri (장어 니기리), Wagyu Nigiri (와규 니기리), Creative sushi rolls (창작 롤) |
@@ -59,7 +59,7 @@
 | [Thai Imbiss](https://www.google.com/maps/search/?api=1&query=Thai%20Imbiss%20Eigelstein%20114%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 스트리트 푸드·임비스 | € | ★4.5 (1,535) |  |  |
 | [Thai Food](https://www.google.com/maps/search/?api=1&query=Thai%20Food%20Friesenwall%2024B%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 캐주얼 식당 | €€ | ★4.5 (862) |  |  |
 | [Krua Thai am Heumarkt](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20am%20Heumarkt%20Heumarkt%2025%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 스트리트 푸드·임비스 | € | ★4.4 (948) |  | Thai-Curry mit Reis (타이 커리 — 밥을 곁들인 태국식 커리), Frühlingsrollen (스프링롤 — 바삭한 태국식 튀김 춘권) |
-| [Thai Gourmet](https://www.google.com/maps/search/?api=1&query=Thai%20Gourmet%20Neusser%20Str.%20311%2C%2050733%20K%C3%B6ln) | 기타 시내 | 캐주얼 식당 | – | ★4.4 (540) |  |  |
+| [Thai Gourmet](https://www.google.com/maps/search/?api=1&query=Thai%20Gourmet%20Neusser%20Str.%20311%2C%2050733%20K%C3%B6ln) | 니페스·리엘 | 캐주얼 식당 | – | ★4.4 (540) |  |  |
 | [Krua Thai – Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20%E2%80%93%20Belgisches%20Viertel%20Br%C3%BCsseler%20Str.%2040-42%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 캐주얼 식당 | €€ | ★4.2 (918) |  |  |
 
 ### 베트남 (4)
@@ -109,7 +109,7 @@
 | [Tantuni Haus](https://www.google.com/maps/search/?api=1&query=Tantuni%20Haus%20Venloer%20Stra%C3%9Fe%20282%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 스트리트 푸드·임비스 | € | ★4.6 (381) | 케밥·되너 | Tantuni (탄투니 — 잘게 썬 고기를 철판에 볶아 얇은 빵에 돌돌 만 메르신식 랩), Vegan Lahmacun (비건 라마준 — 샐러드를 올려 말아 먹는 얇은 터키식 피자) |
 | [Kudret Kebap House](https://www.google.com/maps/search/?api=1&query=Kudret%20Kebap%20House%20Venloer%20Stra%C3%9Fe%20280%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 케밥·되너 | € | ★4.5 (7,892) | 케밥·되너 | Döner Kebap (되너 케밥 — 회전 꼬치에 구운 고기를 얇게 썰어 빵에 채운 것) |
 | [Öz Harran Doy Doy](https://www.google.com/maps/search/?api=1&query=%C3%96z%20Harran%20Doy%20Doy%20Weidengasse%2028-34%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 케밥·되너 | €€ | ★4.4 (2,404) |  | Adana Kebap (아다나 케밥 — 매콤한 다진 고기 꼬치구이), Lahmacun (라마준 — 다진 고기를 얹은 얇은 튀르키예식 피자), Lammkopfsuppe (양 머리 수프 — 튀르키예식 켈레 파차) |
-| [Kilim Restaurant](https://www.google.com/maps/search/?api=1&query=Kilim%20Restaurant%20Keupstra%C3%9Fe%2069%2C%2051063%20K%C3%B6ln) | 기타 시내 | 그릴·고기구이 | € | ★4.3 (3,248) | 그릴·숯불구이 | Lahmacun (라마준 — 다진 고기를 얇게 펴 구운 터키식 피자), Ayran (아이란 — 짭짤한 터키식 요구르트 음료) |
+| [Kilim Restaurant](https://www.google.com/maps/search/?api=1&query=Kilim%20Restaurant%20Keupstra%C3%9Fe%2069%2C%2051063%20K%C3%B6ln) | 뮐하임·칼크(강 건너 동쪽) | 그릴·고기구이 | € | ★4.3 (3,248) | 그릴·숯불구이 | Lahmacun (라마준 — 다진 고기를 얇게 펴 구운 터키식 피자), Ayran (아이란 — 짭짤한 터키식 요구르트 음료) |
 | [Damla](https://www.google.com/maps/search/?api=1&query=Damla%20Weidengasse%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 디저트 | € | ★4.2 (538) | 빵·페이스트리 | Fıstıklı Baklava (피스타치오 바클라바) |
 
 ### 레바논 (5)
@@ -128,7 +128,7 @@
 |---|---|---|---|---|---|---|
 | [Vegan Food Revolution](https://www.google.com/maps/search/?api=1&query=Vegan%20Food%20Revolution%20Venloer%20Str.%20456%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 채식·비건 | – | ★4.7 (531) | 팔라펠, 메제 | Hummus (후무스), Falafel (팔라펠), Baklava (바클라바) |
 | [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 메제(소량 전채) | €€ | ★4.5 (1,042) | 메제, 그릴·숯불구이, 케밥·되너 | Mezze (메제 — 중동식 소량 전채 모둠), Mixed Grill (믹스 그릴 — 여러 고기 구이 모둠) |
-| [Darwish Konditorei](https://www.google.com/maps/search/?api=1&query=Darwish%20Konditorei%20Z%C3%BClpicher%20Stra%C3%9Fe%20273%2C%2050937%20K%C3%B6ln) | 기타 시내 | 디저트 | € | ★4.5 (940) | 빵·페이스트리 | Walnuss-Baklava (호두 바클라바), Kunafa (쿠나파 — 가는 반죽과 치즈에 시럽을 끼얹은 중동 디저트) |
+| [Darwish Konditorei](https://www.google.com/maps/search/?api=1&query=Darwish%20Konditorei%20Z%C3%BClpicher%20Stra%C3%9Fe%20273%2C%2050937%20K%C3%B6ln) | 쥘츠·린덴탈 | 디저트 | € | ★4.5 (940) | 빵·페이스트리 | Walnuss-Baklava (호두 바클라바), Kunafa (쿠나파 — 가는 반죽과 치즈에 시럽을 끼얹은 중동 디저트) |
 | [Falafel König](https://www.google.com/maps/search/?api=1&query=Falafel%20K%C3%B6nig%20Venloer%20Stra%C3%9Fe%20384%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 스트리트 푸드·임비스 | € | ★4.3 (1,044) | 팔라펠 | Falafel (팔라펠 — 가게에서 직접 빚어 튀기는 병아리콩 완자) |
 
 ### 이란 (2)
@@ -171,7 +171,7 @@
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
-| [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 기타 시내 | 메제(소량 전채) | €€ | ★4.5 (451) | 타파스·작은 접시, 메제 | Griechische Tapas / Mezedes (그리스식 타파스) |
+| [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 니페스·리엘 | 메제(소량 전채) | €€ | ★4.5 (451) | 타파스·작은 접시, 메제 | Griechische Tapas / Mezedes (그리스식 타파스) |
 | [Kouzina Greekstreetfood & Wine](https://www.google.com/maps/search/?api=1&query=Kouzina%20Greekstreetfood%20%26%20Wine%20Aachener%20Str.%2010%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 스트리트 푸드·임비스 | €€ | ★4.4 (917) |  |  |
 
 ### 스페인 (1)
@@ -279,7 +279,7 @@
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
-| [Enat Äthiopisches Restaurant](https://www.google.com/maps/search/?api=1&query=Enat%20%C3%84thiopisches%20Restaurant%20Remscheider%20Stra%C3%9Fe%2045%2C%2051103%20K%C3%B6ln) | 기타 시내 | 셰어 플래터 | €€ | ★4.9 (565) |  | Doro Wat (도로 왓 — 매콤한 에티오피아식 닭고기 스튜), Doro Tibs (도로 티브스 — 에티오피아식 닭고기 볶음), Sambusa (삼부사 — 속을 채운 바삭한 튀김 페이스트리) |
+| [Enat Äthiopisches Restaurant](https://www.google.com/maps/search/?api=1&query=Enat%20%C3%84thiopisches%20Restaurant%20Remscheider%20Stra%C3%9Fe%2045%2C%2051103%20K%C3%B6ln) | 뮐하임·칼크(강 건너 동쪽) | 셰어 플래터 | €€ | ★4.9 (565) |  | Doro Wat (도로 왓 — 매콤한 에티오피아식 닭고기 스튜), Doro Tibs (도로 티브스 — 에티오피아식 닭고기 볶음), Sambusa (삼부사 — 속을 채운 바삭한 튀김 페이스트리) |
 | [Soliana](https://www.google.com/maps/search/?api=1&query=Soliana%20Subbelrather%20Stra%C3%9Fe%20242%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 가정식 | €€ | ★4.9 (145) |  | Injera-Platte (인제라 플래터 — 발효 빵 인제라 위에 여러 스튜를 올린 모둠), Tibs (티브스 — 에티오피아식 고기 볶음) |
 | [Fasika Restaurant](https://www.google.com/maps/search/?api=1&query=Fasika%20Restaurant%20Luxemburger%20Stra%C3%9Fe%2017%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 셰어 플래터 | – | ★4.6 (586) |  |  |
 | [Injera Restaurant](https://www.google.com/maps/search/?api=1&query=Injera%20Restaurant%20Lindenstra%C3%9Fe%2086%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 셰어 플래터 | €€ | ★4.5 (745) |  | Veggie Platter (채식 모둠 플래터 — 여러 채소 스튜를 인제라 위에 올려 냄), Mixed Platter (믹스 플래터 — 고기·채소 스튜 모둠) |

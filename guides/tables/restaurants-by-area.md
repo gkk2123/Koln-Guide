@@ -189,17 +189,38 @@
 | [Café Heimisch (Heimisch Kaffee & Regionales)](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Heimisch%20%28Heimisch%20Kaffee%20%26%20Regionales%29%20Deutzer%20Freiheit%2072%E2%80%9374%2C%2050679%20K%C3%B6ln) | 아침·브런치 카페 | Café with regional products – breakfast, coffee, light lunch | €€ | ★4.3 (1,376) | 1.2km | 1.2km | 도이츠의 먹자 거리 Deutzer Freiheit에서 2016년부터 지역 식재료로 아침과 커피를 내는 카페로, 식물성 우유 선택지가 많다. 위층이 비교적 조용해 메쎄 방문 전후의 아침이나 가벼운 점심, 혼자 쉬어 가기에 좋다. |  |
 | [Café Especial](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Especial%20Neuh%C3%B6fferstra%C3%9Fe%2032%2C%2050679%20K%C3%B6ln) | 칸티나(멕시칸 바) | 멕시코 · Mexican cantina & tequila bar | € | ★4.2 (3,517) | 1.2km | 0.9km | 1986년부터 도이츠에서 영업해 온 멕시칸 레스토랑 겸 테킬라 바(칸티나)다. 타코·부리토·퀘사디야·나초 같은 친숙한 메뉴에 술을 곁들이는 캐주얼한 곳이라 여럿이 모이는 저녁에 무난하다. | Tacos (타코), Burritos (부리토), Quesadillas (퀘사디야), Nachos (나초) |
 
-## 기타 시내 (Weitere Stadtteile) — 8곳
+## 니페스·리엘 (Nippes & Riehl) — 2곳
+
+대성당 북쪽의 주거 지역. 빌헬름플라츠 시장과 노이서 거리를 따라 동네 식당·카페·크나이페가 많고, 리엘에는 동물원과 플로라 식물원이 있다.
+
+| 이름(지도) | 유형 | 나라·음식 | 가격 | 구글 | 대성당 | 메쎄 | 한 줄 소개 | 추천 |
+|---|---|---|---|---|---|---|---|---|
+| [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 메제(소량 전채) | 그리스 · Greek taverna — Greek tapas (mezedes) | €€ | ★4.5 (451) | 2.1km | 2.7km | 닙페스(Nippes)의 그리스 타베르나로, 작은 접시로 나눠 먹는 그리스식 타파스에 집중한다. 구글 4.5점이라 닙페스 쪽에 묵거나 들를 때 좋은 선택이다. | Griechische Tapas / Mezedes (그리스식 타파스) |
+| [Thai Gourmet](https://www.google.com/maps/search/?api=1&query=Thai%20Gourmet%20Neusser%20Str.%20311%2C%2050733%20K%C3%B6ln) | 캐주얼 식당 | 태국 · Thai | – | ★4.4 (540) | 2.8km | 2.9km | 니페스(Nippes) 지구 노이서 거리(Neusser Str.)에 있는 태국 식당입니다. 빠른 서비스와 가성비를 칭찬하는 리뷰가 많습니다(4.4, 리뷰 540개). 시내 중심에서 북쪽으로 떨어진 주거 지역이라, 일부러 찾아가기보다 니페스 쪽 일정이 있을 때 들르기 좋습니다. |  |
+
+## 쥘츠·린덴탈 (Sülz, Klettenberg & Lindenthal) — 2곳
+
+대학 서남쪽의 주거 지역. 베렌라터 거리와 뒤레너 거리에 카페·비스트로·각국 식당이 모여 있고 시립 숲(Stadtwald)과 가깝다.
+
+| 이름(지도) | 유형 | 나라·음식 | 가격 | 구글 | 대성당 | 메쎄 | 한 줄 소개 | 추천 |
+|---|---|---|---|---|---|---|---|---|
+| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 스시 | 일본 · Japanese — sushi, sashimi, tempura, udon, gyoza, omakase set | €€€ | ★4.7 (731) | 4.0km | 5.7km | 린덴탈 주택가에 있는 담백하고 캐주얼한 일식당으로 2026 미쉐린 가이드 셀렉션에 올랐다. 교자·튀김·우동·스시·사시미에 푸짐한 오마카세 세트까지 있어, 관광지를 벗어나 현지인 동네에서 정갈한 일식을 먹고 싶을 때 좋다. | Omakase set (오마카세 세트), Tempura (덴푸라), Udon (우동), Gyoza (교자), Sashimi (사시미) |
+| [Darwish Konditorei](https://www.google.com/maps/search/?api=1&query=Darwish%20Konditorei%20Z%C3%BClpicher%20Stra%C3%9Fe%20273%2C%2050937%20K%C3%B6ln) | 디저트 | 중동·터키·북아프리카 · Middle Eastern pastry shop (baklava, kunafa) | € | ★4.5 (940) | 3.2km | 4.9km | 쥘츠(Sülz) 쪽 쥘피허 거리의 중동식 과자점으로, 호두 바클라바와 쿠나파가 특히 칭찬받고 직원이 친절하다는 평이 많다. 바클라바·쿠나파 같은 중동 디저트를 맛보고 싶은 사람에게 맞다. | Walnuss-Baklava (호두 바클라바), Kunafa (쿠나파 — 가는 반죽과 치즈에 시럽을 끼얹은 중동 디저트) |
+
+## 뮐하임·칼크(강 건너 동쪽) (Mülheim (Keupstraße) & Kalk) — 2곳
+
+라인강 동쪽의 다문화 지역. 뮐하임 코이프슈트라세는 터키 음식 거리로 유명하고, 칼크에는 에티오피아·중동 식당이 있다.
+
+| 이름(지도) | 유형 | 나라·음식 | 가격 | 구글 | 대성당 | 메쎄 | 한 줄 소개 | 추천 |
+|---|---|---|---|---|---|---|---|---|
+| [Enat Äthiopisches Restaurant](https://www.google.com/maps/search/?api=1&query=Enat%20%C3%84thiopisches%20Restaurant%20Remscheider%20Stra%C3%9Fe%2045%2C%2051103%20K%C3%B6ln) | 셰어 플래터 | 에티오피아 · 에리트레아 · Ethiopian / Eritrean restaurant (Kalk) | €€ | ★4.9 (565) | 3.3km | 1.7km | 강 건너 칼크 지역의 에티오피아 레스토랑(에리트레아 요리로도 분류)으로, 구글 평점 4.9(396건)로 쾰른 아프리카 음식점 가운데 가장 높은 축의 평가를 받는다. 도심에서 떨어져 있지만 에티오피아 음식에 관심이 있다면 찾아갈 만하다. | Doro Wat (도로 왓 — 매콤한 에티오피아식 닭고기 스튜), Doro Tibs (도로 티브스 — 에티오피아식 닭고기 볶음), Sambusa (삼부사 — 속을 채운 바삭한 튀김 페이스트리) |
+| [Kilim Restaurant](https://www.google.com/maps/search/?api=1&query=Kilim%20Restaurant%20Keupstra%C3%9Fe%2069%2C%2051063%20K%C3%B6ln) | 그릴·고기구이 | 터키 · Turkish restaurant on Keupstraße (Mülheim) — lahmacun, grill, desserts | € | ★4.3 (3,248) | 4.5km | 2.9km | 강 건너 뮐하임 코이프슈트라세의 터키 레스토랑으로, 라마준과 그릴 고기, 디저트가 리뷰에서 칭찬받고 가격도 합리적이라는 평이다(구글 리뷰 3,000건 이상). 라마준에 아이란을 곁들이러 다시 온다는 단골 리뷰가 있을 만큼 기본기가 좋은 곳이다. | Lahmacun (라마준 — 다진 고기를 얇게 펴 구운 터키식 피자), Ayran (아이란 — 짭짤한 터키식 요구르트 음료) |
+
+## 기타 시내 (Weitere Stadtteile) — 2곳
 
 린덴탈, 쥘츠, 니페스, 뮐하임, 릴(동물원) 등 도심 밖 동네.
 
 | 이름(지도) | 유형 | 나라·음식 | 가격 | 구글 | 대성당 | 메쎄 | 한 줄 소개 | 추천 |
 |---|---|---|---|---|---|---|---|---|
-| [Enat Äthiopisches Restaurant](https://www.google.com/maps/search/?api=1&query=Enat%20%C3%84thiopisches%20Restaurant%20Remscheider%20Stra%C3%9Fe%2045%2C%2051103%20K%C3%B6ln) | 셰어 플래터 | 에티오피아 · 에리트레아 · Ethiopian / Eritrean restaurant (Kalk) | €€ | ★4.9 (565) | 3.3km | 1.7km | 강 건너 칼크 지역의 에티오피아 레스토랑(에리트레아 요리로도 분류)으로, 구글 평점 4.9(396건)로 쾰른 아프리카 음식점 가운데 가장 높은 축의 평가를 받는다. 도심에서 떨어져 있지만 에티오피아 음식에 관심이 있다면 찾아갈 만하다. | Doro Wat (도로 왓 — 매콤한 에티오피아식 닭고기 스튜), Doro Tibs (도로 티브스 — 에티오피아식 닭고기 볶음), Sambusa (삼부사 — 속을 채운 바삭한 튀김 페이스트리) |
 | [Bulgogi Haus](https://www.google.com/maps/search/?api=1&query=Bulgogi%20Haus%20Neusser%20Stra%C3%9Fe%20654%2C%2050737%20K%C3%B6ln) | 그릴·고기구이 | 한국 · Korean BBQ (tabletop grill) with banchan buffet | €€ | ★4.8 (2,024) | 4.9km | 4.9km | 쾰른 북쪽 노이서 거리 끝자락(니페스 방면)에 있는 테이블 그릴식 한국 고깃집으로, 현지인에게 한식당을 물으면 먼저 꼽힌다는 곳이다. 고기 질과 반찬 뷔페가 호평이라 여럿이 제대로 된 한국식 고기구이를 먹고 싶을 때 맞다. | Bulgogi (불고기 — 테이블에서 직접 굽는 양념 소고기), Banchan buffet (반찬 뷔페) |
 | [Il Gelato di Ferigo](https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20di%20Ferigo%20Goltsteinstra%C3%9Fe%2032%2C%2050968%20K%C3%B6ln) | 젤라토·아이스크림 | 이탈리아 · Italian gelateria (30–40 flavours) | € | ★4.7 (1,617) | 3.4km | 4.0km | 남쪽 주거지 바이엔탈(Bayenthal) 골트슈타인 거리의 젤라테리아로, 언제 가도 30–40가지 맛을 갖추고 있어 Wanderlog 쾰른 아이스크림 리스트 상위에 오른다. 이탈리아식 젤라토를 제대로 맛보고 싶은 사람에게 맞다. |  |
-| [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 스시 | 일본 · Japanese — sushi, sashimi, tempura, udon, gyoza, omakase set | €€€ | ★4.7 (731) | 4.0km | 5.7km | 린덴탈 주택가에 있는 담백하고 캐주얼한 일식당으로 2026 미쉐린 가이드 셀렉션에 올랐다. 교자·튀김·우동·스시·사시미에 푸짐한 오마카세 세트까지 있어, 관광지를 벗어나 현지인 동네에서 정갈한 일식을 먹고 싶을 때 좋다. | Omakase set (오마카세 세트), Tempura (덴푸라), Udon (우동), Gyoza (교자), Sashimi (사시미) |
-| [Darwish Konditorei](https://www.google.com/maps/search/?api=1&query=Darwish%20Konditorei%20Z%C3%BClpicher%20Stra%C3%9Fe%20273%2C%2050937%20K%C3%B6ln) | 디저트 | 중동·터키·북아프리카 · Middle Eastern pastry shop (baklava, kunafa) | € | ★4.5 (940) | 3.2km | 4.9km | 쥘츠(Sülz) 쪽 쥘피허 거리의 중동식 과자점으로, 호두 바클라바와 쿠나파가 특히 칭찬받고 직원이 친절하다는 평이 많다. 바클라바·쿠나파 같은 중동 디저트를 맛보고 싶은 사람에게 맞다. | Walnuss-Baklava (호두 바클라바), Kunafa (쿠나파 — 가는 반죽과 치즈에 시럽을 끼얹은 중동 디저트) |
-| [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 메제(소량 전채) | 그리스 · Greek taverna — Greek tapas (mezedes) | €€ | ★4.5 (451) | 2.1km | 2.7km | 닙페스(Nippes)의 그리스 타베르나로, 작은 접시로 나눠 먹는 그리스식 타파스에 집중한다. 구글 4.5점이라 닙페스 쪽에 묵거나 들를 때 좋은 선택이다. | Griechische Tapas / Mezedes (그리스식 타파스) |
-| [Thai Gourmet](https://www.google.com/maps/search/?api=1&query=Thai%20Gourmet%20Neusser%20Str.%20311%2C%2050733%20K%C3%B6ln) | 캐주얼 식당 | 태국 · Thai | – | ★4.4 (540) | 2.8km | 2.9km | 니페스(Nippes) 지구 노이서 거리(Neusser Str.)에 있는 태국 식당입니다. 빠른 서비스와 가성비를 칭찬하는 리뷰가 많습니다(4.4, 리뷰 540개). 시내 중심에서 북쪽으로 떨어진 주거 지역이라, 일부러 찾아가기보다 니페스 쪽 일정이 있을 때 들르기 좋습니다. |  |
-| [Kilim Restaurant](https://www.google.com/maps/search/?api=1&query=Kilim%20Restaurant%20Keupstra%C3%9Fe%2069%2C%2051063%20K%C3%B6ln) | 그릴·고기구이 | 터키 · Turkish restaurant on Keupstraße (Mülheim) — lahmacun, grill, desserts | € | ★4.3 (3,248) | 4.5km | 2.9km | 강 건너 뮐하임 코이프슈트라세의 터키 레스토랑으로, 라마준과 그릴 고기, 디저트가 리뷰에서 칭찬받고 가격도 합리적이라는 평이다(구글 리뷰 3,000건 이상). 라마준에 아이란을 곁들이러 다시 온다는 단골 리뷰가 있을 만큼 기본기가 좋은 곳이다. | Lahmacun (라마준 — 다진 고기를 얇게 펴 구운 터키식 피자), Ayran (아이란 — 짭짤한 터키식 요구르트 음료) |
