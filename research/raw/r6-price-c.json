@@ -1,0 +1,549 @@
+{
+  "agent": "r6-price-c",
+  "generated": "2026-11-07",
+  "price_updates": [
+    {
+      "id": "sadaf",
+      "name": "Sadaf",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note_ko": "메인 Fesenjan €14, 콜드 전채 €3 (speisekarte.menu, 날짜 미상, 메인 가격은 1개만 확인). 현금 결제만 가능하고 음료 가격이 비싸다는 리뷰 있음",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [
+        "Fesenjan (페센잔 — 석류·호두 소스 스튜)",
+        "Kebab (케밥 — 리뷰에서 호평받는 이란식 꼬치구이)",
+        "Mast Gerdu (마스트 게르두 — 호두를 넣은 요거트 전채)"
+      ],
+      "sources": [
+        "https://speisekarte.menu/restaurants/koeln/sadaf/menu",
+        "https://speisekarte.menu/restaurants/koeln/sadaf",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/sadaf/bewertung"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "tsukiji-koeln",
+      "name": "Tsukiji",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "모둠 스시 15pc 'Tsukiji Gemischt' €24.90, 참치 타르타르 €10.50, 4인 플래터 €92 (speisekarte.de 2023-10 메뉴). OpenTable 가격대 '€30 이하'",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/tsukiji/speisekarte",
+        "https://www.opentable.com/r/tsukiji-koln",
+        "https://koeln.mitvergnuegen.com/2020/neueroeffnungen-winter-2019-2020/"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "takumi-ramen-koeln",
+      "name": "Takumi – Japanisches Ramen Restaurant",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "시그니처 라멘 €18.80, 교자 6개 €5.00–5.50 (speisekarte.de, 2023-05 갱신)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "ramen-bar",
+      "signature_ko": [
+        "Takumi Köln Signature Ramen (타쿠미 쾰른 시그니처 라멘)",
+        "Gyoza mit Hähnchen (치킨 교자 — 6개)",
+        "Veggie Gyoza (채소 교자)"
+      ],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/takumi_ramen_japanisches_restaurant/speisekarte",
+        "https://www.falstaff.com/en/streetfood/takumi-ramen-1",
+        "https://www.nochoffen.de/altstadtsued-takumi-koeln-japanisches-ramen"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "bei-oma-kleinmann",
+      "name": "Bei Oma Kleinmann",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "슈니첼 €14.90–22.90 (돼지 €14.90–16.90, 송아지 €20.90–22.90; speisekarte.de 2023-09 메뉴). 목·금 점심 2코스 €24.50, 소프트드링크·커피 포함 (2025 기사)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": "옛 리뷰(연도 미상)에 쾰시 0.2 l €1.40로 나오나 현재 가격으로 보기 어려워 미기재",
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/bei_oma_kleinmann/speisekarte",
+        "https://koeln.mitvergnuegen.com/2025/gutbuergerliche-restaurants",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/bei_oma_kleinmann/bewertung"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "ganesha-indisches-restaurant",
+      "name": "Ganesha Indisches Restaurant",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note_ko": "메뉴 가격은 못 찾음. Petit Futé 최저 가격 등급 '€', OpenTable '€30 이하', 리뷰에서 '가격 적당' 평",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://petitfute.com/v48110-cologne/c1165-restaurants/c1031-cuisines-du-monde/c1035-cuisine-d-asie/c54-restaurant-indien",
+        "https://opentable.co.uk/r/ganesha-cologne",
+        "https://www.werkenntdenbesten.de/e/29059189/indisches-restaurant/koeln/joginder-ganesha-indisches-restaurant-bewertungen.html"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "hana-korean-kitchen",
+      "name": "Hana Korean Kitchen",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "가격 정보 미발견 (검색 3회). mitvergnuegen 2025 기사는 김치·만두·불고기·비빔밥·코리안 프라이드치킨 등 메뉴만 언급",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/koreanisch-essen"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "ristorante-etrusca",
+      "name": "Ristorante Etrusca",
+      "price_level": 3,
+      "price_pp": null,
+      "price_note_ko": "메인 €15–35, 코스 €35–49 (Schlemmer Atlas, 날짜 미상). OpenTable은 '€30 이하'로 표기해 상충, 메뉴는 주 단위로 바뀜",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [
+        "Taglierini aus dem Parmesanlaib mit frischem Trüffel (파르메산 휠에서 버무린 생트러플 탈리에리니)",
+        "Spaghetti alla Bottarga (보타르가 스파게티 — 어란 파스타)",
+        "Thunfisch-Tatar mit Avocado und Feldsalat (참치 타르타르 — 아보카도·콘샐러드 곁들임)"
+      ],
+      "sources": [
+        "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/ristorante-etrusca/",
+        "https://www.opentable.com/r/ristorante-etrusca-koln",
+        "https://koeln.mitvergnuegen.com/2024/trueffelpasta/",
+        "https://www.koeln.de/?p=92171"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "el-inca-restaurant",
+      "name": "El Inca Restaurant",
+      "price_level": 2,
+      "price_pp": {"min": 20, "max": 30},
+      "price_note_ko": "레스토랑구루 1인 €20–30. 요리 €11–20, 세비체 데 감바스 €12, 파리야다 엘 잉카 €44 (speisekarte.menu, 날짜 미상)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [
+        "Ceviche de Gambas (세비체 데 감바스 — 라임에 절인 새우 세비체)",
+        "Parrillada El Inca (파리야다 엘 잉카 — 모둠 그릴 플래터)"
+      ],
+      "sources": [
+        "https://de.restaurantguru.com/El-Inca-Cologne",
+        "https://speisekarte.menu/restaurants/koeln/el-inca/menu"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "fasika",
+      "name": "Fasika Restaurant",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "메인 가격을 못 찾아 등급 보류. speisekarte.menu 기준 음식·음료 평균 약 €12, 아바이 샐러드 €10 (날짜 미상). 에어비앤비 리뷰 '가격 합리적'",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://speisekarte.menu/restaurants/koeln/fasika/menu",
+        "https://speisekarte.menu/restaurants/koeln/fasika"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "tapeo-and-co",
+      "name": "Tapeo & Co.",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "타파스 개당 €5 (뷔페에서 골라 서빙) 또는 큰 접시 €5·작은 접시 €4 (2025 mitvergnuegen 기사 2건). 2026-02 구글 리뷰엔 '너무 비싸다' 평도 있음",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "tapas",
+      "signature_ko": [],
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2025/tapas-essen/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-spanisch-essen",
+        "https://app.wanderlog.com/place/details/1282848"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "zarathustra",
+      "name": "Zarathustra",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "메인 €14부터, 전채 플래터(2–3인) €18 (2021 기사). NeoTaste 기준 비건·채식 메인 1개 약 €15 (날짜 미상)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2021/persisch-vegan-zarathustra/",
+        "https://neotaste.com/restaurants/cologne/zarathustra",
+        "https://speisekarte.menu/restaurants/koeln/zarathustra"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "injera-restaurant",
+      "name": "Injera Restaurant",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "인제라 메인(닭·소·양) €11.90–16.90, 삼부사 €5.80 (speisekarte.de 2023–2024 메뉴). 이 메뉴판이 린덴슈트라세 지점 것인지는 불확실",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/injera/speisekarte",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/injera1/speisekarte",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/injera"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "ginti-indian-restaurant",
+      "name": "Ginti Indian Restaurant",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "NeoTaste 2for1 딜 기준 메인 1개 약 €19 (날짜 미상)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://neotaste.com/restaurants/cologne/ginti-indian-restaurant",
+        "https://koeln.mitvergnuegen.com/2025/indisch-essen"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "casita-mexicana-belgisches-viertel",
+      "name": "Casita Mexicana Belgisches Viertel",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note_ko": "부리토 €12.40 (speisekarte.de 2022, 체인 공통 메뉴), 수요일 타코 특가 €5.50 (mitvergnuegen 기사)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/casita_mexicana/speisekarte",
+        "https://koeln.mitvergnuegen.com/2026/tacos-koeln",
+        "https://www.meininger.de/gastronomie/konzepte/undercover-casita-mexicana-koeln"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "capricorn-i-aries-brasserie",
+      "name": "Capricorn [i] Aries Brasserie",
+      "price_level": 3,
+      "price_pp": null,
+      "price_note_ko": "메인 €18–32, 코스 €35부터 (Schlemmer Atlas). 미쉐린 €€·빕 구르망, OpenTable 4·5·6코스 메뉴 (OpenTable 가격대 '€30 이하'는 상충)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "brasserie",
+      "signature_ko": [
+        "Coq au Vin (코코뱅 — 레드와인에 졸인 닭고기)",
+        "Barschfilet (퍼치 필레 — 민물농어 요리)",
+        "Risotto mit Austernpilzen (느타리버섯 리소토)"
+      ],
+      "sources": [
+        "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/capricorn-i-aries/",
+        "https://guide.michelin.com/en/nordrhein-westfalen/koln/restaurant/capricorn-i-aries-brasserie",
+        "https://opentable.com/r/brasserie-capricorn-i-aries"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "casita-mexicana-suedstadt",
+      "name": "Casita Mexicana Südstadt",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note_ko": "부리토 €12.40 (speisekarte.de 2022, 체인 공통 메뉴), 월–수 칵테일 종일 €7.90 (mitvergnuegen 기사)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/casita_mexicana/speisekarte",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/koeln_altstadt_casita_mexicana/speisekarte",
+        "https://koeln.mitvergnuegen.com/2026/mexikanisch-essen"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "al-salam",
+      "name": "Al Salam",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "그릴 요리 €13–23, 따뜻한 요리 €8.50–21.50, 찬 요리 €11–14.50 (Meininger, 에이펠플라츠 이전 당시 메뉴). speisekarte.de '메인 대부분 €15 미만', OpenTable '€31–50'",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [],
+      "sources": [
+        "https://www.meininger.de/gastronomie/locations/die-legende-lebt-al-salam-koeln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/orientalisches_restaurant_al_salam",
+        "https://opentable.co.uk/al-salam"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "tapavinho",
+      "name": "TapaVinho",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "가격 정보 미발견 (검색 3회). koeln.de 기준 쿠어퓌르스텐슈트라세 29 외에 본너 슈트라세 26 'TapaVinho im Fertig' 지점도 있음",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "tapas",
+      "signature_ko": [],
+      "sources": [
+        "https://www.koeln.de/branchen/eintrag/49452/restaurants/tapavinho-im-fertig",
+        "https://koeln.mitvergnuegen.com/2025/tapas-essen/"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "die-fette-kuh",
+      "name": "Die Fette Kuh",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "치즈버거 €14.90, 감자튀김(소스 2개) €7.20 (Wolt 배달가라 매장가와 다를 수 있음). 리뷰상 가격대가 높은 편",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "burger",
+      "signature_ko": [],
+      "sources": [
+        "https://wolt.com/de/deu/cologne/restaurant/die-fette-kuh",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/die_fette_kuh",
+        "https://www.koeln.de/branchen/eintrag/44954/burgerlaeden/die-fette-kuh"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "spirits-bar",
+      "name": "Spirits Bar (Dominique Simon)",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "칵테일 가격 미발견 (검색 2회). Tablejourney 가격대 €€€, '조금 비싸지만 그만한 가치' 리뷰(오래된 것)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "cocktail-bar",
+      "signature_ko": [],
+      "sources": [
+        "https://tablejourney.com/germany/cologne/cuisine/cocktail-bar/",
+        "https://tablejourney.com/germany/cologne/bars/late/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/spirits",
+        "https://www.falstaff.com/en/the-best/barguide-deutschland-2024-the-best-cocktail-bars-in-cologne"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "ona-mor",
+      "name": "ONA MOR",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "시그니처 모히토 'The Mojo' €12.50 (rausgegangen 블로그, 날짜 미상)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "cocktail-bar",
+      "signature_ko": [
+        "The Mojo (더 모조 — 하우스 시그니처 모히토)"
+      ],
+      "sources": [
+        "https://rausgegangen.de/en/blog/beste-cocktailbars-koeln-mojitos/",
+        "https://koeln.mitvergnuegen.com/2025/cocktail-bars/"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "samuels-shep",
+      "name": "Samuel's Shep",
+      "price_level": null,
+      "price_pp": {"min": 10, "max": 20},
+      "price_note_ko": "칵테일 단가를 못 찾음. 레스토랑구루 1인 €10–20만 확인돼 등급 보류. Falstaff 바 가이드 2026 91점",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "cocktail-bar",
+      "signature_ko": [],
+      "sources": [
+        "https://restaurantguru.com/Shepheard-Cologne",
+        "https://www.falstaff.com/en/bars/samuels-shep",
+        "https://www.cologne-tourism.com/food-drink/gastronomy/samuels-shep"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "der-stiefel",
+      "name": "Der Stiefel",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "음식 가격 정보 없음",
+      "beer_price_eur": null,
+      "beer_price_note_ko": "쾰시 가격 미발견 (에어비앤비 리뷰: '쾰시를 좋은 가격에 마실 수 있다'는 정도)",
+      "style_hint": "kneipe",
+      "signature_ko": [],
+      "sources": [
+        "https://www.koeln.de/leben/ll/beliebte-fussballkneipen-in-koeln/stiefel/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/stiefel",
+        "https://www.airbnb.com/things-to-do/places/343688"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "rosebud-bar",
+      "name": "Rosebud Bar",
+      "price_level": 2,
+      "price_pp": null,
+      "price_note_ko": "하우스 클래식 진저 바질 스매시 €11.50 (speisekarte.de, 날짜 미상). 소개 글에서 '지갑에 부담 없는' 바로 묘사",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": "cocktail-bar",
+      "signature_ko": [
+        "Ginger Basil Smash (진저 바질 스매시 — 진·바질·헤이즐넛·진저비어)"
+      ],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/rosebud/speisekarte",
+        "https://www.cologne-tourism.com/food-drink/gastronomy/rosebud",
+        "https://www.merian.de/bar/de/köln/rosebud-a3"
+      ],
+      "confidence": "medium",
+      "checked": "2026-11"
+    },
+    {
+      "id": "torburg",
+      "name": "Torburg",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "음식 가격 미발견 (speisekarte.menu에 수제 프리카델레가 있으나 가격 없음)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": "쾰시 가격 미발견 (라이스도르프 쾰시 생맥주, 가격 표기 없음)",
+      "style_hint": "kneipe",
+      "signature_ko": [
+        "Hausgemachte Frikadelle (수제 프리카델레 — 독일식 다진 고기 패티)"
+      ],
+      "sources": [
+        "https://speisekarte.menu/restaurants/koeln/torburg/menu",
+        "https://www.koeln.de/branchen/eintrag/43359/kneipen/torburg",
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/torburg"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "ubier-schaenke",
+      "name": "Ubier-Schänke",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "가격 정보 미발견",
+      "beer_price_eur": null,
+      "beer_price_note_ko": "쾰시 가격 미발견",
+      "style_hint": "kneipe",
+      "signature_ko": [],
+      "sources": [
+        "https://www.koeln.de/branchen/eintrag/10989/kneipen/ubierschaenke",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/ubierschaenke"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "chlodwig-eck",
+      "name": "Chlodwig-Eck",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "가격 정보 미발견 (speisekarte.de 리뷰: '가격 공정', 레스토랑 성격도 있는 크나이페)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": "쾰시 가격 미발견 (검색 2회)",
+      "style_hint": "kneipe",
+      "signature_ko": [],
+      "sources": [
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/chlodwigeck",
+        "https://www.koeln.de/gastro/eintrag/44176/kneipen/chlodwig-eck",
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/chlodwig-eck"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "bar-botanik",
+      "name": "Bar Botanik (Hotel im Wasserturm)",
+      "price_level": 3,
+      "price_pp": null,
+      "price_note_ko": "칵테일 €13–18, 셰어링 디시 €11–29 (mitvergnuegen 2022 기사, 이후 올랐을 수 있음)",
+      "beer_price_eur": null,
+      "beer_price_note_ko": null,
+      "style_hint": null,
+      "signature_ko": [
+        "Bar Botanik Gin Tonic (바 보타닉 진토닉 — 파슬리·민트·장미잎·로즈메리·토마토·레몬)"
+      ],
+      "sources": [
+        "https://koeln.mitvergnuegen.com/2022/bar-botanik",
+        "https://www.tageskarte.io/gastronomie/detail/bar-botanik-im-koelner-hotel-im-wasserturm-eroeffnet.html",
+        "https://magazine.cologne-tourism.com/culinary/grand-heights-colognes-finest-roof-top-bars/"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    },
+    {
+      "id": "schnoerres",
+      "name": "Schnörres",
+      "price_level": null,
+      "price_pp": null,
+      "price_note_ko": "가격 정보 미발견",
+      "beer_price_eur": null,
+      "beer_price_note_ko": "쾰시 가격 미발견 (쾰른관광청: 프뤼 쾰시 생맥주 제공)",
+      "style_hint": "kneipe",
+      "signature_ko": [],
+      "sources": [
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/schnoerres",
+        "https://willkommen.koelntourismus.de/en/gastro/em-schnoerres"
+      ],
+      "confidence": "low",
+      "checked": "2026-11"
+    }
+  ],
+  "notes_ko": "검색 48회 사용(상한 도달). 폐업이 확인된 곳은 없음. (1) 크나이페 5곳(Der Stiefel, Torburg, Ubier-Schänke, Chlodwig-Eck, Schnörres)은 온라인에서 쾰시 0.2 l 가격을 못 찾음, 현장 확인 필요. (2) Bei Oma Kleinmann 쾰시 €1.40은 옛 리뷰라 기재하지 않음. (3) Spirits Bar는 Tablejourney에 Maastrichter Straße 35로 나와 Engelbertstraße 63과 상충, 이전 여부 미확인 (https://tablejourney.com/germany/cologne/bars/late/). (4) OpenTable '€30 이하' 가격대는 Etrusca·Capricorn 등에서 메뉴 가격과 맞지 않아 참고만 함. (5) Casita Mexicana 두 지점은 2022년 체인 공통 메뉴 가격 기준. (6) TapaVinho는 Bonner Straße 26에 'TapaVinho im Fertig' 지점이 따로 있음 (https://www.koeln.de/branchen/eintrag/49452/restaurants/tapavinho-im-fertig). (7) Samuel's Shep은 1인 범위(€10–20)만 있어 칵테일 등급은 보류함."
+}

@@ -28,6 +28,7 @@
       "r5-tickets-private.json",
       "r6-price-a.json",
       "r6-price-b.json",
+      "r6-price-c.json",
       "wine-places.json"
     ],
     "count": 29
@@ -755,7 +756,11 @@
       "sources": [
         "https://www.werkenntdenbesten.de/e/54331281/bar/koeln/spirits-dominique-simon-bewertungen.html",
         "https://spiritsbar.de/2-contact-us/",
-        "https://www.dasoertliche.de/Themen/Spirits-K%C3%B6ln-Neustadt-S%C3%BCd-Engelbertstr"
+        "https://www.dasoertliche.de/Themen/Spirits-K%C3%B6ln-Neustadt-S%C3%BCd-Engelbertstr",
+        "https://tablejourney.com/germany/cologne/cuisine/cocktail-bar/",
+        "https://tablejourney.com/germany/cologne/bars/late/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/spirits",
+        "https://www.falstaff.com/en/the-best/barguide-deutschland-2024-the-best-cocktail-bars-in-cologne"
       ],
       "confidence": "high",
       "research": "r2-bars",
@@ -765,6 +770,7 @@
       "verification_status": "open",
       "verification_note": "주소 Engelbertstr. 63 확인. werkenntdenbesten 구글 4.70/896 재확인, 변동 없음(5개 포털 합산 4.71/1,156). 공식 사이트 영업시간 월–목 18–01, 금–토 18–03, 일 18–24이지만 'Corona special' 표기라 오래된 정보일 수 있음. 디렉터리는 20시 오픈으로 표기. 일부 바텐더가 불친절하다는 리뷰 있음.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "cocktail-bar"
     },
     {
@@ -790,10 +796,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "price_note": "시그니처 모히토 'The Mojo' €12.50 (rausgegangen 블로그, 날짜 미상)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -802,7 +808,9 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com",
       "summary_ko": "쥘피허 지구 로온슈트라세(Roonstraße)의 칵테일 바로, konfetti의 쾰른 칵테일 바 가이드를 비롯해 여러 바 리스트에 반복해서 이름이 오른다. 구글 기반 평점 4.7(리뷰 700건 이상)로 평가가 고르게 높아, 대학가 쪽에서 칵테일 한잔할 곳으로 고르기 좋다.",
-      "must_try": [],
+      "must_try": [
+        "The Mojo (더 모조 — 하우스 시그니처 모히토)"
+      ],
       "tips_ko": "Wanderlog 상세 페이지는 4.7(768건), 목록 페이지는 4.7(694–785건)로 스냅숏마다 다르다. 메뉴·가격·영업시간은 이번 조사에서 확보하지 못했다.",
       "website": null,
       "awards": [],
@@ -814,7 +822,9 @@
         "https://www.yelp.com/biz/ona-mor-k%C3%B6ln-2",
         "https://restaurantguru.com/Ona-Mor-Cologne",
         "https://www.top-rated.online/cities/Cologne/place/p/1237627/ONA+MOR+Bar+-+K%C3%B6ln",
-        "https://www.tripadvisor.in/Attraction_Review-g187371-d4052437-Reviews-Ona_Mor-Cologne_North_Rhine_Westphalia.html"
+        "https://www.tripadvisor.in/Attraction_Review-g187371-d4052437-Reviews-Ona_Mor-Cologne_North_Rhine_Westphalia.html",
+        "https://rausgegangen.de/en/blog/beste-cocktailbars-koeln-mojitos/",
+        "https://koeln.mitvergnuegen.com/2025/cocktail-bars/"
       ],
       "confidence": "medium",
       "research": "r2-bars",
@@ -824,6 +834,7 @@
       "verification_status": "open",
       "verification_note": "Yelp 페이지 2026-02 갱신, 주소 Roonstr. 94 확인. Wanderlog 구글 4.7/768과 Restaurant Guru 구글 4.7/714는 기존 785보다 적은 이전 스냅샷 → 변동 없음. 화요일 휴무(Restaurant Guru). 문을 노크해야 입장, 주말엔 거의 만석이라 예약 권장.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "cocktail-bar"
     },
     {
@@ -853,7 +864,10 @@
       "location": [],
       "price_level": null,
       "price_estimated": false,
-      "price_pp": null,
+      "price_pp": {
+        "min": 10,
+        "max": 20
+      },
       "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
       "beer_price_eur": null,
       "beer_price_note": null,
@@ -873,7 +887,10 @@
         "https://wanderlog.com/list/geoCategory/1524105/best-cocktail-bars-in-cologne",
         "https://yably.de/bewertungen/koeln/samuels-shep-i-cocktailbar-koeln-rathenauplatz-5",
         "https://web2.cylex.de/firma-home/samuel%C2%B4s-shep-i-cocktailbar-koeln-6300825.html",
-        "https://www.golocal.de/koeln/bars-lounges/samuels-shep-i-cocktailbar-koeln-10WptH/"
+        "https://www.golocal.de/koeln/bars-lounges/samuels-shep-i-cocktailbar-koeln-10WptH/",
+        "https://restaurantguru.com/Shepheard-Cologne",
+        "https://www.falstaff.com/en/bars/samuels-shep",
+        "https://www.cologne-tourism.com/food-drink/gastronomy/samuels-shep"
       ],
       "confidence": "medium",
       "research": "r2-bars",
@@ -883,6 +900,7 @@
       "verification_status": "open",
       "verification_note": "주소 Rathenauplatz 5 확인. 모든 출처가 일·월 휴무로 표기, 화–목 19–24, 금–토 ~01/02시. Wanderlog 4.7/138은 기존 4.6/166보다 적은 이전 스냅샷이고, 다른 디렉터리의 4.9/126은 출처가 불명 → 미반영. 2020년 무렵 목록에 게시된 영업시간이 틀렸다는 지적이 있었음.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "cocktail-bar"
     },
     {
@@ -930,7 +948,10 @@
         "https://fussballgucken.info/location/stiefel-kneipe-koeln",
         "https://www.offen.net/koeln/stiefel-B4P4X3/",
         "https://rausgegangen.de/en/locations/stiefel/",
-        "https://www.dasoertliche.de/Themen/Stiefel-K%C3%B6ln-Neustadt-S%C3%BCd-Z%C3%BClpicher-Str"
+        "https://www.dasoertliche.de/Themen/Stiefel-K%C3%B6ln-Neustadt-S%C3%BCd-Z%C3%BClpicher-Str",
+        "https://www.koeln.de/leben/ll/beliebte-fussballkneipen-in-koeln/stiefel/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/stiefel",
+        "https://www.airbnb.com/things-to-do/places/343688"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
@@ -940,6 +961,7 @@
       "verification_status": "open",
       "verification_note": "주소 Zülpicher Str. 18 확인, 공식 사이트 stiefelkneipe.de. 영업 월–목·일 18–02, 금–토 18–05, 축구 중계가 있으면 킥오프 1시간 전 오픈. Wanderlog 구글 4.5/1,362 재확인, 변동 없음. 주의: 도어맨이 불친절하고 인종차별·차별을 했다는 리뷰가 여러 건 있음.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "kneipe"
     },
     {
@@ -965,10 +987,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "price_note": "하우스 클래식 진저 바질 스매시 €11.50 (speisekarte.de, 날짜 미상). 소개 글에서 '지갑에 부담 없는' 바로 묘사",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -977,7 +999,9 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com",
       "summary_ko": "쥘피허 광장 근처 하인스베르크슈트라세(Heinsbergstraße)에서 28년 가까이 영업해 온 칵테일 바로, 수준 높은 칵테일로 Wanderlog '쾰른 칵테일 바 50' 목록 1위에 올라 있다. 오래된 동네 칵테일 바를 좋아하는 사람에게 맞다.",
-      "must_try": [],
+      "must_try": [
+        "Ginger Basil Smash (진저 바질 스매시 — 진·바질·헤이즐넛·진저비어)"
+      ],
       "tips_ko": "약 2년 전 리스팅에 '연초부터 새 주인'이라는 언급이 있어 분위기가 예전과 다를 수 있다. 같은 페이지의 다른 플랫폼 점수는 3.8(50건). 영업시간·가격은 확인 못 함.",
       "website": null,
       "awards": [],
@@ -988,7 +1012,10 @@
         "https://www.yelp.com/biz/cocktail-bar-rosebud-k%C3%B6ln",
         "https://www.tripadvisor.co.uk/Restaurant_Review-g187371-d965584-Reviews-Rosebud_Bar-Cologne_North_Rhine_Westphalia.html",
         "https://yably.de/bewertungen/koeln/cocktailbar-rosebud-heinsbergstr-20",
-        "https://www.opentable.com/r/rosebud-bar-cologne-koln"
+        "https://www.opentable.com/r/rosebud-bar-cologne-koln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/rosebud/speisekarte",
+        "https://www.cologne-tourism.com/food-drink/gastronomy/rosebud",
+        "https://www.merian.de/bar/de/köln/rosebud-a3"
       ],
       "confidence": "medium",
       "research": "r2-bars",
@@ -998,6 +1025,7 @@
       "verification_status": "open",
       "verification_note": "Yelp 페이지 2026-04 갱신, Tripadvisor 2026 페이지 있음, 주소 Heinsbergstr. 20 확인. Wanderlog 구글 4.5/491 재확인, 변동 없음. Yelp 3.8/62와 Tripadvisor 3.8/51은 낮은 편(서비스 3.3). 영업시간 출처마다 다름(Yelp 19–02·금 ~03 vs Yably 21시~).",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "cocktail-bar"
     },
     {
@@ -1241,7 +1269,9 @@
       "google_as_of": null,
       "rating_source": "restaurantguru.com (Google 4.6/745)",
       "summary_ko": "쥐트슈타트 클로트비히 광장 근처에 2000년 문을 연 크나이페로, 라이브 음악과 큰 테라스가 특징이다. 매일 오후 3시부터 열고 '쾰시 한잔하기 좋은 동네 술집'이라는 리뷰가 있다.",
-      "must_try": [],
+      "must_try": [
+        "Hausgemachte Frikadelle (수제 프리카델레 — 독일식 다진 고기 패티)"
+      ],
       "tips_ko": "매일 15시부터 영업(Mit Vergnügen 2026). 11월엔 테라스보다 실내 위주로 생각할 것. 맥주 가격 출처 없음. Restaurant Guru 자체 점수 4.7(1,057건).",
       "website": null,
       "awards": [],
@@ -1255,7 +1285,10 @@
         "https://koeln.mitvergnuegen.com/2025/kneipen-karneval/",
         "https://koeln.mitvergnuegen.com/lieblingsorte/torburg-suedstadt/",
         "https://www.werkenntdenbesten.de/kneipe/koeln",
-        "https://koeln.mitvergnuegen.com/2026/kneipen-karneval/"
+        "https://koeln.mitvergnuegen.com/2026/kneipen-karneval/",
+        "https://speisekarte.menu/restaurants/koeln/torburg/menu",
+        "https://www.koeln.de/branchen/eintrag/43359/kneipen/torburg",
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/torburg"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
@@ -1265,6 +1298,7 @@
       "verification_status": "open",
       "verification_note": "구글 수치 워크리스트와 동일. RG 페이지에 스냅샷 기준 최근 6개월 내 구글 리뷰(스냅샷 날짜 미상). werkenntdenbesten(4.66/503, 최근 12개월 긍정 리뷰 +41)은 주소를 Mauritiussteinweg 70으로 표기 — 다른 곳과 섞인 듯, 주소는 Kartäuserwall 1 유지. 20년 넘은 남부 명물, 목·토 블루스·록 공연. MV 2026 크나이페 기사들이 함께 검색됨(본문 미확인).",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "kneipe"
     },
     {
@@ -1314,7 +1348,9 @@
         "https://restaurantguru.com/Ubierschaenke-Cologne",
         "https://wanderlog.com/place/details/10546174/ubier-sch%C3%A4nke",
         "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/",
-        "https://restaurantguru.com/live-music-Cologne-m9630"
+        "https://restaurantguru.com/live-music-Cologne-m9630",
+        "https://www.koeln.de/branchen/eintrag/10989/kneipen/ubierschaenke",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/ubierschaenke"
       ],
       "confidence": "high",
       "research": "r3-beer-pubs",
@@ -1324,6 +1360,7 @@
       "verification_status": "open",
       "verification_note": "Mit Vergnügen 2026 기사에 '아마도 쥐트슈타트에서 가장 전통적인 쾰시 크나이페'로 소개(축구 중계·가끔 공연). RG에 2026년 리뷰, RG 2026년 4월 라이브음악 랭킹(자체 4.8/778) → 영업 중. 구글 수치 워크리스트와 동일(Wanderlog는 약 685건·최신 리뷰 2024-10으로 뒤처짐). 1997년 개업.",
       "latest_review": "2026 (RG, 월 미상)",
+      "price_checked": "2026-11",
       "style": "kneipe"
     },
     {
@@ -1378,7 +1415,10 @@
         "https://restaurantguru.com/Chlodwig-Eck-Cologne",
         "https://chlodwig-eck.de/",
         "https://www.meinesuedstadt.de/branchenverzeichnis/chlodwig-eck/",
-        "https://www.top-rated.online/cities/Humboldtkolonie/place/p/6753463/Chlodwig-Eck+-+K%C3%B6ln"
+        "https://www.top-rated.online/cities/Humboldtkolonie/place/p/6753463/Chlodwig-Eck+-+K%C3%B6ln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/chlodwigeck",
+        "https://www.koeln.de/gastro/eintrag/44176/kneipen/chlodwig-eck",
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/chlodwig-eck"
       ],
       "confidence": "high",
       "research": "r3-beer-pubs",
@@ -1388,6 +1428,7 @@
       "verification_status": "open",
       "verification_note": "구글 수치 워크리스트와 동일. RG 구글 4.4(페이지 약 610일 전 갱신), top-rated 4.40/326(옛 스냅샷). 폐업 표시는 없으나 날짜 있는 최근 리뷰는 못 봄. 음악 나오는 크나이페, 주방 없음 — 음식 반입·배달 가능. 음료 싸고 자주 붐빈다는 평.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "kneipe"
     },
     {
@@ -1413,10 +1454,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 3,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "price_note": "칵테일 €13–18, 셰어링 디시 €11–29 (mitvergnuegen 2022 기사, 이후 올랐을 수 있음)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -1425,7 +1466,9 @@
       "google_as_of": null,
       "rating_source": "restaurantguru.com (Google 4.3/895, 페이지 약 1년 전); wanderlog.com 4.3/861",
       "summary_ko": "'급수탑 속 호텔'이라는 뜻의 Hotel im Wasserturm 11층에 있는 루프탑 바로, 쾰른 시내를 360도로 둘러보는 전망이 특징이다. 전망 좋은 호텔 바에서 한잔하고 싶은 사람에게 맞다.",
-      "must_try": [],
+      "must_try": [
+        "Bar Botanik Gin Tonic (바 보타닉 진토닉 — 파슬리·민트·장미잎·로즈메리·토마토·레몬)"
+      ],
       "tips_ko": "리뷰 수가 Wanderlog 스냅숏마다 683–896건으로 다르게 잡혔다(상세 페이지 4.3·861건을 적음). 영업시간·예약 여부는 호텔에 확인. 지역은 판탈레온·제버린 지구 경계(Altstadt-Süd, 50676)라 쥐트슈타트로 분류했다.",
       "website": null,
       "awards": [],
@@ -1434,7 +1477,10 @@
         "https://wanderlog.com/place/details/6547746/bar-botanik",
         "https://wanderlog.com/list/geoCategory/79627/best-rooftop-bars-in-cologne",
         "https://restaurantguru.com/Restaurant-Im-Wasserturm-Cologne",
-        "https://koeln.mitvergnuegen.com/2022/bar-botanik/"
+        "https://koeln.mitvergnuegen.com/2022/bar-botanik/",
+        "https://koeln.mitvergnuegen.com/2022/bar-botanik",
+        "https://www.tageskarte.io/gastronomie/detail/bar-botanik-im-koelner-hotel-im-wasserturm-eroeffnet.html",
+        "https://magazine.cologne-tourism.com/culinary/grand-heights-colognes-finest-roof-top-bars/"
       ],
       "confidence": "medium",
       "research": "r2-bars",
@@ -1445,6 +1491,7 @@
       "verification_note": "2026년 2월 구글 리뷰 확인(5점 서비스 칭찬, 2월 14일 1점 음료 대기 불만) → 영업 중. 구글 리뷰 수 861 → 895. 360도 루프톱 전망·칵테일 호평, 가격 높고 자리 없으면 입장 거절 불만. 주소 일치(Kaygasse 2, 50676).",
       "latest_review": "2026-02",
       "google_previous": "4.3 (861)",
+      "price_checked": "2026-11",
       "style": "bar"
     },
     {
@@ -1500,7 +1547,9 @@
         "https://wanderlog.com/place/details/3439461/im-schn%C3%B6rres",
         "https://koeln.mitvergnuegen.com/2026/draussen-trinken/",
         "https://koeln.mitvergnuegen.com/2026/kneipen-karneval/",
-        "https://koeln.mitvergnuegen.com/2024/bars-kneipen-suedstadt/"
+        "https://koeln.mitvergnuegen.com/2024/bars-kneipen-suedstadt/",
+        "https://www.cologne-tourism.com/delight-diversity/gastronomy/detail/schnoerres",
+        "https://willkommen.koelntourismus.de/en/gastro/em-schnoerres"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
@@ -1510,6 +1559,7 @@
       "verification_status": "open",
       "verification_note": "구글 수치 워크리스트와 동일(Wanderlog에 'im Schnörres'로 등재). Mit Vergnügen 2026 기사: 월–목 18–01시, 금–토 18–03:30 → 영업 중. 일요일 휴무(Wanderlog) — 2023 기사엔 일 17시~라 바뀐 듯. 주말 DJ·무료 입장(2024 기사). 서비스·음료 품질 불만 리뷰도.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "kneipe"
     },
     {

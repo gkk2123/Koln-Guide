@@ -7,7 +7,7 @@
 1인 음식값 기준(음료 제외): € ~15 · €€ 15–30 · €€€ 30–60 · €€€€ 60+
 
 
-## € — 39곳
+## € — 43곳
 
 | 이름(지도) | 지역 | 음식 | 구글 | 가격 메모 |
 |---|---|---|---|---|
@@ -15,12 +15,14 @@
 | [Nam](https://www.google.com/maps/search/?api=1&query=Nam%20Engelbertstra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 베트남 | ★4.9 (676) | 리뷰 기준 메인 요리 약 €10–15 (구글 1인 가격대 아님) |
 | [Thai Ja-Röen Imbiss](https://www.google.com/maps/search/?api=1&query=Thai%20Ja-R%C3%B6en%20Imbiss%20Th%C3%BCrmchenswall%2064%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 태국 | ★4.9 (157) | 가격 정보 미확인 |
 | [The Coffee Gang](https://www.google.com/maps/search/?api=1&query=The%20Coffee%20Gang%20Hohenstaufenring%2019%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) |  | ★4.8 (1,378) | 가격 정보 미확인 |
+| [Sadaf](https://www.google.com/maps/search/?api=1&query=Sadaf%20Jahnstra%C3%9Fe%2020%2C%2050676%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 이란 | ★4.8 (1,165) | 메인 Fesenjan €14, 콜드 전채 €3 (speisekarte.menu, 날짜 미상, 메인 가격은 1개만 확인). 현금 결제만 가능하고 음료 가격이 비싸다는 리뷰 있음 |
 | [Pizzeria Spaccanapoli](https://www.google.com/maps/search/?api=1&query=Pizzeria%20Spaccanapoli%20Venloer%20Str.%20502%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | ★4.8 (681) | speisekarte.de 메뉴(2025-10) 피자 부팔리나 €14.50·토토 €15.00; 2022 기사 피자 €8–14.50; enprimeurclub 1인 약 €18 |
 | [NaiNai Bao](https://www.google.com/maps/search/?api=1&query=NaiNai%20Bao%20Josef-Haubrich-Hof%203%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 중국 | ★4.8 (587) | 1인 €10–20, 소고기 비앙비앙면 €13(리뷰 기준) |
 | [Hempies](https://www.google.com/maps/search/?api=1&query=Hempies%20H%C3%A4ndelstra%C3%9Fe%2055%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | ★4.8 (535) | 리뷰상 '조금 비싼 편' (구체적 가격 미확인) |
 | [THE COFFICE DEUTZ](https://www.google.com/maps/search/?api=1&query=THE%20COFFICE%20DEUTZ%20Charles-de-Gaulle-Platz%201d%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) |  | ★4.8 (245) | 가격 정보 미확인 |
 | [Der Eismacher](https://www.google.com/maps/search/?api=1&query=Der%20Eismacher%20Severinstra%C3%9Fe%2053%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 |  | ★4.8 (181) | 가격 정보 미확인 |
 | [Kebapland](https://www.google.com/maps/search/?api=1&query=Kebapland%20Venloer%20Stra%C3%9Fe%20385%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 터키 | ★4.7 (12,444) | tablejourney '저예산(budget)' 맛집으로 분류 — 메뉴 가격은 미확인 |
+| [Ganesha Indisches Restaurant](https://www.google.com/maps/search/?api=1&query=Ganesha%20Indisches%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2026%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 인도 | ★4.7 (1,800) | 메뉴 가격은 못 찾음. Petit Futé 최저 가격 등급 '€', OpenTable '€30 이하', 리뷰에서 '가격 적당' 평 |
 | [Il Gelato di Ferigo](https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20di%20Ferigo%20Goltsteinstra%C3%9Fe%2032%2C%2050968%20K%C3%B6ln) | 기타 시내 | 이탈리아 | ★4.7 (1,617) | 가격 정보 미확인 |
 | [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 베트남 | ★4.7 (1,077) | 가격 정보 미확인 |
 | [ST. LOUIS Café-Köln](https://www.google.com/maps/search/?api=1&query=ST.%20LOUIS%20Caf%C3%A9-K%C3%B6ln%20Deutzer%20Freiheit%2089%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) |  | ★4.7 (957) | 가격 정보 미확인 |
@@ -39,10 +41,12 @@
 | [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 미국 | ★4.6 (356) | speisekarte.de 벨기에 지구점 메뉴(2023-06) 버거 €10.50–12.60; Wolt 노이마르크트점 버거 €11.50–13.50 |
 | [Kudret Kebap House](https://www.google.com/maps/search/?api=1&query=Kudret%20Kebap%20House%20Venloer%20Stra%C3%9Fe%20280%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 터키 | ★4.5 (7,892) | 가격 정보 미확인 |
 | [Habibi](https://www.google.com/maps/search/?api=1&query=Habibi%20Z%C3%BClpicher%20Stra%C3%9Fe%2028%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레바논 | ★4.5 (4,329) | 가성비 좋은 학생가 임비스(리뷰 기준) — 메뉴 가격은 미확인 |
+| [Casita Mexicana Südstadt](https://www.google.com/maps/search/?api=1&query=Casita%20Mexicana%20S%C3%BCdstadt%20Severinstra%C3%9Fe%2010-12%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 멕시코 | ★4.5 (2,338) | 부리토 €12.40 (speisekarte.de 2022, 체인 공통 메뉴), 월–수 칵테일 종일 €7.90 (mitvergnuegen 기사) |
 | [Thai Imbiss](https://www.google.com/maps/search/?api=1&query=Thai%20Imbiss%20Eigelstein%20114%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 태국 | ★4.5 (1,535) | 가격 정보 미확인 |
 | [Törtchen Törtchen – Studio Apostelnstraße](https://www.google.com/maps/search/?api=1&query=T%C3%B6rtchen%20T%C3%B6rtchen%20%E2%80%93%20Studio%20Apostelnstra%C3%9Fe%20Apostelnstra%C3%9Fe%2019%2C%2050667%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 |  | ★4.5 (1,374) | restaurantguru 1인 €1–10(€€), 리뷰상 크기 대비 비싼 편 |
 | [Darwish Konditorei](https://www.google.com/maps/search/?api=1&query=Darwish%20Konditorei%20Z%C3%BClpicher%20Stra%C3%9Fe%20273%2C%2050937%20K%C3%B6ln) | 기타 시내 | 중동·터키·북아프리카 | ★4.5 (940) | 가격 정보 미확인 |
 | [PUFU](https://www.google.com/maps/search/?api=1&query=PUFU%20Vogelsanger%20Stra%C3%9Fe%20197b%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 일본 | ★4.5 (522) | 기본 수플레 팬케이크(슈가파우더·꿀) €6.50, 토핑 1개당 +€1 |
+| [Casita Mexicana Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Casita%20Mexicana%20Belgisches%20Viertel%20Roonstra%C3%9Fe%2088%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 멕시코 | ★4.4 (1,170) | 부리토 €12.40 (speisekarte.de 2022, 체인 공통 메뉴), 수요일 타코 특가 €5.50 (mitvergnuegen 기사) |
 | [Krua Thai am Heumarkt](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20am%20Heumarkt%20Heumarkt%2025%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 태국 | ★4.4 (948) | koeln.de: 수프 약 €7, 메인 대부분 €10 미만, 가장 비싼 메뉴도 €15 미만 (날짜 없음) |
 | [Lebanon Vitamin](https://www.google.com/maps/search/?api=1&query=Lebanon%20Vitamin%20Z%C3%BClpicher%20Stra%C3%9Fe%2038%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레바논 | ★4.4 (757) | 저렴한 샌드위치(리뷰 기준) — 메뉴 가격은 미확인 |
 | [LOUIS Cafe am Dom](https://www.google.com/maps/search/?api=1&query=LOUIS%20Cafe%20am%20Dom%20Kleine%20Budengasse%201-3%2C%2050667%20K%C3%B6ln) | 대성당·구시가 |  | ★4.4 (407) | 가격 정보 미확인 |
@@ -51,7 +55,7 @@
 | [Café Especial](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Especial%20Neuh%C3%B6fferstra%C3%9Fe%2032%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 멕시코 | ★4.2 (3,517) | speisekarte.de: 메인 대부분 €15 미만 (날짜 없음) |
 | [Damla](https://www.google.com/maps/search/?api=1&query=Damla%20Weidengasse%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 터키 | ★4.2 (538) | 가격 정보 미확인 |
 
-## €€ — 50곳
+## €€ — 60곳
 
 | 이름(지도) | 지역 | 음식 | 구글 | 가격 메모 |
 |---|---|---|---|---|
@@ -62,7 +66,10 @@
 | [Nuvola Napoli](https://www.google.com/maps/search/?api=1&query=Nuvola%20Napoli%20Deutzer%20Freiheit%2066a%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 이탈리아 | ★4.8 (1,172) | 뇨키 €15.90·봉골레 스파게티 €14.90·브루스케타 €12.90 (speisekarte.de 2025-10); 피자 €11.90–14.90 (2023 기사) |
 | [Café Caprista](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Caprista%20Venloer%20Stra%C3%9Fe%20380%2C%2050825%20K%C3%B6ln) | 에렌펠트 |  | ★4.8 (1,043) | 가격 정보 미확인 |
 | [Virtuous Pie – Vegane Pizza](https://www.google.com/maps/search/?api=1&query=Virtuous%20Pie%20%E2%80%93%20Vegane%20Pizza%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | ★4.8 (988) | Wolt: 시즌 피자 €17.90–18.90, 디저트 파이 €9.90(배달가, 기간 한정 메뉴) — 기본 피자 가격 미확인 |
+| [Tsukiji](https://www.google.com/maps/search/?api=1&query=Tsukiji%20Z%C3%BClpicher%20Platz%204a%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | ★4.8 (982) | 모둠 스시 15pc 'Tsukiji Gemischt' €24.90, 참치 타르타르 €10.50, 4인 플래터 €92 (speisekarte.de 2023-10 메뉴). OpenTable 가격대 '€30 이하' |
 | [Maspinzelo](https://www.google.com/maps/search/?api=1&query=Maspinzelo%20Landmannstra%C3%9Fe%204%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 조지아 | ★4.8 (783) | 1인 €20–30 (Restaurant Guru) |
+| [Takumi – Japanisches Ramen Restaurant](https://www.google.com/maps/search/?api=1&query=Takumi%20%E2%80%93%20Japanisches%20Ramen%20Restaurant%20Hohenstaufenring%2058%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | ★4.7 (7,973) | 시그니처 라멘 €18.80, 교자 6개 €5.00–5.50 (speisekarte.de, 2023-05 갱신) |
+| [Bei Oma Kleinmann](https://www.google.com/maps/search/?api=1&query=Bei%20Oma%20Kleinmann%20Z%C3%BClpicher%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 독일 | ★4.7 (4,677) | 슈니첼 €14.90–22.90 (돼지 €14.90–16.90, 송아지 €20.90–22.90; speisekarte.de 2023-09 메뉴). 목·금 점심 2코스 €24.50, 소프트드링크·커피 포함 (2025 기사) |
 | [ST. LOUIS Breakfast](https://www.google.com/maps/search/?api=1&query=ST.%20LOUIS%20Breakfast%20Meister-Gerhard-Stra%C3%9Fe%2030%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) |  | ★4.7 (3,949) | 가격 정보 미확인 |
 | [Café Buur](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Buur%20Richard-Wagner-Stra%C3%9Fe%2028%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | ★4.7 (3,517) | 가격 정보 미확인 |
 | [Gangnamstyle Korean BBQ • Bulgogi • Bar](https://www.google.com/maps/search/?api=1&query=Gangnamstyle%20Korean%20BBQ%20%E2%80%A2%20Bulgogi%20%E2%80%A2%20Bar%20Thurnmarkt%207%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 한국 | ★4.7 (2,088) | 테이블 그릴 프리미엄 앙트르코트 200 g €32·블랙타이거 새우 200 g €23 (2025-09 메뉴); 로제 떡볶이·데리야키 치킨 €15, 양념치킨 €13부터 (2023 기사) |
@@ -75,16 +82,23 @@
 | [Lommerzheim](https://www.google.com/maps/search/?api=1&query=Lommerzheim%20Siegesstra%C3%9Fe%2018%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 독일 | ★4.6 (4,362) | 가격 정보 미확인(이번 조사에서 메뉴 가격 출처를 찾지 못함) |
 | [Max Stark](https://www.google.com/maps/search/?api=1&query=Max%20Stark%20Unter%20Kahlenhausen%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 독일 | ★4.6 (3,953) | 음식 가격 미확인 (이번 조사에서 메뉴 출처 없음) |
 | [Chum Chay](https://www.google.com/maps/search/?api=1&query=Chum%20Chay%20Friesenwall%2029%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 베트남 | ★4.6 (1,987) | restaurantguru 1인 €10–20, 리뷰: 수제 음료 €5.5·식사 €12–14 |
+| [El Inca Restaurant](https://www.google.com/maps/search/?api=1&query=El%20Inca%20Restaurant%20G%C3%B6rresstra%C3%9Fe%202%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 페루 | ★4.6 (1,772) | 레스토랑구루 1인 €20–30. 요리 €11–20, 세비체 데 감바스 €12, 파리야다 엘 잉카 €44 (speisekarte.menu, 날짜 미상) |
 | [Früh em Veedel](https://www.google.com/maps/search/?api=1&query=Fr%C3%BCh%20em%20Veedel%20Chlodwigplatz%2028%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 독일 | ★4.6 (1,327) | 음식 가격 미확인 (이번 조사에서 메뉴 출처 없음) |
 | [Braustelle](https://www.google.com/maps/search/?api=1&query=Braustelle%20Christianstra%C3%9Fe%202%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 독일 | ★4.6 (342) | 가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함) |
 | [Sünner im Walfisch](https://www.google.com/maps/search/?api=1&query=S%C3%BCnner%20im%20Walfisch%20Salzgasse%2013%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 독일 | ★4.5 (3,646) | 음식 가격 미확인 (이번 조사에서 메뉴 출처 없음) |
+| [Tapeo & Co.](https://www.google.com/maps/search/?api=1&query=Tapeo%20%26%20Co.%20Lindenstra%C3%9Fe%2038%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 스페인 | ★4.5 (2,336) | 타파스 개당 €5 (뷔페에서 골라 서빙) 또는 큰 접시 €5·작은 접시 €4 (2025 mitvergnuegen 기사 2건). 2026-02 구글 리뷰엔 '너무 비싸다' 평도 있음 |
 | [Bai Lu Noodles](https://www.google.com/maps/search/?api=1&query=Bai%20Lu%20Noodles%20Palmstra%C3%9Fe%2041%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 중국 | ★4.5 (1,352) | 리뷰 기준 1인 €10–20, Wanderlog '저렴' 표기 |
 | [Hankki Köln](https://www.google.com/maps/search/?api=1&query=Hankki%20K%C3%B6ln%20Brabanter%20Stra%C3%9Fe%2042%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 한국 | ★4.5 (1,077) | restaurantguru 1인 €20–30 (개별 리뷰는 €10–20부터 €40–50까지) |
+| [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 중동·터키·북아프리카 | ★4.5 (1,042) | 그릴 요리 €13–23, 따뜻한 요리 €8.50–21.50, 찬 요리 €11–14.50 (Meininger, 에이펠플라츠 이전 당시 메뉴). speisekarte.de '메인 대부분 €15 미만', OpenTable '€31–50' |
 | [Thai Food](https://www.google.com/maps/search/?api=1&query=Thai%20Food%20Friesenwall%2024B%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 태국 | ★4.5 (862) | restaurantguru 1인 €10–20 |
+| [Zarathustra](https://www.google.com/maps/search/?api=1&query=Zarathustra%20Dasselstra%C3%9Fe%204%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 이란 | ★4.5 (807) | 메인 €14부터, 전채 플래터(2–3인) €18 (2021 기사). NeoTaste 기준 비건·채식 메인 1개 약 €15 (날짜 미상) |
+| [Injera Restaurant](https://www.google.com/maps/search/?api=1&query=Injera%20Restaurant%20Lindenstra%C3%9Fe%2086%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 에티오피아 | ★4.5 (745) | 인제라 메인(닭·소·양) €11.90–16.90, 삼부사 €5.80 (speisekarte.de 2023–2024 메뉴). 이 메뉴판이 린덴슈트라세 지점 것인지는 불확실 |
 | [Brauhaus Pütz](https://www.google.com/maps/search/?api=1&query=Brauhaus%20P%C3%BCtz%20Engelbertstra%C3%9Fe%2067%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 독일 | ★4.5 (739) | 음식 가격 미확인 (이번 조사에서 메뉴 출처 없음) |
 | [Sushi Ninja](https://www.google.com/maps/search/?api=1&query=Sushi%20Ninja%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 일본 | ★4.5 (724) | speisekarte.de 에렌펠트점 메뉴(2025-09): 크리스피 닌자 4피스 €10.50(비건 €8.50), 미소국 €3.50, 와카메 €4.00 — 단품가를 1인 식사로 환산한 값이라 신뢰도 낮음 |
 | [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 기타 시내 | 그리스 | ★4.5 (451) | koeln.de: 메제 1접시 약 €7–10 이상, 양갈비 등 메인은 €30을 넘기도 함; 수블라키 €14 (speisekarte.menu, 날짜 없음) |
 | [Café Belgique](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Belgique%20Br%C3%BCsseler%20Platz%2016%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | ★4.5 (409) | restaurantguru 리뷰 1건 기준 1인 €10–20, '합리적 가격' 평 |
+| [Die Fette Kuh](https://www.google.com/maps/search/?api=1&query=Die%20Fette%20Kuh%20Bonner%20Str.%2043%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 미국 | ★4.4 (6,103) | 치즈버거 €14.90, 감자튀김(소스 2개) €7.20 (Wolt 배달가라 매장가와 다를 수 있음). 리뷰상 가격대가 높은 편 |
+| [Ginti Indian Restaurant](https://www.google.com/maps/search/?api=1&query=Ginti%20Indian%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2033%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 인도 | ★4.4 (5,921) | NeoTaste 2for1 딜 기준 메인 1개 약 €19 (날짜 미상) |
 | [Öz Harran Doy Doy](https://www.google.com/maps/search/?api=1&query=%C3%96z%20Harran%20Doy%20Doy%20Weidengasse%2028-34%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 터키 | ★4.4 (2,404) | 아다나 케밥 €17.90·안테프 에즈메 €5.90 (speisekarte.de 2023-05 메뉴) |
 | [Café Sehnsucht](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sehnsucht%20K%C3%B6rnerstra%C3%9Fe%2067%2C%2050823%20K%C3%B6ln) | 에렌펠트 |  | ★4.4 (1,689) | 가격 정보 미확인 |
 | [Gogi Matcha Korean Restaurant](https://www.google.com/maps/search/?api=1&query=Gogi%20Matcha%20Korean%20Restaurant%20Johannisstra%C3%9Fe%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 한국 | ★4.4 (1,388) | 2019 기사: 고기·해물 볶음 요리 €15–17.50, 찌개 €14.50–15.50, 채식 메인 €10–13, 점심 €7–10 (최신 가격 미확인) |
@@ -106,15 +120,17 @@
 | [Krua Thai – Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20%E2%80%93%20Belgisches%20Viertel%20Br%C3%BCsseler%20Str.%2040-42%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 태국 | ★4.2 (918) | restaurantguru 1인 €10–20, 리뷰: 요리 약 €6–10 |
 | [Café Feynsinn](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Feynsinn%20Rathenauplatz%207%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) |  | ★4.2 (724) | 리뷰상 다소 비싼 편 (구체적 가격 미확인) |
 
-## €€€ — 9곳
+## €€€ — 11곳
 
 | 이름(지도) | 지역 | 음식 | 구글 | 가격 메모 |
 |---|---|---|---|---|
 | [Petit Frère](https://www.google.com/maps/search/?api=1&query=Petit%20Fr%C3%A8re%20Aachener%20Str.%2020%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 프랑스 · 독일 | ★4.9 (253) | tablejourney 가격대 €45–75(1인·코스 기준인지 불명, 날짜 미상) — 메뉴판 가격 미확인 |
 | [Artistanbul Meze](https://www.google.com/maps/search/?api=1&query=Artistanbul%20Meze%20Kom%C3%B6dienstra%C3%9Fe%2052%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 터키 | ★4.8 (795) | OpenTable 가격대 €31–50 (같은 주소 'Artistanbul Restaurant'로 등록, 날짜 없음) — 메뉴별 가격은 미확인 |
 | [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 일본 | ★4.7 (731) | Restaurant Guru 표기 1인 €23–45 (구글 수치 아님) |
+| [Ristorante Etrusca](https://www.google.com/maps/search/?api=1&query=Ristorante%20Etrusca%20Z%C3%BClpicher%20Str.%2027%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 이탈리아 | ★4.7 (459) | 메인 €15–35, 코스 €35–49 (Schlemmer Atlas, 날짜 미상). OpenTable은 '€30 이하'로 표기해 상충, 메뉴는 주 단위로 바뀜 |
 | [Mongo's Köln](https://www.google.com/maps/search/?api=1&query=Mongo%27s%20K%C3%B6ln%20Ottoplatz%201%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 퓨전·인터내셔널 | ★4.6 (3,660) | OpenTable 가격대 '높음(gehoben)' — 무제한 코스 정확한 가격은 미확인 |
 | [CARUSO Pastabar](https://www.google.com/maps/search/?api=1&query=CARUSO%20Pastabar%20Kasparstra%C3%9Fe%2019%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 이탈리아 | ★4.6 (994) | OpenTable 가격대 €31–50; 미쉐린 빕 구르망 €€ (2025-01 '이달의 빕'); 3코스를 직접 골라 구성하는 방식 |
+| [Capricorn [i] Aries Brasserie](https://www.google.com/maps/search/?api=1&query=Capricorn%20%5Bi%5D%20Aries%20Brasserie%20Alteburger%20Str.%2031%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 프랑스 | ★4.6 (277) | 메인 €18–32, 코스 €35부터 (Schlemmer Atlas). 미쉐린 €€·빕 구르망, OpenTable 4·5·6코스 메뉴 (OpenTable 가격대 '€30 이하'는 상충) |
 | [Tigermilch](https://www.google.com/maps/search/?api=1&query=Tigermilch%20Br%C3%BCsseler%20Str.%2012%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 페루 | ★4.5 (1,059) | restaurantguru 1인 €30–50 |
 | [Tanoshii](https://www.google.com/maps/search/?api=1&query=Tanoshii%20Brabanter%20Stra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 베트남 | ★4.5 (905) | restaurantguru 가격대 1인 €20–40 (리뷰 1건은 €20–30) |
 | [Balthasar](https://www.google.com/maps/search/?api=1&query=Balthasar%20Aachener%20Stra%C3%9Fe%2018%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | ★4.4 (1,564) | restaurantguru 1인 €20–60, 리뷰상 '보통·적정' 가격 |

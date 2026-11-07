@@ -22,14 +22,14 @@
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
 | [Gusto Antico](https://www.google.com/maps/search/?api=1&query=Gusto%20Antico%20Vogelsanger%20Str.%20216%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | € | ★4.9 (773) |
-| [Ristorante Etrusca](https://www.google.com/maps/search/?api=1&query=Ristorante%20Etrusca%20Z%C3%BClpicher%20Str.%2027%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 이탈리아 | – | ★4.7 (459) |
+| [Ristorante Etrusca](https://www.google.com/maps/search/?api=1&query=Ristorante%20Etrusca%20Z%C3%BClpicher%20Str.%2027%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 이탈리아 | €€€ | ★4.7 (459) |
 | [CARUSO Pastabar](https://www.google.com/maps/search/?api=1&query=CARUSO%20Pastabar%20Kasparstra%C3%9Fe%2019%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 이탈리아 | €€€ | ★4.6 (994) |
 
 ## 라멘 — 5곳
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
-| [Takumi – Japanisches Ramen Restaurant](https://www.google.com/maps/search/?api=1&query=Takumi%20%E2%80%93%20Japanisches%20Ramen%20Restaurant%20Hohenstaufenring%2058%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | – | ★4.7 (7,973) |
+| [Takumi – Japanisches Ramen Restaurant](https://www.google.com/maps/search/?api=1&query=Takumi%20%E2%80%93%20Japanisches%20Ramen%20Restaurant%20Hohenstaufenring%2058%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | €€ | ★4.7 (7,973) |
 | [COCO Ramen – Sushi – Asian kitchen](https://www.google.com/maps/search/?api=1&query=COCO%20Ramen%20%E2%80%93%20Sushi%20%E2%80%93%20Asian%20kitchen%20Breite%20Stra%C3%9Fe%2026%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 일본 | €€ | ★4.7 (947) |
 | [Daimyo - Ramen & Fitnes Sushi Restaurant](https://www.google.com/maps/search/?api=1&query=Daimyo%20-%20Ramen%20%26%20Fitnes%20Sushi%20Restaurant%20Friesenwall%20116%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 일본 | €€ | ★4.7 (834) |
 | [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 미국 | € | ★4.6 (356) |
@@ -39,7 +39,7 @@
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
-| [Tsukiji](https://www.google.com/maps/search/?api=1&query=Tsukiji%20Z%C3%BClpicher%20Platz%204a%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | – | ★4.8 (982) |
+| [Tsukiji](https://www.google.com/maps/search/?api=1&query=Tsukiji%20Z%C3%BClpicher%20Platz%204a%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | €€ | ★4.8 (982) |
 | [COCO Ramen – Sushi – Asian kitchen](https://www.google.com/maps/search/?api=1&query=COCO%20Ramen%20%E2%80%93%20Sushi%20%E2%80%93%20Asian%20kitchen%20Breite%20Stra%C3%9Fe%2026%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 일본 | €€ | ★4.7 (947) |
 | [Daimyo - Ramen & Fitnes Sushi Restaurant](https://www.google.com/maps/search/?api=1&query=Daimyo%20-%20Ramen%20%26%20Fitnes%20Sushi%20Restaurant%20Friesenwall%20116%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 일본 | €€ | ★4.7 (834) |
 | [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 일본 | €€€ | ★4.7 (731) |
@@ -95,9 +95,9 @@
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
-| [Ganesha Indisches Restaurant](https://www.google.com/maps/search/?api=1&query=Ganesha%20Indisches%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2026%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 인도 | – | ★4.7 (1,800) |
+| [Ganesha Indisches Restaurant](https://www.google.com/maps/search/?api=1&query=Ganesha%20Indisches%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2026%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 인도 | € | ★4.7 (1,800) |
 | [MEIWEI](https://www.google.com/maps/search/?api=1&query=MEIWEI%20Mindener%20Stra%C3%9Fe%204%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 중국 · 태국 | – | ★4.5 (128) |
-| [Ginti Indian Restaurant](https://www.google.com/maps/search/?api=1&query=Ginti%20Indian%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2033%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 인도 | – | ★4.4 (5,921) |
+| [Ginti Indian Restaurant](https://www.google.com/maps/search/?api=1&query=Ginti%20Indian%20Restaurant%20H%C3%A4ndelstra%C3%9Fe%2033%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 인도 | €€ | ★4.4 (5,921) |
 
 ## 쌀국수 — 4곳
 
@@ -124,7 +124,7 @@
 | [Tantuni Haus](https://www.google.com/maps/search/?api=1&query=Tantuni%20Haus%20Venloer%20Stra%C3%9Fe%20282%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 터키 | € | ★4.6 (381) |
 | [Kudret Kebap House](https://www.google.com/maps/search/?api=1&query=Kudret%20Kebap%20House%20Venloer%20Stra%C3%9Fe%20280%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 터키 | € | ★4.5 (7,892) |
 | [Habibi](https://www.google.com/maps/search/?api=1&query=Habibi%20Z%C3%BClpicher%20Stra%C3%9Fe%2028%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레바논 | € | ★4.5 (4,329) |
-| [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 중동·터키·북아프리카 | – | ★4.5 (1,042) |
+| [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 중동·터키·북아프리카 | €€ | ★4.5 (1,042) |
 | [Lebanon Vitamin](https://www.google.com/maps/search/?api=1&query=Lebanon%20Vitamin%20Z%C3%BClpicher%20Stra%C3%9Fe%2038%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레바논 | € | ★4.4 (757) |
 
 ## 팔라펠 — 6곳
@@ -145,7 +145,7 @@
 | [Artistanbul Meze](https://www.google.com/maps/search/?api=1&query=Artistanbul%20Meze%20Kom%C3%B6dienstra%C3%9Fe%2052%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 터키 | €€€ | ★4.8 (795) |
 | [Vegan Food Revolution](https://www.google.com/maps/search/?api=1&query=Vegan%20Food%20Revolution%20Venloer%20Str.%20456%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 중동·터키·북아프리카 | – | ★4.7 (531) |
 | [Bethlehem Oriental Kitchen](https://www.google.com/maps/search/?api=1&query=Bethlehem%20Oriental%20Kitchen%20Lenauplatz%208%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 레바논 | € | ★4.7 (362) |
-| [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 중동·터키·북아프리카 | – | ★4.5 (1,042) |
+| [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 중동·터키·북아프리카 | €€ | ★4.5 (1,042) |
 | [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 기타 시내 | 그리스 | €€ | ★4.5 (451) |
 | [NENI Köln](https://www.google.com/maps/search/?api=1&query=NENI%20K%C3%B6ln%20Im%20Klapperhof%2022-24%2C%2050670%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 이스라엘 | €€€ | ★4.3 (1,989) |
 | [Beirut Restaurant](https://www.google.com/maps/search/?api=1&query=Beirut%20Restaurant%20Buttermarkt%203%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레바논 | €€ | ★4.2 (3,692) |
@@ -160,8 +160,8 @@
 | [Mongo's Köln](https://www.google.com/maps/search/?api=1&query=Mongo%27s%20K%C3%B6ln%20Ottoplatz%201%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 퓨전·인터내셔널 | €€€ | ★4.6 (3,660) |
 | [Oruç Kebap](https://www.google.com/maps/search/?api=1&query=Oru%C3%A7%20Kebap%20Heinsbergstra%C3%9Fe%201%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 터키 | € | ★4.6 (2,120) |
 | [El Chango](https://www.google.com/maps/search/?api=1&query=El%20Chango%20Bolzengasse%209%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 아르헨티나 | – | ★4.5 (1,929) |
-| [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 중동·터키·북아프리카 | – | ★4.5 (1,042) |
-| [Zarathustra](https://www.google.com/maps/search/?api=1&query=Zarathustra%20Dasselstra%C3%9Fe%204%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 이란 | – | ★4.5 (807) |
+| [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 중동·터키·북아프리카 | €€ | ★4.5 (1,042) |
+| [Zarathustra](https://www.google.com/maps/search/?api=1&query=Zarathustra%20Dasselstra%C3%9Fe%204%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 이란 | €€ | ★4.5 (807) |
 | [Kilim Restaurant](https://www.google.com/maps/search/?api=1&query=Kilim%20Restaurant%20Keupstra%C3%9Fe%2069%2C%2051063%20K%C3%B6ln) | 기타 시내 | 터키 | € | ★4.3 (3,248) |
 | [Beirut Restaurant](https://www.google.com/maps/search/?api=1&query=Beirut%20Restaurant%20Buttermarkt%203%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 레바논 | €€ | ★4.2 (3,692) |
 
@@ -170,7 +170,7 @@
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
 | [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 미국 | € | ★4.6 (356) |
-| [Die Fette Kuh](https://www.google.com/maps/search/?api=1&query=Die%20Fette%20Kuh%20Bonner%20Str.%2043%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 미국 | – | ★4.4 (6,103) |
+| [Die Fette Kuh](https://www.google.com/maps/search/?api=1&query=Die%20Fette%20Kuh%20Bonner%20Str.%2043%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 미국 | €€ | ★4.4 (6,103) |
 
 ## 스테이크 — 2곳
 
@@ -183,7 +183,7 @@
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
-| [Tsukiji](https://www.google.com/maps/search/?api=1&query=Tsukiji%20Z%C3%BClpicher%20Platz%204a%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | – | ★4.8 (982) |
+| [Tsukiji](https://www.google.com/maps/search/?api=1&query=Tsukiji%20Z%C3%BClpicher%20Platz%204a%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | €€ | ★4.8 (982) |
 | [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 일본 | €€€ | ★4.7 (731) |
 | [ITO Japanese Cuisine](https://www.google.com/maps/search/?api=1&query=ITO%20Japanese%20Cuisine%20Antwerpener%20Stra%C3%9Fe%2015%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | €€€€ | ★4.6 (310) |
 | [TapaVinho](https://www.google.com/maps/search/?api=1&query=TapaVinho%20Kurf%C3%BCrstenstra%C3%9Fe%2029%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 포르투갈 · 스페인 | – | ★4.5 (333) |
@@ -193,7 +193,7 @@
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
 | [Maspinzelo](https://www.google.com/maps/search/?api=1&query=Maspinzelo%20Landmannstra%C3%9Fe%204%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 조지아 | €€ | ★4.8 (783) |
-| [Tapeo & Co.](https://www.google.com/maps/search/?api=1&query=Tapeo%20%26%20Co.%20Lindenstra%C3%9Fe%2038%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 스페인 | – | ★4.5 (2,336) |
+| [Tapeo & Co.](https://www.google.com/maps/search/?api=1&query=Tapeo%20%26%20Co.%20Lindenstra%C3%9Fe%2038%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 스페인 | €€ | ★4.5 (2,336) |
 | [Tigermilch](https://www.google.com/maps/search/?api=1&query=Tigermilch%20Br%C3%BCsseler%20Str.%2012%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 페루 | €€€ | ★4.5 (1,059) |
 | [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 기타 시내 | 그리스 | €€ | ★4.5 (451) |
 | [TapaVinho](https://www.google.com/maps/search/?api=1&query=TapaVinho%20Kurf%C3%BCrstenstra%C3%9Fe%2029%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 포르투갈 · 스페인 | – | ★4.5 (333) |
@@ -203,15 +203,15 @@
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
-| [Casita Mexicana Südstadt](https://www.google.com/maps/search/?api=1&query=Casita%20Mexicana%20S%C3%BCdstadt%20Severinstra%C3%9Fe%2010-12%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 멕시코 | – | ★4.5 (2,338) |
-| [Casita Mexicana Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Casita%20Mexicana%20Belgisches%20Viertel%20Roonstra%C3%9Fe%2088%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 멕시코 | – | ★4.4 (1,170) |
+| [Casita Mexicana Südstadt](https://www.google.com/maps/search/?api=1&query=Casita%20Mexicana%20S%C3%BCdstadt%20Severinstra%C3%9Fe%2010-12%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 멕시코 | € | ★4.5 (2,338) |
+| [Casita Mexicana Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Casita%20Mexicana%20Belgisches%20Viertel%20Roonstra%C3%9Fe%2088%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 멕시코 | € | ★4.4 (1,170) |
 | [Café Especial](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Especial%20Neuh%C3%B6fferstra%C3%9Fe%2032%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 멕시코 | € | ★4.2 (3,517) |
 
 ## 슈니첼 — 4곳
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
-| [Bei Oma Kleinmann](https://www.google.com/maps/search/?api=1&query=Bei%20Oma%20Kleinmann%20Z%C3%BClpicher%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 독일 | – | ★4.7 (4,677) |
+| [Bei Oma Kleinmann](https://www.google.com/maps/search/?api=1&query=Bei%20Oma%20Kleinmann%20Z%C3%BClpicher%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 독일 | €€ | ★4.7 (4,677) |
 | [Max Stark](https://www.google.com/maps/search/?api=1&query=Max%20Stark%20Unter%20Kahlenhausen%2047%2C%2050668%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 독일 | €€ | ★4.6 (3,953) |
 | [Braustelle](https://www.google.com/maps/search/?api=1&query=Braustelle%20Christianstra%C3%9Fe%202%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 독일 | €€ | ★4.6 (342) |
 | [Brauhaus Pütz](https://www.google.com/maps/search/?api=1&query=Brauhaus%20P%C3%BCtz%20Engelbertstra%C3%9Fe%2067%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 독일 | €€ | ★4.5 (739) |

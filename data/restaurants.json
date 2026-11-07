@@ -28,6 +28,7 @@
       "r5-tickets-private.json",
       "r6-price-a.json",
       "r6-price-b.json",
+      "r6-price-c.json",
       "wine-places.json"
     ],
     "count": 128
@@ -3244,10 +3245,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "메인 Fesenjan €14, 콜드 전채 €3 (speisekarte.menu, 날짜 미상, 메인 가격은 1개만 확인). 현금 결제만 가능하고 음료 가격이 비싸다는 리뷰 있음",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -3256,7 +3257,11 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (Google)",
       "summary_ko": "알트슈타트-쥐트(50676) 얀슈트라세의 페르시아(이란) 레스토랑으로, Wanderlog '쾰른 중동 음식' 목록에 구글 평점 4.8(1,165건)로 올라 있다. 이번 조사에서는 대표 메뉴 정보까지는 확인하지 못했다.",
-      "must_try": [],
+      "must_try": [
+        "Fesenjan (페센잔 — 석류·호두 소스 스튜)",
+        "Kebab (케밥 — 리뷰에서 호평받는 이란식 꼬치구이)",
+        "Mast Gerdu (마스트 게르두 — 호두를 넣은 요거트 전채)"
+      ],
       "tips_ko": "speisekarte.de 등 다른 리뷰 사이트에서는 평이 엇갈림. 메뉴·영업시간은 방문 전 확인할 것.",
       "website": null,
       "awards": [],
@@ -3266,7 +3271,8 @@
         "https://www.speisekarte.de/k%C3%B6ln/restaurant/sadaf/bewertung",
         "https://speisekarte.menu/restaurants/koeln/sadaf/menu",
         "https://www.dasoertliche.de/Themen/Sadaf-Köln-Jahnstr",
-        "https://extensionembed.wanderlog.com/place/details/4073168"
+        "https://extensionembed.wanderlog.com/place/details/4073168",
+        "https://speisekarte.menu/restaurants/koeln/sadaf"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -3276,6 +3282,7 @@
       "verification_status": "open",
       "verification_note": "주소 Jahnstr. 20, 50676 확인(speisekarte.de). Das Örtliche 구글 4.7/1147은 기존값(4.8/1165)보다 리뷰 수가 적어 이전 스냅샷으로 판단, 미반영(평점 4.7~4.8 사이). 영업시간 매일 11:30–23:00(Das Örtliche). speisekarte.de에 2024-12 비판 리뷰가 있으나 최신 리뷰인지는 불명.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -3306,10 +3313,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "모둠 스시 15pc 'Tsukiji Gemischt' €24.90, 참치 타르타르 €10.50, 4인 플래터 €92 (speisekarte.de 2023-10 메뉴). OpenTable 가격대 '€30 이하'",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -3334,7 +3341,9 @@
         "https://koeln.mitvergnuegen.com/2026/kwartier-lataeng",
         "https://wolt.com/en/deu/cologne/restaurant/tsukiji-restaurant",
         "https://www.opentable.co.uk/r/tsukiji-koln",
-        "https://koeln.mitvergnuegen.com/2020/neueroeffnungen-winter-2019-2020/"
+        "https://koeln.mitvergnuegen.com/2020/neueroeffnungen-winter-2019-2020/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/tsukiji/speisekarte",
+        "https://www.opentable.com/r/tsukiji-koln"
       ],
       "confidence": "medium",
       "research": "r2-east-asia",
@@ -3344,6 +3353,7 @@
       "verification_status": "open",
       "verification_note": "주소 Zülpicher Platz 4a 확인(Wolt 등). Wolt 배달·OpenTable 예약 페이지가 운영 중이라 영업 신호로 봄. OpenTable 영업시간 월–금 11:30–22:30, 토 12–22:30, 일 13–22. OpenTable 4.7/15는 구글 아님 → 구글 최신 수치 미확인.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "sushi-bar"
     },
     {
@@ -3373,10 +3383,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인(리뷰: 비싼 편)",
+      "price_note": "시그니처 라멘 €18.80, 교자 6개 €5.00–5.50 (speisekarte.de, 2023-05 갱신)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -3385,7 +3395,11 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (Google)",
       "summary_ko": "쥘피허 플라츠와 바바로사플라츠 사이 링 도로의 라멘 전문점으로, 구글 리뷰가 약 8천 건으로 이번 조사에서 찾은 쾰른 라멘집 중 가장 많다. 국물 맛이 좋고 음식이 빨리 나와 간단한 한 끼에 알맞지만, 양이 적고 비싸다는 평도 있다.",
-      "must_try": [],
+      "must_try": [
+        "Takumi Köln Signature Ramen (타쿠미 쾰른 시그니처 라멘)",
+        "Gyoza mit Hähnchen (치킨 교자 — 6개)",
+        "Veggie Gyoza (채소 교자)"
+      ],
       "tips_ko": "빨리 먹고 나오기 좋은 곳입니다. 양이 적고 비싸다는 리뷰가 있습니다. 전화 +49 221 34899171.",
       "website": "https://takumi.koeln",
       "awards": [],
@@ -3395,7 +3409,8 @@
         "https://wanderlog.com/list/geoCategory/1507873/best-ramen-in-cologne",
         "https://www.nochoffen.de/altstadtsued-takumi-koeln-japanisches-ramen",
         "https://tripaligner.com/countries/germany-22/destinations/koln-8618/places/takumi-japanisches-ramen-restaurant-19103562",
-        "https://www.falstaff.com/en/streetfood/takumi-ramen-1"
+        "https://www.falstaff.com/en/streetfood/takumi-ramen-1",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/takumi_ramen_japanisches_restaurant/speisekarte"
       ],
       "confidence": "medium",
       "research": "r2-east-asia",
@@ -3405,6 +3420,7 @@
       "verification_status": "open",
       "verification_note": "nochoffen.de에서 Hohenstaufenring 58 목록 확인, 폐업 신호 없음. 다만 날짜가 붙은 최근 신호는 없음. 구글 수치 미확인(TripAligner 4.7/597은 구글 아님). 쾰른에 Takumi 지점이 여러 곳 있음(Antwerpener Str.의 Chicken & Vegan 등) → 혼동 주의.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "ramen-bar"
     },
     {
@@ -3434,10 +3450,10 @@
       "reservation": "recommended",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인 (조사 중 메뉴·1인 가격 출처를 확보하지 못함)",
+      "price_note": "슈니첼 €14.90–22.90 (돼지 €14.90–16.90, 송아지 €20.90–22.90; speisekarte.de 2023-09 메뉴). 목·금 점심 2코스 €24.50, 소프트드링크·커피 포함 (2025 기사)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -3462,7 +3478,9 @@
         "https://www.xtremefoodies.com/europe/Cologne/review/Bei-Oma-Kleinmann/Schnitzel/8223_8455",
         "https://www.gelbeseiten.de/gsbiz/16bfd285-ac55-41d3-b223-ba65858e9ef8",
         "https://www.koeln.de/gastro/eintrag/43103/kneipen/bei-oma-kleinmann",
-        "https://www.nochoffen.de/koeln-bei-oma-kleinmann"
+        "https://www.nochoffen.de/koeln-bei-oma-kleinmann",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/bei_oma_kleinmann/speisekarte",
+        "https://koeln.mitvergnuegen.com/2025/gutbuergerliche-restaurants"
       ],
       "confidence": "high",
       "research": "fnb-ehrenfeld-lateng",
@@ -3472,6 +3490,7 @@
       "verification_status": "open",
       "verification_note": "주소 Zülpicher Str. 9 확인. 영업시간은 koeln.de 기준 월–목 17–23, 금–토 17–24이나 다른 목록은 금 ~01시. speisekarte.de에 2025-09-13 리뷰 있음(구글 리뷰 아님). 구글 수치 미확인. 예약 권장.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "kneipe"
     },
     {
@@ -3564,10 +3583,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "메뉴 가격은 못 찾음. Petit Futé 최저 가격 등급 '€', OpenTable '€30 이하', 리뷰에서 '가격 적당' 평",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -3589,7 +3608,8 @@
         "https://opentable.co.uk/r/ganesha-cologne",
         "https://www.werkenntdenbesten.de/e/29059189/indisches-restaurant/koeln/joginder-ganesha-indisches-restaurant-bewertungen.html",
         "https://wanderlog.com/place/details/1700550/ganesha-indisches-restaurant-in-köln-seit-1987",
-        "https://www.koeln.de/branchen/eintrag/55043/gaststaetten-indisch/restaurant-ganesha"
+        "https://www.koeln.de/branchen/eintrag/55043/gaststaetten-indisch/restaurant-ganesha",
+        "https://petitfute.com/v48110-cologne/c1165-restaurants/c1031-cuisines-du-monde/c1035-cuisine-d-asie/c54-restaurant-indien"
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
@@ -3599,6 +3619,7 @@
       "verification_status": "open",
       "verification_note": "주소 Händelstr. 26 확인(여러 목록). OpenTable과 werkenntdenbesten('Joginder Ganesha' 명의)에 등록돼 있고 폐업 신호 없음. 구글 수치 미확인. mit Vergnügen 인도 식당 기사(연도 불명확)에서 쾰른에서 가장 오래된 인도 식당 중 하나로 소개.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -3657,6 +3678,7 @@
       "verification_status": "open",
       "verification_note": "mit Vergnügen 한식 기사 2024·2025년판에 Hohenstaufenring 23으로 등재(2025년까지만 확인). 구글 수치와 2026년 신호는 못 찾음 → 신뢰도 낮음. 2024 기사 영업시간: 월·수–목 12–15/17–21:30, 금–일 12–15/17–22 (화요일 휴무로 보임).",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -3686,10 +3708,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 3,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "메인 €15–35, 코스 €35–49 (Schlemmer Atlas, 날짜 미상). OpenTable은 '€30 이하'로 표기해 상충, 메뉴는 주 단위로 바뀜",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -3698,7 +3720,11 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (list snapshot 4.7/459; place page 4.7/402 'from Google'); restaurantguru.com Google 4.7 (405)",
       "summary_ko": "쥘피허 거리 초입에서 40년 넘게 영업해 온 이탈리안으로, 사르데냐 요리가 특기다. 벽돌 벽의 세련된 실내에서 제철 이탈리아 요리를 내 대학가 한복판에서 차분한 저녁을 먹기 좋다.",
-      "must_try": [],
+      "must_try": [
+        "Taglierini aus dem Parmesanlaib mit frischem Trüffel (파르메산 휠에서 버무린 생트러플 탈리에리니)",
+        "Spaghetti alla Bottarga (보타르가 스파게티 — 어란 파스타)",
+        "Thunfisch-Tatar mit Avocado und Feldsalat (참치 타르타르 — 아보카도·콘샐러드 곁들임)"
+      ],
       "tips_ko": "가격·휴무일은 이번 조사에서 확인하지 못했습니다. 구글 리뷰 수는 스냅샷마다 402–459개로 다릅니다.",
       "website": null,
       "awards": [],
@@ -3711,7 +3737,9 @@
         "https://www.opentable.com/r/ristorante-etrusca-koln",
         "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/ristorante-etrusca/",
         "https://www.koeln.de/branchen/eintrag/11462/restaurants-italienisch/ristorante-etrusca",
-        "https://joinpearl.co/restaurants/cologne-germany/ristorante-etrusca"
+        "https://joinpearl.co/restaurants/cologne-germany/ristorante-etrusca",
+        "https://koeln.mitvergnuegen.com/2024/trueffelpasta/",
+        "https://www.koeln.de/?p=92171"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -3721,6 +3749,7 @@
       "verification_status": "open",
       "verification_note": "주소 Zülpicher Str. 27 확인. OpenTable과 Schlemmer Atlas(인증 프리미엄 항목)에 등재. 영업시간이 출처마다 다름(OpenTable 매일 12–15/18–23, koeln.de 화–토 18–22·일 12–14/18–22) → 방문 전 확인 필요. 구글 수치 미확인(OpenTable 4.5는 리뷰 2건뿐).",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -3885,10 +3914,13 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
-      "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_pp": {
+        "min": 20,
+        "max": 30
+      },
+      "price_note": "레스토랑구루 1인 €20–30. 요리 €11–20, 세비체 데 감바스 €12, 파리야다 엘 잉카 €44 (speisekarte.menu, 날짜 미상)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -3897,7 +3929,10 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (Latin and South American restaurants list)",
       "summary_ko": "라테나우플라츠 근처 지하 공간에서 25년 넘게 영업해 온 페루 레스토랑으로, 알록달록한 민속풍 장식이 아늑한 분위기를 만든다. 정통 페루 요리를 맛보고 싶은 사람에게 맞다.",
-      "must_try": [],
+      "must_try": [
+        "Ceviche de Gambas (세비체 데 감바스 — 라임에 절인 새우 세비체)",
+        "Parrillada El Inca (파리야다 엘 잉카 — 모둠 그릴 플래터)"
+      ],
       "tips_ko": "지하(셀러)에 있어 입구를 잘 보고 찾아가세요. 메뉴·가격은 이번 조사에서 확인하지 못했습니다.",
       "website": null,
       "awards": [],
@@ -3908,7 +3943,9 @@
         "https://wanderlog.com/list/geoCategory/799541/best-latin-and-south-american-foods-and-restaurants-in-cologne",
         "https://www.el-inca.de/",
         "https://www.tripadvisor.com/Restaurant_Review-g187371-d965405-Reviews-El_Inca-Cologne_North_Rhine_Westphalia.html",
-        "https://www.dasoertliche.de/Themen/El-Inca-Lateinamerikanisches-Restaurant-K%C3%B6ln-Neustadt-S%C3%BCd-G%C3%B6rresstr"
+        "https://www.dasoertliche.de/Themen/El-Inca-Lateinamerikanisches-Restaurant-K%C3%B6ln-Neustadt-S%C3%BCd-G%C3%B6rresstr",
+        "https://de.restaurantguru.com/El-Inca-Cologne",
+        "https://speisekarte.menu/restaurants/koeln/el-inca/menu"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -3918,6 +3955,7 @@
       "verification_status": "open",
       "verification_note": "주소 Görresstr. 2 확인. 공식 사이트 영업시간: 화–토 17–24, 일 12–22, 월 휴무(일부 디렉터리는 18시 오픈). 늘 만석이라 예약 권장. 구글 수치 미확인(Tripadvisor 4.0/160).",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -3967,7 +4005,9 @@
         "https://wolt.com/en/deu/cologne/restaurant/restaurant-fasika",
         "https://wanderlog.com/place/details/1484918/fasika-restaurant",
         "https://restaurantguru.com/Fasika-Cologne",
-        "https://coolibri.de/restaurant/fasika-restaurant-koeln/"
+        "https://coolibri.de/restaurant/fasika-restaurant-koeln/",
+        "https://speisekarte.menu/restaurants/koeln/fasika/menu",
+        "https://speisekarte.menu/restaurants/koeln/fasika"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -3977,6 +4017,7 @@
       "verification_status": "open",
       "verification_note": "공식 사이트·Wolt 운영 중, 주소 Luxemburger Str. 17 확인. Wanderlog 구글 4.6/534는 기존 586보다 적은 이전 스냅샷 → 미반영(평점 4.6은 같음). 영업 17–23시이나 일요일 휴무 여부는 출처마다 다름. Restaurant Guru 4.5/696은 합산값.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -4080,10 +4121,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "타파스 개당 €5 (뷔페에서 골라 서빙) 또는 큰 접시 €5·작은 접시 €4 (2025 mitvergnuegen 기사 2건). 2026-02 구글 리뷰엔 '너무 비싸다' 평도 있음",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -4105,7 +4146,10 @@
         "https://restaurantguru.com/Tapeo-Picus-Cologne",
         "https://app.wanderlog.com/list/geoCategory/1825451/best-places-for-tapas-in-cologne",
         "https://www.yelp.com/biz/tapeo-und-co-k%C3%B6ln",
-        "https://www.tripadvisor.com/Restaurant_Review-g187371-d965558-Reviews-Tapeo_Co-Cologne_North_Rhine_Westphalia.html"
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d965558-Reviews-Tapeo_Co-Cologne_North_Rhine_Westphalia.html",
+        "https://koeln.mitvergnuegen.com/2025/tapas-essen/",
+        "https://koeln.mitvergnuegen.com/2025/restaurants-spanisch-essen",
+        "https://app.wanderlog.com/place/details/1282848"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -4115,6 +4159,7 @@
       "verification_status": "open",
       "verification_note": "Yelp 페이지 2026-02 갱신, 주소 Lindenstr. 38 확인(옛 이름 'Tapeo Picus'). Wanderlog 구글 4.5/2,336 재확인, 변동 없음. Tripadvisor 4.4/약 400. 시끄럽고 붐빔, 예약 권장. 17시 오픈이며 일요일 휴무 여부는 출처마다 다름.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "tapas"
     },
     {
@@ -4145,10 +4190,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "메인 €14부터, 전채 플래터(2–3인) €18 (2021 기사). NeoTaste 기준 비건·채식 메인 1개 약 €15 (날짜 미상)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -4173,7 +4218,9 @@
         "https://yably.de/bewertungen/koeln/restaurant-zarathustra-dasselstr-4",
         "https://neotaste.com/de/restaurants/cologne/zarathustra",
         "https://koeln.mitvergnuegen.com/2025/persisch-vegan-zarathustra/",
-        "https://verliebtinkoeln.com/persisch-essen-koeln-zarathustra-restaurant-vegan/"
+        "https://verliebtinkoeln.com/persisch-essen-koeln-zarathustra-restaurant-vegan/",
+        "https://koeln.mitvergnuegen.com/2021/persisch-vegan-zarathustra/",
+        "https://neotaste.com/restaurants/cologne/zarathustra"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -4183,6 +4230,7 @@
       "verification_status": "open",
       "verification_note": "평점 불일치 확인용 2차 검색: 구글 4.5로 일관(Wanderlog 807 = 기존값, Restaurant Guru 785, Das Örtliche 739, Yably 692) → 변동 없음. NeoTaste 4.9(2,206~2,239건)와 Restaurant Guru 자체 평점 4.8/880은 구글 수치 아님. 대부분 비건 메뉴, 실내 약 15석이라 전화 예약 권장. 영업 12–22/23시. mit Vergnügen 2025 기사.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -4215,10 +4263,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "인제라 메인(닭·소·양) €11.90–16.90, 삼부사 €5.80 (speisekarte.de 2023–2024 메뉴). 이 메뉴판이 린덴슈트라세 지점 것인지는 불확실",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -4241,7 +4289,10 @@
         "https://habeshastudio.com/restaurants/koln/injera-restaurant-restaurant/",
         "https://restaurantguru.com/Injera-Cologne",
         "https://triptap.com/places/de/north-rhine-westphalia/koeln/injera-restaurant-t0029328",
-        "https://speisekarte.menu/restaurants/koeln/injera-east-african-lounge-restaurant"
+        "https://speisekarte.menu/restaurants/koeln/injera-east-african-lounge-restaurant",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/injera/speisekarte",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/injera1/speisekarte",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/injera"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -4251,6 +4302,7 @@
       "verification_status": "open",
       "verification_note": "주소 Lindenstr. 86 확인. Habeshastudio(약 81일 전, 2026-08경 갱신) 영업시간: 월–목·일 18–23, 금–토 18–24(다른 출처와 다름). Restaurant Guru 구글 4.5 재확인(건수 미표시). speisekarte.menu 4.3/4,269는 구글 아님. 대기·서비스 편차 지적 일부.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -4355,10 +4407,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "NeoTaste 2for1 딜 기준 메인 1개 약 €19 (날짜 미상)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -4382,7 +4434,9 @@
         "https://www.yelp.com/biz/ginti-k%C3%B6ln",
         "https://wanderlog.com/place/details/1282845/ginti-indian-restaurant",
         "https://www.ubereats.com/de-en/store/ginti-indian-restaurant/bWfT9TvSXHO5GIn7Xpko9g?diningMode=DELIVERY",
-        "https://www.tripadvisor.com/Restaurant_Review-g187371-d3747837-Reviews-Ginti_Indisches_Restaurant_Cologne-Cologne_North_Rhine_Westphalia.html"
+        "https://www.tripadvisor.com/Restaurant_Review-g187371-d3747837-Reviews-Ginti_Indisches_Restaurant_Cologne-Cologne_North_Rhine_Westphalia.html",
+        "https://neotaste.com/restaurants/cologne/ginti-indian-restaurant",
+        "https://koeln.mitvergnuegen.com/2025/indisch-essen"
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
@@ -4393,6 +4447,7 @@
       "verification_note": "공식 사이트 구글 위젯 4.4/5,921로 기존값(반올림한 4.9K)을 갱신. Yelp 2026-04 갱신, Uber Eats 운영 중. 영업 11–23시경(마감 23:00~23:45, 출처마다 다름). Yelp 3.9/140, 서비스가 세심하지 않다는 지적 있음.",
       "latest_review": null,
       "google_previous": "4.4 (4900)",
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -4420,10 +4475,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "부리토 €12.40 (speisekarte.de 2022, 체인 공통 메뉴), 수요일 타코 특가 €5.50 (mitvergnuegen 기사)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -4444,7 +4499,10 @@
         "https://restaurantguru.com/Casita-Mexicana-Cologne-2",
         "https://wanderlog.com/list/geoCategory/776154/best-mexican-foods-and-restaurants-in-cologne",
         "https://www.werkenntdenbesten.de/e/112910624/mexikanisches-restaurant/koeln/casita-mexicana-bewertungen.html",
-        "https://casitamexicana.de/"
+        "https://casitamexicana.de/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/casita_mexicana/speisekarte",
+        "https://koeln.mitvergnuegen.com/2026/tacos-koeln",
+        "https://www.meininger.de/gastronomie/konzepte/undercover-casita-mexicana-koeln"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -4455,6 +4513,7 @@
       "verification_note": "werkenntdenbesten google.de 4.40/1,170(2026-09-28 갱신). 기존 Wanderlog 4.4/1,175(날짜 없음)와 사실상 같아서 날짜가 있는 값으로 대체. 주소 Roonstr. 88(Neustadt-Süd) 확인 — 상호는 'Belgisches Viertel'이지만 실제 위치는 Roonstraße. Südstadt 지점은 별도 업소. 좁아서 예약 권장, 바쁠 때 느린 서비스·양 대비 가격 지적 있음.",
       "latest_review": null,
       "google_previous": "4.4 (1175)",
+      "price_checked": "2026-11",
       "style": "streetfood"
     },
     {
@@ -6458,10 +6517,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 3,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "메인 €18–32, 코스 €35부터 (Schlemmer Atlas). 미쉐린 €€·빕 구르망, OpenTable 4·5·6코스 메뉴 (OpenTable 가격대 '€30 이하'는 상충)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -6470,7 +6529,11 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (place page; first score = Google, second 4.0/133 is another platform)",
       "summary_ko": "쥐트슈타트 Alteburger Straße의 프렌치 브라세리로, 미쉐린 빕 구르망(가성비 좋은 맛집 표시)에 오른 곳이다. 격식 없는 분위기에서 폭넓은 프랑스 메뉴를 내고 직원이 친절하다는 평이라 부담 없이 프랑스 요리를 즐기기 좋다.",
-      "must_try": [],
+      "must_try": [
+        "Coq au Vin (코코뱅 — 레드와인에 졸인 닭고기)",
+        "Barschfilet (퍼치 필레 — 민물농어 요리)",
+        "Risotto mit Austernpilzen (느타리버섯 리소토)"
+      ],
       "tips_ko": "바쁠 때 음식이 늦게 나온다는 후기와 야외석이 작다는 지적이 있습니다. 빕 구르망은 미쉐린 쾰른 페이지 기준이며 연도 표시는 확인하지 못했습니다.",
       "website": "https://capricorniaries.com",
       "awards": [
@@ -6488,7 +6551,8 @@
         "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/capricorn-i-aries/",
         "https://www.cologne-tourism.com/food-drink/gastronomy/capricorn-i-aries",
         "https://opentable.com/r/brasserie-capricorn-i-aries",
-        "https://www.speisekarte.de/k%C3%B6ln/restaurant/brasserie_capricorn_i_aries1"
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/brasserie_capricorn_i_aries1",
+        "https://guide.michelin.com/en/nordrhein-westfalen/koln/restaurant/capricorn-i-aries-brasserie"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -6498,6 +6562,7 @@
       "verification_status": "open",
       "verification_note": "주소 일치(Alteburger Str. 31). 미쉐린 가이드 등재(클래식 프렌치, €€), 제3자 리스팅에 2025 빕구르망 표기. 영업시간 출처별 상이(화–금 18시~22시 또는 01시). 미쉐린·OpenTable 온라인 예약 불가 → 전화 예약(+49 221 3975710). 구글 수치 재확인 못 함.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "brasserie"
     },
     {
@@ -6525,10 +6590,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "부리토 €12.40 (speisekarte.de 2022, 체인 공통 메뉴), 월–수 칵테일 종일 €7.90 (mitvergnuegen 기사)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -6553,7 +6618,9 @@
         "https://www.werkenntdenbesten.de/mexikaner/koeln",
         "https://www.reviewhero.io/de/mexikanisches-restaurant/koeln",
         "https://koeln.mitvergnuegen.com/2026/mexikanisch-essen",
-        "https://koeln.mitvergnuegen.com/2026/tacos-koeln"
+        "https://koeln.mitvergnuegen.com/2026/tacos-koeln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/casita_mexicana/speisekarte",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/koeln_altstadt_casita_mexicana/speisekarte"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -6563,6 +6630,7 @@
       "verification_status": "open",
       "verification_note": "주소 일치(Atly: Severinstraße 10-12). werkenntdenbesten에 '영업 중' 표시(시점 없음), MV 2026 멕시칸·타코 기사들이 함께 검색됨(본문 미확인). Reviewhero 4.3/1,745는 복합 집계(구글 아님) — 구글 수치 재확인 못 함. 벨기셰스 피어텔(Roonstr. 88) 지점과 혼동 주의.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "streetfood"
     },
     {
@@ -6592,10 +6660,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "그릴 요리 €13–23, 따뜻한 요리 €8.50–21.50, 찬 요리 €11–14.50 (Meininger, 에이펠플라츠 이전 당시 메뉴). speisekarte.de '메인 대부분 €15 미만', OpenTable '€31–50'",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -6629,6 +6697,7 @@
       "verification_status": "open",
       "verification_note": "1986년부터 영업한 집으로 2024년 9월 Eifelplatz로 이전·재개업(아들 세대 승계, Meininger 기사) — 워크리스트 주소가 새 주소로 맞음. OpenTable 4.7/693(구글 아님). 영업시간 출처별 상이(저녁 위주). 구글 수치 재확인 못 함.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "mezze"
     },
     {
@@ -6697,6 +6766,7 @@
       "verification_status": "open",
       "verification_note": "koeln.de에 Kurfürstenstr. 29, 50678 등재(월–목 17–23, 금–토 17–24, 일 15–23 — 시점 미상). Mit Vergnügen 2025 타파스 기사에 쿠어퓌르스텐슈트라세 모퉁이의 남부 명소로 언급 → 영업 중으로 판단. Bonner Str.의 'TapaVinho im Fertig'는 별개 지점. 구글 수치 재확인 못 함.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "tapas"
     },
     {
@@ -6726,10 +6796,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "치즈버거 €14.90, 감자튀김(소스 2개) €7.20 (Wolt 배달가라 매장가와 다를 수 있음). 리뷰상 가격대가 높은 편",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -6752,7 +6822,8 @@
         "https://adresse.dastelefonbuch.de/K%C3%B6ln/3-Fette-Kuh-K%C3%B6ln-Bonner-Str.html",
         "https://wolt.com/de/deu/cologne/restaurant/die-fette-kuh",
         "https://koeln.mitvergnuegen.com/2025/cafes-restaurants-bonner-strasse",
-        "https://www.koeln.de/branchen/eintrag/44954/burgerlaeden/die-fette-kuh"
+        "https://www.koeln.de/branchen/eintrag/44954/burgerlaeden/die-fette-kuh",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/die_fette_kuh"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -6762,6 +6833,7 @@
       "verification_status": "open",
       "verification_note": "주소 일치(Bonner Str. 43). Wolt 배달 등재·MV 2025 본너 슈트라세 기사 → 영업 중. 화요일 휴무(출처 공통), 월 17–21시·수/목/일 12–21시·금/토 12–22시(출처별 소폭 상이). dastelefonbuch에 구글 6,084건(별점·날짜 없음) — 워크리스트 6,103보다 적은 옛 수치라 갱신 안 함.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "burger"
     },
     {
