@@ -19,12 +19,12 @@
 | [COCO Ramen – Sushi – Asian kitchen](https://www.google.com/maps/search/?api=1&query=COCO%20Ramen%20%E2%80%93%20Sushi%20%E2%80%93%20Asian%20kitchen%20Breite%20Stra%C3%9Fe%2026%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 라멘집 | – | ★4.7 (947) | 라멘, 스시 |  |
 | [Daimyo - Ramen & Fitnes Sushi Restaurant](https://www.google.com/maps/search/?api=1&query=Daimyo%20-%20Ramen%20%26%20Fitnes%20Sushi%20Restaurant%20Friesenwall%20116%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 라멘집 | €€ | ★4.7 (834) | 라멘, 스시 |  |
 | [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 스시 | €€€ | ★4.7 (731) | 스시, 면 요리, 만두·딤섬, 해산물 | Omakase set (오마카세 세트), Tempura (덴푸라), Udon (우동), Gyoza (교자), Sashimi (사시미) |
-| [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 버거 | – | ★4.6 (356) | 라멘, 버거, 만두·딤섬 | Shio Ramen (시오 라멘 — 소금 베이스 맑은 국물), Gyoza (교자), Cocktails (칵테일) |
+| [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 버거 | € | ★4.6 (356) | 라멘, 버거, 만두·딤섬 | Shio Ramen (시오 라멘 — 소금 베이스 맑은 국물), Gyoza (교자), Cocktails (칵테일) |
 | [ITO Japanese Cuisine](https://www.google.com/maps/search/?api=1&query=ITO%20Japanese%20Cuisine%20Antwerpener%20Stra%C3%9Fe%2015%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 파인다이닝 | €€€€ | ★4.6 (310) | 스시, 코스 요리, 해산물 | Omakase (오마카세 — 셰프 추천 코스), Nigiri (니기리 스시) |
 | [Tanoshii](https://www.google.com/maps/search/?api=1&query=Tanoshii%20Brabanter%20Stra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 스시 | €€€ | ★4.5 (905) | 스시 | Unagi Nigiri (장어 니기리), Wagyu Nigiri (와규 니기리), Creative sushi rolls (창작 롤) |
-| [Sushi Ninja](https://www.google.com/maps/search/?api=1&query=Sushi%20Ninja%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 스시 | – | ★4.5 (724) | 스시 |  |
+| [Sushi Ninja](https://www.google.com/maps/search/?api=1&query=Sushi%20Ninja%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 스시 | €€ | ★4.5 (724) | 스시 | Crispy Ninja (크리스피 닌자 — 스코틀랜드산 연어 타르타르를 올린 바삭한 스시 4피스, 비건 아보카도 버전도 있음) |
 | [PUFU](https://www.google.com/maps/search/?api=1&query=PUFU%20Vogelsanger%20Stra%C3%9Fe%20197b%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 디저트 | € | ★4.5 (522) | 케이크 | Soufflé-Pancake mit Puderzucker und Honig (슈가파우더·꿀 수플레 팬케이크), Oreo-Pancake (오레오 팬케이크) |
-| [Daikan](https://www.google.com/maps/search/?api=1&query=Daikan%20Maastrichter%20Stra%C3%9Fe%209%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 이자카야 | – | ★4.3 (2,378) | 라멘, 만두·딤섬, 타파스·작은 접시 | Miso Ramen (미소 라멘), Spicy Miso Ramen (매운 미소 라멘), Karaage (가라아게 — 일본식 닭튀김), Spicy shrimp dumplings (매운 새우 만두) |
+| [Daikan](https://www.google.com/maps/search/?api=1&query=Daikan%20Maastrichter%20Stra%C3%9Fe%209%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 이자카야 | €€ | ★4.3 (2,378) | 라멘, 만두·딤섬, 타파스·작은 접시 | Miso Ramen (미소 라멘), Spicy Miso Ramen (매운 미소 라멘), Karaage (가라아게 — 일본식 닭튀김), Spicy shrimp dumplings (매운 새우 만두) |
 
 ### 한국 (6)
 
@@ -68,14 +68,14 @@
 |---|---|---|---|---|---|---|
 | [Nam](https://www.google.com/maps/search/?api=1&query=Nam%20Engelbertstra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 면 요리집 | € | ★4.9 (676) | 쌀국수, 면 요리 | Phở (퍼 — 베트남 쌀국수, 리뷰에서 가장 많이 언급되는 대표 메뉴) |
 | [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 스트리트 푸드·임비스 | € | ★4.7 (1,077) | 반미, 쌀국수, 샌드위치 | Bánh mì (반미 — 베트남식 바게트 샌드위치), Phở (퍼 — 쌀국수, 채식 버전도 있음) |
-| [Lúa by Danny](https://www.google.com/maps/search/?api=1&query=L%C3%BAa%20by%20Danny%20Brabanter%20Str.%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | – | ★4.7 (585) | 쌀국수 | Phở (퍼 — 베트남 쌀국수, 리뷰에서 자주 칭찬) |
+| [Lúa by Danny](https://www.google.com/maps/search/?api=1&query=L%C3%BAa%20by%20Danny%20Brabanter%20Str.%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | € | ★4.7 (585) | 쌀국수 | Phở (퍼 — 베트남 쌀국수, 리뷰에서 자주 칭찬) |
 | [Chum Chay](https://www.google.com/maps/search/?api=1&query=Chum%20Chay%20Friesenwall%2029%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 레스토랑 | €€ | ★4.6 (1,987) | 쌀국수 | Phở (채식 쌀국수 — Wanderlog 쾰른 쌀국수 목록의 추천 업소) |
 
 ### 인도네시아 (1)
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
-| [Bali Restaurant](https://www.google.com/maps/search/?api=1&query=Bali%20Restaurant%20Br%C3%BCsseler%20Platz%202%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | – | ★4.3 (744) |  | Sate (사테 — 땅콩 소스를 곁들인 인도네시아식 꼬치구이) |
+| [Bali Restaurant](https://www.google.com/maps/search/?api=1&query=Bali%20Restaurant%20Br%C3%BCsseler%20Platz%202%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | €€ | ★4.3 (744) |  | Sate (사테 — 땅콩 소스를 곁들인 인도네시아식 꼬치구이) |
 
 ## 남아시아 — 3곳
 
@@ -116,7 +116,7 @@
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
-| [Bethlehem Oriental Kitchen](https://www.google.com/maps/search/?api=1&query=Bethlehem%20Oriental%20Kitchen%20Lenauplatz%208%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 레스토랑 | – | ★4.7 (362) | 메제 | Kibbeh (키베 — 다진 고기와 불구르 밀 반죽을 빚어 튀긴 레바논식 완자), Makali (마칼리 — 콜리플라워·가지 등을 튀긴 레바논식 채소 튀김) |
+| [Bethlehem Oriental Kitchen](https://www.google.com/maps/search/?api=1&query=Bethlehem%20Oriental%20Kitchen%20Lenauplatz%208%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 레스토랑 | € | ★4.7 (362) | 메제 | Kibbeh (키베 — 다진 고기와 불구르 밀 반죽을 빚어 튀긴 레바논식 완자), Makali (마칼리 — 콜리플라워·가지 등을 튀긴 레바논식 채소 튀김) |
 | [Hayati](https://www.google.com/maps/search/?api=1&query=Hayati%20Severinstra%C3%9Fe%2052C%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 스트리트 푸드·임비스 | € | ★4.6 (942) | 팔라펠, 케밥·되너 | Falafel (팔라펠 — 쾰른 최고로 꼽는 사람이 많은 대표 메뉴), Schawarma (샤와르마) |
 | [Habibi](https://www.google.com/maps/search/?api=1&query=Habibi%20Z%C3%BClpicher%20Stra%C3%9Fe%2028%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 스트리트 푸드·임비스 | € | ★4.5 (4,329) | 팔라펠, 케밥·되너 | Falafel (팔라펠 — 가게 대표 메뉴), Hummus (후무스 — 크리미한 병아리콩 퓨레), Schawarma (샤와르마 — 양념해 구운 고기를 얇게 썰어 빵에 싼 것) |
 | [Lebanon Vitamin](https://www.google.com/maps/search/?api=1&query=Lebanon%20Vitamin%20Z%C3%BClpicher%20Stra%C3%9Fe%2038%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 스트리트 푸드·임비스 | € | ★4.4 (757) | 케밥·되너, 샌드위치 | Chicken Schawarma (치킨 샤와르마 — 리뷰 최다 추천 메뉴) |
@@ -157,12 +157,12 @@
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
-| [Gusto Antico](https://www.google.com/maps/search/?api=1&query=Gusto%20Antico%20Vogelsanger%20Str.%20216%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 트라토리아 | – | ★4.9 (773) | 피자, 파스타 | Pizza (피자), Pasta (파스타) |
+| [Gusto Antico](https://www.google.com/maps/search/?api=1&query=Gusto%20Antico%20Vogelsanger%20Str.%20216%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 트라토리아 | € | ★4.9 (773) | 피자, 파스타 | Pizza (피자), Pasta (파스타) |
 | [Nuvola Napoli](https://www.google.com/maps/search/?api=1&query=Nuvola%20Napoli%20Deutzer%20Freiheit%2066a%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 피자리아 | – | ★4.8 (1,172) | 피자 | Pizza napoletana (나폴리식 피자 — 가장자리가 부풀고 쫄깃한 도우) |
-| [Virtuous Pie – Vegane Pizza](https://www.google.com/maps/search/?api=1&query=Virtuous%20Pie%20%E2%80%93%20Vegane%20Pizza%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 피자리아 | – | ★4.8 (988) | 피자 | Vegane Pizza (비건 피자 — 직접 만든 비건 치즈·소스) |
-| [Pizzeria Spaccanapoli](https://www.google.com/maps/search/?api=1&query=Pizzeria%20Spaccanapoli%20Venloer%20Str.%20502%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 피자리아 | – | ★4.8 (681) | 피자 | Pizza napoletana (나폴리 피자 — 가볍고 쫄깃한 도우) |
+| [Virtuous Pie – Vegane Pizza](https://www.google.com/maps/search/?api=1&query=Virtuous%20Pie%20%E2%80%93%20Vegane%20Pizza%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 피자리아 | €€ | ★4.8 (988) | 피자 | Vegane Pizza (비건 피자 — 직접 만든 비건 치즈·소스) |
+| [Pizzeria Spaccanapoli](https://www.google.com/maps/search/?api=1&query=Pizzeria%20Spaccanapoli%20Venloer%20Str.%20502%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 피자리아 | € | ★4.8 (681) | 피자 | Pizza napoletana (나폴리 피자 — 가볍고 쫄깃한 도우) |
 | [Il Gelato di Ferigo](https://www.google.com/maps/search/?api=1&query=Il%20Gelato%20di%20Ferigo%20Goltsteinstra%C3%9Fe%2032%2C%2050968%20K%C3%B6ln) | 기타 시내 | 젤라토·아이스크림 | € | ★4.7 (1,617) | 아이스크림 |  |
-| [SORELLINA di Nuvola Napoli (Belgisches Viertel)](https://www.google.com/maps/search/?api=1&query=SORELLINA%20di%20Nuvola%20Napoli%20%28Belgisches%20Viertel%29%20Br%C3%BCsseler%20Str.%2073%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 피자리아 | – | ★4.7 (542) | 피자 | Pizza napoletana (나폴리 피자), Vegan pizza (비건 피자) |
+| [SORELLINA di Nuvola Napoli (Belgisches Viertel)](https://www.google.com/maps/search/?api=1&query=SORELLINA%20di%20Nuvola%20Napoli%20%28Belgisches%20Viertel%29%20Br%C3%BCsseler%20Str.%2073%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 피자리아 | €€ | ★4.7 (542) | 피자 | Pizza napoletana (나폴리 피자), Vegan pizza (비건 피자) |
 | [Ristorante Etrusca](https://www.google.com/maps/search/?api=1&query=Ristorante%20Etrusca%20Z%C3%BClpicher%20Str.%2027%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.7 (459) | 파스타 |  |
 | [CARUSO Pastabar](https://www.google.com/maps/search/?api=1&query=CARUSO%20Pastabar%20Kasparstra%C3%9Fe%2019%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 파스타 바 | – | ★4.6 (994) | 파스타 | Pasta (파스타 — 리뷰에서 맛·테크닉 호평) |
 | [Grissini Restaurant & Terrasse](https://www.google.com/maps/search/?api=1&query=Grissini%20Restaurant%20%26%20Terrasse%20Kennedy-Ufer%202a%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 레스토랑 | €€ | ★4.3 (1,694) |  |  |
@@ -193,7 +193,7 @@
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
-| [Petit Frère](https://www.google.com/maps/search/?api=1&query=Petit%20Fr%C3%A8re%20Aachener%20Str.%2020%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | – | ★4.9 (253) |  |  |
+| [Petit Frère](https://www.google.com/maps/search/?api=1&query=Petit%20Fr%C3%A8re%20Aachener%20Str.%2020%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 비스트로 | €€€ | ★4.9 (253) |  |  |
 | [La Société](https://www.google.com/maps/search/?api=1&query=La%20Soci%C3%A9t%C3%A9%20Kyffh%C3%A4userstra%C3%9Fe%2053%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 파인다이닝 | €€€€ | ★4.7 (454) | 코스 요리 |  |
 | [Capricorn [i] Aries Brasserie](https://www.google.com/maps/search/?api=1&query=Capricorn%20%5Bi%5D%20Aries%20Brasserie%20Alteburger%20Str.%2031%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 브라세리 | – | ★4.6 (277) |  |  |
 
@@ -223,7 +223,7 @@
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
-| [Essers Gasthaus](https://www.google.com/maps/search/?api=1&query=Essers%20Gasthaus%20Ottostra%C3%9Fe%2072%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 가스트하우스(향토 식당) | – | ★4.4 (565) |  |  |
+| [Essers Gasthaus](https://www.google.com/maps/search/?api=1&query=Essers%20Gasthaus%20Ottostra%C3%9Fe%2072%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 가스트하우스(향토 식당) | – | ★4.4 (565) |  | Wiener Schnitzel (비너 슈니첼 — 송아지 고기 커틀릿, 일요일에만 제공) |
 
 ## 동유럽·코카서스 — 1곳
 
@@ -272,7 +272,7 @@
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
 | [Enat Äthiopisches Restaurant](https://www.google.com/maps/search/?api=1&query=Enat%20%C3%84thiopisches%20Restaurant%20Remscheider%20Stra%C3%9Fe%2045%2C%2051103%20K%C3%B6ln) | 기타 시내 | 레스토랑 | – | ★4.9 (565) |  |  |
-| [Soliana](https://www.google.com/maps/search/?api=1&query=Soliana%20Subbelrather%20Stra%C3%9Fe%20242%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 레스토랑 | – | ★4.9 (145) |  | Injera-Platte (인제라 플래터 — 발효 빵 인제라 위에 여러 스튜를 올린 모둠), Tibs (티브스 — 에티오피아식 고기 볶음) |
+| [Soliana](https://www.google.com/maps/search/?api=1&query=Soliana%20Subbelrather%20Stra%C3%9Fe%20242%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 레스토랑 | €€ | ★4.9 (145) |  | Injera-Platte (인제라 플래터 — 발효 빵 인제라 위에 여러 스튜를 올린 모둠), Tibs (티브스 — 에티오피아식 고기 볶음) |
 | [Fasika Restaurant](https://www.google.com/maps/search/?api=1&query=Fasika%20Restaurant%20Luxemburger%20Stra%C3%9Fe%2017%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.6 (586) |  |  |
 | [Injera Restaurant](https://www.google.com/maps/search/?api=1&query=Injera%20Restaurant%20Lindenstra%C3%9Fe%2086%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 레스토랑 | – | ★4.5 (745) |  | Veggie Platter (채식 모둠 플래터 — 여러 채소 스튜를 인제라 위에 올려 냄), Mixed Platter (믹스 플래터 — 고기·채소 스튜 모둠) |
 
@@ -280,7 +280,7 @@
 
 | 이름(지도) | 지역 | 유형 | 가격 | 구글 | 요리 | 추천 |
 |---|---|---|---|---|---|---|
-| [Shaka Zulu](https://www.google.com/maps/search/?api=1&query=Shaka%20Zulu%20Limburger%20Stra%C3%9Fe%2029%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | – | ★4.8 (1,474) |  |  |
+| [Shaka Zulu](https://www.google.com/maps/search/?api=1&query=Shaka%20Zulu%20Limburger%20Stra%C3%9Fe%2029%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 레스토랑 | €€ | ★4.8 (1,474) |  | Bobotie (보보티 — 남아공식 다진 고기 오븐 요리, 사프란 라이스·처트니 곁들임), Communal Meal (커뮤널 밀 — 브라이 꼬치구이·차칼라카·팝, 2인 이상 테이블 단위 주문) |
 
 ## 퓨전·인터내셔널 — 4곳
 

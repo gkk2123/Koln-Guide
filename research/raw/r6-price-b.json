@@ -1,0 +1,406 @@
+{
+ "agent": "r6-price-b",
+ "generated": "2026-11-07",
+ "price_updates": [
+  {
+   "id": "petit-frere",
+   "name": "Petit Frère",
+   "price_level": 3,
+   "price_pp": null,
+   "price_note_ko": "tablejourney 가격대 €45–75(1인·코스 기준인지 불명, 날짜 미상) — 메뉴판 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "bistro",
+   "signature_ko": [],
+   "sources": [
+    "https://tablejourney.com/germany/cologne/fine-dining/petit-frere/"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "christoph-pauls-restaurant",
+   "name": "Christoph Paul's Restaurant",
+   "price_level": null,
+   "price_pp": null,
+   "price_note_ko": "유로 가격 미확인 — 미쉐린 가이드 가격 등급 €€, 선택형 3~4코스 시즌 메뉴(코스 가격 미노출)",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [],
+   "sources": [
+    "https://guide.michelin.com/en/nordrhein-westfalen/koln/restaurant/christoph-pauls-restaurant",
+    "https://www.schlemmer-atlas.de/restaurants/deutschland/koeln/christoph-pauls-restaurant/"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "shaka-zulu",
+   "name": "Shaka Zulu",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note_ko": "제3자 디렉터리: 요리·메뉴에 따라 €20–30(날짜 미상); 2026-05 남아공 언론 방문기로 영업 확인",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [
+    "Bobotie (보보티 — 남아공식 다진 고기 오븐 요리, 사프란 라이스·처트니 곁들임)",
+    "Communal Meal (커뮤널 밀 — 브라이 꼬치구이·차칼라카·팝, 2인 이상 테이블 단위 주문)"
+   ],
+   "sources": [
+    "https://www.swipein.restaurant/en/restaurant/shaka-zulu-koln",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/shaka_zulu/speisekarte",
+    "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-im-belgischen-viertel-in-koeln_shaka-zulu-suedafrikanisch_L1134356_1134346.html",
+    "https://dailynews.co.za/lifestyle/food-drink/2026-05-12-south-africans-are-fuming-over-the-menu-at-germanys-shaka-zulu-restaurant/"
+   ],
+   "confidence": "medium",
+   "checked": "2026-11"
+  },
+  {
+   "id": "lua-by-danny",
+   "name": "Lúa by Danny",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note_ko": "Wolt 쌀국수(Phở)·기타 메인 €14.50(배달가, 현재); 2019 기사 메인 €6.90–9.80은 구 정보",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [],
+   "sources": [
+    "https://wolt.com/en/deu/cologne/restaurant/lua-by-danny",
+    "https://koeln.mitvergnuegen.com/2019/lua-by-danny-koeln/"
+   ],
+   "confidence": "medium",
+   "checked": "2026-11"
+  },
+  {
+   "id": "sorellina-di-nuvola-napoli",
+   "name": "SORELLINA di Nuvola Napoli (Belgisches Viertel)",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note_ko": "Wolt 피자 €12.90–16.90(마르게리타가 페이지별 €12.90/€15.90로 상이), 브루스케타 €13.90 — 배달가",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "pizzeria",
+   "signature_ko": [],
+   "sources": [
+    "https://wolt.com/de/deu/cologne/restaurant/sorellina-cologne",
+    "https://wolt.com/en/deu/cologne/restaurant/sorellina-cologne",
+    "https://spinach.guide/venues/sorellina-di-nuvola-napoli-belgisches-viertel-242681/"
+   ],
+   "confidence": "medium",
+   "checked": "2026-11"
+  },
+  {
+   "id": "hambaga",
+   "name": "Hambaga Burger, Ramen & Bar",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note_ko": "speisekarte.de 벨기에 지구점 메뉴(2023-06) 버거 €10.50–12.60; Wolt 노이마르크트점 버거 €11.50–13.50",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "burger",
+   "signature_ko": [],
+   "sources": [
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/hambaga_belgisches_viertel/speisekarte",
+    "https://wolt.com/de/deu/cologne/restaurant/hambaga-neumarkt",
+    "https://rausgegangen.de/en/blog/hambaga-koeln-aachener-strasse/"
+   ],
+   "confidence": "medium",
+   "checked": "2026-11"
+  },
+  {
+   "id": "nihao-aachener-strasse",
+   "name": "NiHao",
+   "price_level": null,
+   "price_pp": null,
+   "price_note_ko": "메뉴 가격 미확인 — restaurantguru 리뷰 '합리적 가격, 점심 메뉴 있음'; speisekarte.de 'Ni'Hao Nudelbar'(볼 €11.90–14.50)는 동일 업소인지 확인 불가",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [],
+   "sources": [
+    "https://restaurantguru.com/NiHao-Cologne",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/nihao_nudelbar/speisekarte"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "daikan-izakaya",
+   "name": "Daikan",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note_ko": "OpenTable 1인 €30 이하; 음식 단가 미확인(speisekarte.de 2025-09 메뉴는 음료만 표시)",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "izakaya",
+   "signature_ko": [],
+   "sources": [
+    "https://www.opentable.com/r/daikan-izakaya-bar-koln",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/daikan_izakaya_belgisches_viertel/speisekarte"
+   ],
+   "confidence": "medium",
+   "checked": "2026-11"
+  },
+  {
+   "id": "bali-restaurant",
+   "name": "Bali Restaurant",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note_ko": "speisekarte.de 메뉴(2025-01) 오포르 피틱(코코넛 소스 닭가슴살) €15.90",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [],
+   "sources": [
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/bali_restaurant/speisekarte"
+   ],
+   "confidence": "medium",
+   "checked": "2026-11"
+  },
+  {
+   "id": "gusto-antico",
+   "name": "Gusto Antico",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note_ko": "Mit Vergnügen(2023): 홍합 파스타 점심 €11.50 — 비싼 편에 속하는 메뉴; 평일 낮 영업(주방 15시 마감)",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [],
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2023/gusto-antico-ehrenfeld/",
+    "https://joinpearl.co/restaurants/cologne-germany/gusto-antico"
+   ],
+   "confidence": "medium",
+   "checked": "2026-11"
+  },
+  {
+   "id": "soliana",
+   "name": "Soliana",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note_ko": "Wolt: 치킨 티브스 €20.70, 렌틸 삼부사 €6.40(배달가)",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [],
+   "sources": [
+    "https://wolt.com/en/deu/cologne/restaurant/soliana"
+   ],
+   "confidence": "medium",
+   "checked": "2026-11"
+  },
+  {
+   "id": "virtuous-pie",
+   "name": "Virtuous Pie – Vegane Pizza",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note_ko": "Wolt: 시즌 피자 €17.90–18.90, 디저트 파이 €9.90(배달가, 기간 한정 메뉴) — 기본 피자 가격 미확인",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "pizzeria",
+   "signature_ko": [],
+   "sources": [
+    "https://wolt.com/de/deu/cologne/restaurant/virtuous-pie"
+   ],
+   "confidence": "medium",
+   "checked": "2026-11"
+  },
+  {
+   "id": "pizzeria-spaccanapoli",
+   "name": "Pizzeria Spaccanapoli",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note_ko": "speisekarte.de 메뉴(2025-10) 피자 부팔리나 €14.50·토토 €15.00; 2022 기사 피자 €8–14.50; enprimeurclub 1인 약 €18",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "pizzeria",
+   "signature_ko": [],
+   "sources": [
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/spaccanapoli_koeln/speisekarte",
+    "https://koeln.mitvergnuegen.com/2022/pizzeria-spaccanapoli",
+    "https://www.enprimeurclub.com/restaurants/spacca-napoli-cologne-restaurant"
+   ],
+   "confidence": "high",
+   "checked": "2026-11"
+  },
+  {
+   "id": "vegan-food-revolution",
+   "name": "Vegan Food Revolution",
+   "price_level": null,
+   "price_pp": null,
+   "price_note_ko": "메뉴 가격 미확인 — Mit Vergnügen 저가 맛집 기사에 소개(수치 없음), HappyCow 가성비 3/5; HappyCow상 현재 치즈 제공(완전 비건 아님)",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [],
+   "sources": [
+    "https://www.happycow.net/reviews/vegan-food-revolution-cologne-141833",
+    "https://koeln.mitvergnuegen.com/2024/guenstig-essen"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "bethlehem-oriental-kitchen",
+   "name": "Bethlehem Oriental Kitchen",
+   "price_level": 1,
+   "price_pp": null,
+   "price_note_ko": "speisekarte.de 메뉴(2021-12, 오래됨): 메인 대부분 €15 미만; speisekarte.menu(2026-07): 품목 평균 약 €11(음료 포함)",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [],
+   "sources": [
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/restaurant_bethlehem/speisekarte",
+    "https://speisekarte.menu/restaurants/koeln/bethlehem-1/menu"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "sushi-ninja-ehrenfeld",
+   "name": "Sushi Ninja",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note_ko": "speisekarte.de 에렌펠트점 메뉴(2025-09): 크리스피 닌자 4피스 €10.50(비건 €8.50), 미소국 €3.50, 와카메 €4.00 — 단품가를 1인 식사로 환산한 값이라 신뢰도 낮음",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "sushi-bar",
+   "signature_ko": [
+    "Crispy Ninja (크리스피 닌자 — 스코틀랜드산 연어 타르타르를 올린 바삭한 스시 4피스, 비건 아보카도 버전도 있음)"
+   ],
+   "sources": [
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/sushi_ninja_ehrenfeld/speisekarte"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "essers-gasthaus",
+   "name": "Essers Gasthaus",
+   "price_level": null,
+   "price_pp": null,
+   "price_note_ko": "메뉴 가격 미확인 — enprimeurclub 가격 등급 $$$(유로 기준 불명); speisekarte.de 메뉴(2024-06)에서 가격 확인 못 함",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [
+    "Wiener Schnitzel (비너 슈니첼 — 송아지 고기 커틀릿, 일요일에만 제공)"
+   ],
+   "sources": [
+    "https://www.enprimeurclub.com/restaurants/essers-gasthaus-cologne-restaurant",
+    "https://www.speisekarte.de/k%C3%B6ln/restaurant/essers_gasthaus"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "barito",
+   "name": "Barito",
+   "price_level": null,
+   "price_pp": null,
+   "price_note_ko": "칵테일 단가 미확인 — 칵테일 클래스 1인 €65부터(약 2시간, 칵테일 3잔 포함)",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "cocktail-bar",
+   "signature_ko": [],
+   "sources": [
+    "https://gokonfetti.com/en-us/p/barito-wd6mgz/",
+    "https://www.koeln.de/branchen/eintrag/45944/restaurants/barito"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "little-link",
+   "name": "Little Link",
+   "price_level": null,
+   "price_pp": null,
+   "price_note_ko": "칵테일 단가 미확인 — tablejourney 가격 등급 €€€, 다른 목록 사이트 1인 $30–50(추정치)",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "cocktail-bar",
+   "signature_ko": [],
+   "sources": [
+    "https://tablejourney.com/germany/cologne/cuisine/cocktail-bar/",
+    "https://www.enprimeurclub.com/bars/little-link-k-ln",
+    "https://willkommen.koelntourismus.de/en/gastro/little-link"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "zum-knobelbecher",
+   "name": "Zum Knobelbecher",
+   "price_level": null,
+   "price_pp": null,
+   "price_note_ko": "쾰시 가격 미확인 — Mit Vergnügen 2024 '쾰른의 저렴한 바·크나이페 11곳'에 포함(수치 없음), 케겔바안(볼링 레인)으로 유명",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "kneipe",
+   "signature_ko": [],
+   "sources": [
+    "https://koeln.mitvergnuegen.com/2024/guenstige-bars-kneipen/",
+    "https://www.koeln.de/branchen/eintrag/61388/gaststaetten-und-restaurants/gaststaette-zum-knobelbecher"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "weisser-holunder",
+   "name": "Weißer Holunder",
+   "price_level": null,
+   "price_pp": null,
+   "price_note_ko": "쾰시 가격 미확인 — 검색 결과에 이 업소의 가격 정보 없음",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "kneipe",
+   "signature_ko": [],
+   "sources": [
+    "https://theeuropeanbarguide.com/weisser-holunder-cologne/"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  },
+  {
+   "id": "the-baer-gin-cocktailbar",
+   "name": "The Bär – Gin- & Cocktailbar",
+   "price_level": 2,
+   "price_pp": null,
+   "price_note_ko": "speisekarte.menu: 진토닉 €9–15(진 5cl+토닉 0.2 l, 이곳에서만 돌려받는 잔 보증금 €2.50 포함), 날짜 미상 — 칵테일 단가는 미확인",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": "cocktail-bar",
+   "signature_ko": [
+    "Gin & Tonic (진토닉 — 쾰른 최대 규모의 진 셀렉션에서 골라 마시는 진토닉)"
+   ],
+   "sources": [
+    "https://speisekarte.menu/restaurants/koeln/the-baer/menu",
+    "https://www.meininger.de/gastronomie/konzepte/wir-zeigen-den-gaesten-ihren-eigenen-gin-geschmack"
+   ],
+   "confidence": "medium",
+   "checked": "2026-11"
+  },
+  {
+   "id": "sonic-ballroom",
+   "name": "Sonic Ballroom",
+   "price_level": null,
+   "price_pp": null,
+   "price_note_ko": "가격 미확인 — 쾰른 관광청 소개에 '저렴한 음료'; 신뢰도 낮은 가이드의 쾰시 약 €3–4는 채택 안 함; 공연 없는 날 입장 무료",
+   "beer_price_eur": null,
+   "beer_price_note_ko": null,
+   "style_hint": null,
+   "signature_ko": [],
+   "sources": [
+    "https://www.cologne-tourism.com/see-experience/poi/sonic-ballroom"
+   ],
+   "confidence": "low",
+   "checked": "2026-11"
+  }
+ ],
+ "notes_ko": "영구 폐업이 확인된 곳 없음. Shaka Zulu는 2026-05 남아공 언론 방문기로 영업 중임을 확인(https://dailynews.co.za/lifestyle/food-drink/2026-05-12-south-africans-are-fuming-over-the-menu-at-germanys-shaka-zulu-restaurant/). 확인 필요: VinePair가 Zum Knobelbecher와 같은 주소(Brüsseler Str. 47)에 Grünfeld 비어가든을 표기함(https://vinepair.com/articles/drink-like-a-local-in-cologne-germany). Sorellina는 Antwerpener Str. 38과 Brüsseler Str. 73이 함께 표기되고, Daikan은 OpenTable상 Maastrichter Str. 6(다른 출처는 9). Vegan Food Revolution은 HappyCow 기준 현재 치즈를 제공해 완전 비건이 아님(https://www.happycow.net/reviews/vegan-food-revolution-cologne-141833). Gusto Antico는 평일 낮 영업·주말 휴무로 표기됨(https://joinpearl.co/restaurants/cologne-germany/gusto-antico). Wolt 가격은 배달가라 매장가보다 높을 수 있음. 미쉐린 €€, enprimeurclub $$$, tablejourney €€€ 같은 등급 기호는 유로 기준을 알 수 없어 price_level로 옮기지 않음(Christoph Paul's, Essers, Little Link). 쾰시 가격은 Knobelbecher·Weißer Holunder·Sonic Ballroom 모두 못 찾음. 검색 37회 사용."
+}

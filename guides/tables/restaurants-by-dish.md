@@ -11,17 +11,17 @@
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
-| [Gusto Antico](https://www.google.com/maps/search/?api=1&query=Gusto%20Antico%20Vogelsanger%20Str.%20216%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | – | ★4.9 (773) |
+| [Gusto Antico](https://www.google.com/maps/search/?api=1&query=Gusto%20Antico%20Vogelsanger%20Str.%20216%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | € | ★4.9 (773) |
 | [Nuvola Napoli](https://www.google.com/maps/search/?api=1&query=Nuvola%20Napoli%20Deutzer%20Freiheit%2066a%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 이탈리아 | – | ★4.8 (1,172) |
-| [Virtuous Pie – Vegane Pizza](https://www.google.com/maps/search/?api=1&query=Virtuous%20Pie%20%E2%80%93%20Vegane%20Pizza%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | – | ★4.8 (988) |
-| [Pizzeria Spaccanapoli](https://www.google.com/maps/search/?api=1&query=Pizzeria%20Spaccanapoli%20Venloer%20Str.%20502%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | – | ★4.8 (681) |
-| [SORELLINA di Nuvola Napoli (Belgisches Viertel)](https://www.google.com/maps/search/?api=1&query=SORELLINA%20di%20Nuvola%20Napoli%20%28Belgisches%20Viertel%29%20Br%C3%BCsseler%20Str.%2073%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 이탈리아 | – | ★4.7 (542) |
+| [Virtuous Pie – Vegane Pizza](https://www.google.com/maps/search/?api=1&query=Virtuous%20Pie%20%E2%80%93%20Vegane%20Pizza%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | €€ | ★4.8 (988) |
+| [Pizzeria Spaccanapoli](https://www.google.com/maps/search/?api=1&query=Pizzeria%20Spaccanapoli%20Venloer%20Str.%20502%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | € | ★4.8 (681) |
+| [SORELLINA di Nuvola Napoli (Belgisches Viertel)](https://www.google.com/maps/search/?api=1&query=SORELLINA%20di%20Nuvola%20Napoli%20%28Belgisches%20Viertel%29%20Br%C3%BCsseler%20Str.%2073%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 이탈리아 | €€ | ★4.7 (542) |
 
 ## 파스타 — 3곳
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
-| [Gusto Antico](https://www.google.com/maps/search/?api=1&query=Gusto%20Antico%20Vogelsanger%20Str.%20216%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | – | ★4.9 (773) |
+| [Gusto Antico](https://www.google.com/maps/search/?api=1&query=Gusto%20Antico%20Vogelsanger%20Str.%20216%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 이탈리아 | € | ★4.9 (773) |
 | [Ristorante Etrusca](https://www.google.com/maps/search/?api=1&query=Ristorante%20Etrusca%20Z%C3%BClpicher%20Str.%2027%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 이탈리아 | – | ★4.7 (459) |
 | [CARUSO Pastabar](https://www.google.com/maps/search/?api=1&query=CARUSO%20Pastabar%20Kasparstra%C3%9Fe%2019%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 이탈리아 | – | ★4.6 (994) |
 
@@ -32,8 +32,8 @@
 | [Takumi – Japanisches Ramen Restaurant](https://www.google.com/maps/search/?api=1&query=Takumi%20%E2%80%93%20Japanisches%20Ramen%20Restaurant%20Hohenstaufenring%2058%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 일본 | – | ★4.7 (7,973) |
 | [COCO Ramen – Sushi – Asian kitchen](https://www.google.com/maps/search/?api=1&query=COCO%20Ramen%20%E2%80%93%20Sushi%20%E2%80%93%20Asian%20kitchen%20Breite%20Stra%C3%9Fe%2026%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 일본 | – | ★4.7 (947) |
 | [Daimyo - Ramen & Fitnes Sushi Restaurant](https://www.google.com/maps/search/?api=1&query=Daimyo%20-%20Ramen%20%26%20Fitnes%20Sushi%20Restaurant%20Friesenwall%20116%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 일본 | €€ | ★4.7 (834) |
-| [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 미국 | – | ★4.6 (356) |
-| [Daikan](https://www.google.com/maps/search/?api=1&query=Daikan%20Maastrichter%20Stra%C3%9Fe%209%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | – | ★4.3 (2,378) |
+| [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 미국 | € | ★4.6 (356) |
+| [Daikan](https://www.google.com/maps/search/?api=1&query=Daikan%20Maastrichter%20Stra%C3%9Fe%209%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | €€ | ★4.3 (2,378) |
 
 ## 스시 — 7곳
 
@@ -45,7 +45,7 @@
 | [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 일본 | €€€ | ★4.7 (731) |
 | [ITO Japanese Cuisine](https://www.google.com/maps/search/?api=1&query=ITO%20Japanese%20Cuisine%20Antwerpener%20Stra%C3%9Fe%2015%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | €€€€ | ★4.6 (310) |
 | [Tanoshii](https://www.google.com/maps/search/?api=1&query=Tanoshii%20Brabanter%20Stra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 베트남 | €€€ | ★4.5 (905) |
-| [Sushi Ninja](https://www.google.com/maps/search/?api=1&query=Sushi%20Ninja%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 일본 | – | ★4.5 (724) |
+| [Sushi Ninja](https://www.google.com/maps/search/?api=1&query=Sushi%20Ninja%20Venloer%20Str.%20241-245%2C%2050823%20K%C3%B6ln) | 에렌펠트 | 일본 | €€ | ★4.5 (724) |
 
 ## 면 요리 — 6곳
 
@@ -66,9 +66,9 @@
 | [NaiNai Bao](https://www.google.com/maps/search/?api=1&query=NaiNai%20Bao%20Josef-Haubrich-Hof%203%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 중국 | € | ★4.8 (587) |
 | [Downtowner Korean Urban Restaurant](https://www.google.com/maps/search/?api=1&query=Downtowner%20Korean%20Urban%20Restaurant%20Severinstra%C3%9Fe%20162a%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 한국 | €€ | ★4.7 (1,218) |
 | [ZEN Japanese Restaurant](https://www.google.com/maps/search/?api=1&query=ZEN%20Japanese%20Restaurant%20Bachemer%20Stra%C3%9Fe%20233%2C%2050935%20K%C3%B6ln) | 기타 시내 | 일본 | €€€ | ★4.7 (731) |
-| [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 미국 | – | ★4.6 (356) |
+| [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 미국 | € | ★4.6 (356) |
 | [MEIWEI](https://www.google.com/maps/search/?api=1&query=MEIWEI%20Mindener%20Stra%C3%9Fe%204%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 중국 · 태국 | – | ★4.5 (128) |
-| [Daikan](https://www.google.com/maps/search/?api=1&query=Daikan%20Maastrichter%20Stra%C3%9Fe%209%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | – | ★4.3 (2,378) |
+| [Daikan](https://www.google.com/maps/search/?api=1&query=Daikan%20Maastrichter%20Stra%C3%9Fe%209%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | €€ | ★4.3 (2,378) |
 
 ## 고기구이 — 2곳
 
@@ -105,7 +105,7 @@
 |---|---|---|---|---|
 | [Nam](https://www.google.com/maps/search/?api=1&query=Nam%20Engelbertstra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 베트남 | € | ★4.9 (676) |
 | [1980 – Cafe und Bánh Mì](https://www.google.com/maps/search/?api=1&query=1980%20%E2%80%93%20Cafe%20und%20B%C3%A1nh%20M%C3%AC%20Bobstra%C3%9Fe%2028%2C%2050676%20K%C3%B6ln) | 대성당·구시가 | 베트남 | € | ★4.7 (1,077) |
-| [Lúa by Danny](https://www.google.com/maps/search/?api=1&query=L%C3%BAa%20by%20Danny%20Brabanter%20Str.%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 베트남 | – | ★4.7 (585) |
+| [Lúa by Danny](https://www.google.com/maps/search/?api=1&query=L%C3%BAa%20by%20Danny%20Brabanter%20Str.%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 베트남 | € | ★4.7 (585) |
 | [Chum Chay](https://www.google.com/maps/search/?api=1&query=Chum%20Chay%20Friesenwall%2029%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 베트남 | €€ | ★4.6 (1,987) |
 
 ## 반미 — 1곳
@@ -144,7 +144,7 @@
 |---|---|---|---|---|
 | [Artistanbul Meze](https://www.google.com/maps/search/?api=1&query=Artistanbul%20Meze%20Kom%C3%B6dienstra%C3%9Fe%2052%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | 터키 | – | ★4.8 (795) |
 | [Vegan Food Revolution](https://www.google.com/maps/search/?api=1&query=Vegan%20Food%20Revolution%20Venloer%20Str.%20456%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 중동·터키·북아프리카 | – | ★4.7 (531) |
-| [Bethlehem Oriental Kitchen](https://www.google.com/maps/search/?api=1&query=Bethlehem%20Oriental%20Kitchen%20Lenauplatz%208%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 레바논 | – | ★4.7 (362) |
+| [Bethlehem Oriental Kitchen](https://www.google.com/maps/search/?api=1&query=Bethlehem%20Oriental%20Kitchen%20Lenauplatz%208%2C%2050825%20K%C3%B6ln) | 에렌펠트 | 레바논 | € | ★4.7 (362) |
 | [Al Salam](https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Eifelplatz%204%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 중동·터키·북아프리카 | – | ★4.5 (1,042) |
 | [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 기타 시내 | 그리스 | – | ★4.5 (451) |
 | [NENI Köln](https://www.google.com/maps/search/?api=1&query=NENI%20K%C3%B6ln%20Im%20Klapperhof%2022-24%2C%2050670%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 이스라엘 | €€€ | ★4.3 (1,989) |
@@ -169,7 +169,7 @@
 
 | 이름(지도) | 지역 | 나라 | 가격 | 구글 |
 |---|---|---|---|---|
-| [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 미국 | – | ★4.6 (356) |
+| [Hambaga Burger, Ramen & Bar](https://www.google.com/maps/search/?api=1&query=Hambaga%20Burger%2C%20Ramen%20%26%20Bar%20Aachener%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 미국 | € | ★4.6 (356) |
 | [Die Fette Kuh](https://www.google.com/maps/search/?api=1&query=Die%20Fette%20Kuh%20Bonner%20Str.%2043%2C%2050677%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 미국 | – | ★4.4 (6,103) |
 
 ## 스테이크 — 2곳
@@ -197,7 +197,7 @@
 | [Tigermilch](https://www.google.com/maps/search/?api=1&query=Tigermilch%20Br%C3%BCsseler%20Str.%2012%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 페루 | €€€ | ★4.5 (1,059) |
 | [Jamas Griechische Taverne](https://www.google.com/maps/search/?api=1&query=Jamas%20Griechische%20Taverne%20Sechzigstra%C3%9Fe%201%2C%2050733%20K%C3%B6ln) | 기타 시내 | 그리스 | – | ★4.5 (451) |
 | [TapaVinho](https://www.google.com/maps/search/?api=1&query=TapaVinho%20Kurf%C3%BCrstenstra%C3%9Fe%2029%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 포르투갈 · 스페인 | – | ★4.5 (333) |
-| [Daikan](https://www.google.com/maps/search/?api=1&query=Daikan%20Maastrichter%20Stra%C3%9Fe%209%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | – | ★4.3 (2,378) |
+| [Daikan](https://www.google.com/maps/search/?api=1&query=Daikan%20Maastrichter%20Stra%C3%9Fe%209%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | 일본 | €€ | ★4.3 (2,378) |
 
 ## 타코 — 3곳
 

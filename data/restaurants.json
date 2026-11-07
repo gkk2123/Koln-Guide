@@ -26,6 +26,7 @@
       "r5-tickets-dates.json",
       "r5-tickets-dom-city.json",
       "r5-tickets-private.json",
+      "r6-price-b.json",
       "wine-places.json"
     ],
     "count": 128
@@ -1241,10 +1242,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 3,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "tablejourney 가격대 €45–75(1인·코스 기준인지 불명, 날짜 미상) — 메뉴판 가격 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -1272,7 +1273,8 @@
       "verification_status": "unknown",
       "verification_note": "검색에서 구글 수치·최근 리뷰·영업 여부를 찾지 못함. 2023년 mitvergnuegen 기사(벨기에 지구 파인다이닝)만 확인됨. 현재 영업 여부는 미확인이고 폐업 신호도 없음.",
       "latest_review": null,
-      "style": null
+      "price_checked": "2026-11",
+      "style": "bistro"
     },
     {
       "id": "christoph-pauls-restaurant",
@@ -1338,6 +1340,7 @@
       "verification_status": "open",
       "verification_note": "미쉐린 가이드 다국어 페이지에 현재 등재(Brüsseler Straße 26, 50674 Köln)되어 있어 영업 중으로 판단. 영업시간: 화–금 17:30–24:00(Schlemmer-Atlas), 토 18:00–24:00·일 휴무(미쉐린). 제3자 사이트에 '구글 4.7(200건 이상)' 언급이 있으나 출처가 불명확해 반영하지 않음(기존 4.9/223 유지).",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -1363,10 +1366,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "제3자 디렉터리: 요리·메뉴에 따라 €20–30(날짜 미상); 2026-05 남아공 언론 방문기로 영업 확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -1375,7 +1378,10 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (Google)",
       "summary_ko": "벨기에 지구 림부르거 슈트라세의 남아프리카 레스토랑으로, Mit Vergnügen이 '쾰른에서 아마 가장 화려한 아프리카 레스토랑'이라고 소개한 곳이다. 구글 평점 4.8(1,474건 이상)로 Wanderlog '쾰른 아프리카 음식' 목록 최상위권이다.",
-      "must_try": [],
+      "must_try": [
+        "Bobotie (보보티 — 남아공식 다진 고기 오븐 요리, 사프란 라이스·처트니 곁들임)",
+        "Communal Meal (커뮤널 밀 — 브라이 꼬치구이·차칼라카·팝, 2인 이상 테이블 단위 주문)"
+      ],
       "tips_ko": "메뉴 세부 정보는 이번 조사에서 미확인 — 방문 전 메뉴와 예약 여부를 확인할 것.",
       "website": null,
       "awards": [],
@@ -1386,7 +1392,10 @@
         "https://koeln.mitvergnuegen.com/2026/restaurants-belgisches-viertel/",
         "https://dailynews.co.za/lifestyle/food-drink/2026-05-12-south-africans-are-fuming-over-the-menu-at-germanys-shaka-zulu-restaurant/",
         "https://www.koeln.de/branchen/eintrag/12116/restaurants/shaka-zulu",
-        "https://www.opentable.com/r/shaka-zulu-koln"
+        "https://www.opentable.com/r/shaka-zulu-koln",
+        "https://www.swipein.restaurant/en/restaurant/shaka-zulu-koln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/shaka_zulu/speisekarte",
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-im-belgischen-viertel-in-koeln_shaka-zulu-suedafrikanisch_L1134356_1134346.html"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -1396,6 +1405,7 @@
       "verification_status": "open",
       "verification_note": "2026-05-12 남아공 매체(dailynews.co.za)가 남아공 크리에이터의 방문 리뷰와 메뉴 논란을 보도함. 2026년 5월 영업 확인(구글 리뷰 날짜는 아님). 주소 Limburger Str. 29, 50672 Köln·전화 0221 16862814 확인. 영업시간이 출처마다 다름(koeln.de 월–목 12–15·18–22, 토 12–23:30, 일 10–21:30 / swipein 토 17–23:30, 일 18–21:30)이라 방문 전 확인 필요. OpenTable 4.6/209(구글 아님). 구글 수치는 이번 검색에서 미확인.",
       "latest_review": "2026-05",
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -1551,10 +1561,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "Wolt 쌀국수(Phở)·기타 메인 €14.50(배달가, 현재); 2019 기사 메인 €6.90–9.80은 구 정보",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -1575,7 +1585,8 @@
         "https://cologne-tourism.com/delight-diversity/gastronomy/detail/lua-by-danny",
         "https://wolt.com/en/deu/cologne/restaurant/lua-by-danny",
         "https://plantspack.com/place/lua-by-danny-koln",
-        "https://www.koeln.de/branchen/eintrag/34156/restaurants/bep-viet"
+        "https://www.koeln.de/branchen/eintrag/34156/restaurants/bep-viet",
+        "https://koeln.mitvergnuegen.com/2019/lua-by-danny-koeln/"
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
@@ -1585,6 +1596,7 @@
       "verification_status": "unknown",
       "verification_note": "쾰른관광청·Wolt·PlantsPack에 등록(Brabanter Straße 9, 50674 Köln)되어 있지만 구글 수치·최근 리뷰는 미확인. 한 가이드 사이트 자체 평점 3.9(구글 아님). koeln.de에는 같은 주소로 'Bep Viet'가 등록되어 있음(이전 상호로 추정, 미확인). PlantsPack 영업시간 월–토 11–18('검증 필요' 표시). 폐업 신호 없음.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -1615,10 +1627,10 @@
       "reservation": "unknown",
       "payment": "card",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "Wolt 피자 €12.90–16.90(마르게리타가 페이지별 €12.90/€15.90로 상이), 브루스케타 €13.90 — 배달가",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -1639,7 +1651,9 @@
         "https://wanderlog.com/place/details/8759545/sorellina-di-nuvola-napoli-belgisches-viertel",
         "https://restaurantguru.com/RAZZO-Vegan-Pizza-Bar-Cologne",
         "https://spinach.guide/venues/sorellina-di-nuvola-napoli-belgisches-viertel-242681/",
-        "https://www.oeffnungszeitenbuch.de/filiale/Koeln-Sorellina-5643326S.html"
+        "https://www.oeffnungszeitenbuch.de/filiale/Koeln-Sorellina-5643326S.html",
+        "https://wolt.com/de/deu/cologne/restaurant/sorellina-cologne",
+        "https://wolt.com/en/deu/cologne/restaurant/sorellina-cologne"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -1649,6 +1663,7 @@
       "verification_status": "unknown",
       "verification_note": "우편주소 Brüsseler Str. 73, 50672 Köln 확인. 출입구는 코너의 Antwerpener Straße 38로 표기됨. 구글 수치·최근 리뷰는 미확인. spinach.guide 4.3·4.4(중복 등록, 구글 여부 불명), 비건 피자 종류가 많다는 설명. 자매점 Nuvola Napoli(Deutzer Freiheit 66a)와 혼동 주의. 폐업 신호 없음.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "pizzeria"
     },
     {
@@ -1681,10 +1696,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "speisekarte.de 벨기에 지구점 메뉴(2023-06) 버거 €10.50–12.60; Wolt 노이마르크트점 버거 €11.50–13.50",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -1705,7 +1720,8 @@
       "sources": [
         "https://wanderlog.com/place/details/8700451/hambaga-burger-ramen--bar",
         "https://rausgegangen.de/en/blog/hambaga-koeln-aachener-strasse/",
-        "https://wolt.com/de/deu/cologne/restaurant/hambaga-neumarkt"
+        "https://wolt.com/de/deu/cologne/restaurant/hambaga-neumarkt",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/hambaga_belgisches_viertel/speisekarte"
       ],
       "confidence": "medium",
       "research": "r2-east-asia",
@@ -1715,6 +1731,7 @@
       "verification_status": "unknown",
       "verification_note": "2023년 rausgegangen 기사로 Aachener Str. 9 지점(쾰른 2호점, 바텐더가 있는 바 별도) 확인. 당시 영업시간 월–목 17–22:30, 금 16–23, 토 12–23(변경 가능). 구글 수치와 2026년 활동은 이번 검색에서 미확인. Wolt에서는 Neumarkt 지점만 확인됨. 폐업 신호 없음.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "burger"
     },
     {
@@ -1832,7 +1849,9 @@
         "https://restaurantguru.com/Ni-Hao-Cologne",
         "https://koeln.mitvergnuegen.com/2024/belgisches-viertel-vegan-essen",
         "https://spinach.guide/venues/nihao-34759/",
-        "https://wolt.com/de/deu/cologne/restaurant/veggie-vu1"
+        "https://wolt.com/de/deu/cologne/restaurant/veggie-vu1",
+        "https://restaurantguru.com/NiHao-Cologne",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/nihao_nudelbar/speisekarte"
       ],
       "confidence": "medium",
       "research": "r2-east-asia",
@@ -1842,6 +1861,7 @@
       "verification_status": "open",
       "verification_note": "2024년 같은 팀이 Veggie Vu(비건 베트남)를 NiHao로 개명하고 중식 메뉴를 추가함(mitvergnuegen). 같은 주소의 예전 'Ni Hao' 리스팅(구글 4.5/385)은 Wanderlog 목록에 '영구 폐업' 표시. 개명 이전 리스팅으로 추정되며 현 NiHao 리스팅에는 폐업 표시 없음. 다만 spinach.guide는 매일 12–22:30, Wolt(veggie vu1)는 전일 '휴무'로 서로 어긋나고 2026년 리뷰·활동도 미확인이라 방문 전 확인 필요. 서비스 속도·결제 수단에 대한 리뷰는 엇갈림.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -2281,10 +2301,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "OpenTable 1인 €30 이하; 음식 단가 미확인(speisekarte.de 2025-09 메뉴는 음료만 표시)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -2308,7 +2328,9 @@
         "https://wanderlog.com/list/geoCategory/1507873/best-ramen-in-cologne",
         "https://wanderlog.com/list/geoCategory/1789534/best-noodle-spots-in-cologne",
         "https://restaurantguru.com/Daikan-Cologne",
-        "https://www.top-rated.online/cities/Cologne/place/p/5137931/DAIKAN+IZAKAYA+(Belgisches+Viertel)"
+        "https://www.top-rated.online/cities/Cologne/place/p/5137931/DAIKAN+IZAKAYA+(Belgisches+Viertel)",
+        "https://www.opentable.com/r/daikan-izakaya-bar-koln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/daikan_izakaya_belgisches_viertel/speisekarte"
       ],
       "confidence": "medium",
       "research": "r2-east-asia",
@@ -2318,6 +2340,7 @@
       "verification_status": "open",
       "verification_note": "현재 상호 'DAIKAN IZAKAYA (Belgisches Viertel)', Maastrichter Str. 9, 50672 확인. 구글 4.3 유지(2.2K건은 기존 2,378보다 이전 스냅샷). 라멘 호평, 30분 이상 대기·직원 응대 지적. 리뷰 스니펫이 1–5년 전 상대 날짜라 최근 활동 시점 불명.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "izakaya"
     },
     {
@@ -2343,10 +2366,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "speisekarte.de 메뉴(2025-01) 오포르 피틱(코코넛 소스 닭가슴살) €15.90",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -2366,7 +2389,8 @@
         "https://www.top-rated.online/cities/Cologne/place/p/2223265/Bali+Restaurant",
         "https://www.top-rated.online/cities/Cologne/place/p/5136754/Bali+Restaurant",
         "https://restaurantguru.com/Bali-Cologne",
-        "https://wanderlog.com/place/details/4057616/bali-restaurant"
+        "https://wanderlog.com/place/details/4057616/bali-restaurant",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/bali_restaurant/speisekarte"
       ],
       "confidence": "medium",
       "research": "r2-se-south-asia",
@@ -2377,6 +2401,7 @@
       "verification_note": "기존 4.4/690(top-rated)보다 리뷰 수가 많은 두 스냅샷이 모두 4.3이라 평점 4.4→4.3 하향 반영 권장. 예전 리뷰에 '현금만'. 바쁠 때 대기, 커리가 짜다는 지적, 사장·직원이 불친절했다는 리뷰도 있음(날짜 불명).",
       "latest_review": null,
       "google_previous": "4.4 (690)",
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -4567,10 +4592,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "점심이 푸짐하고 저렴하다는 평(금액 미확인)",
+      "price_note": "Mit Vergnügen(2023): 홍합 파스타 점심 €11.50 — 비싼 편에 속하는 메뉴; 평일 낮 영업(주방 15시 마감)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -4606,6 +4631,7 @@
       "verification_status": "unknown",
       "verification_note": "주소 일치. 평일 점심 위주 영업 — 월–금 11–18시(주방 15시까지, Mit Vergnügen 2023), Pearl도 '평일 점심만' 표기 → 주말·저녁 방문 불가 가능성. 구글 수치·최근 리뷰 확인 못 함, 폐업 신호는 없음.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "trattoria"
     },
     {
@@ -4639,10 +4665,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "Wolt: 치킨 티브스 €20.70, 렌틸 삼부사 €6.40(배달가)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -4665,7 +4691,8 @@
         "https://koeln.mitvergnuegen.com/2024/neuentdeckungen-november-2024/",
         "https://wolt.com/en/deu/cologne/restaurant/soliana/items/wraps-3",
         "https://koeln.mitvergnuegen.com/2026/restaurants-ehrenfeld/",
-        "https://spinach-web.pages.dev/venues/soliana-fusion-home-cooking-35154/"
+        "https://spinach-web.pages.dev/venues/soliana-fusion-home-cooking-35154/",
+        "https://wolt.com/en/deu/cologne/restaurant/soliana"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -4675,6 +4702,7 @@
       "verification_status": "unknown",
       "verification_note": "주소 일치(spinach·En Primeur). 퓨전 홈쿠킹, 별도 비건 메뉴 있음. 구글 수치·영업시간·최근 활동 확인 못 함, 폐업 신호 없음.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -4772,10 +4800,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "Wolt: 시즌 피자 €17.90–18.90, 디저트 파이 €9.90(배달가, 기간 한정 메뉴) — 기본 피자 가격 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -4810,6 +4838,7 @@
       "verification_note": "주소 일치(Venloer Str. 241-245). 구글 리뷰 수 794→988 증가(spinach의 Google Maps 수치, 날짜 미표기). Wolt 운영 중 — 화 휴무, 월·수·목 16–21:30, 금 15–22, 토·일 13–22(배달 시간 기준). 2023 기사의 11:45 오픈은 낡은 정보.",
       "latest_review": null,
       "google_previous": "4.8 (794)",
+      "price_checked": "2026-11",
       "style": "pizzeria"
     },
     {
@@ -4908,10 +4937,10 @@
       "reservation": "recommended",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 1,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "speisekarte.de 메뉴(2025-10) 피자 부팔리나 €14.50·토토 €15.00; 2022 기사 피자 €8–14.50; enprimeurclub 1인 약 €18",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -4934,7 +4963,9 @@
         "https://www.enprimeurclub.com/restaurants/spacca-napoli-cologne-restaurant",
         "https://koeln.mitvergnuegen.com/2024/pizzeria-spaccanapoli",
         "https://spinach.guide/venues/spaccanapoli-koln-29486/",
-        "https://koeln.mitvergnuegen.com/2026/neapolitanische-pizza/"
+        "https://koeln.mitvergnuegen.com/2026/neapolitanische-pizza/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/spaccanapoli_koeln/speisekarte",
+        "https://koeln.mitvergnuegen.com/2022/pizzeria-spaccanapoli"
       ],
       "confidence": "high",
       "research": "r2-europe-americas",
@@ -4945,6 +4976,7 @@
       "verification_note": "주소 일치. 구글 4.7(644)→4.8(681) 표기 확인(출처 날짜 없음; spinach 4.4(710)는 구글 여부 불명). 영업시간 상충 — En Primeur: 수 휴무, 월·화·목·금 17–23, 토 15–23, 일 15–22 / Mit Vergnügen 2024: 화–금 17–23, 토·일 15–23. 피자 23종 중 비건 6종. Mit Vergnügen 2026 나폴리 피자 기사에 노출.",
       "latest_review": null,
       "google_previous": "4.7 (644)",
+      "price_checked": "2026-11",
       "style": "pizzeria"
     },
     {
@@ -5081,7 +5113,8 @@
         "https://www.happycow.net/reviews/vegan-food-revolution-cologne-141833",
         "https://www.enprimeurclub.com/restaurants/vegan-revolution-cologne-restaurant",
         "https://veggiesabroad.com/vegan-guide-to-cologne-eau-de-cologne/",
-        "https://koeln.mitvergnuegen.com/2026/vegan-ehrenfeld"
+        "https://koeln.mitvergnuegen.com/2026/vegan-ehrenfeld",
+        "https://koeln.mitvergnuegen.com/2024/guenstig-essen"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -5091,6 +5124,7 @@
       "verification_status": "open",
       "verification_note": "주소 일치. HappyCow 제보: 이제 치즈도 판매해 완전 비건이 아님 — '비건' 소개 시 주의. 'Vegan Revolution' 명의 항목의 4.1(609)은 출처·구글 여부 불명이고 기존 4.7(531)과 수학적으로 양립 불가 → 미반영. 영업 12–22시(HappyCow 매일 / spinach 화–토). Mit Vergnügen 2026 에렌펠트 비건 기사에 노출.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -5118,10 +5152,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 1,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "speisekarte.de 메뉴(2021-12, 오래됨): 메인 대부분 €15 미만; speisekarte.menu(2026-07): 품목 평균 약 €11(음료 포함)",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -5146,7 +5180,9 @@
         "https://www.enprimeurclub.com/restaurants/bethlehem-cologne-restaurant",
         "https://wolt.com/en/deu/cologne/restaurant/restaurant-bethlehem",
         "https://www.reviewhero.io/de/orientalische-kueche/koeln",
-        "https://koeln.mitvergnuegen.com/2024/restaurants-orientalische-kueche"
+        "https://koeln.mitvergnuegen.com/2024/restaurants-orientalische-kueche",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/restaurant_bethlehem/speisekarte",
+        "https://speisekarte.menu/restaurants/koeln/bethlehem-1/menu"
       ],
       "confidence": "medium",
       "research": "r2-middle-east-africa",
@@ -5156,6 +5192,7 @@
       "verification_status": "open",
       "verification_note": "주소 일치. 구글 4.7(352) 표기(En Primeur 추정)는 기존 4.7(362)보다 오래된 스냅숏 → 변경 없음. Wolt 'Restaurant Bethlehem' 운영 중 — 화 휴무, 저녁 17:00–21:30 위주. speisekarte.menu 4.4(1,320)·reviewhero 4.3(316)은 다출처 집계라 미반영.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": null
     },
     {
@@ -5646,10 +5683,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
-      "price_estimated": false,
+      "price_level": 2,
+      "price_estimated": true,
       "price_pp": null,
-      "price_note": "가격 정보 미확인",
+      "price_note": "speisekarte.de 에렌펠트점 메뉴(2025-09): 크리스피 닌자 4피스 €10.50(비건 €8.50), 미소국 €3.50, 와카메 €4.00 — 단품가를 1인 식사로 환산한 값이라 신뢰도 낮음",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -5658,7 +5695,9 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (Google; Tripadvisor 4.0 / 75 shown separately)",
       "summary_ko": "에렌펠트 베놀러 거리의 스시집으로, 린덴탈에도 지점을 둔 쾰른 동네 브랜드다. 구글 리뷰 700여 건에 평점 4.5로 무난해 에렌펠트 구경 중 스시가 당길 때 들르기 좋다.",
-      "must_try": [],
+      "must_try": [
+        "Crispy Ninja (크리스피 닌자 — 스코틀랜드산 연어 타르타르를 올린 바삭한 스시 4피스, 비건 아보카도 버전도 있음)"
+      ],
       "tips_ko": "린덴탈 지점(Lindenthalgürtel 2, 50935 Köln)은 구글 4.3(275)이고 정통 스시집보다 덜 정통적이라는 리뷰가 있습니다. 에렌펠트점 전화 +49 221 4745441.",
       "website": null,
       "awards": [],
@@ -5672,7 +5711,8 @@
         "https://spottedbylocals.com/cologne/sushi-ninja",
         "https://findit.city/en/germany/cologne/places/restaurants/sushi-ninja-823682732",
         "https://www.opentable.com/r/lost-monk-koln",
-        "https://koeln.mitvergnuegen.com/2026/sushi-draussen-essen/"
+        "https://koeln.mitvergnuegen.com/2026/sushi-draussen-essen/",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/sushi_ninja_ehrenfeld/speisekarte"
       ],
       "confidence": "medium",
       "research": "r2-east-asia",
@@ -5682,6 +5722,7 @@
       "verification_status": "open",
       "verification_note": "번지는 241-245로 표기됨(같은 건물에 Virtuous Pie·Lost Monk 입점 — 리뷰 혼동 주의). 영업 월·화 11:30–15:00, 17:30–22:00(findit). '2개 포털 4.46(347)'은 소속 불명확 → 미반영. Mit Vergnügen 2026 기사(베를로어·야외 스시)에 노출.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "sushi-bar"
     },
     {
@@ -5854,7 +5895,9 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com (Google 4.4; snapshots 502/519/565; largest used); restaurantguru.com 'Google 4.4/5, 545'",
       "summary_ko": "노이에렌펠트 주택가 모퉁이(Ottostraße와 Nussbaumerstraße)의 오스트리아풍 가스트하우스로, 수상 경력이 있는 와인 리스트로 유명하다. 오스트리아 음식과 와인을 함께 즐기고 싶은 저녁에 좋다.",
-      "must_try": [],
+      "must_try": [
+        "Wiener Schnitzel (비너 슈니첼 — 송아지 고기 커틀릿, 일요일에만 제공)"
+      ],
       "tips_ko": "저녁에만 엽니다. 휴무일 정보가 엇갈립니다(koeln.de: 수요일 휴무·주방 18시부터 / speisekarte.de: 매일 17:30–23:00). 와인 리스트 수상(Star Wine List 2023 1위)은 한 출처에서만 확인했습니다.",
       "website": null,
       "awards": [],
@@ -5867,7 +5910,8 @@
         "https://www.speisekarte.de/k%C3%B6ln/restaurant/essers_gasthaus",
         "https://starwinelist.com/wine-place/essers-gasthaus",
         "https://joinpearl.co/restaurants/cologne-germany/essers-gasthaus",
-        "https://tablejourney.com/germany/cologne/cuisine/austrian/"
+        "https://tablejourney.com/germany/cologne/cuisine/austrian/",
+        "https://www.enprimeurclub.com/restaurants/essers-gasthaus-cologne-restaurant"
       ],
       "confidence": "medium",
       "research": "r2-europe-americas",
@@ -5877,6 +5921,7 @@
       "verification_status": "open",
       "verification_note": "주소 일치. 저녁 17:30부터, 수요일 휴무(마감 23:00~24:00 출처별 상이). Star Wine List 2023·2026 선정 → 2026년 영업 신호. 전화 +49 221 425954. tablejourney 4.5는 구글 수치 아님.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "gasthaus"
     },
     {

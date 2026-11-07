@@ -26,6 +26,7 @@
       "r5-tickets-dates.json",
       "r5-tickets-dom-city.json",
       "r5-tickets-private.json",
+      "r6-price-b.json",
       "wine-places.json"
     ],
     "count": 29
@@ -416,7 +417,9 @@
       "sources": [
         "https://wanderlog.com/place/details/1484920/barito",
         "https://gokonfetti.com/en-us/magazine/cocktail-bars-in-cologne/",
-        "https://restaurantguru.com/Barito-Cologne"
+        "https://restaurantguru.com/Barito-Cologne",
+        "https://gokonfetti.com/en-us/p/barito-wd6mgz/",
+        "https://www.koeln.de/branchen/eintrag/45944/restaurants/barito"
       ],
       "confidence": "medium",
       "research": "r2-bars",
@@ -427,6 +430,7 @@
       "verification_note": "구글 4.8 유지, 리뷰 469→약 484. 주소 Aachener Str. 59, 50674 확인. 웹사이트 barito.eu, 전화 +49 221 16921865. 메스칼·수제 칵테일·과카몰레 호평(멕시칸 바), 음식 메뉴가 제한적이라는 지적. 리뷰 날짜 미확인.",
       "latest_review": null,
       "google_previous": "4.8 (469)",
+      "price_checked": "2026-11",
       "style": "cocktail-bar"
     },
     {
@@ -489,7 +493,10 @@
         "https://www.about-drinks.com/little-link-vom-koelnisch-wasser-im-cocktailglas-bis-zum-reibekuchen-drink/",
         "https://www.werkenntdenbesten.de/e/104597183/bar/koeln/little-link-bewertungen.html",
         "https://tablejourney.com/germany/cologne/bars/little-link/",
-        "https://restaurantguru.com/Little-Link-Cologne"
+        "https://restaurantguru.com/Little-Link-Cologne",
+        "https://tablejourney.com/germany/cologne/cuisine/cocktail-bar/",
+        "https://www.enprimeurclub.com/bars/little-link-k-ln",
+        "https://willkommen.koelntourismus.de/en/gastro/little-link"
       ],
       "confidence": "medium",
       "research": "r2-bars",
@@ -499,6 +506,7 @@
       "verification_status": "open",
       "verification_note": "구글 4.7 유지 확인(Maastrichter Str. 20). 웹사이트 littlelink.de, 전화번호가 두 개로 표기됨(+49 162 7833366 / +49 15679 782201). 창의적인 칵테일·풀드비프 샌드위치 호평. 맛의 깊이가 아쉽다, 서비스가 약간 느리다, 바 가운데 기둥이 불편하다는 지적. 리뷰 날짜 미확인.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "cocktail-bar"
     },
     {
@@ -551,7 +559,9 @@
         "https://restaurantguru.com/Knobelbecher-Cologne",
         "https://koeln.mitvergnuegen.com/2026/koelsche-kneipen/",
         "https://www.werkenntdenbesten.de/e/48915188/kegelbahn/koeln/gaststaette-zum-knobelbecher-bewertungen.html",
-        "https://www.top-rated.online/cities/K%C3%B6ln/place/p/8015291/Zum+Knobelbecher"
+        "https://www.top-rated.online/cities/K%C3%B6ln/place/p/8015291/Zum+Knobelbecher",
+        "https://koeln.mitvergnuegen.com/2024/guenstige-bars-kneipen/",
+        "https://www.koeln.de/branchen/eintrag/61388/gaststaetten-und-restaurants/gaststaette-zum-knobelbecher"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
@@ -562,6 +572,7 @@
       "verification_note": "구글 4.4 유지, 리뷰 495→567. werkenntdenbesten에 볼링장(Kegelbahn) 카테고리로 등록된 전통 Gaststätte. €20 이상일 때만 카드 결제(그 외 현금). 영업 월–목 16–01시, 토·일 10시부터(RG, 변동 가능). 일부 직원이 불친절했다는 리뷰. 리뷰 날짜 미확인.",
       "latest_review": null,
       "google_previous": "4.4 (495)",
+      "price_checked": "2026-11",
       "style": "kneipe"
     },
     {
@@ -616,7 +627,8 @@
         "https://rausgegangen.de/en/pages/weisser-holunder/",
         "https://www.yelp.com/biz/wei%C3%9Fer-holunder-k%C3%B6ln",
         "https://speisekarte.menu/restaurants/cologne/weisser-holunder",
-        "https://wanderlog.com/place/details/2659048/wei%C3%9Fer-holunder"
+        "https://wanderlog.com/place/details/2659048/wei%C3%9Fer-holunder",
+        "https://theeuropeanbarguide.com/weisser-holunder-cologne/"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
@@ -626,6 +638,7 @@
       "verification_status": "open",
       "verification_note": "기존 4.6/417(RG Google)보다 새로운 구글 수치 없음(Wanderlog 4.5/414, top-rated 4.6/241, RG 자체 4.5/562). 폐업 표시 없음, 매일 17–24시, 전화 +49 221 94526500. 1950년대 인테리어, 일요일 저녁 쾰쉬 합창. 음식 메뉴는 5–6개뿐. 리뷰 날짜 미확인.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "kneipe"
     },
     {
@@ -1073,10 +1086,10 @@
       "reservation": "unknown",
       "payment": "unknown",
       "location": [],
-      "price_level": null,
+      "price_level": 2,
       "price_estimated": false,
       "price_pp": null,
-      "price_note": "칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함)",
+      "price_note": "speisekarte.menu: 진토닉 €9–15(진 5cl+토닉 0.2 l, 이곳에서만 돌려받는 잔 보증금 €2.50 포함), 날짜 미상 — 칵테일 단가는 미확인",
       "beer_price_eur": null,
       "beer_price_note": null,
       "beers": [],
@@ -1085,7 +1098,9 @@
       "google_as_of": null,
       "rating_source": "wanderlog.com",
       "summary_ko": "에렌펠트의 진(gin) 전문 칵테일 바로, 진과 진 베이스 칵테일에 집중한다. 구글 기반 평점 4.8(리뷰 500여 건)로 평가가 매우 높아, 진 칵테일을 좋아하는 사람에게 맞다.",
-      "must_try": [],
+      "must_try": [
+        "Gin & Tonic (진토닉 — 쾰른 최대 규모의 진 셀렉션에서 골라 마시는 진토닉)"
+      ],
       "tips_ko": "Wanderlog 목록 스냅숏 4.8(471건)·4.8(525건) 중 최근 값을 적었다. 메뉴·가격·영업시간은 확인 못 함.",
       "website": null,
       "awards": [],
@@ -1097,7 +1112,8 @@
         "https://www.clicatour.com/en/excursion/germany/cologne/kolonya-tthok-algn-fy-bar-maa-koktyl-trhyby-1749255448",
         "https://koeln.mitvergnuegen.com/2025/cocktail-bars/",
         "https://koeln.mitvergnuegen.com/2025/happy-hour/",
-        "https://www.meininger.de/gastronomie/konzepte/wir-zeigen-den-gaesten-ihren-eigenen-gin-geschmack"
+        "https://www.meininger.de/gastronomie/konzepte/wir-zeigen-den-gaesten-ihren-eigenen-gin-geschmack",
+        "https://speisekarte.menu/restaurants/koeln/the-baer/menu"
       ],
       "confidence": "medium",
       "research": "r2-bars",
@@ -1107,6 +1123,7 @@
       "verification_status": "unknown",
       "verification_note": "주소 일치(Piusstraße 정류장–Rewe 사이 검은 문·금색 곰 로고). 진 200종 이상, 자체 인퓨즈드 진 8종; 진 테이스팅 투어 상품 판매(clicatour). 영업시간은 수·목 19–24시만 확인(옛 프로필일 수 있음). 영업 신호는 2025년(Mit Vergnügen 칵테일바·해피아워 기사)까지만, 폐업 신호 없음. 구글 수치 미확인.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "cocktail-bar"
     },
     {
@@ -1161,7 +1178,8 @@
         "https://www.songkick.com/concerts/43110438-crimson-ghosts-at-sonic-ballroom",
         "https://www.werkenntdenbesten.de/e/50862175/disco/koeln/sonic-ballroom-bewertungen.html",
         "https://www.songkick.com/pt/concerts/43285857-dead-end-kids-de-at-sonic-ballroom",
-        "https://speisekarte.menu/restaurants/koeln/sonic-ballroom"
+        "https://speisekarte.menu/restaurants/koeln/sonic-ballroom",
+        "https://www.cologne-tourism.com/see-experience/poi/sonic-ballroom"
       ],
       "confidence": "medium",
       "research": "r3-beer-pubs",
@@ -1171,6 +1189,7 @@
       "verification_status": "open",
       "verification_note": "주소 일치. Songkick에 2026-08-14 공연 등 공연 활동 지속. werkenntdenbesten 5개 포털 합산 4.69(1,556)·speisekarte.menu 4.6(1,009)는 구글 단독 수치 아님 → 미반영. 영업 월–목 20–02시, 금·토 20–05시. 펑크·얼터너티브 라이브 바.",
       "latest_review": null,
+      "price_checked": "2026-11",
       "style": "bar"
     },
     {
