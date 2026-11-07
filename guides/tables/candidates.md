@@ -14,7 +14,6 @@
 | Heimat der Heinzel (Altstadt: Heumarkt & Alter Markt) | 대성당·구시가 | unverified-2026-dates | 2026 일정 미검색 |
 | Heinzels Wintermärchen – Eisbahn am Heumarkt | 대성당·구시가 | unverified-2026-dates | 2026 운영 기간·요금 미검색 |
 | Odysseum | 기타 시내 | unverified-2026-status | 2026 운영 여부 미검색 — 폐관 가능성 확인 필요 |
-| Salon Schmitz | 벨기에 지구 | google-numbers-missing; aggregate scores (3.8–3.99) suggest likely below-criteria | werkenntdenbesten.de 종합 3,99 (4개 포털 합산 1425건, 구글 단독 수치는 검색 결과에 노출되지 않음). speisekarte.menu 3.8 (7,211건, 출처 미표기). 번지 출처별 상이: 28(werkenntdenbesten, speisekarte.menu) / 28–30(smart-travelling) / 34(koeln.de). koeln.de는 'Schmitz – Salon, Bar, Metzgerei' 묶음으로 소개하며, Metzgerei Schmitz 별도 수치는 미확인. |
 | Compleat Köln Belgisches Viertel | 벨기에 지구 | google-numbers-missing | HappyCow 등록: 건강식(Gesundes Essen) & 케이터링. 평점 미확인. |
 | Restaurant Acht | 벨기에 지구 | google-numbers-missing; area boundary unclear | Hotels.com: 옛 창고 단지 Spichernhöfe의 인더스트리얼 디자인 레스토랑. |
 | Glashaus Restaurant & Bar (Hyatt Regency Köln) | 도이츠·메쎄(강 건너) | google-numbers-missing | No Google numbers found for the restaurant. OpenTable 4.6–4.7 from about 470–490 reviews (varies by country site); OpenTable calls it the best-reviewed restaurant in Deutz, price 'very upscale'. Mit Vergnügen 2023: 'Fine Dining mit Domblick'. Hotel dining page: view of the Rhine, Hohenzollernbrücke and Dom. Sunday brunch. One review: reflective windows make the Altstadt view poor after dark. speisekarte.de 5.0 from 2 reviews. The hotel itself (not the restaurant) shows Google 4.5 (4,100) on enprimeurclub.com. HIGH PRIORITY for follow-up: the only Dom-view / business-dinner option in this area. |
@@ -38,7 +37,6 @@
 | Soul Bar |  | permanently-closed | Wanderlog 칵테일 바 목록 스냅숏: 4.6 (382) + 'Permanently Closed' 표시. 주소 미확보. 가이드에서 제외. |
 | The Grid Bar | 프리젠 지구·에렌슈트라세 | permanently-closed | Wanderlog 4.5 (577) + 'Permanently Closed' 표시(라운지 목록). 가이드에서 제외. |
 | Sixpack | 벨기에 지구 | below-criteria (Google 3.4) | Wanderlog 3.4 (554), 다른 플랫폼 2.8 (28). 큰 냉장고에서 맥주를 골라 마시는 벨기에 지구의 '전설적' 펍, 늦은 밤 전자음악·애프터아워 분위기(Wanderlog 요약). |
-| Barracuda Bar | 벨기에 지구 | below-criteria (Google 4.1) | Wanderlog 4.1 (190). 해산물 플래터와 칵테일을 내는 벨기에 지구 바(Wanderlog 요약). |
 | Biermuseum | 대성당·구시가 | below-criteria (Google 4.0) | Wanderlog 4.0 (1,347), 목록 1,359건. 별점 분포 652·359·179·60·97. 펍, 가격대 'affordable'. |
 | Asimmetric Bar | 에렌펠트 | not-found (Wanderlog 검색 2회에서 리스팅 없음) | 1차: '50 Best Discovery' 2022 등재(순위 아님, koelnticket). 이번 조사에서 주소·영업 여부·구글 수치 모두 못 찾음 — 폐업 여부부터 확인 필요. |
 | Franky's Bar |  | not-found (Wanderlog 검색에서 리스팅 없음) | 1차: konfetti 쾰른 칵테일 바 가이드 선정. 위치·구글 수치 미확보. |
@@ -46,9 +44,6 @@
 | Gibbon |  | not-found (Wanderlog 검색에서 리스팅 없음) | 리드 시드. 이번 조사에서 쾰른 바로 확인되는 결과 없음. 이름 정확성부터 확인 필요. |
 | OSMAN 30 | 프리젠 지구·에렌슈트라세 | google-numbers-not-found | KölnTurm 30층 레스토랑·바(Wanderlog 루프탑·전망 목록). 주소는 목록 스니펫 기준이며 OSMAN 30과의 연결이 확실하지 않음. 평점 미확보. 바보다 레스토랑 성격. |
 | Bumann & SOHN | 에렌펠트 | google-numbers-not-found | 비어가든이 있는 에렌펠트의 활기찬 복합 공간, 칵테일·독일 맥주(Wanderlog 목록 요약). 구글 수치 미확보. |
-| Pegel | 벨기에 지구 | google-numbers-not-found | 벨기에 지구 외곽의 인기 펍, 맥주 셀렉션 호평(Wanderlog 목록 요약). 주소·수치 미확보. |
-| Scheinbar |  | google-numbers-not-found | Wanderlog 쾰른 칵테일 바 목록에 이름만 등장. 위치·수치 미확보. |
-| Lorbass Bar & Lounge |  | google-numbers-not-found | Wanderlog 쾰른 칵테일 바 목록에 이름만 등장. 위치·수치 미확보. |
 | Macky's Asia Lounge |  | address-missing | Wanderlog 4.3 (327). 칵테일 바가 아니라 노래방(가라오케) 바. 주소 미확보. |
 | MD BAR |  | address-missing | werkenntdenbesten google.de 4.6 (129). 위치·업종 미확인. |
 | Mäurer Bar |  | address-missing | werkenntdenbesten google.de 4.7 (88). 위치·업종 미확인. |
@@ -185,14 +180,11 @@
 | Barbarossa Schänke | 크바르티어 라텡(쥘피허 지구) | below-criteria-or-unclear (top-rated.online 4.1) | top-rated.online 4.10(143건) — 구글 수치라면 기준(4.2) 미달. Mit Vergnügen 2026: 쾰시와 Flimm, 주말엔 사실상 24시간 영업. 주소는 Weyerstraße 74(Mit Vergnügen)와 73(top-rated.online)으로 엇갈림. |
 | Im Kleinen Finanzamt |  | google-numbers-not-found | Mit Vergnügen 2026 '11 richtig kölsche Kneipen': 가정식(bürgerliche Küche)과 케겔반. 구글 수치 검색 결과 없음. |
 | Alt Neppes | 기타 시내 | not-verified | Mit Vergnügen 2024 '11 günstige Bars und Kneipen'·2026 '11 richtig kölsche Kneipen'에 나오는 닙페스 크나이페. 주소·구글 수치 미확보. |
-| Café Storch | 벨기에 지구 | status-unclear (Wanderlog 'Temporarily Closed' flag) | Wanderlog '쾰른 베스트 펍 50' 4.6(259건). 한 Wanderlog 리스팅엔 'Temporarily Closed', Restaurant Guru엔 '18–02시 영업' — 상태가 엇갈림. 시 낭독회·다양한 차. 웹사이트 cafe-storch.de. 영업이 확인되면 places로 올릴 것. |
 | Restaurant & Kneipe Köln / Kölsche Art |  | address-missing | Wanderlog 4.5(440건), 음식·서비스 호평(가끔 무례하다는 평). 주소를 확보하지 못함. |
 | Haus Unkelbach | 기타 시내 | address-postcode-missing; brauhaus/restaurant scope | Wanderlog 4.3(2,500건), Restaurant Guru Google 4.3(자체 4.2, 3,895건). 쥘츠·클레텐베르크 사이의 레스토랑 겸 브라우하우스형 가게(슈바인스학세 호평, 실내·야외석, 예약 권장, 영어 가능 직원). 우편번호가 출처에 없고 성격상 브라우하우스·레스토랑이라 후보로 둠. |
 | Em Drügge Pitter | 에렌펠트 | google-attribution-unclear | 제3자 순위 사이트(top-rated.online 계열로 보임) 4.50(428건) — 구글 수치인지 확인 못 함. 다트·핀볼이 있는 편한 펍. 주소는 Wheree 다이브 바 목록. |
 | Zum Köbes | 아그네스 지구·아이겔슈타인 | google-numbers-not-found | Yelp 4.6(23건), 쿠니베르츠피어텔(Kunibertsviertel). 구글 수치·주소 미확보. |
-| Low Budget | 벨기에 지구 | google-numbers-not-found | Yelp 4.3(23건), 벨기에 지구. 구글 수치·주소 미확보. |
 | Einstein | 대성당·구시가 | google-numbers-not-found | Yelp 4.8(11건), 마르틴스피어텔(구시가). 구글 수치·주소 미확보. |
-| Klein Köln | 프리젠 지구·에렌슈트라세 | google-numbers-not-found | coolibri 종합 5.7/10, '1인 €35'(coolibri). 구글 수치·번지 미확보. |
 | Papa Rudis | 쥐트슈타트·라인아우하펜 | google-numbers-not-found | Wheree 다이브 바 목록에만 나옴. 구글 수치 미확보. |
 | Reissdorf am Hahnentor | 프리젠 지구·에렌슈트라세 | address-and-google-numbers-not-found | veedelcgn(2026): 11.11.2026 시즌 개막일에 쾰시(Stange)를 €2.30에 팔 예정 — 보도된 가격 중 가장 쌈(운영 책임자 Schlüter). 라이스도르프 계열 가게라 브라우하우스 범위일 수도 있음. 주소·구글 수치 미확보. |
 | Kuen pub & Bar | 기타 시내 | google-review-count-missing | Restaurant Guru Google 4.6(리뷰 수 미표시). Mit Vergnügen 2025 닙페스 목록: 쾰시·와인·롱드링크. 주소 미확보. |
@@ -200,7 +192,6 @@
 | Wicleff | 에렌펠트 | google-numbers-not-found | Mit Vergnügen 2025 '축구 보기 좋은 크나이페': 쾰시와 축구의 동네 크나이페(지역은 검색 요약 기준). 주소·구글 수치 미확보. |
 | Schmelztiegel | 크바르티어 라텡(쥘피허 지구) | google-numbers-not-found | Mit Vergnügen 2024 '11 günstige Bars und Kneipen': Luxemburger Straße, 목요일 비어퐁 나이트(우승 팀에 €50 쾰시 쿠폰). 번지·구글 수치 미확보. |
 | KRAUTIs | 쥐트슈타트·라인아우하펜 | google-numbers-not-found | Mit Vergnügen 2026 쥐트슈타트 목록: 군더더기 없는 쾰시와 축구. 주소·구글 수치 미확보. |
-| Zum Goldenen Schuss |  | google-review-count-missing | Restaurant Guru Google 4.3(오래된 데이터, 리뷰 수 미표시), 축구 보며 마시기 좋은 곳이라는 평. 주소 미확보. |
 | Birreria Düxer Botschaft | 쥐트슈타트·라인아우하펜 | permanently-closed | Wanderlog에 'Permanently Closed' 표시. 가이드에서 제외. |
 | Biergarten am Rathenauplatz | 크바르티어 라텡(쥘피허 지구) | seasonal-closed-november | 공식 사이트: 날씨 좋을 때 4월 초–9월 말만 영업 → 11월엔 닫힘. |
 | Rheinterrassen (Biergarten) | 도이츠·메쎄(강 건너) | winter-status-unknown | 공식 사이트: 2026 시즌 개장 공지와 '날씨 좋을 때'만 있고 겨울 영업 정보 없음. |
@@ -220,8 +211,23 @@
 | Gaffel Haus (Brauhaus zum Prinzen) | 대성당·구시가 | not-verified | r3: 검색 예산이 바닥나 구글 수치를 조회하지 못했다. speisekarte.de에 'Brauhaus "Zum Prinzen"' 페이지가 있는 것만 확인. r1: speisekarte.de 3.8 (5건), arrivalguides: 알터 마르크트에서 가장 오래된 건물, Gaffel이 1987년 재개업. |
 | Peters am Hahnentor | 프리젠 지구·에렌슈트라세 | not-verified | r3: 검색 예산이 바닥나 조회하지 못했다. 업소가 있는지, 정확한 주소가 무엇인지 모두 미확인(과제 목록에 'Rudolfplatz'로만 적힘). |
 | Gertrudenhof am Neumarkt | 대성당·구시가 | not-verified | r3: 검색 예산이 바닥나 조회하지 못했다. r1: verliebtinkoeln 독자 투표 1위로만 확인, 구글 수치·주소·업소 성격 미확인. |
+| die wohngemeinschaft – CaféBar & Hostel | 벨기에 지구 | google-numbers-low-confidence | Google 4.5 (2070) via restaurantguru Google 4.5/2,070 · wanderlog.com 장소 페이지 4.5/2,038 — 호스텔·카페·바·극장 통합 구글 리스팅이라 리뷰 대부분이 숙박 후기 |
+| Barracuda Bar | 벨기에 지구 | below-criteria (Google 4.1, re-checked 2026-11-07) | 7차 재확인: Wanderlog 4.1(약 190건)로 2차(4.1/190)와 같아 기준 미달. 목–토만 여는 심야 칵테일·DJ 바(목 21–03시, 금·토 ~05시, 일–수 휴무; Wanderlog, 미검증), 해산물 플래터·스테이크 프리트 메뉴, 입장료 없음(리뷰). 같은 주인(Tobias)이 같은 주소의 Forelle Blau도 운영. Falstaff 바 페이지는 있으나 점수 미확인. Foursquare 8.2(14건)는 구글 아님. Instagram instagram.com/barracuda.bar, 전화 +49 221 16990002. |
+| Salon Schmitz | 벨기에 지구 | below-criteria (Google 4.1/1,179 via Wanderlog, re-checked 2026-11-07); Bar Schmitz in the same complex is borderline 4.2, see found | 7차 재확인: Salon Schmitz는 Wanderlog 4.1(1,179건)과 다른 플랫폼 3.5(165건)로 기준 미달(이전: werkenntdenbesten 종합 3.99/1,425, speisekarte.menu 3.8/7,211). 같은 'Schmitz' 단지(Salon·Bar·Metzgerei·Coco Schmitz, Aachener Str. 28–34)의 Bar Schmitz(Aachener Straße 34, salonschmitz.com/bar, 전화 +49 221 133898)는 Wanderlog 4.2/568·restaurantguru Google 4.2/584로 숫자상 기준선이다. 하지만 리뷰가 대부분 아이스크림·케이크·대기줄 이야기(Coco Schmitz와 섞인 듯)이고 RG 종합은 3.7(814)이어서 바로서의 평가가 불분명해 places에 넣지 않았다(리드 판단 필요). Bar Schmitz 영업 월–금 16–24시, 토·일 12시~(Wanderlog). 자체 쾰시를 판다는 리뷰가 있다. import 시 'Bar Schmitz'가 이름 토큰 비교로 'Salon Schmitz'와 합쳐지므로 이 후보 하나에 같이 적음. |
+| Scheinbar | 벨기에 지구 | below-criteria (Google 4.1) | Wanderlog 4.1(363건, 다른 스냅숏 389·402건). 별점 5★179·4★106·3★33·2★18·1★27. evendo 4.1(357). 주말엔 둥근 바 주위에서 춤추는 컬트 칵테일 바로, 바 뒤에서 DJ가 소울·펑크 바이닐을 튼다(Mit Vergnügen·Wanderlog). 피크 시간엔 자리 잡기 어렵고, 도어 보안·임의 규칙·칵테일 품질 불만이 있다. koeln.de 기준 월 20–03시, 전화 0221 9232048. 같은 번지에 별도 입구로 Pegel(places)이 있다. |
+| Zum scheuen Reh | 벨기에 지구 | below-criteria (Google approx. 4.1) | 검색 요약 기준 Google 약 4.1(약 1,100건). Wanderlog 별점 분포 5★577·4★302·3★95·2★32·1★102(합 1,108건). restaurantguru 종합 4.0(1,283건), Foursquare 7.5. 2010년부터 쾰른 서역(Bahnhof West) 옆에서 콘서트·낭독·연극·DJ 셋을 여는 문화 바다. 넓은 테라스, 진 셀렉션, 멜로딕 테크노 밤이 호평이고, 일부 바텐더 불친절·음향 불만이 있다. Falstaff 바 페이지 있음. 웹사이트 zum-scheuen-reh.de, 전화 +49 221 16897642. |
+| Atelier – Fine Drinks & Aperitivo | 벨기에 지구 | google-numbers-not-found; name conflict (same address listed as BARNEY) | koeln.de 'Bars und Lounges' 등록(전화 0170 4042323), OpenTable 리스팅. Wanderlog 'Atelier – Restaurant meets Bar' 페이지는 쾰시를 작은 잔으로 내고 타파스식 소량 요리를 곁들이는 칵테일 바로 소개한다(일·월 휴무). 그런데 restaurantguru와 다른 Wanderlog 페이지는 같은 주소를 'BARNEY'(전화 +49 176 47140805)로 표시한다. 이름이 바뀌었는지 확인하지 못했다. 웹사이트 atelier-aperitiv.de. 구글 수치는 검색 요약에 나오지 않음. |
+| Klein Köln | 프리젠 지구·에렌슈트라세 | google-numbers-not-found (re-checked 2026-11-07) | 프리젠 지구의 심야 파티 크나이페다. 리뷰는 시끄럽고 붐비고 소박하며 카니발 음악을 자주 튼다고 묘사하고, '예전만 못하다'는 평도 있다. 영업시간 정보가 엇갈린다(restaurantguru 20–03시·일 휴무 / top-rated 금·토 21–05시). RG 1인 €9–22. 카니발 땐 음료 포함 입장 €15, 평소 약 €7이라는 리뷰가 있다. 웹사이트 klein-koeln.com. restaurantguru·top-rated 페이지는 있지만 검색 요약에 구글 수치가 나오지 않았다. 3차 coolibri 5.7/10은 구글 아님. |
+| Hotel Chelsea – Café Central | 벨기에 지구 | google-numbers-not-found (hotel bar lead) | 벨기에 지구의 아트 호텔 Hotel Chelsea 1층 Café Central은 체크무늬 바닥의 카페·바·라운지로, 거리 풍경을 구경할 수 있다는 소개가 있다. 출처가 호텔 예약 사이트뿐이라 바 단독 구글 수치·영업시간은 확보하지 못했다. 이번 조사에서 벨기에 지구 안의 이름난 호텔 바는 찾지 못했다(가장 가까운 루프탑 Monkey Bar는 기존 후보, 구글 4.1). |
+| Wein Bistro L'escalier | 벨기에 지구 | google-numbers-not-found: restaurantguru 4.8(228표)는 RG 자체 점수이고 Tripadvisor 4.4(9건)뿐. Wanderlog 페이지는 3번 검색해도 나오지 않음. | 옛 미쉐린 1스타 레스토랑 L'escalier(셰프 Maximilian Lorenz, 폐업 후 그는 중앙역 근처 ‘Wein am Rhein’을 맡음) 자리에 들어선 와인 비스트로. 2024년 말부터 다시 요리를 내며, 2026년 6월 리뷰가 서프라이즈 메뉴를 칭찬함. 내추럴 와인 앱 Raisin에 등재(natural-wine 후보). 월–토 18시부터(마감 22시/23시로 출처마다 다름), 일 휴무, 예약 권장. 구글 수치만 확인되면 벨기에 지구 와인 비스트로로 넣을 만함. |
+| Onda | 벨기에 지구 | google-numbers-not-found + address-conflict: Wanderlog·restaurantguru에 리스팅이 없고, Wanderlog상 Händelstraße 24는 Paul's Fish & Chips 주소임. 영업 여부도 확인 못 함. | tablejourney: 바스크풍 핀초스·해산물과 내추럴 와인 리스트(‘Michelin-selected’라고 적음), 화–일 17–24시, 공간이 작아 주말엔 예약 권장. 검색 요약상 Mit Vergnügen 파인다이닝 기사(2025)가 ‘좋은 내추럴 와인 셀렉션’을 갖춘 레스토랑으로 소개. tablejourney 자체 점수 4.0은 구글 수치가 아님. |
+| Café Storch | 벨기에 지구 | not-wine-focused + google-count-not-captured: Wanderlog 와인바 목록에 들어 있지만 리뷰 속 음료는 맥주·사과 쇼를레 위주. 구글은 약 4.6(스냅샷별 약 250–265건)이지만 정확한 건수를 한 출처에서 확인하지 못함. 한 Wanderlog 목록엔 ‘Temporarily Closed’ 표시가 있는데, Mit Vergnügen 2026 ‘아늑한 바’ 기사는 영업시간(일–목 17–1시, 금·토 17–2시)과 함께 소개함. | 촛불을 켠 차분한 카페 겸 바(종일 재즈, 엉뚱한 그림과 삐뚤어진 의자). Mit Vergnügen은 ‘와인 한 잔 놓고 끝없는 대화에 빠지기 좋은 조용한 저녁’이라고 씀. 조용한 바를 찾는 여행자에게 맞으니 바(bar) 주제에서 다시 검토할 것을 권함. 웹사이트 cafe-storch.de. |
+| Weinpunkt Köln | 벨기에 지구 | wine-shop, no-seating-confirmed + google-numbers-not-checked (검색 한도): 글라스 와인을 파는 바 좌석은 확인 못 함. | 유럽 와인 중심 와인숍. 가게 뒤 창고에서 정기 시음회·와이너리 행사를 열고 전기 카고바이크로 배달함(Mit Vergnügen 2020). 웹사이트 weinpunktonline.de(wein.plus 기준). |
+| Weinhaus Linke | 벨기에 지구 | wine-shop, no-seating-confirmed + google-numbers-not-checked (검색 한도) | koeln.de 업종 목록(와인·젝트)에 벨기에 지구 와인 상점으로 올라 있음. 시음·좌석 정보는 없음. |
+| Hurra | 벨기에 지구 | wine-shop(테이크아웃 중심, 바 좌석 미확인) + google-numbers-not-checked (검색 한도). 정보가 2021년 기사뿐이라 영업 여부도 확인 못 함. | 와인과 식물을 함께 파는 가게. 유기농 와인과 작은 와이너리 위주이고 품목의 약 80%가 독일 와인(Mit Vergnügen 2021). 영업 중이라면 벨기에 지구에서 독일 와인을 사 가기에 가장 맞는 곳일 수 있음. |
+| Tanica | 크바르티어 라텡(쥘피허 지구) | google-numbers-not-checked (검색 한도 소진) | tablejourney: 내추럴 와인 바 겸 보틀숍, Star Wine List 등재, 나눠 먹는 작은 접시 요리. 브뤼셀 광장에서 남쪽으로 약 1 km(크바르티어 라텡 북쪽). tablejourney는 벨기에 지구로도, 크바르티어 라텡으로도 적어 지역 표기가 엇갈림. |
+| Erste Liebe | 크바르티어 라텡(쥘피허 지구) | out-of-scope: 브뤼셀 광장에서 약 1.4 km(바르바로사플라츠·판탈레온 지구 경계, 지역 id 확인 필요)로 이번 범위(약 1 km) 밖. Wanderlog 목록 표기 4.7/109(장소 페이지 미확인)라 해당 지역 조사 때 다시 검토할 것. | 낮엔 스페셜티 커피·아침 카페, 저녁엔 내추럴 와인과 저녁 식사를 내는 와인바(테라스, 겨울엔 내추럴 글뤼바인 — Mit Vergnügen). |
 | Wein am Rhein | 아그네스 지구·아이겔슈타인 | not-verified (검색 한도 소진). 배경지식 기반 리드일 뿐: 중앙역 북쪽 Johannisstraße(라인강 쪽)의 독일 와인 중심 레스토랑 겸 와인바로 기억되며, 같은 주소에 파인다이닝 'maximilian lorenz'가 있었던 것으로 기억됨. 존재·정확한 주소·구글 평점/리뷰 수·2026년 영업 여부 모두 확인 필요. 확인되면 category restaurant 또는 wine-bar, tag german-wine 후보. | 이번 세션에서 찾은 수치·출처 없음 |
-| Henne.Weinbar | 프리젠 지구·에렌슈트라세 | not-verified (검색 한도 소진). 배경지식 기반 리드: Mittelstraße 인근 Pfeilstraße의 와인바(작은 접시 요리+와인)로 기억됨. 독일 와인 비중·주소·구글 수치·영업 여부 확인 필요. 확인되면 category wine-bar. | 이번 세션에서 찾은 수치·출처 없음 |
 | Sorgenfrei | 벨기에 지구 | not-verified (검색 한도 소진). 배경지식 기반 리드: 벨기에 지구 Antwerpener Straße의 와인 리스트가 강한 레스토랑 겸 와인바로 기억됨. 주소·구글 수치·영업 여부·독일 와인 비중 확인 필요. 확인되면 category restaurant 또는 wine-bar. | 이번 세션에서 찾은 수치·출처 없음 |
 | Kölner Weinkeller | 기타 시내 | not-verified (검색 한도 소진). 배경지식 기반 리드: Braunsfeld(Stolberger Straße)의 대형 와인 전문 매장으로 기억됨(시음 행사). 주소·구글 수치·영업 여부·독일 와인 비중 확인 필요. 확인되면 category wine-shop. | 이번 세션에서 찾은 수치·출처 없음 |
 | schmelz&BOHNE – Eisliebe in der Kettengasse | 프리젠 지구·에렌슈트라세 | closed-temporarily (확인 2026-11-07) | Wanderlog(구글 데이터)에 '임시 휴업(Vorübergehend geschlossen)' 표시, werkenntdenbesten도 휴업으로 표시. 추가 검색에서도 재개장이나 동절기 휴무 공지를 찾지 못함(사유 불명, 계절 휴무일 가능성 있음). 2025-10 이후 리뷰 미확인. 한 출처는 주소를 Kettengasse 6으로 표기(대부분은 4). 방문 전 반드시 확인 필요하며, 휴업이 계속되면 가이드에서 빼거나 주의 표시 권장. |

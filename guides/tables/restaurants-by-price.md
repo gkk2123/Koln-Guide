@@ -120,7 +120,7 @@
 | [Krua Thai – Belgisches Viertel](https://www.google.com/maps/search/?api=1&query=Krua%20Thai%20%E2%80%93%20Belgisches%20Viertel%20Br%C3%BCsseler%20Str.%2040-42%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 태국 | ★4.2 (918) | restaurantguru 1인 €10–20, 리뷰: 요리 약 €6–10 |
 | [Café Feynsinn](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Feynsinn%20Rathenauplatz%207%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) |  | ★4.2 (724) | 리뷰상 다소 비싼 편 (구체적 가격 미확인) |
 
-## €€€ — 11곳
+## €€€ — 13곳
 
 | 이름(지도) | 지역 | 음식 | 구글 | 가격 메모 |
 |---|---|---|---|---|
@@ -131,10 +131,12 @@
 | [Mongo's Köln](https://www.google.com/maps/search/?api=1&query=Mongo%27s%20K%C3%B6ln%20Ottoplatz%201%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | 퓨전·인터내셔널 | ★4.6 (3,660) | OpenTable 가격대 '높음(gehoben)' — 무제한 코스 정확한 가격은 미확인 |
 | [CARUSO Pastabar](https://www.google.com/maps/search/?api=1&query=CARUSO%20Pastabar%20Kasparstra%C3%9Fe%2019%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | 이탈리아 | ★4.6 (994) | OpenTable 가격대 €31–50; 미쉐린 빕 구르망 €€ (2025-01 '이달의 빕'); 3코스를 직접 골라 구성하는 방식 |
 | [Capricorn [i] Aries Brasserie](https://www.google.com/maps/search/?api=1&query=Capricorn%20%5Bi%5D%20Aries%20Brasserie%20Alteburger%20Str.%2031%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | 프랑스 | ★4.6 (277) | 메인 €18–32, 코스 €35부터 (Schlemmer Atlas). 미쉐린 €€·빕 구르망, OpenTable 4·5·6코스 메뉴 (OpenTable 가격대 '€30 이하'는 상충) |
+| [Weinstube Bacchus](https://www.google.com/maps/search/?api=1&query=Weinstube%20Bacchus%20Rathenauplatz%2017%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | 독일 | ★4.6 (209) | 음식 1인 기준 €€€로 판단: restaurantguru 기준 1인 €40–50(음료 포함 여부 불명). 메뉴판 가격은 확인 못 함. |
 | [Tigermilch](https://www.google.com/maps/search/?api=1&query=Tigermilch%20Br%C3%BCsseler%20Str.%2012%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 페루 | ★4.5 (1,059) | restaurantguru 1인 €30–50 |
 | [Tanoshii](https://www.google.com/maps/search/?api=1&query=Tanoshii%20Brabanter%20Stra%C3%9Fe%203%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 일본 · 베트남 | ★4.5 (905) | restaurantguru 가격대 1인 €20–40 (리뷰 1건은 €20–30) |
 | [Balthasar](https://www.google.com/maps/search/?api=1&query=Balthasar%20Aachener%20Stra%C3%9Fe%2018%2C%2050674%20K%C3%B6ln) | 벨기에 지구 |  | ★4.4 (1,564) | restaurantguru 1인 €20–60, 리뷰상 '보통·적정' 가격 |
 | [NENI Köln](https://www.google.com/maps/search/?api=1&query=NENI%20K%C3%B6ln%20Im%20Klapperhof%2022-24%2C%2050670%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | 이스라엘 | ★4.3 (1,989) | restaurantguru 방문자 1인 €30–40, 리뷰: 메인 2개+디저트 1개+와인 1잔 €75 |
+| [Lütticher](https://www.google.com/maps/search/?api=1&query=L%C3%BCtticher%20L%C3%BCtticher%20Str.%2012%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | 퓨전·인터내셔널 | ★4.3 (403) | 음식 1인(음료 제외) 기준 €€€로 판단: 2020년 메인 €20–30(Mit Vergnügen), restaurantguru 1인 €30–80(음료 포함으로 보임). 2026년 메뉴판 가격은 확인 못 함. |
 
 ## €€€€ — 4곳
 

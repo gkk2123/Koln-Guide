@@ -29,9 +29,11 @@
       "r6-price-a.json",
       "r6-price-b.json",
       "r6-price-c.json",
+      "r7-bv-bars.json",
+      "r7-bv-wine.json",
       "wine-places.json"
     ],
-    "count": 128
+    "count": 130
   },
   "items": [
     {
@@ -2434,6 +2436,73 @@
       "style": null
     },
     {
+      "id": "lutticher",
+      "name": "Lütticher",
+      "category": "restaurant",
+      "area": "belgisches-viertel",
+      "address": "Lütticher Str. 12, 50674 Köln",
+      "lat": 50.937648,
+      "lng": 6.936833,
+      "cuisine": "Mediterranean restaurant and wine bar with a seasonal menu",
+      "cuisine_country": [
+        "INT"
+      ],
+      "cuisine_region": "international",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [
+        "date"
+      ],
+      "features": [
+        "terrace",
+        "open-sunday"
+      ],
+      "drinks": [
+        "wine-list"
+      ],
+      "vibe": [
+        "quiet"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 3,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "음식 1인(음료 제외) 기준 €€€로 판단: 2020년 메인 €20–30(Mit Vergnügen), restaurantguru 1인 €30–80(음료 포함으로 보임). 2026년 메뉴판 가격은 확인 못 함.",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.3,
+      "google_reviews": 403,
+      "google_as_of": null,
+      "rating_source": "restaurantguru.com (페이지의 ‘Google 4.3/5 · 403’ 표기). RG 자체 점수 4.8/878과 페이스북 4.8/271은 쓰지 않음. Wanderlog 페이지는 검색되지 않음",
+      "summary_ko": "뤼티허 거리의 지중해풍 레스토랑 겸 와인바로, 2–3주마다 바뀌는 제철 메뉴에 코스마다 어울리는 와인을 맞춰 준다. Mit Vergnügen이 ‘번잡함이 전혀 느껴지지 않는 목가적인 곳’이라고 쓴 차분한 곳이라, 조용히 식사와 와인을 함께 즐기기 좋다.",
+      "must_try": [
+        "Lütticher Spritz (하우스 스프리츠 식전주)",
+        "Weinbegleitung (코스별 와인 페어링)"
+      ],
+      "tips_ko": "공식 사이트·restaurantguru 기준 매일 18시–새벽 1시입니다. 다만 사이트 갱신이 오래돼 방문 전 확인하세요. 녹음 우거진 정원 테라스가 유명하지만 11–12월엔 실내를 쓰게 됩니다. ‘조용하다’는 평은 2020년 기사 기준이고, 구글 평점 4.3은 기준선보다 조금 높은 정도입니다. restaurantguru ‘로맨틱한 분위기’ 목록에 올라 있어 둘이서 하는 저녁에 맞습니다.",
+      "website": "https://www.luetticher-koeln.de/",
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://restaurantguru.com/Lutticher-Cologne",
+        "https://restaurantguru.com/Lutticher-Cologne/menu",
+        "https://koeln.mitvergnuegen.com/2020/luetticher-restaurant/",
+        "https://www.luetticher-koeln.de/kontakt/",
+        "https://restaurantguru.com/romantic-atmosphere-Cologne-m9624"
+      ],
+      "confidence": "medium",
+      "research": "r7-bv-wine",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "wine-bar"
+    },
+    {
       "id": "hallmackenreuther",
       "name": "Hallmackenreuther",
       "category": "cafe",
@@ -4019,6 +4088,66 @@
       "latest_review": null,
       "price_checked": "2026-11",
       "style": null
+    },
+    {
+      "id": "weinstube-bacchus",
+      "name": "Weinstube Bacchus",
+      "category": "restaurant",
+      "area": "kwartier-lateng",
+      "address": "Rathenauplatz 17, 50674 Köln",
+      "lat": 50.931136,
+      "lng": 6.935239,
+      "cuisine": "Weinstube (wine tavern) with seasonal cooking — goose in season, apple tart",
+      "cuisine_country": [
+        "DE"
+      ],
+      "cuisine_region": "central-europe",
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "dinner"
+      ],
+      "occasions": [],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [
+        "wine-list"
+      ],
+      "vibe": [],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "location": [],
+      "price_level": 3,
+      "price_estimated": false,
+      "price_pp": null,
+      "price_note": "음식 1인 기준 €€€로 판단: restaurantguru 기준 1인 €40–50(음료 포함 여부 불명). 메뉴판 가격은 확인 못 함.",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.6,
+      "google_reviews": 209,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com place page (Google 4.6/209, Tripadvisor 4.0/53은 별도). restaurantguru 4.4/326·4.8(375–388표)은 RG 자체 점수라 쓰지 않음",
+      "summary_ko": "벨기에 지구 남쪽 끝에서 가까운 라테나우플라츠의 와인 선술집(Weinstube)으로, 와인에 밝은 직원과 정성 들인 요리(제철 거위 요리, 사과 타르트 등)로 구글 4.6(209건)을 받았다. 11–12월 거위 요리 시즌에 와인을 곁들인 독일식 저녁으로 잘 맞는다.",
+      "must_try": [
+        "Gänsebraten (제철 거위 구이)",
+        "Apfeltarte (사과 타르트)"
+      ],
+      "tips_ko": "인기가 많아 리뷰어들이 미리 예약하라고 권합니다. restaurantguru에는 현금 결제만 된다고 나와 있으니 현금을 챙기세요(미확인). 거위 요리는 제철 메뉴로 자주 추천되며, 독일에선 보통 11월 성 마르틴 축일 무렵부터 나옵니다. 분위기가 조용한지 활기찬지는 출처로 확인하지 못했습니다. 실내석과 바깥 테라스가 있습니다. 브뤼셀 광장에서 걸어서 약 12분(크바르티어 라텡 북쪽)입니다.",
+      "website": null,
+      "awards": [],
+      "award_flags": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1438566/weinstube-bacchus",
+        "https://restaurantguru.com/Weinstube-Bacchus-Cologne",
+        "https://wanderlog.com/list/geoCategory/785149/best-wine-bars-and-tasting-rooms-in-cologne"
+      ],
+      "confidence": "medium",
+      "research": "r7-bv-wine",
+      "checked": "2026-11-07",
+      "coord_source": "nominatim",
+      "style": "wine-bar"
     },
     {
       "id": "habibi-koeln",

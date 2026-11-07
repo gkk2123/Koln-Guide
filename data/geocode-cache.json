@@ -1518,5 +1518,89 @@
     "provider": "nominatim",
     "date": "2026-11-07",
     "note": "address search hit a café; replaced by the OSM zoo object (query 'Kölner Zoo, Riehler Straße, Köln')"
+  },
+  "Lütticher Str. 12, 50674 Köln": {
+    "lat": 50.9376479,
+    "lng": 6.9368334,
+    "display_name": "12, Lütticher Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Rathenauplatz 17, 50674 Köln": {
+    "lat": 50.9311356,
+    "lng": 6.9352392,
+    "display_name": "17, Rathenauplatz, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Venloer Str. 22, 50672 Köln": {
+    "lat": 50.9419943,
+    "lng": 6.9364489,
+    "display_name": "22, Venloer Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Richard-Wagner-Straße 39, 50674 Köln": {
+    "lat": 50.9352779,
+    "lng": 6.9348544,
+    "display_name": "39, Richard-Wagner-Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Aachener Straße 47, 50674 Köln": {
+    "lat": 50.9363759,
+    "lng": 6.9334957,
+    "display_name": "47, Aachener Straße, Komponistenviertel, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Platz 1, 50674 Köln": {
+    "lat": 50.9382902,
+    "lng": 6.935123,
+    "display_name": "1, Brüsseler Platz, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Brüsseler Straße 10, 50674 Köln": {
+    "lat": 50.9338947,
+    "lng": 6.934699,
+    "display_name": "10, Brüsseler Straße, Rathenauviertel, Südstadt, Neustadt/Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50674, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Antwerpener Straße 34, 50672 Köln": {
+    "lat": 50.9404086,
+    "lng": 6.9351739,
+    "display_name": "34, Antwerpener Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Antwerpener Straße 38, 50672 Köln": {
+    "lat": 50.9402698,
+    "lng": 6.9345199,
+    "display_name": "38, Antwerpener Straße, Belgisches Viertel, Neustadt/Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Friesenwall 84, 50672 Köln": {
+    "lat": 50.9394867,
+    "lng": 6.9411369,
+    "display_name": "84, Friesenwall, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Friesenwall 58, 50672 Köln": {
+    "lat": 50.938656,
+    "lng": 6.9409333,
+    "display_name": "58, Friesenwall, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
+  },
+  "Pfeilstraße 31-35, 50672 Köln": {
+    "lat": 50.9375691,
+    "lng": 6.941391,
+    "display_name": "31-35, Pfeilstraße, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "provider": "nominatim",
+    "date": "2026-11-07"
   }
 }

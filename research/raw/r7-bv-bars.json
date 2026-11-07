@@ -1,0 +1,511 @@
+{
+  "agent": "r7-bv-bars",
+  "generated": "2026-11-07",
+  "schema": "v2",
+  "scope": "Round 7 Belgisches Viertel (50672/50674): lively bars and Kneipen of the Brüsseler Platz scene, cocktail lounges, hotel bars and late-night spots not yet in the guide; re-check of Barracuda Bar, Low Budget and Salon Schmitz",
+  "places": [
+    {
+      "id": "low-budget",
+      "name": "Low Budget",
+      "category": "bar",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 47, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Dive bar with pool and kicker tables, punk and indie music",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "late-night"
+      ],
+      "occasions": [
+        "group",
+        "solo"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "lively",
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일·맥주 가격 숫자는 미확인 — '술값이 싸다', '당구·키커 요금이 싸다'는 리뷰만 있음(Wanderlog)",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 487,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 4.5/487 (5★ 322·4★ 117) · restaurantguru 자체 종합 4.4/540 · 3차 조사의 Yelp 4.3(23)은 구글 아님",
+      "summary_ko": "아헨 거리(Aachener Straße) 초입의 오래된 다이브 바로, 쾰른 시티 매거진 Mit Vergnügen이 '영원한 젊음의 궁전(Palast ewiger Jugend)'이라 부르는 곳이다. 펑크·인디 음악, 안쪽의 당구대·키커(테이블 축구), 싼 술값 덕분에 늦은 밤 현지 젊은이들과 어울리기 좋다.",
+      "must_try": [
+        "Mexikaner (멕시카너 — 토마토 주스에 보드카·매운 소스를 넣은 매콤한 샷, Mit Vergnügen 추천)",
+        "Tequila (테킬라 샷 — 리뷰 추천)"
+      ],
+      "tips_ko": "일요일 휴무, 주말엔 늦게까지 연다(Wanderlog — 정확한 시간은 방문 전 확인). 춤추는 곳이 아니라 음악 속에서 당구·키커를 하며 늦게까지 수다 떠는 분위기이고, 혼자 가도 어색하지 않다는 리뷰가 있다. 붐비는 시간대에 대한 구체적 정보는 못 찾았고, 한 달에 한 번 토요일 오픈마이크 행사가 있다는 리뷰가 있다. 현금을 안 받았다는 리뷰가 있으니 카드도 준비할 것. 화장실 관리가 아쉽다는 지적이 있다. 1점 리뷰 1건에 직원의 인종차별적 응대 주장이 있다(전체 487건 중 단일 리뷰). 전화 +49 221 255484. 웹사이트는 lowbudgetkoeln.de(Falstaff·koeln.de)와 lowbud.de(Wanderlog)로 표기가 갈린다.",
+      "website": "https://lowbudgetkoeln.de",
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2567405/low-budget",
+        "https://koeln.mitvergnuegen.com/2025/bars-kneipen-belgisches-viertel/",
+        "https://koeln.mitvergnuegen.com/2024/bars-kneipen-belgisches-viertel/",
+        "https://www.falstaff.com/en/bars/low-budget",
+        "https://www.koeln.de/branchen/eintrag/7274/kneipen/low-budget",
+        "https://restaurantguru.com/Low-Budget-Cologne",
+        "https://www.top-rated.online/cities/K%C3%B6ln/place/p/8015299/Low+Budget"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "gruenfeld",
+      "name": "Grünfeld",
+      "category": "bar",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Straße 47, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Neighbourhood bar with Kölsch and spritz, foosball and a chess club",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "group"
+      ],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [
+        "koelsch"
+      ],
+      "vibe": [
+        "lively",
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": 1,
+      "price_pp": null,
+      "price_note": "바 기준(칵테일·롱드링크 1잔): 스프리츠 11종 각 €6.90 (Mit Vergnügen 2026 '11 coole Bars für spritzige Drinks'). 무알코올 스프리츠 €4.30(Mit Vergnügen 기사, 연도 표기 엇갈림). 쾰시 가격은 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 426,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 Google 4.5/426 (5★ 281) · restaurantguru Google 4.5(건수 미표시), RG 자체 종합 4.4/509",
+      "summary_ko": "브뤼셀러 거리(Brüsseler Straße)에서 20년째 영업 중인 동네 바로, Mit Vergnügen이 '벨기에 지구의 진짜 터줏대감'이라 부르는 곳이다. 쾰시와 11가지 스프리츠를 싸게 마시며 키커(테이블 축구)·체스를 즐기는 현지 단골 분위기를 느끼기 좋다.",
+      "must_try": [
+        "Spritz (스프리츠 — 11가지, 각 €6.90)",
+        "Kölsch (쾰시)"
+      ],
+      "tips_ko": "주소가 쾰시 크나이페 'Zum Knobelbecher'(가이드 수록)와 같은 Brüsseler Str. 47로 나오지만 구글 리스팅은 별개다(리뷰 426건 vs 567건) — 헷갈리지 말 것. 체스 클럽 Schachverein Grünfeld의 경기 장소이고 키커 대결이 유명하다. 리뷰는 '편안하고 느긋한 분위기'라는 평이 많고, 축구 중계가 있는 날엔 사람이 몰린다(Mit Vergnügen). 지붕 있는 야외석·작은 테라스가 있다. 음료 종류가 더 다양했으면 한다는 리뷰가 있다. 영업시간은 확인 못 했으니 gruenfeld.bar에서 확인할 것.",
+      "website": "https://gruenfeld.bar",
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/4592016/gr%C3%BCnfeld",
+        "https://restaurantguru.com/Grunfeld-Cologne-2",
+        "https://koeln.mitvergnuegen.com/2025/bars-kneipen-belgisches-viertel/",
+        "https://koeln.mitvergnuegen.com/2026/bars-spritzige-drinks/",
+        "https://koeln.mitvergnuegen.com/2024/guenstige-bars-kneipen/",
+        "https://koeln.mitvergnuegen.com/2024/kneipensport/",
+        "https://magazine.cologne-tourism.com/cologne/new-years-eve-2024-in-cologne/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "zum-goldenen-schuss",
+      "name": "Zum Goldenen Schuss",
+      "category": "kneipe",
+      "area": "belgisches-viertel",
+      "address": "Antwerpener Straße 38, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Sports Kneipe with big screens for football and handball, open late",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "late-night"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [
+        "open-sunday"
+      ],
+      "drinks": [],
+      "vibe": [
+        "lively"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "가격 미확인 — '다른 쾰른 술집보다 조금 비싸다'는 리뷰가 있음",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.3,
+      "google_reviews": 780,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 4.3/780 · 다른 집계 스냅숏 Google 4.3/799 · 4개 포털 종합 4.5/603(집계 사이트) · 3차 조사 restaurantguru Google 4.3(건수 미표시)",
+      "summary_ko": "앤트워프 거리(Antwerpener Straße)의 스포츠 크나이페로, 대형 스크린 3대로 축구와 이 동네에선 드문 핸드볼 경기를 틀어 준다. 새벽 3–4시까지 열어서 벨기에 지구에서 늦게까지 북적이는 술자리를 찾을 때 좋다.",
+      "must_try": [],
+      "tips_ko": "주말과 카니발 기간에 가장 붐빈다 — 카니발 땐 '꽉 차고 신난다'는 리뷰가 있으니 11월 11일(수) 시즌 개막일엔 일찍 가거나 서서 마실 각오를 할 것. 축구·핸드볼 빅매치 날도 붐빈다. 영업은 대략 정오~새벽 3–4시 30분, 월요일은 늦게 열고 주말은 14:30부터(Wanderlog, 공식 확인 못 함). 서비스가 느리다, 밤늦게 화장실이 지저분해진다, 가격이 조금 비싸다는 리뷰가 있고, 직원이 독일어가 서툴러도 친절하다는 평이 많다. 전화 +49 221 99878659.",
+      "website": "https://zumgoldenenschuss.com",
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/2535166/zum-goldenen-schuss",
+        "https://restaurantguru.com/Zum-Goldenen-Schuss-Cologne",
+        "https://theculturetrip.com/europe/germany/articles/the-best-things-to-see-and-do-in-colognes-belgian-quarter"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "pegel",
+      "name": "Pegel",
+      "category": "bar",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Straße 10, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "DJ bar with retro music, cocktails and beer",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "late-night"
+      ],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [
+        "lively",
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 — '칵테일 값이 적당하다'는 리뷰만 있음",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 189,
+      "google_as_of": null,
+      "rating_source": "top-rated.online Google 4.4/189 (같은 값의 Wanderlog 목록 스냅숏 있음) · wanderlog.com 장소 페이지 4.5/173 'From Google'(다른 스냅숏 4.5/175) · restaurantguru Google 4.5/182(약 1,600일 전 페이지) · werkenntdenbesten 2개 포털 4.5/134(2022)",
+      "summary_ko": "브뤼셀러 거리 10번지의 DJ 바로, 매일 밤 다른 DJ가 레트로를 비롯한 여러 장르를 대화가 가능한 볼륨으로 튼다. 현지 손님이 많고 칵테일·맥주 값이 적당해서 벨기에 지구에서 편하게 놀기 좋은 바다.",
+      "must_try": [],
+      "tips_ko": "주말엔 늘 붐빈다는 리뷰가 있어 금·토 밤엔 서서 마실 각오를 할 것(금·토 밤 파티 분위기). 영업은 대략 19–03시, 일요일 휴무(Wanderlog, 요일별 정보가 엇갈림). 같은 번지에 별도 입구로 칵테일 바 Scheinbar가 있으니 헷갈리지 말 것. 구글 수치는 스냅숏마다 4.4–4.5(173–189건)이고 날짜가 오래된 집계일 수 있다. Köln Tourismus 공식 가스트로 목록에도 올라 있다.",
+      "website": "https://pegelkoeln.com",
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/150837/pegel",
+        "https://www.top-rated.online/cities/Cologne/place/p/10202261/Pegel",
+        "https://restaurantguru.com/Pegel-Koln-Cologne",
+        "https://cologne-tourism.com/delight-diversity/gastronomy/detail/pegel",
+        "https://www.werkenntdenbesten.de/cocktail/koeln?page=2"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "lorbass-bar-lounge",
+      "name": "Lorbass Bar & Lounge",
+      "category": "cocktail-bar",
+      "area": "belgisches-viertel",
+      "address": "Antwerpener Straße 34, 50672 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Cocktail bar and lounge, New York-meets-Cologne style, around 150 cocktails",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [
+        "late-night"
+      ],
+      "occasions": [],
+      "features": [],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [
+        "lively",
+        "trendy"
+      ],
+      "reservation": "recommended",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인 (speisekarte.de 메뉴 페이지에 가격이 안 보임). Falstaff는 '국제 프리미엄급' 술을 쓴다고 소개",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 173,
+      "google_as_of": null,
+      "rating_source": "wanderlog.com 장소 페이지 4.4/173",
+      "summary_ko": "앤트워프 거리의 칵테일 바 겸 라운지로, Falstaff 바 가이드 2026에서 89점을 받았고 '뉴욕과 쾰른이 섞인' 세련된 분위기를 내세운다. 칵테일이 150가지쯤 되고 음악이 크고 디스코 같은 분위기라, 주말 밤 차려입고 신나게 한잔하기 좋다.",
+      "must_try": [
+        "Gin Basil Smash (진 바질 스매시)",
+        "Espresso Martini (에스프레소 마티니)"
+      ],
+      "tips_ko": "수·목 20–02시, 금·토 20–03시, 일–화 휴무(Falstaff·Restaurant Guru). 예약은 전화로만 받는다(+49 173 2777797) — 금·토는 예약을 권장. 음악이 커서 대화하기 어렵다, 전통 바보다 디스코 같다는 리뷰가 있으니 조용한 칵테일 바를 원하면 Little Link나 Barito가 낫다. 이전 후보 목록에 수치 미확보로 있던 곳.",
+      "website": "https://lorbass-bar.de",
+      "awards": [
+        "Falstaff Bar-Guide 2026 89 Punkte"
+      ],
+      "sources": [
+        "https://wanderlog.com/place/details/5166505/lorbass-bar--lounge",
+        "https://www.falstaff.com/en/bars/lorbass",
+        "https://restaurantguru.com/Lorbass-Bar-Cologne",
+        "https://www.enprimeurclub.com/bars/lorbass-k-ln",
+        "https://www.speisekarte.de/k%C3%B6ln/restaurant/lorbass_bar_lounge"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "rosa-bruesseler-platz",
+      "name": "ROSA",
+      "category": "bar",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Platz 1, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Café-bar on Brüsseler Platz with aperitivo drinks, cocktails, wine and beer (formerly Brüsseler)",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [],
+      "features": [
+        "terrace"
+      ],
+      "drinks": [
+        "cocktails"
+      ],
+      "vibe": [
+        "quiet"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "칵테일 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.4,
+      "google_reviews": 613,
+      "google_as_of": null,
+      "rating_source": "restaurantguru Google 4.4/613 (약 610일 전 페이지) · wanderlog.com 장소 페이지 4.4/579 'From Google'(최신 리뷰 2025-08)",
+      "summary_ko": "브뤼셀러 플라츠 광장 바로 앞(1번지)의 카페 겸 바로, 예전 'Brüsseler'가 'ROSA'로 이름과 콘셉트를 바꿨다. 로사 스프리츠·로사 사워 같은 아페리티보 칵테일을 마시며 광장 풍경을 구경하기 좋고, Mit Vergnügen은 '느긋하게 한잔하는 새 주소'로 소개한다.",
+      "must_try": [
+        "Aperol Spritz Sauer (아페롤 스프리츠 사워 — 리뷰가 꼽는 시그니처)",
+        "Rosa Spritz (로사 스프리츠)",
+        "Rosa Sour (로사 사워)"
+      ],
+      "tips_ko": "2026-04-01부터 브뤼셀러 플라츠와 맞닿은 교차로(Maastrichter Str.·Brüsseler Str. 72번지까지)에서는 매일 21–06시 공공장소 음주와 술 소지가 금지된다(질서청 단속, 벌금). 그러니 밤엔 가게 안에서 마실 것. 붐빌 땐 서비스가 느려진다는 리뷰가 있다. 결제는 '현금만'이라는 리뷰와 '카드 가능' 리스팅이 엇갈리니 현금도 챙길 것. 영업시간 정보도 엇갈려서(오전 9–10시~23–02시 등) rosa-koeln.de에서 확인할 것. 음식(치킨)은 평이 엇갈린다.",
+      "website": "https://rosa-koeln.de",
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1960336/rosa",
+        "https://restaurantguru.com/Brusseler-Cologne",
+        "https://koeln.mitvergnuegen.com/2025/erfrischende-orte-belgisches-viertel/",
+        "https://www.leinetal24.de/welt/gastro-albtraum-wird-realitaet-koelner-party-meile-wird-nachts-abgeriegelt-zr-93559036.html",
+        "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/28306/index.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "die-wohngemeinschaft",
+      "name": "die wohngemeinschaft – CaféBar & Hostel",
+      "category": "bar",
+      "area": "belgisches-viertel",
+      "address": "Richard-Wagner-Straße 39, 50674 Köln",
+      "lat": null,
+      "lng": null,
+      "cuisine": "Café-bar in a hostel styled as a shared flat, with a small theatre and indoor ping-pong",
+      "cuisine_country": [],
+      "dishes": [],
+      "diet": [],
+      "meals": [],
+      "occasions": [
+        "group"
+      ],
+      "features": [],
+      "drinks": [],
+      "vibe": [
+        "lively",
+        "local-favorite"
+      ],
+      "reservation": "unknown",
+      "payment": "unknown",
+      "price_level": null,
+      "price_pp": null,
+      "price_note": "음료 가격 미확인",
+      "beer_price_eur": null,
+      "beer_price_note": null,
+      "beers": [],
+      "google_rating": 4.5,
+      "google_reviews": 2070,
+      "google_as_of": null,
+      "rating_source": "restaurantguru Google 4.5/2,070 · wanderlog.com 장소 페이지 4.5/2,038 — 호스텔·카페·바·극장 통합 구글 리스팅이라 리뷰 대부분이 숙박 후기",
+      "summary_ko": "가상의 룸메이트 넷이 사는 집처럼 꾸민 호스텔 겸 카페·바·소극장으로, 1층 바는 투숙객뿐 아니라 동네 사람들에게도 인기다. 탁구대가 있는 거실 같은 공간에서 벨기에 지구의 젊은 분위기를 부담 없이 즐기기 좋다.",
+      "must_try": [],
+      "tips_ko": "구글 평점은 호스텔·카페·바를 합친 리스팅이라 리뷰 대부분이 숙박 후기라는 점을 감안할 것. 바 음악이 새벽 1시쯤까지 이어진다는 숙박객 불만이 있을 만큼 밤늦게까지 북적인다. 저녁엔 주방이 닫으니 식사는 다른 곳에서 할 것. 실내 탁구대가 있다. 극장 공연 일정은 die-wohngemeinschaft.net에서 확인. 전화 +49 221 98593090.",
+      "website": "https://die-wohngemeinschaft.net",
+      "awards": [],
+      "sources": [
+        "https://wanderlog.com/place/details/1164961/die-wohngemeinschaft--caf%C3%A9--bar--hostel--meeting-spaces--theater",
+        "https://restaurantguru.com/die-wohngemeinschaft-Cologne",
+        "https://top-rated.online/cities/Neustadt/S%C3%BCd/place/p/8340229/Caf%C3%A9Bar+|+die+wohngemeinschaft",
+        "https://koeln.mitvergnuegen.com/2025/bars-kneipen-belgisches-viertel/",
+        "https://die-wohngemeinschaft.net/en/?p=20"
+      ],
+      "confidence": "low",
+      "confidence_note": "구글 리스팅이 호스텔·카페·바 통합이라 리뷰 대부분이 숙박 후기 — 바 자체의 평점으로 보기 어려워 후보로 분류 (가이드 기준: 출처 귀속이 애매하면 low → 후보). 2026-11-07 메인 세션에서 변경."
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Barracuda Bar",
+      "area": "belgisches-viertel",
+      "address": "Bismarckstraße 44, 50672 Köln",
+      "category": "bar",
+      "reason": "below-criteria (Google 4.1, re-checked 2026-11-07)",
+      "found": "7차 재확인: Wanderlog 4.1(약 190건)로 2차(4.1/190)와 같아 기준 미달. 목–토만 여는 심야 칵테일·DJ 바(목 21–03시, 금·토 ~05시, 일–수 휴무; Wanderlog, 미검증), 해산물 플래터·스테이크 프리트 메뉴, 입장료 없음(리뷰). 같은 주인(Tobias)이 같은 주소의 Forelle Blau도 운영. Falstaff 바 페이지는 있으나 점수 미확인. Foursquare 8.2(14건)는 구글 아님. Instagram instagram.com/barracuda.bar, 전화 +49 221 16990002.",
+      "sources": [
+        "https://wanderlog.com/place/details/1820845/barracuda-bar-k%C3%B6ln",
+        "https://www.falstaff.com/en/bars/barracuda-bar",
+        "https://rausgegangen.de/locations/barracuda/",
+        "https://www.enprimeurclub.com/bars/barracuda-bar-koln-cologne-bar"
+      ]
+    },
+    {
+      "name": "Salon Schmitz",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 28, 50674 Köln",
+      "category": "cafe",
+      "reason": "below-criteria (Google 4.1/1,179 via Wanderlog, re-checked 2026-11-07); Bar Schmitz in the same complex is borderline 4.2, see found",
+      "found": "7차 재확인: Salon Schmitz는 Wanderlog 4.1(1,179건)과 다른 플랫폼 3.5(165건)로 기준 미달(이전: werkenntdenbesten 종합 3.99/1,425, speisekarte.menu 3.8/7,211). 같은 'Schmitz' 단지(Salon·Bar·Metzgerei·Coco Schmitz, Aachener Str. 28–34)의 Bar Schmitz(Aachener Straße 34, salonschmitz.com/bar, 전화 +49 221 133898)는 Wanderlog 4.2/568·restaurantguru Google 4.2/584로 숫자상 기준선이다. 하지만 리뷰가 대부분 아이스크림·케이크·대기줄 이야기(Coco Schmitz와 섞인 듯)이고 RG 종합은 3.7(814)이어서 바로서의 평가가 불분명해 places에 넣지 않았다(리드 판단 필요). Bar Schmitz 영업 월–금 16–24시, 토·일 12시~(Wanderlog). 자체 쾰시를 판다는 리뷰가 있다. import 시 'Bar Schmitz'가 이름 토큰 비교로 'Salon Schmitz'와 합쳐지므로 이 후보 하나에 같이 적음.",
+      "sources": [
+        "https://wanderlog.com/place/details/1160464/salon-schmitz",
+        "https://wanderlog.com/place/details/1422897/bar-schmitz",
+        "https://restaurantguru.com/Bar-Schmitz-Cologne",
+        "https://wanderlog.com/place/details/3594806/metzgerei-schmitz",
+        "https://www.werkenntdenbesten.de/e/42567766/cafe/koeln/salon-schmitz-bewertungen.html",
+        "https://speisekarte.menu/restaurants/koeln/salon-schmitz",
+        "https://www.koeln.de/koeln/essen_und_trinken/tipps/die-besten-restaurants-im-belgischen-viertel-in-koeln_schmitz-bar-salon-metzgerei-brasserie_L1134356_1134345.html"
+      ]
+    },
+    {
+      "name": "Scheinbar",
+      "area": "belgisches-viertel",
+      "address": "Brüsseler Straße 10, 50674 Köln",
+      "category": "cocktail-bar",
+      "reason": "below-criteria (Google 4.1)",
+      "found": "Wanderlog 4.1(363건, 다른 스냅숏 389·402건). 별점 5★179·4★106·3★33·2★18·1★27. evendo 4.1(357). 주말엔 둥근 바 주위에서 춤추는 컬트 칵테일 바로, 바 뒤에서 DJ가 소울·펑크 바이닐을 튼다(Mit Vergnügen·Wanderlog). 피크 시간엔 자리 잡기 어렵고, 도어 보안·임의 규칙·칵테일 품질 불만이 있다. koeln.de 기준 월 20–03시, 전화 0221 9232048. 같은 번지에 별도 입구로 Pegel(places)이 있다.",
+      "sources": [
+        "https://wanderlog.com/place/details/2535248/scheinbar",
+        "https://www.koeln.de/branchen/eintrag/14640/bars-lounges/scheinbar",
+        "https://evendo.com/locations/germany/upper-rhine/bar/scheinbar",
+        "https://koeln.mitvergnuegen.com/2024/bars-kneipen-belgisches-viertel/"
+      ]
+    },
+    {
+      "name": "Zum scheuen Reh",
+      "area": "belgisches-viertel",
+      "address": "Hans-Böckler-Platz 2, 50672 Köln",
+      "category": "bar",
+      "reason": "below-criteria (Google approx. 4.1)",
+      "found": "검색 요약 기준 Google 약 4.1(약 1,100건). Wanderlog 별점 분포 5★577·4★302·3★95·2★32·1★102(합 1,108건). restaurantguru 종합 4.0(1,283건), Foursquare 7.5. 2010년부터 쾰른 서역(Bahnhof West) 옆에서 콘서트·낭독·연극·DJ 셋을 여는 문화 바다. 넓은 테라스, 진 셀렉션, 멜로딕 테크노 밤이 호평이고, 일부 바텐더 불친절·음향 불만이 있다. Falstaff 바 페이지 있음. 웹사이트 zum-scheuen-reh.de, 전화 +49 221 16897642.",
+      "sources": [
+        "https://wanderlog.com/place/details/1828148/zum-scheuen-reh",
+        "https://restaurantguru.com/Zum-scheuen-Reh-Cologne",
+        "https://www.falstaff.com/en/bars/zum-scheuen-reh",
+        "https://rausgegangen.de/en/locations/zum-scheuen-reh/",
+        "https://www.cologne-tourism.com/food-drink/gastronomy/zum-scheuen-reh"
+      ]
+    },
+    {
+      "name": "Atelier – Fine Drinks & Aperitivo",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 15, 50674 Köln",
+      "category": "cocktail-bar",
+      "reason": "google-numbers-not-found; name conflict (same address listed as BARNEY)",
+      "found": "koeln.de 'Bars und Lounges' 등록(전화 0170 4042323), OpenTable 리스팅. Wanderlog 'Atelier – Restaurant meets Bar' 페이지는 쾰시를 작은 잔으로 내고 타파스식 소량 요리를 곁들이는 칵테일 바로 소개한다(일·월 휴무). 그런데 restaurantguru와 다른 Wanderlog 페이지는 같은 주소를 'BARNEY'(전화 +49 176 47140805)로 표시한다. 이름이 바뀌었는지 확인하지 못했다. 웹사이트 atelier-aperitiv.de. 구글 수치는 검색 요약에 나오지 않음.",
+      "sources": [
+        "https://www.koeln.de/branchen/eintrag/71354/bars-und-lounges/atelier-fine-drinks-aperitivo",
+        "https://www.opentable.com/r/atelier-fine-drinks-and-aperitivo-cologne-2",
+        "https://wanderlog.com/place/details/1552614/atelier-restaurant-meets-bar",
+        "https://restaurantguru.com/Atelier-Cologne"
+      ]
+    },
+    {
+      "name": "Café Storch",
+      "area": "belgisches-viertel",
+      "address": "Aachener Straße 17, 50674 Köln",
+      "category": "bar",
+      "reason": "status-unclear (re-checked 2026-11-07)",
+      "found": "3차: Wanderlog '쾰른 베스트 펍 50' 4.6(259건)인데 한 리스팅에 'Temporarily Closed' 표시, Restaurant Guru엔 '18–02시 영업'. 7차 재확인: 폐업·이전·재개 뉴스를 못 찾았다. Cylex 목록의 'Jetzt geschlossen'은 크롤 시점의 영업시간 표시로 보인다. koeln.de 등록(전화 0221 251717)은 남아 있다. 촛불과 예술 분위기에 아헨 거리 테라스가 있는 데이트용 카페바로 소개된다(Mit Vergnügen; 2018년 기사 기준 월–목 18–01시, 금·토 16–02시). 영업이 확인되면 places로 올릴 것.",
+      "sources": [
+        "https://wanderlog.com/place/details/1508528/caf%C3%A9-storch",
+        "https://restaurantguru.com/Cafe-Storch-Cologne",
+        "https://wanderlog.com/list/geoCategory/1543979/best-pubs-in-cologne",
+        "https://koeln.mitvergnuegen.com/2018/lieblingsort-cafe-storch/",
+        "https://www.koeln.de/branchen/eintrag/58825/cafes/cafe-storch",
+        "https://web2.cylex.de/bar/Koeln/aachener%20str-50674-s"
+      ]
+    },
+    {
+      "name": "Klein Köln",
+      "area": "friesenviertel-ehrenstrasse",
+      "address": "Friesenstraße 53, 50670 Köln",
+      "category": "kneipe",
+      "reason": "google-numbers-not-found (re-checked 2026-11-07)",
+      "found": "프리젠 지구의 심야 파티 크나이페다. 리뷰는 시끄럽고 붐비고 소박하며 카니발 음악을 자주 튼다고 묘사하고, '예전만 못하다'는 평도 있다. 영업시간 정보가 엇갈린다(restaurantguru 20–03시·일 휴무 / top-rated 금·토 21–05시). RG 1인 €9–22. 카니발 땐 음료 포함 입장 €15, 평소 약 €7이라는 리뷰가 있다. 웹사이트 klein-koeln.com. restaurantguru·top-rated 페이지는 있지만 검색 요약에 구글 수치가 나오지 않았다. 3차 coolibri 5.7/10은 구글 아님.",
+      "sources": [
+        "https://restaurantguru.com/Klein-Koln-Cologne",
+        "https://www.top-rated.online/cities/K%C3%B6ln/place/p/4164854/Klein+K%C3%B6ln",
+        "https://coolibri.de/restaurant/weisser-holunder-koeln/"
+      ]
+    },
+    {
+      "name": "Stadtgarten",
+      "area": "belgisches-viertel",
+      "address": "Venloer Straße 40, 50672 Köln",
+      "category": "bar",
+      "reason": "google-numbers-not-found",
+      "found": "연 400회 이상 공연을 여는 공연장(재즈 중심)에 레스토랑과 비어가르텐이 붙어 있다. 같은 주소의 클럽 Jaki(옛 Studio 672)는 지금 전자음악 중심이다. Wanderlog·restaurantguru 페이지는 있지만 검색 요약에 구글 수치가 나오지 않았다. 11월 중순부터 공원 크리스마스 마켓이 열린다(attractions 데이터 참고). 3차 후보 'Stadtgarten (Biergarten)'(겨울 영업 미상)을 대신한다.",
+      "sources": [
+        "https://wanderlog.com/place/details/150783/stadtgarten-k%C3%B6ln",
+        "https://restaurantguru.com/Stadtgarten-Cologne",
+        "https://wanderlog.com/place/details/9467641/studio-672",
+        "https://koeln.mitvergnuegen.com/2026/schoene-biergaerten/"
+      ]
+    },
+    {
+      "name": "Hotel Chelsea – Café Central",
+      "area": "belgisches-viertel",
+      "address": "Jülicher Straße 1, 50674 Köln",
+      "category": "bar",
+      "reason": "google-numbers-not-found (hotel bar lead)",
+      "found": "벨기에 지구의 아트 호텔 Hotel Chelsea 1층 Café Central은 체크무늬 바닥의 카페·바·라운지로, 거리 풍경을 구경할 수 있다는 소개가 있다. 출처가 호텔 예약 사이트뿐이라 바 단독 구글 수치·영업시간은 확보하지 못했다. 이번 조사에서 벨기에 지구 안의 이름난 호텔 바는 찾지 못했다(가장 가까운 루프탑 Monkey Bar는 기존 후보, 구글 4.1).",
+      "sources": [
+        "https://www.booking.com/hotel/de/chelsea.html",
+        "https://www.viamichelin.at/karten-stadtplan/hotels/poi/koln-50674-cwa0rd4f"
+      ]
+    }
+  ],
+  "notes_ko": "범위·방법: 벨기에 지구(50672/50674) 바·크나이페·칵테일 라운지·호텔 바·심야 술집을 조사했다. WebSearch 45회/한도 45회를 모두 썼다. 구글 수치는 wanderlog.com 장소 페이지(구글 평점·리뷰 수 표시), restaurantguru의 Google 항목, top-rated.online(Google 리뷰 명시)에서만 가져왔다. 신규 places 7곳: Low Budget 4.5(487), Grünfeld 4.5(426), Zum Goldenen Schuss 4.3(780), Pegel 4.4(189), Lorbass Bar & Lounge 4.4(173, Falstaff 2026 89점), ROSA 4.4(613), die wohngemeinschaft 4.5(2,070, 호스텔 통합 리스팅). 분위기는 ROSA만 quiet(Mit Vergnügen '느긋한 한잔'), 나머지는 lively다.\n\n지정 재확인 3곳: Barracuda Bar는 여전히 4.1(약 190)로 후보 유지. Low Budget은 Wanderlog 4.5(487)로 기준을 충족해 places로 올렸다. Salon Schmitz는 4.1(1,179)로 후보 유지. 같은 단지의 Bar Schmitz는 4.2(568–584)로 숫자상 기준선이지만, 리뷰가 아이스크림 위주라 후보 기록에 함께 적었다. 이전 후보 중 Pegel, Lorbass Bar & Lounge, Zum Goldenen Schuss는 이번에 수치를 확보해 places로 올렸다(import 때 이전 후보가 자동으로 빠지도록 이름을 같게 씀).\n\n중요 — 브뤼셀러 플라츠 음주 금지: 2026-04-01부터 시 질서조례(OBV)로 매일 21–06시 광장과 맞닿은 교차로(Maastrichter Str.·Brüsseler Str. 72번지까지)에서 공공장소 음주와 술 소지가 금지된다(질서청 단속, 벌금). 이전엔 일반처분(Allgemeinverfügung)으로 시행됐고, 2025년엔 금·토·공휴일 22–06시 체류 금지(Verweilverbot)도 있었다. 그래서 키오스크에서 맥주를 사서 광장에서 마시던 '브뤼셀러 플라츠 문화'는 밤엔 사실상 불가능하다. 여행자에겐 '광장 대신 주변 바 안에서' 마시라고 안내할 것. 금지 계획이 알려졌을 때 Hallmackenreuther·Rosa·Kowalski 등 주변 가게들이 창문을 검게 가려 항의했다. 출처: https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/28306/index.html · https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/28251/index.html · https://www.stadt-koeln.de/mediaasset/content/bekanntmachungen/2026/2026.03.30_0058-01_bruesseler_platz_obv_alkoholverbot.pdf · https://www.stadt-koeln.de/mediaasset/content/bekanntmachungen/2025/2025.02.05_0034-01_av_bruesseler-platz_verweilverbot.pdf · https://www.leinetal24.de/welt/gastro-albtraum-wird-realitaet-koelner-party-meile-wird-nachts-abgeriegelt-zr-93559036.html\n\n카니발: 2026-11-11(수)은 카니발 시즌 개막일이라 벨기에 지구 크나이페(특히 Zum Goldenen Schuss)가 낮부터 붐빌 가능성이 크다.\n\n이미 가이드에 있고 이 주제에 맞는 곳(중복이라 넣지 않음): Little Link(Maastrichter Str. 20, 실험적 칵테일), Barito(Aachener Str. 59, 금·토 위주 칵테일 바), Zum Knobelbecher(Brüsseler Str. 47, 쾰시·케겔반 크나이페 — Grünfeld와 같은 번지지만 별개 리스팅), Hallmackenreuther(Brüsseler Platz 9, 낮엔 카페·밤엔 바, 금·토 01:30까지), Balthasar·Tigermilch·Hambaga(칵테일 있는 식당). 기존 후보 Sixpack(Aachener Str. 33, 구글 3.4)은 Wanderlog가 '전자음악·애프터아워 분위기로 밤늦게 매우 붐빈다'고 묘사하지만 기준 미달이다.\n\n확인 못 한 리드: Friends Club(Mit Vergnügen 2026 '11 angesagte Bars'가 벨기에 지구 한가운데 클럽으로 소개, https://koeln.mitvergnuegen.com/2026/angesagte-bars/), Frohnatur Bar(Friesenwall, Frohnatur Weinstube 팀, https://www.konii.de/?p=30499), Kiosk Brüsseler Platz(바가 아닌 키오스크, Wanderlog '금·토 밤 테크노', https://wanderlog.com/place/details/2741335/kiosk-br%C3%BCsseler-platz — 21시 이후 광장 음주 금지로 밤 분위기가 바뀌었을 것), Das Reineke Fuchs·FRIEDA Bar(Wanderlog 나이트라이프 목록에 있으나 위치 미확인). 2차 후보 Lorbass는 이번에 Antwerpener Str. 34로 위치를 확인했다.\n\n리드 확인 요청: (1) Grünfeld와 Zum Knobelbecher가 같은 Brüsseler Str. 47로 나온다. 리스팅이 둘이고(426 vs 567건) 성격도 달라(키커·체스·스프리츠 바 / 케겔반 쾰시 크나이페) 별개 가게로 판단했다. (2) Low Budget엔 1점 리뷰 1건에 인종차별적 응대 주장이 있다. 단일 리뷰라 places에 넣었지만, Eiscafé Breda처럼 편집 판단이 필요하면 후보로 내릴 것. (3) die wohngemeinschaft의 구글 수치는 호스텔 통합 리스팅 값이다(top-rated에 별도 'CaféBar' 페이지가 있으나 수치는 미확인). (4) tablejourney는 Spirits Bar를 'Maastrichter Straße 35'로 적는데, 가이드는 Engelbertstraße 63이다. 주소 확인이 필요할 수 있다(https://tablejourney.com/germany/cologne/upscale/). (5) 가격: Grünfeld만 스프리츠 €6.90으로 price_level 1이고, 나머지는 칵테일 가격 출처가 없어 null이다.\n\n주요 출처: https://koeln.mitvergnuegen.com/2025/bars-kneipen-belgisches-viertel/ · https://koeln.mitvergnuegen.com/2026/bars-spritzige-drinks/ · https://www.falstaff.com/en/bars/lorbass · https://wanderlog.com/place/details/2567405/low-budget · https://wanderlog.com/place/details/4592016/gr%C3%BCnfeld · https://wanderlog.com/place/details/2535166/zum-goldenen-schuss · https://wanderlog.com/place/details/150837/pegel · https://wanderlog.com/place/details/5166505/lorbass-bar--lounge · https://wanderlog.com/place/details/1960336/rosa · https://restaurantguru.com/die-wohngemeinschaft-Cologne"
+}

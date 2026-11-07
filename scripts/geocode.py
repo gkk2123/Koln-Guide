@@ -17,6 +17,7 @@ import json
 import os
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -42,8 +43,16 @@ def http_json(url: str, data: bytes | None = None, headers: dict | None = None):
 def nominatim(query: str):
     q = urllib.parse.urlencode({"q": query, "format": "jsonv2", "limit": 1, "countrycodes": "de",
                                 "accept-language": "de"})
-    res = http_json(f"https://nominatim.openstreetmap.org/search?{q}")
-    time.sleep(1.1)  # usage policy: max 1 request per second
+    for wait in (20, 60, 120, None):  # HTTP 429 = slow down: back off and retry a few times
+        try:
+            res = http_json(f"https://nominatim.openstreetmap.org/search?{q}")
+            break
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or wait is None:
+                raise
+            print(f"  rate-limited by Nominatim, waiting {wait}s …", flush=True)
+            time.sleep(wait)
+    time.sleep(1.5)  # usage policy: max 1 request per second
     if res:
         return float(res[0]["lat"]), float(res[0]["lon"]), res[0].get("display_name")
     return None

@@ -35,11 +35,12 @@
 | [Peters Brauhaus](https://www.google.com/maps/search/?api=1&query=Peters%20Brauhaus%20M%C3%BChlengasse%201%2C%2050667%20K%C3%B6ln) | 브라우하우스 | Peters Kölsch | €2.30 | ★4.2 (8,850) |  |  | 구시가 알터 마르크트(Alter Markt) 인근 Mühlengasse의 대형 전통 브라우하우스로, Peters Kölsch와 쾨베스(Köbes, 브라우하우스 웨이터)의 서빙 자체가 '경험의 일부'라는 후기가 많다. 관광객 비중이 높지만 구글 리뷰 8천여 건에 4.4로 구시가 브라우하우스 중 평점이 높은 편이라 첫 브라우하우스로 무난하다. |
 | [Brauerei zur Malzmühle](https://www.google.com/maps/search/?api=1&query=Brauerei%20zur%20Malzm%C3%BChle%20Heumarkt%206%2C%2050667%20K%C3%B6ln) | 브라우하우스 | Mühlen Kölsch | €2.40 | ★4.2 (2,584) |  |  | 호이마르크트(Heumarkt)에 있는, Mühlen Kölsch를 빚는 Malzmühle 양조장의 브라우하우스로, 음식과 친절한 서비스, 브라우하우스 특유의 분위기를 칭찬하는 후기가 많다. 쾰른 매체 독자 투표와 브라우하우스 추천 리스트에 꾸준히 이름을 올리는 곳. |
 
-## 벨기에 지구 — 1곳
+## 벨기에 지구 — 2곳
 
 | 이름(지도) | 유형 | 맥주 | 맥주 가격 | 구글 | 결제 | 특징 | 한 줄 소개 |
 |---|---|---|---|---|---|---|---|
 | [Zum Knobelbecher](https://www.google.com/maps/search/?api=1&query=Zum%20Knobelbecher%20Br%C3%BCsseler%20Stra%C3%9Fe%2047%2C%2050674%20K%C3%B6ln) | 동네 펍 | 쾰시 | – | ★4.4 (567) | 현금만 |  | 벨기에 지구 브뤼셀러 거리의 쾰시·스포츠 크나이페로, 싼 맥주와 케겔반(볼링 레인)으로 사랑받는다. 젊은 손님이 많아 활기차고, 축구 중계를 보며 현지인들과 어울리기 좋다. |
+| [Zum Goldenen Schuss](https://www.google.com/maps/search/?api=1&query=Zum%20Goldenen%20Schuss%20Antwerpener%20Stra%C3%9Fe%2038%2C%2050672%20K%C3%B6ln) | 동네 펍 |  | – | ★4.3 (780) |  | 일요일 영업 | 앤트워프 거리(Antwerpener Straße)의 스포츠 크나이페로, 대형 스크린 3대로 축구와 이 동네에선 드문 핸드볼 경기를 틀어 준다. 새벽 3–4시까지 열어서 벨기에 지구에서 늦게까지 북적이는 술자리를 찾을 때 좋다. |
 
 ## 프리젠 지구·에렌슈트라세 — 2곳
 

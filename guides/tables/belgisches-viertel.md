@@ -7,30 +7,47 @@
 벨기에 지구(브뤼셀러 플라츠 일대)와 걸어서 갈 만한 주변(직선 1.0–1.3 km)만 모았어요. 거리는 브뤼셀러 플라츠 기준 직선거리, 기준은 다른 표와 같이 구글 ★4.2+ · 리뷰 50+입니다.
 
 
-## 독일·쾰른 요리 (브라우하우스·크나이페 포함) — 8곳
+> **브뤼셀러 플라츠 야간 음주 금지:** 2026-04-01부터 매일 21–06시 광장과 맞닿은 교차로에서 공공장소 음주·술 소지가 금지돼요(질서청 단속·벌금). 키오스크 맥주를 광장에서 마시는 대신 주변 바 안에서 마시세요. [쾰른시 공지](https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/28306/index.html) · [조례 PDF](https://www.stadt-koeln.de/mediaasset/content/bekanntmachungen/2026/2026.03.30_0058-01_bruesseler_platz_obv_alkoholverbot.pdf)
+
+
+## 독일·쾰른 요리 (브라우하우스·크나이페 포함) — 10곳
 
 | 이름(지도) | 스타일 | 분위기 | 가격 | 구글 | 브뤼셀러 플라츠에서 | 한 줄 소개 |
 |---|---|---|---|---|---|---|
 | [Zum Knobelbecher](https://www.google.com/maps/search/?api=1&query=Zum%20Knobelbecher%20Br%C3%BCsseler%20Stra%C3%9Fe%2047%2C%2050674%20K%C3%B6ln) | 동네 펍 | 활기찬, 현지인 단골 | – | ★4.4 (567) | 0.2 km | 벨기에 지구 브뤼셀러 거리의 쾰시·스포츠 크나이페로, 싼 맥주와 케겔반(볼링 레인)으로 사랑받는다. 젊은 손님이 많아 활기차고, 축구 중계를 보며 현지인들과 어울리기 좋다. |
+| [Zum Goldenen Schuss](https://www.google.com/maps/search/?api=1&query=Zum%20Goldenen%20Schuss%20Antwerpener%20Stra%C3%9Fe%2038%2C%2050672%20K%C3%B6ln) | 동네 펍 | 활기찬 | – | ★4.3 (780) | 0.2 km | 앤트워프 거리(Antwerpener Straße)의 스포츠 크나이페로, 대형 스크린 3대로 축구와 이 동네에선 드문 핸드볼 경기를 틀어 준다. 새벽 3–4시까지 열어서 벨기에 지구에서 늦게까지 북적이는 술자리를 찾을 때 좋다. |
 | [Petit Frère](https://www.google.com/maps/search/?api=1&query=Petit%20Fr%C3%A8re%20Aachener%20Str.%2020%2C%2050674%20K%C3%B6ln) | 비스트로 | – | €€€ | ★4.9 (253) | 0.2 km | 벨기에 지구 Aachener Straße의 작은 레스토랑으로, 셰프 팀 엥겔하르트(Tim Engelhard)가 프랑스와 독일 요리를 섞은 모던 요리를 낸다. 로맨틱한 저녁이나 기념일에 어울리면서 가격은 공정한 편이라는 평이다. |
 | [Die Oper](https://www.google.com/maps/search/?api=1&query=Die%20Oper%20H%C3%A4ndelstra%C3%9Fe%2014%2C%2050674%20K%C3%B6ln) | 동네 펍 | 현지인 단골 | € | ★4.8 (122) | 0.4 km | 링(Ring) 서쪽 주택가 헨델 거리(Händelstraße)의 작은 동네 크나이페(Wanderlog 표기 'Kneipe Die Oper')로, 가펠(Gaffel) 쾰시를 €1.90에 마셨다는 리뷰가 있을 만큼 싸다. 리뷰는 122건뿐이지만 4.8점으로, 친절한 직원과 편안한 분위기에서 현지인처럼 한잔하고 싶은 사람에게 맞다. |
 | [Brauhaus Pütz](https://www.google.com/maps/search/?api=1&query=Brauhaus%20P%C3%BCtz%20Engelbertstra%C3%9Fe%2067%2C%2050674%20K%C3%B6ln) | 브라우하우스 | 전통 | €€ | ★4.5 (739) | 0.4 km | 쥘피허 지구(Kwartier Latäng) 엥겔베르트슈트라세의 동네 브라우하우스로, 직접 양조하지 않고 말츠뮐레 양조장의 뮐렌 쾰시(Mühlen Kölsch)를 낸다. 가게 한가운데 술통 앞 자리 '슈베메(Schwemme)'에 앉아 쾰시를 마시는 전통적인 분위기, 친절한 직원과 신선한 쾰시가 호평받는다. |
+| [Weinstube Bacchus](https://www.google.com/maps/search/?api=1&query=Weinstube%20Bacchus%20Rathenauplatz%2017%2C%2050674%20K%C3%B6ln) | 와인바 | – | €€€ | ★4.6 (209) | 0.8 km | 벨기에 지구 남쪽 끝에서 가까운 라테나우플라츠의 와인 선술집(Weinstube)으로, 와인에 밝은 직원과 정성 들인 요리(제철 거위 요리, 사과 타르트 등)로 구글 4.6(209건)을 받았다. 11–12월 거위 요리 시즌에 와인을 곁들인 독일식 저녁으로 잘 맞는다. |
 | [FRÜH "Em Jan von Werth"](https://www.google.com/maps/search/?api=1&query=FR%C3%9CH%20%22Em%20Jan%20von%20Werth%22%20Christophstra%C3%9Fe%2044%2C%2050670%20K%C3%B6ln) | 브라우하우스 | 전통, 활기찬 | €€ | ★4.4 (1,119) | 0.9 km | 알터 마르크트가 아니라 크리스토프슈트라세(Christophstraße) 44번지에 있는 프뤼(Früh) 쾰시 브라우하우스다. 쾰시와 쾰른 향토 요리, 활기찬 분위기가 호평받고 저녁에는 금방 자리가 찬다. |
 | [Weißer Holunder](https://www.google.com/maps/search/?api=1&query=Wei%C3%9Fer%20Holunder%20Gladbacher%20Stra%C3%9Fe%2048%2C%2050672%20K%C3%B6ln) | 동네 펍 | 전통, 현지인 단골 | – | ★4.6 (417) | 0.9 km | 쾰른 관광청이 '살아 있는 쾰른 역사의 한 조각'이라고 소개하는 크나이페로, 일요일마다 열리는 쾰른 노래 떼창(싱어롱) 콘서트가 명물이다. 쾰시와 쾰른 노래 문화를 함께 맛보고 싶은 사람에게 좋다. |
 | [Der Stiefel](https://www.google.com/maps/search/?api=1&query=Der%20Stiefel%20Z%C3%BClpicher%20Stra%C3%9Fe%2018%2C%2050674%20K%C3%B6ln) | 동네 펍 | – | – | ★4.5 (1,362) | 1.0 km | 대학가 쥘피허 거리(Zülpicher Straße) 18번지의 펍으로, Wanderlog '쾰른 베스트 펍 50'과 다이브 바 목록에 함께 오른 곳이다. 구글 리뷰 1,300여 건에 4.5점으로, 쥘피허 거리에서 학생·현지인 틈에 섞여 한잔하기 좋다. |
 | [Bei Oma Kleinmann](https://www.google.com/maps/search/?api=1&query=Bei%20Oma%20Kleinmann%20Z%C3%BClpicher%20Stra%C3%9Fe%209%2C%2050674%20K%C3%B6ln) | 동네 펍 | 현지인 단골 | €€ | ★4.7 (4,677) | 1.0 km | 쥘피허 거리 초입의 오래된 모퉁이 선술집(에크크나이페) 겸 식당으로, 거대한 슈니첼 덕분에 '오마 클라인만은 컬트'라는 말을 듣는 쾰른의 명물이다. 구글 리뷰 4,600개 이상에 평점 4.7로, 푸짐한 독일 가정식을 원하는 여행자에게 첫손에 꼽을 만하다. |
 
-## 와인바 — 0곳
-
-_아직 기준을 넘는 곳이 없어요._
-
-## 바·라운지·칵테일 — 6곳
+## 와인바 — 6곳
 
 | 이름(지도) | 스타일 | 분위기 | 가격 | 구글 | 브뤼셀러 플라츠에서 | 한 줄 소개 |
 |---|---|---|---|---|---|---|
+| [Lütticher](https://www.google.com/maps/search/?api=1&query=L%C3%BCtticher%20L%C3%BCtticher%20Str.%2012%2C%2050674%20K%C3%B6ln) | 와인바 | 조용한 | €€€ | ★4.3 (403) | 0.2 km | 뤼티허 거리의 지중해풍 레스토랑 겸 와인바로, 2–3주마다 바뀌는 제철 메뉴에 코스마다 어울리는 와인을 맞춰 준다. Mit Vergnügen이 ‘번잡함이 전혀 느껴지지 않는 목가적인 곳’이라고 쓴 차분한 곳이라, 조용히 식사와 와인을 함께 즐기기 좋다. |
+| [Die Bredouille Weinbar](https://www.google.com/maps/search/?api=1&query=Die%20Bredouille%20Weinbar%20Venloer%20Str.%2022%2C%2050672%20K%C3%B6ln) | 와인바 | 활기찬 | – | ★4.6 (416) | 0.4 km | 슈타트가르텐 옆 Venloer Straße 초입, 옛 아이리시 펍 자리에 와인을 좋아하는 친구 다섯 명이 2023년에 연 와인바다. 지속가능성을 이유로 유럽 와인만 두고 글라스 와인 선택지가 넓으며, 이번 조사에서 벨기에 지구 안 와인 전문 바 가운데 구글 수치(4.6, 416건)가 가장 탄탄하고 Falstaff 바 가이드에도 올랐다. |
+| [Bar Rix](https://www.google.com/maps/search/?api=1&query=Bar%20Rix%20Friesenwall%2058%2C%2050672%20K%C3%B6ln) | 와인바 | 조용한, 숨은 맛집 | – | ★4.7 (105) | 0.4 km | 링 바로 동쪽 프리젠발(Friesenwall)에 2018년 문을 연 오너 발렌티네 뮐베르거(Valentine Mühlberger)의 작은 와인바로, 대부분 손으로 빚은 유기농·바이오다이나믹·내추럴 와인 300종 이상을 갖췄고 프랑스와 독일 와인이 중심이다. 벽돌 벽의 상점 같은 공간에서 오너가 골라 주는 와인을 치즈·샤퀴테리와 즐기는 ‘숨은 보석’ 같은 곳이다. |
+| [Frohnatur Bistrooo & Bar Bar Bar](https://www.google.com/maps/search/?api=1&query=Frohnatur%20Bistrooo%20%26%20Bar%20Bar%20Bar%20Friesenwall%2084%2C%2050672%20K%C3%B6ln) | 와인바 | 조용한, 트렌디 | – | ★4.8 (79) | 0.5 km | 에렌펠트 ‘Frohnatur Weinstube’ 팀이 프리젠발에 연 내추럴 와인 바(Frohnatur Bar)로, 독일 와이너리 와인 비중이 높고 Mit Vergnügen 2026이 ‘세련된 공간의 내추럴 와인’으로 소개했다. ‘음악이 작아 대화하기 좋은 고급스러운 바’라는 리뷰처럼 조용히 이야기 나누며 마시기 좋다. |
+| [HENNE.Weinbar](https://www.google.com/maps/search/?api=1&query=HENNE.Weinbar%20Pfeilstra%C3%9Fe%2031-35%2C%2050672%20K%C3%B6ln) | 와인바 | 활기찬 | – | ★4.6 (1,203) | 0.5 km | 헨드릭 ‘헨네’ 올펜(Hendrik Olfen)의 와인바로, 품종별로 정리한 수백 종의 와인 리스트와 나눠 먹는 제철 타파스풍 요리로 2023년부터 미쉐린 빕 구르망에 올라 있다. 구글 리뷰가 1,200건이 넘는 인기 업소라, 와인과 제대로 된 요리를 함께 즐기고 싶을 때 좋다. |
+| [Weinstube Bacchus](https://www.google.com/maps/search/?api=1&query=Weinstube%20Bacchus%20Rathenauplatz%2017%2C%2050674%20K%C3%B6ln) | 와인바 | – | €€€ | ★4.6 (209) | 0.8 km | 벨기에 지구 남쪽 끝에서 가까운 라테나우플라츠의 와인 선술집(Weinstube)으로, 와인에 밝은 직원과 정성 들인 요리(제철 거위 요리, 사과 타르트 등)로 구글 4.6(209건)을 받았다. 11–12월 거위 요리 시즌에 와인을 곁들인 독일식 저녁으로 잘 맞는다. |
+
+## 바·라운지·칵테일 — 11곳
+
+| 이름(지도) | 스타일 | 분위기 | 가격 | 구글 | 브뤼셀러 플라츠에서 | 한 줄 소개 |
+|---|---|---|---|---|---|---|
+| [ROSA](https://www.google.com/maps/search/?api=1&query=ROSA%20Br%C3%BCsseler%20Platz%201%2C%2050674%20K%C3%B6ln) | 바 | 조용한 | – | ★4.4 (613) | 0.0 km | 브뤼셀러 플라츠 광장 바로 앞(1번지)의 카페 겸 바로, 예전 'Brüsseler'가 'ROSA'로 이름과 콘셉트를 바꿨다. 로사 스프리츠·로사 사워 같은 아페리티보 칵테일을 마시며 광장 풍경을 구경하기 좋고, Mit Vergnügen은 '느긋하게 한잔하는 새 주소'로 소개한다. |
 | [Little Link](https://www.google.com/maps/search/?api=1&query=Little%20Link%20Maastrichter%20Stra%C3%9Fe%2020%2C%2050672%20K%C3%B6ln) | 칵테일바 | 트렌디 | – | ★4.7 (1,407) | 0.2 km | 벨기에 지구의 실험적 칵테일 바로, 포르치니 위스키·로즈힙 슈럽·블랙베리 캐비아처럼 직접 만든 재료를 쓰고 메뉴를 술 종류가 아닌 맛 프로필별로 짠다(창업자 Stephan Hinz). Falstaff 바 가이드 96점을 받은 쾰른 대표 칵테일 바라, 칵테일을 제대로 즐기고 싶은 사람에게 1순위다. |
+| [Grünfeld](https://www.google.com/maps/search/?api=1&query=Gr%C3%BCnfeld%20Br%C3%BCsseler%20Stra%C3%9Fe%2047%2C%2050674%20K%C3%B6ln) | 바 | 활기찬, 현지인 단골 | € | ★4.5 (426) | 0.2 km | 브뤼셀러 거리(Brüsseler Straße)에서 20년째 영업 중인 동네 바로, Mit Vergnügen이 '벨기에 지구의 진짜 터줏대감'이라 부르는 곳이다. 쾰시와 11가지 스프리츠를 싸게 마시며 키커(테이블 축구)·체스를 즐기는 현지 단골 분위기를 느끼기 좋다. |
+| [Low Budget](https://www.google.com/maps/search/?api=1&query=Low%20Budget%20Aachener%20Stra%C3%9Fe%2047%2C%2050674%20K%C3%B6ln) | 바 | 활기찬, 현지인 단골 | – | ★4.5 (487) | 0.2 km | 아헨 거리(Aachener Straße) 초입의 오래된 다이브 바로, 쾰른 시티 매거진 Mit Vergnügen이 '영원한 젊음의 궁전(Palast ewiger Jugend)'이라 부르는 곳이다. 펑크·인디 음악, 안쪽의 당구대·키커(테이블 축구), 싼 술값 덕분에 늦은 밤 현지 젊은이들과 어울리기 좋다. |
+| [Lorbass Bar & Lounge](https://www.google.com/maps/search/?api=1&query=Lorbass%20Bar%20%26%20Lounge%20Antwerpener%20Stra%C3%9Fe%2034%2C%2050672%20K%C3%B6ln) | 라운지 | 활기찬, 트렌디 | – | ★4.4 (173) | 0.2 km | 앤트워프 거리의 칵테일 바 겸 라운지로, Falstaff 바 가이드 2026에서 89점을 받았고 '뉴욕과 쾰른이 섞인' 세련된 분위기를 내세운다. 칵테일이 150가지쯤 되고 음악이 크고 디스코 같은 분위기라, 주말 밤 차려입고 신나게 한잔하기 좋다. |
 | [Barito](https://www.google.com/maps/search/?api=1&query=Barito%20Aachener%20Stra%C3%9Fe%2059%2C%2050674%20K%C3%B6ln) | 칵테일바 | – | – | ★4.8 (484) | 0.2 km | 벨기에 지구 입구 아헨 거리(Aachener Str.)의 칵테일 바로, konfetti의 '쾰른 베스트 칵테일 바' 가이드에 선정됐다. 구글 기반 평점 4.8(460여 건)로 평가가 매우 높다. |
 | [Spirits Bar (Dominique Simon)](https://www.google.com/maps/search/?api=1&query=Spirits%20Bar%20%28Dominique%20Simon%29%20Engelbertstra%C3%9Fe%2063%2C%2050674%20K%C3%B6ln) | 칵테일바 | – | – | ★4.7 (896) | 0.4 km | 쥘피허 지구 엥겔베르트슈트라세(Engelbertstraße)의 칵테일 바로, 리뷰에서 뛰어난 칵테일·친절한 서비스·아늑한 분위기가 고르게 칭찬받는다. 구글 평점 4.7(896건)로 대학가 근처에서 믿고 갈 만한 칵테일 바다. |
+| [Pegel](https://www.google.com/maps/search/?api=1&query=Pegel%20Br%C3%BCsseler%20Stra%C3%9Fe%2010%2C%2050674%20K%C3%B6ln) | 바 | 활기찬, 현지인 단골 | – | ★4.4 (189) | 0.5 km | 브뤼셀러 거리 10번지의 DJ 바로, 매일 밤 다른 DJ가 레트로를 비롯한 여러 장르를 대화가 가능한 볼륨으로 튼다. 현지 손님이 많고 칵테일·맥주 값이 적당해서 벨기에 지구에서 편하게 놀기 좋은 바다. |
 | [ONA MOR](https://www.google.com/maps/search/?api=1&query=ONA%20MOR%20Roonstra%C3%9Fe%2094%2C%2050674%20K%C3%B6ln) | 칵테일바 | – | €€ | ★4.7 (785) | 0.5 km | 쥘피허 지구 로온슈트라세(Roonstraße)의 칵테일 바로, konfetti의 쾰른 칵테일 바 가이드를 비롯해 여러 바 리스트에 반복해서 이름이 오른다. 구글 기반 평점 4.7(리뷰 700건 이상)로 평가가 고르게 높아, 대학가 쪽에서 칵테일 한잔할 곳으로 고르기 좋다. |
 | [Samuel's Shep](https://www.google.com/maps/search/?api=1&query=Samuel%27s%20Shep%20Rathenauplatz%205%2C%2050674%20K%C3%B6ln) | 칵테일바 | – | – | ★4.6 (166) | 0.9 km | 라텐아우플라츠(Rathenauplatz)의 작은 칵테일 바로, 카이로의 전설적인 셰퍼드 호텔(Shepheard Hotel)에서 영감을 받은 인테리어에 아늑하고 고급스러운 분위기가 호평이다. 완성도 높고 창의적인 칵테일과 세심한 서비스가 리뷰에서 자주 언급된다. |
 | [Rosebud Bar](https://www.google.com/maps/search/?api=1&query=Rosebud%20Bar%20Heinsbergstra%C3%9Fe%2020%2C%2050674%20K%C3%B6ln) | 칵테일바 | – | €€ | ★4.5 (491) | 0.9 km | 쥘피허 광장 근처 하인스베르크슈트라세(Heinsbergstraße)에서 28년 가까이 영업해 온 칵테일 바로, 수준 높은 칵테일로 Wanderlog '쾰른 칵테일 바 50' 목록 1위에 올라 있다. 오래된 동네 칵테일 바를 좋아하는 사람에게 맞다. |

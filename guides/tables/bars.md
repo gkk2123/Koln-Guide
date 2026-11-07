@@ -7,7 +7,7 @@
 칵테일바 가격대는 칵테일 1잔 기준: € ~10 · €€ 10–14 · €€€ 15–19 · €€€€ 20+
 
 
-## 칵테일바 — 9곳
+## 칵테일바 — 10곳
 
 | 이름(지도) | 지역 | 가격 | 구글 | 수상·인정 | 한 줄 소개 |
 |---|---|---|---|---|---|
@@ -20,6 +20,16 @@
 | [Suderman](https://www.google.com/maps/search/?api=1&query=Suderman%20Sudermanplatz%203%2C%2050670%20K%C3%B6ln) | 아그네스 지구·아이겔슈타인 | – 칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함) | ★4.7 (613) |  | 아그네스 지구 주더만플라츠(Sudermanplatz)의 칵테일 바로, 칵테일을 내면서도 동네 펍처럼 아늑한 분위기가 특징이다. 구글 기반 평점 4.7(600여 건)로, 아그네스 지구에서 저녁 한잔하기 좋은 곳이다. |
 | [Samuel's Shep](https://www.google.com/maps/search/?api=1&query=Samuel%27s%20Shep%20Rathenauplatz%205%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | – 칵테일 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함) | ★4.6 (166) |  | 라텐아우플라츠(Rathenauplatz)의 작은 칵테일 바로, 카이로의 전설적인 셰퍼드 호텔(Shepheard Hotel)에서 영감을 받은 인테리어에 아늑하고 고급스러운 분위기가 호평이다. 완성도 높고 창의적인 칵테일과 세심한 서비스가 리뷰에서 자주 언급된다. |
 | [Rosebud Bar](https://www.google.com/maps/search/?api=1&query=Rosebud%20Bar%20Heinsbergstra%C3%9Fe%2020%2C%2050674%20K%C3%B6ln) | 크바르티어 라텡(쥘피허 지구) | €€ 하우스 클래식 진저 바질 스매시 €11.50 (speisekarte.de, 날짜 미상). 소개 글에서 '지갑에 부담 없는' 바로 묘사 | ★4.5 (491) |  | 쥘피허 광장 근처 하인스베르크슈트라세(Heinsbergstraße)에서 28년 가까이 영업해 온 칵테일 바로, 수준 높은 칵테일로 Wanderlog '쾰른 칵테일 바 50' 목록 1위에 올라 있다. 오래된 동네 칵테일 바를 좋아하는 사람에게 맞다. |
+| [Lorbass Bar & Lounge](https://www.google.com/maps/search/?api=1&query=Lorbass%20Bar%20%26%20Lounge%20Antwerpener%20Stra%C3%9Fe%2034%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | – 칵테일 가격 미확인 (speisekarte.de 메뉴 페이지에 가격이 안 보임). Falstaff는 '국제 프리미엄급' 술을 쓴다고 소개 | ★4.4 (173) | Falstaff Bar-Guide 2026 89 Punkte | 앤트워프 거리의 칵테일 바 겸 라운지로, Falstaff 바 가이드 2026에서 89점을 받았고 '뉴욕과 쾰른이 섞인' 세련된 분위기를 내세운다. 칵테일이 150가지쯤 되고 음악이 크고 디스코 같은 분위기라, 주말 밤 차려입고 신나게 한잔하기 좋다. |
+
+## 와인바 — 4곳
+
+| 이름(지도) | 지역 | 가격 | 구글 | 수상·인정 | 한 줄 소개 |
+|---|---|---|---|---|---|
+| [Frohnatur Bistrooo & Bar Bar Bar](https://www.google.com/maps/search/?api=1&query=Frohnatur%20Bistrooo%20%26%20Bar%20Bar%20Bar%20Friesenwall%2084%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | – 와인바 기준(글라스): 글라스 가격은 확인 못 함. Mit Vergnügen 2026에 따르면 글라스 와인 10종, 글라스 스파클링 6종. | ★4.8 (79) |  | 에렌펠트 ‘Frohnatur Weinstube’ 팀이 프리젠발에 연 내추럴 와인 바(Frohnatur Bar)로, 독일 와이너리 와인 비중이 높고 Mit Vergnügen 2026이 ‘세련된 공간의 내추럴 와인’으로 소개했다. ‘음악이 작아 대화하기 좋은 고급스러운 바’라는 리뷰처럼 조용히 이야기 나누며 마시기 좋다. |
+| [Bar Rix](https://www.google.com/maps/search/?api=1&query=Bar%20Rix%20Friesenwall%2058%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | – 와인바 기준(글라스): 글라스 가격은 확인 못 함. restaurantguru 기준 1인 €20–30(날짜 미상). | ★4.7 (105) |  | 링 바로 동쪽 프리젠발(Friesenwall)에 2018년 문을 연 오너 발렌티네 뮐베르거(Valentine Mühlberger)의 작은 와인바로, 대부분 손으로 빚은 유기농·바이오다이나믹·내추럴 와인 300종 이상을 갖췄고 프랑스와 독일 와인이 중심이다. 벽돌 벽의 상점 같은 공간에서 오너가 골라 주는 와인을 치즈·샤퀴테리와 즐기는 ‘숨은 보석’ 같은 곳이다. |
+| [HENNE.Weinbar](https://www.google.com/maps/search/?api=1&query=HENNE.Weinbar%20Pfeilstra%C3%9Fe%2031-35%2C%2050672%20K%C3%B6ln) | 프리젠 지구·에렌슈트라세 | – 와인바 기준(글라스): 글라스 가격은 확인 못 함. 음식은 접시당 €10–15이고 셰프는 4접시+디저트를 권함(미쉐린 인터뷰). 미쉐린 가격대 €. | ★4.6 (1,203) | Michelin Bib Gourmand (since Guide MICHELIN 2023) | 헨드릭 ‘헨네’ 올펜(Hendrik Olfen)의 와인바로, 품종별로 정리한 수백 종의 와인 리스트와 나눠 먹는 제철 타파스풍 요리로 2023년부터 미쉐린 빕 구르망에 올라 있다. 구글 리뷰가 1,200건이 넘는 인기 업소라, 와인과 제대로 된 요리를 함께 즐기고 싶을 때 좋다. |
+| [Die Bredouille Weinbar](https://www.google.com/maps/search/?api=1&query=Die%20Bredouille%20Weinbar%20Venloer%20Str.%2022%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | – 와인바 기준(글라스 0.1–0.2 l): 일반 글라스 가격은 확인 못 함. 참고로 직원이 골라 주는 서프라이즈 한 잔 ‘Veedelswein’은 €2.50(Mit Vergnügen 2023), Pearl 기준 1인 약 $25(날짜 미상). 리뷰에 ‘가격이 높은 편’이라는 지적도 있음. | ★4.6 (416) | Falstaff Bar Guide 2026: 89 points | 슈타트가르텐 옆 Venloer Straße 초입, 옛 아이리시 펍 자리에 와인을 좋아하는 친구 다섯 명이 2023년에 연 와인바다. 지속가능성을 이유로 유럽 와인만 두고 글라스 와인 선택지가 넓으며, 이번 조사에서 벨기에 지구 안 와인 전문 바 가운데 구글 수치(4.6, 416건)가 가장 탄탄하고 Falstaff 바 가이드에도 올랐다. |
 
 ## 맥주바 — 3곳
 
@@ -29,7 +39,7 @@
 | [Tipsy Monk](https://www.google.com/maps/search/?api=1&query=Tipsy%20Monk%20Salzgasse%202-4%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | – 맥주 가격 미확인 (출처 없음) | ★4.6 (699) |  | 구시가 잘츠가세의 벨기에·인터내셔널 크래프트 맥주 바로, 예전 '델리리움 카페 쾰른(Délirium Café Köln)'이 이름을 바꾼 곳이다. 생맥주 탭 30개와 병맥주 100종 이상, 보드게임 50여 개가 있어 쾰시 대신 벨기에 맥주를 마시며 놀기 좋다. |
 | [Papa Joe's Biersalon](https://www.google.com/maps/search/?api=1&query=Papa%20Joe%27s%20Biersalon%20Alter%20Markt%2050-52%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | – 맥주 가격 미확인 (이번 조사에서 메뉴·가격 출처를 확보하지 못함) | ★4.5 (3,427) |  | 구시가 알터 마르크트(Alter Markt)의 맥주 펍으로, 오래된 자동 연주 음악 기계들로 꾸민 독특한 실내가 명물이다. 새벽 3시까지 열어 구시가에서 늦게까지 한잔하기 좋고, 구글 기반 리뷰가 3천 건을 넘을 만큼 많이 찾는 곳이다. |
 
-## 동네 펍(크나이페) — 14곳
+## 동네 펍(크나이페) — 15곳
 
 | 이름(지도) | 지역 | 가격 | 구글 | 수상·인정 | 한 줄 소개 |
 |---|---|---|---|---|---|
@@ -45,13 +55,18 @@
 | [Chlodwig-Eck](https://www.google.com/maps/search/?api=1&query=Chlodwig-Eck%20Annostra%C3%9Fe%201-3%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | – 맥주 가격 미확인 (출처 없음) | ★4.4 (568) |  | 클로트비히 광장 옆에서 1979년부터 영업해 온 쥐트슈타트의 모퉁이 크나이페로, BAP의 볼프강 니데켄이 초창기 공연을 한 곳으로 알려져 있다. 주말엔 DJ 파티나 라이브 음악이 열리고, 주방이 없어 음식을 가져와도 된다. |
 | [Zum Knobelbecher](https://www.google.com/maps/search/?api=1&query=Zum%20Knobelbecher%20Br%C3%BCsseler%20Stra%C3%9Fe%2047%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | – '싼 맥주' 호평뿐, 가격 숫자 출처 없음 | ★4.4 (567) |  | 벨기에 지구 브뤼셀러 거리의 쾰시·스포츠 크나이페로, 싼 맥주와 케겔반(볼링 레인)으로 사랑받는다. 젊은 손님이 많아 활기차고, 축구 중계를 보며 현지인들과 어울리기 좋다. |
 | [Em Bierstüffge](https://www.google.com/maps/search/?api=1&query=Em%20Bierst%C3%BCffge%20Graf-Ge%C3%9Fler-Stra%C3%9Fe%201%2C%2050679%20K%C3%B6ln) | 도이츠·메쎄(강 건너) | € 쾰시 0.2 l €2.20(공식 음료 메뉴, 오래된 페이지)·€2.00(손님 리뷰, 날짜 미상) — 현재가 미확인 | ★4.3 (875) |  | 도이츠 메쎄·LANXESS 아레나에서 가까운 골목의 동네 술집(가스트슈테테)으로, 공식 사이트가 '갓 따른, 알맞은 온도의 라이스도르프(Reissdorf) 쾰시'를 내세운다. 케겔반(볼링 레인)이 있고 FC 쾰른·쾰른 하이에 경기를 중계해, 메쎄 일정 뒤 현지인 틈에서 한잔하기 좋다. |
+| [Zum Goldenen Schuss](https://www.google.com/maps/search/?api=1&query=Zum%20Goldenen%20Schuss%20Antwerpener%20Stra%C3%9Fe%2038%2C%2050672%20K%C3%B6ln) | 벨기에 지구 | – 가격 미확인 — '다른 쾰른 술집보다 조금 비싸다'는 리뷰가 있음 | ★4.3 (780) |  | 앤트워프 거리(Antwerpener Straße)의 스포츠 크나이페로, 대형 스크린 3대로 축구와 이 동네에선 드문 핸드볼 경기를 틀어 준다. 새벽 3–4시까지 열어서 벨기에 지구에서 늦게까지 북적이는 술자리를 찾을 때 좋다. |
 | [Osters Rudi](https://www.google.com/maps/search/?api=1&query=Osters%20Rudi%20Hartwichstra%C3%9Fe%2026-28%2C%2050733%20K%C3%B6ln) | 기타 시내 | – 맥주 가격 미확인 (출처 없음) | ★4.3 (327) |  | 닙페스(Nippes)의 동네·축구 크나이페로, 당구·다트·케겔(볼링)을 즐길 수 있고 쾰른식 안주 할버 한(Halver Hahn)을 낸다. 관광지를 벗어나 현지인 동네 술집 분위기를 느끼고 싶은 사람에게 맞다. |
 | [Schnörres](https://www.google.com/maps/search/?api=1&query=Schn%C3%B6rres%20Dreik%C3%B6nigenstra%C3%9Fe%202%2C%2050678%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | – 맥주 가격 미확인 (출처 없음) | ★4.2 (387) |  | 쥐트슈타트에서 가장 인기 있는 술집 중 하나로 꼽히는 아담한 크나이페 겸 바로, 쾰시 외에 롱드링크·칵테일도 있고 작은 댄스 플로어가 활기차다. 주말엔 새벽 3시 반까지 열어 2·3차로 좋다. |
 
-## 바·펍 — 3곳
+## 바·펍 — 7곳
 
 | 이름(지도) | 지역 | 가격 | 구글 | 수상·인정 | 한 줄 소개 |
 |---|---|---|---|---|---|
 | [Sonic Ballroom](https://www.google.com/maps/search/?api=1&query=Sonic%20Ballroom%20Oskar-J%C3%A4ger-Stra%C3%9Fe%20190%2C%2050825%20K%C3%B6ln) | 에렌펠트 | – 맥주 가격 미확인 (여행 정보 사이트의 '쾰시 €3–4'는 미검증) | ★4.7 (1,049) |  | 에렌펠트의 펑크·로커빌리 바로, 작은 무대에서 일주일에 네 번 라이브 공연이 열리고 실내는 로큰롤 장식으로 가득하다. '독일 최고의 펑크 클럽 중 하나'라는 평과 함께 쾰시가 맛있다는 리뷰도 있어, 음악과 맥주를 함께 즐기려는 사람에게 맞다. |
 | [Papa Joe's Jazzlokal](https://www.google.com/maps/search/?api=1&query=Papa%20Joe%27s%20Jazzlokal%20Buttermarkt%2037%2C%2050667%20K%C3%B6ln) | 대성당·구시가 | € 자동 칵테일 머신 칵테일 €8–10, 하우스 맥주 0.4 l €4.80 (2019 기사 — 최신 가격 미확인) | ★4.6 (2,693) | European Bar Guide 유럽 베스트 바 리스트 6위 (Travelbook 보도, 리스트 연도 미확인) | 1974년부터 쾰른 재즈 씬을 지켜 온 구시가의 작은 재즈 펍('Streckstrump')으로, 연주자의 손놀림이 보일 만큼 가까이에서 라이브 재즈를 듣는다. 18개 병으로 60여 가지 칵테일을 섞는 기계 'Cocktail Joe'도 명물이라, 라이브 음악과 함께 편하게 한잔하고 싶은 사람에게 맞다. |
+| [Low Budget](https://www.google.com/maps/search/?api=1&query=Low%20Budget%20Aachener%20Stra%C3%9Fe%2047%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | – 칵테일·맥주 가격 숫자는 미확인 — '술값이 싸다', '당구·키커 요금이 싸다'는 리뷰만 있음(Wanderlog) | ★4.5 (487) |  | 아헨 거리(Aachener Straße) 초입의 오래된 다이브 바로, 쾰른 시티 매거진 Mit Vergnügen이 '영원한 젊음의 궁전(Palast ewiger Jugend)'이라 부르는 곳이다. 펑크·인디 음악, 안쪽의 당구대·키커(테이블 축구), 싼 술값 덕분에 늦은 밤 현지 젊은이들과 어울리기 좋다. |
+| [Grünfeld](https://www.google.com/maps/search/?api=1&query=Gr%C3%BCnfeld%20Br%C3%BCsseler%20Stra%C3%9Fe%2047%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | € 바 기준(칵테일·롱드링크 1잔): 스프리츠 11종 각 €6.90 (Mit Vergnügen 2026 '11 coole Bars für spritzige Drinks'). 무알코올 스프리츠 €4.30(Mit Vergnügen 기사, 연도 표기 엇갈림). 쾰시 가격은 미확인 | ★4.5 (426) |  | 브뤼셀러 거리(Brüsseler Straße)에서 20년째 영업 중인 동네 바로, Mit Vergnügen이 '벨기에 지구의 진짜 터줏대감'이라 부르는 곳이다. 쾰시와 11가지 스프리츠를 싸게 마시며 키커(테이블 축구)·체스를 즐기는 현지 단골 분위기를 느끼기 좋다. |
+| [ROSA](https://www.google.com/maps/search/?api=1&query=ROSA%20Br%C3%BCsseler%20Platz%201%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | – 칵테일 가격 미확인 | ★4.4 (613) |  | 브뤼셀러 플라츠 광장 바로 앞(1번지)의 카페 겸 바로, 예전 'Brüsseler'가 'ROSA'로 이름과 콘셉트를 바꿨다. 로사 스프리츠·로사 사워 같은 아페리티보 칵테일을 마시며 광장 풍경을 구경하기 좋고, Mit Vergnügen은 '느긋하게 한잔하는 새 주소'로 소개한다. |
+| [Pegel](https://www.google.com/maps/search/?api=1&query=Pegel%20Br%C3%BCsseler%20Stra%C3%9Fe%2010%2C%2050674%20K%C3%B6ln) | 벨기에 지구 | – 칵테일 가격 미확인 — '칵테일 값이 적당하다'는 리뷰만 있음 | ★4.4 (189) |  | 브뤼셀러 거리 10번지의 DJ 바로, 매일 밤 다른 DJ가 레트로를 비롯한 여러 장르를 대화가 가능한 볼륨으로 튼다. 현지 손님이 많고 칵테일·맥주 값이 적당해서 벨기에 지구에서 편하게 놀기 좋은 바다. |
 | [Bar Botanik (Hotel im Wasserturm)](https://www.google.com/maps/search/?api=1&query=Bar%20Botanik%20%28Hotel%20im%20Wasserturm%29%20Kaygasse%202%2C%2050676%20K%C3%B6ln) | 쥐트슈타트·라인아우하펜 | €€€ 칵테일 €13–18, 셰어링 디시 €11–29 (mitvergnuegen 2022 기사, 이후 올랐을 수 있음) | ★4.3 (895) |  | '급수탑 속 호텔'이라는 뜻의 Hotel im Wasserturm 11층에 있는 루프탑 바로, 쾰른 시내를 360도로 둘러보는 전망이 특징이다. 전망 좋은 호텔 바에서 한잔하고 싶은 사람에게 맞다. |

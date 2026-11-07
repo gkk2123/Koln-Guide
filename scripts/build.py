@@ -372,7 +372,11 @@ def write_tables(data: dict, areas: dict, generated: str) -> list[str]:
     hdr = ["이름(지도)", "스타일", "분위기", "가격", "구글", "브뤼셀러 플라츠에서", "한 줄 소개"]
     parts = [banner("벨기에 지구 집중 — 독일·쾰른 요리, 와인바, 바·라운지", generated),
              "\n벨기에 지구(브뤼셀러 플라츠 일대)와 걸어서 갈 만한 주변(직선 1.0–1.3 km)만 모았어요. "
-             "거리는 브뤼셀러 플라츠 기준 직선거리, 기준은 다른 표와 같이 구글 ★4.2+ · 리뷰 50+입니다.\n"]
+             "거리는 브뤼셀러 플라츠 기준 직선거리, 기준은 다른 표와 같이 구글 ★4.2+ · 리뷰 50+입니다.\n",
+             "\n> **브뤼셀러 플라츠 야간 음주 금지:** 2026-04-01부터 매일 21–06시 광장과 맞닿은 교차로에서 공공장소 음주·술 소지가 "
+             "금지돼요(질서청 단속·벌금). 키오스크 맥주를 광장에서 마시는 대신 주변 바 안에서 마시세요. "
+             "[쾰른시 공지](https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/28306/index.html) · "
+             "[조례 PDF](https://www.stadt-koeln.de/mediaasset/content/bekanntmachungen/2026/2026.03.30_0058-01_bruesseler_platz_obv_alkoholverbot.pdf)\n"]
     for title, rows in (("독일·쾰른 요리 (브라우하우스·크나이페 포함)", german), ("와인바", wine),
                         ("바·라운지·칵테일", barl), ("그 밖의 벨기에 지구 식당·카페", rest)):
         parts.append(f"\n## {title} — {len(rows)}곳\n")
